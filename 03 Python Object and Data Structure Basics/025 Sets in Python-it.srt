@@ -1,0 +1,163 @@
+1
+00:00:05,480 --> 00:00:07,260
+Bentornati tutti in questa conferenza.
+
+2
+00:00:07,280 --> 00:00:13,820
+Tratteremo molto rapidamente quali insiemi sono e gli insiemi sono collezioni ordinate di elementi unici e questo in pratica significa che non
+
+3
+00:00:13,910 --> 00:00:18,320
+ci può essere un solo rappresentante dello stesso oggetto in modo da non poter avere
+
+4
+00:00:18,320 --> 00:00:23,800
+il numero due in più di una volta o la lettera A in là più di una volta.
+
+5
+00:00:23,900 --> 00:00:29,480
+Vediamo alcuni esempi su come lavorare con gli insiemi nel taccuino di Jupiter per iniziare a creare un set.
+
+6
+00:00:29,520 --> 00:00:36,200
+Possiamo farlo dicendo che il mio set o il nome della variabile che vuoi è uguale a set
+
+7
+00:00:36,200 --> 00:00:38,460
+e quindi apri e chiudi parentesi.
+
+8
+00:00:38,460 --> 00:00:41,360
+Quindi adesso abbiamo il mio set ed è solo un set vuoto.
+
+9
+00:00:41,370 --> 00:00:42,970
+Quindi torna indietro.
+
+10
+00:00:43,090 --> 00:00:46,330
+In realtà voglio aggiungere un oggetto al set.
+
+11
+00:00:46,500 --> 00:00:51,350
+Posso dire il mio set e poi chiamare il metodo add e possiamo aggiungere un oggetto a questo.
+
+12
+00:00:51,360 --> 00:00:53,610
+Quindi è il numero uno.
+
+13
+00:00:53,650 --> 00:00:57,850
+Ora se guardo il mio set vedo che ha il numero uno lì.
+
+14
+00:00:57,880 --> 00:01:02,440
+Ora notate che sembra un dizionario, perché questa parentesi graffa, ma non è perché non
+
+15
+00:01:02,440 --> 00:01:04,090
+ha una coppia di valori chiave.
+
+16
+00:01:04,120 --> 00:01:07,230
+Sono solo raccolte non ordinate degli oggetti che desideri.
+
+17
+00:01:07,450 --> 00:01:09,730
+Quindi è un altro oggetto qui.
+
+18
+00:01:09,790 --> 00:01:13,250
+Dirò il mio set aggiungere il numero due.
+
+19
+00:01:13,390 --> 00:01:20,290
+E poi se chiamo di nuovo il mio set, lo chiamo il mio set, ottengo 1 e 2 lì.
+
+20
+00:01:20,330 --> 00:01:25,590
+Ora prova ad aggiungere 2 una seconda volta e guarda cosa succede.
+
+21
+00:01:26,370 --> 00:01:33,710
+Chiamo il mio set è ancora solo spettacoli 1 e 2 non mostra 1 2 2 e questo è fondamentalmente quello che è.
+
+22
+00:01:33,780 --> 00:01:36,300
+Devono essere valori unici in là.
+
+23
+00:01:36,300 --> 00:01:39,060
+Se provi ad aggiungere un valore che è già nel set.
+
+24
+00:01:39,060 --> 00:01:40,130
+Non lo ripeterà.
+
+25
+00:01:40,140 --> 00:01:42,370
+Devo solo dire che abbiamo già questo valore.
+
+26
+00:01:42,510 --> 00:01:44,440
+Accetto solo valori unici.
+
+27
+00:01:44,730 --> 00:01:49,140
+Quindi, quando stai lavorando su due set, potrebbe non essere super utile aggiungerli in questo modo.
+
+28
+00:01:49,140 --> 00:01:55,630
+Invece per quello che è veramente utile è forse lanciare una lista su un set che otteniamo solo i valori unici.
+
+29
+00:01:56,240 --> 00:02:00,900
+Quindi per esempio diremo che la mia lista è uguale e inserirò un mucchio di valori
+
+30
+00:02:01,090 --> 00:02:05,240
+ripetuti in questo gruppo di un gruppo di due e un gruppo di tre.
+
+31
+00:02:05,810 --> 00:02:10,980
+Ho intenzione di eseguire questo e poi ho intenzione di lanciare questo come un set.
+
+32
+00:02:11,370 --> 00:02:14,910
+E ora torno solo un insieme di valori unici.
+
+33
+00:02:14,910 --> 00:02:20,100
+Tieni presente che i set non hanno tecnicamente un ordine per loro dato che qui abbiamo a disposizione set
+
+34
+00:02:20,100 --> 00:02:21,440
+molto piccoli di pochi elementi.
+
+35
+00:02:21,480 --> 00:02:26,720
+Sembra che abbiano un ordine ma nei set di realtà non hanno alcun ordine particolare di entrare.
+
+36
+00:02:28,580 --> 00:02:30,830
+Per ora è tutto ciò che devi sapere sui set.
+
+37
+00:02:30,830 --> 00:02:36,110
+Non toccheremo più questo oggetto o questo tipo di dati fino a molto più tardi nel corso da quando
+
+38
+00:02:36,110 --> 00:02:36,960
+abbiamo appena iniziato.
+
+39
+00:02:36,980 --> 00:02:41,630
+Non sarà molto utile per noi ora, ma in seguito saremo in grado di vedere diversi casi d'uso per questo.
+
+40
+00:02:41,630 --> 00:02:45,960
+Ancora una volta ricordati solo che gli insiemi sono collezioni non ordinate di elementi unici.
+
+41
+00:02:45,980 --> 00:02:48,840
+Grazie e vedremo alla prossima lezione in cui discuteremo miliardi.

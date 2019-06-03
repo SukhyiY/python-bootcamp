@@ -1,0 +1,215 @@
+1
+00:00:05,520 --> 00:00:07,260
+Hey sono i benvenuti in questa conferenza.
+
+2
+00:00:07,260 --> 00:00:13,170
+Parleremo brevemente dei booleani booleani nel caso in cui non si abbia familiarità con il termine: è fondamentalmente
+
+3
+00:00:13,230 --> 00:00:17,700
+un termine da utilizzare per gli operatori che trasmettono dichiarazioni vere o false.
+
+4
+00:00:17,730 --> 00:00:22,200
+E questi sono davvero importanti in seguito quando sentiamo il controllo del flusso e della logica perché
+
+5
+00:00:22,470 --> 00:00:24,900
+molte volte vogliamo verificare se una determinata condizione è avvenuta.
+
+6
+00:00:25,050 --> 00:00:29,910
+In altre parole, se una determinata condizione è vera per eseguire un codice, ad esempio,
+
+7
+00:00:29,910 --> 00:00:32,940
+potresti voler controllare che la mia piscina sia vuota.
+
+8
+00:00:33,000 --> 00:00:38,720
+Se questo è vero, vai avanti e accendi l'acqua per riempire la piscina o altre cose di quella natura.
+
+9
+00:00:38,730 --> 00:00:41,540
+Ecco perché i booleani sono davvero importanti in molti titani.
+
+10
+00:00:41,550 --> 00:00:44,730
+Non avremo a che fare con gli alieni direttamente nei termini vero e falso.
+
+11
+00:00:44,770 --> 00:00:49,720
+Avremo effettivamente operatori di confronto e operatori logici che restituiscono un valore booleano.
+
+12
+00:00:49,920 --> 00:00:52,590
+Quindi mostriamo molto velocemente come sono fatti questi.
+
+13
+00:00:52,590 --> 00:00:54,270
+E poi li esploreremo in seguito.
+
+14
+00:00:54,260 --> 00:00:57,420
+E molti più dettagli quando vengono più utili a noi.
+
+15
+00:00:57,420 --> 00:00:59,180
+Passiamo ora a Jupiter.
+
+16
+00:00:59,610 --> 00:01:05,640
+e falso e in Python devi assicurarti di aver capitalizzato per essere vero.
+
+17
+00:01:05,650 --> 00:01:07,850
+OK, così miliardesimi c'è vero
+
+18
+00:01:07,890 --> 00:01:10,610
+Altrimenti se hai un minuscolo t si lamenterà.
+
+19
+00:01:10,660 --> 00:01:16,190
+Hey Eithan definisce questo termine vero perché pensa che tu stia chiamando una variabile.
+
+20
+00:01:16,200 --> 00:01:19,290
+Assicurati che abbiano maiuscola C ed è la stessa cosa per falso.
+
+21
+00:01:19,290 --> 00:01:21,480
+Avrai bisogno di capitalizzare F per falso.
+
+22
+00:01:21,540 --> 00:01:22,690
+Quindi qui abbiamo vero e falso.
+
+23
+00:01:22,710 --> 00:01:27,260
+I booleani medi e possiamo controllare il loro tipo dicendo tipo.
+
+24
+00:01:27,300 --> 00:01:33,390
+di confronto creare booleani e passeremo sopra tutti gli operatori di confronto più avanti in questo corso, ma mostreremo un esempio molto semplice.
+
+25
+00:01:33,390 --> 00:01:37,590
+Assicurati che le coppie capitalizzino in lettere maiuscole che T sia falso e dice che BOL
+
+26
+00:01:37,680 --> 00:01:42,900
+per miliardi e miliardi è quello con cui avremo a che fare quando abbiamo a che fare con il codice
+
+27
+00:01:42,900 --> 00:01:46,180
+logico in un sacco di volte che stiamo facendo sta lavorando agli operatori
+
+28
+00:01:46,320 --> 00:01:50,790
+Ci sono operatori di comparazione che controllano se qualcosa è maggiore di qualcos'altro, quindi possiamo
+
+29
+00:01:50,820 --> 00:01:53,130
+dire che hey è maggiore di due.
+
+30
+00:01:53,170 --> 00:01:57,080
+Esiste solo una semplice espressione matematica e restituisce un pacchetto in falso.
+
+31
+00:01:57,120 --> 00:01:58,720
+Uno non è più grande di due.
+
+32
+00:01:58,890 --> 00:02:03,060
+fare altre cose come controllare l'uguaglianza con due segni di uguale invece di un solo segno di uguale.
+
+33
+00:02:03,060 --> 00:02:03,800
+E poi puoi
+
+34
+00:02:03,990 --> 00:02:05,470
+Quindi come uno uguale a 1.
+
+35
+00:02:05,640 --> 00:02:07,760
+Eseguilo e restituisce true.
+
+36
+00:02:07,800 --> 00:02:12,020
+Quindi questi sono chiamati operatori di comparazione Ellaby mostrandoli tutti più tardi in questo corso.
+
+37
+00:02:12,150 --> 00:02:16,380
+Ma prima dobbiamo dirvi cosa stanno effettivamente restituendo quali sono booleani.
+
+38
+00:02:16,440 --> 00:02:22,200
+Va bene quindi quelli sono Blands semplicemente semplicemente veri e falsi e il tipo sarà più critico
+
+39
+00:02:22,200 --> 00:02:24,060
+in seguito in questo corso.
+
+40
+00:02:24,150 --> 00:02:29,640
+che possiamo usare la parola chiave none come segnaposto per un oggetto che non vogliamo ancora assegnare.
+
+41
+00:02:29,640 --> 00:02:30,930
+E infine voglio menzionare
+
+42
+00:02:31,110 --> 00:02:34,570
+Quindi forse più avanti voglio assegnare una B a qualcosa nel mio codice.
+
+43
+00:02:34,590 --> 00:02:38,100
+Ma in questo momento ho solo bisogno di avere un segnaposto per questo, quindi non ho questo errore.
+
+44
+00:02:38,130 --> 00:02:39,590
+Hey B non è la fine.
+
+45
+00:02:39,780 --> 00:02:42,010
+Quello che posso fare è dire che B è uguale a nessuno.
+
+46
+00:02:42,240 --> 00:02:45,330
+La capitale e là ed è un nessuno che loro scrivono.
+
+47
+00:02:45,330 --> 00:02:49,920
+E l'abbiamo già visto in precedenza quando avevamo a che fare con metodi sul posto più terribili.
+
+48
+00:02:49,920 --> 00:02:53,440
+Ricorda che quando abbiamo ordinato la lista sul posto non è tornato indietro.
+
+49
+00:02:53,460 --> 00:02:55,730
+Quindi quando digito B qui non vedo nulla.
+
+50
+00:02:55,920 --> 00:02:56,760
+Ma allora cos'è bello.
+
+51
+00:02:56,760 --> 00:02:59,430
+Inoltre non vedono l'errore di non essere il ritrovamento.
+
+52
+00:02:59,830 --> 00:03:01,800
+OK, sono davvero le basi dei booleani.
+
+53
+00:03:01,800 --> 00:03:05,640
+Lavoreremo su questo molto più avanti nel corso.
+
+54
+00:03:05,640 --> 00:03:06,540
+Vedrò se la prossima lezione.

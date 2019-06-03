@@ -1,0 +1,655 @@
+1
+00:00:05,680 --> 00:00:06,760
+Welcome back everybody.
+
+2
+00:00:06,760 --> 00:00:08,760
+Now it's time to talk about dictionaries.
+
+3
+00:00:09,670 --> 00:00:13,270
+Dictionaries are unordered mappings for storing objects.
+
+4
+00:00:13,270 --> 00:00:16,980
+Previously we saw how to store objects in an ordered sequence using a list.
+
+5
+00:00:17,260 --> 00:00:22,050
+But now dictionaries will allow sister objects using what's known as a key value pairing instead.
+
+6
+00:00:22,270 --> 00:00:27,660
+And this key value pair allows users to quickly grab objects without needing to know an exact index
+
+7
+00:00:27,670 --> 00:00:28,250
+location.
+
+8
+00:00:28,300 --> 00:00:32,500
+Instead you just call the key and it returns the value associated with that key.
+
+9
+00:00:33,920 --> 00:00:39,710
+And the dictionary syntax uses curly braces and colons to signify the relationships between a key and
+
+10
+00:00:39,710 --> 00:00:41,030
+their associated values.
+
+11
+00:00:41,210 --> 00:00:46,570
+So here we can see the curly braces and then we have the string key so key one then coal and then what
+
+12
+00:00:46,570 --> 00:00:48,430
+are values associated with that.
+
+13
+00:00:48,470 --> 00:00:53,720
+In this case we just have a string called value 1 and then we have a comma for the next key value pair.
+
+14
+00:00:53,720 --> 00:01:00,130
+Now the question always arises when do we choose a list and when do we choose a dictionary Well dictionaries
+
+15
+00:01:00,130 --> 00:01:05,420
+have objects retrieved by a key name and dictionaries are unordered and cannot be sorted.
+
+16
+00:01:05,590 --> 00:01:11,200
+So a good time to use a dictionary would be when you want to quickly retrieve the value without needing
+
+17
+00:01:11,200 --> 00:01:13,810
+to know its exact index location.
+
+18
+00:01:13,810 --> 00:01:15,840
+Now that's a really nice feature of a dictionary.
+
+19
+00:01:15,880 --> 00:01:19,200
+The fact that you don't need to know where something is in the actual dictionary to call it.
+
+20
+00:01:19,240 --> 00:01:21,200
+You just need to know the key value pair.
+
+21
+00:01:21,280 --> 00:01:26,770
+However that comes with the con of not being able to sort a dictionary because a dictionary has a key
+
+22
+00:01:26,770 --> 00:01:28,080
+value mapping.
+
+23
+00:01:28,090 --> 00:01:33,390
+It means that it's going to insert new key value pairs wherever it deems most efficiently.
+
+24
+00:01:33,600 --> 00:01:39,520
+List on the other hand can you achieve objects based off locations so that allows the actual list to
+
+25
+00:01:39,520 --> 00:01:42,250
+be indexed slice and then sorted.
+
+26
+00:01:42,250 --> 00:01:44,980
+So you kind of lose that functionality when using a dictionary.
+
+27
+00:01:45,130 --> 00:01:49,240
+So you're basically trading off ease of calling and grabbing something from a dictionary very quickly
+
+28
+00:01:49,450 --> 00:01:54,390
+with a key value pair and you're losing the ability to sort things or have an index location off of
+
+29
+00:01:54,400 --> 00:01:55,030
+them.
+
+30
+00:01:55,390 --> 00:01:59,520
+OK let's explore these concepts a little closer by jumping to Jupiter notebook.
+
+31
+00:01:59,920 --> 00:02:03,350
+Let's begin by showing you how you can construct a dictionary.
+
+32
+00:02:03,370 --> 00:02:07,440
+We'll start by saying or create an object.
+
+33
+00:02:07,480 --> 00:02:13,610
+My dictionary will have curly braces and will define the key so keys should be string and you call them
+
+34
+00:02:13,610 --> 00:02:14,810
+whatever we want.
+
+35
+00:02:14,840 --> 00:02:15,960
+So a key one.
+
+36
+00:02:15,980 --> 00:02:18,590
+And then we have some associated value of that key.
+
+37
+00:02:18,590 --> 00:02:20,700
+For now I'll stick with basic strings.
+
+38
+00:02:20,760 --> 00:02:24,560
+Then we have a comma and you can insert a new key value pair.
+
+39
+00:02:24,750 --> 00:02:28,410
+So a colon and then another value for that.
+
+40
+00:02:28,620 --> 00:02:30,310
+OK so we have our dictionary here.
+
+41
+00:02:31,470 --> 00:02:34,940
+And then if we call it back we'll end up getting the entire dictionary.
+
+42
+00:02:35,070 --> 00:02:38,240
+But really what we want to do is grab values from the dictionary.
+
+43
+00:02:38,490 --> 00:02:43,250
+So instead of using index locations we still use the same square brackets.
+
+44
+00:02:43,260 --> 00:02:46,370
+But now to get a value back we just pass in the key.
+
+45
+00:02:46,420 --> 00:02:52,380
+Let's associate that value so we can say dictionary passing Q One and we get back that value itself.
+
+46
+00:02:52,380 --> 00:02:54,930
+So a good example of a use case for a dictionary.
+
+47
+00:02:54,940 --> 00:03:00,190
+Maybe something like prices in a store so we can say I have a dictionary called prices.
+
+48
+00:03:00,190 --> 00:03:02,170
+We can even call it price.
+
+49
+00:03:02,190 --> 00:03:04,840
+Look up so we have this prices.
+
+50
+00:03:04,840 --> 00:03:10,240
+Look up dictionary and we can add different items in the dictionary such as Apple and then their associated
+
+51
+00:03:10,240 --> 00:03:12,520
+price so we'll say Apples are.
+
+52
+00:03:12,760 --> 00:03:18,370
+I don't know $2 and 99 cents maybe per pound whatever it is not made up prices.
+
+53
+00:03:18,550 --> 00:03:26,800
+We can't have oranges those can be one ninety nine and then we can have let's say chocolate milk or
+
+54
+00:03:26,830 --> 00:03:28,960
+a type of say milk.
+
+55
+00:03:28,990 --> 00:03:33,490
+And that's going to have a price of $5 and 80 cents.
+
+56
+00:03:33,560 --> 00:03:34,490
+And there we go.
+
+57
+00:03:34,490 --> 00:03:39,000
+So then with my dictionary or this dictionary could be huge prices look up.
+
+58
+00:03:39,080 --> 00:03:41,660
+I would just want to know hey what's the price of an apple.
+
+59
+00:03:41,720 --> 00:03:44,450
+I'd pass an apple run it and it returns back.
+
+60
+00:03:44,450 --> 00:03:45,440
+The actual price.
+
+61
+00:03:45,500 --> 00:03:48,380
+And now we need to know any sort of index location.
+
+62
+00:03:48,410 --> 00:03:53,810
+I can easily get the prices of any of these objects using the key value pairs.
+
+63
+00:03:53,870 --> 00:03:58,240
+So that's a really good example of why you would need a dictionary instead of something like a list.
+
+64
+00:03:58,250 --> 00:04:02,840
+Because here I have two values that I want to associate each other and quickly look up the value of
+
+65
+00:04:02,840 --> 00:04:05,540
+one given its key.
+
+66
+00:04:05,550 --> 00:04:09,510
+Now it's important to note that dictionaries are actually super flexible in the data types they can
+
+67
+00:04:09,510 --> 00:04:10,230
+hold.
+
+68
+00:04:10,230 --> 00:04:16,410
+I just showed you how they can hold integers or floating point numbers as well as strings but they can
+
+69
+00:04:16,410 --> 00:04:19,220
+actually hold lists or even other dictionaries.
+
+70
+00:04:19,440 --> 00:04:28,520
+So I'll just show you this as an example say D is equal to could have k 1 equal to a key and can have
+
+71
+00:04:29,180 --> 00:04:35,210
+a number associated with one to three or the other thing I could do is say K-2 and I can actually have
+
+72
+00:04:35,210 --> 00:04:42,620
+this have a list associated with it so I can say 0 1 2 and then I can even do another dictionary inside
+
+73
+00:04:42,620 --> 00:04:43,610
+of this dictionary.
+
+74
+00:04:43,610 --> 00:04:45,800
+This is not that common but it is supported.
+
+75
+00:04:46,130 --> 00:04:52,960
+So we can say inside a key that have some other number here 100.
+
+76
+00:04:53,010 --> 00:04:56,060
+So the dictionary itself has no problem dealing with all of this.
+
+77
+00:04:56,130 --> 00:05:01,560
+And if we want to grab elements from this let's imagine I want to grab this list 0 1 2 that I just called
+
+78
+00:05:01,560 --> 00:05:04,000
+the past and it's key.
+
+79
+00:05:04,170 --> 00:05:06,050
+K-2 and this case should be a string
+
+80
+00:05:08,940 --> 00:05:11,130
+run this and get back the list.
+
+81
+00:05:11,130 --> 00:05:17,400
+And then if I wanted to grab this number 100 what I could do is say d find the associated key for that
+
+82
+00:05:17,460 --> 00:05:19,790
+K3.
+
+83
+00:05:19,990 --> 00:05:22,330
+And when you run that back get back this dictionary.
+
+84
+00:05:22,330 --> 00:05:24,920
+So all of this I can make another call.
+
+85
+00:05:24,970 --> 00:05:28,890
+So then I could just say insight key copy that
+
+86
+00:05:32,460 --> 00:05:34,710
+run that and then I get back 100.
+
+87
+00:05:34,740 --> 00:05:35,960
+So notice what's happening here.
+
+88
+00:05:35,970 --> 00:05:41,580
+And basically stacking either index calls or key calls to get back the values I want.
+
+89
+00:05:41,610 --> 00:05:44,880
+So let's imagine that I wanted to grab the number two here.
+
+90
+00:05:45,090 --> 00:05:51,580
+What I need to do is say d k 2 which returns back the list and then I want the item index too.
+
+91
+00:05:51,630 --> 00:05:59,800
+So then I could just say two and then I grab back to and this whole thing can be a little confusing
+
+92
+00:05:59,800 --> 00:06:00,300
+at first.
+
+93
+00:06:00,310 --> 00:06:03,960
+So let me walk through one more example just to make sure this is clear.
+
+94
+00:06:04,040 --> 00:06:13,460
+I will say My dictionary has a key one and associate if this key is a list of lower case letters ABC
+
+95
+00:06:15,800 --> 00:06:22,890
+I run that I checked my dictionary key one ABC and let's go ahead and try to grab the letter C and make
+
+96
+00:06:22,890 --> 00:06:25,330
+it uppercase because it's a string.
+
+97
+00:06:25,350 --> 00:06:28,230
+What I could do is through various steps do the following.
+
+98
+00:06:28,230 --> 00:06:34,590
+I could say my list is equal to the key one.
+
+99
+00:06:34,590 --> 00:06:36,980
+And then if I check my list I have that.
+
+100
+00:06:37,020 --> 00:06:43,220
+So that I could say letter is equal to my list index location 2.
+
+101
+00:06:43,620 --> 00:06:51,130
+And then if I check out my letter I'd then just say Letter uppercase and then I have capital C.
+
+102
+00:06:51,160 --> 00:06:53,020
+So that all the steps here that I did.
+
+103
+00:06:53,170 --> 00:06:58,810
+I first grabbed the key then I made that into a list then I did the indexing off that list to grab the
+
+104
+00:06:58,810 --> 00:07:01,330
+letter and then I said uppercase off that letter.
+
+105
+00:07:01,450 --> 00:07:07,150
+But I can actually do this all in one step because of how flexible Python is I could say OK grab that
+
+106
+00:07:07,150 --> 00:07:10,090
+key which turns back the list.
+
+107
+00:07:10,300 --> 00:07:12,220
+So then often this is sort of re-assigning.
+
+108
+00:07:12,280 --> 00:07:13,300
+I can just keep calling.
+
+109
+00:07:13,300 --> 00:07:17,350
+What I want and I want to index by to have the letter C.
+
+110
+00:07:17,440 --> 00:07:24,740
+And now this is a string I can call the upper and there are have upper case C so you could do it this
+
+111
+00:07:24,740 --> 00:07:25,460
+way as well.
+
+112
+00:07:25,460 --> 00:07:31,100
+Instead of having to do each of these steps you're not going to be doing something like this so often
+
+113
+00:07:31,160 --> 00:07:37,630
+but you do sometimes leverage the power of dictionaries to be able to hold lists inside of them.
+
+114
+00:07:38,150 --> 00:07:38,360
+OK.
+
+115
+00:07:38,370 --> 00:07:39,810
+So I just want you to be aware of that.
+
+116
+00:07:39,840 --> 00:07:48,050
+They can kind of stack calls like that on a singular object if we ever want to add new key value pairs
+
+117
+00:07:48,050 --> 00:07:48,710
+to a dictionary.
+
+118
+00:07:48,710 --> 00:07:50,450
+It's pretty straightforward.
+
+119
+00:07:50,660 --> 00:07:52,490
+So let's make a new dictionary here.
+
+120
+00:07:53,330 --> 00:08:03,200
+Records say K-1 is 100 and will say K-2 is 200.
+
+121
+00:08:03,200 --> 00:08:09,560
+So here you have my dictionary K-1 and K-2 let's imagine that I wanted to add K3 is 300.
+
+122
+00:08:09,590 --> 00:08:14,780
+All I need to do in that case is say the assign a new key.
+
+123
+00:08:14,780 --> 00:08:19,550
+So K-3 and set that equal to 300.
+
+124
+00:08:19,780 --> 00:08:24,180
+And then when I take a look at the dictionary I now have K3 300.
+
+125
+00:08:24,180 --> 00:08:27,760
+All right so we just saw how we could add a new key value pair to the dictionary.
+
+126
+00:08:27,760 --> 00:08:32,220
+We can also use the same method to easily overwrite an existing key value pair.
+
+127
+00:08:32,440 --> 00:08:36,820
+We can say d of k 1 and set that equal to some new value.
+
+128
+00:08:36,820 --> 00:08:41,400
+So to make it really obvious we'll just have a new string there new value and then we call D we see
+
+129
+00:08:41,410 --> 00:08:42,110
+k 1.
+
+130
+00:08:42,160 --> 00:08:45,250
+Now has that new value associated with it.
+
+131
+00:08:45,250 --> 00:08:49,630
+Finally I want to discuss just a few useful dictionary methods and those are methods to grab all the
+
+132
+00:08:49,630 --> 00:08:52,110
+keys values for items off a dictionary.
+
+133
+00:08:52,300 --> 00:08:53,520
+So we have a dictionary right now.
+
+134
+00:08:53,530 --> 00:08:56,740
+K-1 K-2 K-3 new value 200 or 300.
+
+135
+00:08:56,950 --> 00:08:59,010
+I'm going to reassign it to be the old one.
+
+136
+00:08:59,030 --> 00:09:02,090
+So let me copy this right here and say D.
+
+137
+00:09:02,170 --> 00:09:04,940
+Is equal to that version of the dictionary.
+
+138
+00:09:05,200 --> 00:09:11,850
+If I want to see all the keys of a dictionary I can say D keys and that's going to return back all the
+
+139
+00:09:11,850 --> 00:09:14,220
+actual keys if I want the opposite.
+
+140
+00:09:14,220 --> 00:09:15,320
+And I want all the values.
+
+141
+00:09:15,390 --> 00:09:21,060
+All I need to do is say the dot values and then returns back the values and then if I want the actual
+
+142
+00:09:21,090 --> 00:09:27,840
+pairings together I can say Deedat items open unclose princes run those together and returns back the
+
+143
+00:09:27,840 --> 00:09:28,290
+pairings.
+
+144
+00:09:28,290 --> 00:09:32,330
+OK one goes up 100 to 200 K3 goes with 300.
+
+145
+00:09:32,520 --> 00:09:34,900
+And these you'll notice are actually in parentheses.
+
+146
+00:09:35,100 --> 00:09:38,880
+And that means this is actually a tuple which you're going to learn about very soon.
+
+147
+00:09:39,390 --> 00:09:39,620
+OK.
+
+148
+00:09:39,630 --> 00:09:41,330
+That's really the basics of dictionaries.
+
+149
+00:09:41,340 --> 00:09:44,150
+A very quick overview of what we just learned.
+
+150
+00:09:44,160 --> 00:09:47,650
+Dictionaries their main syntax is defined by curly braces.
+
+151
+00:09:47,670 --> 00:09:50,940
+You have a string key colon and then a value.
+
+152
+00:09:51,000 --> 00:09:54,150
+And Python is really flexible as far as what this value can be.
+
+153
+00:09:54,150 --> 00:09:59,650
+It can be another string in the listener dictionary floating point numbers integers etc. and then you
+
+154
+00:09:59,660 --> 00:10:04,680
+can have in their key value pair and you just separate these by commas the keys themselves should always
+
+155
+00:10:04,680 --> 00:10:06,200
+be strings.
+
+156
+00:10:06,370 --> 00:10:10,180
+And then we can easily look things up by just a key look up.
+
+157
+00:10:10,180 --> 00:10:15,160
+Again it uses that same bracket notation we saw earlier with indexing except now sort of passing an
+
+158
+00:10:15,160 --> 00:10:17,970
+index to the past and the key itself.
+
+159
+00:10:18,010 --> 00:10:25,330
+We also saw how we can call nested objects inside a dictionary by just basically piling on these key
+
+160
+00:10:25,750 --> 00:10:27,640
+and method calls.
+
+161
+00:10:27,640 --> 00:10:32,450
+Then after that we saw how we could call the keys the values and the items off a dictionary.
+
+162
+00:10:32,840 --> 00:10:33,070
+All right.
+
+163
+00:10:33,070 --> 00:10:34,570
+That's the basics of dictionaries.
+
+164
+00:10:34,570 --> 00:10:39,310
+We'll dive into more detail aspects of dictionaries later on we'll see at the next lecture.

@@ -1,0 +1,587 @@
+1
+00:00:05,370 --> 00:00:07,230
+Welcome back everyone in this lecture.
+
+2
+00:00:07,260 --> 00:00:11,610
+We're going to finish off our discussion about strings by talking about string properties and string
+
+3
+00:00:11,610 --> 00:00:12,560
+methods.
+
+4
+00:00:12,570 --> 00:00:14,690
+Let's jump to a note book and get started.
+
+5
+00:00:14,730 --> 00:00:19,210
+The first thing we're going to discuss is the immutability of strings and immutability.
+
+6
+00:00:19,230 --> 00:00:25,240
+It stems from the word Mutti basically means imitates or you cannot mutate or cannot change.
+
+7
+00:00:25,280 --> 00:00:26,930
+I'm going to show you an example of this.
+
+8
+00:00:27,120 --> 00:00:32,330
+Let's create a variable called name and set it equal to Sam.
+
+9
+00:00:32,330 --> 00:00:35,700
+Now let's imagine you want to change this name to Pam.
+
+10
+00:00:35,720 --> 00:00:37,910
+So change the S for a p.
+
+11
+00:00:38,240 --> 00:00:41,050
+Well you may think that you would do something like this.
+
+12
+00:00:41,240 --> 00:00:45,830
+Say name index at 0 and then set it equal to P..
+
+13
+00:00:45,860 --> 00:00:46,590
+Now for strings.
+
+14
+00:00:46,580 --> 00:00:49,330
+Unfortunately you can't do this if you try to run this code.
+
+15
+00:00:49,520 --> 00:00:55,580
+You'll get an error because strings are immutable meaning a string object or as tier Object doesn't
+
+16
+00:00:55,580 --> 00:00:58,820
+support item assignment so you can't grab one of these characters.
+
+17
+00:00:58,820 --> 00:01:02,510
+One of these elements in the string and then try to reassign it this way.
+
+18
+00:01:02,510 --> 00:01:04,580
+Strings just don't work that way in Python.
+
+19
+00:01:04,580 --> 00:01:09,960
+Later on we'll learn about other data types that do support item assignment all this means is that if
+
+20
+00:01:09,960 --> 00:01:15,630
+we do want to reassign this as to be happy we basically have to create a new string and we can do that
+
+21
+00:01:15,840 --> 00:01:17,070
+with concatenation.
+
+22
+00:01:17,070 --> 00:01:22,170
+That is kind of merging two strings together so I'm going to comment this out and create a comment you
+
+23
+00:01:22,170 --> 00:01:25,860
+just put a hash tag in front of it and if you run this you won't get anything out.
+
+24
+00:01:25,860 --> 00:01:30,420
+So basically anything the hash tag is just commented code that doesn't get run.
+
+25
+00:01:30,490 --> 00:01:37,060
+Let's explore this example trying to create the string Pam using what we already have about name.
+
+26
+00:01:37,060 --> 00:01:41,090
+So the first thing I want to do is try to grab a and m.
+
+27
+00:01:41,260 --> 00:01:44,760
+So let's use the slice notation that we learned about earlier.
+
+28
+00:01:44,830 --> 00:01:48,970
+We're going to start at index 1 and then go all the way to the end.
+
+29
+00:01:48,970 --> 00:01:49,990
+So let's check that.
+
+30
+00:01:50,200 --> 00:01:52,100
+OK so that's am perfect.
+
+31
+00:01:52,120 --> 00:02:01,030
+So what will sign this to something like last letters is equal to name one all the way to the end.
+
+32
+00:02:01,030 --> 00:02:04,510
+So then if I take a look at last letters again I can use tab to autocomplete.
+
+33
+00:02:04,510 --> 00:02:11,980
+Here it says AM and now what I can do is I can concatenate the two last letters and the way you do that
+
+34
+00:02:12,070 --> 00:02:20,940
+is with the plus sign so we can say P Plus last letters and then we get Pimm.
+
+35
+00:02:20,950 --> 00:02:22,960
+So this is known as string concatenation.
+
+36
+00:02:23,230 --> 00:02:25,260
+Let's explore a couple of more examples.
+
+37
+00:02:25,270 --> 00:02:31,050
+I'm going to say x is equal to Hello World.
+
+38
+00:02:33,360 --> 00:02:39,240
+And then I could say X plus is beautiful.
+
+39
+00:02:40,290 --> 00:02:44,040
+Outside and then if I run this I can see Hello world.
+
+40
+00:02:44,040 --> 00:02:45,420
+It is beautiful outside.
+
+41
+00:02:45,510 --> 00:02:49,770
+Something to keep in mind is note that there's no space here because there was no space at the end of
+
+42
+00:02:49,770 --> 00:02:52,120
+World and there's no space at the beginning of it.
+
+43
+00:02:52,320 --> 00:02:54,620
+So it would be nice if you add a little space there.
+
+44
+00:02:54,630 --> 00:02:56,930
+So when you run this again hello world.
+
+45
+00:02:56,940 --> 00:02:58,770
+It is beautiful outside.
+
+46
+00:02:58,770 --> 00:03:05,310
+Now if I do this multiple times with a re-assignment so I could say x is equal to x plus it is beautiful
+
+47
+00:03:05,310 --> 00:03:06,390
+outside.
+
+48
+00:03:06,390 --> 00:03:09,290
+Now I want to run this I've read the find X so I can see now.
+
+49
+00:03:09,300 --> 00:03:09,810
+Hello world.
+
+50
+00:03:09,810 --> 00:03:11,140
+It is beautiful outside.
+
+51
+00:03:11,220 --> 00:03:16,090
+If I accidently ran this cell more than one time I add in it is beautiful outside.
+
+52
+00:03:16,110 --> 00:03:16,740
+A second time.
+
+53
+00:03:16,740 --> 00:03:18,000
+So if I run this again.
+
+54
+00:03:18,090 --> 00:03:22,080
+Notice how many numbers are going to change right next to the cell that says Hello world.
+
+55
+00:03:22,080 --> 00:03:22,890
+It is beautiful outside.
+
+56
+00:03:22,890 --> 00:03:26,840
+It is beautiful outside and we can keep doing this and you keep adding on.
+
+57
+00:03:26,900 --> 00:03:32,360
+So this a string concatenation and it allows you to quickly put strings together.
+
+58
+00:03:32,370 --> 00:03:38,250
+There's also multiplication you could do to kind of do multiple string detonations at once.
+
+59
+00:03:38,250 --> 00:03:39,590
+Let me show you what that looks like.
+
+60
+00:03:39,770 --> 00:03:44,610
+So so far we've used the plus sign to kind of concatenate two strings together or merge them together.
+
+61
+00:03:44,820 --> 00:03:52,600
+But if you had the letter equal to Z and you Kuechly wanted 10 Zeese what you could do is say Letter
+
+62
+00:03:53,270 --> 00:03:54,290
+times 10.
+
+63
+00:03:54,650 --> 00:03:55,880
+And there you could see.
+
+64
+00:03:56,000 --> 00:03:58,650
+Someone sleeping here is easy is easy 10 times.
+
+65
+00:03:58,880 --> 00:04:03,800
+So that's using multiplication of letters and then that's using a plus sign of letters.
+
+66
+00:04:03,950 --> 00:04:09,140
+Something to keep in mind when you're performing string detonation or string multiplication is that
+
+67
+00:04:09,260 --> 00:04:13,790
+you're going to get errors if you try to concatenate a number with a string.
+
+68
+00:04:13,790 --> 00:04:18,600
+Want to show you what I mean by that imagine we are doing two plus three.
+
+69
+00:04:18,660 --> 00:04:19,880
+We run this we get 5.
+
+70
+00:04:19,880 --> 00:04:25,740
+That makes sense if we do to the string to plus the string theory.
+
+71
+00:04:26,030 --> 00:04:28,520
+Now that they're strings it's not going to add them together.
+
+72
+00:04:28,520 --> 00:04:30,730
+Instead it's going to perform concatenation.
+
+73
+00:04:30,740 --> 00:04:37,820
+So here now we get back the string 23 and this is a callback to dynamic typing where we had to be really
+
+74
+00:04:37,820 --> 00:04:39,650
+careful about the data types.
+
+75
+00:04:39,680 --> 00:04:44,780
+So keep this sort of problem in mind that your user may end up putting in strings and then later on
+
+76
+00:04:44,780 --> 00:04:45,460
+your code.
+
+77
+00:04:45,560 --> 00:04:51,240
+If you start adding them together you may end up with an unexpected result like 23 instead of 5.
+
+78
+00:04:51,320 --> 00:04:58,070
+So this is a really prime example of both the good and bad of Python's ability to be very flexible so
+
+79
+00:04:58,070 --> 00:05:02,570
+it's very flexible meaning you're not getting an error here but maybe it's a little too flexible because
+
+80
+00:05:02,720 --> 00:05:05,480
+you expect that 5 and it gave you back 23.
+
+81
+00:05:05,600 --> 00:05:10,070
+Later on we're going to learn about a lot more ways that we can kind of prevent these sort of mistakes
+
+82
+00:05:10,070 --> 00:05:11,080
+or errors.
+
+83
+00:05:11,480 --> 00:05:14,630
+Let's continue on by discussing some built in string methods.
+
+84
+00:05:14,840 --> 00:05:20,150
+So objects in Python usually have builtin methods and these methods themselves are essentially functions
+
+85
+00:05:20,150 --> 00:05:24,260
+that are inside the object and later on we're going to learn how to create our own functions in our
+
+86
+00:05:24,290 --> 00:05:25,350
+own methods.
+
+87
+00:05:25,470 --> 00:05:29,620
+Right now let's go over just a few useful methods.
+
+88
+00:05:29,630 --> 00:05:37,150
+I'm going to create a new string let's call it X and say its Hello world.
+
+89
+00:05:38,610 --> 00:05:46,460
+And if I hit X dot and then hit tab I should see this list pop out in the Jupiter notebook and this
+
+90
+00:05:46,460 --> 00:05:51,540
+is a list of all the attributes and methods that are available on this string object.
+
+91
+00:05:51,540 --> 00:05:55,240
+Now again make sure you've already defined X otherwise you won't see anything.
+
+92
+00:05:55,290 --> 00:06:00,630
+So make sure you ran that cell that says X hello world and then a new cell say X that hit tab and you
+
+93
+00:06:00,630 --> 00:06:02,020
+should see this list.
+
+94
+00:06:02,110 --> 00:06:06,240
+So as you can see there's tons of methods here and we're not going to go over all of them right now.
+
+95
+00:06:06,270 --> 00:06:10,440
+We're just going to go over the most useful ones that you'll be using later on this course.
+
+96
+00:06:11,250 --> 00:06:17,940
+So quickly uppercase everything in a string you can say upper open and close parentheses and it will
+
+97
+00:06:17,940 --> 00:06:20,130
+uppercase everything in the string.
+
+98
+00:06:20,130 --> 00:06:23,120
+Keep in mind this method is not in place.
+
+99
+00:06:23,130 --> 00:06:26,380
+That is to say it doesn't actually affect the original string.
+
+100
+00:06:26,520 --> 00:06:29,410
+If you didn't want it to affect the original string you'd have to reassign it.
+
+101
+00:06:29,410 --> 00:06:30,210
+You have to do something like.
+
+102
+00:06:30,240 --> 00:06:34,230
+X is equal to the upper version case of X..
+
+103
+00:06:34,320 --> 00:06:35,000
+So keep that in mind.
+
+104
+00:06:35,010 --> 00:06:39,560
+I'm looking to run that right now because I want the original x string and if you accidently did a re-assignment
+
+105
+00:06:39,570 --> 00:06:41,220
+you can always just say execute.
+
+106
+00:06:41,220 --> 00:06:42,760
+Hello world again.
+
+107
+00:06:42,870 --> 00:06:43,270
+All right.
+
+108
+00:06:43,470 --> 00:06:48,330
+So we have the upper method something that's really common for beginners as a mistake to make is that
+
+109
+00:06:48,330 --> 00:06:52,670
+they accidently just do upper and they forget those open and close parentheses.
+
+110
+00:06:52,710 --> 00:06:58,650
+And if you run this you'll just say hey this is a function string upper and basically a Python is saying
+
+111
+00:06:58,740 --> 00:07:03,100
+is Oh you haven't actually executed this method or function yet.
+
+112
+00:07:03,240 --> 00:07:05,520
+Instead you just asked me what it was.
+
+113
+00:07:05,730 --> 00:07:10,050
+So when you call it without open and close princes and you get something that looks like this back it
+
+114
+00:07:10,050 --> 00:07:13,690
+means that you haven't actually executed that method or function to occur.
+
+115
+00:07:13,980 --> 00:07:19,540
+Instead you just kind of ask Python hey what is this so because there's an upper method.
+
+116
+00:07:19,560 --> 00:07:23,260
+There's also Ilori method which is going to lowercase every letter that is here now.
+
+117
+00:07:23,310 --> 00:07:26,500
+H and W are lower case.
+
+118
+00:07:26,530 --> 00:07:34,090
+Then there's also the split method and the split method allows you to quickly create a list off of a
+
+119
+00:07:34,090 --> 00:07:34,800
+string.
+
+120
+00:07:35,670 --> 00:07:38,860
+So here we can say we have hello and world.
+
+121
+00:07:38,910 --> 00:07:41,770
+Now we haven't really discussed lists yet so they are coming up.
+
+122
+00:07:41,820 --> 00:07:48,450
+So all I want you to think about right now is that if I use that split it will split a string based
+
+123
+00:07:48,450 --> 00:07:51,820
+on that whitespace or based on the letter you pasan.
+
+124
+00:07:51,840 --> 00:07:53,660
+So let me show you what I mean by that.
+
+125
+00:07:53,940 --> 00:07:56,170
+So I will say x is equal to.
+
+126
+00:07:56,510 --> 00:07:59,580
+Hi this is a string
+
+127
+00:08:03,060 --> 00:08:10,630
+run that and then if I say X that split I get back everything split by the white space I get high.
+
+128
+00:08:10,650 --> 00:08:14,060
+This is a string nicely organized in a list.
+
+129
+00:08:14,070 --> 00:08:19,350
+However I could pass in any sequence of characters that I want to split on.
+
+130
+00:08:19,560 --> 00:08:25,170
+So by default split will split on the whitespace but it could actually split it on any letter I want.
+
+131
+00:08:25,350 --> 00:08:27,970
+So now it's going to split on the I's.
+
+132
+00:08:28,050 --> 00:08:31,100
+So if I run this you should get an interesting result.
+
+133
+00:08:31,440 --> 00:08:35,130
+And here it's essentially removed all the i's because it's splitting on them and other whitespace is
+
+134
+00:08:35,130 --> 00:08:35,810
+included.
+
+135
+00:08:36,030 --> 00:08:38,260
+So I get H and because there's an either.
+
+136
+00:08:38,310 --> 00:08:42,780
+It removes it and then gets everything until the next I so space th.
+
+137
+00:08:42,960 --> 00:08:45,900
+And then there's an either removes it gets everything until an X I.
+
+138
+00:08:45,960 --> 00:08:49,880
+Which is an S space and is that's here and then so on again.
+
+139
+00:08:49,910 --> 00:08:53,950
+In other I and a big portion of string can I.
+
+140
+00:08:53,970 --> 00:08:54,990
+And then N-G.
+
+141
+00:08:54,990 --> 00:08:59,880
+So that's how you can use split to quickly create a list out of a string and we're going to be covering
+
+142
+00:08:59,880 --> 00:09:03,320
+lists in a lot more detail later on OK.
+
+143
+00:09:03,490 --> 00:09:07,900
+Coming up next we're going to talk about is string formatting for printing.
+
+144
+00:09:07,900 --> 00:09:13,870
+There's a lot of useful methods you can use to quickly print out other objects along your strings.
+
+145
+00:09:13,870 --> 00:09:18,640
+So far we've only learned how to use prints as a basic function or we say prints hello but there's a
+
+146
+00:09:18,640 --> 00:09:23,800
+lot more power to the print function that we haven't actually seen yet as well as the format method.
+
+147
+00:09:23,800 --> 00:09:26,820
+So let's go ahead and cover that the next lecture will see it there.

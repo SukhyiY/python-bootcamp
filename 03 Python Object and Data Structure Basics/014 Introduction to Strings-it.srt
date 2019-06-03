@@ -1,0 +1,451 @@
+1
+00:00:05,720 --> 00:00:07,460
+Bentornati tutti in questa conferenza.
+
+2
+00:00:07,460 --> 00:00:14,180
+Discuteremo stringhe di stringhe o sequenze di caratteri usando la sintassi delle virgolette
+
+3
+00:00:14,180 --> 00:00:15,770
+singole o doppie.
+
+4
+00:00:15,800 --> 00:00:17,540
+Qui possiamo vedere tre esempi.
+
+5
+00:00:17,540 --> 00:00:19,890
+Per prima cosa abbiamo CIAO di virgolette singole piuttosto che ciao.
+
+6
+00:00:19,910 --> 00:00:20,850
+Virgolette.
+
+7
+00:00:20,930 --> 00:00:24,380
+E poi cosa c'è di bello nell'avere entrambe le opzioni di virgolette singole o doppie virgolette.
+
+8
+00:00:24,380 --> 00:00:29,020
+fine, la stringa vera e propria puoi avvolgerla nell'altra citazione come virgolette doppie o viceversa.
+
+9
+00:00:29,030 --> 00:00:34,030
+Significa che se hai una singola citazione nella stringa che vuoi mantenere e non ha quella
+
+10
+00:00:34,070 --> 00:00:38,810
+Quindi qui possiamo vedere che non lo faccio che ha una sola citazione, ma non vogliamo che la
+
+11
+00:00:38,810 --> 00:00:42,230
+singola virgola termini la stringa così da poter racchiudere il tutto tra virgolette.
+
+12
+00:00:42,260 --> 00:00:45,010
+Ora ne vedremo un esempio più avanti nel taccuino Juber.
+
+13
+00:00:46,200 --> 00:00:51,570
+Ora è importante notare che le stringhe sono sequenze ordinate e questo significa che possiamo usare
+
+14
+00:00:51,570 --> 00:00:56,670
+l'indicizzazione o l'affettatura per afferrare sottosezioni della stringa perché sappiamo che ogni personaggio ha una
+
+15
+00:00:56,670 --> 00:01:02,670
+posizione specifica e la notazione dell'indicizzazione facilita la notazione della parentesi quadra dopo la stringa o il nome
+
+16
+00:01:02,670 --> 00:01:04,040
+della variabile assegnata alla stringa.
+
+17
+00:01:04,050 --> 00:01:08,170
+Ora vedremo un sacco di esempi di indicizzazione che affettano solo un po '.
+
+18
+00:01:08,400 --> 00:01:13,740
+Quindi l'indicizzazione è il termine usato quando vuoi prendere un singolo carattere dalla stringa.
+
+19
+00:01:13,780 --> 00:01:18,790
+Quindi il modo in cui funziona è che ogni singolo personaggio ha una posizione di indice assegnata ad esso.
+
+20
+00:01:18,820 --> 00:01:20,040
+Quindi inizi a zero.
+
+21
+00:01:20,080 --> 00:01:23,500
+Questa è un'altra nota importante in Python che l'indicizzazione inizia da zero.
+
+22
+00:01:23,500 --> 00:01:30,940
+Quindi H ha un numero corrispondente di zero E ha un numero corrispondente di 1 2 3 0 4.
+
+23
+00:01:30,940 --> 00:01:36,250
+Quindi, se volessi afferrare la E che userei è tra parentesi quadre, ne passerei una dopo la
+
+24
+00:01:36,250 --> 00:01:39,790
+stringa e poi ritornerebbe indietro e ne vedrò alcuni esempi più avanti.
+
+25
+00:01:40,950 --> 00:01:44,510
+La cosa interessante di pi thumb è che puoi effettivamente usare l'indicizzazione inversa.
+
+26
+00:01:44,730 --> 00:01:49,530
+Quindi forse volevi prendere l'ultima lettera di una stringa ma non sapevi quanto fosse lunga la
+
+27
+00:01:49,530 --> 00:01:49,870
+stringa.
+
+28
+00:01:49,890 --> 00:01:52,010
+Tutto quello che sapevi era che avresti voluto prendere l'ultima lettera.
+
+29
+00:01:52,200 --> 00:01:57,180
+Beh, fortunatamente c'è l'indicizzazione inversa a tua disposizione in modo che tu possa andare
+
+30
+00:01:57,180 --> 00:02:04,640
+a prendere solo uno negativo, afferrerà l'ultima lettera della stringa indipendentemente da quanto a lungo la stringa sta tagliando ti permette
+
+31
+00:02:04,640 --> 00:02:09,760
+di afferrare una sottosezione di più caratteri altrimenti nota come una porzione di la stringa.
+
+32
+00:02:09,770 --> 00:02:11,630
+E questo ha una sintassi leggermente diversa.
+
+33
+00:02:11,630 --> 00:02:15,250
+Di nuovo sarà tra parentesi quadre perché stiamo prendendo una sottosezione.
+
+34
+00:02:15,260 --> 00:02:20,840
+Saremo in grado di definire tre parti di ciò che diremo start stop e step.
+
+35
+00:02:20,840 --> 00:02:25,840
+Quindi, di nuovo questo va con parentesi quadre con due punti che separano ciascuno di questi tre termini.
+
+36
+00:02:25,880 --> 00:02:28,690
+Star sarà l'indice numerico della fetta.
+
+37
+00:02:28,700 --> 00:02:33,850
+Start stop sarà l'indice che ascenderete ma non includerete.
+
+38
+00:02:33,970 --> 00:02:35,070
+Questa è una nota importante lì.
+
+39
+00:02:35,080 --> 00:02:39,280
+E ci concentreremo davvero su questo e gli esempi vedremo tra un
+
+40
+00:02:39,280 --> 00:02:44,470
+po 'e poi questa è la dimensione del salto che prendi dall'inizio alla fine.
+
+41
+00:02:44,490 --> 00:02:46,350
+OK, esploriamo tutti questi concetti.
+
+42
+00:02:46,380 --> 00:02:49,240
+Avranno molto più senso vedere gli esempi di codice.
+
+43
+00:02:49,440 --> 00:02:50,920
+Andiamo a un taccuino.
+
+44
+00:02:51,450 --> 00:02:54,140
+OK mostriamo rapidamente un paio di esempi di una stringa.
+
+45
+00:02:54,150 --> 00:02:58,880
+Ancora una volta possiamo usare le virgolette singole o puoi usare le virgolette doppie.
+
+46
+00:02:59,070 --> 00:03:01,320
+Quindi qui dico doppi apici del mondo.
+
+47
+00:03:01,410 --> 00:03:07,650
+Puoi anche avere una frase intera che non ha bisogno di essere solo una parola quindi possiamo dire che questa è anche una stringa.
+
+48
+00:03:07,920 --> 00:03:09,200
+Quindi abbiamo una frase intera lì.
+
+49
+00:03:09,240 --> 00:03:13,350
+E gli spazi bianchi contano come caratteri all'interno della stringa.
+
+50
+00:03:13,350 --> 00:03:18,240
+Ora qualcosa che dovremmo notare qui è che possiamo combinare citazioni singole e virgolette.
+
+51
+00:03:18,240 --> 00:03:26,820
+Quindi se io e dico qualcosa come ad esempio sto andando di corsa.
+
+52
+00:03:26,820 --> 00:03:28,290
+Quindi cosa sta succedendo qui.
+
+53
+00:03:28,590 --> 00:03:34,430
+Poiché sto usando le virgolette singole all'esterno solo una parte di questo è il momento saliente della sintassi che confonderà
+
+54
+00:03:34,490 --> 00:03:39,660
+Python perché pensa che stai cercando di terminare la stringa qui quando in realtà sto provando a terminare
+
+55
+00:03:39,660 --> 00:03:40,700
+la stringa qui.
+
+56
+00:03:40,710 --> 00:03:43,530
+Quindi se provo a eseguire la cella dirò un errore qui.
+
+57
+00:03:43,530 --> 00:03:44,910
+Sintassi non valida.
+
+58
+00:03:44,910 --> 00:03:53,620
+Quello che voglio veramente fare è racchiuderlo tra virgolette doppie e in questo modo non avrò un errore quando avrò questa
+
+59
+00:03:53,620 --> 00:03:54,860
+citazione singola qui.
+
+60
+00:03:54,970 --> 00:03:59,920
+E poi quando eseguo questo python non ha alcun problema e dice OK, capisco che stiamo provando a
+
+61
+00:03:59,950 --> 00:04:05,590
+fare qui cercando di avere una singola citazione che rimane e che in realtà non fa parte della definizione della stringa.
+
+62
+00:04:05,600 --> 00:04:08,930
+Quindi ora discutiamo effettivamente stampando una stringa.
+
+63
+00:04:08,930 --> 00:04:15,320
+Finora stiamo solo chiedendo la restituzione della stringa e questa è la ragione per cui vediamo e fuori
+
+64
+00:04:15,380 --> 00:04:16,400
+con queste celle.
+
+65
+00:04:16,410 --> 00:04:21,160
+Questo è anche il motivo per cui effettivamente vediamo le virgolette nell'output sotto la cella.
+
+66
+00:04:21,470 --> 00:04:25,490
+Ma possiamo usare la funzione di stampa per stampare effettivamente una stringa.
+
+67
+00:04:25,490 --> 00:04:28,610
+Quindi diremo le stampe ciao.
+
+68
+00:04:28,640 --> 00:04:33,670
+E se gestiamo bene questa nota, in realtà torniamo indietro e non vediamo più l'uscita nella cella.
+
+69
+00:04:33,800 --> 00:04:36,110
+E invece non vediamo più le citazioni stesse.
+
+70
+00:04:36,110 --> 00:04:39,500
+In realtà stiamo solo stampando la stringa vera e propria.
+
+71
+00:04:39,590 --> 00:04:46,070
+E il motivo per cui questo è importante è perché immaginiamo di voler dire ciao mondo
+
+72
+00:04:46,070 --> 00:04:51,280
+uno e poi volevo anche dire ciao mondo due se dovessi farlo.
+
+73
+00:04:51,500 --> 00:04:56,270
+Quello che finisce per accadere è che torno solo l'ultima stringa per vedere tutto.
+
+74
+00:04:56,390 --> 00:05:02,630
+In realtà devo stampare i risultati, quindi dirò che Prince e Raptus in stampa
+
+75
+00:05:02,630 --> 00:05:08,170
+vedono le stampe ciao mondo che stampa e poi saluta Hello World 2.
+
+76
+00:05:08,240 --> 00:05:11,330
+E poi quando corro questo posso vedere gli archi stampati.
+
+77
+00:05:11,540 --> 00:05:13,100
+Quindi non vedo più l'output.
+
+78
+00:05:13,100 --> 00:05:15,180
+In realtà sto solo stampando i risultati.
+
+79
+00:05:15,440 --> 00:05:20,850
+Ora anche il soughing vuole menzionare che ci sono effettivamente sequenze di escape e
+
+80
+00:05:20,900 --> 00:05:25,220
+sequenze di escape come per avere dei comandi speciali all'interno della stringa.
+
+81
+00:05:25,250 --> 00:05:27,690
+Quindi andiamo avanti e diciamo Prince.
+
+82
+00:05:27,890 --> 00:05:29,660
+Ciao mondo.
+
+83
+00:05:29,660 --> 00:05:35,490
+E se eseguo questo, vedo Hello World stampato su una riga, ma in realtà posso aggiungere una sequenza di escape.
+
+84
+00:05:35,600 --> 00:05:42,980
+Quindi sarà un backslash n e quello che fa è fondamentalmente dire a Python hey questo e proprio qui che non
+
+85
+00:05:42,980 --> 00:05:48,830
+è più il personaggio n in realtà voglio che tu a causa di questa barra rovesciata.
+
+86
+00:05:48,980 --> 00:05:50,510
+Tratta questa come una nuova linea.
+
+87
+00:05:51,600 --> 00:05:59,160
+Quindi, se quel personaggio di fuga là sta per dire lo spazio Prince Hello di una nuova linea e quindi del mondo
+
+88
+00:05:59,310 --> 00:05:59,940
+dello spazio.
+
+89
+00:05:59,970 --> 00:06:00,980
+Quindi questo è quello che vediamo qui.
+
+90
+00:06:00,990 --> 00:06:04,320
+Ciao spazio e mondo se voglio che il mondo sia schierato.
+
+91
+00:06:04,350 --> 00:06:04,860
+Ciao.
+
+92
+00:06:05,100 --> 00:06:08,190
+Potrei davvero toccarlo in questo modo.
+
+93
+00:06:08,190 --> 00:06:13,920
+Eseguilo e poi vedo che Hello world in Python sa di non includere questa lettera qui
+
+94
+00:06:13,980 --> 00:06:16,770
+perché è essenzialmente collegata a quella barra rovesciata.
+
+95
+00:06:16,770 --> 00:06:20,200
+Quindi un'altra famosa sequenza di escape è t per tab.
+
+96
+00:06:20,370 --> 00:06:22,030
+E se corro che torno.
+
+97
+00:06:22,050 --> 00:06:23,180
+Ciao scheda.
+
+98
+00:06:23,190 --> 00:06:24,870
+Quindi quattro spazi mondo.
+
+99
+00:06:25,100 --> 00:06:29,550
+Bene, stiamo parlando molto di più di questo quando discuteremo della formattazione della stampa in arrivo.
+
+100
+00:06:29,580 --> 00:06:36,810
+Per ora un'altra funzione incorporata che voglio mostrarti è la funzione Eliane o la funzione di lunghezza.
+
+101
+00:06:36,900 --> 00:06:41,790
+Quindi questo ti permette di controllare la lunghezza della stringa in modo da poter dire ciao e più in alto su questo recupero
+
+102
+00:06:41,790 --> 00:06:44,680
+indietro della lunghezza di 5 perché ci sono cinque caratteri in quella stringa.
+
+103
+00:06:44,790 --> 00:06:50,220
+Se capita che ci sia uno spazio nella stringa, allora dirà che ho fame.
+
+104
+00:06:50,340 --> 00:06:53,390
+Facciamo in modo più ovvio che diremo solo che sono.
+
+105
+00:06:53,450 --> 00:06:54,280
+Noi gestiamo questo.
+
+106
+00:06:54,350 --> 00:06:55,990
+Qui possiamo vedere che ce ne sono quattro.
+
+107
+00:06:56,030 --> 00:06:59,090
+Quindi abbiamo Space am.
+
+108
+00:06:59,140 --> 00:07:02,410
+Quindi conta come una lunghezza di quattro caratteri nella stringa.
+
+109
+00:07:02,420 --> 00:07:03,140
+Tutto ok.
+
+110
+00:07:03,140 --> 00:07:04,370
+Ci fermeremo qui per ora.
+
+111
+00:07:04,390 --> 00:07:08,930
+Nella prossima lezione andremo a riprendere da dove abbiamo interrotto la discussione dell'indicizzazione delle stringhe e del
+
+112
+00:07:08,930 --> 00:07:09,630
+taglio delle stringhe.
+
+113
+00:07:09,650 --> 00:07:10,670
+Ci vediamo lì.

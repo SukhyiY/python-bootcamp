@@ -1,0 +1,587 @@
+1
+00:00:05,370 --> 00:00:07,230
+Bienvenidos a todos en esta conferencia.
+
+2
+00:00:07,260 --> 00:00:11,610
+Vamos a terminar nuestra discusión sobre cadenas hablando de propiedades de cadenas y
+
+3
+00:00:11,610 --> 00:00:12,560
+métodos de cadena.
+
+4
+00:00:12,570 --> 00:00:14,690
+Saltemos a un cuaderno y comencemos.
+
+5
+00:00:14,730 --> 00:00:19,210
+Lo primero que vamos a discutir es la inmutabilidad de las cadenas y la inmutabilidad.
+
+6
+00:00:19,230 --> 00:00:25,240
+Se deriva de la palabra que Mutti básicamente significa imita o no puedes mutar o no puedes cambiar.
+
+7
+00:00:25,280 --> 00:00:26,930
+Voy a mostrarte un ejemplo de esto.
+
+8
+00:00:27,120 --> 00:00:32,330
+Vamos a crear una variable llamada nombre y establecerla igual a Sam.
+
+9
+00:00:32,330 --> 00:00:35,700
+Ahora imaginemos que quiere cambiar este nombre a Pam.
+
+10
+00:00:35,720 --> 00:00:37,910
+Entonces cambia la S por una p.
+
+11
+00:00:38,240 --> 00:00:41,050
+Bueno, puedes pensar que harías algo como esto.
+
+12
+00:00:41,240 --> 00:00:45,830
+Diga el índice del nombre en 0 y luego configúrelo igual a P. Ahora para cuerdas.
+
+13
+00:00:45,860 --> 00:00:46,590
+Lamentablemente, no puede hacer esto si intenta ejecutar este código.
+
+14
+00:00:46,580 --> 00:00:49,330
+Obtendrá un error porque las cadenas son inmutables, lo que significa un
+
+15
+00:00:49,520 --> 00:00:55,580
+objeto de cadena o como un objeto de nivel no admite la asignación de elementos, por lo que no puede tomar uno de estos caracteres.
+
+16
+00:00:55,580 --> 00:00:58,820
+Uno de estos elementos en la cadena y luego intenta reasignarlo de esta manera.
+
+17
+00:00:58,820 --> 00:01:02,510
+Las cadenas simplemente no funcionan de esa manera en Python.
+
+18
+00:01:02,510 --> 00:01:04,580
+Más adelante, aprenderemos sobre otros tipos
+
+19
+00:01:04,580 --> 00:01:09,960
+de datos que admiten la asignación de elementos. Todo esto significa que si queremos reasignar
+
+20
+00:01:09,960 --> 00:01:15,630
+esto para ser felices, básicamente tenemos que crear una nueva cadena y podemos hacerlo con concatenación.
+
+21
+00:01:15,840 --> 00:01:17,070
+Eso es como fusionar dos hilos
+
+22
+00:01:17,070 --> 00:01:22,170
+juntos, así que voy a comentarlo y crear un comentario, simplemente pones una etiqueta hash delante y si ejecutas esto no obtendrás nada.
+
+23
+00:01:22,170 --> 00:01:25,860
+Así que, básicamente, cualquier cosa que la etiqueta hash sea simplemente código comentado que no se ejecuta.
+
+24
+00:01:25,860 --> 00:01:30,420
+Exploremos este ejemplo tratando de crear la cadena Pam utilizando lo que ya tenemos sobre el nombre.
+
+25
+00:01:30,490 --> 00:01:37,060
+Entonces, lo primero que quiero hacer es intentar agarrar a y m.
+
+26
+00:01:37,060 --> 00:01:41,090
+Así que usemos la notación de sectores que aprendimos antes.
+
+27
+00:01:41,260 --> 00:01:44,760
+Comenzaremos en el índice 1 y luego continuaremos hasta el final.
+
+28
+00:01:44,830 --> 00:01:48,970
+Entonces, revisemos eso.
+
+29
+00:01:48,970 --> 00:01:49,990
+OK, así que soy perfecto.
+
+30
+00:01:50,200 --> 00:01:52,100
+Entonces, ¿qué va a firmar esto con algo así como las últimas letras equivale a nombrar uno hasta el final?
+
+31
+00:01:52,120 --> 00:02:01,030
+Entonces, si echo un vistazo a las últimas letras de nuevo, puedo usar la pestaña para autocompletar.
+
+32
+00:02:01,030 --> 00:02:04,510
+así podemos decir las últimas letras P Plus y luego obtenemos Pimm.
+
+33
+00:02:04,510 --> 00:02:11,980
+Aquí dice AM y ahora lo que puedo hacer es concatenar las dos últimas letras y la forma en que lo haces es con el signo más,
+
+34
+00:02:12,070 --> 00:02:20,940
+Entonces esto se conoce como concatenación de cadenas.
+
+35
+00:02:20,950 --> 00:02:22,960
+Exploremos un par de ejemplos más.
+
+36
+00:02:23,230 --> 00:02:25,260
+Voy a decir que x es igual a Hello World.
+
+37
+00:02:25,270 --> 00:02:31,050
+Y luego podría decir que X plus es hermoso.
+
+38
+00:02:33,360 --> 00:02:39,240
+Fuera y luego si ejecuto esto puedo ver Hello world.
+
+39
+00:02:40,290 --> 00:02:44,040
+Es hermoso afuera.
+
+40
+00:02:44,040 --> 00:02:45,420
+y no hay espacio al principio.
+
+41
+00:02:45,510 --> 00:02:49,770
+Algo a tener en cuenta es que no hay espacio aquí porque no había espacio al final del Mundo
+
+42
+00:02:49,770 --> 00:02:52,120
+Así que sería bueno si agregas un poco de espacio allí.
+
+43
+00:02:52,320 --> 00:02:54,620
+Entonces cuando ejecutas esto de nuevo hola mundo.
+
+44
+00:02:54,630 --> 00:02:56,930
+Es hermoso afuera.
+
+45
+00:02:56,940 --> 00:02:58,770
+Ahora si hago esto varias
+
+46
+00:02:58,770 --> 00:03:05,310
+veces con una reasignación, entonces podría decir que x es igual a x más, es hermoso afuera.
+
+47
+00:03:05,310 --> 00:03:06,390
+Ahora quiero ejecutar esto. He leído la búsqueda X para poder ver ahora.
+
+48
+00:03:06,390 --> 00:03:09,290
+Hola Mundo.
+
+49
+00:03:09,300 --> 00:03:09,810
+Es hermoso afuera.
+
+50
+00:03:09,810 --> 00:03:11,140
+Si accidentalmente ejecuté esta celda más de una vez, agrego que es hermosa afuera.
+
+51
+00:03:11,220 --> 00:03:16,090
+Por segunda vez.
+
+52
+00:03:16,110 --> 00:03:16,740
+Entonces si ejecuto esto de nuevo
+
+53
+00:03:16,740 --> 00:03:18,000
+Observe cuántos números van a cambiar justo al lado de la celda que dice Hello world.
+
+54
+00:03:18,090 --> 00:03:22,080
+Es hermoso afuera.
+
+55
+00:03:22,080 --> 00:03:22,890
+Es hermoso afuera y podemos seguir haciendo esto y seguir agregando.
+
+56
+00:03:22,890 --> 00:03:26,840
+Entonces esta es una concatenación de cadenas y te permite juntar cadenas rápidamente.
+
+57
+00:03:26,900 --> 00:03:32,360
+También hay multiplicación que podrías hacer para hacer detonaciones de cuerdas múltiples a la vez.
+
+58
+00:03:32,370 --> 00:03:38,250
+Déjame mostrarte cómo se ve eso.
+
+59
+00:03:38,250 --> 00:03:39,590
+Hasta ahora, hemos utilizado el signo más para concatenar dos cadenas juntas o unirlas.
+
+60
+00:03:39,770 --> 00:03:44,610
+Pero si tuvieras la letra igual a Z
+
+61
+00:03:44,820 --> 00:03:52,600
+y Kuechly quisiera 10 Zeese, lo que podrías hacer es decir Carta por 10.
+
+62
+00:03:53,270 --> 00:03:54,290
+Y ahí puedes ver.
+
+63
+00:03:54,650 --> 00:03:55,880
+Alguien que duerme aquí es fácil, es fácil 10 veces.
+
+64
+00:03:56,000 --> 00:03:58,650
+Entonces eso es usar la multiplicación de letras y luego usar un signo más de letras.
+
+65
+00:03:58,880 --> 00:04:03,800
+Algo que debes tener en cuenta cuando realizas detonaciones de cuerdas o multiplicaciones
+
+66
+00:04:03,950 --> 00:04:09,140
+de cuerdas es que obtendrás errores si intentas concatenar un número con una cuerda.
+
+67
+00:04:09,260 --> 00:04:13,790
+Quiero mostrarte lo que quiero decir con eso imagino que estamos haciendo dos más tres.
+
+68
+00:04:13,790 --> 00:04:18,600
+Ejecutamos esto obtenemos 5.
+
+69
+00:04:18,660 --> 00:04:19,880
+Eso tiene sentido si hacemos la cadena para agregar la teoría de cuerdas.
+
+70
+00:04:19,880 --> 00:04:25,740
+Ahora que son cadenas, no los va a unir.
+
+71
+00:04:26,030 --> 00:04:28,520
+En cambio, va a realizar la concatenación.
+
+72
+00:04:28,520 --> 00:04:30,730
+muy cuidadosos con los tipos de datos.
+
+73
+00:04:30,740 --> 00:04:37,820
+Así que aquí ahora recuperamos la cadena 23 y esta es una devolución de llamada a la escritura dinámica donde tuvimos que ser
+
+74
+00:04:37,820 --> 00:04:39,650
+Así que tenga este tipo de
+
+75
+00:04:39,680 --> 00:04:44,780
+problema en cuenta que su usuario puede terminar poniendo cadenas y luego en su código.
+
+76
+00:04:44,780 --> 00:04:45,460
+Si comienza a agregarlos juntos, puede terminar con un resultado inesperado como 23 en lugar de 5.
+
+77
+00:04:45,560 --> 00:04:51,240
+Este es un excelente ejemplo de lo bueno y lo malo de la habilidad de Python para ser
+
+78
+00:04:51,320 --> 00:04:58,070
+muy flexible, por lo que es muy flexible, lo que significa que no se está cometiendo un error aquí, pero tal
+
+79
+00:04:58,070 --> 00:05:02,570
+vez es un poco demasiado flexible porque esperas que 5 y te devolvió 23.
+
+80
+00:05:02,720 --> 00:05:05,480
+evitar este tipo de errores o errores.
+
+81
+00:05:05,600 --> 00:05:10,070
+Más adelante, vamos a aprender sobre muchas más formas en que podemos
+
+82
+00:05:10,070 --> 00:05:11,080
+Continuemos discutiendo algunos métodos de cuerda incorporados.
+
+83
+00:05:11,480 --> 00:05:14,630
+Por lo tanto, los objetos en Python generalmente tienen métodos
+
+84
+00:05:14,840 --> 00:05:20,150
+integrados y estos mismos métodos son esencialmente funciones que están dentro del objeto y más adelante
+
+85
+00:05:20,150 --> 00:05:24,260
+vamos a aprender cómo crear nuestras propias funciones en nuestros propios métodos.
+
+86
+00:05:24,290 --> 00:05:25,350
+Ahora vamos a repasar solo algunos métodos útiles.
+
+87
+00:05:25,470 --> 00:05:29,620
+Voy a crear una nueva cadena, llamémosla X y digamos Hello.
+
+88
+00:05:29,630 --> 00:05:37,150
+y esta es una lista de todos los atributos y métodos que están disponibles en este objeto de cadena.
+
+89
+00:05:38,610 --> 00:05:46,460
+Y si presiono X punto y luego presiono tabulador, debería ver esta lista aparecer en el cuaderno de Júpiter
+
+90
+00:05:46,460 --> 00:05:51,540
+Ahora, nuevamente, asegúrate de que ya has definido X; de lo contrario, no verás nada.
+
+91
+00:05:51,540 --> 00:05:55,240
+Así que asegúrate de ejecutar esa celda que dice X hola
+
+92
+00:05:55,290 --> 00:06:00,630
+mundo y luego una nueva celda diga X esa pestaña de aciertos y deberías ver esta lista.
+
+93
+00:06:00,630 --> 00:06:02,020
+Entonces, como pueden ver, hay muchos métodos aquí y no vamos a analizarlos todos ahora mismo.
+
+94
+00:06:02,110 --> 00:06:06,240
+Vamos a repasar los más útiles que usará más adelante en este curso.
+
+95
+00:06:06,270 --> 00:06:10,440
+Tan rápido todo en mayúsculas en una cadena puede
+
+96
+00:06:11,250 --> 00:06:17,940
+decir apertura superior y paréntesis de cierre y se mayúsculas de todo en la cadena.
+
+97
+00:06:17,940 --> 00:06:20,130
+Tenga en cuenta que este método no está en su lugar.
+
+98
+00:06:20,130 --> 00:06:23,120
+Es decir que en realidad no afecta la cadena original.
+
+99
+00:06:23,130 --> 00:06:26,380
+Si no desea que afecte a la cadena original, tendrá que reasignarla.
+
+100
+00:06:26,520 --> 00:06:29,410
+Tienes que hacer algo como.
+
+101
+00:06:29,410 --> 00:06:30,210
+X es igual al caso de la versión superior de X. Así que tenlo en mente.
+
+102
+00:06:30,240 --> 00:06:34,230
+Estoy buscando ejecutar eso en este momento porque quiero la cadena x original y si accidentalmente hiciste una reasignación siempre
+
+103
+00:06:34,320 --> 00:06:35,000
+puedes decir ejecutar.
+
+104
+00:06:35,010 --> 00:06:39,560
+Hola mundo otra vez.
+
+105
+00:06:39,570 --> 00:06:41,220
+Todo bien.
+
+106
+00:06:41,220 --> 00:06:42,760
+Así que tenemos el método superior, algo que es muy común para los principiantes, ya que un error es que accidentalmente solo hacen las cosas superiores
+
+107
+00:06:42,870 --> 00:06:43,270
+y olvidan esos paréntesis abiertos y cercanos.
+
+108
+00:06:43,470 --> 00:06:48,330
+Y si ejecuta esto, simplemente dirá: "hey, esta es una cadena de función superior" y,
+
+109
+00:06:48,330 --> 00:06:52,670
+básicamente, un Python dice "Oh, no has ejecutado este método o función todavía".
+
+110
+00:06:52,710 --> 00:06:58,650
+En cambio, solo me preguntaste qué era.
+
+111
+00:06:58,740 --> 00:07:03,100
+Así que cuando lo llamas sin abrir y cerrar príncipes y obtienes algo que se parece a esto, significa que
+
+112
+00:07:03,240 --> 00:07:05,520
+no has ejecutado realmente ese método o función para que ocurra.
+
+113
+00:07:05,730 --> 00:07:10,050
+En su lugar, solo le preguntas a Python, oye, qué es esto, porque hay un método superior.
+
+114
+00:07:10,050 --> 00:07:13,690
+También está el método Ilori que va a minúsculas de cada letra que está aquí ahora.
+
+115
+00:07:13,980 --> 00:07:19,540
+H y W son minúsculas.
+
+116
+00:07:19,560 --> 00:07:23,260
+Luego, también está el método de división y el método de
+
+117
+00:07:23,310 --> 00:07:26,500
+división le permite crear rápidamente una lista de una cadena.
+
+118
+00:07:26,530 --> 00:07:34,090
+Entonces aquí podemos decir que tenemos hola y mundo.
+
+119
+00:07:34,090 --> 00:07:34,800
+Ahora todavía no hemos discutido realmente las listas, así que están apareciendo.
+
+120
+00:07:35,670 --> 00:07:38,860
+dividiré una cadena basada en ese espacio en blanco o según la letra que pasen.
+
+121
+00:07:38,910 --> 00:07:41,770
+Entonces, todo lo que quiero que piensen ahora es que si utilizo esa división
+
+122
+00:07:41,820 --> 00:07:48,450
+Así que déjame mostrarte lo que quiero decir con eso.
+
+123
+00:07:48,450 --> 00:07:51,820
+Entonces diré que x es igual a.
+
+124
+00:07:51,840 --> 00:07:53,660
+Hola, esto es una ejecución de cadena y luego, si digo X
+
+125
+00:07:53,940 --> 00:07:56,170
+esa división, recupero todo dividido por el espacio en blanco que me pongo alto.
+
+126
+00:07:56,510 --> 00:07:59,580
+Esta es una cadena muy bien organizada en una lista.
+
+127
+00:08:03,060 --> 00:08:10,630
+Sin embargo, podría pasar cualquier secuencia de caracteres en los que quiera dividirme.
+
+128
+00:08:10,650 --> 00:08:14,060
+Por lo tanto, de forma predeterminada, la división se dividirá en el espacio en blanco, pero en realidad podría dividirse en cualquier letra que desee.
+
+129
+00:08:14,070 --> 00:08:19,350
+Entonces ahora se dividirá en los I's.
+
+130
+00:08:19,560 --> 00:08:25,170
+Entonces, si ejecuto esto, deberías obtener un resultado interesante.
+
+131
+00:08:25,350 --> 00:08:27,970
+Y aquí esencialmente se eliminan todas las i porque
+
+132
+00:08:28,050 --> 00:08:31,100
+se divide en ellas y se incluye otro espacio en blanco.
+
+133
+00:08:31,440 --> 00:08:35,130
+Entonces obtengo H y porque hay uno.
+
+134
+00:08:35,130 --> 00:08:35,810
+Lo elimina y luego obtiene todo hasta la próxima vez que espacio.
+
+135
+00:08:36,030 --> 00:08:38,260
+Y luego hay una o bien quita todo hasta una X I.
+
+136
+00:08:38,310 --> 00:08:42,780
+Que es un espacio S y está aquí y así sucesivamente.
+
+137
+00:08:42,960 --> 00:08:45,900
+En otro yo y una gran porción de cuerda puedo I.
+
+138
+00:08:45,960 --> 00:08:49,880
+Y luego N-G.
+
+139
+00:08:49,910 --> 00:08:53,950
+Así es como puedes usar split para crear rápidamente una lista de una cadena y vamos a estar cubriendo las listas con
+
+140
+00:08:53,970 --> 00:08:54,990
+mucho más detalle más adelante.
+
+141
+00:08:54,990 --> 00:08:59,880
+Próximamente vamos a hablar sobre el formato de cadenas para la impresión.
+
+142
+00:08:59,880 --> 00:09:03,320
+Hay muchos métodos útiles que puede usar para imprimir rápidamente otros objetos a lo largo de sus cadenas.
+
+143
+00:09:03,490 --> 00:09:07,900
+Hasta ahora solo hemos aprendido cómo usar impresiones como una función básica o decimos que imprime hola,
+
+144
+00:09:07,900 --> 00:09:13,870
+pero hay mucho más poder para la función de impresión que todavía no hemos visto, así como también el método de formateo.
+
+145
+00:09:13,870 --> 00:09:18,640
+Así que sigamos y cubramos que la próxima conferencia la verá allí.
+
+146
+00:09:18,640 --> 00:09:23,800
+&nbsp;
+
+147
+00:09:23,800 --> 00:09:26,820
+&nbsp;

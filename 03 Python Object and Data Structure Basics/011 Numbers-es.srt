@@ -1,0 +1,251 @@
+1
+00:00:05,500 --> 00:00:09,720
+Hola, todos bienvenidos a esta conferencia sobre números en Python.
+
+2
+00:00:09,790 --> 00:00:13,960
+Ya mencionamos brevemente que hay dos tipos de números principales, por lo que vamos a trabajar con ellos
+
+3
+00:00:13,960 --> 00:00:18,550
+a lo largo del curso y que son enteros que son números enteros y números de coma flotante que son
+
+4
+00:00:18,550 --> 00:00:19,600
+números de un decimal.
+
+5
+00:00:19,780 --> 00:00:24,100
+Vamos a explorar un poco de matemática básica de python y luego
+
+6
+00:00:24,100 --> 00:00:26,550
+discutiremos cómo crear variables y asignarles valores.
+
+7
+00:00:26,560 --> 00:00:28,800
+Vamos a abrir lo que pones en un libro y comenzar.
+
+8
+00:00:28,810 --> 00:00:33,040
+si alguna vez quiere activar o desactivar esta barra de herramientas o este encabezado, puede simplemente venir aquí.
+
+9
+00:00:33,040 --> 00:00:37,000
+Está bien, así que antes de que comencemos a escribir cualquier código, quería mencionar brevemente que
+
+10
+00:00:37,000 --> 00:00:42,450
+Haga clic en Ver y luego seleccione alternar encabezado o barra de herramientas alternar para activar o desactivar.
+
+11
+00:00:42,460 --> 00:00:45,180
+Y, típicamente, durante las clases voy a tenerlos fuera.
+
+12
+00:00:45,190 --> 00:00:47,700
+Así que tenemos todo el espacio para codificar como sea posible.
+
+13
+00:00:48,100 --> 00:00:53,080
+Comencemos por revisar algunas matemáticas básicas que son bastante sencillas y básicamente es
+
+14
+00:00:53,080 --> 00:00:56,380
+solo usar Python como calculadora si quieres hacerlo.
+
+15
+00:00:56,410 --> 00:01:01,660
+Es solo un signo de suma o un signo más dos más uno si quieres restar que es solo
+
+16
+00:01:01,660 --> 00:01:04,340
+un guion o un signo menos a menos uno.
+
+17
+00:01:04,360 --> 00:01:06,660
+Puedes usar un asterisco para multiplicar.
+
+18
+00:01:06,680 --> 00:01:08,210
+Entonces dos veces dos.
+
+19
+00:01:08,350 --> 00:01:11,180
+Y si quieres realizar una división, eso es solo una barra inclinada.
+
+20
+00:01:11,230 --> 00:01:15,350
+Entonces tres dividido por dos es 1. 5 OK
+
+21
+00:01:15,350 --> 00:01:19,920
+Ahora tomemos un poco de tiempo para analizar una operación matemática que quizás no haya visto antes.
+
+22
+00:01:19,940 --> 00:01:22,310
+Es el operador modular o Ma'at.
+
+23
+00:01:22,310 --> 00:01:26,670
+Y básicamente, lo que hace vuelve el resto después de una división.
+
+24
+00:01:26,840 --> 00:01:32,340
+Por ejemplo, si hiciéramos siete divididos entre cuatro, obtendríamos un punto setenta y cinco.
+
+25
+00:01:32,450 --> 00:01:38,300
+Y si tuvieras que hacer este tipo de uso de las matemáticas de la escuela primaria, dirías siete
+
+26
+00:01:38,300 --> 00:01:43,710
+divididos por cuatro, los siete una vez con un resto de tres porque cuatro más tres siete.
+
+27
+00:01:44,030 --> 00:01:48,190
+Imaginemos que en realidad solo quería saber que el resto es el número tres.
+
+28
+00:01:48,200 --> 00:01:51,180
+En ese caso, puede usar el operador Maat, que es un signo de porcentaje.
+
+29
+00:01:51,530 --> 00:01:57,580
+Entonces vamos a decir 7 modelo cuatro y devuelve tres porque siete dividido por cuatro
+
+30
+00:01:57,580 --> 00:02:01,040
+ingresa al mismo tiempo con un resto de tres.
+
+31
+00:02:01,040 --> 00:02:09,580
+Entonces, por ejemplo, podríamos hacer 50 maade de cinco y si cinco pasa a 50 de manera uniforme, obtendremos un resto de 0, lo que es
+
+32
+00:02:09,580 --> 00:02:15,280
+bueno porque es una manera de verificar si un número es divisible de manera equitativa por otro número.
+
+33
+00:02:15,310 --> 00:02:19,730
+Es un cheque muy conveniente cuando quiere verificar si un número es par o no.
+
+34
+00:02:20,050 --> 00:02:25,490
+Imaginemos que tenemos un número impar 23 y queremos saber si es par o impar.
+
+35
+00:02:25,510 --> 00:02:30,700
+Bueno, podría verlo, pero tal vez en algún momento de mi código esté disimulado como una variable
+
+36
+00:02:30,700 --> 00:02:36,940
+y realmente necesito verificar rápidamente si es par o impar, de una forma que podría hacer esto es simplemente con
+
+37
+00:02:36,940 --> 00:02:43,930
+un mod 2 y sé que si maade a da como resultado algo distinto de 0, entonces tenemos un número impar porque tenemos
+
+38
+00:02:43,930 --> 00:02:44,730
+un número par.
+
+39
+00:02:44,740 --> 00:02:46,260
+Entonces cuando lo dividas por dos.
+
+40
+00:02:46,270 --> 00:02:49,570
+No debe haber resto o el resto debe ser cero.
+
+41
+00:02:49,570 --> 00:02:51,140
+Entonces ese es el operador de nuevo.
+
+42
+00:02:51,160 --> 00:02:54,420
+Simplemente le devuelve el resto después de realizar una división.
+
+43
+00:02:54,520 --> 00:02:56,950
+Continuemos con todo lo demás sobre aritmética.
+
+44
+00:02:56,950 --> 00:03:02,760
+También puede realizar potencias para que pueda hacer algo así como dos con el poder de tres.
+
+45
+00:03:02,830 --> 00:03:04,770
+Entonces eso son solo dos signos de Asterix seguidos.
+
+46
+00:03:04,960 --> 00:03:07,050
+Entonces para el poder tres Eso es ocho.
+
+47
+00:03:07,690 --> 00:03:10,660
+Y luego también puede realizar el orden de las operaciones.
+
+48
+00:03:10,660 --> 00:03:18,380
+Imaginemos que tengo la siguiente ecuación 2 más 10 multiplicada por 10 más tres.
+
+49
+00:03:18,460 --> 00:03:20,810
+Si corro eso podría recuperar 105.
+
+50
+00:03:21,130 --> 00:03:26,920
+Pero qué pasaría si realmente quisiera tener dos más 10 primero y luego multiplicarlo por el resultado de
+
+51
+00:03:26,920 --> 00:03:27,880
+10 más tres.
+
+52
+00:03:27,880 --> 00:03:32,920
+En este momento estamos siguiendo el orden básico de operaciones con las matemáticas que van a realizar
+
+53
+00:03:32,920 --> 00:03:34,860
+esta multiplicación antes de hacer esta adición.
+
+54
+00:03:35,080 --> 00:03:39,180
+Entonces está ejecutando diez veces diezcientas más dos más tres.
+
+55
+00:03:39,200 --> 00:03:42,130
+Entonces nuestras operaciones ocurren primero de la manera que queremos.
+
+56
+00:03:42,130 --> 00:03:43,640
+Podemos usar paréntesis.
+
+57
+00:03:43,840 --> 00:03:49,920
+Puedo decir que dos más 10 multiplicados por una impresión ve 10 más tres.
+
+58
+00:03:50,070 --> 00:03:53,270
+Y si corro eso, vuelvo a 156 como quiero.
+
+59
+00:03:54,190 --> 00:03:57,900
+OK, así que eso es lo básico de la aritmética y usar Python como calculadora.
+
+60
+00:03:57,910 --> 00:03:59,610
+Espero que sea bastante sencillo.
+
+61
+00:03:59,620 --> 00:04:04,720
+Próximamente vamos a ampliar esto mostrándote cómo puedes realizar asignaciones de variables que es
+
+62
+00:04:05,080 --> 00:04:09,070
+crear tu propio nombre de variable y luego asignarle un objeto.
+
+63
+00:04:09,100 --> 00:04:10,420
+Te veremos allí en la próxima conferencia.

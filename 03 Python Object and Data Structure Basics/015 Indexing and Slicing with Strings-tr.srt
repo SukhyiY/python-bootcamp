@@ -1,0 +1,507 @@
+1
+00:00:05,640 --> 00:00:06,900
+Herkese hoş geldiniz.
+
+2
+00:00:07,170 --> 00:00:11,460
+Bu derste son kez durduğumuz yerden devam edeceğiz ancak dizin endeksleme ve
+
+3
+00:00:11,520 --> 00:00:16,950
+dilimleme indekslemeyi tartışacağız ya da tek bir karakter kapacağız ve bu dizenin bir alt bölümünü
+
+4
+00:00:17,100 --> 00:00:20,920
+dilimleyeceğiz ya da kapacağız Jüpiter not defterine atlayalım ve Başlamak.
+
+5
+00:00:21,210 --> 00:00:27,180
+Tamam bu yüzden tüm başlamak için benim dize adlı bir değişken oluşturacağım gidiyorum ve
+
+6
+00:00:27,180 --> 00:00:30,270
+bunu Merhaba dünya dizesine eşit keyif aldım.
+
+7
+00:00:30,270 --> 00:00:36,150
+Merhaba dünya arasında orada bir boşluk var ve bunu yapmak için sadece kontrol ediyorum.
+
+8
+00:00:36,430 --> 00:00:36,680
+TAMAM.
+
+9
+00:00:36,690 --> 00:00:37,610
+Yani merhaba dünya var.
+
+10
+00:00:37,610 --> 00:00:39,540
+Gitmeye hazırlar.
+
+11
+00:00:39,560 --> 00:00:40,360
+Şimdi hayal edelim.
+
+12
+00:00:40,380 --> 00:00:44,130
+Bu dizeden tek bir karakter kapmak istedim.
+
+13
+00:00:44,190 --> 00:00:46,800
+Bu durumda endeksleme kullanmak istiyorum.
+
+14
+00:00:46,800 --> 00:00:48,660
+Bu yüzden, değişken adını çağırırız.
+
+15
+00:00:48,870 --> 00:00:50,670
+Kare parantezlerimiz var.
+
+16
+00:00:50,760 --> 00:00:56,520
+olan H, endeksleme sıfırdan başlar ve bu ilk karakteri döndürmeme izin verir h.
+
+17
+00:00:56,520 --> 00:01:01,890
+Ve ben s başlığın ilk karakterini kapmak istediğimi hayal edelim, ben pasan 0
+
+18
+00:01:01,890 --> 00:01:03,690
+Başka bir karakter kapmaya çalışalım.
+
+19
+00:01:03,690 --> 00:01:05,540
+Diyelim ki bizimkileri kapmak istiyoruz.
+
+20
+00:01:05,640 --> 00:01:13,120
+O halde bunu dize getirelim ve 0 0 1 2 3 4 5'den saymak istiyoruz.
+
+21
+00:01:13,120 --> 00:01:16,580
+Bu yüzden alan sayımlarına dikkat edin 6 7 8.
+
+22
+00:01:16,950 --> 00:01:21,500
+Yani ben 8 geçmek orada dönmek mükemmel olmasıdır.
+
+23
+00:01:21,510 --> 00:01:24,010
+Yine bu indeksleme olarak bilinir.
+
+24
+00:01:24,010 --> 00:01:27,860
+Şimdi bu L harfi tutmak istediğimizi düşünelim.
+
+25
+00:01:28,090 --> 00:01:29,790
+Aslında bunu yapmanın iki yolu var.
+
+26
+00:01:29,860 --> 00:01:36,970
+Dize dokuzda diyebilirim çünkü bundan sonra, daha önce bahsettiğim ters indekslemeyi kullanıp
+
+27
+00:01:37,090 --> 00:01:39,480
+yapabileceğim başka yol bu.
+
+28
+00:01:39,700 --> 00:01:46,090
+0'dan başlayarak 0'dan başlayarak geriye geriye doğru gidebilirim, böylece D negatif 1 olur ve bu
+
+29
+00:01:46,180 --> 00:01:47,930
+L negatif 2 demektir.
+
+30
+00:01:48,190 --> 00:01:54,220
+Demek ki dize negatif iki diyorum, aslında o L'yi geri alacağım ve geride
+
+31
+00:01:54,220 --> 00:01:58,640
+geriye doğru devam edersem, L'den önce olanları geri alacağım.
+
+32
+00:01:58,660 --> 00:02:00,700
+Böylece geri döneceğim ve oradayız.
+
+33
+00:02:00,700 --> 00:02:07,770
+Dize öğeleri veya karakterleri kapmak için hem pozitif hem de negatif dizin konumlarını kullanabilirsiniz.
+
+34
+00:02:07,960 --> 00:02:12,550
+Ve bu gerçekten çok yararlıdır, çünkü bazen değişken bir dize sahip olacaksınız, belki de birisinin adı
+
+35
+00:02:12,550 --> 00:02:14,700
+ve bu adın ne kadar büyük olduğunu bilmiyorsunuzdur.
+
+36
+00:02:14,860 --> 00:02:19,120
+Ancak ismin son harfini tutmak istediğiniz herhangi bir nedenle, her zaman olumsuz olanı
+
+37
+00:02:19,120 --> 00:02:19,600
+kullanabilirsiniz.
+
+38
+00:02:19,630 --> 00:02:21,830
+Ve bunun, ipin son harfi olduğunu da biliyorsun.
+
+39
+00:02:22,880 --> 00:02:23,230
+TAMAM.
+
+40
+00:02:23,290 --> 00:02:28,600
+devam edelim, bu nedenle dilimleme işlemi biraz daha karmaşıktır çünkü dizede bir alt bölüm kapıyoruz.
+
+41
+00:02:28,600 --> 00:02:30,850
+Şimdi devam edelim ve dilimlemeyi tartışmaya
+
+42
+00:02:30,850 --> 00:02:33,850
+Dolayısıyla tipik olarak birden fazla karakter.
+
+43
+00:02:33,850 --> 00:02:41,370
+Dize burada benim dize gözden geçirelim merhaba dünya ve benim dize bulacaksınız okumak için gidiyorum.
+
+44
+00:02:41,440 --> 00:02:47,330
+Dolayısıyla, bu bir b c d e f g h i j k olarak takip etmek biraz daha kolaydır.
+
+45
+00:02:47,410 --> 00:02:50,500
+Dolayısıyla bir çeşit alfabe bulacaksınız.
+
+46
+00:02:50,830 --> 00:02:53,520
+Ve şimdi bu alfabe dizilim var.
+
+47
+00:02:53,890 --> 00:02:59,920
+Öyleyse, bir alt dizeyi belirli bir dizine başlayan ve daha sonra sonuna kadar devam eden bir dize
+
+48
+00:02:59,920 --> 00:03:01,470
+kapmak istediğimizi hayal edelim.
+
+49
+00:03:01,780 --> 00:03:07,840
+Bunu yapmanın yolu, dize kare Brecken notasyonu diyebiliriz ve ardından başlangıç
+
+50
+00:03:07,900 --> 00:03:08,950
+​​endeksi söyleyebiliriz.
+
+51
+00:03:08,950 --> 00:03:12,850
+C harfinden başlamak ve sonra da sonuna kadar gitmek istediğinizi düşünelim.
+
+52
+00:03:12,850 --> 00:03:16,950
+Yani C bir indeks de çünkü 0 1 2.
+
+53
+00:03:16,960 --> 00:03:19,900
+Yaptığım şey, yaparsam yapacağım.
+
+54
+00:03:19,930 --> 00:03:27,480
+Bana C harfini geri veriyor ancak eğer C'den sonuna kadar herşeyden istiyorsanız, iki nokta üst üste diyebilirim ve
+
+55
+00:03:27,570 --> 00:03:30,890
+bu, Colon'un yanında başlayıp bitmeye işaret ettiğini belirtir.
+
+56
+00:03:31,040 --> 00:03:34,880
+Ve orada CD var K tamamına kadar tüm yol.
+
+57
+00:03:35,090 --> 00:03:40,880
+Şimdi, her şeyi, benim dize iki nokta üstüste söyleyebileceğim belirli bir
+
+58
+00:03:40,910 --> 00:03:49,200
+dizine kadar kapmak istediğim ve bir b ve c'yi kapmak istediğimi varsayalım, ters bir durum düşünelim. Bu yüzden baştan başlayıp başlıca D harfine kadar kapınız.
+
+59
+00:03:49,370 --> 00:03:55,440
+Böylece 0 1 2 3 pasand 3 diyeceğim.
+
+60
+00:03:55,680 --> 00:04:01,090
+Sonra bunu çalıştırıp ABC'ye geri döndük.
+
+61
+00:04:01,490 --> 00:04:03,880
+Şimdi bu öğrenciler için bazen kafa karıştırıcıdır, çünkü dize göz attığımız için.
+
+62
+00:04:04,130 --> 00:04:09,320
+Teknik olarak D'yi 3'e çıkardık çünkü 0 1 2 3.
+
+63
+00:04:09,320 --> 00:04:15,120
+Dikkat etmeniz gereken nokta, bu terimlerin burada durduğu endeks, ABC'yi geri getiren üç için buradadır,
+
+64
+00:04:15,140 --> 00:04:20,470
+ki bu, yukarı indeksin temelde söylediklerine göre gidip ancak bu endeks pozisyonunu içermeyeceğini söylüyor.
+
+65
+00:04:20,530 --> 00:04:26,920
+Dolayısıyla D harfine gidin ancak aslında A B C yazan kısmı
+
+66
+00:04:27,170 --> 00:04:34,040
+eklemeyin çünkü bir dilim gösterimi etrafında oynarken tür göz önünde bulundurun.
+
+67
+00:04:34,040 --> 00:04:36,210
+Dur sonuna kadar tamam değil de dahil
+
+68
+00:04:36,230 --> 00:04:43,360
+olmak üzere, bir alt bölüm veya ortadaki bir dize tutmaya çalışarak bir başlangıç ​​indeksinin ve dur dizininin bu iki fikrini birleştirelim.
+
+69
+00:04:43,360 --> 00:04:47,160
+Örneğin, D E F'yi dize ortasından,
+
+70
+00:04:47,230 --> 00:04:54,250
+bunu yapabildiğimiz şekilde yakalamaya çalışalım; bu, dize açık kare parantezlerimizi söylemek
+
+71
+00:04:54,250 --> 00:05:01,000
+ve daha sonra, bu durumda D harfi Exposition'da başlayarak başlıyoruz.
+
+72
+00:05:01,000 --> 00:05:01,530
+istiyoruz.
+
+73
+00:05:01,750 --> 00:05:11,060
+Öyleyse 0 1 2 3, sonra iki nokta üstüste diyelim ve daha sonra buraya G pozisyonuna gidecek, çünkü sadece DPF
+
+74
+00:05:11,060 --> 00:05:12,560
+Bu yüzden G.'ye dahil olmayacak ama gideceğiz.
+
+75
+00:05:12,560 --> 00:05:14,970
+Yani 0 1 2 3 4 5 6.
+
+76
+00:05:15,200 --> 00:05:20,910
+Ve şimdi şunu çalıştırırsam geri dönerim.
+
+77
+00:05:20,980 --> 00:05:23,840
+Dize bir başka alt bölüm kapmaya çalışarak bunu bir kez daha uygulayalım.
+
+78
+00:05:23,860 --> 00:05:27,720
+Örneğin, b ve c'yi kapatıp, bu iki harfi bc'ye
+
+79
+00:05:27,910 --> 00:05:34,810
+çekmeye çalışalım, bu yüzden bunu yapabiliriz, çünkü dize yazarız açık ve kapalı köşeli ayraçlar çözümde başlar
+
+80
+00:05:35,170 --> 00:05:42,790
+B kolonu için 0 1'dir ve daha sonra 0 1 2 3'e kadar gitmek ve bunu çalıştırmak.
+
+81
+00:05:42,790 --> 00:05:49,310
+Ve B C var ve ben bir alt bölüm kapmaya çalışmaya teşvik ediyorum.
+
+82
+00:05:49,680 --> 00:05:54,810
+Bu yüzden True, telin bir alt bölümüdür ve onu
+
+83
+00:05:54,810 --> 00:05:59,940
+yakalayıp seçemeyeceğinizi görmek olumlu bir görünümde görünüp bunu deneyin.
+
+84
+00:05:59,940 --> 00:06:00,560
+Tartışmalarını tamamlamak için Tamam adım boyutunu hızlı bir şekilde tartışalım.
+
+85
+00:06:00,840 --> 00:06:04,450
+Dize başından sonuna kadar her şeyi kapmak istediğimi düşünelim.
+
+86
+00:06:04,740 --> 00:06:09,450
+Teknik olarak bu sadece dizenin kendisidir ancak bunun için iki
+
+87
+00:06:09,660 --> 00:06:14,580
+nokta üstüste işareti diyebileceğim iki nokta üstüste ifadesini de kullanabilirim.
+
+88
+00:06:14,580 --> 00:06:16,110
+Ve bu temel olarak baştan sona tüm yol boyunca sonuna kadar diyor.
+
+89
+00:06:16,110 --> 00:06:20,280
+Artık bunu sıklıkla görmüyorsunuz çünkü dize sadece kendisini de arayabilirsiniz.
+
+90
+00:06:20,280 --> 00:06:23,670
+Ancak bu teknik olarak geçerli sözdizimi.
+
+91
+00:06:23,790 --> 00:06:26,370
+Bunun gibi bir şey görebilmenizin
+
+92
+00:06:26,370 --> 00:06:31,170
+nedeni, eğer birisi üçüncü parametreyi belirtmek isterse adım boyutudur.
+
+93
+00:06:31,170 --> 00:06:32,490
+Şu an
+
+94
+00:06:32,730 --> 00:06:38,070
+biz başından sonuna ve birinin adım boyutuna kadar gitmeyi söylüyoruz.
+
+95
+00:06:38,070 --> 00:06:39,340
+Yani varsayılan adım boyutu 1'dir.
+
+96
+00:06:39,360 --> 00:06:41,450
+Ancak bunu iki gibi bir sayı sağlayarak değiştirebilirim.
+
+97
+00:06:41,460 --> 00:06:44,560
+Ve bu iki atlamaya gitmek olduğunu söylüyor.
+
+98
+00:06:44,760 --> 00:06:46,640
+Dolayısıyla bir gidilecek yerden C E'den G'ye.
+
+99
+00:06:46,650 --> 00:06:50,690
+Tamam, eğer ben bunu çalıştırırsam bir CEGIK'e kavuşacağım, çünkü adım
+
+100
+00:06:50,760 --> 00:06:59,610
+adım iki adım atlarsam bunu üç basamaklı bir büyüklük olarak artırabilirim ve sonra bir atlamadan d atlamaya başlayacağız G atlamayı J .
+
+101
+00:06:59,610 --> 00:07:07,910
+Ve sonra atlamak için daha fazla mektup yok, çünkü daha büyük bir adım boyutuna atlıyoruz.
+
+102
+00:07:07,920 --> 00:07:11,710
+Adım boyutu böyle işe yarar.
+
+103
+00:07:11,730 --> 00:07:13,410
+Ve bunu bir başlangıç ​​ve durdurma ile birleştirebilirsiniz.
+
+104
+00:07:13,410 --> 00:07:16,480
+boyutuna kadar gitmek gibi bir şey söyleyebiliriz.
+
+105
+00:07:16,620 --> 00:07:22,830
+Bu nedenle dizinden başlayıp dizin 7'ye ve CGM'yi geri almak için bir adım
+
+106
+00:07:23,190 --> 00:07:25,220
+Böylece C sonra E'ye atladı ve sonra G'ye atladı.
+
+107
+00:07:25,230 --> 00:07:28,580
+Bu yüzden bunların hepsinin birlikte nasıl çalıştığını fark edin.
+
+108
+00:07:28,590 --> 00:07:30,690
+Bir duruşa başladınız ve daha
+
+109
+00:07:30,690 --> 00:07:37,630
+sonra bir adım büyüklüğünde bir şey göreceğiniz bir dize tersine çevirmek için zekice bir adım çok hüner kullanıyor.
+
+110
+00:07:37,630 --> 00:07:39,930
+Yapabileceğiniz şey, ipimi söylemek
+
+111
+00:07:40,200 --> 00:07:45,510
+ve baştan sona tüm yol boyunca sonuna dek söylemek.
+
+112
+00:07:45,510 --> 00:07:46,050
+kadar deyin.
+
+113
+00:07:46,260 --> 00:07:51,900
+Negatif 1 adım büyüklüğüne atın ve ne yapar, aslında dizenizi tersine çevirmek için baştan sona sonuna
+
+114
+00:07:51,900 --> 00:07:55,150
+Git ve geri adım at, o zaman K J. olur.
+
+115
+00:07:55,230 --> 00:07:59,000
+BEN.
+
+116
+00:07:59,020 --> 00:07:59,370
+Sonuna kadar.
+
+117
+00:07:59,370 --> 00:08:00,590
+Yani bu biraz bir Python hüneridir.
+
+118
+00:08:00,660 --> 00:08:02,360
+Şimdi insanlar çoğunlukla röportajlarda bir dizgeyi tersine çevirmek
+
+119
+00:08:02,360 --> 00:08:06,960
+istiyorlar ve söyledikleri Python'dan rahatsız oluyorlar çünkü çünkü bir for döngüsü yerine bu güzel tür kaygan tek bir çizgi yapıyorlar.
+
+120
+00:08:06,950 --> 00:08:11,800
+Ama sadece bunun farkında olmanı istiyorum.
+
+121
+00:08:11,850 --> 00:08:13,620
+Tipik olarak kodumuzda çok fazla kullanılmaz çünkü bir hile daha fazlasıdır.
+
+122
+00:08:13,920 --> 00:08:17,330
+Ama yine de çok faydalı bir şey.
+
+123
+00:08:17,490 --> 00:08:19,990
+TAMAM.
+
+124
+00:08:20,400 --> 00:08:20,890
+Dilimleme ve indeksleme için bu kadar.
+
+125
+00:08:21,030 --> 00:08:24,120
+Bir sonraki aşamada bazı yararlı dize özellikleri hakkında biraz konuşacağız.
+
+126
+00:08:24,120 --> 00:08:27,860
+Onların olup olmadıklarını göreceğiz.
+
+127
+00:08:27,900 --> 00:08:28,580
+&nbsp;

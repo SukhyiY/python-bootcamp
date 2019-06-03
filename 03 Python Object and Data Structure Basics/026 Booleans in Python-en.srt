@@ -1,0 +1,215 @@
+1
+00:00:05,520 --> 00:00:07,260
+Hey they're welcome back in this lecture.
+
+2
+00:00:07,260 --> 00:00:13,170
+We're going to briefly discuss booleans booleans in case you're unfamiliar with the term is basically
+
+3
+00:00:13,230 --> 00:00:17,700
+a term to use for operators that convey either true or false statements.
+
+4
+00:00:17,730 --> 00:00:22,200
+And these are really important later on when we feel of control flow and logic because lots of times
+
+5
+00:00:22,470 --> 00:00:24,900
+we want to check if a certain condition has happened.
+
+6
+00:00:25,050 --> 00:00:29,910
+In other words if a certain condition is true in order to execute some code for example you may want
+
+7
+00:00:29,910 --> 00:00:32,940
+to check hey is my pool empty.
+
+8
+00:00:33,000 --> 00:00:38,720
+If that is true then go ahead and turn on the water to fill up the pool or other things of that nature.
+
+9
+00:00:38,730 --> 00:00:41,540
+So that's why booleans are really important in a lot of titans.
+
+10
+00:00:41,550 --> 00:00:44,730
+We won't be dealing with aliens directly in the terms true and false.
+
+11
+00:00:44,770 --> 00:00:49,720
+We'll actually have comparison operators and logical operators that return a boolean value.
+
+12
+00:00:49,920 --> 00:00:52,590
+So let's very quickly show you what these actually look like.
+
+13
+00:00:52,590 --> 00:00:54,270
+And then we'll explore them later on.
+
+14
+00:00:54,260 --> 00:00:57,420
+And a lot more detail when they come more useful to us.
+
+15
+00:00:57,420 --> 00:00:59,180
+Let's hop over to Jupiter now.
+
+16
+00:00:59,610 --> 00:01:05,640
+OK so billionths there's true and false and in Python you need to make sure that you have capitalized
+
+17
+00:01:05,650 --> 00:01:07,850
+t in order for it to be true.
+
+18
+00:01:07,890 --> 00:01:10,610
+Otherwise if you have a lower case t it's just going to complain.
+
+19
+00:01:10,660 --> 00:01:16,190
+Hey Eithan define this term true because it thinks you're calling a variable instead.
+
+20
+00:01:16,200 --> 00:01:19,290
+Make sure they have capitalized C and it's the same for false.
+
+21
+00:01:19,290 --> 00:01:21,480
+You're going to need to capitalize F for false.
+
+22
+00:01:21,540 --> 00:01:22,690
+So here we have true and false.
+
+23
+00:01:22,710 --> 00:01:27,260
+The mean booleans and we can check their type by saying type.
+
+24
+00:01:27,300 --> 00:01:33,390
+Make sure couple capitalize that T type false and it says B O L for billions and billions is what we're
+
+25
+00:01:33,390 --> 00:01:37,590
+going to be dealing with when we're dealing with logical code in a lot of times we're going to be doing
+
+26
+00:01:37,680 --> 00:01:42,900
+is working comparison operators create booleans and we're going to go over all the comparison operators
+
+27
+00:01:42,900 --> 00:01:46,180
+later on in this course but show you a very simple example.
+
+28
+00:01:46,320 --> 00:01:50,790
+There's comparison operators that check if something is greater than something else so we can say hey
+
+29
+00:01:50,820 --> 00:01:53,130
+is one greater than two.
+
+30
+00:01:53,170 --> 00:01:57,080
+Just a simple mathematical expression there and it returns packable in false.
+
+31
+00:01:57,120 --> 00:01:58,720
+One is not greater than two.
+
+32
+00:01:58,890 --> 00:02:03,060
+And then you can do other things like check for equality with two equal signs instead of just a single
+
+33
+00:02:03,060 --> 00:02:03,800
+equal sign.
+
+34
+00:02:03,990 --> 00:02:05,470
+So as one equal to 1.
+
+35
+00:02:05,640 --> 00:02:07,760
+Run that and it returns true.
+
+36
+00:02:07,800 --> 00:02:12,020
+So these are called comparison operators Ellaby showing you all of them later on this course.
+
+37
+00:02:12,150 --> 00:02:16,380
+But we first have to tell you what they actually are returning which are booleans.
+
+38
+00:02:16,440 --> 00:02:22,200
+All right so those are Blands just simply true and false and the type is b o l will be critical later
+
+39
+00:02:22,200 --> 00:02:24,060
+on in this course.
+
+40
+00:02:24,150 --> 00:02:29,640
+And finally I want to mention that we can use the none key word as a placeholder for an object that
+
+41
+00:02:29,640 --> 00:02:30,930
+we don't want to assign yet.
+
+42
+00:02:31,110 --> 00:02:34,570
+So maybe later on I want to assign a B to something in my code.
+
+43
+00:02:34,590 --> 00:02:38,100
+But right now I just need to have a placeholder for it so I don't get this error.
+
+44
+00:02:38,130 --> 00:02:39,590
+Hey B's not the fine.
+
+45
+00:02:39,780 --> 00:02:42,010
+What I can do is say B is equal to none.
+
+46
+00:02:42,240 --> 00:02:45,330
+The capital and there and it's a none they that type.
+
+47
+00:02:45,330 --> 00:02:49,920
+And we've actually seen that before when we were dealing with in place methods awfullest.
+
+48
+00:02:49,920 --> 00:02:53,440
+Remember that when we sorted the list in place it returned back none.
+
+49
+00:02:53,460 --> 00:02:55,730
+So when I type B here I don't see anything out.
+
+50
+00:02:55,920 --> 00:02:56,760
+But then what's nice.
+
+51
+00:02:56,760 --> 00:02:59,430
+They also don't see the error of it not being the find.
+
+52
+00:02:59,830 --> 00:03:01,800
+OK that's really the basics of booleans.
+
+53
+00:03:01,800 --> 00:03:05,640
+We're going to work on this a lot more later on in the course.
+
+54
+00:03:05,640 --> 00:03:06,540
+I'll see if the next lecture.

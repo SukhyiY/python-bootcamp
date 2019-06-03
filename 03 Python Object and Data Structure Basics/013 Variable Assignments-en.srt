@@ -1,0 +1,495 @@
+1
+00:00:05,550 --> 00:00:06,540
+Welcome back everybody.
+
+2
+00:00:06,630 --> 00:00:10,990
+In this lecture we're going to be discussing variable assignments.
+
+3
+00:00:11,030 --> 00:00:12,750
+Now we just saw how to work with numbers.
+
+4
+00:00:12,770 --> 00:00:14,860
+But what do these numbers actually represent.
+
+5
+00:00:14,870 --> 00:00:16,780
+We had integers and floating point numbers.
+
+6
+00:00:16,800 --> 00:00:19,720
+But you actually have a variable name assigned to them.
+
+7
+00:00:19,880 --> 00:00:24,650
+So it'd be nice if we can assign these particular data types a variable name to easily reference them
+
+8
+00:00:24,650 --> 00:00:25,900
+later on in our code.
+
+9
+00:00:25,940 --> 00:00:33,110
+For example I could say a variable name my underscore dogs is equal to two because I have two dogs.
+
+10
+00:00:33,190 --> 00:00:36,360
+Now there are a couple rules for choosing a variable name in Python.
+
+11
+00:00:36,610 --> 00:00:39,460
+And these rules are that names cannot start for a number.
+
+12
+00:00:39,460 --> 00:00:44,110
+There can also be no spaces in the variable name so you should use an underscore instead.
+
+13
+00:00:44,110 --> 00:00:46,590
+And you also can have any of these symbols in a name.
+
+14
+00:00:46,630 --> 00:00:51,220
+And if you actually forget this list of symbols if you were to type one of these symbols out in a variable
+
+15
+00:00:51,220 --> 00:00:54,100
+name Python would quickly complain and you'd have an error.
+
+16
+00:00:54,100 --> 00:00:55,990
+So you don't need worry about memorizing all these.
+
+17
+00:00:55,990 --> 00:00:59,950
+You'd get the air as you're typing along a few more rules about variable names.
+
+18
+00:00:59,950 --> 00:01:05,130
+It's generally considered best practice according to pep eight that names are lowercase.
+
+19
+00:01:05,140 --> 00:01:08,350
+Now there are situations when you become a more advanced programmer.
+
+20
+00:01:08,470 --> 00:01:12,850
+Where you going to want to have a kind of global variable names in all caps that are used to write your
+
+21
+00:01:12,850 --> 00:01:13,390
+code.
+
+22
+00:01:13,570 --> 00:01:19,000
+But right now in general want to keep our names lowercase and we also want to avoid words that have
+
+23
+00:01:19,000 --> 00:01:24,460
+a special meaning in Python and these are built in keywords like list or as for string.
+
+24
+00:01:24,460 --> 00:01:28,600
+You may be wondering well how the heck am I supposed to know what are the special built in keywords.
+
+25
+00:01:28,600 --> 00:01:33,400
+Luckily any development environment that's designed to work with Python will have syntax highlighting
+
+26
+00:01:33,430 --> 00:01:38,440
+that will alert you that using a built in keyword by highlighting a different color and we'll see an
+
+27
+00:01:38,440 --> 00:01:40,330
+example of that in just a little bit.
+
+28
+00:01:42,060 --> 00:01:46,710
+Before we actually jump to the Jupiter book though I want to mention that Python uses dynamics hyping
+
+29
+00:01:47,130 --> 00:01:52,410
+and this means you can reassign variables to different data types and this makes Python very flexible
+
+30
+00:01:52,410 --> 00:01:53,500
+in assigning data types.
+
+31
+00:01:53,520 --> 00:01:57,960
+And that's actually different than many other programming language that are statically typed.
+
+32
+00:01:57,960 --> 00:02:04,110
+So let me show you an example of what I mean by this in python something like this is totally OK.
+
+33
+00:02:04,310 --> 00:02:09,890
+Here I've assigned my dogs variable name equal to two and then later on in my code I went ahead and
+
+34
+00:02:09,890 --> 00:02:14,720
+reassigned the same variable name my dogs to a completely different data type list.
+
+35
+00:02:14,750 --> 00:02:16,370
+Sammy and Frankie.
+
+36
+00:02:16,490 --> 00:02:20,850
+Now that's totally OK in Python but in other languages that would produce an error.
+
+37
+00:02:20,920 --> 00:02:26,370
+And that's because these other languages are statically typed meaning in the other language such as
+
+38
+00:02:26,370 --> 00:02:32,190
+C plus plus you'd have to say I.A. for integer and then say my dog is equal to whatever integer value
+
+39
+00:02:32,220 --> 00:02:35,000
+want such as 1 and then later on your code.
+
+40
+00:02:35,030 --> 00:02:38,100
+You would not be able to assign a different data type.
+
+41
+00:02:38,100 --> 00:02:42,850
+You would not be able to say My dog is equal to Samie because it's no longer an integer.
+
+42
+00:02:42,870 --> 00:02:44,860
+Now to result in an error.
+
+43
+00:02:44,910 --> 00:02:48,590
+So there are some pros and cons to dynamic typing in Python.
+
+44
+00:02:48,630 --> 00:02:52,600
+The prose is that not having to write out the actual data type.
+
+45
+00:02:52,650 --> 00:02:57,150
+Saves you a lot of time and makes it really easy to quickly produce Python code and it also makes your
+
+46
+00:02:57,150 --> 00:03:00,720
+code very readable because you're just reading that variable name.
+
+47
+00:03:00,720 --> 00:03:05,820
+Now this kind of a double edged sword here because the cons is that this may result in bugs for unexpected
+
+48
+00:03:05,820 --> 00:03:09,960
+data type because you're not having these restrictions of data types especially when you're dealing
+
+49
+00:03:09,960 --> 00:03:11,080
+with user input.
+
+50
+00:03:11,130 --> 00:03:16,660
+You may have unexpected data type show up and that can cause problems later on in your operations.
+
+51
+00:03:17,100 --> 00:03:21,570
+So you should be aware of the data types as you're coding and you can use a special type function that's
+
+52
+00:03:21,570 --> 00:03:26,000
+built into Python to quickly check the type of any variable and will show you how to use that.
+
+53
+00:03:26,010 --> 00:03:28,290
+And just a little bit.
+
+54
+00:03:28,500 --> 00:03:31,830
+All right let's explore all these concepts by jumping to a different book.
+
+55
+00:03:32,730 --> 00:03:36,960
+Ok now that we've seen how to use numbers in Python as a calculator let's see how we can assign names
+
+56
+00:03:36,960 --> 00:03:38,520
+and create variables.
+
+57
+00:03:38,520 --> 00:03:43,590
+We're first going to create a very simple variable called A and set it equal to 5.
+
+58
+00:03:43,980 --> 00:03:47,640
+And now that I've run that anywhere in my code when I call a.
+
+59
+00:03:47,960 --> 00:03:53,820
+It's now assign the variable 5 and I can reassign it simply by saying A is then equal to something else
+
+60
+00:03:53,820 --> 00:03:54,810
+like 10.
+
+61
+00:03:55,260 --> 00:04:02,940
+And now if I check a it has 10 there and I can also add now objects together I could say a plus A.
+
+62
+00:04:02,940 --> 00:04:07,420
+And that's going to result in 20 because 10 plus 10 is equal to 20.
+
+63
+00:04:07,560 --> 00:04:13,260
+And Python also allows you to do reassignments with a reference to the same object.
+
+64
+00:04:13,260 --> 00:04:14,440
+Let me show you what I mean by that.
+
+65
+00:04:14,580 --> 00:04:21,420
+I could say A which is still equal to 10 I could reassign it to be say something like A is equal to
+
+66
+00:04:21,480 --> 00:04:23,140
+a plus A.
+
+67
+00:04:23,400 --> 00:04:28,740
+So what that is saying is take the current value of A which is 10 and reassign it to a plus A.
+
+68
+00:04:28,770 --> 00:04:30,200
+So that's 10 plus 10.
+
+69
+00:04:30,210 --> 00:04:34,660
+So after I run this is now going to be equal to 20.
+
+70
+00:04:34,810 --> 00:04:38,010
+And keep in mind if I were to run this cell a second time.
+
+71
+00:04:38,140 --> 00:04:42,410
+So I noticed the in operator here it's going to go from 40 to 42.
+
+72
+00:04:42,490 --> 00:04:49,570
+If I run a again it's 40 now and you can keep doing this again and again and you'll keep seeing it essentially
+
+73
+00:04:49,810 --> 00:04:51,410
+double each time.
+
+74
+00:04:51,700 --> 00:04:52,960
+So keep that in mind.
+
+75
+00:04:52,960 --> 00:04:57,040
+This is a little different than in a script environment if you're running a high script you don't really
+
+76
+00:04:57,040 --> 00:05:01,320
+see that effect because you'll just have that line once in a cell environment.
+
+77
+00:05:01,330 --> 00:05:03,670
+You'd have to run that cell over and over again.
+
+78
+00:05:04,070 --> 00:05:04,500
+OK.
+
+79
+00:05:04,750 --> 00:05:11,410
+So let's imagine that we don't know what type is a where you can do is use the built in type function
+
+80
+00:05:11,430 --> 00:05:17,200
+so that's t y p e have open in close parentheses and we'll learn how to create our own functions later
+
+81
+00:05:17,200 --> 00:05:18,130
+on.
+
+82
+00:05:18,130 --> 00:05:24,010
+But pasand the variable there do shift enter and you'll get back Python's builtin keyword for what the
+
+83
+00:05:24,010 --> 00:05:24,630
+type is.
+
+84
+00:05:24,640 --> 00:05:27,410
+And in this case it's I.A. because it's integer.
+
+85
+00:05:27,550 --> 00:05:30,310
+Let's reassign it to be a floating point number.
+
+86
+00:05:30,340 --> 00:05:32,070
+So we'll say thirty point one.
+
+87
+00:05:32,110 --> 00:05:36,910
+Let's check the type of that type of a and it returns back that float.
+
+88
+00:05:36,910 --> 00:05:41,980
+So these are the same keywords that we saw when we discuss that table of basic data types.
+
+89
+00:05:41,980 --> 00:05:47,320
+Now as you previously mentioned you want to avoid using built in Python keywords as variable names and
+
+90
+00:05:47,320 --> 00:05:54,310
+the way you could know if that's happening or not is let's say I wanted to start assigning I.A. equal
+
+91
+00:05:54,310 --> 00:05:55,760
+to 4.
+
+92
+00:05:55,810 --> 00:05:57,150
+So notice what's happening here.
+
+93
+00:05:57,160 --> 00:06:01,610
+I have syntax highlighting on I.A. and I didn't get that before with a.
+
+94
+00:06:01,630 --> 00:06:07,150
+So that means that I and t here is a special builtin key word and you shouldn't use it for something
+
+95
+00:06:07,150 --> 00:06:07,750
+like this.
+
+96
+00:06:07,750 --> 00:06:13,390
+So if you ever see that your variable name is having some special highlighting that a normal variable
+
+97
+00:06:13,390 --> 00:06:15,810
+name it doesn't have then you should avoid using this.
+
+98
+00:06:15,820 --> 00:06:18,130
+So definitely don't ever run that.
+
+99
+00:06:18,130 --> 00:06:20,590
+And if you actually ran that as you were following along.
+
+100
+00:06:20,770 --> 00:06:22,930
+Or maybe you made some other re-assignment mistake.
+
+101
+00:06:22,930 --> 00:06:28,270
+You can always come here to kernel and select restart the kernel and that will restart the kernel and
+
+102
+00:06:28,270 --> 00:06:31,630
+it will kind of delete all the variables so all variables will be lost.
+
+103
+00:06:31,660 --> 00:06:36,670
+If you ever have some weird kind of error happening because you reassign something like list or I.A.
+
+104
+00:06:37,030 --> 00:06:38,290
+you can hit restart here.
+
+105
+00:06:38,440 --> 00:06:41,430
+It will restart the kernel and then you'll need to run the cells again.
+
+106
+00:06:41,560 --> 00:06:47,170
+If you're wanted to find anything because if we say here they'll say hey I not define Sin-Eater rerun
+
+107
+00:06:47,170 --> 00:06:49,980
+the cells and then you have 5 again.
+
+108
+00:06:50,420 --> 00:06:56,570
+OK so last thing I want to know is a simple example use variable names.
+
+109
+00:06:56,830 --> 00:07:08,240
+So I will say my income is equal to 100 and then in the cell I will say my tax rate is let's say I have
+
+110
+00:07:08,240 --> 00:07:13,420
+a 10 percent tax rate so 0.1 and I want to figure out what my total taxes paid are.
+
+111
+00:07:13,550 --> 00:07:18,130
+I will say my taxes is equal to my income.
+
+112
+00:07:18,280 --> 00:07:24,600
+Times my tax rate so I have that and Elish check what my taxes are.
+
+113
+00:07:24,600 --> 00:07:25,750
+How much do I owe.
+
+114
+00:07:25,960 --> 00:07:27,240
+I'll check my taxes.
+
+115
+00:07:27,240 --> 00:07:29,040
+And there we have 10.0.
+
+116
+00:07:29,130 --> 00:07:35,880
+So now I can perform logic with variable names and this is a lot more readable than just using integers
+
+117
+00:07:35,880 --> 00:07:36,770
+or floating point numbers.
+
+118
+00:07:36,780 --> 00:07:42,540
+Because now I have this nice almost English sentence that says my taxes equal to my income times my
+
+119
+00:07:42,540 --> 00:07:43,320
+tax rate.
+
+120
+00:07:43,600 --> 00:07:45,990
+OK so we've learned some basic numbers in Python.
+
+121
+00:07:45,990 --> 00:07:49,830
+We've learned how to deal with the tick and we've wrapped it up by learning how to do variable assignment
+
+122
+00:07:50,040 --> 00:07:51,300
+in Python.
+
+123
+00:07:51,300 --> 00:07:53,420
+Up next we're going to learn about strings.
+
+124
+00:07:53,430 --> 00:07:54,190
+I'll see you there.

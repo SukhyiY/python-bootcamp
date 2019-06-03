@@ -1,0 +1,255 @@
+1
+00:00:05,490 --> 00:00:09,770
+Bienvenidos de vuelta a todos a la sección sobre objetos básicos de Python y estructura de datos.
+
+2
+00:00:11,150 --> 00:00:14,900
+Entonces en esta sección del curso vamos a comenzar discutiendo los tipos de datos básicos.
+
+3
+00:00:15,730 --> 00:00:17,590
+Y estos son tus bloques de construcción básicos de código.
+
+4
+00:00:17,620 --> 00:00:22,420
+Al construir piezas de código más grandes, vamos a analizar rápidamente todos los tipos de datos posibles
+
+5
+00:00:22,420 --> 00:00:26,590
+de los que vamos a hablar en esta sección y luego tendremos conferencias que entrarán
+
+6
+00:00:26,590 --> 00:00:28,270
+en más detalles sobre cada uno.
+
+7
+00:00:28,270 --> 00:00:30,990
+Así que no te preocupes por memorizar toda la información que se muestra aquí.
+
+8
+00:00:31,000 --> 00:00:34,930
+y habrá una conferencia sobre cada uno de estos tipos de datos a medida que avancemos a lo largo de esta sección.
+
+9
+00:00:34,930 --> 00:00:36,400
+Esto es más que una descripción general rápida
+
+10
+00:00:37,980 --> 00:00:42,630
+Entonces, los tipos de datos que vamos a discutir son los siguientes en esta tabla. Aquí tenemos el nombre del
+
+11
+00:00:42,630 --> 00:00:44,640
+tipo de datos en la columna de la izquierda.
+
+12
+00:00:44,640 --> 00:00:46,380
+Y luego está el tipo.
+
+13
+00:00:46,380 --> 00:00:51,930
+Entonces, lo que eso significa es que Python tiene una palabra clave interna para este nombre y no vas a obtener el entero entero
+
+14
+00:00:52,200 --> 00:00:56,950
+de la palabra, la palabra entera coma flotante en lugar de eso, Python tiene una especie de palabra clave acortada.
+
+15
+00:00:57,060 --> 00:01:03,900
+Esa es la segunda columna, como I. A. para SDR entero para cadenas, etc. entonces tenemos la columna de descripción
+
+16
+00:01:03,900 --> 00:01:07,650
+y esa va a ser la descripción real del tipo de datos.
+
+17
+00:01:07,650 --> 00:01:09,330
+Entonces, repasemos esto rápidamente.
+
+18
+00:01:09,360 --> 00:01:14,550
+Comenzamos con enteros y esos son solo números enteros básicos como tres trescientos doscientos.
+
+19
+00:01:14,670 --> 00:01:16,380
+Entonces tenemos números en coma flotante.
+
+20
+00:01:16,470 --> 00:01:20,960
+Y esos son números de un punto decimal 2. 3 4. 6 cien punto cero.
+
+21
+00:01:21,150 --> 00:01:25,530
+Y observe aquí que si incluso tiene un cien punto cero que todavía cuenta como un número de
+
+22
+00:01:25,530 --> 00:01:28,970
+punto flotante que ya no es un número entero porque tiene un punto decimal.
+
+23
+00:01:29,130 --> 00:01:34,080
+Luego, después de eso, tenemos cadenas y cadenas en una secuencia ordenada de caracteres.
+
+24
+00:01:34,140 --> 00:01:39,600
+palabras, pero también debes saber que pueden ser números y caracteres extraños dentro de una cadena.
+
+25
+00:01:39,810 --> 00:01:41,940
+Puedes pensar que estas son solo
+
+26
+00:01:41,940 --> 00:01:46,620
+Lo principal que denota una cadena es que tiene comillas dobles o comillas simples.
+
+27
+00:01:46,620 --> 00:01:50,070
+Aquí podemos ver que tenemos hello y comillas dobles Sammy en comillas simples.
+
+28
+00:01:50,070 --> 00:01:53,420
+Tenemos los dígitos de 2000 dentro de comillas dobles.
+
+29
+00:01:53,520 --> 00:01:54,540
+Eso hace una cadena.
+
+30
+00:01:54,540 --> 00:01:57,550
+Ya no es solo un número entero porque tiene comillas dobles a su alrededor.
+
+31
+00:01:57,780 --> 00:02:01,370
+Y luego también puedes ver que tenemos algunos caracteres japoneses dentro de las comillas.
+
+32
+00:02:01,710 --> 00:02:08,190
+objetos de datos porque pueden contener objetos de datos en algún tipo de secuencia o en algún tipo de mapeo.
+
+33
+00:02:08,190 --> 00:02:14,370
+Luego llegamos a las estructuras de datos y las estructuras de datos están un poco más especializadas en tipos
+
+34
+00:02:14,370 --> 00:02:15,620
+de datos básicos y
+
+35
+00:02:16,110 --> 00:02:19,640
+Entonces aquí tenemos listas y estas son una secuencia ordenada de objetos.
+
+36
+00:02:19,680 --> 00:02:24,210
+Aquí podemos ver que hemos podido usar corchetes y comas para tener una secuencia de
+
+37
+00:02:24,210 --> 00:02:27,470
+otros objetos, como el número 10, la cadena de hola.
+
+38
+00:02:27,510 --> 00:02:33,220
+Y luego, el número doscientos punto tres diccionarios es otra estructura de datos que puede almacenar otros tipos de
+
+39
+00:02:33,220 --> 00:02:36,940
+datos, excepto en este caso en lugar de tener una secuencia ordenada.
+
+40
+00:02:37,090 --> 00:02:39,190
+Tienen pares de valores clave desordenados.
+
+41
+00:02:39,250 --> 00:02:42,630
+Y discutiremos con más detalle cómo funcionan los diccionarios.
+
+42
+00:02:42,730 --> 00:02:48,400
+Pero aquí podemos ver que tenemos una clave más que dos puntos y luego un valor y se indica con
+
+43
+00:02:48,490 --> 00:02:53,890
+llaves, en tanto que si se trata de un diccionario en lugar de ser una lista que tiene corchetes,
+
+44
+00:02:53,890 --> 00:02:59,010
+entonces podemos tener algo como nombre y luego dos puntos y luego el valor de ese nombre es Franki.
+
+45
+00:02:59,140 --> 00:03:04,260
+De nuevo hablaremos de los diccionarios con mucho más detalle después de que los diccionarios que tenemos tuplas
+
+46
+00:03:04,260 --> 00:03:08,380
+a veces también se llaman tuplas y estas son secuencias de objetos inmutables ordenadas.
+
+47
+00:03:08,380 --> 00:03:13,570
+Se parecen mucho a las listas, excepto que tienen paréntesis y son inmutables, lo que significa que no puede
+
+48
+00:03:13,870 --> 00:03:16,150
+cambiar un objeto que ya está en esa secuencia.
+
+49
+00:03:16,150 --> 00:03:17,970
+Entonces estaremos discutiendo qué significa inmutable.
+
+50
+00:03:17,980 --> 00:03:23,320
+Y mucho más detalle cuando hablamos de tuplas que de conjuntos que son una colección
+
+51
+00:03:23,320 --> 00:03:24,730
+desordenada de objetos únicos.
+
+52
+00:03:24,730 --> 00:03:27,310
+Y nuevamente hablaremos de eso y de muchos más detalles allí.
+
+53
+00:03:27,340 --> 00:03:30,040
+Un poco similar a un diccionario, pero no tienen pares de valores clave.
+
+54
+00:03:30,040 --> 00:03:33,090
+En cambio, son solo objetos únicos en una colección ordenada.
+
+55
+00:03:33,100 --> 00:03:35,000
+Entonces no tienes ese par de valores clave de dos puntos.
+
+56
+00:03:35,260 --> 00:03:37,410
+Nuevamente lo discutiremos con más detalle más adelante.
+
+57
+00:03:37,630 --> 00:03:43,030
+Luego, finalmente hablaremos de booleanos que son solo valores de valores lógicos que indican verdadero o falso.
+
+58
+00:03:43,030 --> 00:03:47,120
+Observe cómo tenemos capital T en mayúscula F ese tipo de sintaxis es necesaria para Python.
+
+59
+00:03:47,410 --> 00:03:48,830
+Entonces esos son todos los tipos de datos básicos.
+
+60
+00:03:48,860 --> 00:03:53,260
+Nuevamente no se preocupe si no entendió nada de esto o no quiere memorizar nada de esto vamos a tener
+
+61
+00:03:53,260 --> 00:03:57,160
+una conferencia sobre Básicamente cada uno de estos temas con mucho más detalle y le mostraremos cómo puede
+
+62
+00:03:57,160 --> 00:03:58,690
+usar ellos para escribir tu propio código.
+
+63
+00:03:59,520 --> 00:04:00,880
+OK, empecemos.
+
+64
+00:04:00,880 --> 00:04:01,840
+Te veré en la próxima conferencia.

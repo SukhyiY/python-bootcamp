@@ -1,0 +1,251 @@
+1
+00:00:05,500 --> 00:00:09,720
+Herkes Python'daki sayılarla ilgili bu konferansa tekrar hoş geldiniz.
+
+2
+00:00:09,790 --> 00:00:13,960
+Zaten kısaca iki ana sayı çeşidi olduğunu belirttik, bu yüzden ders
+
+3
+00:00:13,960 --> 00:00:18,550
+boyunca çalışacağız ve ondalık sayılar olan tam sayılar ve kayan noktalı sayılar
+
+4
+00:00:18,550 --> 00:00:19,600
+olan tamsayılar.
+
+5
+00:00:19,780 --> 00:00:24,100
+Biraz basit python matematiği üzerinde çalışacağız ve sonra değişkenlerin nasıl
+
+6
+00:00:24,100 --> 00:00:26,550
+oluşturulacağı ve değerler atayacağımızı tartışacağız.
+
+7
+00:00:26,560 --> 00:00:28,800
+Bir kitaba koyduğunuz kitabı açıp başlayalım.
+
+8
+00:00:28,810 --> 00:00:33,040
+çubuğunu veya bu başlığı açıp kapamak isterseniz buraya gelebileceğinizi kısaca belirtmek isterim.
+
+9
+00:00:33,040 --> 00:00:37,000
+Pekala, bu yüzden herhangi bir kod yazmaya başlamadan önce, bu araç
+
+10
+00:00:37,000 --> 00:00:42,450
+Onları açmak veya kapatmak için Görünüm'ü tıklayın ve sonra üstbilgiyi değiştirmek veya araç çubuğunu değiştirmek için seçin.
+
+11
+00:00:42,460 --> 00:00:45,180
+Ve genellikle konferanslar sırasında onları çıkarmaya devam edeceğim.
+
+12
+00:00:45,190 --> 00:00:47,700
+Bu yüzden mümkün olduğunca kodlama için alanımız var.
+
+13
+00:00:48,100 --> 00:00:53,080
+Basit bir matematik üzerinden geçerek başlayalım ve bunu yapmak isterseniz temel
+
+14
+00:00:53,080 --> 00:00:56,380
+olarak sadece Python'u hesap makinesi olarak kullanıyor.
+
+15
+00:00:56,410 --> 00:01:01,660
+Sadece bir ek işareti veya artı işareti iki artı bir çıkarma yapmak istiyorsanız, sadece bir
+
+16
+00:01:01,660 --> 00:01:04,340
+çizgi veya bir eksi işareti eksi biridir.
+
+17
+00:01:04,360 --> 00:01:06,660
+Çarpma için bir yıldız kullanabilirsiniz.
+
+18
+00:01:06,680 --> 00:01:08,210
+İki kere iki.
+
+19
+00:01:08,350 --> 00:01:11,180
+Bölmeyi gerçekleştirmek istersen sadece eğik çizgi oluşturursun.
+
+20
+00:01:11,230 --> 00:01:15,350
+Yani ikiye bölünmüş üç 1'dir. 5 Tamam.
+
+21
+00:01:15,350 --> 00:01:19,920
+Şimdi, daha önce göremediğiniz matematiksel bir işlemi tartışmak için biraz zaman ayıralım.
+
+22
+00:01:19,940 --> 00:01:22,310
+Modüler veya Ma'at operatörü.
+
+23
+00:01:22,310 --> 00:01:26,670
+Ve temelde bu, bölünmeden sonra geri kalanını geri getirir.
+
+24
+00:01:26,840 --> 00:01:32,340
+Örneğin, yedi bölü dörde bölünürsek bir puan geri yetmiş oluruz.
+
+25
+00:01:32,450 --> 00:01:38,300
+Ve eğer bu tür bir ilkokul matematiği kullanacaksanız, yediyi ikiye bölünmüş
+
+26
+00:01:38,300 --> 00:01:43,710
+dört, üç artı üç yedi, çünkü dört artı üç yedi.
+
+27
+00:01:44,030 --> 00:01:48,190
+Aslında sadece geriye kalan üç numarayı bilmek istediğini düşünelim.
+
+28
+00:01:48,200 --> 00:01:51,180
+Bu durumda yüzde işareti olan Maat operatörünü kullanabilirsiniz.
+
+29
+00:01:51,530 --> 00:01:57,580
+Yani 7 model dördüncü olarak söyleyeceğiz ve geri üç döndürür çünkü yedi dört bölü, bir
+
+30
+00:01:57,580 --> 00:02:01,040
+kerede üç geri kalanı ile eşit oranda girer.
+
+31
+00:02:01,040 --> 00:02:09,580
+Mesela beş tane 50 mürekkep yapabiliriz, beşi eşit oranda 50'ye çıkarsa, kalan 0 değeri geri alırız, çünkü bu, bir
+
+32
+00:02:09,580 --> 00:02:15,280
+sayının başka bir sayı ile bölünebilir olup olmadığını kontrol etmenin bir yoludur.
+
+33
+00:02:15,310 --> 00:02:19,730
+Bir numaranın eşit olup olmadığını kontrol etmek istediğinizde bu gerçekten uygun bir kontrol.
+
+34
+00:02:20,050 --> 00:02:25,490
+O halde bir tek numaramız 23 olduğunu düşünelim ve bunun tek veya çok olup olmadığını bilmek istiyoruz.
+
+35
+00:02:25,510 --> 00:02:30,700
+Eh, sadece bakabilir ama belki bir süre benim kodumda bir değişken kılığına girmiş durumda
+
+36
+00:02:30,700 --> 00:02:36,940
+ve bunu yapmanın tek veya tek yolu olup olmadığını hızlı bir şekilde kontrol etmem gerekiyor, bunu yalnızca
+
+37
+00:02:36,940 --> 00:02:43,930
+bir mod 2 ile yapıyorum ve biliyorum ki 0'dan farklı bir sonuç verirse, çift sayılı olması nedeniyle tek sayımız
+
+38
+00:02:43,930 --> 00:02:44,730
+olur.
+
+39
+00:02:44,740 --> 00:02:46,260
+Sonra ikiye bölündüğünde.
+
+40
+00:02:46,270 --> 00:02:49,570
+Hiçbir kalıntı olmamalı veya kalanı sıfır olmamalıdır.
+
+41
+00:02:49,570 --> 00:02:51,140
+Yani operatör tekrar.
+
+42
+00:02:51,160 --> 00:02:54,420
+Bir bölünme gerçekleştirdikten sonra geri kalanı geri verir.
+
+43
+00:02:54,520 --> 00:02:56,950
+Aritmetik ile ilgili herşeyle devam edelim.
+
+44
+00:02:56,950 --> 00:03:02,760
+Aynı zamanda üç yetkiye ikisini de yapabilecek güçler de uygulayabilirsiniz.
+
+45
+00:03:02,830 --> 00:03:04,770
+Yani üst üste sadece iki Asterix işareti var.
+
+46
+00:03:04,960 --> 00:03:07,050
+Yani iktidara üç Bu sekiz.
+
+47
+00:03:07,690 --> 00:03:10,660
+Ve sonra operasyonların sırasını da yapabilirsiniz.
+
+48
+00:03:10,660 --> 00:03:18,380
+Diyelim ki aşağıdaki denklemi 2 artı 10 ile çarpı 10 artı 3 ü var.
+
+49
+00:03:18,460 --> 00:03:20,810
+Koşarsam, 105'e geri dönebilirim.
+
+50
+00:03:21,130 --> 00:03:26,920
+Ama aslında iki artı 10'u elde etmeyi arzuluyorsam, bunu 10 artı üç
+
+51
+00:03:26,920 --> 00:03:27,880
+çarpımla çarpın.
+
+52
+00:03:27,880 --> 00:03:32,920
+Şu anda, bu çarpımı ilk önce bu eklemeyi yapacak olan matematiğin
+
+53
+00:03:32,920 --> 00:03:34,860
+temel işlem sırasını izliyoruz.
+
+54
+00:03:35,080 --> 00:03:39,180
+Böylece on kat on yüz artı iki artı üç gerçekleştiriyor.
+
+55
+00:03:39,200 --> 00:03:42,130
+Böylece operasyonlarımız önce biz onları istediğimiz gibi gerçekleşir.
+
+56
+00:03:42,130 --> 00:03:43,640
+Parantez kullanabiliriz.
+
+57
+00:03:43,840 --> 00:03:49,920
+İki artı 10 ile çarpılarak bir artı 10 artı gördüğümü söyleyebilirim.
+
+58
+00:03:50,070 --> 00:03:53,270
+Ve eğer ben koşarsam, istediğim şekilde 156'ya dönerim.
+
+59
+00:03:54,190 --> 00:03:57,900
+Tamam, böylece aritmetik temelleri ve Python'u bir hesap makinesi olarak kullanıyor.
+
+60
+00:03:57,910 --> 00:03:59,610
+Umarım oldukça basittir.
+
+61
+00:03:59,620 --> 00:04:04,720
+Daha sonra, kendi değişken adınızı yaratan ve ona bir nesne atayan
+
+62
+00:04:05,080 --> 00:04:09,070
+değişken atamaları nasıl gerçekleştirebileceğinizi gösteren bu konuyu genişleteceğiz.
+
+63
+00:04:09,100 --> 00:04:10,420
+Bir sonraki konferansa orada görüşürüz.

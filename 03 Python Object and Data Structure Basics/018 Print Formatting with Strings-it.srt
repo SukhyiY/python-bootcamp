@@ -1,0 +1,727 @@
+1
+00:00:05,580 --> 00:00:06,700
+Bentornati a tutti.
+
+2
+00:00:06,780 --> 00:00:11,020
+Non discutiamo spesso della formattazione delle stringhe per la stampa.
+
+3
+00:00:11,030 --> 00:00:15,590
+Dovrai essere in grado di iniettare una variabile in una stringa per la stampa.
+
+4
+00:00:15,590 --> 00:00:17,560
+Quindi abbiamo già imparato la concatenazione.
+
+5
+00:00:17,690 --> 00:00:22,040
+Ad esempio potresti avere una variabile chiamata mio nome uguale a Jose e vuoi stampare la frase.
+
+6
+00:00:22,040 --> 00:00:23,040
+Ciao Jose.
+
+7
+00:00:23,090 --> 00:00:25,310
+Quindi quello che potresti finire è dire Prince.
+
+8
+00:00:25,460 --> 00:00:30,170
+E poi all'interno di quella funzione di stampa dici ciao e concatenalo con la variabile del mio nome.
+
+9
+00:00:30,170 --> 00:00:34,370
+Ora esistono in realtà diversi modi per formattare stringhe per la stampa di variabili in modo
+
+10
+00:00:34,370 --> 00:00:37,190
+da non dover utilizzare costantemente questa concatenazione o il segno più.
+
+11
+00:00:37,430 --> 00:00:41,840
+E questo in generale è noto come interpellazione a stringhe, che è fondamentalmente solo
+
+12
+00:00:41,840 --> 00:00:47,490
+un modo molto elegante di dire di inserire una variabile in una stringa, quindi esploreremo due metodi per farlo.
+
+13
+00:00:47,510 --> 00:00:52,920
+Uno è il metodo di formattazione e l'altro è il metodo di stringhe che rappresenta letterali stringa formattati.
+
+14
+00:00:53,060 --> 00:00:56,830
+E questo è un metodo più recente per alcune versioni più recenti di Python 3.
+
+15
+00:00:56,870 --> 00:01:01,160
+Personalmente preferisco quel metodo di formattazione, ma andiamo avanti e mostriamo entrambi e puoi
+
+16
+00:01:01,160 --> 00:01:03,200
+decidere qual è il tuo stile.
+
+17
+00:01:03,200 --> 00:01:04,060
+Iniziamo.
+
+18
+00:01:04,240 --> 00:01:04,500
+OK.
+
+19
+00:01:04,520 --> 00:01:10,330
+Iniziamo discutendo il metodo di formattazione e la sintassi di base per questo è che avrai definito
+
+20
+00:01:10,340 --> 00:01:16,400
+la stringa e quindi all'interno della stringa avrai delle parentesi graffe speciali come segnaposto per le variabili
+
+21
+00:01:16,400 --> 00:01:20,950
+che stai per inserire e quindi scrivi la stringa che chiami quel formato.
+
+22
+00:01:21,110 --> 00:01:26,510
+E poi all'interno di questo chiamerai le stringhe o le variabili che vuoi inserire nella
+
+23
+00:01:26,510 --> 00:01:27,400
+tua stringa.
+
+24
+00:01:27,410 --> 00:01:29,590
+Facciamo un sacco di esempi qui.
+
+25
+00:01:29,660 --> 00:01:36,050
+Stiamo partendo dall'esempio più semplice che sta solo dicendo che questa è una stringa che aprirà e chiuderà
+
+26
+00:01:36,050 --> 00:01:37,390
+le parentesi graffe lì.
+
+27
+00:01:37,550 --> 00:01:40,660
+E subito dopo la stringa chiameremo quel formato.
+
+28
+00:01:40,670 --> 00:01:45,840
+Quindi nota come il punto sta toccando la stringa lì e quindi qualsiasi stringa tu voglia inserire.
+
+29
+00:01:45,880 --> 00:01:53,210
+Quindi per renderlo davvero ovvio andrò messo in maiuscolo inserito, esegui questo e vedo che questa è una
+
+30
+00:01:53,540 --> 00:01:54,310
+stringa inserita.
+
+31
+00:01:54,530 --> 00:02:00,650
+Quindi, con il metodo del formato DOT, è stato necessario prendere la stringa e inserirla dove ha visto
+
+32
+00:02:00,650 --> 00:02:01,770
+quelle parentesi graffe.
+
+33
+00:02:01,850 --> 00:02:05,810
+Quindi ci sono molti vantaggi qui e li esamineremo tutti.
+
+34
+00:02:05,810 --> 00:02:10,080
+Un vantaggio è che le stringhe possono essere effettivamente inserite dalla posizione dell'indice.
+
+35
+00:02:10,460 --> 00:02:12,770
+Immaginiamo di voler inserire molte cose.
+
+36
+00:02:12,770 --> 00:02:17,680
+Stiamo andando a dire le parentesi graffe di parentesi graffe di parentesi graffe.
+
+37
+00:02:18,020 --> 00:02:21,380
+Quindi pronuncia quel formato
+
+38
+00:02:23,740 --> 00:02:28,180
+e dì la Fox Brown.
+
+39
+00:02:28,590 --> 00:02:34,560
+Ora, quello che succede è fondamentalmente che il formato inserirà le stringhe nello stesso ordine.
+
+40
+00:02:34,590 --> 00:02:37,620
+Li hai forniti e in queste parentesi graffe.
+
+41
+00:02:37,620 --> 00:02:40,630
+Quindi adesso abbiamo la volpe marrone veloce.
+
+42
+00:02:40,700 --> 00:02:46,200
+Ciò che sarebbe bello è se effettivamente abbiamo questo senso grammaticale che sarà la
+
+43
+00:02:46,290 --> 00:02:53,760
+rapida volpe marrone. Bene, possiamo basarci sulla posizione dell'indice all'interno di questa chiamata di formato che posso fornire
+
+44
+00:02:53,760 --> 00:02:55,800
+quei numeri nell'ordine che voglio.
+
+45
+00:02:55,800 --> 00:02:58,550
+Quindi la prima parola che voglio è in realtà veloce.
+
+46
+00:02:58,590 --> 00:03:02,510
+Quindi questo è anche nell'esposizione perché è 0 1 2.
+
+47
+00:03:02,760 --> 00:03:09,150
+Quindi dirò Ok, prima va qui e poi quello che voglio sarà marrone.
+
+48
+00:03:09,150 --> 00:03:13,810
+Quindi questa è una posizione 1 quindi 0 1 e poi la prima parola.
+
+49
+00:03:13,810 --> 00:03:17,190
+L'indice Fox 0 qui sarà l'ultimo che voglio.
+
+50
+00:03:18,280 --> 00:03:20,200
+E poi quando corro questo torno.
+
+51
+00:03:20,200 --> 00:03:21,930
+La rapida volpe marrone.
+
+52
+00:03:22,000 --> 00:03:24,610
+Ciò che è anche molto bello è che posso effettivamente ripeterli.
+
+53
+00:03:24,670 --> 00:03:31,630
+Quindi, se voglio dire la Fox Fox Fox, posso solo dire che lo 0 0 0 qui è in esecuzione e ora
+
+54
+00:03:31,630 --> 00:03:38,820
+ho la Fox Fox Fox, quindi posso giocare con questo nel caso in cui abbia mai voglia di lavorare al di fuori dell'esposizione.
+
+55
+00:03:38,830 --> 00:03:43,270
+Ora è anche bello che non solo posso chiamare le cose fuori dalla posizione dell'indice.
+
+56
+00:03:43,420 --> 00:03:49,420
+alcuna indicazione che zero è Fox e ha detto che devo guardare qui e dire OK quale è stata la prima parola.
+
+57
+00:03:49,570 --> 00:03:54,700
+Posso anche assegnare loro le parole chiave e poi solo chiamare le parole chiave perché qui mentre sto lavorando
+
+58
+00:03:54,700 --> 00:03:55,730
+con questo non c'è
+
+59
+00:03:55,900 --> 00:03:57,400
+Quello che posso fare è assegnargli parole chiave.
+
+60
+00:03:57,430 --> 00:03:58,330
+Quindi facciamolo.
+
+61
+00:03:58,330 --> 00:04:05,320
+Stiamo impostando le parentesi graffe le parentesi graffe le parentesi graffe le parentesi graffe dicono che il formato e quindi
+
+62
+00:04:05,500 --> 00:04:12,130
+all'interno della chiamata del formato in corso dicono che F è uguale alla stringa Fox in modo da poterlo
+
+63
+00:04:12,130 --> 00:04:21,400
+considerare come un assegnamento di variabile e quindi diremo be è uguale a Brown dirà che que è uguale a quick e quindi posso usare questi
+
+64
+00:04:21,550 --> 00:04:22,980
+nomi di variabili qui.
+
+65
+00:04:23,010 --> 00:04:25,720
+F. B e Q per inserirli.
+
+66
+00:04:25,730 --> 00:04:30,130
+Quindi, fondamentalmente, usando queste parole chiave come nomi di variabili qui e inseriti in quel modo.
+
+67
+00:04:30,130 --> 00:04:36,870
+Quindi, invece di questo in corso, dire che la coda sia.
+
+68
+00:04:37,710 --> 00:04:39,210
+E poi quando corro questo torno.
+
+69
+00:04:39,210 --> 00:04:44,790
+La rapida volpe marrone e questa è ancora più bella di prima, perché è un po 'più leggibile per qualcuno che
+
+70
+00:04:44,790 --> 00:04:45,860
+la usa come ok.
+
+71
+00:04:45,870 --> 00:04:47,290
+Q sta per veloce.
+
+72
+00:04:47,370 --> 00:04:51,130
+Invece di dover guardare indietro e chiedersi OK, anche quello che era in questa posizione.
+
+73
+00:04:51,270 --> 00:04:52,980
+E poi venire qui per formattare.
+
+74
+00:04:53,040 --> 00:04:55,140
+Quindi questo è in grado di utilizzare queste parole chiave.
+
+75
+00:04:55,320 --> 00:04:58,240
+E in realtà lo preferisco davvero così.
+
+76
+00:05:00,170 --> 00:05:05,240
+E cosa c'è di bello in questo anche se, per qualche ragione, volessi dire la
+
+77
+00:05:05,240 --> 00:05:11,860
+Fox Fox Fox, potresti semplicemente digitare F qui in ognuna di queste parentesi e tornare alla Fox Fox Fox.
+
+78
+00:05:11,960 --> 00:05:14,910
+Quindi, usando di nuovo le parole chiave, puoi usare facilmente la ripetizione.
+
+79
+00:05:15,300 --> 00:05:15,620
+OK.
+
+80
+00:05:15,620 --> 00:05:21,140
+fondamentalmente questo ti permette di regolare la larghezza e la precisione del tuo numero in virgola mobile.
+
+81
+00:05:21,140 --> 00:05:26,660
+Per finire la nostra discussione sul metodo forment, voglio parlare brevemente della formattazione float con il metodo
+
+82
+00:05:26,660 --> 00:05:28,140
+del formato DOT e
+
+83
+00:05:28,360 --> 00:05:34,040
+Iniziamo un esempio diciamo che il risultato è uguale a 100 diviso per 7 7 7.
+
+84
+00:05:34,060 --> 00:05:39,900
+Quindi, come ci si può aspettare, questo risultato è un numero con una tonnellata di punti decimali dopo di esso.
+
+85
+00:05:40,090 --> 00:05:44,980
+Bene, possiamo fare è che in realtà, quando stampiamo questo, cambiamo il livello di precisione che
+
+86
+00:05:45,340 --> 00:05:48,260
+vogliamo e anche cambiamo la larghezza del numero stesso.
+
+87
+00:05:49,030 --> 00:05:52,610
+Quindi inizieremo dicendo Prince.
+
+88
+00:05:52,790 --> 00:06:02,820
+risultato è stato e quindi aprire e chiudere le parentesi graffe dire che il formato e poi qui dirà il risultato eseguire questo.
+
+89
+00:06:02,830 --> 00:06:03,220
+Il
+
+90
+00:06:03,220 --> 00:06:04,570
+E vediamo che il risultato è stato.
+
+91
+00:06:04,600 --> 00:06:07,630
+E fondamentalmente questo tipo di grande numero di precisione.
+
+92
+00:06:07,780 --> 00:06:14,170
+Quello che posso fare è dire che R è uguale al risultato e poi passare dentro e sono dentro le parentesi graffe e
+
+93
+00:06:14,170 --> 00:06:15,490
+io ottengo lo stesso risultato.
+
+94
+00:06:15,700 --> 00:06:20,850
+Quindi il modo in cui la formattazione funziona per la formattazione del flauto fino al metodo del punto forment è che
+
+95
+00:06:20,860 --> 00:06:22,760
+passi al valore a cui ti stai riferendo.
+
+96
+00:06:22,780 --> 00:06:25,710
+Quindi in questo caso è qui per vedere il nome del valore attuale.
+
+97
+00:06:25,840 --> 00:06:32,050
+Quindi scrivi due punti e poi scrivi nel valore desiderato punti e poi il valore di precisione desiderato
+
+98
+00:06:32,050 --> 00:06:37,550
+e poi in F e spesso a cui ti interesserai veramente è la precisione effettiva che
+
+99
+00:06:37,570 --> 00:06:42,680
+la larghezza ti consente di aggiungere in alcuni spazi bianchi se hai un valore molto grande.
+
+100
+00:06:42,730 --> 00:06:45,770
+Quindi, facciamo quanto segue, diciamo valore.
+
+101
+00:06:45,850 --> 00:06:47,910
+Quindi questo è il nostro colon.
+
+102
+00:06:48,010 --> 00:06:53,260
+Stiamo andando a impostare il nostro con solo uguale a uno di un punto e quindi il livello di precisione che vogliamo.
+
+103
+00:06:53,260 --> 00:06:56,320
+Quindi questo è principalmente il punto in cui giocherai con questo valore di precisione.
+
+104
+00:06:56,410 --> 00:06:56,970
+Immaginiamo
+
+105
+00:06:56,980 --> 00:06:59,670
+Voglio solo tre posti per passare un punto decimale.
+
+106
+00:06:59,710 --> 00:07:05,080
+Quindi voglio uno due e poi nove perché sarà intorno a quello fino a 9 a causa
+
+107
+00:07:05,080 --> 00:07:14,330
+del 7 proprio accanto ad esso quindi direi 1. 3 se eseguo questo e torno 0. Da 1 a 9.
+
+108
+00:07:14,410 --> 00:07:19,540
+Ora, se gioco con questo valore e lo rendono davvero grande, quello che finisce per accadere è che
+
+109
+00:07:19,540 --> 00:07:21,240
+si finisce per aggiungere spazi bianchi.
+
+110
+00:07:21,280 --> 00:07:27,490
+E il motivo è che con il titolo descrivono per quanto tempo o quanto vuoi che sia
+
+111
+00:07:27,490 --> 00:07:29,000
+l'intero numero di stringa.
+
+112
+00:07:29,080 --> 00:07:34,570
+si finisce per scrivere una tonnellata di spazi bianchi ma ci possono essere alcune situazioni in cui si preferisce modificarlo.
+
+113
+00:07:34,660 --> 00:07:36,170
+Questo non è molto utile perché
+
+114
+00:07:36,400 --> 00:07:40,930
+Quindi è disponibile qui ma spesso quello con cui stai giocando è davvero la
+
+115
+00:07:40,930 --> 00:07:41,460
+precisione qui.
+
+116
+00:07:41,560 --> 00:07:43,310
+Quindi possiamo fare questo cinque.
+
+117
+00:07:43,690 --> 00:07:44,710
+E qui possiamo vedere.
+
+118
+00:07:44,710 --> 00:07:49,950
+Ora stiamo prendendo meno del totale con perché con spazi vuoti perché abbiamo più numeri
+
+119
+00:07:49,950 --> 00:07:54,870
+passano un punto decimale e ciò che si può generalmente mantenere come un unico.
+
+120
+00:07:54,970 --> 00:08:03,120
+Ma andiamo avanti e ti mostriamo un altro esempio che diremo che il risultato è uguale a diciamo 104 punti.
+
+121
+00:08:03,170 --> 00:08:05,130
+Uno due tre quattro cinque.
+
+122
+00:08:05,250 --> 00:08:10,560
+Eseguilo e possiamo vedere qui che anche se dall'altra parte un punto decimale è essenzialmente la
+
+123
+00:08:10,860 --> 00:08:15,020
+stessa cosa e possiamo aggiungerlo e giocare a questo valore in virgola mobile.
+
+124
+00:08:15,370 --> 00:08:18,160
+OK, quindi è float con il punto per un metodo.
+
+125
+00:08:18,210 --> 00:08:24,870
+Ancora una volta è il valore con cui sei veramente e la tua precisione è seguita da F e puoi dare
+
+126
+00:08:24,870 --> 00:08:27,090
+un'occhiata al taccuino per molti altri esempi.
+
+127
+00:08:27,090 --> 00:08:31,310
+Finalmente parleremo delle stringhe f e queste sono stringhe letterali formattate.
+
+128
+00:08:31,420 --> 00:08:36,930
+Questi sono introdotti in Python 3. offrono numerosi vantaggi rispetto a questo metodo di formattazione precedente.
+
+129
+00:08:36,960 --> 00:08:38,790
+6 Quindi sono ancora molto nuovi e
+
+130
+00:08:38,790 --> 00:08:43,890
+Generalmente preferisco il metodo del formato punto, ma molte persone preferiscono questo metodo stringa letterale,
+
+131
+00:08:43,890 --> 00:08:48,690
+specialmente se provengono da altri linguaggi e ti permettono di saltare questo passaggio usando
+
+132
+00:08:48,690 --> 00:08:54,780
+quel formato e invece di scrivere risultati o qualunque nome di variabile tu voglio direttamente all'interno della stringa.
+
+133
+00:08:54,780 --> 00:08:57,970
+Quindi il modo in cui lo facciamo è il seguente metodo che creerà un paio di nuove celle qui.
+
+134
+00:09:00,080 --> 00:09:05,990
+Devo dire che il nome è uguale a Jose.
+
+135
+00:09:06,140 --> 00:09:06,750
+Eseguilo.
+
+136
+00:09:06,950 --> 00:09:11,500
+E poi in genere quello che dovrei fare è salutare.
+
+137
+00:09:11,750 --> 00:09:19,740
+Il suo nome è e poi direi che il nome del formato che eseguo questo e dice Ciao il suo nome è Jose.
+
+138
+00:09:19,970 --> 00:09:27,870
+Bene puoi fare è sostituire la chiamata di formato semplicemente digitando una F davanti alla stringa qui
+
+139
+00:09:27,870 --> 00:09:32,880
+e quindi puoi passare il nome direttamente nella stringa stessa.
+
+140
+00:09:33,090 --> 00:09:35,520
+E se lo gestisci, ottieni lo stesso risultato.
+
+141
+00:09:35,520 --> 00:09:40,340
+Quindi questo è chiamato stringhe F o letterali stringa formattati e questo è nuovo.
+
+142
+00:09:40,350 --> 00:09:42,150
+Python 3. 6.
+
+143
+00:09:42,150 --> 00:09:45,660
+E molte persone hanno richiesto questa funzione per molto tempo perché è abbastanza
+
+144
+00:09:45,660 --> 00:09:46,650
+comune in altre lingue.
+
+145
+00:09:46,650 --> 00:09:50,460
+Ancora perché sono un po 'più vecchia scuola mi sono davvero abituato a questo metodo di formattazione ed è per questo che
+
+146
+00:09:50,460 --> 00:09:51,180
+mi piace così tanto.
+
+147
+00:09:51,180 --> 00:09:55,120
+Ma se vieni da altre lingue ti consiglierei di dare un'occhiata alle corde.
+
+148
+00:09:55,170 --> 00:09:59,370
+Un sacco di gente pensa che sia un enorme miglioramento rispetto al metodo precedente e puoi capire
+
+149
+00:09:59,370 --> 00:10:04,480
+perché è davvero molto comodo essere in grado di scrivere quel nome di variabile direttamente all'interno di queste parentesi graffe.
+
+150
+00:10:06,580 --> 00:10:09,030
+E questo funziona con più variabili.
+
+151
+00:10:09,220 --> 00:10:17,730
+Quindi diciamo che il nome è Sam età è 3.
+
+152
+00:10:18,130 --> 00:10:22,450
+Possiamo dire di stampare F per far sapere a Python la sua stringa f.
+
+153
+00:10:22,670 --> 00:10:23,340
+Bene.
+
+154
+00:10:24,690 --> 00:10:25,960
+In parentesi graffe.
+
+155
+00:10:26,040 --> 00:10:32,250
+Il nome è parentesi graffe h anni.
+
+156
+00:10:32,480 --> 00:10:34,890
+E se gestiamo questo, vediamo che Sam ha tre anni.
+
+157
+00:10:34,970 --> 00:10:39,260
+Quindi questo è un modo davvero carino per fare un'interpellazione di stringhe molto rapidamente
+
+158
+00:10:39,260 --> 00:10:41,880
+che sta semplicemente iniettando queste variabili nella stringa stessa.
+
+159
+00:10:42,290 --> 00:10:42,650
+OK.
+
+160
+00:10:42,710 --> 00:10:45,160
+Queste sono le basi della formattazione delle stringhe.
+
+161
+00:10:45,170 --> 00:10:48,240
+Abbiamo molti più esempi nel notebook nel caso siate interessati.
+
+162
+00:10:48,410 --> 00:10:52,160
+E abbiamo anche esempi di alcuni vecchi metodi di formattazione delle stringhe che tecnicamente funzionano
+
+163
+00:10:52,160 --> 00:10:57,560
+ancora in Python 3 che consiglio vivamente di utilizzare il metodo del formato punto o se ti piace questo nuovo metodo di
+
+164
+00:10:57,560 --> 00:10:57,930
+stringa.
+
+165
+00:10:57,950 --> 00:10:58,930
+Usa anche quello.
+
+166
+00:10:59,120 --> 00:11:03,770
+sacco di esempi di formattazione delle stringhe per la formattazione dei segnaposti, che è qualcosa di cui
+
+167
+00:11:03,770 --> 00:11:09,070
+possiamo parlare in questo video perché è un metodo piuttosto vecchio e Vorrei davvero suggerirti di usarlo, ma puoi
+
+168
+00:11:09,080 --> 00:11:13,220
+anche vedere come può usare la precisione e il padding per i numeri in virgola mobile.
+
+169
+00:11:13,220 --> 00:11:17,920
+Volevo mostrarti brevemente come appare il nopal per questa lezione, quindi puoi vedere qui che abbiamo un
+
+170
+00:11:17,930 --> 00:11:22,730
+Abbiamo anche molti più esempi con il metodo del formato pensato per inserire oggetti
+
+171
+00:11:22,820 --> 00:11:23,910
+da un'esposizione riutilizzandoli.
+
+172
+00:11:23,930 --> 00:11:25,720
+Abbiamo anche precisione degli allineamenti.
+
+173
+00:11:25,730 --> 00:11:29,840
+Quindi tutto questo contiene tutte queste cose che non useremo per tutto il corso, ma
+
+174
+00:11:29,840 --> 00:11:30,900
+è disponibile nella nota.
+
+175
+00:11:31,010 --> 00:11:35,250
+Nel caso in cui tu voglia immergerti davvero in questo argomento, abbiamo molti esempi per te.
+
+176
+00:11:35,540 --> 00:11:36,040
+OK.
+
+177
+00:11:36,290 --> 00:11:40,010
+Ancora una volta tutto ciò che è necessario sapere sulla formattazione delle stringhe per questo corso è
+
+178
+00:11:40,010 --> 00:11:46,010
+che è possibile utilizzare stringhe letterali per iniettare e interpretare le stringhe in questo modo oppure è possibile utilizzare il metodo del formato punto per iniettare le
+
+179
+00:11:46,010 --> 00:11:47,050
+variabili in questo modo.
+
+180
+00:11:47,270 --> 00:11:47,640
+OK.
+
+181
+00:11:47,660 --> 00:11:48,780
+Spero che ti siano utili.
+
+182
+00:11:48,890 --> 00:11:49,910
+Ci vediamo nella prossima lezione.

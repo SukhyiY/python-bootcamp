@@ -1,0 +1,655 @@
+1
+00:00:05,680 --> 00:00:06,760
+Herkese hoş geldiniz.
+
+2
+00:00:06,760 --> 00:00:08,760
+Şimdi sözlükler hakkında konuşma zamanı.
+
+3
+00:00:09,670 --> 00:00:13,270
+Sözlükler nesneleri depolamak için sırasız eşlemelerdir.
+
+4
+00:00:13,270 --> 00:00:16,980
+Daha önce, bir liste kullanarak nesneleri sıralı bir sırayla nasıl saklayacağımızı gördük.
+
+5
+00:00:17,260 --> 00:00:22,050
+Fakat şimdi sözlükler, kardeş nesnelere bunun yerine eşleştirmeyi sağlayan anahtar değer olarak bilinen nesneleri kullanmalarına izin verecek.
+
+6
+00:00:22,270 --> 00:00:27,660
+Ve bu anahtar değer çifti, kullanıcıların tam bir dizin yerini bilmesine gerek kalmadan nesneleri hızla
+
+7
+00:00:27,670 --> 00:00:28,250
+almasını sağlar.
+
+8
+00:00:28,300 --> 00:00:32,500
+Bunun yerine anahtarı çağırırsınız ve o anahtarla ilişkili değeri döndürür.
+
+9
+00:00:33,920 --> 00:00:39,710
+Ve sözlük sözdizimi, bir anahtarla ilişkili değerler arasındaki ilişkileri belirtmek için kıvırcık parantezler ve iki nokta
+
+10
+00:00:39,710 --> 00:00:41,030
+üst üste işareti kullanır.
+
+11
+00:00:41,210 --> 00:00:46,570
+Böylece burada kıvırcık parantezleri görebiliriz ve o zaman anahtarı anahtara sahibiz, o zaman anahtarı anahtarı, birincisi kömürü ve
+
+12
+00:00:46,570 --> 00:00:48,430
+daha sonra buna bağlı değerler nelerdir.
+
+13
+00:00:48,470 --> 00:00:53,720
+Bu durumda, yalnızca değer 1 olarak adlandırılan bir dizede varız ve bir sonraki anahtar değer çifti için virgül var.
+
+14
+00:00:53,720 --> 00:01:00,130
+Şimdi ne zaman bir liste seçersek ve ne zaman bir sözlük seçeriz sorusu hep ortaya çıkıyor.
+
+15
+00:01:00,130 --> 00:01:05,420
+İyi sözlükler bir anahtar adıyla alınan nesnelere sahipler ve sözlükler sıralanmamış ve sıralanamıyor.
+
+16
+00:01:05,590 --> 00:01:11,200
+zaman, tam dizin konumunu bilmeye gerek duymadan değeri hızlı bir şekilde almak istediğiniz zaman olurdu.
+
+17
+00:01:11,200 --> 00:01:13,810
+Dolayısıyla, bir dizini kullanmak için iyi bir
+
+18
+00:01:13,810 --> 00:01:15,840
+Şimdi bu bir sözlükte çok hoş bir özellik.
+
+19
+00:01:15,880 --> 00:01:19,200
+Gerçek dilde bir şeyin nerede olduğunu bilmenize gerek yok aslında.
+
+20
+00:01:19,240 --> 00:01:21,200
+Anahtar değer çiftini öğrenmeniz yeterlidir.
+
+21
+00:01:21,280 --> 00:01:26,770
+Bununla birlikte, bir sözlükte anahtar değer eşlemesi olduğu için bir sözlük
+
+22
+00:01:26,770 --> 00:01:28,080
+sıralamak mümkün değildir.
+
+23
+00:01:28,090 --> 00:01:33,390
+Bu, en verimli göründüğü yerde yeni anahtar değeri çiftleri ekleyeceği anlamına gelir.
+
+24
+00:01:33,600 --> 00:01:39,520
+halde dizilmesini ve sonra sıralanmasını sağlayan konumları temel alan nesneleri elde edebilirsiniz.
+
+25
+00:01:39,520 --> 00:01:42,250
+Öte yandan liste, gerçek listenin dilimlenmiş
+
+26
+00:01:42,250 --> 00:01:44,980
+Bu nedenle, bir sözlük kullanırken bu işlevselliği kaybedeceksiniz.
+
+27
+00:01:45,130 --> 00:01:49,240
+Temel olarak, bir anahtar değer çifti ile bir sözcükten arama yapma ve bir şeyi
+
+28
+00:01:49,450 --> 00:01:54,390
+çok hızlı bir şekilde kapma kolaylığı ile uğraşıyorsunuz ve bunları sıralamanın veya bunlardan bir dizin konumuna sahip
+
+29
+00:01:54,400 --> 00:01:55,030
+olma yeteneğini kaybediyorsun.
+
+30
+00:01:55,390 --> 00:01:59,520
+Tamam, Jupiter defterine atlayarak bu kavramları biraz daha yakından keşfedelim.
+
+31
+00:01:59,920 --> 00:02:03,350
+Nasıl bir sözlük inşa edebileceğinizi göstereceğim.
+
+32
+00:02:03,370 --> 00:02:07,440
+Söyleyerek başlayacağız veya bir nesne oluşturacağız.
+
+33
+00:02:07,480 --> 00:02:13,610
+Sözlüğüm kıvırcık parantezlere sahip olacak ve tuşları tanımlayacak ve böylece tuşların dize olmasını sağlayacak ve istediğimiz
+
+34
+00:02:13,610 --> 00:02:14,810
+her şeyi ararsın.
+
+35
+00:02:14,840 --> 00:02:15,960
+Yani anahtar bir.
+
+36
+00:02:15,980 --> 00:02:18,590
+Sonra da o anahtardan bir miktar değer taşırız.
+
+37
+00:02:18,590 --> 00:02:20,700
+Şimdilik temel dizeleri sadık kalacağım.
+
+38
+00:02:20,760 --> 00:02:24,560
+Sonra virgül var ve yeni bir anahtar değer çifti ekleyebilirsiniz.
+
+39
+00:02:24,750 --> 00:02:28,410
+Yani bir iki nokta üst üste ve bunun için başka bir değer.
+
+40
+00:02:28,620 --> 00:02:30,310
+Tamam, bu yüzden sözlüklerimiz burada.
+
+41
+00:02:31,470 --> 00:02:34,940
+Ve sonra onu tekrar arayacak olursak, tüm sözlüğü alacağız.
+
+42
+00:02:35,070 --> 00:02:38,240
+Ancak gerçekten yapmak istediğimiz, sözlüğün değerlerini yakalamaktır.
+
+43
+00:02:38,490 --> 00:02:43,250
+Dolayısıyla, dizin konumlarını kullanmak yerine hala aynı köşeli ayraçları kullanıyoruz.
+
+44
+00:02:43,260 --> 00:02:46,370
+Ancak şimdi bir değer elde etmek için anahtarı geçelim.
+
+45
+00:02:46,420 --> 00:02:52,380
+Bu değeri ilişkilendirelim, böylece Sözlük Birinci Geçiş diyebiliriz ve biz de bu değeri geri alıyoruz.
+
+46
+00:02:52,380 --> 00:02:54,930
+Bu nedenle, bir sözlük için bir kullanım örneğine iyi bir örnek.
+
+47
+00:02:54,940 --> 00:03:00,190
+Belki bir mağazada fiyatlar gibi bir şey var, bu yüzden fiyat adında bir sözlüğüm olduğunu söyleyebiliriz.
+
+48
+00:03:00,190 --> 00:03:02,170
+Hatta fiyat diyebiliriz.
+
+49
+00:03:02,190 --> 00:03:04,840
+Bakın, bu fiyatlarımız var.
+
+50
+00:03:04,840 --> 00:03:10,240
+Sözlükte arama yapın ve Apple'a ve sonra ilişkili fiyata gibi farklı sözcükleri
+
+51
+00:03:10,240 --> 00:03:12,520
+sözlüğe ekleyebiliriz, böylece Elmalar demek.
+
+52
+00:03:12,760 --> 00:03:18,370
+Fiyatlar ne olursa olsun 2 sterline ve 99 cent'e kadar pounda malolamıyorum.
+
+53
+00:03:18,550 --> 00:03:26,800
+On doksan dokuz olabilen portakalları alamayız ve o zaman biz çikolata sütü ya da bir çeşit
+
+54
+00:03:26,830 --> 00:03:28,960
+süt söyleyelim demek istiyoruz.
+
+55
+00:03:28,990 --> 00:03:33,490
+Ve bu fiyat 5 $ ve 80 cent olacak.
+
+56
+00:03:33,560 --> 00:03:34,490
+Ve işte gidiyoruz.
+
+57
+00:03:34,490 --> 00:03:39,000
+Öyleyse benim sözlük veya bu sözlük ile büyük fiyat aramak olabilir.
+
+58
+00:03:39,080 --> 00:03:41,660
+Bir elmanın fiyatı nedir diye merak ediyorum.
+
+59
+00:03:41,720 --> 00:03:44,450
+Bir elmayı geçirdim ve geri döndü.
+
+60
+00:03:44,450 --> 00:03:45,440
+Gerçek fiyat.
+
+61
+00:03:45,500 --> 00:03:48,380
+Ve şimdi herhangi bir endeks konumu bilgisine ihtiyacımız var.
+
+62
+00:03:48,410 --> 00:03:53,810
+Anahtar değer çiftlerini kullanarak bu nesnelerin herhangi birinin fiyatlarını kolayca alabilirim.
+
+63
+00:03:53,870 --> 00:03:58,240
+Bu nedenle, bir liste gibi bir şey yerine neden sözlüke ihtiyacınız olacağına dair gerçekten güzel bir örnek.
+
+64
+00:03:58,250 --> 00:04:02,840
+verilen değerini hızlı bir şekilde aramak istediğim iki değerim var.
+
+65
+00:04:02,840 --> 00:04:05,540
+Çünkü burada birbirimizi ilişkilendirmek ve anahtarının
+
+66
+00:04:05,550 --> 00:04:09,510
+Şimdi, sözlüklerin elinde bulundurduğu veri türlerinde süper esnek olduğunu
+
+67
+00:04:09,510 --> 00:04:10,230
+unutmamak önemlidir.
+
+68
+00:04:10,230 --> 00:04:16,410
+Sana sadece tamsayıları veya kayan nokta sayılarını ve dizeleri nasıl tutabileceklerini gösterdim, ancak aslında
+
+69
+00:04:16,410 --> 00:04:19,220
+listeleri veya diğer sözlükleri de tutabiliyorlar.
+
+70
+00:04:19,440 --> 00:04:28,520
+size şunu örnek olarak göstereceğim: D eşittir, k 1 anahtarla eşit olabilir ve bir ile üç arasında ilişkili bir sayı
+
+71
+00:04:29,180 --> 00:04:35,210
+olabilir veya yapabileceğim diğer şey K-2 demektir ve aslında bununla ilişkili bir listeye
+
+72
+00:04:35,210 --> 00:04:42,620
+sahip olmasını istiyorum, böylece 0 1 2 diyebilirim ve bu sözlükte başka bir sözlük bile yapabilirim.
+
+73
+00:04:42,620 --> 00:04:43,610
+Bu yüzden
+
+74
+00:04:43,610 --> 00:04:45,800
+Bu yaygın değildir, ancak desteklenmektedir.
+
+75
+00:04:46,130 --> 00:04:52,960
+Dolayısıyla burada başka bir sayı 100 olan bir anahtarın içine söyleyebiliriz.
+
+76
+00:04:53,010 --> 00:04:56,060
+Dolayısıyla sözlüğün kendisi ile ilgili bir problemi yoktur.
+
+77
+00:04:56,130 --> 00:05:01,560
+Ve eğer bunlardan öğeler almak istiyorsak, bu listeyi kapmak istediğimi hayal edelim. 0 1
+
+78
+00:05:01,560 --> 00:05:04,000
+2 Geçmişin kısa adı ve önemi.
+
+79
+00:05:04,170 --> 00:05:06,050
+K-2 ve bu olay, bunu çalıştıran
+
+80
+00:05:08,940 --> 00:05:11,130
+bir dize olmalı ve listeyi geri almalıdır.
+
+81
+00:05:11,130 --> 00:05:17,400
+Ve eğer bu sayıyı 100'e çıkarmak istersem, yapabileceğim şey, o K3 için
+
+82
+00:05:17,460 --> 00:05:19,790
+ilişkili anahtarı bulmak demektir.
+
+83
+00:05:19,990 --> 00:05:22,330
+Ve onu çalıştırdığınızda bu sözlüğü geri al.
+
+84
+00:05:22,330 --> 00:05:24,920
+Böylece hepsi bambaşka bir arama yapabilirim.
+
+85
+00:05:24,970 --> 00:05:28,890
+Öyleyse anladığım kadarıyla anladığım kadarıyla anladığım kadarıyla anladığım kadarıyla
+
+86
+00:05:32,460 --> 00:05:34,710
+anladım ve 100'ü geri alıyorum.
+
+87
+00:05:34,740 --> 00:05:35,960
+Burada neler olduğuna dikkat et.
+
+88
+00:05:35,970 --> 00:05:41,580
+Ve temel olarak, istediğiniz değerleri geri almak için ya dizin çağrıları veya anahtar çağrıları istifleyerek.
+
+89
+00:05:41,610 --> 00:05:44,880
+Öyleyse, burada iki numaralı el ele tutuşturmak istediğimi hayal edelim.
+
+90
+00:05:45,090 --> 00:05:51,580
+Yapmam gereken şey, d k 2'yi listenin geri döndüğünü ve daha sonra da öğe dizinini istemek olduğunu söylüyor.
+
+91
+00:05:51,630 --> 00:05:59,800
+O zaman iki tane diyebilirim ve sonra tekrar kapanıp bütün bu şey ilk başta biraz kafa karıştırıcı
+
+92
+00:05:59,800 --> 00:06:00,300
+olabilir.
+
+93
+00:06:00,310 --> 00:06:03,960
+O halde bunun net olduğundan emin olmak için bir örnek daha inceleyelim.
+
+94
+00:06:04,040 --> 00:06:13,460
+Sözlüğümün bir anahtarı var ve bu anahtar küçük harflerin bir listesi ise ABC sözlüğüm olduğunu söyleyeceğim, çünkü
+
+95
+00:06:15,800 --> 00:06:22,890
+sözlük anahtarımın bir ABC'sini kontrol ettim ve devam edelim ve harfi C'ye alıp
+
+96
+00:06:22,890 --> 00:06:25,330
+büyük harfle yazmaya çalışalım dize.
+
+97
+00:06:25,350 --> 00:06:28,230
+Yapabileceğim çeşitli adımlarla aşağıdakileri yapın.
+
+98
+00:06:28,230 --> 00:06:34,590
+Listemin anahtarınkiyle eşit olduğunu söyleyebilirim.
+
+99
+00:06:34,590 --> 00:06:36,980
+Ve sonra listemi kontrol edersem, elimde bir şey var.
+
+100
+00:06:37,020 --> 00:06:43,220
+Böylece mektubun liste dizini yerim 2'ye eşit olduğunu söyleyebilirim.
+
+101
+00:06:43,620 --> 00:06:51,130
+Ve sonra mektubumu kontrol edersem sadece Letter harfini söylerdim ve sonra sermayem var.
+
+102
+00:06:51,160 --> 00:06:53,020
+Böylece yaptığım bütün adımlar buydu.
+
+103
+00:06:53,170 --> 00:06:58,810
+Önce anahtarı aldım, sonra bir liste haline getirdim, sonra mektubu kapmak için listeleme yaptım ve
+
+104
+00:06:58,810 --> 00:07:01,330
+o harfi büyük harfle yazdım dedim.
+
+105
+00:07:01,450 --> 00:07:07,150
+Ancak, aslında hepsini tek adımda yapabilirim, çünkü esnek Python, listeyi geri
+
+106
+00:07:07,150 --> 00:07:10,090
+çeviren o anahtarın kapanıp kapanacağını söyleyebilirim.
+
+107
+00:07:10,300 --> 00:07:12,220
+Dolayısıyla bu genellikle tekrar atama yapar.
+
+108
+00:07:12,280 --> 00:07:13,300
+Sadece aramaya devam edebilirim.
+
+109
+00:07:13,300 --> 00:07:17,350
+İstediğim ve C harfine sahip olmak için dizine eklemek istediğim.
+
+110
+00:07:17,440 --> 00:07:24,740
+Ve şimdi bu üst diyebileceğim bir dizedir ve bunu da bu şekilde yapabilmeniz için büyük C
+
+111
+00:07:24,740 --> 00:07:25,460
+harfi var.
+
+112
+00:07:25,460 --> 00:07:31,100
+yapmayacaksınız, ancak bazen sözlüklerin gücünden yararlanarak listeleri içeride tutabilirsiniz.
+
+113
+00:07:31,160 --> 00:07:37,630
+Bu adımların her birini yapmak yerine, böyle sıklıkla böyle şeyler
+
+114
+00:07:38,150 --> 00:07:38,360
+TAMAM.
+
+115
+00:07:38,370 --> 00:07:39,810
+Bu yüzden sadece bunun farkında olmanı istiyorum.
+
+116
+00:07:39,840 --> 00:07:48,050
+Sözlüğe yeni anahtar değer çiftleri eklemek istersek, böyle bir çağrı yığını tekil bir nesne üzerine
+
+117
+00:07:48,050 --> 00:07:48,710
+toplayabilirler.
+
+118
+00:07:48,710 --> 00:07:50,450
+Oldukça basittir.
+
+119
+00:07:50,660 --> 00:07:52,490
+Bu yüzden burada yeni bir sözlük hazırlayalım.
+
+120
+00:07:53,330 --> 00:08:03,200
+Kayıtlar K-1'in 100 olduğunu ve K-2'nin 200 olduğunu söyleyeceklerini söylüyor.
+
+121
+00:08:03,200 --> 00:08:09,560
+Öyleyse, benim sözlükim K-1 ve K-2'yim, K3'ü 300 eklemek istediğimi hayal edelim.
+
+122
+00:08:09,590 --> 00:08:14,780
+Bu durumda yapmam gereken tek şey, yeni bir anahtar atamanın söylenmesi.
+
+123
+00:08:14,780 --> 00:08:19,550
+Öyleyse K-3 ve 300'e eşit olarak ayarlayın.
+
+124
+00:08:19,780 --> 00:08:24,180
+Ve o zaman sözlükte bir göz attığımda şimdi K3 300'e sahibim.
+
+125
+00:08:24,180 --> 00:08:27,760
+Pekâlâ, biz sadece sözlüğe yeni bir anahtar değer çifti ekleyebileceğimizi gördük.
+
+126
+00:08:27,760 --> 00:08:32,220
+Mevcut bir anahtar değer çifti kolayca kolayca üzerine yazmak için aynı yöntemi kullanabilirsiniz.
+
+127
+00:08:32,440 --> 00:08:36,820
+D 1 k olarak söyleyebiliriz ve bu değeri yeni bir değere eşit olarak ayarlayabiliriz.
+
+128
+00:08:36,820 --> 00:08:41,400
+belirgin hale getirmek için yeni bir dize yeni bir değer katacağız ve daha sonra D olarak adlandırdığımızı k 1 diyeceğiz.
+
+129
+00:08:41,410 --> 00:08:42,110
+Dolayısıyla bunu açıkça
+
+130
+00:08:42,160 --> 00:08:45,250
+Artık onunla ilişkili yeni değer var.
+
+131
+00:08:45,250 --> 00:08:49,630
+Sonunda sadece birkaç yararlı sözlük yöntemini tartışmak istiyorum ve bu sözlüklerden çıkan
+
+132
+00:08:49,630 --> 00:08:52,110
+öğelerin tüm anahtar değerlerini almaya yönelik yöntemlerdir.
+
+133
+00:08:52,300 --> 00:08:53,520
+Şu anda bir sözlük var.
+
+134
+00:08:53,530 --> 00:08:56,740
+K-1 K-2 K-3 yeni değer 200 veya 300.
+
+135
+00:08:56,950 --> 00:08:59,010
+Eski olmak için yeniden atayacağım.
+
+136
+00:08:59,030 --> 00:09:02,090
+İzin verin, bunu hemen buraya kopyalayıp, D'de diyeyim.
+
+137
+00:09:02,170 --> 00:09:04,940
+Sözlüğün bu versiyonuna eşit.
+
+138
+00:09:05,200 --> 00:09:11,850
+Bir sözlüğün tüm anahtarlarını görmek istersem D tuşları diyebilirim ve bunun tersini istersem
+
+139
+00:09:11,850 --> 00:09:14,220
+tüm gerçek anahtarları geri alacaktır.
+
+140
+00:09:14,220 --> 00:09:15,320
+Ve tüm değerleri istiyorum.
+
+141
+00:09:15,390 --> 00:09:21,060
+Tek yapmam gereken nokta değerlerini söylemek ve sonra değerleri geri döndürmek ve sonra
+
+142
+00:09:21,090 --> 00:09:27,840
+gerçek eşleştirmelerin birlikte olmasını istersem, Deedat öğelerini açık unclose princes birlikte çalıştırmak ve eşleştirmeleri geri döner
+
+143
+00:09:27,840 --> 00:09:28,290
+söyleyebilirim.
+
+144
+00:09:28,290 --> 00:09:32,330
+Tamam biri 100 ila 200 arasında yükseliyor K3 300 ile gidiyor.
+
+145
+00:09:32,520 --> 00:09:34,900
+Ve fark edeceğinizler aslında parantez içinde.
+
+146
+00:09:35,100 --> 00:09:38,880
+Ve bunun anlamı, aslında çok yakında öğreneceğiniz bir gruptur.
+
+147
+00:09:39,390 --> 00:09:39,620
+TAMAM.
+
+148
+00:09:39,630 --> 00:09:41,330
+Gerçekten sözlüklerin temelleri.
+
+149
+00:09:41,340 --> 00:09:44,150
+Yeni öğrendiklerimizin çok hızlı bir özeti.
+
+150
+00:09:44,160 --> 00:09:47,650
+Sözlükler ana sözdizimi kıvırcık parantezlerle tanımlanır.
+
+151
+00:09:47,670 --> 00:09:50,940
+Bir dize tuşlu iki nokta üst üste ve ardından bir değer var.
+
+152
+00:09:51,000 --> 00:09:54,150
+Python, bu değerin ne kadar esnek olabileceğini de gösterir.
+
+153
+00:09:54,150 --> 00:09:59,650
+Dinleyici sözlüğünde başka bir dize olabilir kayan nokta sayıları tamsayılar vs. ve daha sonra anahtar değer
+
+154
+00:09:59,660 --> 00:10:04,680
+çiftine sahip olabilirsiniz ve bunu yalnızca virgülle ayırırsınız; anahtarların kendileri
+
+155
+00:10:04,680 --> 00:10:06,200
+daima dizeler olmalıdır.
+
+156
+00:10:06,370 --> 00:10:10,180
+Sonra da sadece anahtar bir bakışla işleri kolayca görebiliriz.
+
+157
+00:10:10,180 --> 00:10:15,160
+Yine, önceki dizinlemeyle birlikte gördüğümüz parantez işaretini kullanır; şimdi, geçmişe
+
+158
+00:10:15,160 --> 00:10:17,970
+bir dizin ve anahtarı geçmek dışında.
+
+159
+00:10:18,010 --> 00:10:25,330
+Ayrıca, temelde bu anahtar ve yöntem çağrılarını yığmak yoluyla bir sözlük içinde iç içe geçmiş
+
+160
+00:10:25,750 --> 00:10:27,640
+nesneleri nasıl arayabileceğimizi gördük.
+
+161
+00:10:27,640 --> 00:10:32,450
+Ardından anahtarları sözlüklerden değerler ve öğeler olarak adlandırabileceğimizi gördük.
+
+162
+00:10:32,840 --> 00:10:33,070
+Tamam.
+
+163
+00:10:33,070 --> 00:10:34,570
+Sözlüklerin temelleri budur.
+
+164
+00:10:34,570 --> 00:10:39,310
+Daha sonra bir sonraki dersimizde göreceğimiz sözlüklerin daha detaylı yönlerine dalacağız.

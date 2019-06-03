@@ -1,0 +1,451 @@
+1
+00:00:05,720 --> 00:00:07,460
+Bem-vindo a todos nesta palestra.
+
+2
+00:00:07,460 --> 00:00:14,180
+Vamos discutir cordas de strings ou seqüências de caracteres usando a sintaxe de citações simples
+
+3
+00:00:14,180 --> 00:00:15,770
+ou aspas duplas.
+
+4
+00:00:15,800 --> 00:00:17,540
+Aqui podemos ver três exemplos.
+
+5
+00:00:17,540 --> 00:00:19,890
+Primeiro, temos HELLO de citações simples do que oi.
+
+6
+00:00:19,910 --> 00:00:20,850
+Aspas duplas.
+
+7
+00:00:20,930 --> 00:00:24,380
+E então, o que é bom sobre ter ambas as opções de citações simples ou aspas duplas.
+
+8
+00:00:24,380 --> 00:00:29,020
+fim, sua string real pode envolvê-la na outra cotação de tipo, como com as aspas duplas e vice-versa.
+
+9
+00:00:29,030 --> 00:00:34,030
+Isso significa que, se você tiver uma única citação na sua string que deseja manter e que não tenha esse
+
+10
+00:00:34,070 --> 00:00:38,810
+Então, aqui podemos ver que eu não faço que tenha uma única citação lá, mas não queremos que essa citação
+
+11
+00:00:38,810 --> 00:00:42,230
+única subisse de repente a string para que possamos envolver o todo entre aspas.
+
+12
+00:00:42,260 --> 00:00:45,010
+Agora veremos um exemplo disso mais tarde no caderno Juber.
+
+13
+00:00:46,200 --> 00:00:51,570
+Agora, é importante notar aqui que as cordas são seqüências ordenadas e isso significa que podemos usar a indexação
+
+14
+00:00:51,570 --> 00:00:56,670
+ou o corte para capturar as subseções da seqüência de caracteres porque sabemos que cada personagem possui uma
+
+15
+00:00:56,670 --> 00:01:02,670
+posição específica para estar dentro e a notação de indexação facilita a notação do suporte quadrado após a string ou o nome
+
+16
+00:01:02,670 --> 00:01:04,040
+da variável atribuída à string.
+
+17
+00:01:04,050 --> 00:01:08,170
+Agora, vamos ver muitos exemplos de indexação em apenas um pouco.
+
+18
+00:01:08,400 --> 00:01:13,740
+Portanto, a indexação é o termo usado quando você quer pegar um único caractere da string.
+
+19
+00:01:13,780 --> 00:01:18,790
+Assim, a maneira como isso funciona é que cada personagem possui uma posição de índice atribuída a ele.
+
+20
+00:01:18,820 --> 00:01:20,040
+Então você começa em zero.
+
+21
+00:01:20,080 --> 00:01:23,500
+Essa é outra nota importante em Python que a indexação começa em zero.
+
+22
+00:01:23,500 --> 00:01:30,940
+Portanto, H tem um número correspondente de zero E tem um número correspondente de 1 2 3 0 4.
+
+23
+00:01:30,940 --> 00:01:36,250
+Então, se eu quisesse agarrar o E O que eu usaria é dentro dos colchetes eu passaria um após a
+
+24
+00:01:36,250 --> 00:01:39,790
+corda e então retornaria E e eu vou ver exemplos disso mais tarde.
+
+25
+00:01:40,950 --> 00:01:44,510
+O que também é interessante sobre o polegar do pi é que você pode realmente usar a indexação reversa.
+
+26
+00:01:44,730 --> 00:01:49,530
+Então, talvez você quisesse pegar a última letra de uma string, mas na verdade você não sabia quanto tempo era a
+
+27
+00:01:49,530 --> 00:01:49,870
+string.
+
+28
+00:01:49,890 --> 00:01:52,010
+Tudo o que você sabia era que você queria pegar a última carta.
+
+29
+00:01:52,200 --> 00:01:57,180
+Bem, felizmente, há indexação reversa disponível para você, então você pode ir apenas pegar
+
+30
+00:01:57,180 --> 00:02:04,640
+um negativo, ele vai pegar a última letra da string, independentemente de quanto tempo essa string realmente está cortando, você pode
+
+31
+00:02:04,640 --> 00:02:09,760
+pegar uma subseção de vários caracteres, também conhecido como uma fatia de a corda.
+
+32
+00:02:09,770 --> 00:02:11,630
+E isso tem sintaxe ligeiramente diferente.
+
+33
+00:02:11,630 --> 00:02:15,250
+Novamente, será entre colchetes porque estamos agarrando uma subseção.
+
+34
+00:02:15,260 --> 00:02:20,840
+Nós poderemos definir três partes disso, poderemos dizer começar a parar e avançar.
+
+35
+00:02:20,840 --> 00:02:25,840
+Então, novamente, isso vai com colchetes com um cólon separando cada um desses três termos.
+
+36
+00:02:25,880 --> 00:02:28,690
+Star será o índice numérico da fatia.
+
+37
+00:02:28,700 --> 00:02:33,850
+Start Stop será o índice que você vai subir, mas não inclui.
+
+38
+00:02:33,970 --> 00:02:35,070
+Essa é uma nota importante lá.
+
+39
+00:02:35,080 --> 00:02:39,280
+E nós vamos realmente nos concentrar nisso e os exemplos que vamos ver em
+
+40
+00:02:39,280 --> 00:02:44,470
+apenas um pouco e então esse é o tamanho do salto que você tira do começo para parar.
+
+41
+00:02:44,490 --> 00:02:46,350
+Ok, então vamos explorar todos esses conceitos.
+
+42
+00:02:46,380 --> 00:02:49,240
+Eles terão muito mais sentido quando veremos os exemplos de código.
+
+43
+00:02:49,440 --> 00:02:50,920
+Vamos para um caderno.
+
+44
+00:02:51,450 --> 00:02:54,140
+OK, mostremos rapidamente alguns exemplos de uma string.
+
+45
+00:02:54,150 --> 00:02:58,880
+Novamente, podemos usar aspas simples, ou você pode usar aspas duplas.
+
+46
+00:02:59,070 --> 00:03:01,320
+Então, eu digo as duplas citações do mundo.
+
+47
+00:03:01,410 --> 00:03:07,650
+Você também pode ter uma frase completa não precisa ser apenas uma palavra para que possamos dizer que isso também é uma string.
+
+48
+00:03:07,920 --> 00:03:09,200
+Então, temos uma frase completa lá.
+
+49
+00:03:09,240 --> 00:03:13,350
+E os espaços brancos contam como caracteres dentro da string.
+
+50
+00:03:13,350 --> 00:03:18,240
+Agora, algo que devemos observar aqui é que podemos misturar citações simples e aspas duplas.
+
+51
+00:03:18,240 --> 00:03:26,820
+Então, se eu e dizer algo como, por exemplo, estou correndo.
+
+52
+00:03:26,820 --> 00:03:28,290
+Então, o que está acontecendo aqui.
+
+53
+00:03:28,590 --> 00:03:34,430
+Como estou usando citações simples no lado de fora, apenas parte disso está obtendo destaque da sintaxe vai confundir
+
+54
+00:03:34,490 --> 00:03:39,660
+o Python porque pensa que você está tentando terminar a string aqui quando realmente estou tentando terminar
+
+55
+00:03:39,660 --> 00:03:40,700
+a string aqui.
+
+56
+00:03:40,710 --> 00:03:43,530
+Então, se eu tentar executar a célula, dirá um erro aqui.
+
+57
+00:03:43,530 --> 00:03:44,910
+Sintaxe inválida.
+
+58
+00:03:44,910 --> 00:03:53,620
+O que eu realmente quero fazer é envolver isso com aspas duplas e, dessa forma, não terei um erro quando eu tiver essa
+
+59
+00:03:53,620 --> 00:03:54,860
+citação única aqui.
+
+60
+00:03:54,970 --> 00:03:59,920
+E então, quando eu executo este python não tem problema e diz OK, eu estou tentando
+
+61
+00:03:59,950 --> 00:04:05,590
+fazer aqui tentando ter uma única citação lá e isso na verdade não faz parte da definição da string.
+
+62
+00:04:05,600 --> 00:04:08,930
+Então, agora vamos discutir realmente imprimir uma string.
+
+63
+00:04:08,930 --> 00:04:15,320
+Até agora, estamos apenas pedindo que a corda seja devolvida e essa é a razão pela qual vemos dentro e fora
+
+64
+00:04:15,380 --> 00:04:16,400
+com essas células.
+
+65
+00:04:16,410 --> 00:04:21,160
+Essa também é a razão pela qual realmente vemos as cotações na saída abaixo da célula.
+
+66
+00:04:21,470 --> 00:04:25,490
+Mas podemos usar a função de impressão para realmente imprimir uma string.
+
+67
+00:04:25,490 --> 00:04:28,610
+Então, vamos dizer impressões, olá.
+
+68
+00:04:28,640 --> 00:04:33,670
+E se corremos esta nota bem nós realmente voltamos, nós não vemos mais a cela na célula.
+
+69
+00:04:33,800 --> 00:04:36,110
+E, em vez disso, não mais vemos as próprias citações.
+
+70
+00:04:36,110 --> 00:04:39,500
+Na verdade, estamos apenas a imprimir a cadeia real.
+
+71
+00:04:39,590 --> 00:04:46,070
+E a razão pela qual isso é importante é porque vamos imaginar que eu queria dizer olá mundo
+
+72
+00:04:46,070 --> 00:04:51,280
+e então eu também queria dizer olá mundo dois se eu fosse executar isso.
+
+73
+00:04:51,500 --> 00:04:56,270
+O que acaba acontecendo é que eu só volto essa última string para ver tudo.
+
+74
+00:04:56,390 --> 00:05:02,630
+Na verdade, eu tenho que imprimir os resultados, então eu digo que Prince e Raptus, em impressão,
+
+75
+00:05:02,630 --> 00:05:08,170
+vê impressões, olá, mundo um, que também imprime e depois diz o Hello World 2.
+
+76
+00:05:08,240 --> 00:05:11,330
+E então, quando lanço isso, vejo impressões impressas.
+
+77
+00:05:11,540 --> 00:05:13,100
+Então eu não vejo a saída.
+
+78
+00:05:13,100 --> 00:05:15,180
+Na verdade, estou apenas imprimindo os resultados.
+
+79
+00:05:15,440 --> 00:05:20,850
+Agora, soughing também quer mencionar é que, na verdade, há seqüências de escape e seqüências
+
+80
+00:05:20,900 --> 00:05:25,220
+de escape, como para ter alguns comandos especiais dentro de sua string.
+
+81
+00:05:25,250 --> 00:05:27,690
+Então vamos seguir em frente e dizer Prince.
+
+82
+00:05:27,890 --> 00:05:29,660
+Olá Mundo.
+
+83
+00:05:29,660 --> 00:05:35,490
+E se eu executar isso, vejo o Hello World impresso em uma linha, mas eu realmente posso adicionar uma seqüência de escape.
+
+84
+00:05:35,600 --> 00:05:42,980
+Então, será uma barra invertida e o que isso faz é que basicamente diz a Python ei isso e aqui mesmo
+
+85
+00:05:42,980 --> 00:05:48,830
+que já não é o personagem n, eu realmente quero você por causa dessa barra invertida.
+
+86
+00:05:48,980 --> 00:05:50,510
+Trate isso como uma nova linha.
+
+87
+00:05:51,600 --> 00:05:59,160
+Então, se esse personagem de fuga lá vai dizer o espaço do Prince Hello que uma nova linha e, em seguida, o
+
+88
+00:05:59,310 --> 00:05:59,940
+mundo espacial.
+
+89
+00:05:59,970 --> 00:06:00,980
+Então é isso que vemos aqui.
+
+90
+00:06:00,990 --> 00:06:04,320
+Olá espaço e mundo se eu quiser que o mundo seja alinhado.
+
+91
+00:06:04,350 --> 00:06:04,860
+Olá.
+
+92
+00:06:05,100 --> 00:06:08,190
+Na verdade, eu poderia simplesmente tocá-lo assim.
+
+93
+00:06:08,190 --> 00:06:13,920
+Execute isso e então eu vejo o mundo do Olá, em Python, sabe não incluir esta letra,
+
+94
+00:06:13,980 --> 00:06:16,770
+por isso, está essencialmente ligado a essa barra invertida.
+
+95
+00:06:16,770 --> 00:06:20,200
+Então, outra sequência de escape popular é t para separação.
+
+96
+00:06:20,370 --> 00:06:22,030
+E se eu corro isso, volto.
+
+97
+00:06:22,050 --> 00:06:23,180
+Olá guia.
+
+98
+00:06:23,190 --> 00:06:24,870
+Então, quatro espaços mundiais.
+
+99
+00:06:25,100 --> 00:06:29,550
+Bem, estamos falando muito mais sobre isso quando discutimos a formatação de impressão que vem próximo.
+
+100
+00:06:29,580 --> 00:06:36,810
+Por enquanto, outra função incorporada que eu quero mostrar é a função Eliane ou a função de comprimento.
+
+101
+00:06:36,900 --> 00:06:41,790
+Então, isso permite que você verifique o comprimento da string para que eu possa dizer olá e mais alto nisso
+
+102
+00:06:41,790 --> 00:06:44,680
+eu volto o comprimento de 5 porque há cinco caracteres nessa corda.
+
+103
+00:06:44,790 --> 00:06:50,220
+Se houver um espaço na corda, então dirá que estou com fome.
+
+104
+00:06:50,340 --> 00:06:53,390
+Vamos deixar mais óbvio que vamos apenas dizer que eu sou.
+
+105
+00:06:53,450 --> 00:06:54,280
+Nós executamos isso.
+
+106
+00:06:54,350 --> 00:06:55,990
+Aqui podemos ver que há quatro.
+
+107
+00:06:56,030 --> 00:06:59,090
+Então nós temos o Space Space.
+
+108
+00:06:59,140 --> 00:07:02,410
+Então, isso conta como um comprimento de quatro caracteres na string.
+
+109
+00:07:02,420 --> 00:07:03,140
+Tudo bem.
+
+110
+00:07:03,140 --> 00:07:04,370
+Pararemos aqui por enquanto.
+
+111
+00:07:04,390 --> 00:07:08,930
+Na próxima conferência, vamos retirar o lugar onde deixamos de discutir a indexação de string e o
+
+112
+00:07:08,930 --> 00:07:09,630
+corte de seqüência.
+
+113
+00:07:09,650 --> 00:07:10,670
+Eu te vejo lá.

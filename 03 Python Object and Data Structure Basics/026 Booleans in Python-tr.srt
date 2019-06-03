@@ -1,0 +1,215 @@
+1
+00:00:05,520 --> 00:00:07,260
+Bu ders tekrar hoş geldiniz.
+
+2
+00:00:07,260 --> 00:00:13,170
+Bu terime yabancı olduğunuzda, temelde operatöre doğru ya da yanlış ifadeler
+
+3
+00:00:13,230 --> 00:00:17,700
+içeren bir terim kullanmak için boole'ların boole'larını kısaca tartışacağız.
+
+4
+00:00:17,730 --> 00:00:22,200
+Ve daha sonra kontrol akışı ve mantığı hissettiğimizde bunlar gerçekten önemli çünkü belirli
+
+5
+00:00:22,470 --> 00:00:24,900
+bir koşulun olup olmadığını kontrol etmek istiyoruz.
+
+6
+00:00:25,050 --> 00:00:29,910
+Başka bir deyişle, örneğin bazı kodu yürütmek için belirli bir koşul doğruysa,
+
+7
+00:00:29,910 --> 00:00:32,940
+hey havuzumu boş olarak kontrol etmek isteyebilirsiniz.
+
+8
+00:00:33,000 --> 00:00:38,720
+Eğer bu doğruysa, o zaman devam edin ve havuzu veya bu doğadaki diğer şeyleri doldurmak için suyu açın.
+
+9
+00:00:38,730 --> 00:00:41,540
+Bu yüzden bu yüzden kutuplar bir çok titan için önemlidir.
+
+10
+00:00:41,550 --> 00:00:44,730
+Yabancılarla doğrudan doğruya ve yanlış terimiyle doğrudan uğraşmayacağız.
+
+11
+00:00:44,770 --> 00:00:49,720
+Gerçekte, karşılaştırma operatörleri ve mantıksal operatörler bir boolean değeri döndürür.
+
+12
+00:00:49,920 --> 00:00:52,590
+Öyleyse bunların sanki neye benzediğini çok hızlı bir şekilde gösterelim.
+
+13
+00:00:52,590 --> 00:00:54,270
+Ve sonra onları daha sonra keşfedeceğiz.
+
+14
+00:00:54,260 --> 00:00:57,420
+Ve bize daha yararlı geldiğinde çok daha ayrıntılı.
+
+15
+00:00:57,420 --> 00:00:59,180
+Şimdi Jüpiter'e geçelim.
+
+16
+00:00:59,610 --> 00:01:05,640
+yanlış ve Python'da doğru olması için t harfine sahip olduğunuzdan emin olmanız gerekir.
+
+17
+00:01:05,650 --> 00:01:07,850
+Tamam çok milyarlarca doğru ve
+
+18
+00:01:07,890 --> 00:01:10,610
+Aksi takdirde, küçük harf t'iniz varsa, yalnızca şikayet edecektir.
+
+19
+00:01:10,660 --> 00:01:16,190
+Hey Eithan, bu terimi true olarak tanımladı çünkü bunun yerine bir değişken çağırdığını düşünüyor.
+
+20
+00:01:16,200 --> 00:01:19,290
+C'yi büyük harfle kullandıklarından ve yanlış için aynı olduğundan emin olun.
+
+21
+00:01:19,290 --> 00:01:21,480
+F'yi yanlış için büyük harf kullanmanız gerekecek.
+
+22
+00:01:21,540 --> 00:01:22,690
+İşte burada, doğru ve yanlış var.
+
+23
+00:01:22,710 --> 00:01:27,260
+Ortalama booleans ve türünü söyleyerek türünü kontrol edebiliriz.
+
+24
+00:01:27,300 --> 00:01:33,390
+oluşturun ve daha sonra bu derste tüm karşılaştırma operatörlerine geçeceğiz, ancak sana çok basit bir örnek göstereceğiz.
+
+25
+00:01:33,390 --> 00:01:37,590
+Emin olun çift T geçersiz kılmak emin olun yanlış ve BOL diyor
+
+26
+00:01:37,680 --> 00:01:42,900
+BİZ milyarlarca ve milyarlarca ne biz uğraşmak için gidiyoruz ne zaman mantıksal kod ile
+
+27
+00:01:42,900 --> 00:01:46,180
+uğraşmak için gidiyoruz birçok kez biz karşılaştırma operatörleri Boole
+
+28
+00:01:46,320 --> 00:01:50,790
+Bir şeyin başka bir şeyden daha büyük olup olmadığını kontrol eden karşılaştırma operatörleri
+
+29
+00:01:50,820 --> 00:01:53,130
+var, bu yüzden hey, ikiden de büyüktür.
+
+30
+00:01:53,170 --> 00:01:57,080
+Orada sadece basit bir matematiksel ifade var ve yanlışlıkla paketlenebilir hale geliyor.
+
+31
+00:01:57,120 --> 00:01:58,720
+Biri ikiden fazla değil.
+
+32
+00:01:58,890 --> 00:02:03,060
+sadece tek bir eşitlik işareti yerine iki eşit işaretle kontrol etmek gibi başka şeyler yapabilirsiniz.
+
+33
+00:02:03,060 --> 00:02:03,800
+Ve sonra eşitliği
+
+34
+00:02:03,990 --> 00:02:05,470
+Yani 1'e eşit olanı.
+
+35
+00:02:05,640 --> 00:02:07,760
+Çalıştırırsan, doğru olur.
+
+36
+00:02:07,800 --> 00:02:12,020
+Bu yüzden bunlara karşılaştırma operatörleri denir Ellaby hepsini bu derste size gösterirken.
+
+37
+00:02:12,150 --> 00:02:16,380
+Ancak öncelikle size ne iade yaptıklarını söylemek zorundayız, hangisi booleans olur.
+
+38
+00:02:16,440 --> 00:02:22,200
+Pekala, bu, Bland'lar sadece doğru ve yanlış ve tip bu dersin
+
+39
+00:02:22,200 --> 00:02:24,060
+ilerleyen kısımlarında eleştirel olacak.
+
+40
+00:02:24,150 --> 00:02:29,640
+anahtar sözcüğünü henüz atamak istemediğimiz bir nesne için bir yer tutucu olarak kullanabileceğimizden bahsetmek istiyorum.
+
+41
+00:02:29,640 --> 00:02:30,930
+Ve son olarak, none
+
+42
+00:02:31,110 --> 00:02:34,570
+Belki sonradan, kodumda bir şeye bir B atamak istiyorum.
+
+43
+00:02:34,590 --> 00:02:38,100
+Ancak şu anda bunun için bir yer tutucuya sahip olmam gerekiyor bu yüzden bu hatayı bulamıyorum.
+
+44
+00:02:38,130 --> 00:02:39,590
+Hey B iyi değil.
+
+45
+00:02:39,780 --> 00:02:42,010
+Yapabileceğim, B'nin hiçbirine eşit olduğudur.
+
+46
+00:02:42,240 --> 00:02:45,330
+Sermaye ve orada ve hiçbiri onlar bu tür onlar.
+
+47
+00:02:45,330 --> 00:02:49,920
+Ve biz bunu daha önce, yerinde yöntemlerle uğraştığımızda çok daha önce gördük.
+
+48
+00:02:49,920 --> 00:02:53,440
+Listeyi yerinde sıraladığımızda hiçbirini geri döndürmediğini unutmayın.
+
+49
+00:02:53,460 --> 00:02:55,730
+B'yi buraya yazdığımda bir şey görmüyorum.
+
+50
+00:02:55,920 --> 00:02:56,760
+Ama sonra ne güzel.
+
+51
+00:02:56,760 --> 00:02:59,430
+Bulunun olmamasının hatasını da görmüyorlar.
+
+52
+00:02:59,830 --> 00:03:01,800
+Tamam, gerçekten de kutupların temelleri.
+
+53
+00:03:01,800 --> 00:03:05,640
+Bu konuda daha sonra ders üzerinde çalışacağız.
+
+54
+00:03:05,640 --> 00:03:06,540
+Bir sonraki konferansa bakacağım.

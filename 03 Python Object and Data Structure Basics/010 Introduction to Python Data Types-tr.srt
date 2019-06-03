@@ -1,0 +1,255 @@
+1
+00:00:05,490 --> 00:00:09,770
+Herkese, Python nesnesi ve veri yapısı temelleri bölümüne hoş geldiniz.
+
+2
+00:00:11,150 --> 00:00:14,900
+Dolayısıyla, dersin bu bölümünde temel veri türlerini tartışarak başlayacağız.
+
+3
+00:00:15,730 --> 00:00:17,590
+Ve bunlar kodun temel yapı taşlarıdır.
+
+4
+00:00:17,620 --> 00:00:22,420
+Daha büyük kod parçalarını oluştururken, bu bölümde bahsedeceğimiz olası tüm veri türlerini
+
+5
+00:00:22,420 --> 00:00:26,590
+hızlı bir şekilde tartışacağız ve sonra her biri hakkında daha ayrıntılı
+
+6
+00:00:26,590 --> 00:00:28,270
+olarak anlatılan dersler alacağız.
+
+7
+00:00:28,270 --> 00:00:30,990
+Burada gösterilen tüm bilgileri ezberlemekten endişelenmeyin.
+
+8
+00:00:31,000 --> 00:00:34,930
+ve bu bölüm boyunca devam ettikçe, bu veri türlerinin her biri üzerinde bir konferans olacak.
+
+9
+00:00:34,930 --> 00:00:36,400
+Bu daha hızlı bir genel bakış
+
+10
+00:00:37,980 --> 00:00:42,630
+Bu yüzden, tartışacağımız veri türleri şu tablodaki gibidir: burada sol
+
+11
+00:00:42,630 --> 00:00:44,640
+sütundaki veri türünün adı vardır.
+
+12
+00:00:44,640 --> 00:00:46,380
+Ve sonra tip var.
+
+13
+00:00:46,380 --> 00:00:51,930
+Bunun anlamı, sadece Python'un bu isim için dahili bir anahtar sözcüğü olması ve tam sözcük kayan
+
+14
+00:00:52,200 --> 00:00:56,950
+nokta yerine tamsayıyı elde edemeyeceğiniz, bunun yerine Python'un kısaltılmış bir anahtar sözcüğü olması.
+
+15
+00:00:57,060 --> 00:01:03,900
+Bu da ben gibi ikinci sütun. A. Dizgiler için tamsayı SDR için vs. daha sonra açıklama sütununa sahibiz
+
+16
+00:01:03,900 --> 00:01:07,650
+ve bu sadece veri türünün gerçek açıklaması olan şey olacak.
+
+17
+00:01:07,650 --> 00:01:09,330
+Bu yüzden hızla bunlardan geçelim.
+
+18
+00:01:09,360 --> 00:01:14,550
+Tamsayılarla başlarız ve bunlar üç üç yüz iki yüz gibi basit tam sayılardır.
+
+19
+00:01:14,670 --> 00:01:16,380
+Sonra kayan noktalı sayımız var.
+
+20
+00:01:16,470 --> 00:01:20,960
+Ve bunlar bir ondalık sayı 2'dir. 3 4. 600 nokta sıfır
+
+21
+00:01:21,150 --> 00:01:25,530
+Ve burada yüzen sıfır değeriniz olsa bile, artık ondalık işareti olmadığı için bir
+
+22
+00:01:25,530 --> 00:01:28,970
+tamsayı olmadığı bir kayan noktalı sayı olarak kabul edilirse dikkat edin.
+
+23
+00:01:29,130 --> 00:01:34,080
+Sonra bundan sonra dizelerimiz var ve diziler dizilen karakter dizisindedir.
+
+24
+00:01:34,140 --> 00:01:39,600
+olarak düşünebilirsiniz, ancak bir dizedeki sayıların yanı sıra yabancı karakterler olabileceğini de bilmeniz gerekir.
+
+25
+00:01:39,810 --> 00:01:41,940
+Bunları sadece bir tür sözcük
+
+26
+00:01:41,940 --> 00:01:46,620
+Bir dize belirten ana şey, çift tırnak veya tek tırnak işareti olmasıdır.
+
+27
+00:01:46,620 --> 00:01:50,070
+Burada merhaba ve çift tırnak işaretiyle Sammy'yi tırnak işareti yaptığımızı görebiliriz.
+
+28
+00:01:50,070 --> 00:01:53,420
+Çift tırnak içine 2000 rakamımız var.
+
+29
+00:01:53,520 --> 00:01:54,540
+Bu bir ip oluşturuyor.
+
+30
+00:01:54,540 --> 00:01:57,550
+Çevresinde çift tırnak işaretleri olduğundan artık tamsayı değil.
+
+31
+00:01:57,780 --> 00:02:01,370
+Ayrıca, tırnak içinde bazı Japon karakterleri olduğunu görebilirsiniz.
+
+32
+00:02:01,710 --> 00:02:08,190
+daha uzmanlaşmıştır, çünkü aslında veri nesnelerini bir dizi sırayla veya haritalama türünde tutabilirler.
+
+33
+00:02:08,190 --> 00:02:14,370
+Ardından veri yapılarına geliriz ve veri yapıları temel veri türleri ve veri
+
+34
+00:02:14,370 --> 00:02:15,620
+nesneleri üzerinde biraz
+
+35
+00:02:16,110 --> 00:02:19,640
+Yani burada listelerimiz var ve bunlar sıralı bir dizi nesne.
+
+36
+00:02:19,680 --> 00:02:24,210
+Burada, 10 numaralı dize gibi bir dizi başka nesneye sahip
+
+37
+00:02:24,210 --> 00:02:27,470
+olmak için köşeli ayraçları ve virgülleri kullanabildiğimizi görebiliriz.
+
+38
+00:02:27,510 --> 00:02:33,220
+Ve daha sonra, iki yüz nokta üç sözlükler, sıralı bir sıraya sahip olmak yerine, bu
+
+39
+00:02:33,220 --> 00:02:36,940
+durumda hariç, diğer veri türlerini depolayan başka bir veri yapısıdır.
+
+40
+00:02:37,090 --> 00:02:39,190
+Sıralı olmayan anahtar değer çiftleri var.
+
+41
+00:02:39,250 --> 00:02:42,630
+Ve sözlüklerin nasıl işlediğini çok daha ayrıntılı olarak tartışacağız.
+
+42
+00:02:42,730 --> 00:02:48,400
+Ancak burada, iki nokta üst üste işaretinden daha sonra bir değerden bir anahtara sahip olduğumuzu görebiliriz
+
+43
+00:02:48,490 --> 00:02:53,890
+ve kelepir parantezler ile gösterilir; yalnızca bir parantez içinde olan bir listede, parantez içine alınmışsa, o
+
+44
+00:02:53,890 --> 00:02:59,010
+zaman bir isim ve sonra iki nokta üstüste ve o zaman bu ismin değeri Franki.
+
+45
+00:02:59,140 --> 00:03:04,260
+Sözlükleri bazen tuple olarak adlandırdığımız sözlükler sonrasında sözlükleri çok daha ayrıntılı olarak
+
+46
+00:03:04,260 --> 00:03:08,380
+tartışacağız ve bu tuple'lere bazen değişmez diziler dizisi veriliyoruz.
+
+47
+00:03:08,380 --> 00:03:13,570
+Parantezler haricindeki listelere çok benziyorlar ve değiştirilemezler, zaten bu sıralamada
+
+48
+00:03:13,870 --> 00:03:16,150
+olan bir nesneyi değiştiremezsiniz.
+
+49
+00:03:16,150 --> 00:03:17,970
+Bu yüzden, değişmez araçların ne olduğunu tartışacağız.
+
+50
+00:03:17,980 --> 00:03:23,320
+Ve tuple'leri tartışırken benzersiz nesnelerin sırasız bir koleksiyonu olan setlerimizden çok
+
+51
+00:03:23,320 --> 00:03:24,730
+daha fazla ayrıntı.
+
+52
+00:03:24,730 --> 00:03:27,310
+Ve yine bunun hakkında konuşacağız ve orada çok daha fazla ayrıntı var.
+
+53
+00:03:27,340 --> 00:03:30,040
+Biraz sözlük benzer ancak anahtar değer çiftleri yoktur.
+
+54
+00:03:30,040 --> 00:03:33,090
+Bunun yerine, sıralı bir koleksiyonda sadece eşsiz nesneler.
+
+55
+00:03:33,100 --> 00:03:35,000
+Bu nedenle, bu iki nokta üst üste anahtar değeri çifti yok.
+
+56
+00:03:35,260 --> 00:03:37,410
+Bunu daha sonra daha ayrıntılı olarak tartışacağız.
+
+57
+00:03:37,630 --> 00:03:43,030
+Sonra nihayet mantıksal değer değerlerinin doğru veya yanlış olduğunu gösteren kutuplardan bahsedeceğiz.
+
+58
+00:03:43,030 --> 00:03:47,120
+Python için bu tür bir sözdizimi gerekli S başkent T nasıl sahip olduğumuzu dikkat edin.
+
+59
+00:03:47,410 --> 00:03:48,830
+Yani hepsi temel veri türleridir.
+
+60
+00:03:48,860 --> 00:03:53,260
+Bunlardan hiçbirini anlamadıysanız ya da bunlardan herhangi birini ezberlemek istemiyorsanız yine endişelenmeyin. Temel olarak
+
+61
+00:03:53,260 --> 00:03:57,160
+bu konulardan her biri hakkında çok fazla ayrıntıya sahip olacaksınız ve nasıl kullanabileceğinizi
+
+62
+00:03:57,160 --> 00:03:58,690
+göstereceğiz. Onların kendi kodunu yazmalarını.
+
+63
+00:03:59,520 --> 00:04:00,880
+Tamam, başlayalım.
+
+64
+00:04:00,880 --> 00:04:01,840
+Bir sonraki konuşmada görüşürüz.

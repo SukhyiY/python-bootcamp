@@ -1,0 +1,163 @@
+1
+00:00:05,480 --> 00:00:07,260
+Bem-vindo a todos nesta palestra.
+
+2
+00:00:07,280 --> 00:00:13,820
+Nós vamos cobrir muito rapidamente o que os conjuntos são e os conjuntos são uma coleção ordenada de elementos únicos, o que basicamente
+
+3
+00:00:13,910 --> 00:00:18,320
+significa que só pode haver um representante do mesmo objeto para que você não possa
+
+4
+00:00:18,320 --> 00:00:23,800
+ter o número dois lá mais de uma vez ou a letra A lá há mais de uma vez.
+
+5
+00:00:23,900 --> 00:00:29,480
+Vamos ver alguns exemplos de como trabalhar com conjuntos no notebook Jupiter para começar, vamos criar um conjunto.
+
+6
+00:00:29,520 --> 00:00:36,200
+Podemos fazer isso dizendo que o meu conjunto ou o nome da variável que você deseja é igual a
+
+7
+00:00:36,200 --> 00:00:38,460
+definido e depois abrir e fechar parênteses.
+
+8
+00:00:38,460 --> 00:00:41,360
+Então, agora, temos o meu conjunto e é apenas um conjunto vazio.
+
+9
+00:00:41,370 --> 00:00:42,970
+Então retorna o set.
+
+10
+00:00:43,090 --> 00:00:46,330
+Eu realmente quero adicionar um objeto ao conjunto.
+
+11
+00:00:46,500 --> 00:00:51,350
+Posso dizer o meu conjunto e depois chamar o método de adicionar e podemos adicionar um objeto a isso.
+
+12
+00:00:51,360 --> 00:00:53,610
+Então é o número um.
+
+13
+00:00:53,650 --> 00:00:57,850
+Agora, se eu olhar para o meu conjunto, vejo que ele tem o número um lá.
+
+14
+00:00:57,880 --> 00:01:02,440
+Agora note que parece que é um dicionário, porque esses aparelhos flexíveis, mas não é porque
+
+15
+00:01:02,440 --> 00:01:04,090
+ele não tem pares de valores-chave.
+
+16
+00:01:04,120 --> 00:01:07,230
+É apenas coleções não ordenadas dos itens que você deseja.
+
+17
+00:01:07,450 --> 00:01:09,730
+Então é um outro objeto aqui.
+
+18
+00:01:09,790 --> 00:01:13,250
+Vou dizer o meu conjunto adicionar no número dois.
+
+19
+00:01:13,390 --> 00:01:20,290
+E então, se eu chamar o meu set novamente, eu chamo meu conjunto, eu tenho 1 e 2 lá.
+
+20
+00:01:20,330 --> 00:01:25,590
+Agora, tente adicionar 2 por segunda vez e veja o que acontece.
+
+21
+00:01:26,370 --> 00:01:33,710
+Eu chamo meu conjunto ainda é apenas mostra 1 e 2 não mostra 1 2 2 e isso é basicamente o que é.
+
+22
+00:01:33,780 --> 00:01:36,300
+Tem que haver valores exclusivos lá.
+
+23
+00:01:36,300 --> 00:01:39,060
+Se você tentar adicionar um valor que já está no conjunto.
+
+24
+00:01:39,060 --> 00:01:40,130
+Não vai repetir isso.
+
+25
+00:01:40,140 --> 00:01:42,370
+Apenas vou dizer que já temos esse valor lá.
+
+26
+00:01:42,510 --> 00:01:44,440
+Eu apenas aceito valores únicos.
+
+27
+00:01:44,730 --> 00:01:49,140
+Então, quando você estiver trabalhando dois conjuntos, pode não ser super útil para adicioná-los dessa maneira.
+
+28
+00:01:49,140 --> 00:01:55,630
+Em vez disso, o que é realmente útil é talvez lançar uma lista para um conjunto que só obtemos os valores exclusivos.
+
+29
+00:01:56,240 --> 00:02:00,900
+Então, por exemplo, vamos dizer que minha lista é igual e vou colocar um monte de valores
+
+30
+00:02:01,090 --> 00:02:05,240
+repetidos aqui um monte de uns um monte de dois e um monte de três.
+
+31
+00:02:05,810 --> 00:02:10,980
+Eu vou executar isso e então vou lançar isso como um conjunto.
+
+32
+00:02:11,370 --> 00:02:14,910
+E agora volto apenas um conjunto de valores únicos.
+
+33
+00:02:14,910 --> 00:02:20,100
+Tenha em mente que os conjuntos não possuem uma ordem técnica, já que estamos lidando com pequenos
+
+34
+00:02:20,100 --> 00:02:21,440
+conjuntos de apenas alguns itens.
+
+35
+00:02:21,480 --> 00:02:26,720
+Parece que eles têm um pedido, mas, na realidade, os conjuntos não têm nenhuma ordem específica para entrar.
+
+36
+00:02:28,580 --> 00:02:30,830
+Por enquanto, é tudo o que você precisa saber sobre conjuntos.
+
+37
+00:02:30,830 --> 00:02:36,110
+Não vamos realmente tocar este objeto ou tipo de dados novamente até muito mais tarde no curso, já que
+
+38
+00:02:36,110 --> 00:02:36,960
+estamos apenas começando.
+
+39
+00:02:36,980 --> 00:02:41,630
+Não será muito útil para nós agora, mas depois, poderemos ver diferentes casos de uso para isso.
+
+40
+00:02:41,630 --> 00:02:45,960
+Mais uma vez, lembre-se de que os conjuntos são coleções não ordenadas de elementos únicos.
+
+41
+00:02:45,980 --> 00:02:48,840
+Obrigado e veremos na próxima palestra onde discutimos bilhões.

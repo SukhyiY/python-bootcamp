@@ -1,0 +1,311 @@
+1
+00:00:05,480 --> 00:00:08,820
+Hola a todos y bienvenidos a dar conferencias sobre tuplas o parejas.
+
+2
+00:00:08,850 --> 00:00:13,720
+Algunas personas les gusta llamarlos y en tuplas de Python son muy similares a las listas.
+
+3
+00:00:13,760 --> 00:00:18,710
+Sin embargo, tienen una diferencia clave y es que tienen inmutabilidad. Por lo tanto, son inmutables, lo que significa que
+
+4
+00:00:18,710 --> 00:00:19,820
+no se pueden cambiar.
+
+5
+00:00:19,820 --> 00:00:23,390
+Y eso proviene del término mutación que no puede ser mutado o cambiado.
+
+6
+00:00:23,390 --> 00:00:29,420
+Y eso básicamente significa que una vez que se asigna un elemento a una posición de índice dentro de una tupla, no se puede tomar
+
+7
+00:00:29,420 --> 00:00:32,690
+ese elemento y luego reasignarlo a otra cosa como si se tuviera una lista.
+
+8
+00:00:32,990 --> 00:00:37,460
+construyes tuplas es muy similar a una lista, excepto que en lugar de utilizar llaves cuadradas, utilizas paréntesis.
+
+9
+00:00:37,460 --> 00:00:38,830
+Y la forma en que
+
+10
+00:00:38,930 --> 00:00:41,650
+Exploremos las tuplas un poco más en un cuaderno de Júpiter.
+
+11
+00:00:41,930 --> 00:00:43,560
+Está bien, así que comencemos.
+
+12
+00:00:43,760 --> 00:00:47,650
+Con suerte, tendrás bastante intuición sobre cómo usar las tuplas según lo que has
+
+13
+00:00:47,670 --> 00:00:48,650
+aprendido sobre Lisse.
+
+14
+00:00:48,860 --> 00:00:54,380
+Vamos a crear un libro llamado T dirá que T es igual a y luego entre paréntesis, escribiremos un
+
+15
+00:00:54,380 --> 00:00:55,980
+comentario para que sea un tres.
+
+16
+00:00:56,240 --> 00:01:00,240
+Y también voy a crear mi lista, que será muy similar.
+
+17
+00:01:00,290 --> 00:01:02,110
+Diré una coma para que venga en tres.
+
+18
+00:01:02,150 --> 00:01:03,460
+Pero note que los corchetes cuadrados.
+
+19
+00:01:03,500 --> 00:01:04,300
+Entonces es una lista.
+
+20
+00:01:04,300 --> 00:01:07,550
+Y siempre puedes confirmar esto usando la función de tipo integrado.
+
+21
+00:01:07,550 --> 00:01:10,920
+Entonces, si digo tipo T, vuelve que es tupla.
+
+22
+00:01:11,210 --> 00:01:11,970
+Y si pregunto
+
+23
+00:01:11,990 --> 00:01:15,910
+Escriba mi lista, devuelve que es una lista.
+
+24
+00:01:15,980 --> 00:01:16,320
+DE ACUERDO.
+
+25
+00:01:16,400 --> 00:01:18,980
+Para que pueda verificar la longitud de la tupla tal como podría tener una lista.
+
+26
+00:01:18,980 --> 00:01:24,530
+Entonces, la longitud de T es tres porque hay tres elementos en esa lista uno dos y tres.
+
+27
+00:01:24,590 --> 00:01:25,570
+Y al igual que la lista.
+
+28
+00:01:25,670 --> 00:01:32,040
+También es bueno mezclar tipos de objetos para que podamos tener una cadena dentro de una tupla a lo largo de un número que
+
+29
+00:01:32,040 --> 00:01:36,980
+no tiene problemas allí y, al igual que en una lista, puede usar el corte y la indexación.
+
+30
+00:01:36,990 --> 00:01:39,310
+Digamos que quería agarrar esa cuerda uno.
+
+31
+00:01:39,470 --> 00:01:42,690
+Solo podría decirme cuál es el índice 0 1 allí.
+
+32
+00:01:42,720 --> 00:01:48,550
+También puedo hacer 1 negativo y tengo 2 como devolución porque es el último elemento de esa tupla.
+
+33
+00:01:48,610 --> 00:01:49,230
+Hasta ahora.
+
+34
+00:01:49,230 --> 00:01:51,010
+Muy similar a una lista.
+
+35
+00:01:51,030 --> 00:01:56,040
+También hay dos métodos básicos integrados para tuplas y ese es el método de índice y el método de
+
+36
+00:01:56,350 --> 00:01:57,880
+conteo mĂ˘chĂŠ, un ejemplo de eso.
+
+37
+00:01:58,140 --> 00:02:05,280
+Vamos a decir que C es una tupla con una coma una coma B.
+
+38
+00:02:05,600 --> 00:02:10,840
+Y imaginemos que queremos contar cuántas veces aparece la letra H en esta tupla.
+
+39
+00:02:10,860 --> 00:02:16,040
+Puedo hacer una T y luego presionar la pestaña aquí. Debería ver las dos opciones que tiene ya sea conteo o índice.
+
+40
+00:02:16,080 --> 00:02:20,400
+Así que de inmediato notará que hay mucho menos métodos disponibles para las tuplas que para las listas.
+
+41
+00:02:20,430 --> 00:02:26,530
+Así que vamos a ir y decir que contar y luego pasaremos una A y regresa.
+
+42
+00:02:26,530 --> 00:02:29,650
+Cuantas veces a ocurre en esa tupla
+
+43
+00:02:29,650 --> 00:02:33,710
+Y luego también podemos hacer es decir el índice de a.
+
+44
+00:02:33,910 --> 00:02:38,840
+Y esto regresa la primera vez que esto aparece en tu tupla.
+
+45
+00:02:39,070 --> 00:02:43,570
+Así que observe que si aparece más de una vez, solo devuelve la ubicación del índice
+
+46
+00:02:43,570 --> 00:02:44,540
+que aparece al principio.
+
+47
+00:02:44,620 --> 00:02:47,630
+Y si hacemos lo mismo para B.
+
+48
+00:02:47,870 --> 00:02:51,770
+La primera vez que ocurre una B es el índice para echar un vistazo a t.
+
+49
+00:02:52,070 --> 00:02:53,920
+Eso es justo aquí un B.
+
+50
+00:02:54,020 --> 00:02:59,990
+Más adelante, aprenderemos cómo usar una lógica de flujo de control, como bucles, para captar todas las ubicaciones de
+
+51
+00:03:00,170 --> 00:03:05,230
+los elementos repetidos y, finalmente, vamos a llegar a lo que hace una diferencia de tupla.
+
+52
+00:03:05,240 --> 00:03:06,680
+Y esa es la mutabilidad.
+
+53
+00:03:06,800 --> 00:03:11,780
+Y realmente no puedo enfatizar lo suficiente que esto es lo que hace que una tupla tupla sea diferente a una lista.
+
+54
+00:03:11,780 --> 00:03:16,710
+Así que vamos a obtener nuestra tupla en este momento y vamos a verificar esa lista para crear mi lista.
+
+55
+00:03:16,730 --> 00:03:22,370
+Vamos a reasignar el primer elemento de mi lista para que sea la cadena nueva.
+
+56
+00:03:22,370 --> 00:03:24,530
+Así que ahora mi lista no tiene problemas con eso.
+
+57
+00:03:24,530 --> 00:03:31,830
+Dice OK, reasignaré el primer elemento al nuevo si trato de hacer lo mismo con la tupla y te
+
+58
+00:03:31,830 --> 00:03:34,700
+digo que aquí no digas error de tipo.
+
+59
+00:03:34,780 --> 00:03:37,180
+El objeto Tuple no es compatible con la asignación de elementos.
+
+60
+00:03:37,180 --> 00:03:41,020
+Eso es básicamente lo que hace que una tupla sea diferente a una lista.
+
+61
+00:03:41,030 --> 00:03:45,670
+Ahora estoy seguro de que se preguntan por qué me molestaría en usar tuplas cuando tienen menos métodos
+
+62
+00:03:45,670 --> 00:03:51,460
+disponibles y no tienen la flexibilidad de una lista y, para ser sincero, ya que están comenzando a programar, no van a
+
+63
+00:03:51,490 --> 00:03:53,290
+hacerlo. estar usando tuplas con tanta frecuencia.
+
+64
+00:03:53,350 --> 00:03:57,730
+de objetos en su programa y debes asegurarte de que no se cambien accidentalmente.
+
+65
+00:03:57,730 --> 00:04:02,860
+Solo cuando se sienta más cómodo con Python y se convierta en un programador más avanzado,
+
+66
+00:04:02,860 --> 00:04:08,060
+comenzará a ver el beneficio de las tuplas y utilizará las tuplas principalmente cuando pase alrededor
+
+67
+00:04:08,200 --> 00:04:10,960
+Y es entonces cuando la tupla realmente se convierte en una gran solución.
+
+68
+00:04:11,200 --> 00:04:15,400
+Por lo tanto, proporciona una fuente muy conveniente de lo que se conoce como integridad de datos.
+
+69
+00:04:15,400 --> 00:04:20,560
+El hecho de que no podamos hacer reasignaciones como esta por accidente generará un error; en su lugar,
+
+70
+00:04:20,560 --> 00:04:26,860
+será muy útil cuando desee asegurarse de que los elementos no se vuelvan a girar o se reasignen más tarde en trozos
+
+71
+00:04:26,860 --> 00:04:28,210
+de código más grandes.
+
+72
+00:04:28,390 --> 00:04:33,040
+y más adelante estoy seguro de que sacaremos la tupla nuevamente para poder usarla y realmente dejar que brille por ahora.
+
+73
+00:04:33,040 --> 00:04:35,400
+Así que tenga esto en cuenta en su kit de herramientas
+
+74
+00:04:35,410 --> 00:04:40,600
+Solo recuerde que tiene inmutabilidad y se ve muy similar a una lista, excepto que usamos paréntesis
+
+75
+00:04:40,630 --> 00:04:41,970
+en lugar de corchetes.
+
+76
+00:04:42,230 --> 00:04:42,670
+DE ACUERDO.
+
+77
+00:04:42,910 --> 00:04:44,320
+Eso es todo por las tuplas por ahora.
+
+78
+00:04:44,320 --> 00:04:48,970
+A continuación, le mostraremos cómo hacer la entrada y salida de archivos básicos y lo verá allí.

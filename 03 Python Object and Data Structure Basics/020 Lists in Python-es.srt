@@ -1,0 +1,643 @@
+1
+00:00:05,740 --> 00:00:06,910
+Bienvenido de nuevo a todos.
+
+2
+00:00:06,910 --> 00:00:13,310
+Ahora comencemos a discutir listas en listas de Python u ordenar secuencias que pueden contener una variedad de tipos
+
+3
+00:00:13,310 --> 00:00:18,110
+de objetos y usar corchetes y comas para separar los objetos en la lista.
+
+4
+00:00:18,110 --> 00:00:24,350
+Por ejemplo, aquí podemos ver una lista de números 1 2 3 4 5 y las listas al igual que las cadenas
+
+5
+00:00:24,350 --> 00:00:29,270
+admiten indización y división, y esto también se puede anidar y tener una variedad de métodos útiles que
+
+6
+00:00:29,270 --> 00:00:30,160
+se pueden cancelar.
+
+7
+00:00:30,170 --> 00:00:32,740
+Exploremos todos estos conceptos en un cuaderno de Júpiter.
+
+8
+00:00:32,990 --> 00:00:41,330
+Comencemos definiendo una variable llamada mi lista y la estableceremos igual a los números del 1 al 3.
+
+9
+00:00:41,340 --> 00:00:44,480
+Entonces, aquí podemos ver que una lista está definida por los corchetes.
+
+10
+00:00:44,520 --> 00:00:48,390
+Y luego tenemos cada tipo de objeto separado por una coma.
+
+11
+00:00:48,390 --> 00:00:53,040
+Simplemente creamos una lista de enteros, pero también podríamos haber creado una lista de tipos de objetos mixtos.
+
+12
+00:00:53,040 --> 00:00:56,040
+Entonces, el primero podría haber sido una cadena.
+
+13
+00:00:56,040 --> 00:01:02,730
+El segundo podría haber sido un número o punto flotante y la lista no tiene problemas, así que podemos ver que las listas de
+
+14
+00:01:02,730 --> 00:01:07,890
+Python son muy flexibles en los tipos de datos que pueden contener y si alguna vez desea verificar
+
+15
+00:01:08,190 --> 00:01:13,320
+la longitud de una lista como si pudiéramos verificar el La longitud de la cadena solo usamos la
+
+16
+00:01:13,320 --> 00:01:19,530
+función LCN que está incorporada en Python y luego pasamos por mi lista y devuelve cuantos elementos o elementos hay en esa lista.
+
+17
+00:01:19,530 --> 00:01:24,440
+Así que aquí tenemos tres elementos de cadena ciento veintitrés punto dos.
+
+18
+00:01:24,450 --> 00:01:29,390
+Ahora solo como una cadena porque una lista es una secuencia ordenada de elementos.
+
+19
+00:01:29,520 --> 00:01:33,310
+Podemos usar indexación y división y esto funciona como una cadena.
+
+20
+00:01:33,300 --> 00:01:34,980
+Entonces, vamos a mostrarte lo que quiero decir con eso.
+
+21
+00:01:35,130 --> 00:01:46,390
+Diré que mi lista es igual a digamos que 1 a 3 ejecuta eso.
+
+22
+00:01:46,740 --> 00:01:50,070
+Y luego si quería tomar el elemento para indexar 0.
+
+23
+00:01:50,070 --> 00:01:57,130
+Así que ese es el primer elemento. Simplemente diría que mi lista 0 ejecuta eso y regreso 1 y si
+
+24
+00:01:57,140 --> 00:02:00,970
+quería tomar todo comenzando desde el índice 1 hasta el final.
+
+25
+00:02:01,030 --> 00:02:03,720
+Bueno, es como la indexación de cadenas y el corte de cadenas.
+
+26
+00:02:03,870 --> 00:02:09,890
+Yo diría que empiezas a indexar un colon hasta el final y luego tenemos dos y tres.
+
+27
+00:02:09,900 --> 00:02:17,620
+Entonces, este corte e indexación funciona como una cadena y también puede concatenar todo esto en conjunto.
+
+28
+00:02:17,640 --> 00:02:19,480
+Entonces, veamos esto aquí mismo.
+
+29
+00:02:19,620 --> 00:02:22,770
+Tengo mi lista ahora que es uno dos tres.
+
+30
+00:02:23,040 --> 00:02:35,640
+Voy a crear otra lista que es igual a digamos 4 5 y puedo ver mi lista más en otra lista y
+
+31
+00:02:35,640 --> 00:02:39,080
+se concatenará a una nueva lista.
+
+32
+00:02:39,090 --> 00:02:41,330
+Uno dos tres CUATRO CINCO.
+
+33
+00:02:41,340 --> 00:02:43,850
+Fíjate que en realidad estoy guardando este resultado.
+
+34
+00:02:43,950 --> 00:02:50,170
+Entonces, si devolviera la llamada a mi lista u otra lista, puedo usar la pestaña autocompletar aquí.
+
+35
+00:02:50,280 --> 00:02:54,300
+Todavía tengo esas dos listas separadas si realmente quiero guardar esto. Tengo que asignarlo
+
+36
+00:02:54,810 --> 00:03:02,820
+a algo para que podamos decir que la nueva lista es igual a mi lista más otra lista y luego, si reviso una nueva lista, ahora es
+
+37
+00:03:02,870 --> 00:03:04,710
+uno dos tres cuatro o cinco.
+
+38
+00:03:05,140 --> 00:03:05,720
+DE ACUERDO.
+
+39
+00:03:05,850 --> 00:03:08,100
+Entonces esos son los conceptos básicos de los oyentes.
+
+40
+00:03:08,130 --> 00:03:17,620
+a una cadena, excepto que una cadena aquí es diferente, es que realmente podemos mutar o cambiar alrededor de la lista.
+
+41
+00:03:17,620 --> 00:03:22,720
+Aquí tenemos la división de indexación y las concatenaciones deben parecerse bastante
+
+42
+00:03:22,720 --> 00:03:28,480
+Recuerda que cuando intentamos cambiar letras alrededor de una cadena no nos deja una lista no tiene
+
+43
+00:03:28,540 --> 00:03:30,140
+ningún problema de esa manera.
+
+44
+00:03:30,160 --> 00:03:34,970
+Entonces, si reviso mi nueva lista, es uno dos tres cuatro cinco.
+
+45
+00:03:35,120 --> 00:03:40,510
+Avancemos y cambiemos uno de estos elementos, cambiemos uno para estar en mayúsculas.
+
+46
+00:03:40,550 --> 00:03:47,130
+Lo que podría hacer es decir que la nueva lista en la posición 0 ahora equivale a 1 en mayúsculas.
+
+47
+00:03:47,130 --> 00:03:49,160
+Ahora vamos a hacer que sea realmente obvio que lo estamos cambiando.
+
+48
+00:03:49,210 --> 00:03:58,440
+cuando digo uno todo en mayúsculas y ahora, si echo un vistazo a mi nueva lista, tengo uno en mayúsculas dos tres cuatro cinco.
+
+49
+00:03:58,450 --> 00:03:59,270
+Así que
+
+50
+00:03:59,360 --> 00:04:04,320
+Así que esa es una forma en que puedes mutar o cambiar los elementos que ya están en la lista.
+
+51
+00:04:04,380 --> 00:04:07,180
+Y eso es algo que lo diferencia de una cadena.
+
+52
+00:04:07,180 --> 00:04:12,100
+Además del hecho de que también contiene diferentes tipos de elementos y llaves y comas.
+
+53
+00:04:12,110 --> 00:04:16,090
+Así que de nuevo las cadenas puedes cambiarlas y afectar elementos dentro de ellas.
+
+54
+00:04:17,290 --> 00:04:22,850
+En otras operaciones comunes que puede querer realizar es agregar un elemento al final de una lista.
+
+55
+00:04:23,290 --> 00:04:29,830
+Y de esa manera podemos hacer eso, podemos decir los puntos más nuevos y presionar la pestaña aquí y debería ver todos los
+
+56
+00:04:29,830 --> 00:04:32,530
+diversos métodos que están disponibles para usted en una lista.
+
+57
+00:04:32,530 --> 00:04:39,400
+El que vamos a mostrar aquí es el método de agregar y agregar le permite agregar un nuevo elemento al
+
+58
+00:04:39,400 --> 00:04:40,720
+final de una lista.
+
+59
+00:04:41,050 --> 00:04:48,950
+Así que diré que agreguen 6 y después de leer esto bien, vamos a ver que si reviso mi nueva lista, tengo
+
+60
+00:04:50,420 --> 00:04:54,860
+uno con todas las letras dos tres cuatro cinco y ahora tengo seis.
+
+61
+00:04:54,860 --> 00:05:01,400
+Así que observe cómo un bolígrafo realmente afecta la lista y llamamos a esto afectarlo en un lugar
+
+62
+00:05:01,400 --> 00:05:06,280
+porque cambia permanentemente esa nueva lista para tener un elemento al final de esta.
+
+63
+00:05:06,290 --> 00:05:07,560
+Entonces esto se conoce como bolígrafo.
+
+64
+00:05:07,580 --> 00:05:10,760
+Y nuevamente le permite colocar cualquier artículo al final de una lista.
+
+65
+00:05:10,760 --> 00:05:12,630
+Probemos una vez más.
+
+66
+00:05:12,720 --> 00:05:20,910
+Te enviaré una lista con un bolígrafo, digamos que siete ejecutan ese verificador y tu lista y puedo ver uno completo.
+
+67
+00:05:20,910 --> 00:05:22,520
+Dos tres cuatro cinco seis.
+
+68
+00:05:22,560 --> 00:05:25,830
+Y luego siete porque estoy muy enfocado aquí es como cortarlo.
+
+69
+00:05:26,010 --> 00:05:30,180
+Pero si fuera a alejarse, comienza a verlo de una manera más normal.
+
+70
+00:05:30,180 --> 00:05:30,500
+Todo bien.
+
+71
+00:05:30,540 --> 00:05:32,550
+Entonces, sabemos cómo agregar cosas a una lista.
+
+72
+00:05:32,550 --> 00:05:34,790
+Hablemos sobre la eliminación de elementos de una lista.
+
+73
+00:05:34,890 --> 00:05:37,590
+Para hacer eso, podemos usar el método pop.
+
+74
+00:05:37,680 --> 00:05:43,960
+Así que pop realmente va a sacar un objeto del final de una lista.
+
+75
+00:05:44,000 --> 00:05:45,480
+Vamos a mostrarte lo que quieres decir con eso.
+
+76
+00:05:45,680 --> 00:05:52,200
+Vamos a decir que la nueva lista que se abre y cierra imprime ruber para muchas de estas llamadas a métodos.
+
+77
+00:05:52,220 --> 00:05:54,580
+Si no tienes Prince, estás allí y simplemente corres.
+
+78
+00:05:54,710 --> 00:05:55,650
+Va a informar de nuevo.
+
+79
+00:05:55,660 --> 00:05:59,070
+Hola, esa es la función pop dentro de este objeto más nuevo.
+
+80
+00:05:59,090 --> 00:06:02,930
+Si realmente desea llamarlo, necesita abrir y cerrar paréntesis.
+
+81
+00:06:02,930 --> 00:06:06,230
+Y más adelante discutiremos las diferencias entre métodos y funciones.
+
+82
+00:06:06,260 --> 00:06:09,770
+Probablemente me has escuchado usar esos términos de manera intercambiable en este momento, vamos a entrar
+
+83
+00:06:09,770 --> 00:06:11,330
+en más detalles sobre ellos más adelante.
+
+84
+00:06:11,630 --> 00:06:17,960
+Pero en este momento vimos que dijimos lista que emerge y salió del 7 y en realidad
+
+85
+00:06:17,960 --> 00:06:18,810
+también regresó.
+
+86
+00:06:20,210 --> 00:06:25,380
+Y si miramos qué nueva lista es ahora, ya no tiene la cadena 7 en ella.
+
+87
+00:06:25,380 --> 00:06:28,350
+Ahora solo llega a la cadena 6.
+
+88
+00:06:28,350 --> 00:06:31,380
+Así que en realidad se guarda el resultado de un pop.
+
+89
+00:06:31,440 --> 00:06:42,700
+Entonces podemos decir que el elemento reventado es igual a la nueva lista y voy a decir drop pop.
+
+90
+00:06:42,830 --> 00:06:47,900
+Y cuando ejecuto esto, lo que va a pasar es que este elemento pop es ahora el elemento que estaba al final
+
+91
+00:06:47,900 --> 00:06:48,610
+de esa lista.
+
+92
+00:06:48,740 --> 00:06:56,330
+Así que puedo copiar y pegar este elemento pop y ahora tengo 6 dicen que está el elemento pop y ya no
+
+93
+00:06:56,330 --> 00:06:58,110
+forma parte de mi lista.
+
+94
+00:06:58,160 --> 00:07:03,820
+Ahora una pregunta común que surge aquí es oye, no quiero eliminar algo del final de la lista.
+
+95
+00:07:04,010 --> 00:07:10,870
+Quiero eliminarlo en un índice específico, por ejemplo, quiero eliminar el todo en mayúsculas en el índice 0.
+
+96
+00:07:11,090 --> 00:07:12,310
+Bueno, en realidad no es problema.
+
+97
+00:07:12,320 --> 00:07:18,870
+Puede pasar una posición de índice en el pop que podemos decir y enumerar el pop y luego pasar la posición
+
+98
+00:07:18,870 --> 00:07:21,260
+de índice de lo que desea eliminar.
+
+99
+00:07:21,270 --> 00:07:25,110
+Podemos ver aquí que una mayúscula es la posición de índice 0.
+
+100
+00:07:25,200 --> 00:07:27,300
+Entonces es pasand 0 allí.
+
+101
+00:07:27,420 --> 00:07:27,920
+Ejecutarlo.
+
+102
+00:07:27,930 --> 00:07:35,750
+Ahora podemos ver que hemos salido de un todo en mayúsculas y, si lo hace ahora, tenemos dos tres cuatro cinco.
+
+103
+00:07:36,040 --> 00:07:41,230
+Así que, de nuevo, pop básicamente elimina elementos de la lista en cualquier ubicación que proporciones.
+
+104
+00:07:41,290 --> 00:07:44,260
+Por defecto, la ubicación del índice es negativa 1.
+
+105
+00:07:44,290 --> 00:07:45,830
+El final de una lista.
+
+106
+00:07:45,910 --> 00:07:53,240
+Así que la indexación inversa también funciona de la lista al igual que funcionó para la cadena. Algunos métodos más
+
+107
+00:07:53,240 --> 00:07:59,720
+que quiero analizar además de pop y append, que son métodos realmente comunes que está utilizando, son
+
+108
+00:07:59,720 --> 00:08:00,860
+ordenar y revertir.
+
+109
+00:08:00,860 --> 00:08:03,040
+Entonces para hacer esto voy a crear una nueva lista.
+
+110
+00:08:03,050 --> 00:08:04,220
+Vamos a acercarnos aquí.
+
+111
+00:08:05,170 --> 00:08:11,170
+la lista y voy a ver que la lista final es un par de cartas aquí, pero las vamos
+
+112
+00:08:11,170 --> 00:08:13,930
+a ordenar ordenadas alfabéticamente a medida que avanzamos.
+
+113
+00:08:17,270 --> 00:08:18,220
+Así que leeré
+
+114
+00:08:18,340 --> 00:08:22,540
+Y también haremos la lista de números, así que diremos que nimblest es igual a.
+
+115
+00:08:22,540 --> 00:08:25,650
+Y hagamos esto solo un montón de números fuera de servicio también.
+
+116
+00:08:27,270 --> 00:08:28,900
+OK, entonces tenemos dos listas.
+
+117
+00:08:28,950 --> 00:08:35,280
+Si alguna vez queremos ordenar estas listas en las que podemos hacer se llama el método de ordenación, podemos ver una
+
+118
+00:08:35,280 --> 00:08:39,680
+nueva clasificación de lista y puede usar la función de autocompletar para hacer esto.
+
+119
+00:08:39,970 --> 00:08:46,060
+Abra un paréntesis cerrado y esto es realmente un método especial en el lugar porque en realidad
+
+120
+00:08:46,060 --> 00:08:47,050
+no devuelve nada.
+
+121
+00:08:47,110 --> 00:08:49,510
+En cambio, lo que está haciendo es que va a ordenar.
+
+122
+00:08:49,510 --> 00:08:53,260
+Nueva lista en su lugar, lo que significa que no devuelve nada.
+
+123
+00:08:53,260 --> 00:08:58,090
+En cambio, cuando vuelves a llamar a la nueva lista, ahora está ordenada en orden alfabético.
+
+124
+00:08:58,090 --> 00:09:03,640
+ABC X y esa es una distinción importante porque muchas veces los principiantes harán
+
+125
+00:09:03,640 --> 00:09:04,620
+algo como esto.
+
+126
+00:09:04,750 --> 00:09:12,380
+Dirán Oh, mi lista ordenada es igual a la lista de ese tipo.
+
+127
+00:09:12,750 --> 00:09:18,450
+Pero lo que sucederá aquí es que la nueva lista de ese tipo ocurre en su lugar, en realidad no
+
+128
+00:09:18,450 --> 00:09:20,320
+devuelve nada para que usted pueda asignar.
+
+129
+00:09:20,340 --> 00:09:25,210
+Entonces cuando llames a mi lista ordenada no recibirás nada o nada.
+
+130
+00:09:25,270 --> 00:09:33,360
+Y en realidad puedes verificar el tipo de esto y va a decir que es un tipo de sangre y de qué tipo
+
+131
+00:09:33,360 --> 00:09:36,050
+es el tipo para el objeto none.
+
+132
+00:09:36,060 --> 00:09:41,640
+Así que, en realidad, hay un objeto especial en Python llamado none notado, el capital y allí, y esto es algo
+
+133
+00:09:41,640 --> 00:09:47,460
+que puedes usar para indicar que no tiene ningún valor y muchas veces la gente lo tiene como marcador de posición.
+
+134
+00:09:47,610 --> 00:09:53,320
+Pero realmente lo que es, es el valor de retorno de una función o método que en realidad no devuelve nada.
+
+135
+00:09:53,550 --> 00:09:58,140
+Por lo tanto, es un valor de retorno predeterminado común para funciones que pueden buscar algo
+
+136
+00:09:58,140 --> 00:10:00,180
+y pueden encontrarlo o no, por ejemplo.
+
+137
+00:10:00,180 --> 00:10:05,280
+Entonces, esa es una distinción importante para señalar aquí que cuando estás usando este método de clasificación, en realidad
+
+138
+00:10:05,280 --> 00:10:06,480
+está ocurriendo en su lugar.
+
+139
+00:10:06,510 --> 00:10:10,420
+Por lo tanto, no podrá reasignar el resultado a otra cosa.
+
+140
+00:10:10,440 --> 00:10:19,940
+Si quisieras hacer eso tendrías que hacer es decir una nueva lista que duele y luego decir que mi lista ordenada es igual
+
+141
+00:10:19,940 --> 00:10:28,380
+a la nueva lista y luego, cuando la ejecutes, puedes tener mi lista ordenada usando la pestaña autocompletar allí y lo
+
+142
+00:10:28,830 --> 00:10:33,870
+harás. recupera tu lista ordenada y prueba nuevamente esa lista de números.
+
+143
+00:10:33,870 --> 00:10:37,150
+Así que ahora la lista no está ordenada.
+
+144
+00:10:37,200 --> 00:10:44,950
+Si llamo al método de clasificación y verifico nimblest nuevamente ahora está ordenado.
+
+145
+00:10:45,000 --> 00:10:45,460
+Todo bien.
+
+146
+00:10:45,690 --> 00:10:49,290
+Discutamos también el método inverso de la lista como era de esperar.
+
+147
+00:10:49,320 --> 00:10:51,960
+Va a invertir todo en su lista.
+
+148
+00:10:51,960 --> 00:10:59,680
+Así que solo invierta la impresión de cierre cerrado y ejecute eso, y también está en su lugar, lo que significa que no devuelve nada.
+
+149
+00:10:59,800 --> 00:11:04,880
+Y cuando llamas a la versión inversa de tu lista, tenían 8 4 3 dos 1.
+
+150
+00:11:04,890 --> 00:11:05,460
+Todo bien.
+
+151
+00:11:05,520 --> 00:11:11,940
+Eso es realmente lo básico de las listas y la mayoría de los métodos de soporte para comprender son el método de adición y
+
+152
+00:11:11,940 --> 00:11:14,850
+el método pop, así como el método de ordenamiento e inversión.
+
+153
+00:11:14,940 --> 00:11:19,380
+Y al igual que las cadenas fueron capaces de realizar indexación y división.
+
+154
+00:11:19,380 --> 00:11:26,760
+Entonces, si vuelves aquí, podemos decir indexación y división de notación como un igual.
+
+155
+00:11:26,880 --> 00:11:30,750
+Así que eso funciona igual que esperaría que funcionara como lo hizo en cadenas.
+
+156
+00:11:30,750 --> 00:11:35,450
+Lo único que hay que señalar aquí es que a diferencia de las cadenas, podemos reasignarlas, como
+
+157
+00:11:35,450 --> 00:11:36,590
+aparecimos con una lista.
+
+158
+00:11:36,630 --> 00:11:37,010
+DE ACUERDO.
+
+159
+00:11:37,080 --> 00:11:38,520
+Eso es lo básico de una lista.
+
+160
+00:11:38,580 --> 00:11:41,100
+Próximamente vamos a discutir los diccionarios.
+
+161
+00:11:41,100 --> 00:11:42,090
+Lo veré allí.

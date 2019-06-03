@@ -1,0 +1,507 @@
+1
+00:00:05,640 --> 00:00:06,900
+Bem-vindo de volta a todos.
+
+2
+00:00:07,170 --> 00:00:11,460
+Nesta palestra, continuaremos logo na hora em que deixamos a última vez, mas estaremos discutindo
+
+3
+00:00:11,520 --> 00:00:16,950
+a indexação de cordas e a indexação de fatias ou agarramos um único personagem e cortaremos ou pegaremos uma
+
+4
+00:00:17,100 --> 00:00:20,920
+subseção dessa string, vamos pular para o livro de notas Jupiter e iniciar.
+
+5
+00:00:21,210 --> 00:00:27,180
+OK, então, para começar isso, vou criar uma variável chamada minha string e
+
+6
+00:00:27,180 --> 00:00:30,270
+gostei da mesma linha do mundo.
+
+7
+00:00:30,270 --> 00:00:36,150
+Então, há um espaço lá entre o Olá mundo, eu administrai isso e apenas verifiquei para ter certeza.
+
+8
+00:00:36,430 --> 00:00:36,680
+ESTÁ BEM.
+
+9
+00:00:36,690 --> 00:00:37,610
+Então, temos oi mundo.
+
+10
+00:00:37,610 --> 00:00:39,540
+Eles estão prontos para ir.
+
+11
+00:00:39,560 --> 00:00:40,360
+Agora vamos imaginar.
+
+12
+00:00:40,380 --> 00:00:44,130
+Eu queria pegar um único personagem desta corda.
+
+13
+00:00:44,190 --> 00:00:46,800
+Nesse caso, eu quero usar indexação.
+
+14
+00:00:46,800 --> 00:00:48,660
+Então, nós chamamos o nome da variável.
+
+15
+00:00:48,870 --> 00:00:50,670
+Temos colchetes.
+
+16
+00:00:50,760 --> 00:00:56,520
+passo um 0 porque a indexação começa em zero e isso me permite retornar esse primeiro personagem h.
+
+17
+00:00:56,520 --> 00:01:01,890
+E vamos imaginar que eu quero pegar o primeiro personagem que é o capital H que eu
+
+18
+00:01:01,890 --> 00:01:03,690
+Vamos tentar agarrar outro personagem.
+
+19
+00:01:03,690 --> 00:01:05,540
+Digamos que queremos pegar nosso.
+
+20
+00:01:05,640 --> 00:01:13,120
+Então vamos contar isso com minha corda e queremos contar de 0 0 1 2 3 4 5.
+
+21
+00:01:13,120 --> 00:01:16,580
+Então, note as contagens do espaço 6 7 8.
+
+22
+00:01:16,950 --> 00:01:21,500
+Então, se eu passar um 8 lá, ele deveria retornar é perfeito.
+
+23
+00:01:21,510 --> 00:01:24,010
+Então, novamente isso é conhecido como indexação.
+
+24
+00:01:24,010 --> 00:01:27,860
+Agora vamos imaginar que queríamos pegar esta carta L.
+
+25
+00:01:28,090 --> 00:01:29,790
+Bem, existem duas maneiras de fazer isso.
+
+26
+00:01:29,860 --> 00:01:36,970
+Eu poderia dizer minha corda às nove, porque é logo depois que é a outra maneira que eu poderia fazer é
+
+27
+00:01:37,090 --> 00:01:39,480
+usar a indexação reversa que mencionamos anteriormente.
+
+28
+00:01:39,700 --> 00:01:46,090
+Então, começando em 0 de H, posso ir para trás na string para que D seja negativo 1 e isso significa
+
+29
+00:01:46,180 --> 00:01:47,930
+que este L é negativo 2.
+
+30
+00:01:48,190 --> 00:01:54,220
+Então, se eu disser a minha string negativa dois, eu realmente recuperarei essa L e então, se eu continuar voltando
+
+31
+00:01:54,220 --> 00:01:58,640
+na corda, eu vou voltar, que é o que é certo antes da L.
+
+32
+00:01:58,660 --> 00:02:00,700
+Então vou voltar e estou lá.
+
+33
+00:02:00,700 --> 00:02:07,770
+Então, você pode usar posições de índice positivo e negativo para capturar elementos ou caracteres da string.
+
+34
+00:02:07,960 --> 00:02:12,550
+E isso é realmente útil novamente porque muitas vezes você terá uma string variável talvez seja o nome de
+
+35
+00:02:12,550 --> 00:02:14,700
+alguém e você não sabe o tamanho desse nome.
+
+36
+00:02:14,860 --> 00:02:19,120
+Mas por qualquer motivo, você quer pegar a última letra do nome, eles sempre podem usar
+
+37
+00:02:19,120 --> 00:02:19,600
+apenas uma.
+
+38
+00:02:19,630 --> 00:02:21,830
+E você sabe que é a última letra da corda.
+
+39
+00:02:22,880 --> 00:02:23,230
+ESTÁ BEM.
+
+40
+00:02:23,290 --> 00:02:28,600
+corte, então o corte é um pouco mais complicado porque estamos agarrando uma subseção da corda.
+
+41
+00:02:28,600 --> 00:02:30,850
+Vamos continuar e continuar a discutir o
+
+42
+00:02:30,850 --> 00:02:33,850
+Então, é mais de um caractere tipicamente.
+
+43
+00:02:33,850 --> 00:02:41,370
+Vamos rever a nossa string, minha string aqui é oi mundo e vou ler a minha string.
+
+44
+00:02:41,440 --> 00:02:47,330
+Então, isso é um pouco mais fácil de seguir como um b c d e f g h i j k.
+
+45
+00:02:47,410 --> 00:02:50,500
+Então, apenas uma espécie de seqüência do alfabeto, vai encontrá-lo.
+
+46
+00:02:50,830 --> 00:02:53,520
+E agora eu tenho essa seqüência do alfabeto.
+
+47
+00:02:53,890 --> 00:02:59,920
+Então, vamos imaginar que queremos pegar uma subseção de uma seqüência de caracteres que iniciou um índice específico e
+
+48
+00:02:59,920 --> 00:03:01,470
+depois foi até o final.
+
+49
+00:03:01,780 --> 00:03:07,840
+Bem, a maneira como podemos fazer isso é que diriamos a notação Brecken da cadeia quadrada e, então, diremos
+
+50
+00:03:07,900 --> 00:03:08,950
+o índice inicial.
+
+51
+00:03:08,950 --> 00:03:12,850
+Imaginemos querer começar pela letra C e depois ir até o final.
+
+52
+00:03:12,850 --> 00:03:16,950
+Então C também é um índice porque é 0 1 2.
+
+53
+00:03:16,960 --> 00:03:19,900
+Então, o que eu faço é que eu entro nisso se eu apenas fizer isso.
+
+54
+00:03:19,930 --> 00:03:27,480
+Isso me dá de volta a letra C, mas se eu quiser de C até o fim, posso dizer que o cólon e que
+
+55
+00:03:27,570 --> 00:03:30,890
+indica que começa ao lado do Colon vai até o final.
+
+56
+00:03:31,040 --> 00:03:34,880
+E lá, temos CD até K OK.
+
+57
+00:03:35,090 --> 00:03:40,880
+Agora vamos imaginar uma espécie de situação oposta onde eu quero agarrar tudo
+
+58
+00:03:40,910 --> 00:03:49,200
+até um índice específico que eu poderia dizer meu cólon e digamos que queria pegar um b e c. Então, começando no início, vá em frente e agarra todo o caminho até a letra essencialmente D aqui.
+
+59
+00:03:49,370 --> 00:03:55,440
+Então eu vou dizer 0 1 2 3 pasand 3 lá.
+
+60
+00:03:55,680 --> 00:04:01,090
+E depois corremos e recuperamos o ABC.
+
+61
+00:04:01,490 --> 00:04:03,880
+Agora, isso às vezes é confuso para os alunos, porque nós conferimos minha string.
+
+62
+00:04:04,130 --> 00:04:09,320
+Tecnicamente, temos o D em 3 porque é 0 1 2 3.
+
+63
+00:04:09,320 --> 00:04:15,120
+Bem, você deve notar aqui que o índice de parada este termo aqui mesmo para três, que apenas retorna
+
+64
+00:04:15,140 --> 00:04:20,470
+o ABC, esse é o índice acima, basicamente, está dizendo, mas não inclui essa posição de índice.
+
+65
+00:04:20,530 --> 00:04:26,920
+Então, vá até a letra D, mas não inclua o que essencialmente diz A B
+
+66
+00:04:27,170 --> 00:04:34,040
+C, então tenha isso em mente, pois você está jogando em torno de uma notação de fatia.
+
+67
+00:04:34,040 --> 00:04:36,210
+A parada é adequada, mas não inclui OK,
+
+68
+00:04:36,230 --> 00:04:43,360
+vamos combinar essas duas idéias de um índice inicial e um índice de parada, tentando pegar uma subseção ou uma string que está no meio.
+
+69
+00:04:43,360 --> 00:04:47,160
+Por exemplo, vamos tentar agarrar D E F
+
+70
+00:04:47,230 --> 00:04:54,250
+a partir do meio da string da maneira que podemos fazer, é dizer meus colchetes
+
+71
+00:04:54,250 --> 00:05:01,000
+quadrados abertos e depois começamos com o nosso início na Exposição neste caso, letra D.
+
+72
+00:05:01,000 --> 00:05:01,530
+DPF.
+
+73
+00:05:01,750 --> 00:05:11,060
+Então, é 0 1 2 3 então dizemos dois pontos e então vai subir para a posição de G aqui porque eu só quero o
+
+74
+00:05:11,060 --> 00:05:12,560
+Então vamos subir, mas não incluindo G.
+
+75
+00:05:12,560 --> 00:05:14,970
+Então é 0 1 2 3 4 5 6.
+
+76
+00:05:15,200 --> 00:05:20,910
+E agora, se eu executar isso, eu volto d e f.
+
+77
+00:05:20,980 --> 00:05:23,840
+Então, vamos praticar isso mais uma vez, tentando pegar outra subseção da corda.
+
+78
+00:05:23,860 --> 00:05:27,720
+Por exemplo, é tentar pegar apenas b e c estas duas letras
+
+79
+00:05:27,910 --> 00:05:34,810
+bc para que possamos fazê-lo à medida que vamos digitar a minha string aberta e fechar colchetes estão começando na solução
+
+80
+00:05:35,170 --> 00:05:42,790
+é 0 1 para B colon e então parece que queremos vá até e incluindo 0 1 2 3 ou execute isso.
+
+81
+00:05:42,790 --> 00:05:49,310
+E lá, temos B C e eu encorajarei você a tentar pegar uma subseção.
+
+82
+00:05:49,680 --> 00:05:54,810
+Então, True é uma subseção da string e, em seguida, veja
+
+83
+00:05:54,810 --> 00:05:59,940
+se você pode pegá-la em uma visão positiva e tentar isso.
+
+84
+00:05:59,940 --> 00:06:00,560
+OK para terminar sua discussão, vamos discutir rapidamente o tamanho do passo.
+
+85
+00:06:00,840 --> 00:06:04,450
+Imaginemos que queria agarrar tudo desde o início da corda até o final.
+
+86
+00:06:04,740 --> 00:06:09,450
+Bem, tecnicamente, isso é apenas a própria seqüência, mas eu também poderia
+
+87
+00:06:09,660 --> 00:06:14,580
+usar a notação de cólon para isso, eu poderia dizer colon de cólon.
+
+88
+00:06:14,580 --> 00:06:16,110
+E isso, basicamente, diz que desde todo o caminho até o início vai todo o caminho até o fim.
+
+89
+00:06:16,110 --> 00:06:20,280
+Agora, muitas vezes você não vê isso porque você também pode simplesmente chamar a própria string.
+
+90
+00:06:20,280 --> 00:06:23,670
+Mas esta é uma sintaxe tecnicamente válida.
+
+91
+00:06:23,790 --> 00:06:26,370
+A razão pela qual você pode ver algo como
+
+92
+00:06:26,370 --> 00:06:31,170
+isto é se alguém quisesse especificar o terceiro parâmetro e esse é o tamanho do passo.
+
+93
+00:06:31,170 --> 00:06:32,490
+Então, agora, estamos dizendo que
+
+94
+00:06:32,730 --> 00:06:38,070
+vamos todo o caminho do começo ao fim e o tamanho do passo de um b c d e f g.
+
+95
+00:06:38,070 --> 00:06:39,340
+Então, esse é o tamanho do passo padrão de 1.
+
+96
+00:06:39,360 --> 00:06:41,450
+No entanto, posso mudar isso, fornecendo um número como dois.
+
+97
+00:06:41,460 --> 00:06:44,560
+E isso diz em saltos de dois.
+
+98
+00:06:44,760 --> 00:06:46,640
+Então, de um ir para C E para G.
+
+99
+00:06:46,650 --> 00:06:50,690
+Ok, então, se eu executar isso, voltei um CEGIK porque estou pulando no tamanho
+
+100
+00:06:50,760 --> 00:06:59,610
+do passo de dois Eu posso aumentar isso para ser um tamanho de passo de três e depois iremos de um salto para d salto para G salto para J .
+
+101
+00:06:59,610 --> 00:07:07,910
+E então não há mais cartas para saltar porque estamos pulando em um tamanho de passo maior.
+
+102
+00:07:07,920 --> 00:07:11,710
+Então é assim que o tamanho do passo funciona.
+
+103
+00:07:11,730 --> 00:07:13,410
+E você pode combinar isso com um começo e parar também.
+
+104
+00:07:13,410 --> 00:07:16,480
+e um tamanho de etapa para voltar CGM.
+
+105
+00:07:16,620 --> 00:07:22,830
+Então, podemos dizer algo como começar do índice para ir até e inclusive o índice 7
+
+106
+00:07:23,190 --> 00:07:25,220
+Então C então saltou para E e depois saltou para G.
+
+107
+00:07:25,230 --> 00:07:28,580
+Então observe como tudo isso funciona em combinação.
+
+108
+00:07:28,590 --> 00:07:30,690
+Você comete uma parada e, em
+
+109
+00:07:30,690 --> 00:07:37,630
+seguida, um tamanho de passo que você pode ver geralmente está usando um passo inteligente, então, truque para reverter uma string.
+
+110
+00:07:37,630 --> 00:07:39,930
+E o que você pode fazer é
+
+111
+00:07:40,200 --> 00:07:45,510
+dizer minha corda e, em seguida, dizer de todo o caminho até o início até o final.
+
+112
+00:07:45,510 --> 00:07:46,050
+até o final.
+
+113
+00:07:46,260 --> 00:07:51,900
+Dê um passo do negativo 1 e o que isso faz é que ele realmente inverte sua corda porque está dizendo desde o início até o fim
+
+114
+00:07:51,900 --> 00:07:55,150
+Vá e dê um passo para trás que é então K J.
+
+115
+00:07:55,230 --> 00:07:59,000
+EU.
+
+116
+00:07:59,020 --> 00:07:59,370
+Todo o caminho até o fim.
+
+117
+00:07:59,370 --> 00:08:00,590
+Então, esse é um pouco um pequeno truque de Python.
+
+118
+00:08:00,660 --> 00:08:02,360
+Agora, muitas vezes em entrevistas, as pessoas pedem que você
+
+119
+00:08:02,360 --> 00:08:06,960
+inverta uma corda e eles ficam irritados com Python, ele diz porque eles rapidamente apenas fazem esse bom tipo de lousa em vez de fazer um loop para.
+
+120
+00:08:06,950 --> 00:08:11,800
+Mas eu só quero que você esteja ciente disso.
+
+121
+00:08:11,850 --> 00:08:13,620
+Normalmente, em nosso código, ele não será realmente usado porque é demais porque é mais um truque.
+
+122
+00:08:13,920 --> 00:08:17,330
+Mas, novamente, é muito útil nisso.
+
+123
+00:08:17,490 --> 00:08:19,990
+ESTÁ BEM.
+
+124
+00:08:20,400 --> 00:08:20,890
+Então é isso para cortar e indexar.
+
+125
+00:08:21,030 --> 00:08:24,120
+Próximamente, vamos discutir um pouco sobre algumas propriedades de string úteis.
+
+126
+00:08:24,120 --> 00:08:27,860
+Vamos ver se eles estão.
+
+127
+00:08:27,900 --> 00:08:28,580
+&nbsp;

@@ -1,0 +1,587 @@
+1
+00:00:05,370 --> 00:00:07,230
+Bem-vindo a todos nesta palestra.
+
+2
+00:00:07,260 --> 00:00:11,610
+Vamos terminar nossa discussão sobre strings falando sobre propriedades de string e
+
+3
+00:00:11,610 --> 00:00:12,560
+métodos de string.
+
+4
+00:00:12,570 --> 00:00:14,690
+Vamos pular para um livro de notas e começar.
+
+5
+00:00:14,730 --> 00:00:19,210
+A primeira coisa que vamos discutir é a imutabilidade das cordas e da imutabilidade.
+
+6
+00:00:19,230 --> 00:00:25,240
+Isso decorre da palavra Mutti basicamente significa imitar ou você não pode mutar ou não pode mudar.
+
+7
+00:00:25,280 --> 00:00:26,930
+Eu vou mostrar um exemplo disso.
+
+8
+00:00:27,120 --> 00:00:32,330
+Vamos criar uma variável chamada nome e configurá-la igual a Sam.
+
+9
+00:00:32,330 --> 00:00:35,700
+Agora vamos imaginar que você quer mudar esse nome para Pam.
+
+10
+00:00:35,720 --> 00:00:37,910
+Então mude o S para uma p.
+
+11
+00:00:38,240 --> 00:00:41,050
+Bem, você pode pensar que você faria algo assim.
+
+12
+00:00:41,240 --> 00:00:45,830
+Diga o nome do índice em 0 e, em seguida, defina-o como P. Agora para cordas.
+
+13
+00:00:45,860 --> 00:00:46,590
+Infelizmente, você não pode fazer isso se tentar executar este código.
+
+14
+00:00:46,580 --> 00:00:49,330
+Você receberá um erro porque as cadeias de caracteres são imutáveis, o
+
+15
+00:00:49,520 --> 00:00:55,580
+que significa um objeto de seqüência de caracteres ou, como camada, o objeto não suporta a atribuição de itens para que você não consiga pegar um desses caracteres.
+
+16
+00:00:55,580 --> 00:00:58,820
+Um desses elementos na string e, em seguida, tente reatribuí-lo dessa maneira.
+
+17
+00:00:58,820 --> 00:01:02,510
+As cordas simplesmente não funcionam dessa maneira no Python.
+
+18
+00:01:02,510 --> 00:01:04,580
+Mais tarde, aprenderemos sobre outros tipos
+
+19
+00:01:04,580 --> 00:01:09,960
+de dados que suportam a atribuição de itens, tudo isso significa que se quisermos reatribuir isso
+
+20
+00:01:09,960 --> 00:01:15,630
+para ser feliz, basicamente temos que criar uma nova string e podemos fazer isso com concatenação.
+
+21
+00:01:15,840 --> 00:01:17,070
+Isso combina com duas cordas juntas,
+
+22
+00:01:17,070 --> 00:01:22,170
+então vou comentar isso e criar um comentário, basta colocar uma marca de hash na frente dela e, se você executar isso, você não obterá nada.
+
+23
+00:01:22,170 --> 00:01:25,860
+Então, basicamente, qualquer coisa que a tag hash seja apenas um código comentado que não seja executado.
+
+24
+00:01:25,860 --> 00:01:30,420
+Vamos explorar este exemplo tentando criar a corda Pam usando o que já temos sobre o nome.
+
+25
+00:01:30,490 --> 00:01:37,060
+Então, a primeira coisa que eu quero fazer é tentar agarrar e m.
+
+26
+00:01:37,060 --> 00:01:41,090
+Então, vamos usar a notação de fatia que aprendemos anteriormente.
+
+27
+00:01:41,260 --> 00:01:44,760
+Vamos começar no índice 1 e depois ir até o final.
+
+28
+00:01:44,830 --> 00:01:48,970
+Então vamos verificar isso.
+
+29
+00:01:48,970 --> 00:01:49,990
+OK, então é perfeito.
+
+30
+00:01:50,200 --> 00:01:52,100
+Então, o que irá assinar isso para algo como as últimas letras é igual a nomear um todo até o fim.
+
+31
+00:01:52,120 --> 00:02:01,030
+Então, se eu examinar as últimas letras novamente, posso usar a aba para preencher automaticamente.
+
+32
+00:02:01,030 --> 00:02:04,510
+para que possamos dizer as últimas letras P Plus e depois recebemos o Pimm.
+
+33
+00:02:04,510 --> 00:02:11,980
+Aqui, diz AM e agora o que posso fazer é que eu posso concatenar as duas últimas cartas e a maneira como você faz isso com o sinal de mais,
+
+34
+00:02:12,070 --> 00:02:20,940
+Então isso é conhecido como concatenação de string.
+
+35
+00:02:20,950 --> 00:02:22,960
+Vamos explorar mais alguns exemplos.
+
+36
+00:02:23,230 --> 00:02:25,260
+Eu vou dizer que x é igual ao Hello World.
+
+37
+00:02:25,270 --> 00:02:31,050
+E então eu poderia dizer que X plus é lindo.
+
+38
+00:02:33,360 --> 00:02:39,240
+Fora e depois, se eu executar isso, posso ver o mundo do Olá.
+
+39
+00:02:40,290 --> 00:02:44,040
+É lindo lá fora.
+
+40
+00:02:44,040 --> 00:02:45,420
+e não há espaço no início.
+
+41
+00:02:45,510 --> 00:02:49,770
+Algo a ter em mente é notar que não há espaço aqui porque não havia espaço no final do mundo
+
+42
+00:02:49,770 --> 00:02:52,120
+Então, seria bom se você adicionar um pouco de espaço lá.
+
+43
+00:02:52,320 --> 00:02:54,620
+Então, quando você lança isso novamente, olá mundo.
+
+44
+00:02:54,630 --> 00:02:56,930
+É lindo lá fora.
+
+45
+00:02:56,940 --> 00:02:58,770
+Agora, se eu fizer isso
+
+46
+00:02:58,770 --> 00:03:05,310
+várias vezes com uma re-atribuição, então eu poderia dizer que x é igual a x mais é bonito lá fora.
+
+47
+00:03:05,310 --> 00:03:06,390
+Agora eu quero executar isso. Eu li o find X para que eu possa ver agora.
+
+48
+00:03:06,390 --> 00:03:09,290
+Olá Mundo.
+
+49
+00:03:09,300 --> 00:03:09,810
+É lindo lá fora.
+
+50
+00:03:09,810 --> 00:03:11,140
+Se eu acidentalmente corri esta célula, mais de uma vez eu adiciono é lindo lá fora.
+
+51
+00:03:11,220 --> 00:03:16,090
+Uma segunda vez.
+
+52
+00:03:16,110 --> 00:03:16,740
+Então, se eu executar isso novamente.
+
+53
+00:03:16,740 --> 00:03:18,000
+Observe quantos números vão mudar logo ao lado da célula que diz Olá mundo.
+
+54
+00:03:18,090 --> 00:03:22,080
+É lindo lá fora.
+
+55
+00:03:22,080 --> 00:03:22,890
+É lindo lá fora e podemos continuar fazendo isso e você continua adicionando.
+
+56
+00:03:22,890 --> 00:03:26,840
+Então, isso é uma concatenação de cordas e permite que você coloque rapidamente as cordas juntas.
+
+57
+00:03:26,900 --> 00:03:32,360
+Há também uma multiplicação que você pode fazer para fazer várias detonações de cordas ao mesmo tempo.
+
+58
+00:03:32,370 --> 00:03:38,250
+Deixe-me mostrar o que isso parece.
+
+59
+00:03:38,250 --> 00:03:39,590
+Então, até agora, usamos o sinal de mais para concatenar duas cordas juntas ou juntá-las.
+
+60
+00:03:39,770 --> 00:03:44,610
+Mas se você tivesse a letra igual a Z e
+
+61
+00:03:44,820 --> 00:03:52,600
+você Kuechly quisesse 10 Zeese, o que você poderia fazer é dizer Carta vezes 10.
+
+62
+00:03:53,270 --> 00:03:54,290
+E lá você podia ver.
+
+63
+00:03:54,650 --> 00:03:55,880
+Alguém dormindo aqui é fácil é fácil 10 vezes.
+
+64
+00:03:56,000 --> 00:03:58,650
+Então, isso está usando a multiplicação de letras e então está usando um sinal de letras mais.
+
+65
+00:03:58,880 --> 00:04:03,800
+Algo a ter em mente quando você está executando detonação de cordas ou multiplicação de
+
+66
+00:04:03,950 --> 00:04:09,140
+seqüência é que você vai conseguir erros se tentar concatenar um número com uma string.
+
+67
+00:04:09,260 --> 00:04:13,790
+Quer mostrar o que quero dizer com isso, imaginamos que estamos fazendo dois mais três.
+
+68
+00:04:13,790 --> 00:04:18,600
+Nós corremos isso, temos 5.
+
+69
+00:04:18,660 --> 00:04:19,880
+Isso faz sentido se fizermos a string para mais a teoria das cordas.
+
+70
+00:04:19,880 --> 00:04:25,740
+Agora que são cordas, não vai juntá-las.
+
+71
+00:04:26,030 --> 00:04:28,520
+Em vez disso, ele vai realizar a concatenação.
+
+72
+00:04:28,520 --> 00:04:30,730
+cuidado com os tipos de dados.
+
+73
+00:04:30,740 --> 00:04:37,820
+Então, agora, nós recuperamos a string 23 e isso é um retorno de chamada para digitação dinâmica, onde devemos ter muito
+
+74
+00:04:37,820 --> 00:04:39,650
+Portanto, mantenha esse tipo de
+
+75
+00:04:39,680 --> 00:04:44,780
+problema em mente que seu usuário pode acabar colocando cordas e depois seu código.
+
+76
+00:04:44,780 --> 00:04:45,460
+Se você começar a adicioná-los juntos, você pode acabar com um resultado inesperado como 23 em vez de 5.
+
+77
+00:04:45,560 --> 00:04:51,240
+Então, este é um excelente exemplo tanto do bom quanto do ruim da habilidade de Python de
+
+78
+00:04:51,320 --> 00:04:58,070
+ser muito flexível, por isso é muito flexível, o que significa que você não está recebendo um erro aqui, mas talvez
+
+79
+00:04:58,070 --> 00:05:02,570
+seja um pouco flexível, porque você espera que 5 e você lhe devolveu 23.
+
+80
+00:05:02,720 --> 00:05:05,480
+esse tipo de erros ou erros.
+
+81
+00:05:05,600 --> 00:05:10,070
+Mais tarde, vamos aprender sobre muito mais maneiras que podemos impedir
+
+82
+00:05:10,070 --> 00:05:11,080
+Vamos continuar discutindo alguns métodos de string incorporados.
+
+83
+00:05:11,480 --> 00:05:14,630
+Então, os objetos em Python geralmente possuem métodos básicos
+
+84
+00:05:14,840 --> 00:05:20,150
+e esses métodos são essencialmente funções que estão dentro do objeto e mais tarde,
+
+85
+00:05:20,150 --> 00:05:24,260
+vamos aprender a criar nossas próprias funções em nossos próprios métodos.
+
+86
+00:05:24,290 --> 00:05:25,350
+Agora vamos examinar apenas alguns métodos úteis.
+
+87
+00:05:25,470 --> 00:05:29,620
+Eu vou criar uma nova string, vamos chamar X e dizer o seu mundo do Olá.
+
+88
+00:05:29,630 --> 00:05:37,150
+notebook Jupiter e esta é uma lista de todos os atributos e métodos disponíveis neste objeto de string.
+
+89
+00:05:38,610 --> 00:05:46,460
+E se eu acertar X dot e depois clicar na guia, eu deveria ver esta lista aparecer no
+
+90
+00:05:46,460 --> 00:05:51,540
+Agora, novamente, certifique-se de que você já definiu X caso contrário, você não verá nada.
+
+91
+00:05:51,540 --> 00:05:55,240
+Então, certifique-se de que você correu essa célula que diz X hello world
+
+92
+00:05:55,290 --> 00:06:00,630
+e, em seguida, uma nova célula diz X que atingiu a aba e você deve ver essa lista.
+
+93
+00:06:00,630 --> 00:06:02,020
+Então, como você pode ver, há toneladas de métodos aqui e nós não vamos passar por todos eles agora.
+
+94
+00:06:02,110 --> 00:06:06,240
+Nós apenas vamos superar os mais úteis que você estará usando mais tarde neste curso.
+
+95
+00:06:06,270 --> 00:06:10,440
+Então, rapidamente, em letras maiúsculas, em uma seqüência de caracteres,
+
+96
+00:06:11,250 --> 00:06:17,940
+você pode dizer parênteses abertos e fechados superiores e isso será maiúsculo tudo na seqüência de caracteres.
+
+97
+00:06:17,940 --> 00:06:20,130
+Tenha em mente que este método não está no lugar.
+
+98
+00:06:20,130 --> 00:06:23,120
+Ou seja, isso não afeta a seqüência de caracteres original.
+
+99
+00:06:23,130 --> 00:06:26,380
+Se você não quisesse afetar a string original, você teria que reatribuí-la.
+
+100
+00:06:26,520 --> 00:06:29,410
+Você tem que fazer algo parecido.
+
+101
+00:06:29,410 --> 00:06:30,210
+X é igual ao caso de versão superior de X. Portanto, tenha isso em mente.
+
+102
+00:06:30,240 --> 00:06:34,230
+Eu estou olhando para executar isso agora porque eu quero a string x original e se você acidentalmente fez uma re-atribuição, você sempre
+
+103
+00:06:34,320 --> 00:06:35,000
+pode simplesmente dizer executar.
+
+104
+00:06:35,010 --> 00:06:39,560
+Olá mundo novamente.
+
+105
+00:06:39,570 --> 00:06:41,220
+Tudo bem.
+
+106
+00:06:41,220 --> 00:06:42,760
+Então, temos o método superior, algo que é realmente comum para os iniciantes, como um erro a fazer é que, acidentalmente, apenas fazem parte superior
+
+107
+00:06:42,870 --> 00:06:43,270
+e esquecem esses parênteses abertos e próximos.
+
+108
+00:06:43,470 --> 00:06:48,330
+E se você executar isso, você apenas fará saber, isso é uma string de função superior e,
+
+109
+00:06:48,330 --> 00:06:52,670
+basicamente, um Python está dizendo que é que você não executou esse método ou funcionou ainda.
+
+110
+00:06:52,710 --> 00:06:58,650
+Em vez disso, você me perguntou o que era.
+
+111
+00:06:58,740 --> 00:07:03,100
+Então, quando você o chama sem príncipes abertos e fechados e você obtém algo que se parece com isso, isso significa
+
+112
+00:07:03,240 --> 00:07:05,520
+que você realmente não executou esse método ou função para ocorrer.
+
+113
+00:07:05,730 --> 00:07:10,050
+Em vez disso, você apenas pergunta a Python, o que é isso, porque há um método superior.
+
+114
+00:07:10,050 --> 00:07:13,690
+Há também o método Ilori, que está indo para minúsculas todas as cartas que estão aqui agora.
+
+115
+00:07:13,980 --> 00:07:19,540
+H e W são minúsculas.
+
+116
+00:07:19,560 --> 00:07:23,260
+Depois, também há o método de divisão e o método de divisão
+
+117
+00:07:23,310 --> 00:07:26,500
+permite que você crie rapidamente uma lista fora de uma string.
+
+118
+00:07:26,530 --> 00:07:34,090
+Então, aqui podemos dizer que temos oi e mundo.
+
+119
+00:07:34,090 --> 00:07:34,800
+Agora, ainda não discutimos listas para que elas estejam chegando.
+
+120
+00:07:35,670 --> 00:07:38,860
+ela dividirá uma string com base nesse espaço em branco ou com base na letra que você passa.
+
+121
+00:07:38,910 --> 00:07:41,770
+Então, tudo o que eu quero que você pense agora é que se eu usar essa divisão,
+
+122
+00:07:41,820 --> 00:07:48,450
+Então, deixe-me mostrar o que quero dizer com isso.
+
+123
+00:07:48,450 --> 00:07:51,820
+Então eu direi que x é igual.
+
+124
+00:07:51,840 --> 00:07:53,660
+Oi, isso é uma string, e então, se eu
+
+125
+00:07:53,940 --> 00:07:56,170
+disser X que dividir, volto tudo dividido pelo espaço em branco.
+
+126
+00:07:56,510 --> 00:07:59,580
+Esta é uma string bem organizada em uma lista.
+
+127
+00:08:03,060 --> 00:08:10,630
+No entanto, eu poderia passar em qualquer sequência de caracteres que eu quero dividir.
+
+128
+00:08:10,650 --> 00:08:14,060
+Então, por padrão, a divisão será dividida no espaço em branco, mas pode dividi-lo em qualquer letra que eu queira.
+
+129
+00:08:14,070 --> 00:08:19,350
+Então, agora vai se dividir no I's.
+
+130
+00:08:19,560 --> 00:08:25,170
+Então, se eu executar isso, você deve obter um resultado interessante.
+
+131
+00:08:25,350 --> 00:08:27,970
+E aqui é essencialmente removido todos os eu
+
+132
+00:08:28,050 --> 00:08:31,100
+porque está dividindo-os e outros espaços em branco estão incluídos.
+
+133
+00:08:31,440 --> 00:08:35,130
+Então eu recebo H e porque também existe.
+
+134
+00:08:35,130 --> 00:08:35,810
+Ele o remove e depois fica tudo até o próximo.
+
+135
+00:08:36,030 --> 00:08:38,260
+E então, há um ou remove, fica tudo até um X I.
+
+136
+00:08:38,310 --> 00:08:42,780
+Qual é um espaço S e é isso e aqui e depois, de novo.
+
+137
+00:08:42,960 --> 00:08:45,900
+Em outro, eu e uma grande porção de corda posso.
+
+138
+00:08:45,960 --> 00:08:49,880
+E então N-G.
+
+139
+00:08:49,910 --> 00:08:53,950
+Então é assim que você pode usar o split para criar rapidamente uma lista fora de uma string e nós estaremos cobrindo listas em muito
+
+140
+00:08:53,970 --> 00:08:54,990
+mais detalhes mais tarde em OK.
+
+141
+00:08:54,990 --> 00:08:59,880
+Próximamente, vamos falar sobre formatação de string para impressão.
+
+142
+00:08:59,880 --> 00:09:03,320
+Há muitos métodos úteis que você pode usar para imprimir rapidamente outros objetos ao longo de suas cordas.
+
+143
+00:09:03,490 --> 00:09:07,900
+Até agora, nós só aprendemos a usar impressões como uma função básica ou nós dizemos
+
+144
+00:09:07,900 --> 00:09:13,870
+olá, mas há muito mais poder para a função de impressão que ainda não vimos, bem como o método do formato.
+
+145
+00:09:13,870 --> 00:09:18,640
+Então, vamos em frente e cubramos que a próxima palestra verá lá.
+
+146
+00:09:18,640 --> 00:09:23,800
+&nbsp;
+
+147
+00:09:23,800 --> 00:09:26,820
+&nbsp;

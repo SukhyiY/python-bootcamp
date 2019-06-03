@@ -1,0 +1,311 @@
+1
+00:00:05,480 --> 00:00:08,820
+Salve a tutti e benvenuti a tenere conferenze su tuple o coppie.
+
+2
+00:00:08,850 --> 00:00:13,720
+Ad alcune persone piace chiamarli e in tuple Python sono molto simili alle liste.
+
+3
+00:00:13,760 --> 00:00:18,710
+Tuttavia hanno una differenza fondamentale e cioè hanno immutabilità. Quindi sono un significato immutabile che non
+
+4
+00:00:18,710 --> 00:00:19,820
+possono essere cambiati.
+
+5
+00:00:19,820 --> 00:00:23,390
+E questo deriva dal termine mutamento che non può essere mutato o modificato.
+
+6
+00:00:23,390 --> 00:00:29,420
+E questo in pratica significa che una volta che un elemento viene assegnato ad una posizione di indice all'interno di una tupla non
+
+7
+00:00:29,420 --> 00:00:32,690
+puoi afferrarlo e quindi riassegnarlo a qualcos'altro come potresti avere una lista.
+
+8
+00:00:32,990 --> 00:00:37,460
+le tuple è molto simile a un elenco tranne che invece di usare parentesi quadre usate le parentesi.
+
+9
+00:00:37,460 --> 00:00:38,830
+E il modo in cui costruisci
+
+10
+00:00:38,930 --> 00:00:41,650
+Esploriamo le tuple un po 'di più in un quaderno di Giove.
+
+11
+00:00:41,930 --> 00:00:43,560
+Va bene, cominciamo.
+
+12
+00:00:43,760 --> 00:00:47,650
+Spero che tu abbia una vera intuizione su come usare le tuple basandoti su ciò che
+
+13
+00:00:47,670 --> 00:00:48,650
+hai imparato su Lisse.
+
+14
+00:00:48,860 --> 00:00:54,380
+Creeremo un libro chiamato T per dire che T è uguale a e quindi tra parentesi scriveremo un
+
+15
+00:00:54,380 --> 00:00:55,980
+commento per venire a tre.
+
+16
+00:00:56,240 --> 00:01:00,240
+E creerò anche la mia lista che sarà molto simile.
+
+17
+00:01:00,290 --> 00:01:02,110
+Dirò una virgola per entrare in tre.
+
+18
+00:01:02,150 --> 00:01:03,460
+Ma notate le parentesi quadre.
+
+19
+00:01:03,500 --> 00:01:04,300
+Quindi è una lista.
+
+20
+00:01:04,300 --> 00:01:07,550
+E puoi sempre confermarlo usando la funzione di tipo builtin.
+
+21
+00:01:07,550 --> 00:01:10,920
+Quindi se dico di tipo T ritorna che è una tupla.
+
+22
+00:01:11,210 --> 00:01:11,970
+E se lo chiedo.
+
+23
+00:01:11,990 --> 00:01:15,910
+Digita la mia lista torna indietro che è una lista.
+
+24
+00:01:15,980 --> 00:01:16,320
+OK.
+
+25
+00:01:16,400 --> 00:01:18,980
+Quindi puoi controllare la lunghezza della tupla proprio come potresti avere una lista.
+
+26
+00:01:18,980 --> 00:01:24,530
+Quindi la lunghezza di T è tre perché ci sono tre elementi in quella lista uno due e tre.
+
+27
+00:01:24,590 --> 00:01:25,570
+E proprio come la lista.
+
+28
+00:01:25,670 --> 00:01:32,040
+Va bene anche mischiare i tipi di oggetto in modo che possiamo avere una stringa all'interno di una tupla lungo un
+
+29
+00:01:32,040 --> 00:01:36,980
+numero che non ha problemi e anche come un elenco è possibile utilizzare l'affettatura e l'indicizzazione.
+
+30
+00:01:36,990 --> 00:01:39,310
+Quindi diciamo che volevo prendere quella stringa.
+
+31
+00:01:39,470 --> 00:01:42,690
+Potrei semplicemente darmi un indice 0 1 lì.
+
+32
+00:01:42,720 --> 00:01:48,550
+Posso anche fare il negativo 1 e ho 2 come ritorno perché l'ultimo elemento in quella tupla.
+
+33
+00:01:48,610 --> 00:01:49,230
+Quindi finora.
+
+34
+00:01:49,230 --> 00:01:51,010
+Molto simile a un elenco.
+
+35
+00:01:51,030 --> 00:01:56,040
+Ci sono anche due metodi di base incorporati per le tuple e questo è il metodo di indice e il metodo
+
+36
+00:01:56,350 --> 00:01:57,880
+di conteggio mĂ˘chĂŠ un esempio di questo.
+
+37
+00:01:58,140 --> 00:02:05,280
+Diremo che C è una tupla con una virgola e una virgola B.
+
+38
+00:02:05,600 --> 00:02:10,840
+E immaginiamo di voler contare quante volte la lettera H compare in questa tupla.
+
+39
+00:02:10,860 --> 00:02:16,040
+Posso fare una T e poi premere tab qui dovresti vedere le due opzioni che hai sia conteggio che indice.
+
+40
+00:02:16,080 --> 00:02:20,400
+Quindi immediatamente noterai che ci sono meno metodi disponibili per le tuple di quante ce ne siano per le liste.
+
+41
+00:02:20,430 --> 00:02:26,530
+Quindi andremo a dire quel conteggio e poi passeremo un A e ritorna indietro.
+
+42
+00:02:26,530 --> 00:02:29,650
+Quante volte si verifica in quella tupla.
+
+43
+00:02:29,650 --> 00:02:33,710
+E poi possiamo anche dire l'indice di a.
+
+44
+00:02:33,910 --> 00:02:38,840
+E questo torna indietro la prima volta che appare nella tua tupla.
+
+45
+00:02:39,070 --> 00:02:43,570
+Quindi, se si verifica più di una volta, si ritorna solo alla posizione dell'indice
+
+46
+00:02:43,570 --> 00:02:44,540
+che appare inizialmente.
+
+47
+00:02:44,620 --> 00:02:47,630
+E se facciamo la stessa cosa per B.
+
+48
+00:02:47,870 --> 00:02:51,770
+La prima volta che si verifica una B è l'indice per dare un'occhiata a t.
+
+49
+00:02:52,070 --> 00:02:53,920
+È proprio qui un B.
+
+50
+00:02:54,020 --> 00:02:59,990
+Più avanti impareremo come usare una logica di controllo del flusso come per i loop per afferrare tutte le
+
+51
+00:03:00,170 --> 00:03:05,230
+posizioni di elementi ripetuti e, infine, arriviamo davvero a ciò che rende una differenza di tuple.
+
+52
+00:03:05,240 --> 00:03:06,680
+E questa è la mutevolezza.
+
+53
+00:03:06,800 --> 00:03:11,780
+E davvero non posso sottolineare abbastanza che questo è ciò che rende una tupla tupla diversa da una lista.
+
+54
+00:03:11,780 --> 00:03:16,710
+Allora prendiamo la nostra tupla adesso e controlliamo l'elenco per creare la mia lista.
+
+55
+00:03:16,730 --> 00:03:22,370
+Riassegniamo il primo elemento della mia lista alla stringa nuova.
+
+56
+00:03:22,370 --> 00:03:24,530
+Quindi adesso il mio elenco non ha problemi con quello.
+
+57
+00:03:24,530 --> 00:03:31,830
+Dice OK Riassegnerò il primo elemento al nuovo se provo a fare la stessa cosa con la tupla e ti
+
+58
+00:03:31,830 --> 00:03:34,700
+dico che qui non dico errore di tipo.
+
+59
+00:03:34,780 --> 00:03:37,180
+L'oggetto tupla non supporta l'assegnazione dell'oggetto.
+
+60
+00:03:37,180 --> 00:03:41,020
+Questo è fondamentalmente ciò che rende una tupla diversa da una lista.
+
+61
+00:03:41,030 --> 00:03:45,670
+Ora sono sicuro che ti starai chiedendo perché mai dovrei preoccuparmi di usare le tuple quando hanno
+
+62
+00:03:45,670 --> 00:03:51,460
+meno metodi disponibili e non hanno la flessibilità di una lista e ad essere onesti mentre stai iniziando a programmare che
+
+63
+00:03:51,490 --> 00:03:53,290
+non stai andando usare tuple che spesso.
+
+64
+00:03:53,350 --> 00:03:57,730
+oggetti attorno al tuo programma e è necessario assicurarsi che non vengano modificati accidentalmente.
+
+65
+00:03:57,730 --> 00:04:02,860
+È solo quando diventi più a tuo agio con Python e diventi un programmatore più avanzato
+
+66
+00:04:02,860 --> 00:04:08,060
+che inizierai a vedere il beneficio delle tuple e dove utilizzerai principalmente le tuple quando passi
+
+67
+00:04:08,200 --> 00:04:10,960
+E questo è quando la tupla diventa davvero una grande soluzione.
+
+68
+00:04:11,200 --> 00:04:15,400
+Quindi fornisce una fonte molto conveniente di ciò che è noto come integrità dei dati.
+
+69
+00:04:15,400 --> 00:04:20,560
+Il fatto che non possiamo effettuare le assegnazioni di questo tipo per errore otterrà un errore, ma
+
+70
+00:04:20,560 --> 00:04:26,860
+sarà davvero utile quando si vuole essere certi che gli elementi non vengano capovolti o riassegnati in seguito in parti
+
+71
+00:04:26,860 --> 00:04:28,210
+più grandi di codice.
+
+72
+00:04:28,390 --> 00:04:33,040
+sono sicuro che tireremo di nuovo fuori la tupla in modo che possiamo usarla e lasciarla davvero brillare per ora.
+
+73
+00:04:33,040 --> 00:04:35,400
+Quindi continua a tenerlo nel tuo toolkit e in seguito
+
+74
+00:04:35,410 --> 00:04:40,600
+Ricorda solo che ha immutabilità e sembra molto simile a un elenco tranne che usiamo parentesi
+
+75
+00:04:40,630 --> 00:04:41,970
+invece di parentesi quadre.
+
+76
+00:04:42,230 --> 00:04:42,670
+OK.
+
+77
+00:04:42,910 --> 00:04:44,320
+Per ora è tutto per le tuple.
+
+78
+00:04:44,320 --> 00:04:48,970
+Di prossima vi mostreremo come fare l'input e l'output di base dei file lo vedremo lì.

@@ -1,0 +1,655 @@
+1
+00:00:05,680 --> 00:00:06,760
+Bienvenido de nuevo a todos.
+
+2
+00:00:06,760 --> 00:00:08,760
+Ahora es el momento de hablar de diccionarios.
+
+3
+00:00:09,670 --> 00:00:13,270
+Los diccionarios son mapeos no ordenados para almacenar objetos.
+
+4
+00:00:13,270 --> 00:00:16,980
+Anteriormente vimos cómo almacenar objetos en una secuencia ordenada usando una lista.
+
+5
+00:00:17,260 --> 00:00:22,050
+Pero ahora los diccionarios permitirán que los objetos hermanos usen lo que se conoce como combinación de valores clave en su lugar.
+
+6
+00:00:22,270 --> 00:00:27,660
+Y este par de valores clave permite a los usuarios tomar objetos rápidamente sin necesidad de conocer una ubicación de
+
+7
+00:00:27,670 --> 00:00:28,250
+índice exacta.
+
+8
+00:00:28,300 --> 00:00:32,500
+En su lugar, simplemente llama a la tecla y devuelve el valor asociado con esa tecla.
+
+9
+00:00:33,920 --> 00:00:39,710
+Y la sintaxis del diccionario utiliza llaves y dos puntos para indicar las relaciones entre una clave
+
+10
+00:00:39,710 --> 00:00:41,030
+y sus valores asociados.
+
+11
+00:00:41,210 --> 00:00:46,570
+Así que aquí podemos ver las llaves y luego tenemos la clave de la cadena, así que la clave es una y luego el carbón
+
+12
+00:00:46,570 --> 00:00:48,430
+y luego cuáles son los valores asociados con eso.
+
+13
+00:00:48,470 --> 00:00:53,720
+En este caso, solo tenemos una cadena llamada valor 1 y luego tenemos una coma para el siguiente par de valores clave.
+
+14
+00:00:53,720 --> 00:01:00,130
+Ahora la pregunta siempre surge cuando seleccionamos una lista y cuando elegimos un diccionario. Los diccionarios de pozo tienen objetos
+
+15
+00:01:00,130 --> 00:01:05,420
+recuperados por un nombre de clave y los diccionarios están desordenados y no pueden ser ordenados.
+
+16
+00:01:05,590 --> 00:01:11,200
+usar un diccionario cuando desee recuperar el valor rápidamente sin necesidad de conocer su ubicación exacta del índice.
+
+17
+00:01:11,200 --> 00:01:13,810
+Por lo tanto, es un buen momento para
+
+18
+00:01:13,810 --> 00:01:15,840
+Ahora esa es una característica muy buena de un diccionario.
+
+19
+00:01:15,880 --> 00:01:19,200
+El hecho de que no necesita saber dónde está algo en el diccionario real para llamarlo.
+
+20
+00:01:19,240 --> 00:01:21,200
+Solo necesita saber el par de valores clave.
+
+21
+00:01:21,280 --> 00:01:26,770
+Sin embargo, esto viene con la estafa de no poder ordenar un diccionario porque un diccionario tiene una
+
+22
+00:01:26,770 --> 00:01:28,080
+asignación de valor clave.
+
+23
+00:01:28,090 --> 00:01:33,390
+Significa que va a insertar nuevos pares de valores clave donde lo considere más eficiente.
+
+24
+00:01:33,600 --> 00:01:39,520
+objetos basados ​​en ubicaciones para que la lista real se indexe y luego se clasifique.
+
+25
+00:01:39,520 --> 00:01:42,250
+La lista, por otro lado, puede lograr
+
+26
+00:01:42,250 --> 00:01:44,980
+Entonces pierde esa funcionalidad cuando usa un diccionario.
+
+27
+00:01:45,130 --> 00:01:49,240
+Así que básicamente estás intercambiando la facilidad de llamar y tomar algo de un diccionario muy rápidamente
+
+28
+00:01:49,450 --> 00:01:54,390
+con un par de valores clave y estás perdiendo la capacidad de ordenar cosas o tener una ubicación de índice
+
+29
+00:01:54,400 --> 00:01:55,030
+fuera de ellas.
+
+30
+00:01:55,390 --> 00:01:59,520
+OK exploremos estos conceptos un poco más cerca saltando al cuaderno de Júpiter.
+
+31
+00:01:59,920 --> 00:02:03,350
+Comencemos mostrándote cómo puedes construir un diccionario.
+
+32
+00:02:03,370 --> 00:02:07,440
+Comenzaremos por decir o crear un objeto.
+
+33
+00:02:07,480 --> 00:02:13,610
+Mi diccionario tendrá llaves y definirá la clave para que las teclas sean en cadena y las llames
+
+34
+00:02:13,610 --> 00:02:14,810
+lo que queramos.
+
+35
+00:02:14,840 --> 00:02:15,960
+Entonces uno clave.
+
+36
+00:02:15,980 --> 00:02:18,590
+Y luego tenemos algún valor asociado de esa clave.
+
+37
+00:02:18,590 --> 00:02:20,700
+Por ahora me quedaré con las cuerdas básicas.
+
+38
+00:02:20,760 --> 00:02:24,560
+Luego tenemos una coma y puede insertar un nuevo par de valores clave.
+
+39
+00:02:24,750 --> 00:02:28,410
+Así que dos puntos y luego otro valor para eso.
+
+40
+00:02:28,620 --> 00:02:30,310
+OK, entonces tenemos nuestro diccionario aquí.
+
+41
+00:02:31,470 --> 00:02:34,940
+Y luego, si lo devolvemos, terminaremos recibiendo el diccionario completo.
+
+42
+00:02:35,070 --> 00:02:38,240
+Pero realmente lo que queremos hacer es tomar valores del diccionario.
+
+43
+00:02:38,490 --> 00:02:43,250
+Entonces, en lugar de usar ubicaciones de índice, seguimos usando los mismos corchetes.
+
+44
+00:02:43,260 --> 00:02:46,370
+Pero ahora, para recuperar un valor, simplemente pasamos la clave.
+
+45
+00:02:46,420 --> 00:02:52,380
+Asociemos ese valor para que podamos decir el diccionario que pasa Q One y recuperamos ese valor en sí mismo.
+
+46
+00:02:52,380 --> 00:02:54,930
+Entonces, un buen ejemplo de un caso de uso para un diccionario.
+
+47
+00:02:54,940 --> 00:03:00,190
+Tal vez algo así como los precios en una tienda, así que podemos decir que tengo un diccionario llamado precios.
+
+48
+00:03:00,190 --> 00:03:02,170
+Incluso podemos llamarlo precio.
+
+49
+00:03:02,190 --> 00:03:04,840
+Mire para que tengamos estos precios.
+
+50
+00:03:04,840 --> 00:03:10,240
+Busque el diccionario y podemos agregar diferentes elementos en el diccionario, como Apple, y luego su precio asociado,
+
+51
+00:03:10,240 --> 00:03:12,520
+así que diremos que son las manzanas.
+
+52
+00:03:12,760 --> 00:03:18,370
+No sé $ 2 y 99 centavos por libra, lo que sea que no esté incluido en los precios.
+
+53
+00:03:18,550 --> 00:03:26,800
+No podemos tener naranjas, esas pueden ser un noventa y nueve y luego podemos decir leche con chocolate o
+
+54
+00:03:26,830 --> 00:03:28,960
+un tipo de decir leche.
+
+55
+00:03:28,990 --> 00:03:33,490
+Y eso va a tener un precio de $ 5 y 80 centavos.
+
+56
+00:03:33,560 --> 00:03:34,490
+Y ahí vamos.
+
+57
+00:03:34,490 --> 00:03:39,000
+Entonces, con mi diccionario o este diccionario podrían verse precios enormes.
+
+58
+00:03:39,080 --> 00:03:41,660
+Solo querría saber, ¿cuál es el precio de una manzana?
+
+59
+00:03:41,720 --> 00:03:44,450
+Pasaría una manzana y luego volvería.
+
+60
+00:03:44,450 --> 00:03:45,440
+El precio real
+
+61
+00:03:45,500 --> 00:03:48,380
+Y ahora necesitamos saber cualquier tipo de ubicación de índice.
+
+62
+00:03:48,410 --> 00:03:53,810
+Puedo obtener fácilmente los precios de cualquiera de estos objetos utilizando los pares clave de valores.
+
+63
+00:03:53,870 --> 00:03:58,240
+Así que ese es un buen ejemplo de por qué necesitarías un diccionario en lugar de algo así como una lista.
+
+64
+00:03:58,250 --> 00:04:02,840
+asociar entre sí y rápidamente miro el valor de uno dado su clave.
+
+65
+00:04:02,840 --> 00:04:05,540
+Porque aquí tengo dos valores que quiero
+
+66
+00:04:05,550 --> 00:04:09,510
+Ahora es importante tener en cuenta que los diccionarios son súper flexibles en los tipos de datos
+
+67
+00:04:09,510 --> 00:04:10,230
+que pueden contener.
+
+68
+00:04:10,230 --> 00:04:16,410
+Acabo de mostrarles cómo pueden contener enteros o números flotantes, así como cadenas, pero en realidad
+
+69
+00:04:16,410 --> 00:04:19,220
+pueden contener listas o incluso otros diccionarios.
+
+70
+00:04:19,440 --> 00:04:28,520
+mostraré esto como un ejemplo, digamos que D es igual a que podría tener k 1 igual a una clave y puede tener un número asociado con
+
+71
+00:04:29,180 --> 00:04:35,210
+uno a tres o la otra cosa que podría hacer es decir K-2 y realmente puedo Haga que
+
+72
+00:04:35,210 --> 00:04:42,620
+esto tenga una lista asociada, así que puedo decir 0 1 2 y luego puedo incluso hacer otro diccionario dentro de este diccionario.
+
+73
+00:04:42,620 --> 00:04:43,610
+Así que les
+
+74
+00:04:43,610 --> 00:04:45,800
+Esto no es tan común pero es compatible.
+
+75
+00:04:46,130 --> 00:04:52,960
+Entonces podemos decir dentro de una clave que tiene algún otro número aquí 100.
+
+76
+00:04:53,010 --> 00:04:56,060
+Entonces, el diccionario en sí no tiene problemas para lidiar con todo esto.
+
+77
+00:04:56,130 --> 00:05:01,560
+Y si queremos tomar elementos de esto, imaginemos que quiero tomar esta lista 0 1 2 que
+
+78
+00:05:01,560 --> 00:05:04,000
+acabo de llamar al pasado y su clave.
+
+79
+00:05:04,170 --> 00:05:06,050
+K-2 y este caso debería ser
+
+80
+00:05:08,940 --> 00:05:11,130
+una cadena ejecutar esto y recuperar la lista.
+
+81
+00:05:11,130 --> 00:05:17,400
+Y luego, si quisiera tomar este número 100, lo que podría hacer es decir d buscar
+
+82
+00:05:17,460 --> 00:05:19,790
+la clave asociada para ese K3.
+
+83
+00:05:19,990 --> 00:05:22,330
+Y cuando corres esa vuelta devuelve este diccionario.
+
+84
+00:05:22,330 --> 00:05:24,920
+Entonces todo esto puedo hacer otra llamada.
+
+85
+00:05:24,970 --> 00:05:28,890
+Entonces podría decir la clave de la clave de información que
+
+86
+00:05:32,460 --> 00:05:34,710
+ejecuta eso y luego recuperar 100.
+
+87
+00:05:34,740 --> 00:05:35,960
+Así que nota lo que está sucediendo aquí.
+
+88
+00:05:35,970 --> 00:05:41,580
+Y básicamente apilando llamadas de índice o llamadas de tecla para recuperar los valores que quiero.
+
+89
+00:05:41,610 --> 00:05:44,880
+Así que imaginemos que quería tomar el número dos aquí.
+
+90
+00:05:45,090 --> 00:05:51,580
+Lo que tengo que hacer es decir dk 2 que devuelve la lista y luego quiero el índice del artículo también.
+
+91
+00:05:51,630 --> 00:05:59,800
+Entonces, podría decir dos y luego volveré y todo esto puede ser un poco confuso al
+
+92
+00:05:59,800 --> 00:06:00,300
+principio.
+
+93
+00:06:00,310 --> 00:06:03,960
+Así que déjame ver un ejemplo más para asegurarte de que esto esté claro.
+
+94
+00:06:04,040 --> 00:06:13,460
+Diré que mi diccionario tiene una clave y asociar si esta clave es una lista de letras minúsculas ABC Ejecuto que verifiqué
+
+95
+00:06:15,800 --> 00:06:22,890
+la clave de mi diccionario un ABC y vamos a intentar tomar la letra C y
+
+96
+00:06:22,890 --> 00:06:25,330
+hacer mayúscula porque es una cuerda.
+
+97
+00:06:25,350 --> 00:06:28,230
+Lo que podría hacer es a través de varios pasos hacer lo siguiente.
+
+98
+00:06:28,230 --> 00:06:34,590
+Podría decir que mi lista es igual a la clave.
+
+99
+00:06:34,590 --> 00:06:36,980
+Y luego si reviso mi lista, tengo eso.
+
+100
+00:06:37,020 --> 00:06:43,220
+Para poder decir que la letra es igual a la ubicación del índice de mi lista 2.
+
+101
+00:06:43,620 --> 00:06:51,130
+Y luego, si reviso mi carta, solo diría una letra mayúscula y luego tengo mayúscula C.
+
+102
+00:06:51,160 --> 00:06:53,020
+Para que todos los pasos aquí que hice.
+
+103
+00:06:53,170 --> 00:06:58,810
+Primero agarré la llave y luego la incluí en una lista, luego hice la indexación de esa lista para tomar
+
+104
+00:06:58,810 --> 00:07:01,330
+la carta y luego dije en mayúscula esa carta.
+
+105
+00:07:01,450 --> 00:07:07,150
+Pero en realidad puedo hacer todo esto en un solo paso debido a cuán flexible es Python. Podría
+
+106
+00:07:07,150 --> 00:07:10,090
+decir OK, tome esa tecla que da vuelta la lista.
+
+107
+00:07:10,300 --> 00:07:12,220
+Entonces, a menudo esto es una especie de reasignación.
+
+108
+00:07:12,280 --> 00:07:13,300
+Puedo seguir llamando.
+
+109
+00:07:13,300 --> 00:07:17,350
+Lo que quiero y quiero indexar para tener la letra C.
+
+110
+00:07:17,440 --> 00:07:24,740
+Y ahora esta es una cadena a la que puedo llamar superior y hay una C mayúscula, así que podrías hacerlo de esta
+
+111
+00:07:24,740 --> 00:07:25,460
+manera también.
+
+112
+00:07:25,460 --> 00:07:31,100
+seguido, pero a veces aprovechas el poder de los diccionarios para poder mantener listas dentro de ellos.
+
+113
+00:07:31,160 --> 00:07:37,630
+En lugar de tener que hacer cada uno de estos pasos, no vas a estar haciendo algo como esto tan
+
+114
+00:07:38,150 --> 00:07:38,360
+DE ACUERDO.
+
+115
+00:07:38,370 --> 00:07:39,810
+Así que solo quiero que se den cuenta de eso.
+
+116
+00:07:39,840 --> 00:07:48,050
+Pueden apilar llamadas así en un objeto singular si alguna vez queremos agregar nuevos pares de valores clave a
+
+117
+00:07:48,050 --> 00:07:48,710
+un diccionario.
+
+118
+00:07:48,710 --> 00:07:50,450
+Es bastante sencillo.
+
+119
+00:07:50,660 --> 00:07:52,490
+Entonces, hagamos un nuevo diccionario aquí.
+
+120
+00:07:53,330 --> 00:08:03,200
+Los registros dicen que K-1 es 100 y dirá que K-2 es 200.
+
+121
+00:08:03,200 --> 00:08:09,560
+Así que aquí tienes mi diccionario K-1 y K-2, imaginemos que quería agregar K3 es 300.
+
+122
+00:08:09,590 --> 00:08:14,780
+Todo lo que tengo que hacer en ese caso es decir asignar una nueva clave.
+
+123
+00:08:14,780 --> 00:08:19,550
+Entonces K-3 y establece eso igual a 300.
+
+124
+00:08:19,780 --> 00:08:24,180
+Y luego, cuando echo un vistazo al diccionario, ahora tengo K3 300.
+
+125
+00:08:24,180 --> 00:08:27,760
+Está bien, así que acabamos de ver cómo podríamos agregar un nuevo par de valores clave al diccionario.
+
+126
+00:08:27,760 --> 00:08:32,220
+También podemos usar el mismo método para sobrescribir fácilmente un par de valores clave existentes.
+
+127
+00:08:32,440 --> 00:08:36,820
+Podemos decir d de k 1 y establecer eso igual a un nuevo valor.
+
+128
+00:08:36,820 --> 00:08:41,400
+realmente obvio, tendremos una nueva cadena de nuevo valor y luego llamaremos D, vemos k 1.
+
+129
+00:08:41,410 --> 00:08:42,110
+Entonces, para hacerlo
+
+130
+00:08:42,160 --> 00:08:45,250
+Ahora tiene ese nuevo valor asociado con él.
+
+131
+00:08:45,250 --> 00:08:49,630
+Finalmente, quiero analizar solo unos pocos métodos útiles del diccionario y esos son métodos para obtener todos los
+
+132
+00:08:49,630 --> 00:08:52,110
+valores de las claves de los elementos de un diccionario.
+
+133
+00:08:52,300 --> 00:08:53,520
+Entonces, tenemos un diccionario en este momento.
+
+134
+00:08:53,530 --> 00:08:56,740
+K-1 K-2 K-3 nuevo valor 200 o 300.
+
+135
+00:08:56,950 --> 00:08:59,010
+Voy a reasignarlo para que sea el anterior.
+
+136
+00:08:59,030 --> 00:09:02,090
+Así que déjenme copiar esto aquí y decir D.
+
+137
+00:09:02,170 --> 00:09:04,940
+Es igual a esa versión del diccionario.
+
+138
+00:09:05,200 --> 00:09:11,850
+Si quiero ver todas las teclas de un diccionario, puedo decir las teclas D y eso me devolverá todas
+
+139
+00:09:11,850 --> 00:09:14,220
+las claves reales si quiero lo contrario.
+
+140
+00:09:14,220 --> 00:09:15,320
+Y quiero todos los valores.
+
+141
+00:09:15,390 --> 00:09:21,060
+Todo lo que necesito hacer es decir los valores de punto y luego devuelve los valores y luego, si
+
+142
+00:09:21,090 --> 00:09:27,840
+quiero los emparejamientos reales, puedo decir que los elementos de Deedat abren los príncipes de desbloqueo y los ejecutan juntos y devuelven los
+
+143
+00:09:27,840 --> 00:09:28,290
+emparejamientos.
+
+144
+00:09:28,290 --> 00:09:32,330
+OK uno sube de 100 a 200 K3 va con 300.
+
+145
+00:09:32,520 --> 00:09:34,900
+Y estos se darán cuenta que están entre paréntesis.
+
+146
+00:09:35,100 --> 00:09:38,880
+Y eso significa que en realidad es una tupla de la que aprenderán muy pronto.
+
+147
+00:09:39,390 --> 00:09:39,620
+DE ACUERDO.
+
+148
+00:09:39,630 --> 00:09:41,330
+Eso es realmente lo básico de los diccionarios.
+
+149
+00:09:41,340 --> 00:09:44,150
+Una visión general muy rápida de lo que acabamos de aprender.
+
+150
+00:09:44,160 --> 00:09:47,650
+Diccionarios su sintaxis principal está definida por llaves.
+
+151
+00:09:47,670 --> 00:09:50,940
+Usted tiene una cadena de caracteres dos puntos y luego un valor.
+
+152
+00:09:51,000 --> 00:09:54,150
+Y Python es realmente flexible en cuanto a lo que puede ser este valor.
+
+153
+00:09:54,150 --> 00:09:59,650
+Puede ser otra cadena en el diccionario de escucha, coma flotante, números enteros, etc. y luego puedes tener en su par
+
+154
+00:09:59,660 --> 00:10:04,680
+de valores clave y simplemente separarlos por comas, las teclas mismas siempre
+
+155
+00:10:04,680 --> 00:10:06,200
+deben ser cadenas.
+
+156
+00:10:06,370 --> 00:10:10,180
+Y luego podemos buscar fácilmente las cosas con solo una búsqueda clave.
+
+157
+00:10:10,180 --> 00:10:15,160
+De nuevo, utiliza la misma notación de corchete que vimos anteriormente con la indexación, excepto que ahora
+
+158
+00:10:15,160 --> 00:10:17,970
+pasa un índice al pasado y la clave misma.
+
+159
+00:10:18,010 --> 00:10:25,330
+También vimos cómo podemos llamar objetos anidados dentro de un diccionario simplemente acumulando estas claves
+
+160
+00:10:25,750 --> 00:10:27,640
+y llamadas a métodos.
+
+161
+00:10:27,640 --> 00:10:32,450
+Luego, después de eso, vimos cómo podíamos llamar a las teclas los valores y los elementos de un diccionario.
+
+162
+00:10:32,840 --> 00:10:33,070
+Todo bien.
+
+163
+00:10:33,070 --> 00:10:34,570
+Eso es lo básico de los diccionarios.
+
+164
+00:10:34,570 --> 00:10:39,310
+Nos adentraremos en aspectos más detallados de los diccionarios que veremos más adelante en la próxima conferencia.

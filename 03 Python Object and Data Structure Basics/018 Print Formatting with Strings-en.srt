@@ -1,0 +1,727 @@
+1
+00:00:05,580 --> 00:00:06,700
+Welcome back everyone.
+
+2
+00:00:06,780 --> 00:00:11,020
+Let's not discuss string formatting for printing often.
+
+3
+00:00:11,030 --> 00:00:15,590
+You're going to want to be able to inject a variable into a string for printing.
+
+4
+00:00:15,590 --> 00:00:17,560
+So we already learned about concatenation.
+
+5
+00:00:17,690 --> 00:00:22,040
+For example you may have a variable called my name equal to Jose and you want to print the phrase.
+
+6
+00:00:22,040 --> 00:00:23,040
+Hello Jose.
+
+7
+00:00:23,090 --> 00:00:25,310
+So what you may end up doing is say Prince.
+
+8
+00:00:25,460 --> 00:00:30,170
+And then inside of that print function you say hello and concatenate it with the my name variable.
+
+9
+00:00:30,170 --> 00:00:34,370
+Now there's actually multiple ways to format strings for printing variables in them so you don't have
+
+10
+00:00:34,370 --> 00:00:37,190
+to constantly be using this concatenation or plus sign.
+
+11
+00:00:37,430 --> 00:00:41,840
+And this in general is known as string interpellation which is basically just a really fancy way of
+
+12
+00:00:41,840 --> 00:00:47,490
+saying stick a variable into a string so we're going to explore two methods for doing this.
+
+13
+00:00:47,510 --> 00:00:52,920
+One is the format method and the other one is the strings method which stands for formatted string literals.
+
+14
+00:00:53,060 --> 00:00:56,830
+And this is a newer method for some newer versions of Python 3.
+
+15
+00:00:56,870 --> 00:01:01,160
+I personally prefer that that format method but let's go ahead and show you both of them and you can
+
+16
+00:01:01,160 --> 00:01:03,200
+decide which is more your style.
+
+17
+00:01:03,200 --> 00:01:04,060
+Let's get started.
+
+18
+00:01:04,240 --> 00:01:04,500
+OK.
+
+19
+00:01:04,520 --> 00:01:10,330
+Let's begin by discussing the format method and the basic syntax for this is you're going to have your
+
+20
+00:01:10,340 --> 00:01:16,400
+string defined and then inside of your string you're going to have special curly braces as placeholders
+
+21
+00:01:16,400 --> 00:01:20,950
+for the variables you're going to insert and then write up the string you call that format.
+
+22
+00:01:21,110 --> 00:01:26,510
+And then inside of this you're going to call the strings or variables that you want to insert into your
+
+23
+00:01:26,510 --> 00:01:27,400
+string.
+
+24
+00:01:27,410 --> 00:01:29,590
+Let's walk through lots of examples here.
+
+25
+00:01:29,660 --> 00:01:36,050
+We're going start from the most basic example which is just saying this is a string going to open and
+
+26
+00:01:36,050 --> 00:01:37,390
+close curly braces there.
+
+27
+00:01:37,550 --> 00:01:40,660
+And right after the string we're going to call that format.
+
+28
+00:01:40,670 --> 00:01:45,840
+So notice how the dot is touching the string there and then whatever string you want to insert.
+
+29
+00:01:45,880 --> 00:01:53,210
+So to make it really obvious I'm gonna go put in all caps inserted run this and I see this is a string
+
+30
+00:01:53,540 --> 00:01:54,310
+inserted.
+
+31
+00:01:54,530 --> 00:02:00,650
+So with the DOT format method has done is it's grab the string and insert it where it saw those curly
+
+32
+00:02:00,650 --> 00:02:01,770
+braces.
+
+33
+00:02:01,850 --> 00:02:05,810
+So there's several advantages here and we're going to go through all of them.
+
+34
+00:02:05,810 --> 00:02:10,080
+One advantage is that strings can actually be inserted by index position.
+
+35
+00:02:10,460 --> 00:02:12,770
+Let's imagine that we want to insert many things.
+
+36
+00:02:12,770 --> 00:02:17,680
+We're going say the curly braces curly braces curly braces.
+
+37
+00:02:18,020 --> 00:02:21,380
+Then say that format and say the Fox
+
+38
+00:02:23,740 --> 00:02:28,180
+Brown.
+
+39
+00:02:28,590 --> 00:02:34,560
+Now what happens is basically that format is going to insert the strings in the same order.
+
+40
+00:02:34,590 --> 00:02:37,620
+You supplied them and into these curly braces.
+
+41
+00:02:37,620 --> 00:02:40,630
+So right now we have the fox Brown quick.
+
+42
+00:02:40,700 --> 00:02:46,200
+What would be nice is if we actually have this make grammatical sense which is going to be the quick
+
+43
+00:02:46,290 --> 00:02:53,760
+brown fox Well we can do is based off the index position inside of this format call I can supply those
+
+44
+00:02:53,760 --> 00:02:55,800
+numbers in the order I want.
+
+45
+00:02:55,800 --> 00:02:58,550
+So the very first word I want is actually quick.
+
+46
+00:02:58,590 --> 00:03:02,510
+So this is in the exposition too because it's 0 1 2.
+
+47
+00:03:02,760 --> 00:03:09,150
+So I'm going to say Okay two goes first here and then the next what i want is going to be brown.
+
+48
+00:03:09,150 --> 00:03:13,810
+So that's a position 1 so 0 1 and then the first word.
+
+49
+00:03:13,810 --> 00:03:17,190
+Fox index 0 here is going to be the last one I want.
+
+50
+00:03:18,280 --> 00:03:20,200
+And then when I run this I get back.
+
+51
+00:03:20,200 --> 00:03:21,930
+The quick brown fox.
+
+52
+00:03:22,000 --> 00:03:24,610
+What's also really nice is I can actually repeat these.
+
+53
+00:03:24,670 --> 00:03:31,630
+So if I want to say the Fox Fox Fox I could just say the 0 0 0 here run this and now I have the Fox
+
+54
+00:03:31,630 --> 00:03:38,820
+Fox Fox so I can play around with this in case I ever want to work based off of exposition.
+
+55
+00:03:38,830 --> 00:03:43,270
+Now it's also nice is that not only can I call things off the index position.
+
+56
+00:03:43,420 --> 00:03:49,420
+I can also assign them keywords and then just call the keywords because here as I'm working with this
+
+57
+00:03:49,570 --> 00:03:54,700
+there's no real indication that zero is Fox and said I have to look over here and say OK what was the
+
+58
+00:03:54,700 --> 00:03:55,730
+first word.
+
+59
+00:03:55,900 --> 00:03:57,400
+What I can do is assign them keywords.
+
+60
+00:03:57,430 --> 00:03:58,330
+So let's do this.
+
+61
+00:03:58,330 --> 00:04:05,320
+We're going to set the curly braces curly braces curly braces say the format and then inside of the
+
+62
+00:04:05,500 --> 00:04:12,130
+format call ongoing say F is equal to the string Fox so you can kind of think of this as a variable
+
+63
+00:04:12,130 --> 00:04:21,400
+assignment and then we'll say be is equal to Brown will say que is equal to quick and then I can use
+
+64
+00:04:21,550 --> 00:04:22,980
+these variable names here.
+
+65
+00:04:23,010 --> 00:04:25,720
+F. B and Q to insert them.
+
+66
+00:04:25,730 --> 00:04:30,130
+So basically using these keywords as variable names here and inserted them that way.
+
+67
+00:04:30,130 --> 00:04:36,870
+So instead of this ongoing say the queue be.
+
+68
+00:04:37,710 --> 00:04:39,210
+And then when I run this I get back.
+
+69
+00:04:39,210 --> 00:04:44,790
+The quick brown fox and this is even nicer than previously because it's a little more readable to someone
+
+70
+00:04:44,790 --> 00:04:45,860
+using it like ok.
+
+71
+00:04:45,870 --> 00:04:47,290
+Q stands for quick.
+
+72
+00:04:47,370 --> 00:04:51,130
+Instead of having to look back and ask yourself OK well what was in this position too.
+
+73
+00:04:51,270 --> 00:04:52,980
+And then coming over here to format.
+
+74
+00:04:53,040 --> 00:04:55,140
+So this is be able to use these keywords.
+
+75
+00:04:55,320 --> 00:04:58,240
+And I actually really prefer it this way myself.
+
+76
+00:05:00,170 --> 00:05:05,240
+And what's also really nice about this if again for some reason you wanted to say the Fox Fox Fox you
+
+77
+00:05:05,240 --> 00:05:11,860
+could just type in F here into each of these braces and you would get back the Fox Fox Fox.
+
+78
+00:05:11,960 --> 00:05:14,910
+So again using keywords you can use repetition easily.
+
+79
+00:05:15,300 --> 00:05:15,620
+OK.
+
+80
+00:05:15,620 --> 00:05:21,140
+To finish off our discussion of the forment method I want to briefly talk about float formatting with
+
+81
+00:05:21,140 --> 00:05:26,660
+the DOT format method and basically this allows you to adjust the width and precision of your floating
+
+82
+00:05:26,660 --> 00:05:28,140
+point number.
+
+83
+00:05:28,360 --> 00:05:34,040
+Let's start an example we're going to say result is equal to 100 divided by 7 7 7.
+
+84
+00:05:34,060 --> 00:05:39,900
+So as you may expect this result is a number with a ton of decimal points after it.
+
+85
+00:05:40,090 --> 00:05:44,980
+Well we can do is we can actually when we're printing this out change the level of precision we want
+
+86
+00:05:45,340 --> 00:05:48,260
+and even change the width of the number itself.
+
+87
+00:05:49,030 --> 00:05:52,610
+So we're going to start off by saying Prince.
+
+88
+00:05:52,790 --> 00:06:02,820
+The result was and then open and close curly braces say that format and then here will say result run
+
+89
+00:06:02,830 --> 00:06:03,220
+this.
+
+90
+00:06:03,220 --> 00:06:04,570
+And we see the result was.
+
+91
+00:06:04,600 --> 00:06:07,630
+And basically this kind of large precision number.
+
+92
+00:06:07,780 --> 00:06:14,170
+What I can do is say R is equal to result and then pass in and are inside the curly braces and I get
+
+93
+00:06:14,170 --> 00:06:15,490
+back the same result.
+
+94
+00:06:15,700 --> 00:06:20,850
+So the way the formatting works for flute formatting as far as the dot forment method is you pasand
+
+95
+00:06:20,860 --> 00:06:22,760
+the value that you're referring to.
+
+96
+00:06:22,780 --> 00:06:25,710
+So in that case it's are here to see actual value name.
+
+97
+00:06:25,840 --> 00:06:32,050
+Then you write a colon and then you write in the with value you want dots and then the precision value
+
+98
+00:06:32,050 --> 00:06:37,550
+want and then at F and often which you're really going to care about is the actual precision the width
+
+99
+00:06:37,570 --> 00:06:42,680
+just allows you to kind of add in some whitespace if you have a really large with value.
+
+100
+00:06:42,730 --> 00:06:45,770
+So let's do the following we're going to say value.
+
+101
+00:06:45,850 --> 00:06:47,910
+So that's our colon.
+
+102
+00:06:48,010 --> 00:06:53,260
+We're going to set our with just equal to one than a dot and then the level of precision we want.
+
+103
+00:06:53,260 --> 00:06:56,320
+So this is mainly where you're going to be playing around with this precision value.
+
+104
+00:06:56,410 --> 00:06:56,970
+Let's imagine.
+
+105
+00:06:56,980 --> 00:06:59,670
+I only want three places pass a decimal point.
+
+106
+00:06:59,710 --> 00:07:05,080
+So I want one two and then nine because it's going to be around that up to 9 due to the 7 right next
+
+107
+00:07:05,080 --> 00:07:14,330
+to it then I would say 1.3 if I run this and I get back 0.1 to 9.
+
+108
+00:07:14,410 --> 00:07:19,540
+Now if I play around with this with value and make it really large what ends up happening is you end
+
+109
+00:07:19,540 --> 00:07:21,240
+up adding whitespace.
+
+110
+00:07:21,280 --> 00:07:27,490
+And the reason for that is because the with basically describes how long or how wide you want this entire
+
+111
+00:07:27,490 --> 00:07:29,000
+string number to be.
+
+112
+00:07:29,080 --> 00:07:34,570
+That's not terribly useful because you end up writing a ton of whitespace but there may be certain situations
+
+113
+00:07:34,660 --> 00:07:36,170
+where you kind of want to edit that.
+
+114
+00:07:36,400 --> 00:07:40,930
+So it is available to here but often what you're going to be playing around with is really the the precision
+
+115
+00:07:40,930 --> 00:07:41,460
+here.
+
+116
+00:07:41,560 --> 00:07:43,310
+So we can make this five.
+
+117
+00:07:43,690 --> 00:07:44,710
+And here we can see.
+
+118
+00:07:44,710 --> 00:07:49,950
+Now we're taking up less of the total with because with whitespace because we have more numbers pass
+
+119
+00:07:49,950 --> 00:07:54,870
+a decimal point and what you can just generally keep it as one.
+
+120
+00:07:54,970 --> 00:08:03,120
+But let's go ahead and show you another example we're gonna say result is equal to let's say 104 points.
+
+121
+00:08:03,170 --> 00:08:05,130
+One two three four five.
+
+122
+00:08:05,250 --> 00:08:10,560
+Run that and we can see here that even if one on the other side a decimal point that's essentially just
+
+123
+00:08:10,860 --> 00:08:15,020
+the same thing and we can add it around and play at this floating point value.
+
+124
+00:08:15,370 --> 00:08:18,160
+OK so that's float formatting with the dot for a method.
+
+125
+00:08:18,210 --> 00:08:24,870
+Again it's the value you're with and really your precision followed by F and you can check out the notebook
+
+126
+00:08:24,870 --> 00:08:27,090
+for a lot more examples on this.
+
+127
+00:08:27,090 --> 00:08:31,310
+Finally we're going to talk about is f strings and these are formatted string literals.
+
+128
+00:08:31,420 --> 00:08:36,930
+These are introduced in Python 3.6 So they're still very new and they offer several benefits over this
+
+129
+00:08:36,960 --> 00:08:38,790
+older format method.
+
+130
+00:08:38,790 --> 00:08:43,890
+I generally prefer the dot format method but a lot of people prefer this string literal method especially
+
+131
+00:08:43,890 --> 00:08:48,690
+if they're coming in from other languages and allows you to do is basically skip this step of using
+
+132
+00:08:48,690 --> 00:08:54,780
+that format and instead write results or whatever variable name you want directly inside the string.
+
+133
+00:08:54,780 --> 00:08:57,970
+So the way we do that is the following method is going to create a couple of new cells here.
+
+134
+00:09:00,080 --> 00:09:05,990
+I'm going to say name is equal to Jose.
+
+135
+00:09:06,140 --> 00:09:06,750
+Run that.
+
+136
+00:09:06,950 --> 00:09:11,500
+And then typically what I would have to do is say hello.
+
+137
+00:09:11,750 --> 00:09:19,740
+His name is and then I would say that format name I run this and it says hello His name is Jose.
+
+138
+00:09:19,970 --> 00:09:27,870
+Well you can do is replace the format call by just typing an F in front of the string here and then
+
+139
+00:09:27,870 --> 00:09:32,880
+you can passen name directly into the string itself.
+
+140
+00:09:33,090 --> 00:09:35,520
+And if you run this you get back the same result.
+
+141
+00:09:35,520 --> 00:09:40,340
+So this is called F strings or formatted string literals and this is new.
+
+142
+00:09:40,350 --> 00:09:42,150
+Python 3.6.
+
+143
+00:09:42,150 --> 00:09:45,660
+And a lot of people have been requesting this feature for a long time because it's quite common in other
+
+144
+00:09:45,660 --> 00:09:46,650
+languages.
+
+145
+00:09:46,650 --> 00:09:50,460
+Again because I'm a little more old school I got really used to this format method which is why I like
+
+146
+00:09:50,460 --> 00:09:51,180
+it so much.
+
+147
+00:09:51,180 --> 00:09:55,120
+But if you're coming in from other languages I would definitely suggest you check out the strings.
+
+148
+00:09:55,170 --> 00:09:59,370
+A lot of people think it's a huge improvement over the previous method and you can see why it's actually
+
+149
+00:09:59,370 --> 00:10:04,480
+really convenient to be able to write that variable name directly inside these curly braces.
+
+150
+00:10:06,580 --> 00:10:09,030
+And this works with multiple variables.
+
+151
+00:10:09,220 --> 00:10:17,730
+So let's say name is Sam age is 3.
+
+152
+00:10:18,130 --> 00:10:22,450
+We can do say print F to let Python know its f string.
+
+153
+00:10:22,670 --> 00:10:23,340
+Well.
+
+154
+00:10:24,690 --> 00:10:25,960
+In curly braces.
+
+155
+00:10:26,040 --> 00:10:32,250
+Name is curly braces h years old.
+
+156
+00:10:32,480 --> 00:10:34,890
+And if we run this we see Sam is three years old.
+
+157
+00:10:34,970 --> 00:10:39,260
+So this is a really nice way to very quickly do string interpellation which is just injecting these
+
+158
+00:10:39,260 --> 00:10:41,880
+variables into the string itself.
+
+159
+00:10:42,290 --> 00:10:42,650
+OK.
+
+160
+00:10:42,710 --> 00:10:45,160
+Those are the very basics of string formatting.
+
+161
+00:10:45,170 --> 00:10:48,240
+We have a lot more examples in the notebook in case you're interested.
+
+162
+00:10:48,410 --> 00:10:52,160
+And we also have examples of some older string formatting methods that technically still work in Python
+
+163
+00:10:52,160 --> 00:10:57,560
+3 that I would really recommend that you either use the dot format method or if you like this new string
+
+164
+00:10:57,560 --> 00:10:57,930
+method.
+
+165
+00:10:57,950 --> 00:10:58,930
+Use that as well.
+
+166
+00:10:59,120 --> 00:11:03,770
+I wanted to briefly just show you what the nopal looks like for this lecture so you can see here we
+
+167
+00:11:03,770 --> 00:11:09,070
+have a ton of string formatting examples for you formatting of placeholders which is something we can
+
+168
+00:11:09,080 --> 00:11:13,220
+talk about this video lecture because it's quite an older method and I would really suggest you use
+
+169
+00:11:13,220 --> 00:11:17,920
+it but you can also see how he can use precision and padding for floating point numbers.
+
+170
+00:11:17,930 --> 00:11:22,730
+We also have a lot more examples with the thought format method of inserting objects by an exposition
+
+171
+00:11:22,820 --> 00:11:23,910
+reusing them.
+
+172
+00:11:23,930 --> 00:11:25,720
+We also have alignments precision.
+
+173
+00:11:25,730 --> 00:11:29,840
+So all this stuff all of this stuff we're not really going to use throughout the course but it is available
+
+174
+00:11:29,840 --> 00:11:30,900
+to you in the note.
+
+175
+00:11:31,010 --> 00:11:35,250
+In case you want to dive really deep into this topic so we have lots of examples for you there.
+
+176
+00:11:35,540 --> 00:11:36,040
+OK.
+
+177
+00:11:36,290 --> 00:11:40,010
+Again all you really need to know about string formatting for this course is that you can use string
+
+178
+00:11:40,010 --> 00:11:46,010
+literals to inject and interpret strings this way or you can use the dot format method to inject the
+
+179
+00:11:46,010 --> 00:11:47,050
+variables that way.
+
+180
+00:11:47,270 --> 00:11:47,640
+OK.
+
+181
+00:11:47,660 --> 00:11:48,780
+Hope those useful to you.
+
+182
+00:11:48,890 --> 00:11:49,910
+We'll see you in the next lecture.

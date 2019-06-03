@@ -1,0 +1,643 @@
+1
+00:00:05,740 --> 00:00:06,910
+Welcome back everyone.
+
+2
+00:00:06,910 --> 00:00:13,310
+Now let's begin discussing lists in python lists or order sequences that can hold a variety of object
+
+3
+00:00:13,310 --> 00:00:18,110
+types and the use square brackets and commas to separate the objects in the list.
+
+4
+00:00:18,110 --> 00:00:24,350
+For example here we can see a list of numbers 1 2 3 4 5 and lists just like strings support indexing
+
+5
+00:00:24,350 --> 00:00:29,270
+and slicing and this can also be nested and have a variety of useful methods that can be called off
+
+6
+00:00:29,270 --> 00:00:30,160
+of them.
+
+7
+00:00:30,170 --> 00:00:32,740
+Let's explore all these concepts in a Jupiter notebook.
+
+8
+00:00:32,990 --> 00:00:41,330
+Let's begin by defining a variable called my list and we'll set it equal to the numbers 1 to 3.
+
+9
+00:00:41,340 --> 00:00:44,480
+So here we can see that a list is defined by the square brackets.
+
+10
+00:00:44,520 --> 00:00:48,390
+And then we have every object type separated by a comma.
+
+11
+00:00:48,390 --> 00:00:53,040
+We just create a list of integers but we could have also created a list of mixed object types.
+
+12
+00:00:53,040 --> 00:00:56,040
+So the first one could have been a string.
+
+13
+00:00:56,040 --> 00:01:02,730
+The second one could have been a number or floating point and the list has no problems so we can see
+
+14
+00:01:02,730 --> 00:01:07,890
+python lists are very flexible in the data types they can hold and if ever want to check the length
+
+15
+00:01:08,190 --> 00:01:13,320
+of a list just like we could check the length of the string we just use the LCN function that's built
+
+16
+00:01:13,320 --> 00:01:19,530
+into Python and then passen my list and it returns back how many elements or items are in that list.
+
+17
+00:01:19,530 --> 00:01:24,440
+So here we have three items string one hundred and twenty three point two.
+
+18
+00:01:24,450 --> 00:01:29,390
+Now just like a string because a list is an ordered sequence of elements.
+
+19
+00:01:29,520 --> 00:01:33,310
+We can use indexing and slicing and this works just like a string.
+
+20
+00:01:33,300 --> 00:01:34,980
+So let's show you what I mean by that.
+
+21
+00:01:35,130 --> 00:01:46,390
+I'll say my list is equal to let's say 1 to 3 run that.
+
+22
+00:01:46,740 --> 00:01:50,070
+And then if I wanted to grab the element to index 0.
+
+23
+00:01:50,070 --> 00:01:57,130
+So that's the very first element I would just say my list 0 run that and I get back 1 and if I wanted
+
+24
+00:01:57,140 --> 00:02:00,970
+to grab everything starting at index 1 all the way to the end.
+
+25
+00:02:01,030 --> 00:02:03,720
+Well it's just like string indexing and string slicing.
+
+26
+00:02:03,870 --> 00:02:09,890
+I would say hey start to index one colon go all the way to the end and then we have two and three.
+
+27
+00:02:09,900 --> 00:02:17,620
+So this slicing and indexing works just like a string and you can also concatenate all this together.
+
+28
+00:02:17,640 --> 00:02:19,480
+So let's see this right here.
+
+29
+00:02:19,620 --> 00:02:22,770
+I have my list right now which is one two three.
+
+30
+00:02:23,040 --> 00:02:35,640
+I'm going to create another list which is equal to let's say 4 5 and I can see my list plus in other
+
+31
+00:02:35,640 --> 00:02:39,080
+list and it will concatenate to a new list.
+
+32
+00:02:39,090 --> 00:02:41,330
+One two three four five.
+
+33
+00:02:41,340 --> 00:02:43,850
+Notice here I'm actually saving this result.
+
+34
+00:02:43,950 --> 00:02:50,170
+So if I were to call back my list or another other list I can use tab autocomplete here.
+
+35
+00:02:50,280 --> 00:02:54,300
+I still have those two separate lists if I actually want to save this I need to assign it to something
+
+36
+00:02:54,810 --> 00:03:02,820
+so we can say new list is equal to my list plus another list and then if I check a new list now it's
+
+37
+00:03:02,870 --> 00:03:04,710
+one two three four or five.
+
+38
+00:03:05,140 --> 00:03:05,720
+OK.
+
+39
+00:03:05,850 --> 00:03:08,100
+So those are the basics of listeners.
+
+40
+00:03:08,130 --> 00:03:17,620
+Here we have the indexing slicing and concatenations should feel pretty similar to a string except what's
+
+41
+00:03:17,620 --> 00:03:22,720
+different than a string here is that we can actually mutate or change around the list.
+
+42
+00:03:22,720 --> 00:03:28,480
+Remember back when we're trying to change letters around a string it wouldn't let us a list has no problem
+
+43
+00:03:28,540 --> 00:03:30,140
+in that manner.
+
+44
+00:03:30,160 --> 00:03:34,970
+So if I check out my new list it's one two three four five.
+
+45
+00:03:35,120 --> 00:03:40,510
+Let's go ahead and change one of these elements let's change one to be in all caps.
+
+46
+00:03:40,550 --> 00:03:47,130
+What I could do is say new list at position 0 is now equal to 1 in all caps.
+
+47
+00:03:47,130 --> 00:03:49,160
+Now let's make it really obvious that we're changing it.
+
+48
+00:03:49,210 --> 00:03:58,440
+So when I say one all caps and now if I take a look at my new list I have one all caps two three four
+
+49
+00:03:58,450 --> 00:03:59,270
+five.
+
+50
+00:03:59,360 --> 00:04:04,320
+So that's a way you can actually mutate or change the elements that are already in the list.
+
+51
+00:04:04,380 --> 00:04:07,180
+And that's something that differentiates it from a string.
+
+52
+00:04:07,180 --> 00:04:12,100
+Besides the fact that it's also holding different element types and braces and commas.
+
+53
+00:04:12,110 --> 00:04:16,090
+So again strings you can change them and affect elements inside of them.
+
+54
+00:04:17,290 --> 00:04:22,850
+In other common operation that you may want to perform is to add an element to the very end of a list.
+
+55
+00:04:23,290 --> 00:04:29,830
+And that way we can do that is we say newest dots and hit tab here and you should see all the various
+
+56
+00:04:29,830 --> 00:04:32,530
+methods that are available to you in a list.
+
+57
+00:04:32,530 --> 00:04:39,400
+The one we're going to show here is the append method and append allows you to append a new item to
+
+58
+00:04:39,400 --> 00:04:40,720
+the end of a list.
+
+59
+00:04:41,050 --> 00:04:48,950
+So I'll say append 6 and after reading this well we're going to see is that if I check out my new list
+
+60
+00:04:50,420 --> 00:04:54,860
+I have one all caps two three four five and I have six now.
+
+61
+00:04:54,860 --> 00:05:01,400
+So notice how a pen does actually affect the list and we call this affecting it in a place because it
+
+62
+00:05:01,400 --> 00:05:06,280
+permanently changes that new list to have an element at the end of this.
+
+63
+00:05:06,290 --> 00:05:07,560
+So this is known as a pen.
+
+64
+00:05:07,580 --> 00:05:10,760
+And again it allows you to place any item at the end of a list.
+
+65
+00:05:10,760 --> 00:05:12,630
+Let's try one more time.
+
+66
+00:05:12,720 --> 00:05:20,910
+I'll send you list a pen let's say seven run that ls checker and you list and I can see one all caps.
+
+67
+00:05:20,910 --> 00:05:22,520
+Two three four five six.
+
+68
+00:05:22,560 --> 00:05:25,830
+And then seven just because I'm very zoomed in here is kind of cutting it off.
+
+69
+00:05:26,010 --> 00:05:30,180
+But if you were to zoom out you start seeing it in a more normal fashion.
+
+70
+00:05:30,180 --> 00:05:30,500
+All right.
+
+71
+00:05:30,540 --> 00:05:32,550
+So we know how to add things onto a list.
+
+72
+00:05:32,550 --> 00:05:34,790
+Let's talk about removing items from a list.
+
+73
+00:05:34,890 --> 00:05:37,590
+To do that we can use the pop method.
+
+74
+00:05:37,680 --> 00:05:43,960
+So pop is actually going to pop off an item from the end of a list.
+
+75
+00:05:44,000 --> 00:05:45,480
+Let's show you what you mean by that.
+
+76
+00:05:45,680 --> 00:05:52,200
+We're going say new list that pop open and close print sees ruber for a lot of these method calls.
+
+77
+00:05:52,220 --> 00:05:54,580
+If you don't have Prince is there and you just run them.
+
+78
+00:05:54,710 --> 00:05:55,650
+It's going to report back.
+
+79
+00:05:55,660 --> 00:05:59,070
+Hey that's the pop function inside of this newest object.
+
+80
+00:05:59,090 --> 00:06:02,930
+If you actually want to call it that you need open and close parentheses.
+
+81
+00:06:02,930 --> 00:06:06,230
+And later on we'll discuss the differences between methods and functions.
+
+82
+00:06:06,260 --> 00:06:09,770
+You've probably heard me use those terms a little bit interchangeably right now we'll go into a lot
+
+83
+00:06:09,770 --> 00:06:11,330
+more detail about them later on.
+
+84
+00:06:11,630 --> 00:06:17,960
+But right now we saw that we said list that pop and it's popped off the 7 and it's actually returned
+
+85
+00:06:17,960 --> 00:06:18,810
+to as well.
+
+86
+00:06:20,210 --> 00:06:25,380
+And if we take a look at what new list is now it no longer has the string 7 in it.
+
+87
+00:06:25,380 --> 00:06:28,350
+Now it just goes up to the string 6.
+
+88
+00:06:28,350 --> 00:06:31,380
+So it's actually saved the result of a pop.
+
+89
+00:06:31,440 --> 00:06:42,700
+So we can say popped item is equal to new list and I'm going to say drop pop.
+
+90
+00:06:42,830 --> 00:06:47,900
+And when I run this what's going to happen is this pop item is now the item that was at the end of that
+
+91
+00:06:47,900 --> 00:06:48,610
+list.
+
+92
+00:06:48,740 --> 00:06:56,330
+So I can copy and paste this pop item and now I have 6 say there's the pop item and it's no longer as
+
+93
+00:06:56,330 --> 00:06:58,110
+part of my list.
+
+94
+00:06:58,160 --> 00:07:03,820
+Now a common question that arises here is hey I don't want to remove something from the end of the list.
+
+95
+00:07:04,010 --> 00:07:10,870
+I want to remove it at a specific index for instance I want to remove the one all caps at index 0.
+
+96
+00:07:11,090 --> 00:07:12,310
+Well it's actually no problem.
+
+97
+00:07:12,320 --> 00:07:18,870
+You can pass in an index position into the pop we can say and you list the pop and then just pass in
+
+98
+00:07:18,870 --> 00:07:21,260
+the index position of what you want to remove.
+
+99
+00:07:21,270 --> 00:07:25,110
+We can see here that one all caps is the index position 0.
+
+100
+00:07:25,200 --> 00:07:27,300
+So it's pasand 0 there.
+
+101
+00:07:27,420 --> 00:07:27,920
+Run it.
+
+102
+00:07:27,930 --> 00:07:35,750
+Now we can see that we've popped off one all caps and if you list now we have two three four five.
+
+103
+00:07:36,040 --> 00:07:41,230
+So again pop basically removes items from the list at whatever location you provide.
+
+104
+00:07:41,290 --> 00:07:44,260
+By default the index location is negative 1.
+
+105
+00:07:44,290 --> 00:07:45,830
+The very end of a list.
+
+106
+00:07:45,910 --> 00:07:53,240
+So reverse indexing also works of list just like it worked for string a few more methods that I want
+
+107
+00:07:53,240 --> 00:07:59,720
+to discuss besides pop and append which are going to be really common methods you're using is sort and
+
+108
+00:07:59,720 --> 00:08:00,860
+reverse.
+
+109
+00:08:00,860 --> 00:08:03,040
+So to do this I'm going to create a new list.
+
+110
+00:08:03,050 --> 00:08:04,220
+Let's zoom in here.
+
+111
+00:08:05,170 --> 00:08:11,170
+So I'll read the fine list and I'm going to see the final list to be a couple of letters here but we're
+
+112
+00:08:11,170 --> 00:08:13,930
+going to have them sorted out of alphabetical order
+
+113
+00:08:17,270 --> 00:08:18,220
+as we go.
+
+114
+00:08:18,340 --> 00:08:22,540
+And we'll also make the numbers list so we'll say nimblest is equal to.
+
+115
+00:08:22,540 --> 00:08:25,650
+And let's make this just a bunch of numbers out of order as well.
+
+116
+00:08:27,270 --> 00:08:28,900
+OK so we have two lists.
+
+117
+00:08:28,950 --> 00:08:35,280
+If we ever want to sort these lists where we can do is called the sort method off of them we can see
+
+118
+00:08:35,280 --> 00:08:39,680
+a new list sort and you can use tab autocomplete to do this.
+
+119
+00:08:39,970 --> 00:08:46,060
+Open a close parentheses and this is actually kind of a special in place method because it doesn't actually
+
+120
+00:08:46,060 --> 00:08:47,050
+return anything.
+
+121
+00:08:47,110 --> 00:08:49,510
+Instead what it's doing is it's going to sort.
+
+122
+00:08:49,510 --> 00:08:53,260
+New list in place meaning that it doesn't return anything.
+
+123
+00:08:53,260 --> 00:08:58,090
+Instead when you call back new list again it's now sorted in alphabetical order.
+
+124
+00:08:58,090 --> 00:09:03,640
+ABC X and that's an important distinction to make because a lot of times beginners will do something
+
+125
+00:09:03,640 --> 00:09:04,620
+like this.
+
+126
+00:09:04,750 --> 00:09:12,380
+They'll say Oh my sorted list is equal to you list that sort.
+
+127
+00:09:12,750 --> 00:09:18,450
+But what's going to happen here is because new list that sort occurs in place it doesn't actually return
+
+128
+00:09:18,450 --> 00:09:20,320
+anything for you to assign.
+
+129
+00:09:20,340 --> 00:09:25,210
+So when you call my sorted list you get back nothing or none.
+
+130
+00:09:25,270 --> 00:09:33,360
+And you can actually check the type of this and it's going to say that it's a blood type and what type
+
+131
+00:09:33,360 --> 00:09:36,050
+is is the type for the none object.
+
+132
+00:09:36,060 --> 00:09:41,640
+So there's actually a special object in Python called none noticed the capital and there and this is
+
+133
+00:09:41,640 --> 00:09:47,460
+just something you can use to indicate no value and a lot of times people hold it as a placeholder.
+
+134
+00:09:47,610 --> 00:09:53,320
+But really what it is it's the return value of a function or a method that doesn't actually return anything.
+
+135
+00:09:53,550 --> 00:09:58,140
+So it's a common default return value for functions that may be search for something and may or may
+
+136
+00:09:58,140 --> 00:10:00,180
+not find it for example.
+
+137
+00:10:00,180 --> 00:10:05,280
+So that's an important distinction to note here that when you're using this sort method it's actually
+
+138
+00:10:05,280 --> 00:10:06,480
+occurring in place.
+
+139
+00:10:06,510 --> 00:10:10,420
+So you're not going to be able to reassign the result to something else instead.
+
+140
+00:10:10,440 --> 00:10:19,940
+If you did want to do that you'd have to do is say new list that sore and then say my sorted list is
+
+141
+00:10:19,940 --> 00:10:28,380
+equal to new list and then when you run that you can have my sorted list using tab autocomplete there
+
+142
+00:10:28,830 --> 00:10:33,870
+and you'll get back your sorted list plus try that number list again.
+
+143
+00:10:33,870 --> 00:10:37,150
+So right now the list is unsorted.
+
+144
+00:10:37,200 --> 00:10:44,950
+If I call the sort method off of it and I check nimblest again now it's sorted.
+
+145
+00:10:45,000 --> 00:10:45,460
+All right.
+
+146
+00:10:45,690 --> 00:10:49,290
+Let's also discuss the reverse method off the list as you may have expected.
+
+147
+00:10:49,320 --> 00:10:51,960
+It's going to reverse everything in your list.
+
+148
+00:10:51,960 --> 00:10:59,680
+So just reverse open close print sees run that and it's also in place meaning it doesn't return anything.
+
+149
+00:10:59,800 --> 00:11:04,880
+And when you call your reverse version of your list they had 8 4 3 two 1.
+
+150
+00:11:04,890 --> 00:11:05,460
+All right.
+
+151
+00:11:05,520 --> 00:11:11,940
+That's really the basics of lists and the most support methods to understand are the append method and
+
+152
+00:11:11,940 --> 00:11:14,850
+the pop method as well as the sort and reverse method.
+
+153
+00:11:14,940 --> 00:11:19,380
+And just like strings were able to perform indexing and slicing.
+
+154
+00:11:19,380 --> 00:11:26,760
+So if you come back up here we're able to say indexing as well as slice notation like a peer.
+
+155
+00:11:26,880 --> 00:11:30,750
+So that works just like you would expect it to work as it did in strings.
+
+156
+00:11:30,750 --> 00:11:35,450
+The only thing to note here is unlike strings we're able to do reassignments like we did appear with
+
+157
+00:11:35,450 --> 00:11:36,590
+a list.
+
+158
+00:11:36,630 --> 00:11:37,010
+OK.
+
+159
+00:11:37,080 --> 00:11:38,520
+That's the basics of a list.
+
+160
+00:11:38,580 --> 00:11:41,100
+Coming up next we're going to discuss dictionaries.
+
+161
+00:11:41,100 --> 00:11:42,090
+I'll see it there.

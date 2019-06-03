@@ -1,0 +1,507 @@
+1
+00:00:05,640 --> 00:00:06,900
+Welcome back everybody.
+
+2
+00:00:07,170 --> 00:00:11,460
+In this lecture we're going to continue right where we left off last time but we'll be discussing string
+
+3
+00:00:11,520 --> 00:00:16,950
+indexing and slicing indexing or we grab a single character and slicing or grab a subsection of that
+
+4
+00:00:17,100 --> 00:00:20,920
+string let's jump to the Jupiter note book and get started.
+
+5
+00:00:21,210 --> 00:00:27,180
+OK so to start this all off I'm going to create a variable called my string and enjoyed it equal to
+
+6
+00:00:27,180 --> 00:00:30,270
+the string Hello world.
+
+7
+00:00:30,270 --> 00:00:36,150
+So there's a space in there between Hello world I run this and just check to make sure.
+
+8
+00:00:36,430 --> 00:00:36,680
+OK.
+
+9
+00:00:36,690 --> 00:00:37,610
+So we have hello world.
+
+10
+00:00:37,610 --> 00:00:39,540
+They're ready to go.
+
+11
+00:00:39,560 --> 00:00:40,360
+Now let's imagine.
+
+12
+00:00:40,380 --> 00:00:44,130
+I wanted to grab a single character from this string.
+
+13
+00:00:44,190 --> 00:00:46,800
+In that case I want to use indexing.
+
+14
+00:00:46,800 --> 00:00:48,660
+So we do we call the variable name.
+
+15
+00:00:48,870 --> 00:00:50,670
+We have square brackets off of it.
+
+16
+00:00:50,760 --> 00:00:56,520
+And let's imagine I want to grab the first character that is capital H that I pasan a 0 because indexing
+
+17
+00:00:56,520 --> 00:01:01,890
+starts at zero and that allows me to return that first character h.
+
+18
+00:01:01,890 --> 00:01:03,690
+Let's try to grab another character.
+
+19
+00:01:03,690 --> 00:01:05,540
+Let's say we want to grab our.
+
+20
+00:01:05,640 --> 00:01:13,120
+So let's count this out my string and we want to count from 0 0 1 2 3 4 5.
+
+21
+00:01:13,120 --> 00:01:16,580
+So Notice the space counts 6 7 8.
+
+22
+00:01:16,950 --> 00:01:21,500
+So if I pass an 8 there it should return are perfect.
+
+23
+00:01:21,510 --> 00:01:24,010
+So again this is known as indexing.
+
+24
+00:01:24,010 --> 00:01:27,860
+Now let's imagine we wanted to grab this letter L.
+
+25
+00:01:28,090 --> 00:01:29,790
+Well there's two ways I can actually do this.
+
+26
+00:01:29,860 --> 00:01:36,970
+I could say my string at nine because that's right after that are the other way I could do it is using
+
+27
+00:01:37,090 --> 00:01:39,480
+the reverse indexing we previously mentioned.
+
+28
+00:01:39,700 --> 00:01:46,090
+So starting at 0 from H I can go backwards in the string so that D is negative 1 and that means this
+
+29
+00:01:46,180 --> 00:01:47,930
+L is negative 2.
+
+30
+00:01:48,190 --> 00:01:54,220
+So if I say my string negative two I will actually get back that L and then if I keep going backwards
+
+31
+00:01:54,220 --> 00:01:58,640
+in the string I'll get back that are which is right before the L.
+
+32
+00:01:58,660 --> 00:02:00,700
+So I will get back and are right there.
+
+33
+00:02:00,700 --> 00:02:07,770
+So you can use both positive and negative index positions to grab elements or characters from the string.
+
+34
+00:02:07,960 --> 00:02:12,550
+And that's really useful again because oftentimes you'll have a variable string maybe it's someone's
+
+35
+00:02:12,550 --> 00:02:14,700
+name and you don't know how big that name is.
+
+36
+00:02:14,860 --> 00:02:19,120
+But for whatever reason you want to grab the last letter of the name they can always just use negative
+
+37
+00:02:19,120 --> 00:02:19,600
+one.
+
+38
+00:02:19,630 --> 00:02:21,830
+And you know that's the last letter of the string.
+
+39
+00:02:22,880 --> 00:02:23,230
+OK.
+
+40
+00:02:23,290 --> 00:02:28,600
+Let's go ahead and continue to discuss slicing so slicing is a little more complicated because we're
+
+41
+00:02:28,600 --> 00:02:30,850
+grabbing a subsection of the string.
+
+42
+00:02:30,850 --> 00:02:33,850
+So it's more than one character typically.
+
+43
+00:02:33,850 --> 00:02:41,370
+Let's review our string my string here is hello world and I'm going to read the find my string.
+
+44
+00:02:41,440 --> 00:02:47,330
+So this is a little easier to follow as a b c d e f g h i j k.
+
+45
+00:02:47,410 --> 00:02:50,500
+So just kind of a string of the alphabet there will find it.
+
+46
+00:02:50,830 --> 00:02:53,520
+And now I have this string of the alphabet.
+
+47
+00:02:53,890 --> 00:02:59,920
+So let's imagine that we want to grab a subsection a string that started a particular index and then
+
+48
+00:02:59,920 --> 00:03:01,470
+went all the way to the end.
+
+49
+00:03:01,780 --> 00:03:07,840
+Well the way we could do that is we would say my string square Brecken notation and then we would say
+
+50
+00:03:07,900 --> 00:03:08,950
+the starting index.
+
+51
+00:03:08,950 --> 00:03:12,850
+Let's imagine want to start at the letter C and then go all the way to the end.
+
+52
+00:03:12,850 --> 00:03:16,950
+So C is an index too because it's 0 1 2.
+
+53
+00:03:16,960 --> 00:03:19,900
+So what I do is I pass into it if I just do that.
+
+54
+00:03:19,930 --> 00:03:27,480
+It gives me back the letter C but if I want from C all the way to the end I can say colon and that indicates
+
+55
+00:03:27,570 --> 00:03:30,890
+starting in next to Colon go all the way to the end.
+
+56
+00:03:31,040 --> 00:03:34,880
+And there we have CD all the way to K OK.
+
+57
+00:03:35,090 --> 00:03:40,880
+Now let's imagine a kind of an opposite situation where I want to grab everything up to a particular
+
+58
+00:03:40,910 --> 00:03:49,200
+index that I could say my string colon and let's say I wanted to grab a b and c..
+
+59
+00:03:49,370 --> 00:03:55,440
+So starting at the very beginning go ahead and grab all the way up to the essentially letter D here.
+
+60
+00:03:55,680 --> 00:04:01,090
+So I'll say 0 1 2 3 pasand 3 there.
+
+61
+00:04:01,490 --> 00:04:03,880
+And then we run this and we get back ABC.
+
+62
+00:04:04,130 --> 00:04:09,320
+Now this is sometimes confusing for students because we check out my string.
+
+63
+00:04:09,320 --> 00:04:15,120
+Technically we have the D in to 3 because it's 0 1 2 3.
+
+64
+00:04:15,140 --> 00:04:20,470
+Well you should note here is that the stop index this term right here for three which only returns back
+
+65
+00:04:20,530 --> 00:04:26,920
+ABC that's the up index is basically saying go up to but not including that index position.
+
+66
+00:04:27,170 --> 00:04:34,040
+So go up to the letter D but don't include it which essentially says A B C so keep that in mind as you're
+
+67
+00:04:34,040 --> 00:04:36,210
+kind of playing around a slice notation.
+
+68
+00:04:36,230 --> 00:04:43,360
+The stop is up to but not including OK let's combine these two ideas of a starting index and a stop
+
+69
+00:04:43,360 --> 00:04:47,160
+index by trying to grab a subsection or a string that's in the middle.
+
+70
+00:04:47,230 --> 00:04:54,250
+For example let's try to grab D E F from the middle of the string the way we can do that is to say my
+
+71
+00:04:54,250 --> 00:05:01,000
+string open square brackets and then we start off with our starting in the Exposition in this case letter
+
+72
+00:05:01,000 --> 00:05:01,530
+D.
+
+73
+00:05:01,750 --> 00:05:11,060
+So that's 0 1 2 3 then we say colon and then it's going to go up to the position of G here because I
+
+74
+00:05:11,060 --> 00:05:12,560
+just want DPF.
+
+75
+00:05:12,560 --> 00:05:14,970
+So we're going to go up to but not including G.
+
+76
+00:05:15,200 --> 00:05:20,910
+So that's 0 1 2 3 4 5 6.
+
+77
+00:05:20,980 --> 00:05:23,840
+And now if I run this I get back d e f.
+
+78
+00:05:23,860 --> 00:05:27,720
+So let's practice this one more time by trying to grab another subsection of the string.
+
+79
+00:05:27,910 --> 00:05:34,810
+For example is try to grab just b and c these two letters b c so we can do it as we'll type out my string
+
+80
+00:05:35,170 --> 00:05:42,790
+open and close square brackets are starting in solution is 0 1 for B colon and then it looks like we
+
+81
+00:05:42,790 --> 00:05:49,310
+want to go up to and including the 0 1 2 3 or run this.
+
+82
+00:05:49,680 --> 00:05:54,810
+And there we have B C and I would encourage you to try to grab a subsection.
+
+83
+00:05:54,810 --> 00:05:59,940
+So True's a subsection of the string and then see if you can grab it go in a positive view and try that
+
+84
+00:05:59,940 --> 00:06:00,560
+out.
+
+85
+00:06:00,840 --> 00:06:04,450
+OK to end their discussion let's quickly discuss step size.
+
+86
+00:06:04,740 --> 00:06:09,450
+Let's imagine that I wanted to grab everything from the beginning of the string all the way to the end.
+
+87
+00:06:09,660 --> 00:06:14,580
+Well technically that's just the string itself but I could also use colon notation for this I could
+
+88
+00:06:14,580 --> 00:06:16,110
+say colon colon.
+
+89
+00:06:16,110 --> 00:06:20,280
+And that basically says from all the way to the beginning go all the way to the end.
+
+90
+00:06:20,280 --> 00:06:23,670
+Now you don't often see this because you might as well just call the string itself.
+
+91
+00:06:23,790 --> 00:06:26,370
+But this is technically valid syntax.
+
+92
+00:06:26,370 --> 00:06:31,170
+The reason you might see something like this is if someone wanted to specify the third parameter and
+
+93
+00:06:31,170 --> 00:06:32,490
+that is the step size.
+
+94
+00:06:32,730 --> 00:06:38,070
+So right now we're saying go all the way from the beginning to the end and the step size of one a b
+
+95
+00:06:38,070 --> 00:06:39,340
+c d e f g.
+
+96
+00:06:39,360 --> 00:06:41,450
+So that's the default step size of 1.
+
+97
+00:06:41,460 --> 00:06:44,560
+However I can change that by providing a number such as two.
+
+98
+00:06:44,760 --> 00:06:46,640
+And that says go in jumps of two.
+
+99
+00:06:46,650 --> 00:06:50,690
+So from a go to C E to G.
+
+100
+00:06:50,760 --> 00:06:59,610
+Ok so if I run this I get back a C E G I K because I'm jumping in the step size of two I can increase
+
+101
+00:06:59,610 --> 00:07:07,910
+this to be a step size of three and then we'll get from a jump to d jump to G jump to J.
+
+102
+00:07:07,920 --> 00:07:11,710
+And then there's no more letters to jump to because we're jumping in a larger step size.
+
+103
+00:07:11,730 --> 00:07:13,410
+So that's how step size works.
+
+104
+00:07:13,410 --> 00:07:16,480
+And you can combine this with a start and stop as well.
+
+105
+00:07:16,620 --> 00:07:22,830
+So we could say something like starting from index to go up to and including index 7 and a step size
+
+106
+00:07:23,190 --> 00:07:25,220
+to get back CGM.
+
+107
+00:07:25,230 --> 00:07:28,580
+So C then jumped to E and then jumped to G.
+
+108
+00:07:28,590 --> 00:07:30,690
+So notice how this all works in combination.
+
+109
+00:07:30,690 --> 00:07:37,630
+You have a start a stop and then a step size something that you may commonly see is using a clever step
+
+110
+00:07:37,630 --> 00:07:39,930
+so trick to reverse a string.
+
+111
+00:07:40,200 --> 00:07:45,510
+And what you can do is say my string and then say from all the way to the beginning all the way to the
+
+112
+00:07:45,510 --> 00:07:46,050
+end.
+
+113
+00:07:46,260 --> 00:07:51,900
+Take a step size of negative 1 and what that does is it actually reverses your string because you're
+
+114
+00:07:51,900 --> 00:07:55,150
+saying from all the way to the beginning all the way to the end.
+
+115
+00:07:55,230 --> 00:07:59,000
+Go and take a backward step which is then K J.
+
+116
+00:07:59,020 --> 00:07:59,370
+I.
+
+117
+00:07:59,370 --> 00:08:00,590
+All the way to the end.
+
+118
+00:08:00,660 --> 00:08:02,360
+So this is kind of a little Python trick.
+
+119
+00:08:02,360 --> 00:08:06,960
+Now often in interviews people ask you to reverse a string and they kind of get annoyed by Python he
+
+120
+00:08:06,950 --> 00:08:11,800
+says because they quickly just do this nice kind of slick one liner instead of doing a for loop.
+
+121
+00:08:11,850 --> 00:08:13,620
+But I just want you to be aware of that.
+
+122
+00:08:13,920 --> 00:08:17,330
+Typically in our code it won't really be used in it's too much because it's more of a trick.
+
+123
+00:08:17,490 --> 00:08:19,990
+But again a very useful one at that.
+
+124
+00:08:20,400 --> 00:08:20,890
+OK.
+
+125
+00:08:21,030 --> 00:08:24,120
+So that's it for slicing and indexing.
+
+126
+00:08:24,120 --> 00:08:27,860
+Coming up next we're going to discuss a little bit about some useful string properties.
+
+127
+00:08:27,900 --> 00:08:28,580
+We'll see if they're.

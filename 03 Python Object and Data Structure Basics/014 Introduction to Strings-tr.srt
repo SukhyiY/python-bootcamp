@@ -1,0 +1,451 @@
+1
+00:00:05,720 --> 00:00:07,460
+Bu dersin herkese tekrar hoş geldiniz.
+
+2
+00:00:07,460 --> 00:00:14,180
+Tekli tırnak işaretleri veya çift tırnak işaretleri kullanarak dizelerin dizelerini veya
+
+3
+00:00:14,180 --> 00:00:15,770
+karakter dizilerini tartışacağız.
+
+4
+00:00:15,800 --> 00:00:17,540
+Burada üç örnek görebiliriz.
+
+5
+00:00:17,540 --> 00:00:19,890
+Önce HELLO selamızdan tek tırnaklara sahibiz.
+
+6
+00:00:19,910 --> 00:00:20,850
+İkili alıntı.
+
+7
+00:00:20,930 --> 00:00:24,380
+Peki, tekli tırnak işaretleri veya çift tırnak işaretleri seçeneklerine sahip olmakla neyin hoş karşılandığını.
+
+8
+00:00:24,380 --> 00:00:29,020
+tırnak işaretleri veya tersi gibi diğer tırnak işaretlerine sarabilirsiniz anlamına gelir.
+
+9
+00:00:29,030 --> 00:00:34,030
+Dize içinde, tutmak ve gerçek telefondaki tek bir teklifiniz varsa, çift
+
+10
+00:00:34,070 --> 00:00:38,810
+Yani şunu burada görebiliriz ki orada tek bir teklif var ama her şeyi çift
+
+11
+00:00:38,810 --> 00:00:42,230
+tırnak işaretiyle sarabilmemiz için, tekli teklifin aniden dizgiyi bitirmesini istemiyoruz.
+
+12
+00:00:42,260 --> 00:00:45,010
+Şimdi daha sonra Juber defterinde bunun bir örneğini göreceğiz.
+
+13
+00:00:46,200 --> 00:00:51,570
+Şimdi dikkat edilmesi gereken nokta, dizelerin sıralı olması ve bu dizinin alt bölümlerini yakalamak
+
+14
+00:00:51,570 --> 00:00:56,670
+için dizin oluşturma veya dilimleme kullanabileceğimiz anlamına geliyor. Çünkü her karakterin içinde bulunması
+
+15
+00:00:56,670 --> 00:01:02,670
+gereken belirli bir konumu olduğunu ve dizinleme gösterim dizgesinin köşeli parantez gösterimini kolaylaştırdığını biliyoruz veya
+
+16
+00:01:02,670 --> 00:01:04,040
+dizeye atanmış değişken adı.
+
+17
+00:01:04,050 --> 00:01:08,170
+Şimdi biraz dizin dilimleme örnekleri çok göreceğiz.
+
+18
+00:01:08,400 --> 00:01:13,740
+Bu nedenle indeksleme, dizeden tek bir karakter almak istediğinizde kullanılan terimdir.
+
+19
+00:01:13,780 --> 00:01:18,790
+Bu şekilde çalışır, her karakterin kendisine atanmış bir dizin konumu vardır.
+
+20
+00:01:18,820 --> 00:01:20,040
+Yani sıfırdan başlıyorsun.
+
+21
+00:01:20,080 --> 00:01:23,500
+İndekslemenin sıfırdan başlaması Python'da bir başka önemli not.
+
+22
+00:01:23,500 --> 00:01:30,940
+Yani H, sıfıra karşılık gelen bir sayıya sahiptir E 1 2 3 0 4'ün karşılık gelen bir sayısına sahiptir.
+
+23
+00:01:30,940 --> 00:01:36,250
+Dolayısıyla E'yi yakalamak isteseydim kullanacağım köşeli ayraçların içindeydi, dizeden birini geçirdim ve daha sonra
+
+24
+00:01:36,250 --> 00:01:39,790
+E geri dönecek ve daha sonra bunun örneklerini göreceğim.
+
+25
+00:01:40,950 --> 00:01:44,510
+Pi başparmağı hakkında da ilginç olan şey aslında ters indekslemeyi kullanabilmenizdir.
+
+26
+00:01:44,730 --> 00:01:49,530
+Belki bir dize son harfini kapmak istediniz ama dize ne kadar uzun olduğunu
+
+27
+00:01:49,530 --> 00:01:49,870
+bilmiyordunuz.
+
+28
+00:01:49,890 --> 00:01:52,010
+Tek biliyordun, son mektubu kapmak istedin.
+
+29
+00:01:52,200 --> 00:01:57,180
+Neyse ki orada ters indeksleme mevcut, böylece sadece ne olursa olsun o
+
+30
+00:01:57,180 --> 00:02:04,640
+dize aslında dilimleme aksi takdirde bir dilim olarak bilinen birden fazla karakter bir alt bölüm kapmak için izin
+
+31
+00:02:04,640 --> 00:02:09,760
+ne olursa olsun dize son harf kapmak olumsuz bir kapmak gidebilirsiniz var dize.
+
+32
+00:02:09,770 --> 00:02:11,630
+Ve bu biraz farklı sözdizimi vardır.
+
+33
+00:02:11,630 --> 00:02:15,250
+Yine köşeli parantez içinde olacak çünkü alt bölüm kapıyoruz.
+
+34
+00:02:15,260 --> 00:02:20,840
+Bunun üç parçasını tanımlayacağız, bununla başlayıp durup durabileceğimizi söyleyeceğiz.
+
+35
+00:02:20,840 --> 00:02:25,840
+Yine bu, bu üç terimden her birini ayıran iki nokta üstüste parantezler ile gidiyor.
+
+36
+00:02:25,880 --> 00:02:28,690
+Star, dilimin sayısal indeksi olacak.
+
+37
+00:02:28,700 --> 00:02:33,850
+Başlangıç ​​durağı, gideceğiniz ancak dahil etmeyeceğiniz endeks olacak.
+
+38
+00:02:33,970 --> 00:02:35,070
+Burada önemli bir not var.
+
+39
+00:02:35,080 --> 00:02:39,280
+Ve biz gerçekten de ve biraz örnekte göreceğimiz
+
+40
+00:02:39,280 --> 00:02:44,470
+örneklere odaklanacağız ve ardından baştan sona atladığınız atlamanın boyutu bu.
+
+41
+00:02:44,490 --> 00:02:46,350
+Tamam, bu yüzden bütün bu kavramları keşfedelim.
+
+42
+00:02:46,380 --> 00:02:49,240
+Aslında kod örneklerini gördüğümüzde daha mantıklı olacaklardır.
+
+43
+00:02:49,440 --> 00:02:50,920
+Bir deftere geçelim.
+
+44
+00:02:51,450 --> 00:02:54,140
+Tamam, bir dizgeye birkaç örnek göstereceğim.
+
+45
+00:02:54,150 --> 00:02:58,880
+Tekrar tekrar tek tırnak işaretleri kullanabiliriz veya çift tırnak işaretleri kullanabilirsiniz.
+
+46
+00:02:59,070 --> 00:03:01,320
+Bu yüzden burada çift tırnak işaretleri söylüyorum.
+
+47
+00:03:01,410 --> 00:03:07,650
+Ayrıca, bir deyimin yalnızca bir kelime olması gerekmez bu yüzden de bunun bir dize olduğunu söyleyebiliriz.
+
+48
+00:03:07,920 --> 00:03:09,200
+Yani orada bütün bir ifade var.
+
+49
+00:03:09,240 --> 00:03:13,350
+Ve beyaz alanlar ipin içinde karakter olarak sayılır.
+
+50
+00:03:13,350 --> 00:03:18,240
+Burada dikkat etmemiz gereken tek şey, tek tırnak işaretleri ve çift tırnak işaretleri karıştırabiliriz.
+
+51
+00:03:18,240 --> 00:03:26,820
+Öyleyse ben ve bir şey söylersem, örneğin kaçmaya başlıyorum.
+
+52
+00:03:26,820 --> 00:03:28,290
+Burada ne olup bittiğini.
+
+53
+00:03:28,590 --> 00:03:34,430
+Dışarıda tek tırnak işaretleri kullanıyorum çünkü bunun sadece bir kısmı sözdiziminin vurguluğunu
+
+54
+00:03:34,490 --> 00:03:39,660
+alıyor, çünkü burada dizeyi sonlandırmaya çalışırken dizesini sonlandırmaya çalıştığınızı düşünen Python'ı
+
+55
+00:03:39,660 --> 00:03:40,700
+karıştırıyor olacak.
+
+56
+00:03:40,710 --> 00:03:43,530
+Peki koşmaya çalışırsam hücrede bir hata olduğunu söyleyebilirim.
+
+57
+00:03:43,530 --> 00:03:44,910
+Geçersiz sözdizimi.
+
+58
+00:03:44,910 --> 00:03:53,620
+Gerçekten yapmak istediğim, bunu çift tırnak işareti içine koymak ve bu şekilde burada bu tekli teklifi almam durumunda
+
+59
+00:03:53,620 --> 00:03:54,860
+hata olmayacağım.
+
+60
+00:03:54,970 --> 00:03:59,920
+Ve sonra bu python'u çalıştırdığımda hiç problem yaşamıyor ve tamam diyor, burada kalmak
+
+61
+00:03:59,950 --> 00:04:05,590
+için tek bir teklif yapmaya çalışıyoruz ve bu aslında dizgenin tanımının bir parçası değil.
+
+62
+00:04:05,600 --> 00:04:08,930
+Şimdi bir dize basarak tartışalım.
+
+63
+00:04:08,930 --> 00:04:15,320
+Şu ana kadar biz sadece dize iade edilmesini istiyoruz ve bu hücrelerin içeri girip çıkmasının nedeni
+
+64
+00:04:15,380 --> 00:04:16,400
+de budur.
+
+65
+00:04:16,410 --> 00:04:21,160
+Aslında hücrenin altındaki çıktıdaki tırnak işaretlerini görmemizin sebebi de budur.
+
+66
+00:04:21,470 --> 00:04:25,490
+Ancak yazdırma işlevi, aslında bir dize yazdırmak için kullanılabilir.
+
+67
+00:04:25,490 --> 00:04:28,610
+Bu yüzden, merhaba baskılar söyleyeceğiz.
+
+68
+00:04:28,640 --> 00:04:33,670
+Ve eğer bu notayı iyi çalıştırırsak, geriye döneriz artık dışarıda hücrede görünmüyoruz.
+
+69
+00:04:33,800 --> 00:04:36,110
+Ve bunun yerine tırnak işaretlerini bizzat göremiyoruz.
+
+70
+00:04:36,110 --> 00:04:39,500
+Aslında gerçek dizgiyi yazdırıyoruz.
+
+71
+00:04:39,590 --> 00:04:46,070
+Bunun önemi bunun nedeni, dünya merhaba demeyi düşündüğümü hayal etsem de,
+
+72
+00:04:46,070 --> 00:04:51,280
+bunu çalıştırsam, merhaba dünya ikisini de söylemek isterim.
+
+73
+00:04:51,500 --> 00:04:56,270
+Sonunda biten şey, her şeyi görmek için yalnızca o son dize geri döndüğüm.
+
+74
+00:04:56,390 --> 00:05:02,630
+Aslında sonuçları yazdıracağım, bu yüzden Prens ve raptus baskıda gördüğümü yazdırıyor merhaba dünya
+
+75
+00:05:02,630 --> 00:05:08,170
+bir diğeri de bastırıyor ve sonra da Merhaba Dünya 2'yi söylüyor.
+
+76
+00:05:08,240 --> 00:05:11,330
+Ve bunu çalıştırdığım zaman, yay tellerinin yazdırıldığını görürüm.
+
+77
+00:05:11,540 --> 00:05:13,100
+Artık çıktıyı göremiyorum.
+
+78
+00:05:13,100 --> 00:05:15,180
+Aslında sonuçları yazdırıyorum.
+
+79
+00:05:15,440 --> 00:05:20,850
+Şimdi söylemek istemekte zorlanmak ayrıca, kaçış dizileri ve dizi içerisinde
+
+80
+00:05:20,900 --> 00:05:25,220
+özel komutlara sahip olmak gibi kaçış dizileri var.
+
+81
+00:05:25,250 --> 00:05:27,690
+Öyleyse gidip Prens demeyi bekleyelim.
+
+82
+00:05:27,890 --> 00:05:29,660
+Selam Dünya.
+
+83
+00:05:29,660 --> 00:05:35,490
+Ve bunu çalıştırırsam Hello World'un bir satırda bastığını görüyorum, ancak aslında kaçış dizisi ekleyebilirim.
+
+84
+00:05:35,600 --> 00:05:42,980
+Dolayısıyla bu bir tersbölü n olacak ve bu ne yapıyor temelde Python'a bu ve
+
+85
+00:05:42,980 --> 00:05:48,830
+hemen burada, bu eğik çizgi nedeniyle sizi gerçekten istemediğim karakteri söyler.
+
+86
+00:05:48,980 --> 00:05:50,510
+Bunu yeni bir çizgi gibi davran.
+
+87
+00:05:51,600 --> 00:05:59,160
+Bu kaçış karakteri varsa, prens Merhaba uzayı yeni bir çizgiye, daha sonra uzay dünyasına göre
+
+88
+00:05:59,310 --> 00:05:59,940
+değiştirecek.
+
+89
+00:05:59,970 --> 00:06:00,980
+İşte biz burada gördüklerimiz.
+
+90
+00:06:00,990 --> 00:06:04,320
+Dünyanın sıralanmasını istersem merhaba uzay ve dünya.
+
+91
+00:06:04,350 --> 00:06:04,860
+Merhaba.
+
+92
+00:06:05,100 --> 00:06:08,190
+Aslında böyle dokunabilirim.
+
+93
+00:06:08,190 --> 00:06:13,920
+Çalıştırın ve sonra şunu görüyorum: Hello world in Python bu mektubun orada sona ermeyeceğini
+
+94
+00:06:13,980 --> 00:06:16,770
+biliyor çünkü aslında bu eğik çizgiye ekliyor.
+
+95
+00:06:16,770 --> 00:06:20,200
+Yani başka bir popüler kaçış dizisi sekme için.
+
+96
+00:06:20,370 --> 00:06:22,030
+Ve eğer ben koşarsam geri alırım.
+
+97
+00:06:22,050 --> 00:06:23,180
+Merhaba sekme.
+
+98
+00:06:23,190 --> 00:06:24,870
+Yani dünyada dört boşluk.
+
+99
+00:06:25,100 --> 00:06:29,550
+Bundan sonra, baskı biçimlendirmesini tartışırken daha çok şey hakkında konuşuyoruz.
+
+100
+00:06:29,580 --> 00:06:36,810
+Şimdilik size göstermek istediğim başka bir yerleşik işlev Eliane işlevi veya uzunluk işlevi.
+
+101
+00:06:36,900 --> 00:06:41,790
+Dolayısıyla bu, dizenin uzunluğunu kontrol etmenizi sağlar, dolayısıyla merhaba ve üzeri diyebilirim, çünkü bu
+
+102
+00:06:41,790 --> 00:06:44,680
+dizide beş karakter olan beş uzunluğa geri döndüm.
+
+103
+00:06:44,790 --> 00:06:50,220
+Tel duvarda bir boşluk olursa, aç olduğumu söyleyecektir.
+
+104
+00:06:50,340 --> 00:06:53,390
+Hadi söyleyeceğiz daha açık belli edelim.
+
+105
+00:06:53,450 --> 00:06:54,280
+Bunu çalıştırıyoruz.
+
+106
+00:06:54,350 --> 00:06:55,990
+Burada dört tane olduğunu görebiliyoruz.
+
+107
+00:06:56,030 --> 00:06:59,090
+Yani ben Uzay am.
+
+108
+00:06:59,140 --> 00:07:02,410
+Dize içinde dört karakter uzunluğunda sayılır.
+
+109
+00:07:02,420 --> 00:07:03,140
+Tamam.
+
+110
+00:07:03,140 --> 00:07:04,370
+Burada şimdilik duracağız.
+
+111
+00:07:04,390 --> 00:07:08,930
+Bir sonraki dersimizde dizgi endeksleme ve dize dilimlemeyi tartıştığımız yerden
+
+112
+00:07:08,930 --> 00:07:09,630
+devam edeceğiz.
+
+113
+00:07:09,650 --> 00:07:10,670
+Seni orada göreceğim.

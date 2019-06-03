@@ -1,0 +1,163 @@
+1
+00:00:05,480 --> 00:00:07,260
+Welcome back everyone in this lecture.
+
+2
+00:00:07,280 --> 00:00:13,820
+We're going to very quickly cover what sets are and sets are an ordered collections of unique elements
+
+3
+00:00:13,910 --> 00:00:18,320
+and this basically means that there can only be one representative of the same object so you can't have
+
+4
+00:00:18,320 --> 00:00:23,800
+the number two in there more than one time or the letter A in there more than one time.
+
+5
+00:00:23,900 --> 00:00:29,480
+Let's see some examples of how to work with sets in the Jupiter notebook to begin let's create a set.
+
+6
+00:00:29,520 --> 00:00:36,200
+We can do that by saying my set or the variable name you want is equal to set and then open and close
+
+7
+00:00:36,200 --> 00:00:38,460
+parentheses.
+
+8
+00:00:38,460 --> 00:00:41,360
+So right now we have my set and it's just an empty set.
+
+9
+00:00:41,370 --> 00:00:42,970
+So it returns back set.
+
+10
+00:00:43,090 --> 00:00:46,330
+I actually want to add an object to the set.
+
+11
+00:00:46,500 --> 00:00:51,350
+I can say my set and then call the add method and we can add one object to this.
+
+12
+00:00:51,360 --> 00:00:53,610
+So it's the number one.
+
+13
+00:00:53,650 --> 00:00:57,850
+Now if I take a look at my set I see it has the number one there.
+
+14
+00:00:57,880 --> 00:01:02,440
+Now notice it looks like it's a dictionary because this curly braces but it's not because it doesn't
+
+15
+00:01:02,440 --> 00:01:04,090
+have a key value pairs.
+
+16
+00:01:04,120 --> 00:01:07,230
+It's just unordered collections of the items you want.
+
+17
+00:01:07,450 --> 00:01:09,730
+So it's an other object here.
+
+18
+00:01:09,790 --> 00:01:13,250
+I will say my set add in the number two.
+
+19
+00:01:13,390 --> 00:01:20,290
+And then if I call my set again flips I call it my set I get 1 and 2 there.
+
+20
+00:01:20,330 --> 00:01:25,590
+Now try adding 2 a second time and see what happens.
+
+21
+00:01:26,370 --> 00:01:33,710
+I call my set is still just shows 1 and 2 it doesn't show 1 2 2 and this is basically what it is.
+
+22
+00:01:33,780 --> 00:01:36,300
+It has to be unique values in there.
+
+23
+00:01:36,300 --> 00:01:39,060
+If you try to add a value that's already in the set.
+
+24
+00:01:39,060 --> 00:01:40,130
+It won't repeat it.
+
+25
+00:01:40,140 --> 00:01:42,370
+Ill just say hey we already have that value in there.
+
+26
+00:01:42,510 --> 00:01:44,440
+I only accept unique values.
+
+27
+00:01:44,730 --> 00:01:49,140
+So when you're working two sets it may not be super useful to add them in this manner.
+
+28
+00:01:49,140 --> 00:01:55,630
+Instead what it's really useful for is maybe casting a list to a set that we only get the unique values.
+
+29
+00:01:56,240 --> 00:02:00,900
+So for instance we'll say my list is equal to and I'm going to place a bunch of repeated values in here
+
+30
+00:02:01,090 --> 00:02:05,240
+a bunch of ones a bunch of twos and a bunch of threes.
+
+31
+00:02:05,810 --> 00:02:10,980
+I'm going to run this and then I'm going to cast this as a set.
+
+32
+00:02:11,370 --> 00:02:14,910
+And now I get back only a set of unique values.
+
+33
+00:02:14,910 --> 00:02:20,100
+Keep in mind sets don't technically have an order to them since we're dealing very small sets here of
+
+34
+00:02:20,100 --> 00:02:21,440
+just a few items.
+
+35
+00:02:21,480 --> 00:02:26,720
+It looks like they have an order but in reality sets don't have any particular order to go in.
+
+36
+00:02:28,580 --> 00:02:30,830
+For now that's all you need to know about sets.
+
+37
+00:02:30,830 --> 00:02:36,110
+We won't really touch upon this object or data type again until much later in the course since we're
+
+38
+00:02:36,110 --> 00:02:36,960
+just beginning.
+
+39
+00:02:36,980 --> 00:02:41,630
+It won't be very useful to us now but later on we'll be able to see different use cases for it.
+
+40
+00:02:41,630 --> 00:02:45,960
+Again remember just that sets are unordered collections of unique elements.
+
+41
+00:02:45,980 --> 00:02:48,840
+Thanks and we'll see at the next lecture where we discuss billion's.

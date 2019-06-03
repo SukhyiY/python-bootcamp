@@ -1,0 +1,311 @@
+1
+00:00:05,480 --> 00:00:08,820
+Herkese merhaba ve tuple veya çiftler üzerine konferansa hoş geldiniz.
+
+2
+00:00:08,850 --> 00:00:13,720
+Bazıları onları aramak ister ve Python tuple'larında listelere çok benzer.
+
+3
+00:00:13,760 --> 00:00:18,710
+Bununla birlikte, bir anahtar fark var ve değişmezliklerine sahipler. Dolayısıyla değiştirilemeyecekleri
+
+4
+00:00:18,710 --> 00:00:19,820
+anlamına gelen değişmezler.
+
+5
+00:00:19,820 --> 00:00:23,390
+Ve bu, mutasyona uğratılmayan veya değiştirilemeyen mutasyon teriminden gelir.
+
+6
+00:00:23,390 --> 00:00:29,420
+Ve bu, temel olarak, bir öğe bir dizin içindeki bir dizin konumuna atandıktan sonra o öğeyi yakalayamadığınız ve daha sonra bir
+
+7
+00:00:29,420 --> 00:00:32,690
+listeye sahip olduğunuz gibi başka bir öğeye yeniden atamayacağınız anlamına gelir.
+
+8
+00:00:32,990 --> 00:00:37,460
+şekli, köşeli parantezler yerine parantezleri kullanmanızın haricinde bir listeye çok benzer.
+
+9
+00:00:37,460 --> 00:00:38,830
+Ve tuple'ları yapılandırma
+
+10
+00:00:38,930 --> 00:00:41,650
+Habercileri bir Jüpiter defterinde biraz daha keşfedelim.
+
+11
+00:00:41,930 --> 00:00:43,560
+Pekâlâ, başlayalım.
+
+12
+00:00:43,760 --> 00:00:47,650
+Umarım, Lisse hakkında öğrendiklerinize dayalı olarak, tuple'lerin nasıl kullanılacağına dair oldukça
+
+13
+00:00:47,670 --> 00:00:48,650
+sezgilere sahip olursunuz.
+
+14
+00:00:48,860 --> 00:00:54,380
+T diye adlandırılan bir kitap yaratacağız, T eşittir ve parantez içinde üç sayı gelmesi
+
+15
+00:00:54,380 --> 00:00:55,980
+için bir yorum yazacağız.
+
+16
+00:00:56,240 --> 00:01:00,240
+Ve ben de çok benzer olacak listemi oluşturacağım.
+
+17
+00:01:00,290 --> 00:01:02,110
+Üç girmek için bir virgül söyleyeceğim.
+
+18
+00:01:02,150 --> 00:01:03,460
+Ancak köşeli ayraçlara dikkat edin.
+
+19
+00:01:03,500 --> 00:01:04,300
+Yani bir liste.
+
+20
+00:01:04,300 --> 00:01:07,550
+Ve bunu her zaman yerleşik tür işlevi kullanarak doğrulayabilirsiniz.
+
+21
+00:01:07,550 --> 00:01:10,920
+Yani, T yazarsam, tuple döndüğünü söyler.
+
+22
+00:01:11,210 --> 00:01:11,970
+Ve eğer sorarsam.
+
+23
+00:01:11,990 --> 00:01:15,910
+Listemi yazın, geri dönen bir liste olduğunu döndürür.
+
+24
+00:01:15,980 --> 00:01:16,320
+TAMAM.
+
+25
+00:01:16,400 --> 00:01:18,980
+Böylece listenin olduğu gibi tuple'nin uzunluğunu kontrol edebilirsiniz.
+
+26
+00:01:18,980 --> 00:01:24,530
+Yani T'nin uzunluğu üçtür, çünkü bu listedeki üç unsur bir iki ve üçtür.
+
+27
+00:01:24,590 --> 00:01:25,570
+Ve sadece liste gibi.
+
+28
+00:01:25,670 --> 00:01:32,040
+Nesne türlerini karıştırmak da sorun yaratmayan bir sayıdaki bir dizinin içinde bir dize içerebilmemiz için ve
+
+29
+00:01:32,040 --> 00:01:36,980
+aynı zamanda dilimleme ve dizin oluşturma özelliğini kullanan bir liste gibi olabildiğince iyi.
+
+30
+00:01:36,990 --> 00:01:39,310
+Diyelim ki o dizgeyi tutmak istedim diyelim.
+
+31
+00:01:39,470 --> 00:01:42,690
+Sadece bana orada 0 endeksi olanı söyleyebilirim.
+
+32
+00:01:42,720 --> 00:01:48,550
+O halde negatif 1 de yapabilirim ve 2 nolu dönüşüme sahip olacağım çünkü o tuple'deki son madde.
+
+33
+00:01:48,610 --> 00:01:49,230
+Şimdiye kadar.
+
+34
+00:01:49,230 --> 00:01:51,010
+Bir listeye çok benzer.
+
+35
+00:01:51,030 --> 00:01:56,040
+Ayrıca, tuple'lar için iki temel yerleşik yöntem vardır ve bu, indeks yöntemi ve sayma
+
+36
+00:01:56,350 --> 00:01:57,880
+yöntemi bunun bir örneğidir.
+
+37
+00:01:58,140 --> 00:02:05,280
+C, virgül virgül B olan bir takım olduğunu söyleyeceğiz.
+
+38
+00:02:05,600 --> 00:02:10,840
+Ve biz bu harfte H harfini kaç kez saydığımızı düşünelim.
+
+39
+00:02:10,860 --> 00:02:16,040
+Bir T yapabilirim ve sekmeye basabilirsin burada saymak veya dizine sahip olduğun iki seçeneği görmelisin.
+
+40
+00:02:16,080 --> 00:02:20,400
+Bu nedenle, hemen tuple için listelerden daha az yöntem bulunduğunu göreceksiniz.
+
+41
+00:02:20,430 --> 00:02:26,530
+Böylece gidip saymayı söyleyeceğiz ve sonra bir A geçeceğiz ve geri döneceğiz.
+
+42
+00:02:26,530 --> 00:02:29,650
+Bu tuple kaç kez a oluşur.
+
+43
+00:02:29,650 --> 00:02:33,710
+Ve sonra da yapabiliriz a.
+
+44
+00:02:33,910 --> 00:02:38,840
+Ve bu, sizin grubunuzda ilk ortaya çıktığı zaman geri döner.
+
+45
+00:02:39,070 --> 00:02:43,570
+Öyleyse, birden fazla göründüğünde ilk önce görünen dizin konumunu geri döndüğünüze
+
+46
+00:02:43,570 --> 00:02:44,540
+dikkat edin.
+
+47
+00:02:44,620 --> 00:02:47,630
+Ve eğer B için aynı şeyi yaparsak.
+
+48
+00:02:47,870 --> 00:02:51,770
+B'nin ilk ortaya çıkışı, t'ye bakmak için endekstir.
+
+49
+00:02:52,070 --> 00:02:53,920
+İşte burası B.
+
+50
+00:02:54,020 --> 00:02:59,990
+Daha sonra tekrarlayan öğelerin tüm yerlerini kapmak için döngüler gibi bir denetim akışı mantığını nasıl
+
+51
+00:03:00,170 --> 00:03:05,230
+kullanacağımızı öğreneceğiz ve nihayetinde bir tuple farkı yaratan şeyin ne olduğunu öğrenelim.
+
+52
+00:03:05,240 --> 00:03:06,680
+Ve değişebilirlik de budur.
+
+53
+00:03:06,800 --> 00:03:11,780
+Ve ben, bu, bir listeden farklı bir tuple tuple'i yapan şey olduğunu yeterince vurgulamıyorum.
+
+54
+00:03:11,780 --> 00:03:16,710
+O halde bizim dersimizi alalım ve listemizi yarattığımız için o listeyi kontrol etelim.
+
+55
+00:03:16,730 --> 00:03:22,370
+Listemizin ilk öğesini yeni dizge olarak yeniden atalım.
+
+56
+00:03:22,370 --> 00:03:24,530
+O yüzden şu anda listemde hiçbir sorun yok.
+
+57
+00:03:24,530 --> 00:03:31,830
+Aynı şeyi tuple ile yapmaya çalışırsam ilk öğeyi yeni atayacağım derim ve siz
+
+58
+00:03:31,830 --> 00:03:34,700
+burada tür hatası demeyin demiyorum.
+
+59
+00:03:34,780 --> 00:03:37,180
+Tuple nesnesi öğe atamayı desteklemez.
+
+60
+00:03:37,180 --> 00:03:41,020
+Temel olarak, bir listeyi bir listeden farklı kılan şey budur.
+
+61
+00:03:41,030 --> 00:03:45,670
+Artık merak ettiğinize emin misiniz ki, daha az mevcut yöntemlere sahipken niye
+
+62
+00:03:45,670 --> 00:03:51,460
+tuple kullanmaya özen gösterin ve bir liste esnekliği taşımıyor ve size gitmeyeceğinizi programlamaya başladığınız için
+
+63
+00:03:51,490 --> 00:03:53,290
+dürüst olmalıyım sıklıkla tuple'leri kullanmak.
+
+64
+00:03:53,350 --> 00:03:57,730
+programınızdaki nesneleri çevrelediğinizde ve yanlışlıkla değiştirilmediğinden emin olmanız gerekir.
+
+65
+00:03:57,730 --> 00:04:02,860
+Sadece, Python'la daha rahat hale geldikçe ve tuple'lerin faydasını görmeye
+
+66
+00:04:02,860 --> 00:04:08,060
+başlayacağınız ve daha çok tuple'leri kullanacağınız gelişmiş bir programcı haline geldiğinizde,
+
+67
+00:04:08,200 --> 00:04:10,960
+Ve o zaman tuple gerçekten harika bir çözüm haline geliyor.
+
+68
+00:04:11,200 --> 00:04:15,400
+Dolayısıyla, veri bütünlüğü olarak bilinenin çok uygun bir kaynağı sağlar.
+
+69
+00:04:15,400 --> 00:04:20,560
+Aksi takdirde böyle kazalarla atamalar yapamayacağımız bir hata alacak, bunun
+
+70
+00:04:20,560 --> 00:04:26,860
+yerine öğelerin daha büyük kod parçalarında değiştirilmediğinden veya yeniden atanmadığından emin olmak istediğinizde
+
+71
+00:04:26,860 --> 00:04:28,210
+gerçekten faydalı olacak.
+
+72
+00:04:28,390 --> 00:04:33,040
+eminim, onu tekrar kullanmamız için elimizden tekrar getireceğiz ve şimdi parlamamıza izin verelim.
+
+73
+00:04:33,040 --> 00:04:35,400
+Bunu türünden alıkoyun ve daha sonra
+
+74
+00:04:35,410 --> 00:04:40,600
+Sadece değiştirilemez olduğunu ve köşeli ayraçların yerine parantezler kullanmamızın dışında bir listeye
+
+75
+00:04:40,630 --> 00:04:41,970
+gerçekten benzediğini unutmayın.
+
+76
+00:04:42,230 --> 00:04:42,670
+TAMAM.
+
+77
+00:04:42,910 --> 00:04:44,320
+Şimdilik tüpler için bu kadar.
+
+78
+00:04:44,320 --> 00:04:48,970
+Bir sonraki adımda size temel dosya girişlerini ve çıktılarını nasıl göreceğinizi göstereceğim.

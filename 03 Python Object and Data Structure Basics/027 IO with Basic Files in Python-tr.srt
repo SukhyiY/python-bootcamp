@@ -1,0 +1,1003 @@
+1
+00:00:05,970 --> 00:00:11,280
+Bu dersin herkese dosya üzerinde ve dersin bu bölümünü bitirmeden önce, tüm
+
+2
+00:00:11,280 --> 00:00:13,050
+temel veri türlerini öğrendik.
+
+3
+00:00:13,110 --> 00:00:18,000
+Şimdi basit bir girdi ve çıktıyı basit bir metin dosyası ile nasıl gerçekleştirileceğimize
+
+4
+00:00:18,000 --> 00:00:24,120
+hızlı bir şekilde geçmek istiyorum ve burada gösterdiğimiz yöntemler ayrıca diğer dosya türleriyle çalışmaya daha da
+
+5
+00:00:24,120 --> 00:00:30,930
+genişleyecektir, ister bir ses dosyası olsun metin dosyası e-postalar Excel belgeleri çok burada ele alacağımız şeylerin daha gelişmiş
+
+6
+00:00:30,930 --> 00:00:33,420
+işlevleri ile gerçekten ilişkili olacağı düşünülmektedir.
+
+7
+00:00:33,420 --> 00:00:37,800
+Şimdi, bu derslerden bazıları için, daha sonra ders üzerinde tartışacağımız
+
+8
+00:00:37,800 --> 00:00:40,090
+bazı kütüphaneleri kurmanız gerekebileceğini unutmayın.
+
+9
+00:00:40,150 --> 00:00:42,600
+Şimdilik temel metin dosyalarını ele alacağız.
+
+10
+00:00:42,600 --> 00:00:47,610
+Bu yüzden, Jupiter defterini ve bilgisayarınızın çoğundaki bu dosya yollarını kullanarak bir tane oluşturacağız.
+
+11
+00:00:47,640 --> 00:00:52,620
+Başlamak için başlayalım, birlikte çalışmak için bir metin dosyası oluşturmamız gerekiyor.
+
+12
+00:00:52,620 --> 00:00:57,440
+Şimdi bu notları indirdiyseniz, aslında bir metin dosyası testi var.
+
+13
+00:00:57,450 --> 00:01:04,600
+Dolayısıyla, klasörlerinizde bir yerde, bu notların bulunduğu klasöre bir test metin dosyası olmalıdır.
+
+14
+00:01:04,950 --> 00:01:10,260
+Bunu aklınızda bulundurun, ancak sana Jüpiter'in sihirli işlevselliğini nasıl kullanabileceğinizi göstereceğim veya hızlı bir
+
+15
+00:01:10,260 --> 00:01:12,740
+şekilde bir metin dosyası yazmak için çağırıyorum.
+
+16
+00:01:12,780 --> 00:01:15,180
+Yani bu sadece Jüpiter defterinde işe yarar.
+
+17
+00:01:15,240 --> 00:01:15,950
+Çok doğru.
+
+18
+00:01:15,960 --> 00:01:16,560
+Yüzde işareti.
+
+19
+00:01:16,560 --> 00:01:20,670
+Yüzde, doğru dosya alanını işaretler.
+
+20
+00:01:21,760 --> 00:01:25,320
+Dosyam altmış ya da ne istersen onu arar.
+
+21
+00:01:25,360 --> 00:01:27,160
+Dolayısıyla bu, hücrenin ilk satırında olmalıdır.
+
+22
+00:01:28,180 --> 00:01:31,760
+Ve sonra burada hücrenizde olmak istediğiniz her şeyi düz metin olarak yazabilirsiniz.
+
+23
+00:01:31,780 --> 00:01:33,990
+Bu yüzden merhaba diyebilirim.
+
+24
+00:01:34,240 --> 00:01:37,420
+Bu bir metin dosyası.
+
+25
+00:01:37,420 --> 00:01:40,560
+Bu ikinci satır.
+
+26
+00:01:40,660 --> 00:01:43,690
+Bu üçüncü satır.
+
+27
+00:01:43,720 --> 00:01:45,910
+Doğru yazdığından emin olun.
+
+28
+00:01:45,910 --> 00:01:51,100
+Yine, Juber dizüstü bilgisayarınızda yoksa, yalnızca Jüpiter dizüstü bilgisayarda çalışır, belki Sublime Text
+
+29
+00:01:51,100 --> 00:01:52,460
+Editor'da çalışıyorsunuz demektir.
+
+30
+00:01:52,480 --> 00:01:58,330
+Devam edin ve bunu sadece bir dosyaya yazın ve komut dosyalarınızın çalıştığı her yerde olduğu gibi aynı yerde
+
+31
+00:01:58,330 --> 00:02:00,070
+bir metin dosyası olarak kaydedin.
+
+32
+00:02:00,070 --> 00:02:05,950
+başarıyla yazdığını göreceksiniz ve şimdi yapabileceğimiz aslında açık ve bu dosyalarla oynuyor.
+
+33
+00:02:05,950 --> 00:02:09,640
+Bu yüzden onu çalıştıracaksınız ve dosyayı metin dosyasını
+
+34
+00:02:09,640 --> 00:02:16,630
+Şimdi kazara yanlış dosyanın adını doğru seçmek veya dosyayı yanlış dizinde saklamak çok
+
+35
+00:02:16,690 --> 00:02:18,010
+yaygın bir hatadır.
+
+36
+00:02:18,010 --> 00:02:25,670
+Öyleyse sana, dosyamın eşit olduğunu söyleyeceğim ve açık işlevi kullandığım gibi genelde neye benzediğini göstereceğim.
+
+37
+00:02:25,870 --> 00:02:32,400
+Ve bu durumda dosyamın orada olduğunu biliyorum, çünkü ben sadece Tick'umun dosyasını yazabilirim ve bu
+
+38
+00:02:32,410 --> 00:02:39,790
+dosyayı bir dize olarak yazmamız lazım, o zaman bunu yazın, sonra da hata olmaz, çünkü orada olur.
+
+39
+00:02:39,950 --> 00:02:48,110
+Dosyamı kurtaracak dosyayı istemediğimde dosyamda eşit kalacağım ve biz de COSXVIII yanlış olduğunu
+
+40
+00:02:48,300 --> 00:02:48,940
+söyleyeceğim.
+
+41
+00:02:48,950 --> 00:02:51,090
+Kesinlikle orada hiçbir dosya olmadığını da biliyorum.
+
+42
+00:02:51,140 --> 00:02:53,740
+Çalıştırırsam, bir dosya bulunamadı hatası alırsınız.
+
+43
+00:02:53,780 --> 00:02:56,930
+Bu, hata numarası iki olarak adlandırılan gerçekten yaygın bir hatadır.
+
+44
+00:02:56,990 --> 00:02:58,430
+Böyle bir dosya ya da dizin yok.
+
+45
+00:02:58,460 --> 00:03:00,840
+Yaklaşık 60 dakika yanlış.
+
+46
+00:03:00,890 --> 00:03:04,380
+Dolayısıyla bu hatayı almanın gerçekten olası iki yolu var.
+
+47
+00:03:04,400 --> 00:03:08,760
+Bunun bir yolu yanlışlıkla yanlış dosya adını geçtiğimizdir.
+
+48
+00:03:08,780 --> 00:03:11,180
+Dolayısıyla bu durumda yanlış olanı yazdım txt dosyası.
+
+49
+00:03:11,180 --> 00:03:15,190
+Bu, dosya adının benim dosyamda olması gereken yanlış dosya adı.
+
+50
+00:03:15,320 --> 00:03:21,260
+Şimdi diğer olasılık, doğru dosya yolunu sağlamadığımızı ve daha sonra
+
+51
+00:03:21,260 --> 00:03:28,160
+aynı derste tartışacağım, ancak belki DXi'nin bilgisayarınızda hatalı olduğunu biliyorum ama dosyalarınız
+
+52
+00:03:28,160 --> 00:03:33,830
+kaydedilmedi. Dupere dizüstü bilgisayarınızın nerede olduğunu bilmek için Jüpiter notebook'unuzla
+
+53
+00:03:33,850 --> 00:03:35,700
+aynı yerde bulunun.
+
+54
+00:03:35,720 --> 00:03:38,690
+Bir hücreye P WD yazabilirsiniz.
+
+55
+00:03:38,940 --> 00:03:42,140
+Çalıştırın ve bu çalışma dizini yazdıracaktır.
+
+56
+00:03:42,170 --> 00:03:47,630
+yerdir ve çalışmak istediğiniz herhangi bir DOT metin dosyasının kaydedilmesi için aynı yerde bulunur.
+
+57
+00:03:47,630 --> 00:03:50,380
+Dolayısıyla, bu dizin bu dizüstü bilgisayarın bulunduğu
+
+58
+00:03:50,540 --> 00:03:54,050
+Daha sonra, bir bilgisayardaki herhangi bir yer için nasıl bir metin dosyası çağıracağınızı göstereceğiz.
+
+59
+00:03:54,200 --> 00:03:59,240
+Ancak şu an için çalıştığınız metin dosyasının, P yazarken çıktığınız konuma
+
+60
+00:03:59,240 --> 00:04:02,580
+kaydedildiğinden emin olun. W. .
+
+61
+00:04:02,640 --> 00:04:02,880
+Tamam.
+
+62
+00:04:02,880 --> 00:04:09,120
+Devam etmekte olduğumuz dosyanın dosyamın aynı yerde olduğunu biliyoruz çünkü orada yazabilmek için bu özel
+
+63
+00:04:09,120 --> 00:04:09,990
+komutu kullanıyoruz.
+
+64
+00:04:10,260 --> 00:04:14,310
+bir komut kullanmak istemiyorsanız, dosyayı notların zip dosyasından alacak teste sahip olursunuz.
+
+65
+00:04:14,310 --> 00:04:15,410
+Ve eğer özel
+
+66
+00:04:15,460 --> 00:04:17,030
+O halde burada devam edelim.
+
+67
+00:04:17,280 --> 00:04:25,530
+Dosyamın açık olduğuna eşit olduğumu söyleyecek ve dosyamın adı verilen metin dosyasını
+
+68
+00:04:25,560 --> 00:04:34,960
+60 dosyalarım cxi çalıştırdığımda açacağım ve bu yöntemlerden birini arayabileceğim birkaç yöntem var
+
+69
+00:04:34,960 --> 00:04:37,080
+demektir. okuma yöntemi.
+
+70
+00:04:37,180 --> 00:04:42,560
+Ve bu ne yapar, sadece bu metin dosyasındaki her şeyin dev bir dizesini döndürür.
+
+71
+00:04:42,580 --> 00:04:43,440
+Bazen bu iyi.
+
+72
+00:04:43,480 --> 00:04:46,670
+Bazen bunu istemezsiniz, ancak bu sizin için bir yöntem.
+
+73
+00:04:46,690 --> 00:04:53,310
+Burada, bu ters çizgiye n sahip olduğumuzun farkına varacaksınız ve bunun ne olduğu, yeni bir satırı belirtir.
+
+74
+00:04:53,440 --> 00:04:59,350
+Herşeyi tek bir dize olarak sordunuz çünkü dize yeni satırların nerede olduğunu göstermek için bir
+
+75
+00:04:59,350 --> 00:05:00,210
+şekilde gerekiyor.
+
+76
+00:05:00,250 --> 00:05:05,200
+Ve metin dosyanızın dosyasını hatırlıyoruz çünkü merhaba yazmıştık; ikinci satırda ikinci satır
+
+77
+00:05:05,200 --> 00:05:07,870
+yazdık, üçüncü satırda üçüncü satır yazdık.
+
+78
+00:05:07,870 --> 00:05:12,610
+Bu nedenle, daha önce dize dersinde tartıştığımız ve kaçınılması gereken
+
+79
+00:05:12,630 --> 00:05:17,620
+yeni kaçış sekanslarımızı temsil etmek için yeni bir çizgi oluşturuyoruz.
+
+80
+00:05:17,620 --> 00:05:21,730
+Şimdi bu dosyayı tekrar okumayı denersem, komik bir şey olduğunu göreceksin.
+
+81
+00:05:21,970 --> 00:05:23,480
+Boş bir dize geri döndün.
+
+82
+00:05:23,530 --> 00:05:27,240
+Bu yüzden birçok yeni başlayanlar başlarını hecelediklerini iyi düşünerek kaşıyormuş.
+
+83
+00:05:27,250 --> 00:05:31,230
+Okudum ve şimdi tekrar okumayı denediğimde artık orada değil.
+
+84
+00:05:31,240 --> 00:05:35,590
+Bunun nedeni, dosyanın başına bir imlecin olduğunu ve okuduğunuzda
+
+85
+00:05:35,590 --> 00:05:40,840
+imlecin dosyanın sonuna kadar gittiğini ve imleci sıfırlamanız veya sıfır
+
+86
+00:05:40,840 --> 00:05:45,000
+armanız gerektiğini düşünebilmenizin nedeni budur tekrar okumak için.
+
+87
+00:05:45,010 --> 00:05:52,040
+Bunu yapmak için dosyamın imleci sıfırladığını söyleyebilirsiniz.
+
+88
+00:05:52,040 --> 00:05:54,010
+Orada biraz sıfır çıktı görmelisiniz.
+
+89
+00:05:54,350 --> 00:05:58,810
+Ve şimdi tekrar okursanız, bunu görebilirsiniz.
+
+90
+00:05:58,830 --> 00:06:06,240
+Aklınızda bulundurun, daha fazla kez okumak isterseniz, sıfırlamam gerekecek, dosyamın sıfır araması gerektiğini söylüyorsunuz
+
+91
+00:06:06,330 --> 00:06:11,660
+ve ardından dosyamı okurum ve kaydettiğim içeriği iade ederek içeriğimi
+
+92
+00:06:15,010 --> 00:06:16,390
+kontrol edeceğim.
+
+93
+00:06:16,420 --> 00:06:18,250
+Bu sadece bir dev dize.
+
+94
+00:06:18,250 --> 00:06:23,070
+Yani okunan yöntem budur ve her şeyi bir dev dizge olarak almanızı sağlar.
+
+95
+00:06:23,170 --> 00:06:29,950
+Bazen bu gerçekten kullanışlı değildir, çünkü aslında listedeki her bir öğenin gerçek metin dosyasının bir dize
+
+96
+00:06:29,950 --> 00:06:34,260
+biçiminde bir satır olması gereken bir listeye sahip olmak istersiniz.
+
+97
+00:06:34,300 --> 00:06:35,850
+Ve bunu yapmak aslında oldukça basit.
+
+98
+00:06:35,860 --> 00:06:38,300
+Hatları oku yöntemini kullanabilirsiniz.
+
+99
+00:06:38,410 --> 00:06:41,540
+Bu yüzden sıfıra geri döneceğiz.
+
+100
+00:06:43,090 --> 00:06:49,760
+Ve dosyamın satırları okuduğunu söyleyin ve burada neler döndüğümü öğrenin.
+
+101
+00:06:49,760 --> 00:06:54,560
+Şimdi, her satırı bu listede ayrı bir nesne veya öğeler olarak var.
+
+102
+00:06:54,560 --> 00:06:59,120
+Ve birçok kez birlikte çalışmak daha uygundur, çünkü şimdi bu listeden
+
+103
+00:06:59,120 --> 00:07:03,560
+geçebilir, bunları daha sonra öğreneceksiniz veya çizgiler için bu listeden indeksleyebilirim.
+
+104
+00:07:04,580 --> 00:07:05,150
+Tamam.
+
+105
+00:07:05,150 --> 00:07:11,300
+Yani, her şeyi bir dize olarak okumak veya her öğenin bir satırı temsil ettiği bir
+
+106
+00:07:11,720 --> 00:07:17,570
+liste kapmak için satırları okumak için okunan temel bir metin dosyasını okumanın temel yöntemleri.
+
+107
+00:07:17,570 --> 00:07:23,220
+Unutmayın ki o eğlencenin hâlâ devam etmesi ve bunun sonunda, dosya konumlarını
+
+108
+00:07:23,220 --> 00:07:24,900
+tartışmaya devam edelim.
+
+109
+00:07:24,900 --> 00:07:29,340
+Şimdi daha önce size python komut dosyanızla veya Python dizüstü bilgisayarınızla aynı
+
+110
+00:07:29,340 --> 00:07:32,420
+yerde olacak bir metin dosyasını nasıl açacağınızı gösterdik.
+
+111
+00:07:32,700 --> 00:07:37,590
+Ancak, bilgisayarınızdaki başka bir konuma kaydedilmiş bir metin dosyasını açmak istiyorsanız ne olur.
+
+112
+00:07:37,590 --> 00:07:41,640
+aynı yerde bulunması, bir metin dosyası açmanız çok can sıkıcı olacaktır.
+
+113
+00:07:41,640 --> 00:07:47,130
+Python komut dosyalarınızın veya dizüstü bilgisayarınızın bulunduğu konumun etrafında sürekli hareket ettirilmesi, bu metin dosyasıyla
+
+114
+00:07:47,160 --> 00:07:48,470
+Bilgisayarınızdaki herhangi bir yer.
+
+115
+00:07:48,510 --> 00:07:52,070
+Tüm yapmanız gereken tam dosya yolunu sağlamaktır.
+
+116
+00:07:52,090 --> 00:07:57,640
+Bununla birlikte, dosya yolunun sözdizimi, Windows'unuzda veya Mac OS veya Linux'ta
+
+117
+00:07:58,000 --> 00:08:00,280
+olduğunuza göre biraz farklıdır.
+
+118
+00:08:00,280 --> 00:08:03,460
+Dolayısıyla Windows için tipik bir dosya yolu bunun gibi görünecektir.
+
+119
+00:08:03,460 --> 00:08:05,440
+C iki nokta üstüste diyebilirsiniz.
+
+120
+00:08:05,470 --> 00:08:10,720
+dikkat edin ve bu temel olarak bir kaçış karakteridir, böylece Python bunu geri çevirmez.
+
+121
+00:08:10,720 --> 00:08:12,220
+Sonra çift tersbölü bulunduğuna
+
+122
+00:08:12,250 --> 00:08:17,980
+Bir kaçış karakteri olarak ilk ters eğik çizgi, çünkü bir kullanıcı adınız varsa, Paice'in
+
+123
+00:08:17,980 --> 00:08:19,430
+aniden düşünmesini istemediğinizi düşünün.
+
+124
+00:08:19,450 --> 00:08:20,620
+Yeni çizgi demek istiyorsun.
+
+125
+00:08:20,620 --> 00:08:22,990
+İşte bu yüzden burada çift silikon tezgahlarımız var.
+
+126
+00:08:23,170 --> 00:08:25,350
+Windows için de öyle; buna benziyor.
+
+127
+00:08:25,390 --> 00:08:28,920
+Ve sadece metin dosyasına bir dizge olarak tüm dosya yolunu pas ve.
+
+128
+00:08:29,140 --> 00:08:32,110
+Bir Mac OS veya Linux kullanıcısıysanız biraz farklı görünüyor.
+
+129
+00:08:32,110 --> 00:08:37,980
+Buraya eğik çizgiler var ve ne olursa olsun klasör, daha sonra metin dosyası kullanıcı adınıza gidiyor.
+
+130
+00:08:38,050 --> 00:08:45,220
+Bunun gerçekten nasıl göründüğünü kontrol etmek isterseniz, yapmanız gereken tek şey bu kullanışlı PWT'yi bir hücreye
+
+131
+00:08:45,220 --> 00:08:46,330
+yeniden kullanmaktır.
+
+132
+00:08:46,380 --> 00:08:50,670
+Dikkat edin, zaten neye benzeyeceği biçimine sahibim.
+
+133
+00:08:50,680 --> 00:08:55,150
+Şu anda bir Windows bilgisayarda çalıştırıyorum, bu yüzden bana formatın ne olduğunu gösteriyor ve oradan da
+
+134
+00:08:55,150 --> 00:09:01,270
+yapıştırabilir ve daha sonra bu klasör yolları ekleme ile oynamaya başlayabilirim. dosyaların bu tartışma bitirmek için
+
+135
+00:09:01,270 --> 00:09:04,870
+doğru metin dosyasını kapmak için.
+
+136
+00:09:04,870 --> 00:09:12,550
+Dosyaları açma konusunda en iyi uygulamalardan bahsetmek istiyorum şu an bu dosyayı açıyoruz ve bunu dosyamız olarak adlandırıyoruz.
+
+137
+00:09:12,790 --> 00:09:15,240
+Fakat teknik açıdan açık olduğundan aslında kapamalıyız.
+
+138
+00:09:15,250 --> 00:09:21,610
+Dosyamın herhangi bir hata almamak için kapandığını söylemeliyiz, çünkü bu dosyayı bilgisayarınızdaki başka bir yerde
+
+139
+00:09:21,610 --> 00:09:24,330
+açtığınızı ve dosyayı silmeyi denediğinizi varsayalım.
+
+140
+00:09:24,370 --> 00:09:28,510
+Hey Python'un hala bu dosyayı kullandığını söyleyen bir hata alırsınız ve böyle bir hatadan
+
+141
+00:09:28,510 --> 00:09:32,100
+kaçınmak için onunla çalışmanız bittikten sonra onu gerçekten el ile kapatmanız gerekir.
+
+142
+00:09:32,100 --> 00:09:36,340
+Yapabileceğimiz özel ifadeyle kullanmaktır ve şu şekildedir.
+
+143
+00:09:36,340 --> 00:09:38,220
+Bunun gibi bir şey söylemek yerine söyleyeceksin.
+
+144
+00:09:38,260 --> 00:09:45,150
+Önce dosyam open testi XTi olan eski yola bakalım.
+
+145
+00:09:45,150 --> 00:09:50,650
+Bu, eski şeyleri yapmanın yolu ve bu DXi dosyam deniyordu inanıyoruz.
+
+146
+00:09:51,070 --> 00:09:59,570
+Yapabildiğimiz açık sözlerle söylemek ve sonra da söyleyeceğiz ve bunu ne isterseniz buna yeni dosyalarımızı söyleyip, bu sizin
+
+147
+00:09:59,570 --> 00:10:04,970
+seçtiğiniz değişken adı ve sonra orada bir iki nokta üstüste var.
+
+148
+00:10:05,300 --> 00:10:07,680
+Sonra buraya girdiğimde ne olacağına dikkat et.
+
+149
+00:10:07,690 --> 00:10:13,520
+Bir girintim var ve temelde bunun ne anlama geldiği burada bu blok içerisindeki
+
+150
+00:10:13,520 --> 00:10:20,450
+herhangi bir kodun bu girintili kod bloğu yeni dosyamın bu metin dosyasının değişkeni olarak kullanılacağı
+
+151
+00:10:21,530 --> 00:10:31,370
+yani içeriğin benim yeni dosyam okunduğuna eşit olduğunu söyleyebilirim ve ben bunu çalıştırdığımda artık dosyayı kapatma konusunda endişelenmene gerek yok, sadece hızlı
+
+152
+00:10:31,370 --> 00:10:35,810
+bir şekilde sağ metin dosyasının adını kontrol edip onaylayıp onaylayacağım.
+
+153
+00:10:35,960 --> 00:10:36,940
+Ve biz haklıydık.
+
+154
+00:10:37,220 --> 00:10:40,070
+Tamam, bunu çalıştıralım ve ne olacağını görelim.
+
+155
+00:10:40,130 --> 00:10:46,220
+Bu yüzden onu çalıştırıyorum ve artık dosyayı kapatma konusunda endişeleniyorum ve hala bu kod
+
+156
+00:10:46,220 --> 00:10:51,620
+bloğundaki içeriği tutabiliyorum ve bu yoğun kod bloğu fikrinden çok daha fazlasına
+
+157
+00:10:51,620 --> 00:10:53,950
+alışacağım. dersin bir sonraki bölümü.
+
+158
+00:10:54,290 --> 00:10:59,840
+Tamam, bir dosyaya okuma ve yazma hakkında konuşarak bu tartışmayı bitirelim.
+
+159
+00:10:59,870 --> 00:11:03,890
+Şu anda temelde sadece dosyaları okuduğumuzun farkına varmış olabilirsiniz, ancak dosyalara
+
+160
+00:11:03,890 --> 00:11:08,750
+yazabilir ve dosyaların üzerine yazabiliriz ve takdir etmemiz gereken önemli bir fark budur.
+
+161
+00:11:09,580 --> 00:11:18,440
+Bu yüzden açık olarak söyleyeceğim ve dosyamı T x t virgülle açık olarak söyleyeceğim ve
+
+162
+00:11:18,440 --> 00:11:22,530
+burada yapacağım şey, imlecle açık yanına yazmaktır.
+
+163
+00:11:22,550 --> 00:11:24,410
+Değişiklik sekmesini yapacağım.
+
+164
+00:11:24,830 --> 00:11:29,750
+Ve bu, önceden tanımlanmış işlevler için bilgi açar.
+
+165
+00:11:29,810 --> 00:11:31,840
+Sonradan kendi işlevlerimizi bulacağız.
+
+166
+00:11:31,950 --> 00:11:36,770
+yerleşik bir işlevi olduğunu göreceksiniz, böylece burada bazı belgeleri görebilirsiniz ve bu yüzden bunları
+
+167
+00:11:36,770 --> 00:11:41,870
+seviyorum ve Python öğretmek için bir kitap biliyorsunuz, çünkü vardiya sekmesi işlevin hemen yanında,
+
+168
+00:11:41,870 --> 00:11:47,240
+hepsini de alıyorsunuz Gerçekten yararlı bilgiler ve daha fazla şey görmek için burada artı olabilir.
+
+169
+00:11:47,240 --> 00:11:47,900
+Ancak open'ın
+
+170
+00:11:47,900 --> 00:11:53,040
+Dolayısıyla, çevrimiçi olmaya gerek kalmadan, defterinizde temel olarak belgelerinize sahipsiniz.
+
+171
+00:11:54,350 --> 00:11:54,620
+Tamam.
+
+172
+00:11:54,620 --> 00:11:59,520
+Yani burada bir mod var ve varsayılan olarak r'ye eşit olarak ayarlandı.
+
+173
+00:11:59,780 --> 00:12:03,540
+Dolayısıyla, bunu kopyalayıp onu burada yapıştırıyoruz.
+
+174
+00:12:03,540 --> 00:12:05,890
+Aynı mod R'ye eşittir. Ve sonra dosya içeriğim okunduğum dosyaya eşit olduğu için söylüyorum.
+
+175
+00:12:05,970 --> 00:12:13,430
+Bu yüzden bunu çalıştırdığım zaman bir sorunum yok.
+
+176
+00:12:13,470 --> 00:12:15,990
+İçeriği görüyorum ve işte orada.
+
+177
+00:12:15,990 --> 00:12:19,450
+Şimdi bunu W'ye geçelim. hangi doğru anlamına gelir.
+
+178
+00:12:19,470 --> 00:12:24,020
+Hücrenin tekrar çalışmasını denersem, hey desteklenmeyen işlem okunamayacak demektir.
+
+179
+00:12:24,930 --> 00:12:30,250
+Bunun nedeni, dosyalarınızı açmak için hangi modu seçtiğinize bağlı
+
+180
+00:12:30,360 --> 00:12:36,630
+olarak, yalnızca bir dosyaya okuma yapabilmek yerine bir dosyaya yazmayı seçebilirsiniz.
+
+181
+00:12:36,630 --> 00:12:39,510
+Ve bu temelde izinler olarak bilinir.
+
+182
+00:12:39,570 --> 00:12:41,510
+Bazen bazı komut dosyalarının yalnızca bir dosyaya yazma
+
+183
+00:12:41,580 --> 00:12:46,620
+iznine sahip olmasını ya da yalnızca bir dosyaya okuma iznine sahip olmasını ve bazen de ikisinin birden olmasını istersiniz.
+
+184
+00:12:46,620 --> 00:12:51,000
+Yani burada yapabileceğimiz şey, For read ya da W'yi kullanabileceğimiz aşağıdaki seçenekler.
+
+185
+00:12:51,030 --> 00:12:58,630
+Sağ.
+
+186
+00:12:58,640 --> 00:12:59,200
+Ve bu
+
+187
+00:12:59,210 --> 00:13:05,420
+dosyaların üzerine yazar ya da dosyalara ekleme yapmak için a kullanabiliriz ve ek olarak temel olarak sadece bir metin dosyasının sonuna daha fazla satır ekler.
+
+188
+00:13:05,420 --> 00:13:08,190
+TAMAM.
+
+189
+00:13:08,660 --> 00:13:08,900
+Bu nedenle, okuma yazma ve ekleme modlarını tartışmak için biraz zaman ayıralım.
+
+190
+00:13:08,900 --> 00:13:13,530
+Bu nedenle size sadece bu modu düzenleyebileceğinizi göstereceğiz.
+
+191
+00:13:13,610 --> 00:13:15,640
+Hepsini bir kere daha çok hızlı bir şekilde tartışalım.
+
+192
+00:13:15,650 --> 00:13:18,100
+Modu ayarlarsanız, yalnızca modu W'ye eşit olarak ayarlarsanız okunan modumuza eşit olur.
+
+193
+00:13:18,200 --> 00:13:23,170
+Bu sadece doğru.
+
+194
+00:13:23,180 --> 00:13:24,240
+Böylece zaten varolan dosyaların üzerine yazılır.
+
+195
+00:13:24,250 --> 00:13:26,720
+Veya halihazırda var olmayan bir dosyayı açmaya çalışırsanız ve MoîT W ile açarsınız. Aslında yeni bir dosya oluştururlar ve bunu sadece bir
+
+196
+00:13:26,870 --> 00:13:30,910
+saniye içinde göreceğiz ve sonra A modu yalnızca bir kalemle gösterilir ve bu, Artı
+
+197
+00:13:31,070 --> 00:13:36,320
+dosyamıza, okuma ve yazma ve sonra da w Artı ekleyerek her iki yazı için bir dosya açar. ve okuyor.
+
+198
+00:13:36,320 --> 00:13:42,620
+Ve varolan dosyanın varlığı varsa dosyanın varolan dosyanın üzerine tekrar yazılır.
+
+199
+00:13:42,980 --> 00:13:44,030
+Okuma ve yazma için yeni bir dosya oluşturur.
+
+200
+00:13:44,060 --> 00:13:48,490
+Bunlarla sıralamanın çeşitliliği.
+
+201
+00:13:48,500 --> 00:13:50,490
+Haydi yeni bir dosya oluşturalım ve bunu Jüpiter not defterinden yapacağım.
+
+202
+00:13:50,600 --> 00:13:51,670
+Bunu herhangi bir metin editöründen de yapabilirsiniz, ancak yeni dosyamı 60'a yazacağım.
+
+203
+00:13:51,680 --> 00:13:54,320
+Birinci ve ikinci üçlerden biri.
+
+204
+00:13:54,380 --> 00:13:59,030
+Bunu yeni dosya metnimi yeni oluşturduğumu onaylamak için kullanacağım.
+
+205
+00:13:59,150 --> 00:14:01,790
+Bu durumda bunu birden fazla yazdım çünkü birden fazla koştum.
+
+206
+00:14:02,060 --> 00:14:06,680
+Ancak şunu yapalım:
+
+207
+00:14:06,690 --> 00:14:10,080
+Bunu açık olarak söyleyeceğiz ve yeni dosyamızın aslında bu dosyayı otomatik tamamlamasını yapabileceğini söyleyeceğiz.
+
+208
+00:14:10,250 --> 00:14:11,090
+ikisi üzerinde görebiliyorum.
+
+209
+00:14:11,090 --> 00:14:18,480
+Bu yüzden yeni dosya metin modum sadece okunur F olarak okunacak ve daha sonra okumak için f bastıracağım ve ilk ikisinde birincisi üçte
+
+210
+00:14:18,510 --> 00:14:30,240
+Yani okumak için oldukça kullanışlı olan okuma modu.
+
+211
+00:14:30,240 --> 00:14:33,700
+Diyelim ki bunun için yeni bir çizgi eklemek istedim diyelim
+
+212
+00:14:33,720 --> 00:14:37,240
+açık fikirle açabildiniz 16 Diyeceğim ki mod eşit ve bu
+
+213
+00:14:37,620 --> 00:14:45,480
+durumda söyleyeceğim çünkü bu deyime yeni bir satır eklemek istiyorum. ve bir dosyaya yazmak istersem tek yapmam gereken F nokta demektir.
+
+214
+00:14:49,120 --> 00:14:55,830
+Ve siz okumak yerine beklediğiniz gibi Sağ deyin
+
+215
+00:14:55,830 --> 00:15:03,570
+ve biz Forth için bunu söyleyeceğimiz yeni bir satır yazalım.
+
+216
+00:15:03,570 --> 00:15:08,910
+Eklentiyi kullandığım için burada ne yapıyorum işte.
+
+217
+00:15:08,910 --> 00:15:13,240
+Bu, imlecin bu metin dosyasının sonundaki tüm yol anlamına geldiği anlamına gelir
+
+218
+00:15:13,290 --> 00:15:16,150
+ve ardından dördüncü bir satır ekleyecek veya ekleyecektir.
+
+219
+00:15:16,290 --> 00:15:22,890
+Bu yüzden onu çalıştırıp sonra kodun burada kopyalanacak ve yeni bir hücreye
+
+220
+00:15:22,890 --> 00:15:24,810
+yapıştırılarak tekrar çalıştırılacak.
+
+221
+00:15:24,870 --> 00:15:32,340
+Ve bunu tekrar çalıştırırsam, ilk ikisinde, ikinci üçte üçüncüsü, Forth için ise üçünü görüyorum.
+
+222
+00:15:32,340 --> 00:15:33,490
+Aslında hesaba katmadığım bir şey, yeni bir satır eklemeyi unuttum.
+
+223
+00:15:33,490 --> 00:15:39,570
+Yapabildiğim şey ters tepki demek.
+
+224
+00:15:39,600 --> 00:15:45,180
+Ve burada aslında yeni bir çizgi eklemek için.
+
+225
+00:15:45,180 --> 00:15:48,700
+Bu iki hücrenizi tekrar çalıştırırsak, dördüncü bölümde dördü görürüz.
+
+226
+00:15:48,730 --> 00:15:51,510
+Şimdi maalesef burada bu kadar yabancı var,
+
+227
+00:15:51,510 --> 00:15:56,910
+bu yüzden burada tekrar gelip dosyayı bir kez daha yazarak her şeyi sıfırlamaya başlayacağım.
+
+228
+00:15:56,920 --> 00:16:01,510
+Bu yüzden bunları yeniden çalıştıralım bu hücrenizi tekrar çalıştırın ve hücrenizi tekrar çalıştırın.
+
+229
+00:16:01,510 --> 00:16:04,930
+Şimdi ilk iki saniye ile üçüncü dördüncü dördüncü arasında bir tane görebiliyorum.
+
+230
+00:16:04,930 --> 00:16:10,350
+Bu nedenle, okumakla ve yazmak için W'yi keşfetmek için harcama arasındaki fark budur.
+
+231
+00:16:10,640 --> 00:16:14,420
+Açık olarak söyleyebilirim ve burada sadece
+
+232
+00:16:14,480 --> 00:16:21,530
+XTi ve mod W'ye eşit olduğunu söyleyeceğim bir grup mektup oluşturacağım. dosya mevcut değilse aslında onu oluşturacağını hatırlıyorum.
+
+233
+00:16:21,560 --> 00:16:30,910
+Bu W modunda varolan bir dosyanın üzerine yazacağını veya
+
+234
+00:16:31,180 --> 00:16:32,640
+Yani orada F diye bir isim yapabilir ve daha sonra F'yi doğru söyleyebilir.
+
+235
+00:16:32,890 --> 00:16:39,940
+Bu dosyayı çalıştırdım ve hata yok.
+
+236
+00:16:39,940 --> 00:16:41,420
+Çünkü bu metin dosyası,
+
+237
+00:16:41,560 --> 00:16:47,010
+w Python moduyla açtığımızdan beri mevcut değilse de, o metin dosyası bizim için hazırlandı.
+
+238
+00:16:47,150 --> 00:16:53,090
+Aynı şeyi başka bir modda yapmaya çalışırsak, sadece bizim gibi,
+
+239
+00:16:53,100 --> 00:16:58,350
+ya da sadece birimiz bir hataya neden olurduk.
+
+240
+00:16:58,380 --> 00:17:00,540
+Öyleyse devam edin ve bu dosyayı okuyun.
+
+241
+00:17:00,540 --> 00:17:05,400
+Açık dille iyi söyle H. F ve gerçekten teşvik ediyorum, şimdi yalnızca otomatik tamamlama sekmesini yap.
+
+242
+00:17:05,400 --> 00:17:06,080
+Yani şunu söyleyeceğiz ki hepsini ezberlemelisin mod F okumaya eşit. Ve f
+
+243
+00:17:06,970 --> 00:17:09,080
+okunur yazdıralım ve sonra görebiliriz.
+
+244
+00:17:09,280 --> 00:17:14,560
+Bu dosyayı ben yarattım.
+
+245
+00:17:14,650 --> 00:17:26,250
+Yani, bunlar ek modunda yazma modunda veya okuma modunda dosyaları açmanın temel fikirleridir.
+
+246
+00:17:26,250 --> 00:17:26,910
+Notebook'unuzda bu dersle birlikte gelen çok daha fazla örnek görebilirsiniz.
+
+247
+00:17:26,940 --> 00:17:28,030
+Tamam, herkese
+
+248
+00:17:28,110 --> 00:17:34,200
+teşekkürler, sizi bir sonraki dersimize, sizi ve burada tartıştığımız birçok konuyu test etmeye başlayacağız.
+
+249
+00:17:34,220 --> 00:17:38,630
+&nbsp;
+
+250
+00:17:39,500 --> 00:17:44,400
+&nbsp;
+
+251
+00:17:44,400 --> 00:17:45,830
+&nbsp;

@@ -1,0 +1,1003 @@
+1
+00:00:05,970 --> 00:00:11,280
+Welcome everyone to this lecture on files and before we finish off this section of the course we already
+
+2
+00:00:11,280 --> 00:00:13,050
+learned about all the basic data types.
+
+3
+00:00:13,110 --> 00:00:18,000
+I now want to quickly go over how to perform simple input and output with a basic text file and the
+
+4
+00:00:18,000 --> 00:00:24,120
+methods we show here will also expand further to working with other file types whether it be an audio
+
+5
+00:00:24,120 --> 00:00:30,930
+file text file e-mails Excel documents a lot of what we cover here is going to be really relatable to
+
+6
+00:00:30,930 --> 00:00:33,420
+those more advanced functionalities.
+
+7
+00:00:33,420 --> 00:00:37,800
+Now keep in mind for some of those other topics you may need to install certain libraries which we're
+
+8
+00:00:37,800 --> 00:00:40,090
+going to discuss later on in the course.
+
+9
+00:00:40,150 --> 00:00:42,600
+For right now we're going to deal just basic text files.
+
+10
+00:00:42,600 --> 00:00:47,610
+So we're going to create one using the Jupiter notebook and most this file paths on your computer.
+
+11
+00:00:47,640 --> 00:00:52,620
+Let's get started to begin with we need to do is create a text file to work with.
+
+12
+00:00:52,620 --> 00:00:57,440
+Now if you downloaded those notes there's actually already a test that text file.
+
+13
+00:00:57,450 --> 00:01:04,600
+So in your folder somewhere there should be a test text file in the same folder as these notes are in.
+
+14
+00:01:04,950 --> 00:01:10,260
+So keep that in mind but I'm going to show you how you can use Jupiter's magic functionality or so it's
+
+15
+00:01:10,260 --> 00:01:12,740
+called in order to quickly write a text file.
+
+16
+00:01:12,780 --> 00:01:15,180
+So this only works in Jupiter notebook.
+
+17
+00:01:15,240 --> 00:01:15,950
+So right.
+
+18
+00:01:15,960 --> 00:01:16,560
+Percent sign.
+
+19
+00:01:16,560 --> 00:01:20,670
+Percent sign right file space.
+
+20
+00:01:21,760 --> 00:01:25,320
+My file sixty or whatever you want to call it.
+
+21
+00:01:25,360 --> 00:01:27,160
+So this has to be on the first line of the cell.
+
+22
+00:01:28,180 --> 00:01:31,760
+And then here you can just write plain text of whatever you want is in the cell.
+
+23
+00:01:31,780 --> 00:01:33,990
+So I can say hello.
+
+24
+00:01:34,240 --> 00:01:37,420
+This is a text file.
+
+25
+00:01:37,420 --> 00:01:40,560
+This is the second line.
+
+26
+00:01:40,660 --> 00:01:43,690
+This is the third line.
+
+27
+00:01:43,720 --> 00:01:45,910
+Make sure I spell that right.
+
+28
+00:01:45,910 --> 00:01:51,100
+So again this only works in a Jupiter notebook if you don't have Juber notebooks maybe you're working
+
+29
+00:01:51,100 --> 00:01:52,460
+in Sublime Text Editor.
+
+30
+00:01:52,480 --> 00:01:58,330
+Go ahead and just write this into a file and save it as a text file in the same location as wherever
+
+31
+00:01:58,330 --> 00:02:00,070
+your scripts are running.
+
+32
+00:02:00,070 --> 00:02:05,950
+So we're going to run that and you should see successfully wrote my file that text file and now we can
+
+33
+00:02:05,950 --> 00:02:09,640
+do is actually open up and play around with these files.
+
+34
+00:02:09,640 --> 00:02:16,630
+Now it's a very common mistake to accidently either right the wrong name of the file or save the file
+
+35
+00:02:16,690 --> 00:02:18,010
+in the wrong directory.
+
+36
+00:02:18,010 --> 00:02:25,670
+So let me show you what that typically looks like will say my file is equal to and we use the open function.
+
+37
+00:02:25,870 --> 00:02:32,400
+And in this case I know my file that text is there because I can just write my file Tick's team and
+
+38
+00:02:32,410 --> 00:02:39,790
+we need to write this as a string so write that and then we get no error because it happens to be there.
+
+39
+00:02:39,950 --> 00:02:48,110
+If I ask for a file that is not there will save my file is equal to open and we'll say Whoops wrong
+
+40
+00:02:48,300 --> 00:02:48,940
+CXXVIII.
+
+41
+00:02:48,950 --> 00:02:51,090
+So I definitely know there is no file there.
+
+42
+00:02:51,140 --> 00:02:53,740
+If I run this will get a file not found error.
+
+43
+00:02:53,780 --> 00:02:56,930
+So this is a really common error it's called error number two.
+
+44
+00:02:56,990 --> 00:02:58,430
+No such file or directory.
+
+45
+00:02:58,460 --> 00:03:00,840
+Whoops wrong about 60.
+
+46
+00:03:00,890 --> 00:03:04,380
+So there's really only two possible ways to get this error.
+
+47
+00:03:04,400 --> 00:03:08,760
+One way is that we accidentally passed in the wrong file name.
+
+48
+00:03:08,780 --> 00:03:11,180
+So in this case I wrote what's wrong txt file.
+
+49
+00:03:11,180 --> 00:03:15,190
+So that's the wrong file name the file name should have in my file that takes.
+
+50
+00:03:15,320 --> 00:03:21,260
+Now the other possibility is that I actually didn't provide the correct file path and we'll discuss
+
+51
+00:03:21,260 --> 00:03:28,160
+that more later on in the same lecture but maybe you have Whoops wrong that DXi on your computer but
+
+52
+00:03:28,160 --> 00:03:33,830
+it just doesn't happen to be saved in the same location as your Jupiter notebook to know where your
+
+53
+00:03:33,850 --> 00:03:35,700
+DUPERE notebook currently is.
+
+54
+00:03:35,720 --> 00:03:38,690
+You can type P WD into a cell.
+
+55
+00:03:38,940 --> 00:03:42,140
+Run that and that will print your working directory.
+
+56
+00:03:42,170 --> 00:03:47,630
+So this directory is where this notebook is currently located and that's the same location that any
+
+57
+00:03:47,630 --> 00:03:50,380
+DOT text files you want to work with should it be saved.
+
+58
+00:03:50,540 --> 00:03:54,050
+Later on we'll show you how to call a text file for any location in a computer.
+
+59
+00:03:54,200 --> 00:03:59,240
+But for right now make sure that the text file you're working with is saved to the same location that
+
+60
+00:03:59,240 --> 00:04:02,580
+is output when you type P.W. the.
+
+61
+00:04:02,640 --> 00:04:02,880
+All right.
+
+62
+00:04:02,880 --> 00:04:09,120
+Continuing on we know that my file that text is in the same location because we use this special command
+
+63
+00:04:09,120 --> 00:04:09,990
+to write it there.
+
+64
+00:04:10,260 --> 00:04:14,310
+And if you don't want to use a special command you have the test that takes the file from the zip file
+
+65
+00:04:14,310 --> 00:04:15,410
+of notes.
+
+66
+00:04:15,460 --> 00:04:17,030
+So let's continue on here.
+
+67
+00:04:17,280 --> 00:04:25,530
+Will say my file is equal to open and we're going to open that text file we just made which was called
+
+68
+00:04:25,560 --> 00:04:34,960
+my file that 60 my files cxi run that and there's several methods I can call off of this one method
+
+69
+00:04:34,960 --> 00:04:37,080
+I can call is the read method.
+
+70
+00:04:37,180 --> 00:04:42,560
+And what this does is it returns just a giant string of everything that's in this text file.
+
+71
+00:04:42,580 --> 00:04:43,440
+Sometimes that's good.
+
+72
+00:04:43,480 --> 00:04:46,670
+Sometimes you don't want that but it is a method available to you.
+
+73
+00:04:46,690 --> 00:04:53,310
+You'll notice here that we have this backslash n and what this does is indicates a new line.
+
+74
+00:04:53,440 --> 00:04:59,350
+Because you asked for everything as a single string the string somehow needs to represent where the
+
+75
+00:04:59,350 --> 00:05:00,210
+new lines were.
+
+76
+00:05:00,250 --> 00:05:05,200
+And your textfile file because remember we wrote Hello this is the text file here on a second line we
+
+77
+00:05:05,200 --> 00:05:07,870
+wrote second line and on the third line we wrote third line.
+
+78
+00:05:07,870 --> 00:05:12,610
+So in order to represent that we have these escape sequences that we discussed earlier in the string
+
+79
+00:05:12,630 --> 00:05:17,620
+lecture lectures and backslash and represents a new line.
+
+80
+00:05:17,620 --> 00:05:21,730
+Now if I try to read this file again you'll notice something funny happens.
+
+81
+00:05:21,970 --> 00:05:23,480
+You get back an empty string.
+
+82
+00:05:23,530 --> 00:05:27,240
+So a lot of times beginners are scratching their heads thinking well what the heck happened.
+
+83
+00:05:27,250 --> 00:05:31,230
+I just read it and now when I try to read it again it's no longer there.
+
+84
+00:05:31,240 --> 00:05:35,590
+The reason this is happening is because you can imagine that there's a cursor at the beginning of the
+
+85
+00:05:35,590 --> 00:05:40,840
+file and when you read it the cursor goes all the way to the end of the file and you need to reset the
+
+86
+00:05:40,840 --> 00:05:45,000
+cursor or seek it back to zero in order to read it again.
+
+87
+00:05:45,010 --> 00:05:52,040
+So to do that you can say my file seek zero that resets the cursor.
+
+88
+00:05:52,040 --> 00:05:54,010
+You should see some zero output there.
+
+89
+00:05:54,350 --> 00:05:58,810
+And now if you call read again you'll be able to see this.
+
+90
+00:05:58,830 --> 00:06:06,240
+Keep in mind if you ever want to read again more times you'll have to reset that out say my file seek
+
+91
+00:06:06,330 --> 00:06:11,660
+zero and then you save my file read and let's save this as content's
+
+92
+00:06:15,010 --> 00:06:16,390
+enough I check my contents.
+
+93
+00:06:16,420 --> 00:06:18,250
+That's just one giant string.
+
+94
+00:06:18,250 --> 00:06:23,070
+So that's the read method and it allows you to grab everything as one giant string.
+
+95
+00:06:23,170 --> 00:06:29,950
+Sometimes that's not really useful because you'd actually want to have a list where each single element
+
+96
+00:06:29,950 --> 00:06:34,260
+in the list is one line in a string form of the actual text file.
+
+97
+00:06:34,300 --> 00:06:35,850
+And to do that it's actually quite simple.
+
+98
+00:06:35,860 --> 00:06:38,300
+You can use the read lines method.
+
+99
+00:06:38,410 --> 00:06:41,540
+So we're going to seek back to zero.
+
+100
+00:06:43,090 --> 00:06:49,760
+And then say my file read lines and know what we get back here.
+
+101
+00:06:49,760 --> 00:06:54,560
+Now we have each line as a separate object or elements in this list.
+
+102
+00:06:54,560 --> 00:06:59,120
+And a lot of times it is more convenient to work with because now I can loop through this list which
+
+103
+00:06:59,120 --> 00:07:03,560
+we'll learn about later on or I can index off of this list for the lines themselves.
+
+104
+00:07:04,580 --> 00:07:05,150
+All right.
+
+105
+00:07:05,150 --> 00:07:11,300
+So those are the basic methods of reading a basic text file which is read to grab everything as a string
+
+106
+00:07:11,720 --> 00:07:17,570
+or read lines to grab a list where each element represents a line.
+
+107
+00:07:17,570 --> 00:07:23,220
+Keep in mind you still have that backslash and there at the end of that let's move on to discussing
+
+108
+00:07:23,220 --> 00:07:24,900
+file locations.
+
+109
+00:07:24,900 --> 00:07:29,340
+Now previously we just showed you how to open a text file that happens to be in the same location as
+
+110
+00:07:29,340 --> 00:07:32,420
+your python script or Python notebook.
+
+111
+00:07:32,700 --> 00:07:37,590
+But what if you want to open a text file that's saved in another location on your computer.
+
+112
+00:07:37,590 --> 00:07:41,640
+It'll be really annoying to have to constantly be moving around your Python scripts or your notebook
+
+113
+00:07:41,640 --> 00:07:47,130
+location to be at the same location as that text file sort of open a text file.
+
+114
+00:07:47,160 --> 00:07:48,470
+Any location on your computer.
+
+115
+00:07:48,510 --> 00:07:52,070
+All you need to do is provide the full file path.
+
+116
+00:07:52,090 --> 00:07:57,640
+Keep in mind however the syntax for a file path is slightly different depending if you're on Windows
+
+117
+00:07:58,000 --> 00:08:00,280
+or if you're on a Mac OS or Linux.
+
+118
+00:08:00,280 --> 00:08:03,460
+So for Windows the typical file path is going to look something like this.
+
+119
+00:08:03,460 --> 00:08:05,440
+You'll say C colon.
+
+120
+00:08:05,470 --> 00:08:10,720
+And then note that we have the double backslash and this basically is an escape character so that Python
+
+121
+00:08:10,720 --> 00:08:12,220
+doesn't confuse this back.
+
+122
+00:08:12,250 --> 00:08:17,980
+First backslash as an escape character because imagine if you're a user name had a lower case n you
+
+123
+00:08:17,980 --> 00:08:19,430
+don't want Paice on suddenly thinking.
+
+124
+00:08:19,450 --> 00:08:20,620
+You mean new line.
+
+125
+00:08:20,620 --> 00:08:22,990
+So that's why we have double backslashes here.
+
+126
+00:08:23,170 --> 00:08:25,350
+So is for Windows and it looks something like this.
+
+127
+00:08:25,390 --> 00:08:28,920
+And you just pasand the whole file path as a string to your text file.
+
+128
+00:08:29,140 --> 00:08:32,110
+If you're on a Mac OS or Linux it looks a little different.
+
+129
+00:08:32,110 --> 00:08:37,980
+You have forward slashes here and it goes user's your username whatever folder and then the text file.
+
+130
+00:08:38,050 --> 00:08:45,220
+If you ever want to check what this actually looks like all you need to do is use that handy PWT into
+
+131
+00:08:45,220 --> 00:08:46,330
+a cell again.
+
+132
+00:08:46,380 --> 00:08:50,670
+Notice that I already have kind of the format of what it should look like.
+
+133
+00:08:50,680 --> 00:08:55,150
+I'm running this on a Windows computer right now so it shows me what the format is and then from there
+
+134
+00:08:55,150 --> 00:09:01,270
+I can copy paste and then play around with this add folder paths etc. in order to grab the right text
+
+135
+00:09:01,270 --> 00:09:04,870
+file to finish off this discussion of files.
+
+136
+00:09:04,870 --> 00:09:12,550
+I want to mention best practices for opening files right now we open this file and we call that my file.
+
+137
+00:09:12,790 --> 00:09:15,240
+But technically because it's open we actually have to close it.
+
+138
+00:09:15,250 --> 00:09:21,610
+We have to say my file does close in order to not get any errors because let's say you open this file
+
+139
+00:09:21,610 --> 00:09:24,330
+somewhere else on your computer and you were trying to delete it.
+
+140
+00:09:24,370 --> 00:09:28,510
+You'd get an error saying hey Python is still using this file and you'd have to actually manually close
+
+141
+00:09:28,510 --> 00:09:32,100
+it once you were done working with it to avoid any such errors.
+
+142
+00:09:32,100 --> 00:09:36,340
+We can do is use the special with statement and it looks like this.
+
+143
+00:09:36,340 --> 00:09:38,220
+You'll say instead of saying something like this.
+
+144
+00:09:38,260 --> 00:09:45,150
+Let's first see the old way which was my file open testi XTi.
+
+145
+00:09:45,150 --> 00:09:50,650
+So that was the old way of doing things and I believe it was called my file that DXi.
+
+146
+00:09:51,070 --> 00:09:59,570
+Well we can do is say with open and then we'll say as and then whatever you want to call this you can
+
+147
+00:09:59,570 --> 00:10:04,970
+say my new files this is the variable name you choose and then you have a colon there.
+
+148
+00:10:05,300 --> 00:10:07,680
+And then notice what happens here when I hit enter.
+
+149
+00:10:07,690 --> 00:10:13,520
+I have an indentation and basically what this means is that any code here that's within this block this
+
+150
+00:10:13,520 --> 00:10:20,450
+indented block of code is going to use my new file as the variable of this text file so that I can say
+
+151
+00:10:21,530 --> 00:10:31,370
+contents is equal to my new file read and when I run this I no longer need to worry about closing the
+
+152
+00:10:31,370 --> 00:10:35,810
+file only quickly checked the right text file name will come up here and confirm that.
+
+153
+00:10:35,960 --> 00:10:36,940
+And we were right.
+
+154
+00:10:37,220 --> 00:10:40,070
+OK so let's run this and see what happens.
+
+155
+00:10:40,130 --> 00:10:46,220
+So I run that and now I no longer worry about closing the file and I can still grab the contents that
+
+156
+00:10:46,220 --> 00:10:51,620
+were in this block of code and we're going to get used to the idea of these intenser block of code a
+
+157
+00:10:51,620 --> 00:10:53,950
+lot more in the next section of the course.
+
+158
+00:10:54,290 --> 00:10:59,840
+OK let's finish off this discussion by talking about reading and writing to a file.
+
+159
+00:10:59,870 --> 00:11:03,890
+Right now you may have noticed that we've basically just been reading files but we can also write to
+
+160
+00:11:03,890 --> 00:11:08,750
+files and overwrite files and that's a key difference that we need to appreciate.
+
+161
+00:11:09,580 --> 00:11:18,440
+So we're going to say with open and I'm going to say with open my file that T x t comma and what I'm
+
+162
+00:11:18,440 --> 00:11:22,530
+going to do here is write with my cursor right next to open.
+
+163
+00:11:22,550 --> 00:11:24,410
+I'm going to do shift tab.
+
+164
+00:11:24,830 --> 00:11:29,750
+And what this does is it opens up information for functions that have already been defined.
+
+165
+00:11:29,810 --> 00:11:31,840
+So later on we're going to find our own functions.
+
+166
+00:11:31,950 --> 00:11:36,770
+But you'll notice open is a built in function so you can see here some documentation and this is why
+
+167
+00:11:36,770 --> 00:11:41,870
+I love these and that you know a book for teaching Python because just with the term shift tab right
+
+168
+00:11:41,870 --> 00:11:47,240
+next to the function you get all this really useful information and you can have plus here to see even
+
+169
+00:11:47,240 --> 00:11:47,900
+more stuff.
+
+170
+00:11:47,900 --> 00:11:53,040
+So you basically have the documentation right here in your notebook without needing to go online.
+
+171
+00:11:54,350 --> 00:11:54,620
+All right.
+
+172
+00:11:54,620 --> 00:11:59,520
+So notice here there's a mode and it's set by default equal to r.
+
+173
+00:11:59,780 --> 00:12:03,540
+So we're going to copy this and paste it right here.
+
+174
+00:12:03,540 --> 00:12:05,890
+Same mode is equal to R..
+
+175
+00:12:05,970 --> 00:12:13,430
+And then say as my file content is equal to my file read.
+
+176
+00:12:13,470 --> 00:12:15,990
+So when I run this there's no problem.
+
+177
+00:12:15,990 --> 00:12:19,450
+I see the contents and there it is.
+
+178
+00:12:19,470 --> 00:12:24,020
+Now let's switch this to W. which stands for right.
+
+179
+00:12:24,930 --> 00:12:30,250
+If I try running the cell again it will say hey unsupported operation not readable.
+
+180
+00:12:30,360 --> 00:12:36,630
+And that's because depending on what mode you choose for opening your files you may only choose to write
+
+181
+00:12:36,630 --> 00:12:39,510
+to a file instead of being able to read to a file.
+
+182
+00:12:39,570 --> 00:12:41,510
+And this is basically known as permissions.
+
+183
+00:12:41,580 --> 00:12:46,620
+Sometimes you're going to want certain scripts to only have permissions to write to a file or only have
+
+184
+00:12:46,620 --> 00:12:51,000
+permissions to read to a file and sometimes you want them to have both.
+
+185
+00:12:51,030 --> 00:12:58,630
+So what we can do here is the following options we can use our For read or W for.
+
+186
+00:12:58,640 --> 00:12:59,200
+Right.
+
+187
+00:12:59,210 --> 00:13:05,420
+And this will overwrite files or we can use a to append to files and append is basically just adding
+
+188
+00:13:05,420 --> 00:13:08,190
+more lines to the end of a text file.
+
+189
+00:13:08,660 --> 00:13:08,900
+OK.
+
+190
+00:13:08,900 --> 00:13:13,530
+So let's take a little bit of time to discuss the reading writing and appending modes.
+
+191
+00:13:13,610 --> 00:13:15,640
+So we just show you that you can edit that mode.
+
+192
+00:13:15,650 --> 00:13:18,100
+Let's discuss all of them very quickly one more time.
+
+193
+00:13:18,200 --> 00:13:23,170
+If you set mode is equal to our that's read only if you set mode equal to W.
+
+194
+00:13:23,180 --> 00:13:24,240
+That's right only.
+
+195
+00:13:24,250 --> 00:13:26,720
+So this will overwrite files that already exist.
+
+196
+00:13:26,870 --> 00:13:30,910
+Or if you try to open a file that doesn't exist already and you open it with moët W..
+
+197
+00:13:31,070 --> 00:13:36,320
+They'll actually create a new file and we'll see that in just a second and then mode A is to a pen only
+
+198
+00:13:36,320 --> 00:13:42,620
+and this adds on to files our Plus that reading and writing and then w Plus is opening a file for both
+
+199
+00:13:42,980 --> 00:13:44,030
+writing and reading.
+
+200
+00:13:44,060 --> 00:13:48,490
+And that again will overwrite the existing file if the file exists it's file does not exist.
+
+201
+00:13:48,500 --> 00:13:50,490
+It creates a new file for reading and writing.
+
+202
+00:13:50,600 --> 00:13:51,670
+Sort of play around with these.
+
+203
+00:13:51,680 --> 00:13:54,320
+Let's create a new file and I'll do this from the Jupiter note book.
+
+204
+00:13:54,380 --> 00:13:59,030
+You can do this from any text editor as well but I'm going to write my new file at 60.
+
+205
+00:13:59,150 --> 00:14:01,790
+One of the first two on second and three on third.
+
+206
+00:14:02,060 --> 00:14:06,680
+I'm going to run that to confirm that I have just created my new file text.
+
+207
+00:14:06,690 --> 00:14:10,080
+In this case I overwrote it because I run this more than once.
+
+208
+00:14:10,250 --> 00:14:11,090
+But let's do the following.
+
+209
+00:14:11,090 --> 00:14:18,480
+We'll say it with open and we'll say my new file should be able to actually tab autocomplete this.
+
+210
+00:14:18,510 --> 00:14:30,240
+So my new file text mode will say read only as F and then I'm going to print f the read and there I
+
+211
+00:14:30,240 --> 00:14:33,700
+can see one on first two on second three on third.
+
+212
+00:14:33,720 --> 00:14:37,240
+So that's the read mode which is quite useful for reading.
+
+213
+00:14:37,620 --> 00:14:45,480
+Let's say I wanted to add a new line to this I could say with open mind you filed 16
+
+214
+00:14:49,120 --> 00:14:55,830
+I will say mode is equal to and in this case I'm going to say because I want to append a new line to
+
+215
+00:14:55,830 --> 00:15:03,570
+this say as F and if I want to write to a file all I have to do is say F dot.
+
+216
+00:15:03,570 --> 00:15:08,910
+And as you may have expected instead of read you say Right and let's write a new line to this we'll
+
+217
+00:15:08,910 --> 00:15:13,240
+say for on Forth.
+
+218
+00:15:13,290 --> 00:15:16,150
+So is what I'm doing here because I'm using append.
+
+219
+00:15:16,290 --> 00:15:22,890
+That means the cursor is all the way at the end of this text file and then it's going to append or add
+
+220
+00:15:22,890 --> 00:15:24,810
+on a fourth line to it.
+
+221
+00:15:24,870 --> 00:15:32,340
+So I'm going to run that and then let's rerun the code up here going to copy and paste this to a new
+
+222
+00:15:32,340 --> 00:15:33,490
+cell.
+
+223
+00:15:33,490 --> 00:15:39,570
+And if I run this again now I see one on first two on second three on third for on for Forth.
+
+224
+00:15:39,600 --> 00:15:45,180
+Something I didn't actually take into account here is that I forgot to add in a new line.
+
+225
+00:15:45,180 --> 00:15:48,700
+So what I could have done is say backslash.
+
+226
+00:15:48,730 --> 00:15:51,510
+And here to actually insert a new line.
+
+227
+00:15:51,510 --> 00:15:56,910
+So if we run these two cells again now we see four on the fourth.
+
+228
+00:15:56,920 --> 00:16:01,510
+Now unfortunately I still have this foreign forth here so I'm going to reset everything by coming back
+
+229
+00:16:01,510 --> 00:16:04,930
+up here and overwriting that file one more time.
+
+230
+00:16:04,930 --> 00:16:10,350
+So let's run these again run this cell again and then run the cell again.
+
+231
+00:16:10,640 --> 00:16:14,420
+Now I can see one in first two second through third fourth fourth.
+
+232
+00:16:14,480 --> 00:16:21,530
+So that's the difference between reading and spending now to explore W for writing.
+
+233
+00:16:21,560 --> 00:16:30,910
+I can say with open and here I'm just going to make up a bunch of letters that t XTi and I'll say mode
+
+234
+00:16:31,180 --> 00:16:32,640
+is equal to W..
+
+235
+00:16:32,890 --> 00:16:39,940
+I remember with this W mode it's going to overwrite an existing file or if the file doesn't exist it
+
+236
+00:16:39,940 --> 00:16:41,420
+will actually create it.
+
+237
+00:16:41,560 --> 00:16:47,010
+So he can make up a name there say as F and then say F right.
+
+238
+00:16:47,150 --> 00:16:53,090
+I created this file run that and there's no error.
+
+239
+00:16:53,100 --> 00:16:58,350
+Because even though this text file doesn't exist since we opened that with mode w Python it went ahead
+
+240
+00:16:58,380 --> 00:17:00,540
+and created that text file for us.
+
+241
+00:17:00,540 --> 00:17:05,400
+If we try to do the same thing of a different mode such as just our or just a we would have gotten an
+
+242
+00:17:05,400 --> 00:17:06,080
+error there.
+
+243
+00:17:06,970 --> 00:17:09,080
+So then we go ahead and read this file.
+
+244
+00:17:09,280 --> 00:17:14,560
+Well say it with open D.H. F and I really encourage you now just do tab autocomplete.
+
+245
+00:17:14,650 --> 00:17:26,250
+So you have to memorize all that we'll say mode is equal to read as F. And let's print out f read and
+
+246
+00:17:26,250 --> 00:17:26,910
+then we can see.
+
+247
+00:17:26,940 --> 00:17:28,030
+I created this file.
+
+248
+00:17:28,110 --> 00:17:34,200
+So those are the basic ideas of opening files in either append mode write mode or read mode.
+
+249
+00:17:34,220 --> 00:17:38,630
+You can see a lot more examples of this in your notebook that goes along with this lecture.
+
+250
+00:17:39,500 --> 00:17:44,400
+OK thanks everyone and I'll see you at the next lecture where we actually begin testing you and a lot
+
+251
+00:17:44,400 --> 00:17:45,830
+of the topics that we discussed here.

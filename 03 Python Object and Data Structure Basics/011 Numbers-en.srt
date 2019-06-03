@@ -1,0 +1,251 @@
+1
+00:00:05,500 --> 00:00:09,720
+Hey everyone welcome back to this lecture on numbers in Python.
+
+2
+00:00:09,790 --> 00:00:13,960
+We already briefly mentioned that there's two main number types so we're going to be working with throughout
+
+3
+00:00:13,960 --> 00:00:18,550
+the course and that is integers which are whole numbers and floating point numbers which are numbers
+
+4
+00:00:18,550 --> 00:00:19,600
+of a decimal.
+
+5
+00:00:19,780 --> 00:00:24,100
+We're going to be exploring a little bit of basic math of python and then we'll discuss how to create
+
+6
+00:00:24,100 --> 00:00:26,550
+variables and assign them values.
+
+7
+00:00:26,560 --> 00:00:28,800
+Let's open up what you put in a book and get started.
+
+8
+00:00:28,810 --> 00:00:33,040
+All right so before we actually start typing any code I wanted to briefly mention that if you ever want
+
+9
+00:00:33,040 --> 00:00:37,000
+to toggle this toolbar or this header on or off you can just come here.
+
+10
+00:00:37,000 --> 00:00:42,450
+Click View and then select toggle header or toggle toolbar to turn them on or off.
+
+11
+00:00:42,460 --> 00:00:45,180
+And typically during lectures I'll have them off.
+
+12
+00:00:45,190 --> 00:00:47,700
+So we have as much space for coding as possible.
+
+13
+00:00:48,100 --> 00:00:53,080
+Let's start off by just going over some basic math which is pretty straightforward and it's basically
+
+14
+00:00:53,080 --> 00:00:56,380
+just using Python as calculator if you want to do it.
+
+15
+00:00:56,410 --> 00:01:01,660
+It's just an addition sign or a plus sign two plus one if you want to do subtraction that's just a dash
+
+16
+00:01:01,660 --> 00:01:04,340
+or a minus sign to minus one.
+
+17
+00:01:04,360 --> 00:01:06,660
+You can use an asterisk for multiplication.
+
+18
+00:01:06,680 --> 00:01:08,210
+So two times two.
+
+19
+00:01:08,350 --> 00:01:11,180
+And if you want to perform division that's just a forward slash.
+
+20
+00:01:11,230 --> 00:01:15,350
+So three divided by two is 1.5 OK.
+
+21
+00:01:15,350 --> 00:01:19,920
+Now let's take a little bit of time to discuss a mathematical operation that you may not have seen before.
+
+22
+00:01:19,940 --> 00:01:22,310
+It's the modular or Ma'at operator.
+
+23
+00:01:22,310 --> 00:01:26,670
+And basically what this does it returns back the remainder after a division.
+
+24
+00:01:26,840 --> 00:01:32,340
+For example if we were to do seven divided by four we get back one point seventy five.
+
+25
+00:01:32,450 --> 00:01:38,300
+And if you were to do this kind of using an elementary school mathematics you would say seven divided
+
+26
+00:01:38,300 --> 00:01:43,710
+by four foregoes the seven one time with a remainder of three because four plus three seven.
+
+27
+00:01:44,030 --> 00:01:48,190
+Let's imagine actually just wanted to know that remainder the actual number three.
+
+28
+00:01:48,200 --> 00:01:51,180
+In that case you can use the Maat operator which is a percent sign.
+
+29
+00:01:51,530 --> 00:01:57,580
+So we're going to say 7 model four and it returns back three because seven divided by four it goes in
+
+30
+00:01:57,580 --> 00:02:01,040
+at one time evenly with a remainder of three.
+
+31
+00:02:01,040 --> 00:02:09,580
+So for example we could do 50 maade of five and if five goes to 50 evenly then we get back a remainder
+
+32
+00:02:09,580 --> 00:02:15,280
+of 0 which is nice because it's a way to check if a number is evenly divisible by another number.
+
+33
+00:02:15,310 --> 00:02:19,730
+That's a really convenient check when you want to check if a number is even or not.
+
+34
+00:02:20,050 --> 00:02:25,490
+So let's imagine we have an odd number 23 and we want to know if it's even or odd.
+
+35
+00:02:25,510 --> 00:02:30,700
+Well it could just look at it but maybe some time in my code it's disguised as a variable and I really
+
+36
+00:02:30,700 --> 00:02:36,940
+need to quickly check if it's even or odd one way I could do this is simply with a mod 2 and I know
+
+37
+00:02:36,940 --> 00:02:43,930
+that if maade to result in something other than 0 then we have an odd number because of have an even
+
+38
+00:02:43,930 --> 00:02:44,730
+number.
+
+39
+00:02:44,740 --> 00:02:46,260
+Then when you divide it by two.
+
+40
+00:02:46,270 --> 00:02:49,570
+There should be no remainder or the remainder should be zero.
+
+41
+00:02:49,570 --> 00:02:51,140
+So that's the operator again.
+
+42
+00:02:51,160 --> 00:02:54,420
+It just gives you the back the remainder after you perform a division.
+
+43
+00:02:54,520 --> 00:02:56,950
+Let's continue with everything else about arithmetic.
+
+44
+00:02:56,950 --> 00:03:02,760
+You can also perform powers so you can do something like two to the power of three.
+
+45
+00:03:02,830 --> 00:03:04,770
+So that's just two Asterix signs in a row.
+
+46
+00:03:04,960 --> 00:03:07,050
+So to the power three That's eight.
+
+47
+00:03:07,690 --> 00:03:10,660
+And then you can also perform order of operations.
+
+48
+00:03:10,660 --> 00:03:18,380
+Let's imagine that I have the following equation 2 plus 10 multiplied by 10 plus three.
+
+49
+00:03:18,460 --> 00:03:20,810
+If I run that could I get back 105.
+
+50
+00:03:21,130 --> 00:03:26,920
+But what if I wanted to actually have two plus 10 occur first then multiply that by the result of 10
+
+51
+00:03:26,920 --> 00:03:27,880
+plus three.
+
+52
+00:03:27,880 --> 00:03:32,920
+Right now we're following basic order of operations with math which is going to perform this multiplication
+
+53
+00:03:32,920 --> 00:03:34,860
+first before it does this addition.
+
+54
+00:03:35,080 --> 00:03:39,180
+So is performing ten times ten hundred plus two plus three.
+
+55
+00:03:39,200 --> 00:03:42,130
+So our operations happen first the way we want them.
+
+56
+00:03:42,130 --> 00:03:43,640
+We can use parentheses.
+
+57
+00:03:43,840 --> 00:03:49,920
+I can say two plus 10 multiplied by an imprint sees 10 plus three.
+
+58
+00:03:50,070 --> 00:03:53,270
+And if I run that I get back 156 the way I want it.
+
+59
+00:03:54,190 --> 00:03:57,900
+OK so that's the basics of arithmetic and using Python as a calculator.
+
+60
+00:03:57,910 --> 00:03:59,610
+Hopefully it is pretty straightforward.
+
+61
+00:03:59,620 --> 00:04:04,720
+Coming up next we're going to expand on this by showing you how you can perform variable assignments
+
+62
+00:04:05,080 --> 00:04:09,070
+that is create your own variable name and then assign an object to it.
+
+63
+00:04:09,100 --> 00:04:10,420
+We'll see you there at the next lecture.

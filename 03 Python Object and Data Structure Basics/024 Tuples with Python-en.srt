@@ -1,0 +1,311 @@
+1
+00:00:05,480 --> 00:00:08,820
+Hi everyone and welcome to lecture on tuples or couples.
+
+2
+00:00:08,850 --> 00:00:13,720
+Some people like to call them and in Python tuples are very similar to lists.
+
+3
+00:00:13,760 --> 00:00:18,710
+However they have one key difference and that is they have immutability So they're immutable meaning
+
+4
+00:00:18,710 --> 00:00:19,820
+they can't be changed.
+
+5
+00:00:19,820 --> 00:00:23,390
+And that comes from the term mutation that cannot be mutated or changed.
+
+6
+00:00:23,390 --> 00:00:29,420
+And that basically means once an element is assigned to an index position inside a tuple you can't grab
+
+7
+00:00:29,420 --> 00:00:32,690
+that element and then reassign it to something else like you could have a list.
+
+8
+00:00:32,990 --> 00:00:37,460
+And the way you construct tuples is very similar to a list except instead of using square braces you
+
+9
+00:00:37,460 --> 00:00:38,830
+use parentheses.
+
+10
+00:00:38,930 --> 00:00:41,650
+Let's explore tuples a little more in a Jupiter notebook.
+
+11
+00:00:41,930 --> 00:00:43,560
+All right so let's get started.
+
+12
+00:00:43,760 --> 00:00:47,650
+Hopefully you'll have quite an intuition as for how to use tuples based on what you've learned about
+
+13
+00:00:47,670 --> 00:00:48,650
+Lisse.
+
+14
+00:00:48,860 --> 00:00:54,380
+We're going to create a book called T will say T is equal to and then in parentheses we'll write one
+
+15
+00:00:54,380 --> 00:00:55,980
+comment to come a three.
+
+16
+00:00:56,240 --> 00:01:00,240
+And I'm also going to create my list which is going to be very similar.
+
+17
+00:01:00,290 --> 00:01:02,110
+I'll say one comma to come in three.
+
+18
+00:01:02,150 --> 00:01:03,460
+But notice that square braces.
+
+19
+00:01:03,500 --> 00:01:04,300
+So it's a list.
+
+20
+00:01:04,300 --> 00:01:07,550
+And you can always confirm this using the builtin type function.
+
+21
+00:01:07,550 --> 00:01:10,920
+So if I say type T it returns back that it's tuple.
+
+22
+00:01:11,210 --> 00:01:11,970
+And if I ask.
+
+23
+00:01:11,990 --> 00:01:15,910
+Type my list it returns back that it's a list.
+
+24
+00:01:15,980 --> 00:01:16,320
+OK.
+
+25
+00:01:16,400 --> 00:01:18,980
+So you can check the length of the tuple just like you could have a list.
+
+26
+00:01:18,980 --> 00:01:24,530
+So length of T is three because there's three elements in that list one two and three.
+
+27
+00:01:24,590 --> 00:01:25,570
+And just like list.
+
+28
+00:01:25,670 --> 00:01:32,040
+It's also fine to mix object types so we can have a string inside of a tuple along a number that has
+
+29
+00:01:32,040 --> 00:01:36,980
+no problems there and also just like a list you can use slicing and indexing.
+
+30
+00:01:36,990 --> 00:01:39,310
+So let's say I wanted to grab that string one.
+
+31
+00:01:39,470 --> 00:01:42,690
+I could just say give me a what's the index 0 1 there.
+
+32
+00:01:42,720 --> 00:01:48,550
+I can then also do negative 1 and I have 2 as a return because the last item in that tuple.
+
+33
+00:01:48,610 --> 00:01:49,230
+So so far.
+
+34
+00:01:49,230 --> 00:01:51,010
+Very similar to a list.
+
+35
+00:01:51,030 --> 00:01:56,040
+There's also two basic built in methods for tuples and that is the index method and the count method
+
+36
+00:01:56,350 --> 00:01:57,880
+mâché an example of that.
+
+37
+00:01:58,140 --> 00:02:05,280
+We're going to say C is a tuple with a comma a comma B.
+
+38
+00:02:05,600 --> 00:02:10,840
+And let's imagine we want to count how many times the letter H shows up in this tuple.
+
+39
+00:02:10,860 --> 00:02:16,040
+I can do a T and then hit tab here you should see the two options you have either count or index.
+
+40
+00:02:16,080 --> 00:02:20,400
+So right away you'll notice that there's way less methods available for tuples than there are for lists.
+
+41
+00:02:20,430 --> 00:02:26,530
+So we're going to go and say that count and then we'll pass an A and it returns back.
+
+42
+00:02:26,530 --> 00:02:29,650
+How many times a occurs in that tuple.
+
+43
+00:02:29,650 --> 00:02:33,710
+And then we can also do is say the index of a.
+
+44
+00:02:33,910 --> 00:02:38,840
+And this returns back the very first time this appears in your tuple.
+
+45
+00:02:39,070 --> 00:02:43,570
+So notice that if it appears more than once you only return back the index location that it appears
+
+46
+00:02:43,570 --> 00:02:44,540
+at first.
+
+47
+00:02:44,620 --> 00:02:47,630
+And if we do the same thing for B.
+
+48
+00:02:47,870 --> 00:02:51,770
+The very first time a B occurs is the index to take a look at t.
+
+49
+00:02:52,070 --> 00:02:53,920
+That's right here a B.
+
+50
+00:02:54,020 --> 00:02:59,990
+Later on we'll learn how to use a control flow logic like for loops to grab all the locations of repeated
+
+51
+00:03:00,170 --> 00:03:05,230
+elements and finally let's get to really what makes a tuple difference.
+
+52
+00:03:05,240 --> 00:03:06,680
+And that's the mutability.
+
+53
+00:03:06,800 --> 00:03:11,780
+And I really can't stress enough that this is what makes a tuple tuple different than a list.
+
+54
+00:03:11,780 --> 00:03:16,710
+So let's get our tuple right now and let's just check up that list for created my list.
+
+55
+00:03:16,730 --> 00:03:22,370
+Let's re-assign the first element of my list to be the string new.
+
+56
+00:03:22,370 --> 00:03:24,530
+So right now my list has no problems with that.
+
+57
+00:03:24,530 --> 00:03:31,830
+It says OK I'll reassign the first element to the new if I try to do the same thing with the tuple and
+
+58
+00:03:31,830 --> 00:03:34,700
+I say you here don't say type error.
+
+59
+00:03:34,780 --> 00:03:37,180
+Tuple object does not support item assignment.
+
+60
+00:03:37,180 --> 00:03:41,020
+That's basically what makes a tuple different than a list.
+
+61
+00:03:41,030 --> 00:03:45,670
+Now I'm sure you're wondering well why would I even bother using tuples when they have fewer available
+
+62
+00:03:45,670 --> 00:03:51,460
+methods and they don't have the flexibility of a list and to be honest as you're beginning to program
+
+63
+00:03:51,490 --> 00:03:53,290
+you're not going to be using tuples that often.
+
+64
+00:03:53,350 --> 00:03:57,730
+It's only as you become more comfortable with Python and become a more advanced programmer that you'll
+
+65
+00:03:57,730 --> 00:04:02,860
+begin to see the benefit of tuples and where you're going to be using tuples for mainly is when you're
+
+66
+00:04:02,860 --> 00:04:08,060
+passing around objects in your program and you need to make sure that they don't accidentally get changed.
+
+67
+00:04:08,200 --> 00:04:10,960
+And that's when the tuple really becomes a great solution.
+
+68
+00:04:11,200 --> 00:04:15,400
+So provides a very convenient source of what's known as data integrity.
+
+69
+00:04:15,400 --> 00:04:20,560
+The fact that we can't do reassignments like this by accident will get an error instead is going to
+
+70
+00:04:20,560 --> 00:04:26,860
+be really useful when you want to make sure that elements don't get flipped or reassigned later on in
+
+71
+00:04:26,860 --> 00:04:28,210
+larger pieces of code.
+
+72
+00:04:28,390 --> 00:04:33,040
+So kind of keep this in your toolkit and later on I'm sure we'll be pulling out the tuple again so we
+
+73
+00:04:33,040 --> 00:04:35,400
+can use it and really let it shine for now.
+
+74
+00:04:35,410 --> 00:04:40,600
+Just remember that it has immutability and it looks really similar to a list except we use parentheses
+
+75
+00:04:40,630 --> 00:04:41,970
+instead of square brackets.
+
+76
+00:04:42,230 --> 00:04:42,670
+OK.
+
+77
+00:04:42,910 --> 00:04:44,320
+That's it for tuples for now.
+
+78
+00:04:44,320 --> 00:04:48,970
+Up next we're going to show you how to do basic file input and output will see it there.

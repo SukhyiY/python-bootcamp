@@ -1,0 +1,495 @@
+1
+00:00:05,550 --> 00:00:06,540
+Bem-vindo de volta a todos.
+
+2
+00:00:06,630 --> 00:00:10,990
+Nesta palestra, vamos discutir discussões variáveis.
+
+3
+00:00:11,030 --> 00:00:12,750
+Agora vimos como trabalhar com números.
+
+4
+00:00:12,770 --> 00:00:14,860
+Mas o que esses números realmente representam.
+
+5
+00:00:14,870 --> 00:00:16,780
+Nós tínhamos números inteiros e números de ponto flutuante.
+
+6
+00:00:16,800 --> 00:00:19,720
+Mas você realmente tem um nome de variável atribuído a eles.
+
+7
+00:00:19,880 --> 00:00:24,650
+Por isso, seria bom se pudermos atribuir a estes tipos de dados particulares um nome de variável para torná-los facilmente
+
+8
+00:00:24,650 --> 00:00:25,900
+mais próximos no nosso código.
+
+9
+00:00:25,940 --> 00:00:33,110
+Por exemplo, eu poderia dizer um nome de variável, meus cães de sublinhado são iguais a dois porque eu tenho dois cães.
+
+10
+00:00:33,190 --> 00:00:36,360
+Agora existem algumas regras para escolher um nome de variável no Python.
+
+11
+00:00:36,610 --> 00:00:39,460
+E essas regras são que os nomes não podem começar por um número.
+
+12
+00:00:39,460 --> 00:00:44,110
+Também não pode haver espaços no nome da variável, então você deve usar um sublinhado em vez disso.
+
+13
+00:00:44,110 --> 00:00:46,590
+E você também pode ter qualquer um desses símbolos em um nome.
+
+14
+00:00:46,630 --> 00:00:51,220
+E se você realmente esqueceu essa lista de símbolos, se você fosse digitar um desses símbolos em um
+
+15
+00:00:51,220 --> 00:00:54,100
+nome de variável, o Python reclamaria rapidamente e você teria um erro.
+
+16
+00:00:54,100 --> 00:00:55,990
+Então você não precisa se preocupar em memorizar tudo isso.
+
+17
+00:00:55,990 --> 00:00:59,950
+Você conseguiria o ar enquanto escrevia mais algumas regras sobre nomes de variáveis.
+
+18
+00:00:59,950 --> 00:01:05,130
+Geralmente, é considerado uma prática recomendada de acordo com o pep oito que os nomes são minúsculos.
+
+19
+00:01:05,140 --> 00:01:08,350
+Agora, existem situações em que você se torna um programador mais avançado.
+
+20
+00:01:08,470 --> 00:01:12,850
+Onde você vai querer ter um tipo de nomes de variáveis ​​globais em todos os limites que são usados ​​para
+
+21
+00:01:12,850 --> 00:01:13,390
+escrever seu código.
+
+22
+00:01:13,570 --> 00:01:19,000
+Mas agora, em geral, queremos manter nossos nomes em minúsculas e também queremos evitar palavras que tenham
+
+23
+00:01:19,000 --> 00:01:24,460
+um significado especial em Python e estas são criadas em palavras-chave como lista ou como seqüência de caracteres.
+
+24
+00:01:24,460 --> 00:01:28,600
+Você pode estar se perguntando bem como diabos eu deveria saber o que é o especial criado em palavras-chave.
+
+25
+00:01:28,600 --> 00:01:33,400
+Felizmente, qualquer ambiente de desenvolvimento projetado para trabalhar com o Python terá destaque de sintaxe
+
+26
+00:01:33,430 --> 00:01:38,440
+que irá alertá-lo de que usando uma palavra-chave incorporada destacando uma cor diferente e veremos um
+
+27
+00:01:38,440 --> 00:01:40,330
+exemplo disso em apenas um pouco.
+
+28
+00:01:42,060 --> 00:01:46,710
+Antes de realmente saltar para o livro de Jupiter, porém, eu quero mencionar que o Python usa a dinâmica
+
+29
+00:01:47,130 --> 00:01:52,410
+hyping e isso significa que você pode reatribuir variáveis ​​a diferentes tipos de dados, o que torna o Python muito flexível na
+
+30
+00:01:52,410 --> 00:01:53,500
+atribuição de tipos de dados.
+
+31
+00:01:53,520 --> 00:01:57,960
+E isso é realmente diferente de muitas outras linguagens de programação que são estaticamente digitadas.
+
+32
+00:01:57,960 --> 00:02:04,110
+Então, deixe-me mostrar-lhe um exemplo do que quero dizer com isso em python, algo assim é totalmente OK.
+
+33
+00:02:04,310 --> 00:02:09,890
+Aqui eu atribuí o nome da minha variável de cães igual a dois e depois, no meu código, fui adiante e
+
+34
+00:02:09,890 --> 00:02:14,720
+reatribuí o mesmo nome de variável aos meus cães para uma lista de tipos de dados completamente diferente.
+
+35
+00:02:14,750 --> 00:02:16,370
+Sammy e Frankie.
+
+36
+00:02:16,490 --> 00:02:20,850
+Agora, isso é totalmente OK em Python, mas em outras linguas que produzam um erro.
+
+37
+00:02:20,920 --> 00:02:26,370
+E isso porque essas outras línguas são tipicamente digitadas, significando na outra língua, como C plus
+
+38
+00:02:26,370 --> 00:02:32,190
+plus, você teria que dizer eu. UMA. por inteiro e, em seguida, diga que meu cão
+
+39
+00:02:32,220 --> 00:02:35,000
+é igual a qualquer valor inteiro quer como 1 e depois seu código.
+
+40
+00:02:35,030 --> 00:02:38,100
+Você não poderá atribuir um tipo de dados diferente.
+
+41
+00:02:38,100 --> 00:02:42,850
+Você não poderia dizer que o meu cão é igual a Samie porque não é mais um número inteiro.
+
+42
+00:02:42,870 --> 00:02:44,860
+Agora, resultará em um erro.
+
+43
+00:02:44,910 --> 00:02:48,590
+Então há alguns prós e contras para digitação dinâmica em Python.
+
+44
+00:02:48,630 --> 00:02:52,600
+A prosa é que não precisa escrever o tipo de dados real.
+
+45
+00:02:52,650 --> 00:02:57,150
+Economiza muito tempo e torna muito fácil produzir rapidamente o código Python e também torna seu
+
+46
+00:02:57,150 --> 00:03:00,720
+código muito legível porque você está apenas lendo esse nome de variável.
+
+47
+00:03:00,720 --> 00:03:05,820
+de dois gumes aqui porque os contras são que isso pode resultar em erros para o tipo de dados inesperado porque você não
+
+48
+00:03:05,820 --> 00:03:09,960
+está tendo essas restrições de tipos de dados, especialmente quando você está lidando com a entrada do usuário.
+
+49
+00:03:09,960 --> 00:03:11,080
+Agora, esse tipo de espada
+
+50
+00:03:11,130 --> 00:03:16,660
+Você pode ter um tipo de dados inesperado e isso pode causar problemas mais tarde em suas operações.
+
+51
+00:03:17,100 --> 00:03:21,570
+Então, você deve estar ciente dos tipos de dados à medida que codifica e pode usar uma função de
+
+52
+00:03:21,570 --> 00:03:26,000
+tipo especial incorporada no Python para verificar rapidamente o tipo de qualquer variável e mostrará como usar isso.
+
+53
+00:03:26,010 --> 00:03:28,290
+E apenas um pouco.
+
+54
+00:03:28,500 --> 00:03:31,830
+Tudo bem, vamos explorar todos esses conceitos saltando para um livro diferente.
+
+55
+00:03:32,730 --> 00:03:36,960
+Ok, agora que vimos como usar números em Python como calculadora, vejamos como podemos
+
+56
+00:03:36,960 --> 00:03:38,520
+atribuir nomes e criar variáveis.
+
+57
+00:03:38,520 --> 00:03:43,590
+Em primeiro lugar, vamos criar uma variável muito simples chamada A e configurá-la igual a 5.
+
+58
+00:03:43,980 --> 00:03:47,640
+E agora que eu executei isso em qualquer lugar no meu código quando eu chamo de.
+
+59
+00:03:47,960 --> 00:03:53,820
+Agora, atribua a variável 5 e eu posso reatribuí-la simplesmente dizendo que A é então igual a
+
+60
+00:03:53,820 --> 00:03:54,810
+algo como 10.
+
+61
+00:03:55,260 --> 00:04:02,940
+E agora, se eu verificar um, ele tem 10 lá e também posso adicionar agora objetos juntos, eu poderia dizer um mais A.
+
+62
+00:04:02,940 --> 00:04:07,420
+E isso vai resultar em 20 porque 10 mais 10 são iguais a 20.
+
+63
+00:04:07,560 --> 00:04:13,260
+E Python também permite que você faça reatribuições com uma referência ao mesmo objeto.
+
+64
+00:04:13,260 --> 00:04:14,440
+Deixe-me mostrar o que quero dizer com isso.
+
+65
+00:04:14,580 --> 00:04:21,420
+Eu poderia dizer A que ainda é igual a 10 Eu poderia reatribuí-lo para dizer que algo como A é
+
+66
+00:04:21,480 --> 00:04:23,140
+igual a um MA A.
+
+67
+00:04:23,400 --> 00:04:28,740
+Então, o que está dizendo é ter o valor atual de A, que é 10 e reatribuí-lo a um MA A.
+
+68
+00:04:28,770 --> 00:04:30,200
+Então é 10 mais 10.
+
+69
+00:04:30,210 --> 00:04:34,660
+Então, depois de correr, isso agora será igual a 20.
+
+70
+00:04:34,810 --> 00:04:38,010
+E tenha em mente se eu deveria executar esta célula pela segunda vez.
+
+71
+00:04:38,140 --> 00:04:42,410
+Então notei que o operador aqui vai de 40 para 42.
+
+72
+00:04:42,490 --> 00:04:49,570
+novo é 40 agora e você pode continuar fazendo isso novamente e você continuará vendo isso essencialmente dobrar cada vez.
+
+73
+00:04:49,810 --> 00:04:51,410
+Se eu executar um
+
+74
+00:04:51,700 --> 00:04:52,960
+Portanto, tenha isso em mente.
+
+75
+00:04:52,960 --> 00:04:57,040
+Isso é um pouco diferente de um ambiente de script se você estiver executando um script alto, você
+
+76
+00:04:57,040 --> 00:05:01,320
+realmente não vê esse efeito porque você apenas terá essa linha uma vez em um ambiente de célula.
+
+77
+00:05:01,330 --> 00:05:03,670
+Você teria que executar essa célula uma e outra vez.
+
+78
+00:05:04,070 --> 00:05:04,500
+ESTÁ BEM.
+
+79
+00:05:04,750 --> 00:05:11,410
+que não sabemos que tipo é onde você pode fazer é usar a função de tipo incorporado, de modo que
+
+80
+00:05:11,430 --> 00:05:17,200
+t e p e tenham aberto em parênteses próximos e aprenderemos como criar nossas próprias funções mais tarde.
+
+81
+00:05:17,200 --> 00:05:18,130
+Então, vamos imaginar
+
+82
+00:05:18,130 --> 00:05:24,010
+Mas pasand a variável lá deslize entrar e você receberá a palavra-chave da Python para o tipo
+
+83
+00:05:24,010 --> 00:05:24,630
+desse tipo.
+
+84
+00:05:24,640 --> 00:05:27,410
+E neste caso é eu. UMA. porque é inteiro.
+
+85
+00:05:27,550 --> 00:05:30,310
+Vamos reatribuí-lo para ser um número de ponto flutuante.
+
+86
+00:05:30,340 --> 00:05:32,070
+Então, diremos trinta e um.
+
+87
+00:05:32,110 --> 00:05:36,910
+Vamos verificar o tipo desse tipo de a e ele retorna esse flutuador.
+
+88
+00:05:36,910 --> 00:05:41,980
+Então, essas são as mesmas palavras-chave que vimos quando discutimos essa tabela de tipos básicos de dados.
+
+89
+00:05:41,980 --> 00:05:47,320
+Agora, como você mencionou anteriormente, você deseja evitar o uso de palavras-chave incorporadas em Python como nomes de variáveis ​​e a maneira como você poderia saber se isso está
+
+90
+00:05:47,320 --> 00:05:54,310
+acontecendo ou não é, digamos que eu queria começar a atribuir I. UMA. igual a
+
+91
+00:05:54,310 --> 00:05:55,760
+4.
+
+92
+00:05:55,810 --> 00:05:57,150
+Então observe o que está acontecendo aqui.
+
+93
+00:05:57,160 --> 00:06:01,610
+Tenho destaque de sintaxe em I. UMA. e não entendi isso antes com um.
+
+94
+00:06:01,630 --> 00:06:07,150
+Então, isso significa que eu e t aqui é uma palavra-chave especial e você não deve usá-lo para
+
+95
+00:06:07,150 --> 00:06:07,750
+algo assim.
+
+96
+00:06:07,750 --> 00:06:13,390
+está tendo algum destaque especial de que um nome de variável normal não tem, então você deve evitar usar isso.
+
+97
+00:06:13,390 --> 00:06:15,810
+Então, se você ver que seu nome de variável
+
+98
+00:06:15,820 --> 00:06:18,130
+Então, definitivamente, nunca execute isso.
+
+99
+00:06:18,130 --> 00:06:20,590
+E se você realmente correu assim como você estava seguindo.
+
+100
+00:06:20,770 --> 00:06:22,930
+Ou talvez você tenha cometido algum outro erro de re-atribuição.
+
+101
+00:06:22,930 --> 00:06:28,270
+Você sempre pode vir aqui para o kernel e selecionar reiniciar o kernel e isso irá reiniciar o kernel e
+
+102
+00:06:28,270 --> 00:06:31,630
+ele irá excluir todas as variáveis ​​para que todas as variáveis ​​sejam perdidas.
+
+103
+00:06:31,660 --> 00:06:36,670
+Se alguma vez você comete algum tipo de erro estranho porque você reatribuiu algo como lista ou eu. UMA.
+
+104
+00:06:37,030 --> 00:06:38,290
+Você pode clicar em reiniciar aqui.
+
+105
+00:06:38,440 --> 00:06:41,430
+Ele irá reiniciar o kernel e então você precisará executar as células novamente.
+
+106
+00:06:41,560 --> 00:06:47,170
+Se você quiser encontrar qualquer coisa, porque se dissermos aqui, eles dirão que não, eu não definir Sin-Eater
+
+107
+00:06:47,170 --> 00:06:49,980
+rerun as células e então você tem 5 novamente.
+
+108
+00:06:50,420 --> 00:06:56,570
+OK, então a última coisa que quero saber é um exemplo simples, use nomes de variáveis.
+
+109
+00:06:56,830 --> 00:07:08,240
+Então eu digo que minha renda é igual a 100 e, em seguida, na célula, vou dizer que a minha taxa de imposto é dizer que eu tenho uma
+
+110
+00:07:08,240 --> 00:07:13,420
+taxa de imposto de 10%, então 0. 1 e eu quero descobrir o que os meus impostos totais pagos são.
+
+111
+00:07:13,550 --> 00:07:18,130
+Eu direi que meus impostos são iguais aos meus rendimentos.
+
+112
+00:07:18,280 --> 00:07:24,600
+Aumente a minha taxa de imposto, então eu tenho isso e Elish verifique quais são meus impostos.
+
+113
+00:07:24,600 --> 00:07:25,750
+Quanto eu devo.
+
+114
+00:07:25,960 --> 00:07:27,240
+Vou verificar meus impostos.
+
+115
+00:07:27,240 --> 00:07:29,040
+E aí temos 10. 0.
+
+116
+00:07:29,130 --> 00:07:35,880
+Então, agora posso executar lógica com nomes de variáveis ​​e isso é muito mais legível do que apenas usar números inteiros ou números
+
+117
+00:07:35,880 --> 00:07:36,770
+de ponto flutuante.
+
+118
+00:07:36,780 --> 00:07:42,540
+Porque agora tenho essa frase agradável quase inglesa que diz que meus impostos são iguais aos meus tempos de renda em minha
+
+119
+00:07:42,540 --> 00:07:43,320
+taxa de imposto.
+
+120
+00:07:43,600 --> 00:07:45,990
+Ok, então aprendemos alguns números básicos em Python.
+
+121
+00:07:45,990 --> 00:07:49,830
+Aprendemos a lidar com o carrapato e o envolvemos ao aprender como fazer uma
+
+122
+00:07:50,040 --> 00:07:51,300
+atribuição de variáveis ​​no Python.
+
+123
+00:07:51,300 --> 00:07:53,420
+Em seguida, vamos aprender sobre cordas.
+
+124
+00:07:53,430 --> 00:07:54,190
+Eu te vejo lá.

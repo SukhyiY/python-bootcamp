@@ -1,0 +1,727 @@
+1
+00:00:05,580 --> 00:00:06,700
+Bienvenido de nuevo a todos.
+
+2
+00:00:06,780 --> 00:00:11,020
+No discutamos a menudo el formato de cadena para imprimir.
+
+3
+00:00:11,030 --> 00:00:15,590
+Querrá poder insertar una variable en una cadena para imprimir.
+
+4
+00:00:15,590 --> 00:00:17,560
+Entonces, ya aprendimos sobre la concatenación.
+
+5
+00:00:17,690 --> 00:00:22,040
+Por ejemplo, puede tener una variable llamada mi nombre igual a José y desea imprimir la frase.
+
+6
+00:00:22,040 --> 00:00:23,040
+Hola José.
+
+7
+00:00:23,090 --> 00:00:25,310
+Entonces, lo que puedes terminar haciendo es decir Prince.
+
+8
+00:00:25,460 --> 00:00:30,170
+Y luego dentro de esa función de impresión dices hola y la concatenas con la variable my name.
+
+9
+00:00:30,170 --> 00:00:34,370
+Ahora, en realidad, existen varias formas de formatear cadenas para imprimir variables en ellas, de modo
+
+10
+00:00:34,370 --> 00:00:37,190
+que no tenga que utilizar constantemente esta concatenación o signo más.
+
+11
+00:00:37,430 --> 00:00:41,840
+Y esto, en general, se conoce como interpelación de cuerdas, que es básicamente una manera
+
+12
+00:00:41,840 --> 00:00:47,490
+realmente elegante de decir pegar una variable en una cuerda, por lo que vamos a explorar dos métodos para hacerlo.
+
+13
+00:00:47,510 --> 00:00:52,920
+Uno es el método de formato y el otro es el método de cadenas que representa literales de cadena formateados.
+
+14
+00:00:53,060 --> 00:00:56,830
+Y este es un método más nuevo para algunas versiones más nuevas de Python 3.
+
+15
+00:00:56,870 --> 00:01:01,160
+Personalmente prefiero ese método de formato, pero sigamos adelante y les muestre a ambos y ustedes
+
+16
+00:01:01,160 --> 00:01:03,200
+podrán decidir cuál es más su estilo.
+
+17
+00:01:03,200 --> 00:01:04,060
+Empecemos.
+
+18
+00:01:04,240 --> 00:01:04,500
+DE ACUERDO.
+
+19
+00:01:04,520 --> 00:01:10,330
+Comencemos discutiendo el método de formateo y la sintaxis básica para esto. Vas a tener tu cadena
+
+20
+00:01:10,340 --> 00:01:16,400
+definida y luego dentro de tu cadena vas a tener llaves especiales como marcadores de posición para las
+
+21
+00:01:16,400 --> 00:01:20,950
+variables que vas a insertar y luego escribe la cadena que llamas ese formato.
+
+22
+00:01:21,110 --> 00:01:26,510
+Y luego dentro de esto vas a llamar a las cadenas o variables que deseas insertar
+
+23
+00:01:26,510 --> 00:01:27,400
+en tu cadena.
+
+24
+00:01:27,410 --> 00:01:29,590
+Veamos muchos ejemplos aquí.
+
+25
+00:01:29,660 --> 00:01:36,050
+Vamos a comenzar con el ejemplo más básico que solo dice que esta es una cadena que se va a abrir
+
+26
+00:01:36,050 --> 00:01:37,390
+y cerrar con llaves.
+
+27
+00:01:37,550 --> 00:01:40,660
+Y justo después de la cadena vamos a llamar a ese formato.
+
+28
+00:01:40,670 --> 00:01:45,840
+Así que observe cómo el punto toca la cuerda allí y luego cualquier cadena que quiera insertar.
+
+29
+00:01:45,880 --> 00:01:53,210
+Entonces para hacerlo realmente obvio voy a poner todas las mayúsculas insertadas, ejecutar esto y veo que esto es una
+
+30
+00:01:53,540 --> 00:01:54,310
+cadena insertada.
+
+31
+00:01:54,530 --> 00:02:00,650
+Entonces, con el método de formato DOT que se ha hecho es agarrar la cuerda e insertarla donde
+
+32
+00:02:00,650 --> 00:02:01,770
+vio esas llaves.
+
+33
+00:02:01,850 --> 00:02:05,810
+Entonces hay varias ventajas aquí y vamos a revisarlas todas.
+
+34
+00:02:05,810 --> 00:02:10,080
+Una ventaja es que las cadenas se pueden insertar por posición de índice.
+
+35
+00:02:10,460 --> 00:02:12,770
+Imaginemos que queremos insertar muchas cosas.
+
+36
+00:02:12,770 --> 00:02:17,680
+Vamos a decir que las llaves tienen llaves de llaves.
+
+37
+00:02:18,020 --> 00:02:21,380
+Luego diga ese
+
+38
+00:02:23,740 --> 00:02:28,180
+formato y diga Fox Brown.
+
+39
+00:02:28,590 --> 00:02:34,560
+Ahora lo que sucede es básicamente que el formato va a insertar las cadenas en el mismo orden.
+
+40
+00:02:34,590 --> 00:02:37,620
+Usted los suministró y en estas llaves.
+
+41
+00:02:37,620 --> 00:02:40,630
+Así que ahora tenemos al zorro marrón rápido.
+
+42
+00:02:40,700 --> 00:02:46,200
+Lo que sería bueno es que si realmente tenemos este sentido gramatical que va a ser
+
+43
+00:02:46,290 --> 00:02:53,760
+el zorro marrón rápido. Lo que podemos hacer es basarnos en la posición del índice dentro de este formato. Puedo suministrar esos
+
+44
+00:02:53,760 --> 00:02:55,800
+números en el orden que quiero.
+
+45
+00:02:55,800 --> 00:02:58,550
+Entonces, la primera palabra que quiero es realmente rápida.
+
+46
+00:02:58,590 --> 00:03:02,510
+Esto también está en la exposición porque es 0 1 2.
+
+47
+00:03:02,760 --> 00:03:09,150
+Así que voy a decir: "Okay, dos van primero aquí y luego, el próximo, lo que quiero va a ser marrón".
+
+48
+00:03:09,150 --> 00:03:13,810
+Entonces esa es una posición 1, entonces 0 1 y luego la primera palabra.
+
+49
+00:03:13,810 --> 00:03:17,190
+El índice Fox 0 aquí será el último que quiero.
+
+50
+00:03:18,280 --> 00:03:20,200
+Y luego, cuando ejecuto esto, vuelvo.
+
+51
+00:03:20,200 --> 00:03:21,930
+El veloz zorro marrón.
+
+52
+00:03:22,000 --> 00:03:24,610
+Lo que es realmente bueno es que puedo repetir esto.
+
+53
+00:03:24,670 --> 00:03:31,630
+Entonces, si quiero decir Fox Fox Fox, podría decir que aquí funciona el 0 0 0 y ahora tengo el
+
+54
+00:03:31,630 --> 00:03:38,820
+Fox Fox Fox así puedo jugar con esto en caso de que alguna vez quiera trabajar basado fuera de la exposición.
+
+55
+00:03:38,830 --> 00:03:43,270
+Ahora también es bueno que no solo pueda llamar las cosas desde la posición del índice.
+
+56
+00:03:43,420 --> 00:03:49,420
+indicación real de que el cero sea Fox y dije que tengo que mirar aquí y decir OK cuál fue la primera palabra.
+
+57
+00:03:49,570 --> 00:03:54,700
+También puedo asignarles palabras clave y luego simplemente llamar a las palabras clave porque aquí, cuando estoy trabajando con
+
+58
+00:03:54,700 --> 00:03:55,730
+esto, no hay ninguna
+
+59
+00:03:55,900 --> 00:03:57,400
+Lo que puedo hacer es asignarles palabras clave.
+
+60
+00:03:57,430 --> 00:03:58,330
+Entonces, hagamos esto.
+
+61
+00:03:58,330 --> 00:04:05,320
+Vamos a establecer las llaves de llaves Las llaves de llaves dicen que el formato y luego dentro de
+
+62
+00:04:05,500 --> 00:04:12,130
+la llamada de formato en curso dicen que F es igual a la cadena Fox, así que puedes
+
+63
+00:04:12,130 --> 00:04:21,400
+pensar en esto como una tarea variable y luego diremos be es igual a Brown dirá que es igual a rápido y luego puedo usar estos
+
+64
+00:04:21,550 --> 00:04:22,980
+nombres de variable aquí.
+
+65
+00:04:23,010 --> 00:04:25,720
+F. B y Q para insertarlos.
+
+66
+00:04:25,730 --> 00:04:30,130
+Entonces, básicamente, usa estas palabras clave como nombres de variables aquí y las inserta de esa manera.
+
+67
+00:04:30,130 --> 00:04:36,870
+Entonces, en lugar de esto, di que es la cola.
+
+68
+00:04:37,710 --> 00:04:39,210
+Y luego, cuando ejecuto esto, vuelvo.
+
+69
+00:04:39,210 --> 00:04:44,790
+El zorro café rápido y esto es incluso mejor que antes porque es un poco más legible para alguien que
+
+70
+00:04:44,790 --> 00:04:45,860
+lo usa como bueno.
+
+71
+00:04:45,870 --> 00:04:47,290
+Q significa rápido.
+
+72
+00:04:47,370 --> 00:04:51,130
+En lugar de tener que mirar hacia atrás y preguntarse a usted mismo, también está bien lo que estaba en esta posición.
+
+73
+00:04:51,270 --> 00:04:52,980
+Y luego venir aquí para formatear.
+
+74
+00:04:53,040 --> 00:04:55,140
+Entonces, esto es capaz de usar estas palabras clave.
+
+75
+00:04:55,320 --> 00:04:58,240
+Y realmente realmente lo prefiero de esta manera yo mismo.
+
+76
+00:05:00,170 --> 00:05:05,240
+Y lo que es realmente bueno de esto, si de nuevo por alguna razón
+
+77
+00:05:05,240 --> 00:05:11,860
+quisieras decir Fox Fox Fox, podrías escribir F en cada uno de estos refuerzos y recibirás Fox Fox Fox.
+
+78
+00:05:11,960 --> 00:05:14,910
+Así que de nuevo usando palabras clave puedes usar la repetición fácilmente.
+
+79
+00:05:15,300 --> 00:05:15,620
+DE ACUERDO.
+
+80
+00:05:15,620 --> 00:05:21,140
+y básicamente esto le permite ajustar el ancho y la precisión de su número de punto flotante.
+
+81
+00:05:21,140 --> 00:05:26,660
+Para finalizar nuestra discusión sobre el método forment, quiero hablar brevemente sobre el formato de flotación con
+
+82
+00:05:26,660 --> 00:05:28,140
+el método de formato DOT
+
+83
+00:05:28,360 --> 00:05:34,040
+Comencemos con un ejemplo, vamos a decir que el resultado es igual a 100 dividido por 7 7 7.
+
+84
+00:05:34,060 --> 00:05:39,900
+Entonces, como es de esperar, este resultado es un número con una tonelada de decimales después de él.
+
+85
+00:05:40,090 --> 00:05:44,980
+Lo que podemos hacer es, de hecho, cuando estamos imprimiendo esto, cambiar el nivel de precisión que
+
+86
+00:05:45,340 --> 00:05:48,260
+queremos e incluso cambiar el ancho del número en sí.
+
+87
+00:05:49,030 --> 00:05:52,610
+Así que vamos a comenzar diciendo Príncipe.
+
+88
+00:05:52,790 --> 00:06:02,820
+resultado fue y luego las llaves abiertas y cerradas dicen ese formato y luego aquí dirán el resultado ejecutar esto.
+
+89
+00:06:02,830 --> 00:06:03,220
+El
+
+90
+00:06:03,220 --> 00:06:04,570
+Y vemos que el resultado fue.
+
+91
+00:06:04,600 --> 00:06:07,630
+Y básicamente este tipo de gran número de precisión.
+
+92
+00:06:07,780 --> 00:06:14,170
+Lo que puedo hacer es decir que R es igual al resultado y luego pasar y estar dentro de las llaves y
+
+93
+00:06:14,170 --> 00:06:15,490
+obtengo el mismo resultado.
+
+94
+00:06:15,700 --> 00:06:20,850
+Entonces, la forma en que el formateo funciona para el formato de flauta en lo que respecta al método de diseño de
+
+95
+00:06:20,860 --> 00:06:22,760
+puntos es el valor al que te refieres.
+
+96
+00:06:22,780 --> 00:06:25,710
+Entonces, en ese caso, está aquí para ver el nombre del valor real.
+
+97
+00:06:25,840 --> 00:06:32,050
+Luego escribes dos puntos y luego escribes el valor con el que quieres puntos y luego el valor de precisión
+
+98
+00:06:32,050 --> 00:06:37,550
+deseado y luego a F y con frecuencia lo que realmente te importa es la precisión real que
+
+99
+00:06:37,570 --> 00:06:42,680
+el ancho simplemente te permite agregar. en algunos espacios en blanco si tiene un valor realmente grande.
+
+100
+00:06:42,730 --> 00:06:45,770
+Así que hagamos lo siguiente, vamos a decir valor.
+
+101
+00:06:45,850 --> 00:06:47,910
+Entonces ese es nuestro colon
+
+102
+00:06:48,010 --> 00:06:53,260
+Vamos a establecer nuestra con solo uno que un punto y luego el nivel de precisión que queremos.
+
+103
+00:06:53,260 --> 00:06:56,320
+Así que esto es principalmente donde vas a jugar con este valor de precisión.
+
+104
+00:06:56,410 --> 00:06:56,970
+Imaginemos
+
+105
+00:06:56,980 --> 00:06:59,670
+Solo quiero que tres lugares pasen un punto decimal.
+
+106
+00:06:59,710 --> 00:07:05,080
+Así que quiero uno dos y luego nueve porque va a ser alrededor de eso hasta 9 debido
+
+107
+00:07:05,080 --> 00:07:14,330
+a los 7 que están al lado, entonces diría 1. 3 si ejecuto esto y recupero 0. 1 a 9.
+
+108
+00:07:14,410 --> 00:07:19,540
+Ahora bien, si juego con esto con valor y lo hago realmente grande, lo que termina sucediendo es
+
+109
+00:07:19,540 --> 00:07:21,240
+que terminas agregando espacios en blanco.
+
+110
+00:07:21,280 --> 00:07:27,490
+Y la razón de esto es porque básicamente describe cuánto tiempo o qué ancho quieres que sea este
+
+111
+00:07:27,490 --> 00:07:29,000
+número entero de cadena.
+
+112
+00:07:29,080 --> 00:07:34,570
+porque terminas escribiendo un montón de espacios en blanco, pero puede haber ciertas situaciones en las que quieras editar eso.
+
+113
+00:07:34,660 --> 00:07:36,170
+Eso no es terriblemente útil
+
+114
+00:07:36,400 --> 00:07:40,930
+Así que está disponible aquí, pero a menudo lo que vas a estar jugando es realmente la
+
+115
+00:07:40,930 --> 00:07:41,460
+precisión aquí.
+
+116
+00:07:41,560 --> 00:07:43,310
+Entonces podemos hacer esto cinco.
+
+117
+00:07:43,690 --> 00:07:44,710
+Y aquí podemos ver.
+
+118
+00:07:44,710 --> 00:07:49,950
+Ahora estamos ocupando menos del total porque con espacios en blanco porque tenemos más números
+
+119
+00:07:49,950 --> 00:07:54,870
+que pasan un punto decimal y lo que generalmente podemos mantener como uno solo.
+
+120
+00:07:54,970 --> 00:08:03,120
+Pero sigamos adelante y le mostraremos otro ejemplo, vamos a decir que el resultado es igual a, digamos, 104 puntos.
+
+121
+00:08:03,170 --> 00:08:05,130
+Uno dos tres CUATRO CINCO.
+
+122
+00:08:05,250 --> 00:08:10,560
+Ejecutar eso y podemos ver aquí que incluso si uno en el otro lado es un punto decimal que
+
+123
+00:08:10,860 --> 00:08:15,020
+es esencialmente lo mismo y podemos agregarlo y jugar en este valor de coma flotante.
+
+124
+00:08:15,370 --> 00:08:18,160
+OK, entonces ese es el formato flotante con el punto para un método.
+
+125
+00:08:18,210 --> 00:08:24,870
+Una vez más es el valor que tiene y realmente su precisión seguida de F y puede consultar el cuaderno
+
+126
+00:08:24,870 --> 00:08:27,090
+para obtener muchos más ejemplos al respecto.
+
+127
+00:08:27,090 --> 00:08:31,310
+Finalmente, vamos a hablar sobre f strings y estos son literales de cadenas formateados.
+
+128
+00:08:31,420 --> 00:08:36,930
+Estos se introducen en Python 3. ofrecen varios beneficios con respecto a este método de formato anterior.
+
+129
+00:08:36,960 --> 00:08:38,790
+6 Por lo tanto, son muy nuevos y
+
+130
+00:08:38,790 --> 00:08:43,890
+Generalmente prefiero el método de formato de puntos, pero mucha gente prefiere este método literal de cadena, especialmente
+
+131
+00:08:43,890 --> 00:08:48,690
+si provienen de otros idiomas y lo que le permite hacer es, básicamente, omitir este paso de
+
+132
+00:08:48,690 --> 00:08:54,780
+usar ese formato y en su lugar escribir los resultados o cualquier nombre de variable que quiero directamente dentro de la cadena.
+
+133
+00:08:54,780 --> 00:08:57,970
+Entonces, la forma en que hacemos eso es que el siguiente método creará un par de nuevas celdas aquí.
+
+134
+00:09:00,080 --> 00:09:05,990
+Voy a decir que el nombre es igual a José.
+
+135
+00:09:06,140 --> 00:09:06,750
+Ejecuta eso.
+
+136
+00:09:06,950 --> 00:09:11,500
+Y luego, típicamente, lo que tendría que hacer es decir hola.
+
+137
+00:09:11,750 --> 00:09:19,740
+Su nombre es y luego diría que el nombre de formato lo ejecuto y dice hola Su nombre es José.
+
+138
+00:09:19,970 --> 00:09:27,870
+Lo mejor que puedes hacer es reemplazar la llamada al formato simplemente escribiendo una F en frente de la cadena
+
+139
+00:09:27,870 --> 00:09:32,880
+aquí y luego puedes pasar el nombre directamente a la cadena misma.
+
+140
+00:09:33,090 --> 00:09:35,520
+Y si ejecuta esto, obtiene el mismo resultado.
+
+141
+00:09:35,520 --> 00:09:40,340
+Así que esto se llama cadenas F o literales de cadena formateados y esto es nuevo.
+
+142
+00:09:40,350 --> 00:09:42,150
+Python 3. 6.
+
+143
+00:09:42,150 --> 00:09:45,660
+Y mucha gente ha estado solicitando esta característica por un largo tiempo porque es bastante
+
+144
+00:09:45,660 --> 00:09:46,650
+común en otros idiomas.
+
+145
+00:09:46,650 --> 00:09:50,460
+Nuevamente porque soy un poco más vieja escuela, realmente me acostumbré a este método de formateo y por eso
+
+146
+00:09:50,460 --> 00:09:51,180
+me gusta mucho.
+
+147
+00:09:51,180 --> 00:09:55,120
+Pero si vienes de otros idiomas, definitivamente te sugiero que revises las cadenas.
+
+148
+00:09:55,170 --> 00:09:59,370
+Mucha gente piensa que es una gran mejora con respecto al método anterior y
+
+149
+00:09:59,370 --> 00:10:04,480
+puedes ver por qué es realmente conveniente poder escribir ese nombre de variable directamente dentro de estas llaves.
+
+150
+00:10:06,580 --> 00:10:09,030
+Y esto funciona con múltiples variables.
+
+151
+00:10:09,220 --> 00:10:17,730
+Así que digamos que el nombre es Sam la edad es 3.
+
+152
+00:10:18,130 --> 00:10:22,450
+Podemos decir imprimir F para que Python sepa su cadena de caracteres.
+
+153
+00:10:22,670 --> 00:10:23,340
+Bien.
+
+154
+00:10:24,690 --> 00:10:25,960
+En llaves.
+
+155
+00:10:26,040 --> 00:10:32,250
+El nombre es llaves rizadas h años.
+
+156
+00:10:32,480 --> 00:10:34,890
+Y si ejecutamos esto, vemos que Sam tiene tres años.
+
+157
+00:10:34,970 --> 00:10:39,260
+Así que esta es una muy buena manera de hacer muy rápidamente la interpelación de cadenas
+
+158
+00:10:39,260 --> 00:10:41,880
+que solo está inyectando estas variables en la cadena misma.
+
+159
+00:10:42,290 --> 00:10:42,650
+DE ACUERDO.
+
+160
+00:10:42,710 --> 00:10:45,160
+Esos son los conceptos básicos del formateo de cadenas.
+
+161
+00:10:45,170 --> 00:10:48,240
+Tenemos muchos más ejemplos en el cuaderno en caso de que esté interesado.
+
+162
+00:10:48,410 --> 00:10:52,160
+Y también tenemos ejemplos de algunos métodos de formato de cadenas más antiguos que técnicamente aún
+
+163
+00:10:52,160 --> 00:10:57,560
+funcionan en Python 3 que realmente recomendaría que use el método de formato de puntos o si le gusta este nuevo método de
+
+164
+00:10:57,560 --> 00:10:57,930
+cadena.
+
+165
+00:10:57,950 --> 00:10:58,930
+Usa eso también.
+
+166
+00:10:59,120 --> 00:11:03,770
+de ejemplos de formato de cadenas para formatear los marcadores de posición, que es algo de lo
+
+167
+00:11:03,770 --> 00:11:09,070
+que podemos hablar sobre este video porque es un método bastante antiguo. Realmente te sugiero que lo uses, pero también
+
+168
+00:11:09,080 --> 00:11:13,220
+puedes ver cómo puede usar la precisión y el relleno para números de coma flotante.
+
+169
+00:11:13,220 --> 00:11:17,920
+Quería mostrarte brevemente cómo es el nopal para esta conferencia, así que puedes ver aquí. Tenemos un montón
+
+170
+00:11:17,930 --> 00:11:22,730
+También tenemos muchos más ejemplos con el método de formato de pensamiento para insertar objetos
+
+171
+00:11:22,820 --> 00:11:23,910
+mediante una exposición reutilizándolos.
+
+172
+00:11:23,930 --> 00:11:25,720
+También tenemos alineaciones de precisión.
+
+173
+00:11:25,730 --> 00:11:29,840
+Entonces, todas estas cosas no las vamos a usar en el curso, pero están
+
+174
+00:11:29,840 --> 00:11:30,900
+disponibles en la nota.
+
+175
+00:11:31,010 --> 00:11:35,250
+En caso de que quiera sumergirse realmente en este tema, tenemos muchos ejemplos para usted.
+
+176
+00:11:35,540 --> 00:11:36,040
+DE ACUERDO.
+
+177
+00:11:36,290 --> 00:11:40,010
+De nuevo, todo lo que necesita saber sobre el formato de cadenas para este curso es
+
+178
+00:11:40,010 --> 00:11:46,010
+que puede usar cadenas literales para insertar e interpretar cadenas de esta manera o puede usar el método de formato de puntos para inyectar las
+
+179
+00:11:46,010 --> 00:11:47,050
+variables de esa manera.
+
+180
+00:11:47,270 --> 00:11:47,640
+DE ACUERDO.
+
+181
+00:11:47,660 --> 00:11:48,780
+Espero que te sean útiles.
+
+182
+00:11:48,890 --> 00:11:49,910
+Te veremos en la próxima conferencia.

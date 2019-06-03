@@ -1,0 +1,471 @@
+1
+00:00:05,350 --> 00:00:06,560
+Bentornati a tutti.
+
+2
+00:00:06,580 --> 00:00:10,660
+Ora che abbiamo approfondito le nozioni di base sugli oggetti e le strutture dati
+
+3
+00:00:10,660 --> 00:00:14,310
+in Python, avremo un test di valutazione per verificare rapidamente la tua comprensione.
+
+4
+00:00:14,470 --> 00:00:19,210
+Quindi faremo una rapida panoramica del tuo primo test in questa lezione e come promemoria puoi
+
+5
+00:00:19,240 --> 00:00:22,150
+scaricare tutti i quaderni che accompagnano questo corso da hub.
+
+6
+00:00:22,300 --> 00:00:24,930
+Oppure è un file delle lezioni di panoramica del corso.
+
+7
+00:00:24,940 --> 00:00:26,980
+Quindi dai un'occhiata a quelle prime due lezioni.
+
+8
+00:00:27,010 --> 00:00:30,140
+Spieghiamo come ottenere tutte le informazioni su tutti i taccuini presenti.
+
+9
+00:00:30,490 --> 00:00:34,570
+E poi hai la possibilità di scaricare il notebook e rispondere alle domande direttamente
+
+10
+00:00:34,570 --> 00:00:39,370
+in quel notebook o puoi semplicemente aprire il link e aprire il tuo notebook in locale
+
+11
+00:00:39,370 --> 00:00:40,690
+e rispondere alle domande.
+
+12
+00:00:40,690 --> 00:00:42,740
+Quindi mostriamo molto velocemente come farlo.
+
+13
+00:00:42,760 --> 00:00:45,080
+Ho intenzione di aprire il collegamento in questo momento.
+
+14
+00:00:46,120 --> 00:00:48,040
+OK, ecco come appare la pagina iniziale.
+
+15
+00:00:48,040 --> 00:00:49,360
+Ti abbiamo già mostrato questo prima.
+
+16
+00:00:49,390 --> 00:00:54,000
+Nelle prime lezioni e questo corso si avvicina alle basi della struttura dei dati dell'oggetto Python.
+
+17
+00:00:54,040 --> 00:00:58,630
+E come promemoria puoi cliccare qui e poi scaricarlo per scaricare tutto il file zip che
+
+18
+00:00:58,630 --> 00:00:59,240
+si decomprime.
+
+19
+00:00:59,260 --> 00:01:05,050
+Si dispone di quei file notebook e quindi è possibile utilizzare il navigatore Anacapa per andare ovunque si trovino quei file
+
+20
+00:01:05,050 --> 00:01:07,180
+zip che sono stati salvati i file decompressi.
+
+21
+00:01:07,210 --> 00:01:09,280
+Clicca sulle basi della struttura dati dell'oggetto Python.
+
+22
+00:01:09,310 --> 00:01:12,040
+Scorri qui fino ad arrivare al test di valutazione.
+
+23
+00:01:12,040 --> 00:01:16,510
+Si noti che c'è anche il file di una soluzione e la prossima conferenza passerà attraverso le soluzioni, quindi
+
+24
+00:01:16,510 --> 00:01:18,470
+tutti i test qui sono in formato notebook.
+
+25
+00:01:18,700 --> 00:01:23,480
+Puoi fare un'autovalutazione contro la conferenza delle soluzioni o il taccuino delle soluzioni.
+
+26
+00:01:23,650 --> 00:01:25,400
+Facciamo clic su quel test di valutazione.
+
+27
+00:01:25,480 --> 00:01:30,010
+E questo sarà abbastanza semplice perché al momento non si conosce molto di un
+
+28
+00:01:30,010 --> 00:01:30,380
+pitone.
+
+29
+00:01:30,400 --> 00:01:35,200
+Non possiamo darti troppe domande tecniche in seguito, mentre impari sulle funzioni e sulla programmazione
+
+30
+00:01:35,200 --> 00:01:36,020
+orientata agli oggetti.
+
+31
+00:01:36,040 --> 00:01:40,480
+Le domande diventeranno molto più tecniche e saranno una specie di risposta giusta e
+
+32
+00:01:40,480 --> 00:01:41,340
+una risposta sbagliata.
+
+33
+00:01:41,410 --> 00:01:44,430
+Ma al momento queste sono domande piuttosto elementari.
+
+34
+00:01:44,500 --> 00:01:49,120
+Il primo voglio solo che tu scriva una breve descrizione dei tipi di oggetti che cadono
+
+35
+00:01:49,120 --> 00:01:53,350
+e delle strutture di dati che abbiamo appreso sulle liste di stringhe tuple e dizionari.
+
+36
+00:01:53,350 --> 00:01:57,820
+Questo è solo per te per scrivere velocemente assicurati di capire quali sono le
+
+37
+00:01:57,880 --> 00:02:02,750
+differenze tra un elenco e un dizionario o le differenze tra un elenco e una tupla.
+
+38
+00:02:03,040 --> 00:02:08,050
+Quindi, come promemoria, puoi fare clic su una cella qualsiasi e modificare il tipo di cella per
+
+39
+00:02:08,050 --> 00:02:10,500
+contrassegnarla nel caso in cui desideri scrivere delle note.
+
+40
+00:02:10,540 --> 00:02:14,600
+A parte il prossimo abbiamo solo un paio di domande sulle conferenze sui numeri.
+
+41
+00:02:14,740 --> 00:02:19,660
+Quindi voglio che tu scriva un'equazione che usi la divisione della moltiplicazione e l'addizione e la sottrazione
+
+42
+00:02:19,900 --> 00:02:23,440
+dell'esponente che quando lo metti insieme è uguale a cento punti a cinque.
+
+43
+00:02:23,440 --> 00:02:27,670
+Quindi, solo per essere sicuro di ricordare che tutti questi segni aritmetici dovrebbero essere piuttosto semplici.
+
+44
+00:02:27,910 --> 00:02:29,080
+E questo è solo memoria del testamento.
+
+45
+00:02:29,110 --> 00:02:33,170
+Anche in questo caso puoi semplicemente lavorare all'indietro da un centinaio di punti a cinque per afferrare
+
+46
+00:02:33,170 --> 00:02:34,520
+effettivamente i numeri che fanno funzionare.
+
+47
+00:02:34,650 --> 00:02:38,980
+Poi voglio che tu risponda a queste tre domande per digitare un codice e poi usare il codice per
+
+48
+00:02:38,980 --> 00:02:39,840
+verificare la tua risposta.
+
+49
+00:02:39,850 --> 00:02:44,220
+Quindi voglio che tu veda qual è il valore di questa espressione questa espressione e questa espressione.
+
+50
+00:02:44,260 --> 00:02:47,040
+Quindi questo è testare l'ordine delle operazioni, vedere se lo ricordi.
+
+51
+00:02:47,440 --> 00:02:49,030
+E poi ecco una domanda interessante.
+
+52
+00:02:49,030 --> 00:02:51,040
+Qual è il tipo effettivo.
+
+53
+00:02:51,040 --> 00:02:53,730
+Quindi questo è il tipo di dati del risultato di qui.
+
+54
+00:02:54,010 --> 00:02:58,340
+Quindi, come suggerimento, abbiamo aggiunto un numero intero a un numero in virgola mobile che viene aggiunto a un numero intero.
+
+55
+00:02:58,360 --> 00:03:04,570
+Quindi, quale sarebbe il tipo di ciò che voglio fare trovare un numero di radici quadrate, è il suo quadrato, quindi
+
+56
+00:03:04,990 --> 00:03:07,760
+trova la sua radice quadrata e poi scopri cosa quadratura.
+
+57
+00:03:07,850 --> 00:03:12,710
+Quindi il potere di OK allora abbiamo delle stringhe.
+
+58
+00:03:12,710 --> 00:03:18,240
+E per la stringa data ciao dare un comando indice restituisce la lettera e.
+
+59
+00:03:18,280 --> 00:03:20,350
+Quindi inserirai il tuo codice qui sotto.
+
+60
+00:03:20,350 --> 00:03:25,090
+Quindi stampa l'indicizzazione che facilita l'inversione della stringa Hello using slicing.
+
+61
+00:03:25,090 --> 00:03:30,670
+Quindi questo tipo di ha mostrato un modo rapido per farlo più avanti o prima nel corso, dovrei dire poi dato
+
+62
+00:03:30,670 --> 00:03:34,230
+la stringa ciao dare due metodi per produrre la lettera o utilizzando l'indicizzazione.
+
+63
+00:03:34,270 --> 00:03:37,570
+Quindi ho notato che O è l'ultima lettera nella stringa s.
+
+64
+00:03:37,570 --> 00:03:40,030
+Quindi ci sono due metodi per afferrare quell'ultima lettera.
+
+65
+00:03:40,120 --> 00:03:45,980
+Vedi se riesci a capirli usando l'indicizzazione allora Lisse.
+
+66
+00:03:46,000 --> 00:03:49,870
+Voglio che tu costruisca la lista 000 in due modi separati.
+
+67
+00:03:49,870 --> 00:03:56,050
+Andare avanti e rivedere la lezione elenco per capire come costruire rapidamente l'elenco in due modi separati.
+
+68
+00:03:56,230 --> 00:03:58,160
+Non vogliono che tu riassegni Hello.
+
+69
+00:03:58,180 --> 00:04:00,820
+Questa lista annidata per dire addio invece.
+
+70
+00:04:00,850 --> 00:04:08,970
+Quindi, usando l'indicizzazione, ciao ciao e poi riassegnalo per essere buono per poi voglio che tu possa ordinare questa lista qui sotto.
+
+71
+00:04:08,990 --> 00:04:12,660
+Quindi vedi se ti ricordi quel metodo di chiamata dopo che abbiamo dizionari.
+
+72
+00:04:12,660 --> 00:04:17,550
+perché per prima cosa iniziamo con il semplice afferrare le chiavi e le coppie di valori.
+
+73
+00:04:17,550 --> 00:04:19,340
+Quindi questo sarà un po 'complicato
+
+74
+00:04:19,560 --> 00:04:24,360
+Quindi per il primo dizionario o davvero tutti i dizionari voglio che tu prenda la stringa ciao.
+
+75
+00:04:24,480 --> 00:04:28,200
+Il primo dovrebbe essere piuttosto semplice, vedete qui avete una semplice chiave e poi avete buongiorno.
+
+76
+00:04:28,380 --> 00:04:32,120
+Quindi è solo D e quindi le chiavi semplici ti danno la risposta per quello.
+
+77
+00:04:32,190 --> 00:04:34,120
+Il secondo sarà un po 'più complicato.
+
+78
+00:04:34,120 --> 00:04:36,030
+Quindi ingrandisci e guarda davvero qui.
+
+79
+00:04:36,210 --> 00:04:39,700
+Si noti che il dizionario è annidato all'interno di un altro dizionario.
+
+80
+00:04:39,700 --> 00:04:41,170
+Quindi avrai bisogno di due chiamate lì.
+
+81
+00:04:41,340 --> 00:04:43,890
+E ti consiglio di suddividere questo in passi.
+
+82
+00:04:43,890 --> 00:04:46,140
+Poi abbiamo qualcosa che è anche un po 'più complicato.
+
+83
+00:04:46,350 --> 00:04:50,750
+E proprio come un rapido promemoria queste sono espressioni abbastanza irrealistiche di dizionari o liste.
+
+84
+00:04:50,790 --> 00:04:53,640
+Questo è solo gratuito per l'indicizzazione e le chiamate ai tasti.
+
+85
+00:04:53,670 --> 00:04:58,430
+Quindi prova ancora a prendere Hello da questo e se sei in grado di farlo, allora capisci davvero l'indicizzazione
+
+86
+00:04:58,430 --> 00:04:59,130
+e le liste.
+
+87
+00:04:59,280 --> 00:05:00,920
+E poi finalmente questo è l'ultimo.
+
+88
+00:05:00,930 --> 00:05:04,860
+Questo sarà piuttosto difficile e fastidioso, ma sarà sufficiente scomporlo passo dopo passo.
+
+89
+00:05:05,010 --> 00:05:12,460
+Come le chiavi Bing e poi la chiave indice e poi forse un altro indice, ecc. fino a quando non vieni a fare un saluto, ho una breve domanda
+
+90
+00:05:12,460 --> 00:05:15,970
+qui che probabilmente ti abbiamo chiesto prima di poter usare un dizionario.
+
+91
+00:05:15,970 --> 00:05:20,130
+Perché o perché non abbiamo tuple.
+
+92
+00:05:20,130 --> 00:05:24,870
+Quindi qual è la principale differenza tra tuple e liste e come crei una tupla.
+
+93
+00:05:25,070 --> 00:05:25,790
+Quindi abbiamo set.
+
+94
+00:05:25,800 --> 00:05:27,290
+Quindi, ciò che è unico in un set.
+
+95
+00:05:27,330 --> 00:05:29,700
+Ciò che rende un insieme diverso dal dire un dizionario.
+
+96
+00:05:29,970 --> 00:05:35,640
+usi un set per trovare i valori unici della lista qui sotto e poi finalmente abbiamo una sezione sui booleani.
+
+97
+00:05:35,730 --> 00:05:37,170
+E poi voglio che tu
+
+98
+00:05:37,200 --> 00:05:42,000
+E questa è una sezione bonus, quindi non hai davvero bisogno di farlo se non vuoi perché
+
+99
+00:05:42,000 --> 00:05:46,350
+usa gli operatori di confronto che saranno la sezione successiva del corso, quindi considera questo
+
+100
+00:05:46,350 --> 00:05:48,510
+tipo di sezione bonus per il tuo leggere.
+
+101
+00:05:48,510 --> 00:05:53,720
+Perché nella prossima sezione ne copriremo gran parte, ma vediamo qui i nostri operatori.
+
+102
+00:05:53,850 --> 00:05:55,570
+Quindi questi sono operatori di confronto.
+
+103
+00:05:55,700 --> 00:05:59,610
+La descrizione dell'operatore e quindi un esempio dell'operatore non voglio vedere se
+
+104
+00:05:59,610 --> 00:06:05,540
+riesci a capire da solo cosa sono questi operatori di confronto per rispondere a quali sono le uscite qui.
+
+105
+00:06:05,820 --> 00:06:10,200
+E anche se non si conoscono realmente gli operatori di confronto formalmente in Python, dovrebbe essere abbastanza
+
+106
+00:06:10,260 --> 00:06:13,270
+ovvio che una cosa del genere sarebbe troppo più grande di tre.
+
+107
+00:06:13,320 --> 00:06:15,490
+Se prima avevi fatto qualche matematica di base.
+
+108
+00:06:15,660 --> 00:06:20,090
+Ancora una volta questa è una sezione opzionale perché non abbiamo ufficialmente esaminato gli operatori di confronto.
+
+109
+00:06:20,100 --> 00:06:22,170
+Lo faremo nella prossima sezione del corso.
+
+110
+00:06:22,170 --> 00:06:27,450
+Quindi penso che sia un po 'un'anteprima prima di quella che abbiamo un'ultima domanda.
+
+111
+00:06:27,450 --> 00:06:29,910
+Qual è l'output del blocco di celle sottostante.
+
+112
+00:06:30,150 --> 00:06:32,880
+Quindi ancora una domanda bonus qui per te.
+
+113
+00:06:33,300 --> 00:06:33,800
+OK.
+
+114
+00:06:33,930 --> 00:06:35,570
+Quindi buona fortuna.
+
+115
+00:06:35,650 --> 00:06:39,420
+E poi la prossima lezione andremo a dare le risposte a tutto questo.
+
+116
+00:06:39,430 --> 00:06:42,310
+Di nuovo questi sono più tipi di domande aperte più tardi sul corso.
+
+117
+00:06:42,420 --> 00:06:45,480
+Diventeremo molto più tecnici nelle nostre domande man mano che imparerai di più.
+
+118
+00:06:45,510 --> 00:06:47,540
+Ci vediamo alla prossima lezione per le soluzioni.

@@ -1,0 +1,163 @@
+1
+00:00:05,480 --> 00:00:07,260
+Bu dersin herkese tekrar hoş geldiniz.
+
+2
+00:00:07,280 --> 00:00:13,820
+Kümelerin kümeleri ve setlerin eşsiz öğelerin sıralı bir koleksiyon olduğunu çok hızlı bir şekilde örteneceğiz ve
+
+3
+00:00:13,910 --> 00:00:18,320
+bu temelde aynı nesnenin bir temsilcisinin yalnızca birden fazla kez bulunamayacağına
+
+4
+00:00:18,320 --> 00:00:23,800
+dair bir temsilci olabileceği anlamına geliyor ya da A harfi birden fazla kez.
+
+5
+00:00:23,900 --> 00:00:29,480
+Başlamak için Jüpiter dizüstü bilgisayarındaki takımlarla nasıl çalışacağımızın bazı örneklerini görelim, bir takım oluşturalım.
+
+6
+00:00:29,520 --> 00:00:36,200
+İstediğiniz değişken adın sete eşit olduğuna ve daha sonra parantezleri açıp
+
+7
+00:00:36,200 --> 00:00:38,460
+kapattığımı söyleyerek bunu yapabiliriz.
+
+8
+00:00:38,460 --> 00:00:41,360
+Bu yüzden şu anda takımım var ve sadece boş bir takım.
+
+9
+00:00:41,370 --> 00:00:42,970
+Böylece geri dönüyor.
+
+10
+00:00:43,090 --> 00:00:46,330
+Aslında kümeye bir nesne eklemek istiyorum.
+
+11
+00:00:46,500 --> 00:00:51,350
+Setimi söyleyebilir ve daha sonra add yöntemini çağırabilir ve buna bir nesne ekleyebiliriz.
+
+12
+00:00:51,360 --> 00:00:53,610
+Yani bir numara.
+
+13
+00:00:53,650 --> 00:00:57,850
+Şimdi setime bir göz atarsam, orada bir numara olduğunu görüyorum.
+
+14
+00:00:57,880 --> 00:01:02,440
+Şimdi bunun bir sözlük gibi geldiğini fark edin çünkü bu kıvırcık parantezler, ancak
+
+15
+00:01:02,440 --> 00:01:04,090
+anahtar değer çiftleri içermediğinden değil.
+
+16
+00:01:04,120 --> 00:01:07,230
+İstediğiniz öğelerin sadece sırasız koleksiyonları.
+
+17
+00:01:07,450 --> 00:01:09,730
+Yani burada başka bir nesne var.
+
+18
+00:01:09,790 --> 00:01:13,250
+Takımımın iki numaraya ekleneceğini söyleyeceğim.
+
+19
+00:01:13,390 --> 00:01:20,290
+Ve sonra setimi tekrar çağırırsam, o numarayı setim diye çağırıyorum, orada 1 ve 2'yi alıyorum.
+
+20
+00:01:20,330 --> 00:01:25,590
+Şimdi ikinci bir kez 2 eklemeyi deneyin ve ne olduğunu görün.
+
+21
+00:01:26,370 --> 00:01:33,710
+Setimi aramaya devam etmek sadece 1 ve 2'yi gösteriyor, 1 2 2'yi göstermiyor ve temel olarak budur.
+
+22
+00:01:33,780 --> 00:01:36,300
+Orada benzersiz değerler olmalı.
+
+23
+00:01:36,300 --> 00:01:39,060
+Zaten sette olan bir değer eklemeyi denerseniz.
+
+24
+00:01:39,060 --> 00:01:40,130
+Tekrar etmeyecektir.
+
+25
+00:01:40,140 --> 00:01:42,370
+Sadece zaten oradaki değeri gördüğümüzü söylüyorum.
+
+26
+00:01:42,510 --> 00:01:44,440
+Sadece benzersiz değerleri kabul ediyorum.
+
+27
+00:01:44,730 --> 00:01:49,140
+Dolayısıyla iki takım çalışırken bunları bu şekilde eklemek çok güzel olmayabilir.
+
+28
+00:01:49,140 --> 00:01:55,630
+Bunun yerine, gerçekten yararlı olan şey, belki benzersiz değerleri elde edebileceğimiz bir sete bir liste atması olabilir.
+
+29
+00:01:56,240 --> 00:02:00,900
+Örneğin, listemin eşit olduğuna karar vereceğiz ve burada bir grup demet tekrarlanan değerler
+
+30
+00:02:01,090 --> 00:02:05,240
+koyacağım, bir grup demet bir demet iki ve üç demet bir grup.
+
+31
+00:02:05,810 --> 00:02:10,980
+Bunu yapacağım, sonra da bunu set olarak yapacağım.
+
+32
+00:02:11,370 --> 00:02:14,910
+Ve şimdi sadece bir dizi benzersiz değerler elde ediyorum.
+
+33
+00:02:14,910 --> 00:02:20,100
+Unutmayın ki kümeler teknik olarak onlara bir emir vermezler, çünkü burada yalnızca birkaç öğenin çok
+
+34
+00:02:20,100 --> 00:02:21,440
+küçük setleri ile uğraşıyoruz.
+
+35
+00:02:21,480 --> 00:02:26,720
+Bir siparişleri varmış gibi görünüyor, ancak gerçekte setlerin içeri girmek için belirli bir emri yoktur.
+
+36
+00:02:28,580 --> 00:02:30,830
+Şimdilik, kümeler hakkında bilmeniz gereken tek şey bu.
+
+37
+00:02:30,830 --> 00:02:36,110
+Bu nesne veya veri türüne daha yeni başlayacağımızdan beri çok daha sonrasına
+
+38
+00:02:36,110 --> 00:02:36,960
+kadar dokunmayacağız.
+
+39
+00:02:36,980 --> 00:02:41,630
+Şu an bize pek faydası olmayacak ama daha sonra farklı kullanım durumlarını görebileceğiz.
+
+40
+00:02:41,630 --> 00:02:45,960
+Tekrar unutmayın ki, bu setler sırasız eşsiz unsurlar koleksiyonlarıdır.
+
+41
+00:02:45,980 --> 00:02:48,840
+Teşekkürler, milyarlarca konuyu tartıştığımız bir sonraki konferansta göreceğiz.

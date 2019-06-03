@@ -1,0 +1,727 @@
+1
+00:00:05,580 --> 00:00:06,700
+Herkese geri hoşgeldiniz.
+
+2
+00:00:06,780 --> 00:00:11,020
+Sık sık yazdırmak için dize biçimlendirmesini tartışmayalım.
+
+3
+00:00:11,030 --> 00:00:15,590
+Baskı için bir dize içine bir değişken enjekte edebilmek isteyeceksiniz.
+
+4
+00:00:15,590 --> 00:00:17,560
+Bu yüzden, birleştirme daha önce öğrendik.
+
+5
+00:00:17,690 --> 00:00:22,040
+Örneğin, adımı Jose ile eşit bir değişkene sahip olabilirsiniz ve bu ifadeyi yazdırmak istiyorsunuz.
+
+6
+00:00:22,040 --> 00:00:23,040
+Merhaba Jose.
+
+7
+00:00:23,090 --> 00:00:25,310
+Sonunda yapacağınız şey Prens demektir.
+
+8
+00:00:25,460 --> 00:00:30,170
+Ve daha sonra bu yazdırma işlevi içinde merhaba deyin ve ad değişkenim ile birleştirdiniz.
+
+9
+00:00:30,170 --> 00:00:34,370
+Şimdi değişkenleri bastırmak için dizeleri biçimlendirmenin birden çok yolu var, böylece
+
+10
+00:00:34,370 --> 00:00:37,190
+bu birleştirme veya artı işaretini sürekli kullanmanız gerekmiyor.
+
+11
+00:00:37,430 --> 00:00:41,840
+Ve genel olarak bu dize sorgusu olarak bilinir; bu da temelde sadece bir dize
+
+12
+00:00:41,840 --> 00:00:47,490
+içine bir değişken sopa söylemek gerçekten süslü bir şekilde bunu yapmak için iki yöntem keşfetmek için gidiyoruz.
+
+13
+00:00:47,510 --> 00:00:52,920
+Biri biçim yöntemidir ve diğeri biçimlendirilmiş dize değişmezlerini ifade eden dizeler yöntemidir.
+
+14
+00:00:53,060 --> 00:00:56,830
+Ve bu, Python 3'ün daha yeni sürümleri için daha yeni bir yöntem.
+
+15
+00:00:56,870 --> 00:01:01,160
+Şahsen o format metodunu tercih ediyorum, fakat devam edelim ve ikisine de gösterseyim ve hangisinin
+
+16
+00:01:01,160 --> 00:01:03,200
+sizin stilinizden daha fazla olduğuna karar verebilirsiniz.
+
+17
+00:01:03,200 --> 00:01:04,060
+Başlayalım.
+
+18
+00:01:04,240 --> 00:01:04,500
+TAMAM.
+
+19
+00:01:04,520 --> 00:01:10,330
+Biçim yöntemini tartışarak başlayalım ve bunun için temel sözdizimi sizin dizenizi tanımlamış
+
+20
+00:01:10,340 --> 00:01:16,400
+olacaksınız ve sonra dizeğinizin içine eklemekte olduğunuz değişkenler için yer tutucu olarak özel
+
+21
+00:01:16,400 --> 00:01:20,950
+kıvırcık parantezler olacak ve sonra bu biçimi aradığınız dizeyi yazın.
+
+22
+00:01:21,110 --> 00:01:26,510
+Sonra bunun içinde dize içine eklemek istediğiniz dizeleri veya
+
+23
+00:01:26,510 --> 00:01:27,400
+değişkenleri çağıracağız.
+
+24
+00:01:27,410 --> 00:01:29,590
+Bir sürü örnek üzerinde yürüyelim buraya.
+
+25
+00:01:29,660 --> 00:01:36,050
+Sadece bunun, orada kıvrımlı ayraçları açıp kapatacak bir dize olduğunu söyleyen en
+
+26
+00:01:36,050 --> 00:01:37,390
+temel örnekten başlayacağız.
+
+27
+00:01:37,550 --> 00:01:40,660
+Ve dizede hemen sonra bu biçimi arayacağız.
+
+28
+00:01:40,670 --> 00:01:45,840
+Nokta'nın dizeye nasıl dokunduğuna ve sonra eklemek istediğiniz dize ne olduğuna dikkat edin.
+
+29
+00:01:45,880 --> 00:01:53,210
+Bu yüzden gerçekten belirgin hale getirmek için, buraya yerleştirilen tüm kapaklara koyacağım ve bunun bir dize
+
+30
+00:01:53,540 --> 00:01:54,310
+eklendiğini görüyorum.
+
+31
+00:01:54,530 --> 00:02:00,650
+DOT formatı yöntemi ile yaptığı gibi, dize kapmak ve onu bu kıvrımlı parantezleri gördüğü
+
+32
+00:02:00,650 --> 00:02:01,770
+yere eklemektir.
+
+33
+00:02:01,850 --> 00:02:05,810
+İşte burada birkaç avantaj var ve hepsini inceleyeceğiz.
+
+34
+00:02:05,810 --> 00:02:10,080
+Bir avantajı dizeleri aslında dizin konumu tarafından eklenebilir olmasıdır.
+
+35
+00:02:10,460 --> 00:02:12,770
+Birçok şeyi eklemek istediğimizi düşünelim.
+
+36
+00:02:12,770 --> 00:02:17,680
+Kıvırcık parantez parantezi parantezlerini söyleyeceğiz.
+
+37
+00:02:18,020 --> 00:02:21,380
+O halde bu biçimi
+
+38
+00:02:23,740 --> 00:02:28,180
+söyle ve Fox Brown'u söyle.
+
+39
+00:02:28,590 --> 00:02:34,560
+Şimdi ne olur temelde bu format dizeleri aynı sırayla ekleyecektir.
+
+40
+00:02:34,590 --> 00:02:37,620
+Onları ve bu kıvırcık parantez içine verdin.
+
+41
+00:02:37,620 --> 00:02:40,630
+Şu anda tilki Brown'u çabuk tutuyoruz.
+
+42
+00:02:40,700 --> 00:02:46,200
+Aslında güzel olurdu, eğer bu gerçekten hızlı kahverengi tilki olacak
+
+43
+00:02:46,290 --> 00:02:53,760
+gramer mantığına sahipsek Yapabileceğimiz bu format çağrısı içindeki indeks pozisyonuna dayanır, bu sayıyı
+
+44
+00:02:53,760 --> 00:02:55,800
+istediğim sırayla sağlayabiliriz.
+
+45
+00:02:55,800 --> 00:02:58,550
+Bu yüzden istediğim ilk sözcük gerçekten hızlı.
+
+46
+00:02:58,590 --> 00:03:02,510
+Bu yüzden sergide yer alıyor, çünkü 0 1 2.
+
+47
+00:03:02,760 --> 00:03:09,150
+Bu yüzden iki tane önce burada, sonra da bir sonraki kahverengi olacağımı söyleyeceğim.
+
+48
+00:03:09,150 --> 00:03:13,810
+Yani bu bir 1 0 0 ve ardından ilk kelimedir.
+
+49
+00:03:13,810 --> 00:03:17,190
+Fox index 0 burada istediğim sonuncusu olacak.
+
+50
+00:03:18,280 --> 00:03:20,200
+Ve sonra onu çalıştırdığımda geri döndüm.
+
+51
+00:03:20,200 --> 00:03:21,930
+Hızlı kahverengi tilki.
+
+52
+00:03:22,000 --> 00:03:24,610
+Ayrıca gerçekten güzel olan, bunları gerçekten tekrar edebilmem.
+
+53
+00:03:24,670 --> 00:03:31,630
+Bu yüzden, Fox Fox Fox'u söylemek istersem şunu söyleyebilirim: 0 0 0 bunu çalıştırın
+
+54
+00:03:31,630 --> 00:03:38,820
+ve şimdi Fox Fox Fox'a sahibim, bu yüzden gösteri merkezli çalışmak isteyebileceğim için oynamaya başlayabilirim.
+
+55
+00:03:38,830 --> 00:03:43,270
+Şimdi de güzel ki, şeyleri dizin konumundan çıkarmam mümkün değil.
+
+56
+00:03:43,420 --> 00:03:49,420
+olduğunu ve burada bakıp ilk kelimenin ne olduğunu söylemem gerektiğini söyleyen gerçek bir gösterge yok.
+
+57
+00:03:49,570 --> 00:03:54,700
+Ayrıca onlara anahtar kelimeler atayabilir ve daha sonra sadece anahtarları arayabilirim çünkü burada çalıştığım
+
+58
+00:03:54,700 --> 00:03:55,730
+için sıfırın Fox
+
+59
+00:03:55,900 --> 00:03:57,400
+Yapabileceğim onlara anahtar kelimeler atamaktır.
+
+60
+00:03:57,430 --> 00:03:58,330
+O halde bunu yapalım.
+
+61
+00:03:58,330 --> 00:04:05,320
+Kıvırcık kaşlı ayraçları kıvırcık kaşlı ayraçların biçimini söyleyip biçimi söyleyeceğimizi söyleyin ve daha
+
+62
+00:04:05,500 --> 00:04:12,130
+sonra format çağrısı içinde sürececeğimizi söyleyin; F, Tv'ye eşittir, böylece bunu bir
+
+63
+00:04:12,130 --> 00:04:21,400
+değişken ataması olarak düşünebilir ve sonra söyleyeceğiz Brown, que'nun hızlıya eşit olduğunu söyleyecektir ve sonra bu değişken
+
+64
+00:04:21,550 --> 00:04:22,980
+adlarını burada kullanabilirim.
+
+65
+00:04:23,010 --> 00:04:25,720
+F. B ve Q'ya yerleştirin.
+
+66
+00:04:25,730 --> 00:04:30,130
+Temel olarak bu anahtar kelimeleri burada değişken isimleri olarak kullanıyor ve bu şekilde eklemiş bulunuyoruz.
+
+67
+00:04:30,130 --> 00:04:36,870
+Dolayısıyla bunun yerine devamlı olarak sıranın olmasını söyle.
+
+68
+00:04:37,710 --> 00:04:39,210
+Ve sonra onu çalıştırdığımda geri döndüm.
+
+69
+00:04:39,210 --> 00:04:44,790
+Hızlı kahverengi tilkidir ve bu, daha önce olduğundan daha da güzel bir şeydir, çünkü birisi bunu ok gibi kullanan
+
+70
+00:04:44,790 --> 00:04:45,860
+birine biraz daha okunabilirdir.
+
+71
+00:04:45,870 --> 00:04:47,290
+Q hızlı demektir.
+
+72
+00:04:47,370 --> 00:04:51,130
+Geriye dönüp kendinize sormanız gereken şeyin yerine neyin peşinde olduğunu çok iyi.
+
+73
+00:04:51,270 --> 00:04:52,980
+Ve sonra buraya formatlamaya geliyorum.
+
+74
+00:04:53,040 --> 00:04:55,140
+Dolayısıyla bu, bu anahtar kelimeleri kullanabilir.
+
+75
+00:04:55,320 --> 00:04:58,240
+Aslında bunu kendim de bu şekilde tercih ediyorum.
+
+76
+00:05:00,170 --> 00:05:05,240
+Ve yine bu konuda gerçekten nazik olan şey, eğer bir seferinde yine Fox
+
+77
+00:05:05,240 --> 00:05:11,860
+Fox Fox'u söylemek istiyorsa, bu köşebentlerin her birine F yazmanız yeterliyse Fox Fox Fox'a geri dönersiniz.
+
+78
+00:05:11,960 --> 00:05:14,910
+Böylece tekrar tekrar tekrar kullanabilirsiniz anahtar kelimeler kullanarak.
+
+79
+00:05:15,300 --> 00:05:15,620
+TAMAM.
+
+80
+00:05:15,620 --> 00:05:21,140
+ve temel olarak bu, kayan nokta numaranızın genişliğini ve hassaslığını ayarlamanızı sağlar.
+
+81
+00:05:21,140 --> 00:05:26,660
+Forment yöntemiyle ilgili tartışmamızı bitirmek için, DOT format yöntemiyle float biçimlendirme hakkında
+
+82
+00:05:26,660 --> 00:05:28,140
+kısaca konuşmak istiyorum
+
+83
+00:05:28,360 --> 00:05:34,040
+Sonuç, 100 bölü 7 7 7'ye eşit olduğunu söyleyeceğimiz bir örneğe başlayalım.
+
+84
+00:05:34,060 --> 00:05:39,900
+Dolayısıyla, beklediğiniz gibi bu sonuç, ondan sonraki bir tonluk bir sayıdır.
+
+85
+00:05:40,090 --> 00:05:44,980
+Gerçekten yapabildiğimiz, aslında bunu basarken istediğimiz duyarlılık düzeyini değiştirip
+
+86
+00:05:45,340 --> 00:05:48,260
+sayının kendisinin genişliğini değiştirmemiz mümkündür.
+
+87
+00:05:49,030 --> 00:05:52,610
+Bu yüzden Prens diyerek başlayacağız.
+
+88
+00:05:52,790 --> 00:06:02,820
+ve daha sonra açık ve kapalı kıvırcık parantez biçimi ve daha sonra burada sonuç söyleyeceğini söylüyorlar bunu çalıştırın.
+
+89
+00:06:02,830 --> 00:06:03,220
+Sonuç
+
+90
+00:06:03,220 --> 00:06:04,570
+Ve sonucun olduğunu gördük.
+
+91
+00:06:04,600 --> 00:06:07,630
+Ve temel olarak bu tür hassas hassas numara.
+
+92
+00:06:07,780 --> 00:06:14,170
+Yapabileceğim, R'nin sonuca eşit olduğu ve sonra içeri girdiği ve kıvırcık parantezlerin içinde olduğu ve aynı sonuca
+
+93
+00:06:14,170 --> 00:06:15,490
+geri döndüğü söyleniyor.
+
+94
+00:06:15,700 --> 00:06:20,850
+Dolayısıyla, biçimlendirme yönteminin nokta biçimlendirme yönteminde olduğu gibi flüt biçimlendirmesi işlevi size
+
+95
+00:06:20,860 --> 00:06:22,760
+atıfta bulunulan değeri verir.
+
+96
+00:06:22,780 --> 00:06:25,710
+Bu durumda gerçek değer adını görmek için burada.
+
+97
+00:06:25,840 --> 00:06:32,050
+Daha sonra bir iki nokta üst üste yazarsınız ve daha sonra noktalı değerler yazdıktan sonra noktalar istediğinizi
+
+98
+00:06:32,050 --> 00:06:37,550
+yazarsınız ve daha sonra hassas değer istediğiniz ve daha sonra F'de ve gerçekten önemseyeceğiniz şey
+
+99
+00:06:37,570 --> 00:06:42,680
+ise genişlik sadece size eklemenize izin veren gerçek hassasiyettir değeriniz gerçekten büyükse, bazı boşluklarda.
+
+100
+00:06:42,730 --> 00:06:45,770
+Öyleyse değeri söyleyeceğimiz şu işlemleri yapalım.
+
+101
+00:06:45,850 --> 00:06:47,910
+İşte bu bizim kolonumuz.
+
+102
+00:06:48,010 --> 00:06:53,260
+Bizi yalnızca bir noktadan daha eşit ve daha sonra istediğimiz duyarlılık seviyesine eşit olarak ayarlayacağız.
+
+103
+00:06:53,260 --> 00:06:56,320
+Bu nedenle bu ağırlıklı olarak bu hassas değerle oynamak istediğiniz yer.
+
+104
+00:06:56,410 --> 00:06:56,970
+Hayal edelim.
+
+105
+00:06:56,980 --> 00:06:59,670
+Sadece üç basamaklı ondalık sayı istiyorum.
+
+106
+00:06:59,710 --> 00:07:05,080
+Bir iki tane sonra da dokuz tane istiyorum çünkü 9'a kadar
+
+107
+00:07:05,080 --> 00:07:14,330
+7 civarında olması dolayısıyla 1 civarında diyebilirim. 3 bunu çalıştırırsam ve 0 geri alırsam. 1'den 9'a.
+
+108
+00:07:14,410 --> 00:07:19,540
+Şimdi bununla değerle oynamak ve bitenleri gerçekten büyük yaparsam, boşluk ekleyerek
+
+109
+00:07:19,540 --> 00:07:21,240
+sona ermiş olursunuz.
+
+110
+00:07:21,280 --> 00:07:27,490
+Bunun nedeni, with ile temel olarak bu tüm dize numarasının ne kadar veya ne kadar
+
+111
+00:07:27,490 --> 00:07:29,000
+geniş olmasını istediğinizi açıklar.
+
+112
+00:07:29,080 --> 00:07:34,570
+bir tonluk boşluk yazmaya başladınız, ancak bunu düzenlemek istediğiniz türde bazı durumlar olabilir.
+
+113
+00:07:34,660 --> 00:07:36,170
+Çok yararlı değil, çünkü
+
+114
+00:07:36,400 --> 00:07:40,930
+Dolayısıyla burada kullanılabilir, ancak sık sık etrafında oynayacağınız şey buradaki
+
+115
+00:07:40,930 --> 00:07:41,460
+hassaslıktır.
+
+116
+00:07:41,560 --> 00:07:43,310
+Bu yüzden beş tane yapabiliriz.
+
+117
+00:07:43,690 --> 00:07:44,710
+Ve burada görebiliriz.
+
+118
+00:07:44,710 --> 00:07:49,950
+Şimdi, toplamdan daha azını kullanıyoruz çünkü boşluklarla birlikte, daha fazla sayıya sahip olduğumuz
+
+119
+00:07:49,950 --> 00:07:54,870
+için bir ondalık sayı atıyoruz ve bunu genel olarak bir tane olarak saklayabiliyoruz.
+
+120
+00:07:54,970 --> 00:08:03,120
+Ama devam edelim size bir sonuç daha söyleyeceğimiz başka bir örnek göstereceğiz, 104 sayı diyelim.
+
+121
+00:08:03,170 --> 00:08:05,130
+Bir iki üç dört beş.
+
+122
+00:08:05,250 --> 00:08:10,560
+Çalıştırırsanız, görebiliyoruz ki öteki tarafta bir ondalık nokta olsa da, aslında aynı şey
+
+123
+00:08:10,860 --> 00:08:15,020
+budur ve bunu etrafa ekleyebilir ve bu kayan nokta değerinde oynayabiliriz.
+
+124
+00:08:15,370 --> 00:08:18,160
+Tamam, böylece bir yöntem için nokta ile float biçimlendirme var.
+
+125
+00:08:18,210 --> 00:08:24,870
+Yine sizinle birlikte olduğunuz değer ve gerçekten hassasiyetinizi F takip ediyor ve bu konuda daha fazla
+
+126
+00:08:24,870 --> 00:08:27,090
+örnek için dizüstü bilgisayarı kontrol edebilirsiniz.
+
+127
+00:08:27,090 --> 00:08:31,310
+Son olarak, f dizgileri hakkında konuşacağız ve bunlar biçimlendirilmiş dize değişmezleri.
+
+128
+00:08:31,420 --> 00:08:36,930
+Bunlar Python 3'te tanıtılıyor. bu eski format metoduna göre çeşitli avantajlar sunuyorlar.
+
+129
+00:08:36,960 --> 00:08:38,790
+6 Dolayısıyla, hâlâ çok yeni ve
+
+130
+00:08:38,790 --> 00:08:43,890
+Genel olarak nokta biçimi yöntemini tercih ederim, ancak birçok insan, özellikle diğer dillerden
+
+131
+00:08:43,890 --> 00:08:48,690
+geliyorsa ve bunu yapmanıza izin verirse, temelde bu biçimi kullanmanın bu adımını atlayın
+
+132
+00:08:48,690 --> 00:08:54,780
+ve sonuçları veya değişken adını yazmak yerine, bu dize yöntemini tercih edin. dize içinde doğrudan istiyorum.
+
+133
+00:08:54,780 --> 00:08:57,970
+Bunu yapmamızın yolu, aşağıdaki yöntemin birkaç yeni hücre oluşturacak olması.
+
+134
+00:09:00,080 --> 00:09:05,990
+Ben adın Jose'ye eşit olduğunu söyleyeceğim.
+
+135
+00:09:06,140 --> 00:09:06,750
+Çalıştır onu.
+
+136
+00:09:06,950 --> 00:09:11,500
+Ve sonra tipik olarak yapmam gereken merhaba demek.
+
+137
+00:09:11,750 --> 00:09:19,740
+Onun adı ve o zaman bunu çalıştırmak ve ben bu adı biçimi söyleyebilirim onun adı Jose.
+
+138
+00:09:19,970 --> 00:09:27,870
+Yapabileceğiniz şey, dizgenin önüne bir F yazarak format çağrısını değiştirmeniz
+
+139
+00:09:27,870 --> 00:09:32,880
+ve direkt olarak dizenin kendisine geçebilmenizdir.
+
+140
+00:09:33,090 --> 00:09:35,520
+Ve eğer bunu çalıştırırsanız aynı sonuca geri dönersiniz.
+
+141
+00:09:35,520 --> 00:09:40,340
+Bu yüzden F dizgileri veya biçimlendirilmiş dize değişmezleri denir ve bu yeni.
+
+142
+00:09:40,350 --> 00:09:42,150
+Python 3. 6.
+
+143
+00:09:42,150 --> 00:09:45,660
+Ve diğer dillerde oldukça yaygın olduğu için birçok kişi bu özelliği
+
+144
+00:09:45,660 --> 00:09:46,650
+uzun süre istiyor.
+
+145
+00:09:46,650 --> 00:09:50,460
+Yine biraz daha yaşlı bir okul olduğum için gerçekten bu format metoduna alıştığımdan
+
+146
+00:09:50,460 --> 00:09:51,180
+dolayı çok beğendim.
+
+147
+00:09:51,180 --> 00:09:55,120
+Ancak diğer dillerden geliyorsanız, dizeleri kontrol etmenizi kesinlikle öneririm.
+
+148
+00:09:55,170 --> 00:09:59,370
+Birçok kişi önceki yöntemin üzerinde büyük bir gelişme olduğunu düşünüyor ve bu
+
+149
+00:09:59,370 --> 00:10:04,480
+değişken adın doğrudan bu kıvrımlı ayraçların içine yazılmasının gerçekten niçin gerçekten uygun olduğunu görebilirsiniz.
+
+150
+00:10:06,580 --> 00:10:09,030
+Ve bu çoklu değişkenlerle çalışır.
+
+151
+00:10:09,220 --> 00:10:17,730
+Diyelim ki adı Sam yaş 3'tür.
+
+152
+00:10:18,130 --> 00:10:22,450
+Python'a f dizgisini bildirmek için print F yazabiliriz.
+
+153
+00:10:22,670 --> 00:10:23,340
+İyi.
+
+154
+00:10:24,690 --> 00:10:25,960
+Kıvırcık parantez içinde.
+
+155
+00:10:26,040 --> 00:10:32,250
+Adı, yaşları kaşlı ayraçlardır.
+
+156
+00:10:32,480 --> 00:10:34,890
+Ve bunu çalıştırırsak, Sam'in üç yaşında olduğunu görüyoruz.
+
+157
+00:10:34,970 --> 00:10:39,260
+Dolayısıyla bu, bu değişkenleri dizede enjekte eden dize sorgulamasını çok hızlı
+
+158
+00:10:39,260 --> 00:10:41,880
+bir şekilde gerçekleştirmenin gerçekten güzel bir yoludur.
+
+159
+00:10:42,290 --> 00:10:42,650
+TAMAM.
+
+160
+00:10:42,710 --> 00:10:45,160
+Bunlar dize biçimlendirmesinin temel öğeleridir.
+
+161
+00:10:45,170 --> 00:10:48,240
+İlgilendiğiniz durumda dizüstü bilgisayarda çok daha fazla örnek var.
+
+162
+00:10:48,410 --> 00:10:52,160
+Ve teknik olarak hala Python 3'te çalışmakta olan daha eski bazı
+
+163
+00:10:52,160 --> 00:10:57,560
+dize biçimlendirme yöntemlerine örneklerimiz var; bu sayede nokta biçimi yöntemini kullanmanızı veya bu yeni dize yöntemini
+
+164
+00:10:57,560 --> 00:10:57,930
+sevmenizi öneririm.
+
+165
+00:10:57,950 --> 00:10:58,930
+Bunu da kullanın.
+
+166
+00:10:59,120 --> 00:11:03,770
+biçimlendirilmesi için bir ton dize formatlama örneğimize sahip olduğumuzu görebilirsiniz; bu, oldukça eski
+
+167
+00:11:03,770 --> 00:11:09,070
+bir yöntem olduğu için bu video konferansından konuşabileceğimiz bir şeydir ve Gerçekten kullanmanızı öneririm
+
+168
+00:11:09,080 --> 00:11:13,220
+ama kayan nokta sayıları için hassas ve dolgu kullanmayı da görebilirsiniz.
+
+169
+00:11:13,220 --> 00:11:17,920
+Kısaca sadece bu ders için nopalın neye benzediğini size göstermek istedim; böylece yerçekiminin
+
+170
+00:11:17,930 --> 00:11:22,730
+Ayrıca nesneleri nesneleri nesneleri tekrar kullanma fırsatı ile ekleme düşünce biçimi yöntemiyle çok daha
+
+171
+00:11:22,820 --> 00:11:23,910
+fazla örnek göreceğiz.
+
+172
+00:11:23,930 --> 00:11:25,720
+Hizalama hassasiyetimiz de var.
+
+173
+00:11:25,730 --> 00:11:29,840
+Tüm bu şeyler, ders boyunca kullanmayacağımız tüm bu şeyleri, ancak
+
+174
+00:11:29,840 --> 00:11:30,900
+notta size açık.
+
+175
+00:11:31,010 --> 00:11:35,250
+Bu konunun derinliklerine dalmak istiyorsan, orada çok sayıda örnek var.
+
+176
+00:11:35,540 --> 00:11:36,040
+TAMAM.
+
+177
+00:11:36,290 --> 00:11:40,010
+Yine bu dersin dize biçimlendirmesini bilmeniz gereken tek şey dizeleri bu
+
+178
+00:11:40,010 --> 00:11:46,010
+şekilde enjekte etmek ve yorumlamak için dize değişmezleri kullanabilmeniz ya da değişkenleri bu şekilde enjekte etmek için nokta
+
+179
+00:11:46,010 --> 00:11:47,050
+biçimi yöntemini kullanabilirsiniz.
+
+180
+00:11:47,270 --> 00:11:47,640
+TAMAM.
+
+181
+00:11:47,660 --> 00:11:48,780
+Umarım kullananlar umarım.
+
+182
+00:11:48,890 --> 00:11:49,910
+Bir sonraki dersimizde görüşürüz.

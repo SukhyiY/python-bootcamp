@@ -1,0 +1,1003 @@
+1
+00:00:05,970 --> 00:00:11,280
+Congratule-se com todos nesta conferência sobre arquivos e antes de terminar esta seção do curso, já aprendemos sobre
+
+2
+00:00:11,280 --> 00:00:13,050
+todos os tipos básicos de dados.
+
+3
+00:00:13,110 --> 00:00:18,000
+Agora eu quero examinar rapidamente como realizar entrada e saída simples com um arquivo
+
+4
+00:00:18,000 --> 00:00:24,120
+de texto básico e os métodos que mostramos aqui também se expandirão para trabalhar com outros tipos
+
+5
+00:00:24,120 --> 00:00:30,930
+de arquivos, seja um arquivo de áudio arquivo de texto e-mails documentos do Excel muito do que cobrimos aqui
+
+6
+00:00:30,930 --> 00:00:33,420
+será realmente confiável para as funcionalidades mais avançadas.
+
+7
+00:00:33,420 --> 00:00:37,800
+Agora, tenha em mente alguns desses outros tópicos, você precisará instalar certas bibliotecas
+
+8
+00:00:37,800 --> 00:00:40,090
+que vamos discutir mais tarde no curso.
+
+9
+00:00:40,150 --> 00:00:42,600
+Pois agora, vamos lidar apenas com arquivos de texto básicos.
+
+10
+00:00:42,600 --> 00:00:47,610
+Então, vamos criar um usando o notebook Jupiter e a maioria desses caminhos de arquivos em seu computador.
+
+11
+00:00:47,640 --> 00:00:52,620
+Começamos a começar com o que precisamos fazer é criar um arquivo de texto com o qual trabalhar.
+
+12
+00:00:52,620 --> 00:00:57,440
+Agora, se você baixou essas notas, na verdade já existe uma prova desse arquivo de texto.
+
+13
+00:00:57,450 --> 00:01:04,600
+Então, em sua pasta em algum lugar, deve haver um arquivo de texto de teste na mesma pasta em que essas notas estão.
+
+14
+00:01:04,950 --> 00:01:10,260
+Então, tenha em mente isso, mas eu vou mostrar-lhe como você pode usar a funcionalidade mágica de Jupiter ou então
+
+15
+00:01:10,260 --> 00:01:12,740
+é chamado para escrever rapidamente um arquivo de texto.
+
+16
+00:01:12,780 --> 00:01:15,180
+Então isso só funciona no caderno Jupiter.
+
+17
+00:01:15,240 --> 00:01:15,950
+Tão certo.
+
+18
+00:01:15,960 --> 00:01:16,560
+Sinal de porcentagem.
+
+19
+00:01:16,560 --> 00:01:20,670
+O sinal de porcentagem está bem no espaço do arquivo.
+
+20
+00:01:21,760 --> 00:01:25,320
+Meu arquivo sessenta ou o que você quer chamar.
+
+21
+00:01:25,360 --> 00:01:27,160
+Então, isso deve estar na primeira linha da célula.
+
+22
+00:01:28,180 --> 00:01:31,760
+E então, você pode simplesmente escrever texto sem formatação do que quer que esteja na célula.
+
+23
+00:01:31,780 --> 00:01:33,990
+Então eu posso dizer olá.
+
+24
+00:01:34,240 --> 00:01:37,420
+Este é um arquivo de texto.
+
+25
+00:01:37,420 --> 00:01:40,560
+Esta é a segunda linha.
+
+26
+00:01:40,660 --> 00:01:43,690
+Esta é a terceira linha.
+
+27
+00:01:43,720 --> 00:01:45,910
+Certifique-se de soletrar isso.
+
+28
+00:01:45,910 --> 00:01:51,100
+Então, novamente isso só funciona em um caderno Jupiter se você não tem cadernos Juber, talvez você esteja
+
+29
+00:01:51,100 --> 00:01:52,460
+trabalhando no Sublime Text Editor.
+
+30
+00:01:52,480 --> 00:01:58,330
+Vá em frente e basta escrever isso em um arquivo e salvá-lo como um arquivo de texto no mesmo local onde
+
+31
+00:01:58,330 --> 00:02:00,070
+os seus scripts estão sendo executados.
+
+32
+00:02:00,070 --> 00:02:05,950
+arquivo que o arquivo de texto e agora podemos fazer é realmente abrir e brincar com esses arquivos.
+
+33
+00:02:05,950 --> 00:02:09,640
+Então, vamos executar isso e você deve ver com sucesso escrever meu
+
+34
+00:02:09,640 --> 00:02:16,630
+Agora, é um erro muito comum acidentalmente, quer o nome errado do arquivo, ou salve o arquivo
+
+35
+00:02:16,690 --> 00:02:18,010
+no diretório errado.
+
+36
+00:02:18,010 --> 00:02:25,670
+Então, deixe-me mostrar-lhe o que normalmente parece que vai dizer que meu arquivo é igual e usamos a função aberta.
+
+37
+00:02:25,870 --> 00:02:32,400
+E neste caso eu sei meu arquivo que o texto está lá porque eu posso apenas escrever a equipe do
+
+38
+00:02:32,410 --> 00:02:39,790
+meu arquivo Tick e precisamos escrever isso como uma string, então escreva isso e então não temos nenhum erro porque está por lá.
+
+39
+00:02:39,950 --> 00:02:48,110
+Se eu pedir um arquivo que não existe, vai salvar o meu arquivo é igual a aberto e nós diremos o que é
+
+40
+00:02:48,300 --> 00:02:48,940
+errado CXXVIII.
+
+41
+00:02:48,950 --> 00:02:51,090
+Então eu definitivamente sei que não há arquivo lá.
+
+42
+00:02:51,140 --> 00:02:53,740
+Se eu executar isso, um erro no arquivo não será encontrado.
+
+43
+00:02:53,780 --> 00:02:56,930
+Então, este é um erro muito comum é chamado de erro número dois.
+
+44
+00:02:56,990 --> 00:02:58,430
+Não existe tal arquivo ou diretório.
+
+45
+00:02:58,460 --> 00:03:00,840
+Oups errado cerca de 60.
+
+46
+00:03:00,890 --> 00:03:04,380
+Então, existem apenas duas maneiras possíveis de obter esse erro.
+
+47
+00:03:04,400 --> 00:03:08,760
+Uma maneira é que passamos acidentalmente no nome de arquivo errado.
+
+48
+00:03:08,780 --> 00:03:11,180
+Então, neste caso, escrevi o que há de errado no arquivo txt.
+
+49
+00:03:11,180 --> 00:03:15,190
+Então esse é o nome do arquivo errado que o nome do arquivo deve ter no meu arquivo que demora.
+
+50
+00:03:15,320 --> 00:03:21,260
+Agora, a outra possibilidade é que na verdade não forneci o caminho correto do arquivo e discutiremos
+
+51
+00:03:21,260 --> 00:03:28,160
+isso mais tarde na mesma palestra, mas talvez você tenha algo de errado com o DXi no seu computador, mas
+
+52
+00:03:28,160 --> 00:03:33,830
+isso simplesmente não é salvo no mesmo local do seu caderno Jupiter para saber onde está
+
+53
+00:03:33,850 --> 00:03:35,700
+atualmente o seu notebook DUPERE.
+
+54
+00:03:35,720 --> 00:03:38,690
+Você pode digitar P WD em uma célula.
+
+55
+00:03:38,940 --> 00:03:42,140
+Execute isso e isso imprimirá seu diretório de trabalho.
+
+56
+00:03:42,170 --> 00:03:47,630
+essa é a mesma localização em que todos os arquivos de texto do DOT com os quais você deseja trabalhar devem ser salvos.
+
+57
+00:03:47,630 --> 00:03:50,380
+Então, esse diretório é onde esse notebook está atualmente localizado e
+
+58
+00:03:50,540 --> 00:03:54,050
+Mais tarde, mostraremos como chamar um arquivo de texto para qualquer local em um computador.
+
+59
+00:03:54,200 --> 00:03:59,240
+Mas, no momento, certifique-se de que o arquivo de texto com o qual você está trabalhando é salvo no mesmo local que é
+
+60
+00:03:59,240 --> 00:04:02,580
+emitido quando você digita P. W. a.
+
+61
+00:04:02,640 --> 00:04:02,880
+Tudo bem.
+
+62
+00:04:02,880 --> 00:04:09,120
+Continuando sabemos que o meu arquivo que o texto está no mesmo local porque usamos esse comando especial
+
+63
+00:04:09,120 --> 00:04:09,990
+para escrevê-lo lá.
+
+64
+00:04:10,260 --> 00:04:14,310
+usar um comando especial, você possui o teste que tira o arquivo do arquivo zip das notas.
+
+65
+00:04:14,310 --> 00:04:15,410
+E se você não quiser
+
+66
+00:04:15,460 --> 00:04:17,030
+Então vamos continuar aqui.
+
+67
+00:04:17,280 --> 00:04:25,530
+Vou dizer que meu arquivo é igual a aberto e vamos abrir esse arquivo de texto que acabamos de fazer, o que
+
+68
+00:04:25,560 --> 00:04:34,960
+foi chamado meu arquivo que 60 meus arquivos cxi executaram isso e existem vários métodos que eu posso cancelar deste um método que eu posso
+
+69
+00:04:34,960 --> 00:04:37,080
+chamar é o método de leitura.
+
+70
+00:04:37,180 --> 00:04:42,560
+E o que isso faz é que ele retorna apenas uma corda gigante de tudo que está neste arquivo de texto.
+
+71
+00:04:42,580 --> 00:04:43,440
+Às vezes, isso é bom.
+
+72
+00:04:43,480 --> 00:04:46,670
+Às vezes você não quer isso, mas é um método disponível para você.
+
+73
+00:04:46,690 --> 00:04:53,310
+Você notará aqui que temos essa barra invertida e o que isso faz é indicar uma nova linha.
+
+74
+00:04:53,440 --> 00:04:59,350
+Porque você pediu tudo como uma única string, a corda de alguma forma precisa representar onde as
+
+75
+00:04:59,350 --> 00:05:00,210
+novas linhas foram.
+
+76
+00:05:00,250 --> 00:05:05,200
+E o seu arquivo de arquivo de texto porque lembre-se de que escrevemos Olá, este é o arquivo de texto aqui em uma
+
+77
+00:05:05,200 --> 00:05:07,870
+segunda linha, escrevemos segunda linha e na terceira linha, escrevemos terceira linha.
+
+78
+00:05:07,870 --> 00:05:12,610
+Então, para representar que temos essas seqüências de escape que discutimos anteriormente nas
+
+79
+00:05:12,630 --> 00:05:17,620
+conferências de conferências de cordas e na barra invertida e representa uma nova linha.
+
+80
+00:05:17,620 --> 00:05:21,730
+Agora, se eu tentar ler este arquivo novamente, você notará que algo engraçado acontece.
+
+81
+00:05:21,970 --> 00:05:23,480
+Você recupera uma corda vazia.
+
+82
+00:05:23,530 --> 00:05:27,240
+Então, muitas vezes os iniciantes estão arranhando a cabeça pensando bem o que aconteceu.
+
+83
+00:05:27,250 --> 00:05:31,230
+Acabei de ler e agora, quando tento lê-lo novamente, não está mais lá.
+
+84
+00:05:31,240 --> 00:05:35,590
+A razão pela qual isso está acontecendo é porque você pode imaginar que há um
+
+85
+00:05:35,590 --> 00:05:40,840
+cursor no início do arquivo e quando você o lê, o cursor passa até o final do arquivo
+
+86
+00:05:40,840 --> 00:05:45,000
+e você precisa reiniciar o cursor ou buscá-lo de volta a zero para lê-lo novamente.
+
+87
+00:05:45,010 --> 00:05:52,040
+Então, para fazer isso, você pode dizer que meu arquivo busca zero que reinicia o cursor.
+
+88
+00:05:52,040 --> 00:05:54,010
+Você deve ver alguma saída zero lá.
+
+89
+00:05:54,350 --> 00:05:58,810
+E agora, se você ligar novamente, você poderá ver isso.
+
+90
+00:05:58,830 --> 00:06:06,240
+Tenha em mente se você quer ler novamente mais vezes, você terá que redefinir isso, diga que meu arquivo busca
+
+91
+00:06:06,330 --> 00:06:11,660
+zero e, em seguida, salve meu arquivo lido e salve isso, pois o conteúdo é
+
+92
+00:06:15,010 --> 00:06:16,390
+suficiente. Verifique meus conteúdos.
+
+93
+00:06:16,420 --> 00:06:18,250
+Isso é apenas uma corda gigante.
+
+94
+00:06:18,250 --> 00:06:23,070
+Então, esse é o método de leitura e permite que você pegue tudo como uma seqüência gigante.
+
+95
+00:06:23,170 --> 00:06:29,950
+Às vezes, isso não é realmente útil porque você realmente deseja ter uma lista onde cada elemento na lista é
+
+96
+00:06:29,950 --> 00:06:34,260
+uma linha em uma forma de string do arquivo de texto real.
+
+97
+00:06:34,300 --> 00:06:35,850
+E, para fazer isso, é bastante simples.
+
+98
+00:06:35,860 --> 00:06:38,300
+Você pode usar o método de linhas de leitura.
+
+99
+00:06:38,410 --> 00:06:41,540
+Então, vamos voltar a zero.
+
+100
+00:06:43,090 --> 00:06:49,760
+E então, diga meu arquivo lê as linhas e saiba o que recebemos aqui.
+
+101
+00:06:49,760 --> 00:06:54,560
+Agora, temos cada linha como um objeto separado ou elementos nesta lista.
+
+102
+00:06:54,560 --> 00:06:59,120
+E muitas vezes é mais conveniente trabalhar com, porque agora eu posso fazer um ciclo desta
+
+103
+00:06:59,120 --> 00:07:03,560
+lista sobre a qual aprenderemos mais tarde ou posso indexar essa lista para as próprias linhas.
+
+104
+00:07:04,580 --> 00:07:05,150
+Tudo bem.
+
+105
+00:07:05,150 --> 00:07:11,300
+Então, esses são os métodos básicos de leitura de um arquivo de texto básico que é lido para
+
+106
+00:07:11,720 --> 00:07:17,570
+agarrar tudo como uma string ou ler linhas para pegar uma lista onde cada elemento representa uma linha.
+
+107
+00:07:17,570 --> 00:07:23,220
+Tenha em mente que você ainda tem essa barra invertida e, no final, vamos passar a
+
+108
+00:07:23,220 --> 00:07:24,900
+discutir os locais dos arquivos.
+
+109
+00:07:24,900 --> 00:07:29,340
+Agora, anteriormente, mostramos como abrir um arquivo de texto que está no mesmo
+
+110
+00:07:29,340 --> 00:07:32,420
+local do seu script Python ou do notebook Python.
+
+111
+00:07:32,700 --> 00:07:37,590
+Mas e se você quiser abrir um arquivo de texto salvo em outro local no seu computador.
+
+112
+00:07:37,590 --> 00:07:41,640
+para estar no mesmo local que esse tipo de arquivo de texto abrir um arquivo de texto.
+
+113
+00:07:41,640 --> 00:07:47,130
+Vai ser realmente irritante ter que constantemente estar se movendo em torno de seus scripts Python ou a localização do seu notebook
+
+114
+00:07:47,160 --> 00:07:48,470
+Qualquer local no seu computador.
+
+115
+00:07:48,510 --> 00:07:52,070
+Tudo o que você precisa fazer é fornecer o caminho completo do arquivo.
+
+116
+00:07:52,090 --> 00:07:57,640
+Tenha em mente no entanto a sintaxe para um caminho de arquivo é ligeiramente diferente, dependendo se você estiver no Windows
+
+117
+00:07:58,000 --> 00:08:00,280
+ou se estiver em um Mac OS ou Linux.
+
+118
+00:08:00,280 --> 00:08:03,460
+Então, para o Windows, o caminho típico do arquivo vai se parecer com algo assim.
+
+119
+00:08:03,460 --> 00:08:05,440
+Você vai dizer C colon.
+
+120
+00:08:05,470 --> 00:08:10,720
+a barra invertida dupla e isso basicamente é um caractere de escape para que o Python não confunda isso.
+
+121
+00:08:10,720 --> 00:08:12,220
+E então note que temos
+
+122
+00:08:12,250 --> 00:08:17,980
+Primeira barra invertida como um personagem de escape porque imagine se você é um nome de usuário tinha uma minúscula e não quer
+
+123
+00:08:17,980 --> 00:08:19,430
+que o Paice de repente pense.
+
+124
+00:08:19,450 --> 00:08:20,620
+Você quer dizer nova linha.
+
+125
+00:08:20,620 --> 00:08:22,990
+Então é por isso que temos duas plataformas invertidas aqui.
+
+126
+00:08:23,170 --> 00:08:25,350
+Então, é para o Windows e parece algo assim.
+
+127
+00:08:25,390 --> 00:08:28,920
+E você apenas passa todo o caminho do arquivo como uma string para seu arquivo de texto.
+
+128
+00:08:29,140 --> 00:08:32,110
+Se você estiver no Mac OS ou no Linux, parece um pouco diferente.
+
+129
+00:08:32,110 --> 00:08:37,980
+Você tem barras para a frente aqui e vai o nome de usuário do usuário, qualquer pasta e, em seguida, o arquivo de texto.
+
+130
+00:08:38,050 --> 00:08:45,220
+Se você quiser verificar o que isso realmente parece, tudo o que você precisa fazer é usar esse PWT acessível em
+
+131
+00:08:45,220 --> 00:08:46,330
+uma célula novamente.
+
+132
+00:08:46,380 --> 00:08:50,670
+Note que já tenho um tipo de formato do que deve ser.
+
+133
+00:08:50,680 --> 00:08:55,150
+Estou executando isso em um computador com Windows agora, então me mostra qual é o formato e, a partir daí, eu
+
+134
+00:08:55,150 --> 00:09:01,270
+posso copiar colar e depois brincar com esse caminho de pasta de adicionar etc. para pegar o arquivo de texto
+
+135
+00:09:01,270 --> 00:09:04,870
+correto para terminar esta discussão de arquivos.
+
+136
+00:09:04,870 --> 00:09:12,550
+Quero mencionar as melhores práticas para abrir arquivos agora, abrimos esse arquivo e chamamos esse meu arquivo.
+
+137
+00:09:12,790 --> 00:09:15,240
+Mas, tecnicamente, porque está aberto, precisamos fechá-lo.
+
+138
+00:09:15,250 --> 00:09:21,610
+Nós temos que dizer que meu arquivo fecha para não obter erros porque, digamos, você abrirá este arquivo em outro
+
+139
+00:09:21,610 --> 00:09:24,330
+lugar no seu computador e você estava tentando excluí-lo.
+
+140
+00:09:24,370 --> 00:09:28,510
+Você receberia um erro dizendo que o Python ainda está usando este arquivo e você precisaria realmente
+
+141
+00:09:28,510 --> 00:09:32,100
+fechá-lo manualmente assim que você terminasse de trabalhar com ele para evitar tais erros.
+
+142
+00:09:32,100 --> 00:09:36,340
+Nós podemos fazer é usar a declaração especial com e parece assim.
+
+143
+00:09:36,340 --> 00:09:38,220
+Você vai dizer em vez de dizer algo assim.
+
+144
+00:09:38,260 --> 00:09:45,150
+Primeiro vejamos o caminho antigo, que foi meu arquivo aberto, testi XTi.
+
+145
+00:09:45,150 --> 00:09:50,650
+Então, essa foi a maneira antiga de fazer as coisas e acredito que foi chamado meu arquivo que DXi.
+
+146
+00:09:51,070 --> 00:09:59,570
+Bem, podemos fazer é dizer com aberto e depois diremos, a partir de então, o que quer que você queira chamar isso, você pode dizer meus novos
+
+147
+00:09:59,570 --> 00:10:04,970
+arquivos, esse é o nome da variável que você escolhe e então você tem um cólon lá.
+
+148
+00:10:05,300 --> 00:10:07,680
+E então, veja o que acontece aqui quando acertei.
+
+149
+00:10:07,690 --> 00:10:13,520
+Eu tenho uma indentação e, basicamente, o que isso significa é que qualquer código aqui que esteja
+
+150
+00:10:13,520 --> 00:10:20,450
+dentro deste bloco, este bloco de código recuado vai usar o meu novo arquivo como a variável deste arquivo de texto
+
+151
+00:10:21,530 --> 00:10:31,370
+para que eu possa dizer conteúdo é igual ao meu novo arquivo lido e quando eu executo isso, eu não preciso mais me preocupar em fechar o arquivo, verifiquei
+
+152
+00:10:31,370 --> 00:10:35,810
+rapidamente se o nome do arquivo de texto correto aparece aqui e confirme isso.
+
+153
+00:10:35,960 --> 00:10:36,940
+E estávamos certos.
+
+154
+00:10:37,220 --> 00:10:40,070
+Ok, então vamos passar e ver o que acontece.
+
+155
+00:10:40,130 --> 00:10:46,220
+Então eu corro isso e agora não me preocupo mais em fechar o arquivo e ainda posso pegar os conteúdos que
+
+156
+00:10:46,220 --> 00:10:51,620
+estavam neste bloco de código e nos vamos a acostumar com a idéia de mais um bloco de
+
+157
+00:10:51,620 --> 00:10:53,950
+código mais intenso no próxima seção do curso.
+
+158
+00:10:54,290 --> 00:10:59,840
+OK vamos terminar esta discussão falando sobre ler e escrever para um arquivo.
+
+159
+00:10:59,870 --> 00:11:03,890
+Agora, você pode ter notado que basicamente acabamos de ler arquivos, mas também
+
+160
+00:11:03,890 --> 00:11:08,750
+podemos escrever em arquivos e substituir arquivos e essa é uma diferença fundamental que precisamos apreciar.
+
+161
+00:11:09,580 --> 00:11:18,440
+Então, vamos dizer com abertura e vou dizer com abrir meu arquivo que T x t vírgula e o que vou fazer
+
+162
+00:11:18,440 --> 00:11:22,530
+aqui é escrever com meu cursor ao lado de abrir.
+
+163
+00:11:22,550 --> 00:11:24,410
+Eu vou fazer a guia shift.
+
+164
+00:11:24,830 --> 00:11:29,750
+E o que isso faz é que abre informações para funções que já foram definidas.
+
+165
+00:11:29,810 --> 00:11:31,840
+Então, depois, vamos encontrar nossas próprias funções.
+
+166
+00:11:31,950 --> 00:11:36,770
+abrir é uma função incorporada para que você possa ver aqui alguma documentação e é por isso que eu adoro
+
+167
+00:11:36,770 --> 00:11:41,870
+isso e que você conhece um livro para ensinar Python porque apenas com a guia de mudança de termo logo ao
+
+168
+00:11:41,870 --> 00:11:47,240
+lado da função, você obtém tudo isso informações realmente úteis e você pode ter mais aqui para ver ainda mais coisas.
+
+169
+00:11:47,240 --> 00:11:47,900
+Mas você notará
+
+170
+00:11:47,900 --> 00:11:53,040
+Então você basicamente tem a documentação aqui no seu caderno sem precisar entrar online.
+
+171
+00:11:54,350 --> 00:11:54,620
+Tudo bem.
+
+172
+00:11:54,620 --> 00:11:59,520
+Então note aqui que existe um modo e é definido por padrão igual a r.
+
+173
+00:11:59,780 --> 00:12:03,540
+Então, vamos copiar isso e colá-lo aqui.
+
+174
+00:12:03,540 --> 00:12:05,890
+O mesmo modo é igual a R. E então diga como o conteúdo do meu arquivo é igual ao meu arquivo lido.
+
+175
+00:12:05,970 --> 00:12:13,430
+Então, quando eu executo isso, não há problema.
+
+176
+00:12:13,470 --> 00:12:15,990
+Eu vejo o conteúdo e está lá.
+
+177
+00:12:15,990 --> 00:12:19,450
+Agora vamos mudar para W. O que significa direito.
+
+178
+00:12:19,470 --> 00:12:24,020
+Se eu tentar executar a célula novamente, ele vai dizer que a operação não suportada não é legível.
+
+179
+00:12:24,930 --> 00:12:30,250
+E isso é porque, dependendo do modo escolhido para abrir seus arquivos, você
+
+180
+00:12:30,360 --> 00:12:36,630
+só pode escolher escrever para um arquivo em vez de poder ler em um arquivo.
+
+181
+00:12:36,630 --> 00:12:39,510
+E isso é basicamente conhecido como permissões.
+
+182
+00:12:39,570 --> 00:12:41,510
+Às vezes, você quer que certos scripts apenas tenham
+
+183
+00:12:41,580 --> 00:12:46,620
+permissão para escrever em um arquivo ou apenas tenham permissões para ler em um arquivo e às vezes você deseja que eles tenham ambos.
+
+184
+00:12:46,620 --> 00:12:51,000
+Então, o que podemos fazer aqui é as seguintes opções, podemos usar nosso Para ler ou W para.
+
+185
+00:12:51,030 --> 00:12:58,630
+Certo.
+
+186
+00:12:58,640 --> 00:12:59,200
+E isso
+
+187
+00:12:59,210 --> 00:13:05,420
+irá substituir arquivos ou podemos usar um para anexar arquivos e anexar é basicamente apenas adicionar mais linhas ao final de um arquivo de texto.
+
+188
+00:13:05,420 --> 00:13:08,190
+ESTÁ BEM.
+
+189
+00:13:08,660 --> 00:13:08,900
+Então, vamos passar um pouco de tempo para discutir os modos de escrita e adição de leitura.
+
+190
+00:13:08,900 --> 00:13:13,530
+Então, mostramos apenas que você pode editar esse modo.
+
+191
+00:13:13,610 --> 00:13:15,640
+Vamos mais discutir todos eles uma vez mais.
+
+192
+00:13:15,650 --> 00:13:18,100
+Se você definir o modo é igual ao nosso, isso é somente leitura se você configurar o modo igual a W.
+
+193
+00:13:18,200 --> 00:13:23,170
+É só isso.
+
+194
+00:13:23,180 --> 00:13:24,240
+Então, isso substituirá os arquivos que já existem.
+
+195
+00:13:24,250 --> 00:13:26,720
+Ou se você tentar abrir um arquivo que já não existe e você abri-lo com MO W. W. Eles realmente criarão um novo arquivo e veremos isso em apenas
+
+196
+00:13:26,870 --> 00:13:30,910
+um segundo e, em seguida, o modo A é apenas para uma caneta e isso adiciona aos arquivos
+
+197
+00:13:31,070 --> 00:13:36,320
+o nosso Plus que lendo e escrevendo e, em seguida, w Plus está abrindo um arquivo para a escrita e a leitura.
+
+198
+00:13:36,320 --> 00:13:42,620
+E isso novamente substituirá o arquivo existente se o arquivo existir, ele não possui arquivo.
+
+199
+00:13:42,980 --> 00:13:44,030
+Ele cria um novo arquivo para leitura e escrita.
+
+200
+00:13:44,060 --> 00:13:48,490
+Tipo de jogo com estes.
+
+201
+00:13:48,500 --> 00:13:50,490
+Vamos criar um novo arquivo e vou fazer isso no livro de notas Jupiter.
+
+202
+00:13:50,600 --> 00:13:51,670
+Você também pode fazer isso a partir de qualquer editor de texto, mas vou escrever meu novo arquivo em 60.
+
+203
+00:13:51,680 --> 00:13:54,320
+Um dos dois primeiros em segundo e três em terceiro.
+
+204
+00:13:54,380 --> 00:13:59,030
+Eu vou correr para confirmar que acabei de criar o meu novo texto de arquivo.
+
+205
+00:13:59,150 --> 00:14:01,790
+Neste caso, eu sobrecarregue-o porque eu lido isso mais de uma vez.
+
+206
+00:14:02,060 --> 00:14:06,680
+Mas vamos fazer o seguinte.
+
+207
+00:14:06,690 --> 00:14:10,080
+Nós diremos isso com abertura e diremos que meu novo arquivo deve ser realmente capaz de preencher automaticamente esse preenchimento.
+
+208
+00:14:10,250 --> 00:14:11,090
+segundo em terceiro.
+
+209
+00:14:11,090 --> 00:14:18,480
+Então, meu novo modo de texto de arquivo irá ler somente como F e então eu vou imprimir a leitura e lá posso ver um nos primeiros dois no segundo
+
+210
+00:14:18,510 --> 00:14:30,240
+Então esse é o modo de leitura que é bastante útil para a leitura.
+
+211
+00:14:30,240 --> 00:14:33,700
+Digamos que eu queria adicionar uma nova linha a isso que eu poderia dizer com
+
+212
+00:14:33,720 --> 00:14:37,240
+a mente aberta que você arquivou 16 Eu direi que o modo é igual e neste
+
+213
+00:14:37,620 --> 00:14:45,480
+caso eu vou dizer porque eu quero anexar uma nova linha para isso dizer como F e se eu quiser escrever para um arquivo, tudo o que eu tenho que fazer é dizer F point.
+
+214
+00:14:49,120 --> 00:14:55,830
+E, como você pode ter esperado, em vez de ler, diga
+
+215
+00:14:55,830 --> 00:15:03,570
+Direito e vamos escrever uma nova linha para isso, vamos dizer sobre Forth.
+
+216
+00:15:03,570 --> 00:15:08,910
+Então, é o que estou fazendo aqui porque estou usando anexar.
+
+217
+00:15:08,910 --> 00:15:13,240
+Isso significa que o cursor é todo o caminho no final deste arquivo de texto e, em
+
+218
+00:15:13,290 --> 00:15:16,150
+seguida, ele vai anexar ou adicionar em uma quarta linha para ele.
+
+219
+00:15:16,290 --> 00:15:22,890
+Então eu vou executar isso e então vamos reertar o código aqui para copiar e colar
+
+220
+00:15:22,890 --> 00:15:24,810
+isso em uma nova célula.
+
+221
+00:15:24,870 --> 00:15:32,340
+E se eu executar isso novamente, agora vejo um nos primeiros dois no segundo segundo em terceiro para o Forth.
+
+222
+00:15:32,340 --> 00:15:33,490
+Algo que eu realmente não leve em consideração aqui é que eu esqueci de adicionar uma nova linha.
+
+223
+00:15:33,490 --> 00:15:39,570
+Então, o que eu poderia ter feito é dizer barra invertida.
+
+224
+00:15:39,600 --> 00:15:45,180
+E aqui para realmente inserir uma nova linha.
+
+225
+00:15:45,180 --> 00:15:48,700
+Então, se corremos essas duas células novamente, agora vemos quatro na quarta.
+
+226
+00:15:48,730 --> 00:15:51,510
+Agora, infelizmente, ainda tenho esse estranho aqui,
+
+227
+00:15:51,510 --> 00:15:56,910
+então vou reestablecer tudo, voltando aqui e substituindo esse arquivo mais uma vez.
+
+228
+00:15:56,920 --> 00:16:01,510
+Então, vamos executar isso novamente, execute esta célula novamente e depois execute a célula novamente.
+
+229
+00:16:01,510 --> 00:16:04,930
+Agora eu posso ver um no primeiro segundo segundo ao terceiro quarto quarto.
+
+230
+00:16:04,930 --> 00:16:10,350
+Então, essa é a diferença entre ler e gastar agora para explorar W para escrever.
+
+231
+00:16:10,640 --> 00:16:14,420
+Posso dizer com abertura e aqui vou inventar um
+
+232
+00:16:14,480 --> 00:16:21,530
+monte de letras que tT XTi e eu digo que o modo é igual a W. se o arquivo não existir, ele realmente o criará.
+
+233
+00:16:21,560 --> 00:16:30,910
+Eu lembro com este modo W que vai substituir um arquivo existente ou
+
+234
+00:16:31,180 --> 00:16:32,640
+Então ele pode fazer um nome lá, diga como F e então diga F direito.
+
+235
+00:16:32,890 --> 00:16:39,940
+Eu criei esse arquivo e isso não ocorreu.
+
+236
+00:16:39,940 --> 00:16:41,420
+Porque mesmo que este arquivo de
+
+237
+00:16:41,560 --> 00:16:47,010
+texto não exista desde que abrimos isso com o modo w Python, foi adiante e criou esse arquivo de texto para nós.
+
+238
+00:16:47,150 --> 00:16:53,090
+Se tentarmos fazer o mesmo de um modo diferente, como o
+
+239
+00:16:53,100 --> 00:16:58,350
+nosso ou apenas um, teríamos cometido um erro lá.
+
+240
+00:16:58,380 --> 00:17:00,540
+Então, vamos em frente e lemos esse arquivo.
+
+241
+00:17:00,540 --> 00:17:05,400
+Bem, diga isso com D. aberto. H. F e eu realmente incentivá-lo agora apenas faça a guia de preenchimento automático.
+
+242
+00:17:05,400 --> 00:17:06,080
+Então você tem que memorizar tudo o que diremos que o modo é igual a ser lido como F. E vamos
+
+243
+00:17:06,970 --> 00:17:09,080
+imprimir f e depois podemos ver.
+
+244
+00:17:09,280 --> 00:17:14,560
+Eu criei esse arquivo.
+
+245
+00:17:14,650 --> 00:17:26,250
+Então, essas são as idéias básicas de abrir arquivos em modo de gravação de modo anexado ou modo de leitura.
+
+246
+00:17:26,250 --> 00:17:26,910
+Você pode ver mais exemplos disso no seu caderno que acompanha essa palestra.
+
+247
+00:17:26,940 --> 00:17:28,030
+OK, obrigado a todos
+
+248
+00:17:28,110 --> 00:17:34,200
+e eu vejo você na próxima palestra onde realmente começamos a testar você e muitos dos tópicos que discutimos aqui.
+
+249
+00:17:34,220 --> 00:17:38,630
+&nbsp;
+
+250
+00:17:39,500 --> 00:17:44,400
+&nbsp;
+
+251
+00:17:44,400 --> 00:17:45,830
+&nbsp;

@@ -1,0 +1,495 @@
+1
+00:00:05,550 --> 00:00:06,540
+Herkese hoş geldiniz.
+
+2
+00:00:06,630 --> 00:00:10,990
+Bu derste değişken atamaları tartışacağız.
+
+3
+00:00:11,030 --> 00:00:12,750
+Şimdi sayılarla nasıl çalışacağımızı gördük.
+
+4
+00:00:12,770 --> 00:00:14,860
+Ancak bu rakamlar aslında ne temsil eder.
+
+5
+00:00:14,870 --> 00:00:16,780
+Tamsayılar ve kayan nokta numaraları vardı.
+
+6
+00:00:16,800 --> 00:00:19,720
+Ancak aslında onlara atanmış bir değişken adı var.
+
+7
+00:00:19,880 --> 00:00:24,650
+Dolayısıyla, bu belirli veri türlerine daha sonra kodumuzda bunları kolayca referans verebilecek bir değişken
+
+8
+00:00:24,650 --> 00:00:25,900
+adı atayabilirsek iyi olur.
+
+9
+00:00:25,940 --> 00:00:33,110
+Örneğin, değişken köpeklerin iki adete eşit olduğunu söyleyebilirim, çünkü iki köpeğim var.
+
+10
+00:00:33,190 --> 00:00:36,360
+Şimdi, Python'da bir değişken adı seçmek için birkaç kural vardır.
+
+11
+00:00:36,610 --> 00:00:39,460
+Ve bu kurallar, isimler bir sayı için başlayamayacaklarıdır.
+
+12
+00:00:39,460 --> 00:00:44,110
+Değişken adında boşluk da olmayabilir, bunun yerine alt çizgi kullanmalısınız.
+
+13
+00:00:44,110 --> 00:00:46,590
+Ayrıca, bu sembollerden herhangi birine bir adla sahip olabilirsiniz.
+
+14
+00:00:46,630 --> 00:00:51,220
+Ve eğer bu sembollerden birini unutursanız, bu sembollerden birini değişken bir ada yazarsanız, Python
+
+15
+00:00:51,220 --> 00:00:54,100
+hızlı bir şekilde şikayet eder ve bir hata yaşarsınız.
+
+16
+00:00:54,100 --> 00:00:55,990
+Yani bütün bunları ezberlemek konusunda endişelenmenize gerek yok.
+
+17
+00:00:55,990 --> 00:00:59,950
+Değişken adlarla ilgili birkaç kural daha yazarken havayı alırsınız.
+
+18
+00:00:59,950 --> 00:01:05,130
+Sekizincisi isimler küçük harflere göre genelde en iyi uygulama olarak kabul edilir.
+
+19
+00:01:05,140 --> 00:01:08,350
+Artık daha gelişmiş bir programcı haline geldiğiniz durumlar var.
+
+20
+00:01:08,470 --> 00:01:12,850
+Nereye kodunuzu yazmak için kullanılan tüm büyük harfler genel değişken adları bir tür
+
+21
+00:01:12,850 --> 00:01:13,390
+olmak isteyeceksiniz.
+
+22
+00:01:13,570 --> 00:01:19,000
+Ancak şu anda genel olarak isimlerimizi küçük tutmak istiyoruz ve ayrıca Python'da özel bir anlam
+
+23
+00:01:19,000 --> 00:01:24,460
+taşıyan kelimeleri kullanmaktan kaçınmak istiyoruz ve bunlar list gibi veya dize gibi anahtar kelimelerde oluşturuluyor.
+
+24
+00:01:24,460 --> 00:01:28,600
+Anahtar kelimelerin özel olarak hazırlandığını nasıl bilmem gerektiğini de merak ediyor olabilirsiniz.
+
+25
+00:01:28,600 --> 00:01:33,400
+Neyse ki, Python ile çalışmak üzere tasarlanmış herhangi bir geliştirme ortamında, yerleşik bir
+
+26
+00:01:33,430 --> 00:01:38,440
+anahtar kelimeyi farklı bir renk vurgulayarak kullanmanın sizi uyaracağı sözdizimi vurgulamasına sahip olacaksınız ve
+
+27
+00:01:38,440 --> 00:01:40,330
+bunun bir örneğini biraz göreceğiz.
+
+28
+00:01:42,060 --> 00:01:46,710
+Jüpiter kitabına atlamadan önce Python'un dinamiklerin tonlamasını kullandığından bahsedelim ve bu, değişkenleri
+
+29
+00:01:47,130 --> 00:01:52,410
+farklı veri türlerine atayabileceğiniz ve Python'u veri türleri atamak için çok esnek hale
+
+30
+00:01:52,410 --> 00:01:53,500
+getirdiğiniz anlamına geliyor.
+
+31
+00:01:53,520 --> 00:01:57,960
+Ve bu, statik olarak yazılan birçok diğer programlama dilinden farklıdır.
+
+32
+00:01:57,960 --> 00:02:04,110
+Bu yüzden python'da bununla ne demek istediğime bir örnek göstereceğim, buna benzer bir şey tamamen tamam.
+
+33
+00:02:04,310 --> 00:02:09,890
+Burada köpeklerim değişken adını iki eşit olarak atadım ve daha sonra kodumda devam ettim
+
+34
+00:02:09,890 --> 00:02:14,720
+ve aynı değişken adını köpeğim tamamen farklı bir veri türü listesine yeniden atadım.
+
+35
+00:02:14,750 --> 00:02:16,370
+Sammy ve Frankie.
+
+36
+00:02:16,490 --> 00:02:20,850
+Şimdi Python'da ancak bir hata üreten diğer dillerde tamamen OK.
+
+37
+00:02:20,920 --> 00:02:26,370
+Bunun nedeni, bu diğer dillerin statik olarak yazıldığı, yani C artı gibi diğer dilde anlamı,
+
+38
+00:02:26,370 --> 00:02:32,190
+artı ben söylemek zorunda kalmanızdır. A. tam sayı için ve sonra köpeğimin 1 gibi
+
+39
+00:02:32,220 --> 00:02:35,000
+istediğiniz tamsayı değerine eşit olduğunu ve daha sonra kodunuzda olduğunu söyleyin.
+
+40
+00:02:35,030 --> 00:02:38,100
+Farklı bir veri türü atayamazsınız.
+
+41
+00:02:38,100 --> 00:02:42,850
+Köpeğimin Samie'ye eşit olduğunu söyleyemeyeceksiniz, çünkü artık tam sayı değildir.
+
+42
+00:02:42,870 --> 00:02:44,860
+Şimdi bir hata ile sonuçlansın.
+
+43
+00:02:44,910 --> 00:02:48,590
+Python'da dinamik yazmaya yönelik bazı artı ve eksileri var.
+
+44
+00:02:48,630 --> 00:02:52,600
+Düzyazı, gerçek veri türünü yazmak zorunda kalmamaktır.
+
+45
+00:02:52,650 --> 00:02:57,150
+Size çok fazla zaman kazandırır ve Python kodunu çabucak üretmeyi gerçekten kolaylaştırır ve
+
+46
+00:02:57,150 --> 00:03:00,720
+yalnızca değişken adını okuduğunuz için kodunuzu çok okunabilir hale getirir.
+
+47
+00:03:00,720 --> 00:03:05,820
+tür çift ucu keskin bir kılıç var, çünkü eksileri, beklenmedik veri türü için böceklere neden olabileceğidir,
+
+48
+00:03:05,820 --> 00:03:09,960
+çünkü özellikle kullanıcı girdileri ile uğraşırken bu veri türlerine ilişkin kısıtlamalara sahip değilsiniz.
+
+49
+00:03:09,960 --> 00:03:11,080
+Şu anda bu
+
+50
+00:03:11,130 --> 00:03:16,660
+Beklenmedik veri türünüzü gösterebilir ve bu işlemlerinizde sonradan sorunlara neden olabilir.
+
+51
+00:03:17,100 --> 00:03:21,570
+Dolayısıyla, kodlama yaparken veri türlerinden haberdar olmalısın ve herhangi bir değişkenin türünü hızla kontrol
+
+52
+00:03:21,570 --> 00:03:26,000
+etmek için Python'da yerleşik özel bir tür işlevini kullanabilir ve bunun nasıl kullanılacağını gösterebilirsiniz.
+
+53
+00:03:26,010 --> 00:03:28,290
+Ve birazcık.
+
+54
+00:03:28,500 --> 00:03:31,830
+Tamam, farklı bir kitleye atlayarak tüm bu kavramları keşfedelim.
+
+55
+00:03:32,730 --> 00:03:36,960
+Şimdi Python'da bir hesap makinesi olarak sayıları nasıl kullanacağımızı gördük, isimleri atayabilmemiz
+
+56
+00:03:36,960 --> 00:03:38,520
+ve değişkenler oluşturabilmemiz için bakalım.
+
+57
+00:03:38,520 --> 00:03:43,590
+İlk olarak A adlı çok basit bir değişkeni oluşturacağız ve onu 5'e eşit olarak ayarlayacağız.
+
+58
+00:03:43,980 --> 00:03:47,640
+Ve şimdi bunu bir aramak için kodumdaki herhangi bir yerden çalıştırdım.
+
+59
+00:03:47,960 --> 00:03:53,820
+Şimdi değişken 5'i atamaktadır ve A'yı yalnızca 10 gibi bir şeye eşit olarak söyleyerek
+
+60
+00:03:53,820 --> 00:03:54,810
+yeniden atayabilirim.
+
+61
+00:03:55,260 --> 00:04:02,940
+Ve şimdi bir a kontrol edersem, orada 10 var ve şimdi birlikte nesneler ekleyebilirim ki bir artı A diyebilirim.
+
+62
+00:04:02,940 --> 00:04:07,420
+Ve 20'ye neden olacak, çünkü 10 artı 10, 20'ye eşittir.
+
+63
+00:04:07,560 --> 00:04:13,260
+Ayrıca Python, aynı nesneye bir referansla yeniden atamalar yapmanıza izin verir.
+
+64
+00:04:13,260 --> 00:04:14,440
+Ne demek istediğimi göstereceğim.
+
+65
+00:04:14,580 --> 00:04:21,420
+Hâlâ 10 olan A söyleyebilirim, A'nın A artı değerine eşit olduğuna dair bir şey
+
+66
+00:04:21,480 --> 00:04:23,140
+söylemek için yeniden atayabilirim.
+
+67
+00:04:23,400 --> 00:04:28,740
+Demek istediğim, A'nın 10 olan geçerli değerini alıp bir artı A'ya yeniden atamanızdır.
+
+68
+00:04:28,770 --> 00:04:30,200
+Yani 10 artı 10'dur.
+
+69
+00:04:30,210 --> 00:04:34,660
+Bu yüzden kaçtıktan sonra bu 20'ye eşit olacak.
+
+70
+00:04:34,810 --> 00:04:38,010
+Bu hücrenin ikinci seferinde koşarsam unutmayın.
+
+71
+00:04:38,140 --> 00:04:42,410
+Bu yüzden operatörün burada 40'dan 42'ye gideceğini fark ettim.
+
+72
+00:04:42,490 --> 00:04:49,570
+ve bunu tekrar tekrar yapmaya devam edebilirsin ve her seferinde iki kat daha görürsün.
+
+73
+00:04:49,810 --> 00:04:51,410
+Tekrar koşarsam 40'tır
+
+74
+00:04:51,700 --> 00:04:52,960
+Dolayısıyla bunu aklınızda tutun.
+
+75
+00:04:52,960 --> 00:04:57,040
+Bu, bir komut dosyası ortamından biraz farklıdır; yüksek bir komut dosyası çalıştırıyorsanız,
+
+76
+00:04:57,040 --> 00:05:01,320
+o efekti gerçekten göremiyorsunuz, çünkü bir hücre ortamında yalnızca bir kez olacak.
+
+77
+00:05:01,330 --> 00:05:03,670
+O hücreyi defalarca çalıştırmak zorunda kalacaksın.
+
+78
+00:05:04,070 --> 00:05:04,500
+TAMAM.
+
+79
+00:05:04,750 --> 00:05:11,410
+ne olduğunu bilmediğimizi hayal edelim; yapabileceğiniz yerleşik türde bir işlevi kullanın, böylece yakın
+
+80
+00:05:11,430 --> 00:05:17,200
+parantez içinde açık olan ve daha sonra kendi işlevlerimizi nasıl oluşturacağımızı öğreneceğiz.
+
+81
+00:05:17,200 --> 00:05:18,130
+Öyleyse, türün
+
+82
+00:05:18,130 --> 00:05:24,010
+Ancak, orada bulunan değişkene geçin ve Python'un yerleşik anahtar kelimesi ne tip için geri
+
+83
+00:05:24,010 --> 00:05:24,630
+alınacaktır.
+
+84
+00:05:24,640 --> 00:05:27,410
+Ve bu durumda benim. A. çünkü tam sayı.
+
+85
+00:05:27,550 --> 00:05:30,310
+Bir kayan noktalı sayı olacak şekilde yeniden atayalım.
+
+86
+00:05:30,340 --> 00:05:32,070
+Otuz punto söyleyeceğiz.
+
+87
+00:05:32,110 --> 00:05:36,910
+Bir tür türün türünü kontrol edelim ve o float'u geri getirir.
+
+88
+00:05:36,910 --> 00:05:41,980
+Yani bunlar, temel veri türlerinden oluşan tabloyu tartıştığımızda gördüğümüz anahtar kelimelerdir.
+
+89
+00:05:41,980 --> 00:05:47,320
+Şimdi daha önce bahsettiğiniz gibi, yerleşik Python anahtar sözcüklerini değişken adları olarak kullanmaktan kaçınmak istersiniz ve bu olup
+
+90
+00:05:47,320 --> 00:05:54,310
+bittiğini veya bilmediğiniz yolu, ben atamak istedim diyelim. A. 4'e
+
+91
+00:05:54,310 --> 00:05:55,760
+eşit
+
+92
+00:05:55,810 --> 00:05:57,150
+Burada neler olduğuna dikkat et.
+
+93
+00:05:57,160 --> 00:06:01,610
+Söz diziminde vurgulama yapıyorum. A. ve bunu daha önce almadım.
+
+94
+00:06:01,630 --> 00:06:07,150
+Bu demektir ki, ben ve t burada özel bir yerleşik anahtar sözcüktür ve bunu böyle bir şey
+
+95
+00:06:07,150 --> 00:06:07,750
+için kullanmamalısınız.
+
+96
+00:06:07,750 --> 00:06:13,390
+bir değişkenin ismini vurgulayan özel bir özelliğe sahip olduğunu görürseniz bunu kullanmamanız gerekir.
+
+97
+00:06:13,390 --> 00:06:15,810
+Bu nedenle, değişken adınızın normal olmayan
+
+98
+00:06:15,820 --> 00:06:18,130
+Kesinlikle bunu çalıştırma.
+
+99
+00:06:18,130 --> 00:06:20,590
+Ve bunu gerçekte takip edersen takip ederdin.
+
+100
+00:06:20,770 --> 00:06:22,930
+Veya başka bir yeniden atama hatası yaptınız.
+
+101
+00:06:22,930 --> 00:06:28,270
+Her zaman buraya çekirdeğe gelebilir ve çekirdeği yeniden başlatmayı seçebilirsiniz ve çekirdeği yeniden başlatacak
+
+102
+00:06:28,270 --> 00:06:31,630
+ve tüm değişkenler kaybolacak şekilde tüm değişkenleri silecektir.
+
+103
+00:06:31,660 --> 00:06:36,670
+Liste veya I. gibi bir şeyi yeniden atadığınız için bazı garip türde bir hata oluştuysa. A.
+
+104
+00:06:37,030 --> 00:06:38,290
+burada yeniden başlatmayı basabilirsin.
+
+105
+00:06:38,440 --> 00:06:41,430
+Çekirdeği yeniden başlatacak ve hücreleri tekrar çalıştırmanız gerekecek.
+
+106
+00:06:41,560 --> 00:06:47,170
+Eğer bir şey bulmak istersen, çünkü burada dediklerimi söylersen, Sin-Eater'ın hücreleri tekrar çalıştırmadığını
+
+107
+00:06:47,170 --> 00:06:49,980
+tanımazsın, sonra yine 5 kişin var demektir.
+
+108
+00:06:50,420 --> 00:06:56,570
+Tamam, bilmek istediğim son şey, değişken adlarını kullanmanın basit bir örneğidir.
+
+109
+00:06:56,830 --> 00:07:08,240
+Dolayısıyla gelirim 100'e eşit demektir ve daha sonra hücrede vergi oranımın yüzde 10 vergi oranına sahip
+
+110
+00:07:08,240 --> 00:07:13,420
+olduğumu söyleyelim diyorum. 0. 1 ve ödenen toplam vergilerimin ne olduğunu öğrenmek istiyorum.
+
+111
+00:07:13,550 --> 00:07:18,130
+Vergilerimin gelirimle eşit olduğunu söyleyebilirim.
+
+112
+00:07:18,280 --> 00:07:24,600
+Vergi oranımın üzerine zaman ayırın, böylece vergi aldım ve vergilerimi kontrol ettim.
+
+113
+00:07:24,600 --> 00:07:25,750
+Borcum ne kadar.
+
+114
+00:07:25,960 --> 00:07:27,240
+Vergilerimi kontrol edeceğim.
+
+115
+00:07:27,240 --> 00:07:29,040
+Ve 10 tane var. 0.
+
+116
+00:07:29,130 --> 00:07:35,880
+Dolayısıyla şimdi mantıksal isimleri değiştirebilirim ve bu sadece tamsayılar veya kayan noktalı sayılar kullanmaktan
+
+117
+00:07:35,880 --> 00:07:36,770
+daha okunabilir.
+
+118
+00:07:36,780 --> 00:07:42,540
+Çünkü şimdi vergilerimin gelirimle vergi oranıma eşit olduğu söylenen güzel, neredeyse
+
+119
+00:07:42,540 --> 00:07:43,320
+İngilizce cümleydi.
+
+120
+00:07:43,600 --> 00:07:45,990
+Tamam, böylece Python'da bazı temel sayıları öğrendik.
+
+121
+00:07:45,990 --> 00:07:49,830
+Kene ile başa çıkmayı öğrendik ve Python'da değişken atamayı nasıl
+
+122
+00:07:50,040 --> 00:07:51,300
+yapacağımızı öğrenerek paketledik.
+
+123
+00:07:51,300 --> 00:07:53,420
+Şimdi sıra hakkında bilgi edineceğiz.
+
+124
+00:07:53,430 --> 00:07:54,190
+Seni orada göreceğim.

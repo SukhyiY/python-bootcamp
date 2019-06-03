@@ -1,0 +1,471 @@
+1
+00:00:05,350 --> 00:00:06,560
+Welcome back everyone.
+
+2
+00:00:06,580 --> 00:00:10,660
+Now that we've gone over the basics about objects and data structures in Python we're going to have
+
+3
+00:00:10,660 --> 00:00:14,310
+an assessment test to quickly check your understanding.
+
+4
+00:00:14,470 --> 00:00:19,210
+So we're going to do a quick overview of your first Test in this lecture and as a reminder you can download
+
+5
+00:00:19,240 --> 00:00:22,150
+all the notebooks that go along with this course from hub.
+
+6
+00:00:22,300 --> 00:00:24,930
+Or is it file from the Course overview lectures.
+
+7
+00:00:24,940 --> 00:00:26,980
+So check out those first couple of lectures.
+
+8
+00:00:27,010 --> 00:00:30,140
+We explain how to get all the information all the notebooks there.
+
+9
+00:00:30,490 --> 00:00:34,570
+And then you have the option of either downloading the notebook and then answering the questions directly
+
+10
+00:00:34,570 --> 00:00:39,370
+in that notebook or you can just open up the link and then open up your own notebook locally and answer
+
+11
+00:00:39,370 --> 00:00:40,690
+the questions there.
+
+12
+00:00:40,690 --> 00:00:42,740
+So let's very quickly show you how to do this.
+
+13
+00:00:42,760 --> 00:00:45,080
+I'm going to open the link right now.
+
+14
+00:00:46,120 --> 00:00:48,040
+OK so this is what the get home page looks like.
+
+15
+00:00:48,040 --> 00:00:49,360
+We've already shown you this before.
+
+16
+00:00:49,390 --> 00:00:54,000
+In the early lectures and this course come to Python object data structure basics.
+
+17
+00:00:54,040 --> 00:00:58,630
+And as a reminder you can click on here and then downloads it to download everything a zip file you
+
+18
+00:00:58,630 --> 00:00:59,240
+unzip it.
+
+19
+00:00:59,260 --> 00:01:05,050
+You have those notebook files and then you can use Anacapa navigator to go to wherever those zip files
+
+20
+00:01:05,050 --> 00:01:07,180
+are are those unzip files were saved.
+
+21
+00:01:07,210 --> 00:01:09,280
+Click on Python object data structure basics.
+
+22
+00:01:09,310 --> 00:01:12,040
+Scroll down here until you get to assessment test.
+
+23
+00:01:12,040 --> 00:01:16,510
+Notice there's also a solution's file and the very next lecture will go through the solutions so all
+
+24
+00:01:16,510 --> 00:01:18,470
+the tests here that are in notebook form.
+
+25
+00:01:18,700 --> 00:01:23,480
+You can do a self-assessment against the solutions lecture or the solutions notebook.
+
+26
+00:01:23,650 --> 00:01:25,400
+Let's click on that assessment test.
+
+27
+00:01:25,480 --> 00:01:30,010
+And this one is going to be pretty straightforward because you don't know a whole lot about a python
+
+28
+00:01:30,010 --> 00:01:30,380
+right now.
+
+29
+00:01:30,400 --> 00:01:35,200
+We can't give you too many technical questions later on as you learn about functions and object oriented
+
+30
+00:01:35,200 --> 00:01:36,020
+programming.
+
+31
+00:01:36,040 --> 00:01:40,480
+The questions are going to get a lot more technical and are going to be kind of a right answer and a
+
+32
+00:01:40,480 --> 00:01:41,340
+wrong answer.
+
+33
+00:01:41,410 --> 00:01:44,430
+But right now these are pretty basic questions.
+
+34
+00:01:44,500 --> 00:01:49,120
+The first one I just want you to write a brief description of the falling object types and data structures
+
+35
+00:01:49,120 --> 00:01:53,350
+that we've learned about numbers string lists tuples and dictionaries.
+
+36
+00:01:53,350 --> 00:01:57,820
+This is really just for you to quickly write down make sure you understand what the differences between
+
+37
+00:01:57,880 --> 00:02:02,750
+a list and a dictionary are for example or differences between a list and a tuple.
+
+38
+00:02:03,040 --> 00:02:08,050
+So as a reminder you can click on any cell and then change the cell type to mark down in case you want
+
+39
+00:02:08,050 --> 00:02:10,500
+to write yourself some notes.
+
+40
+00:02:10,540 --> 00:02:14,600
+Up next we have just a couple of questions about the numbers lectures.
+
+41
+00:02:14,740 --> 00:02:19,660
+So I want you to write an equation that uses multiplication division and exponent addition and subtraction
+
+42
+00:02:19,900 --> 00:02:23,440
+that when you put it all together is equal to one hundred point to five.
+
+43
+00:02:23,440 --> 00:02:27,670
+So just to make sure that you remember all these arithmetic signs should be pretty straightforward.
+
+44
+00:02:27,910 --> 00:02:29,080
+And that's just testor memory.
+
+45
+00:02:29,110 --> 00:02:33,170
+Again you can just work backwards from a hundred point to five to actually grab the numbers that makes
+
+46
+00:02:33,170 --> 00:02:34,520
+that work.
+
+47
+00:02:34,650 --> 00:02:38,980
+Then I want you to answer these three questions for typing any code and then used code to check your
+
+48
+00:02:38,980 --> 00:02:39,840
+answer.
+
+49
+00:02:39,850 --> 00:02:44,220
+So I want you to see what's the value of this expression this expression and this expression.
+
+50
+00:02:44,260 --> 00:02:47,040
+So this is testing order of operations see if you remember that.
+
+51
+00:02:47,440 --> 00:02:49,030
+And then here's an interesting question.
+
+52
+00:02:49,030 --> 00:02:51,040
+What is the actual type.
+
+53
+00:02:51,040 --> 00:02:53,730
+So that's the data type of the result of here.
+
+54
+00:02:54,010 --> 00:02:58,340
+So as a hint we have an integer being added to a floating point number being added to an integer.
+
+55
+00:02:58,360 --> 00:03:04,570
+So what would the type of that be that I want to do find a numbers square roots as well it's it's square
+
+56
+00:03:04,990 --> 00:03:07,760
+so find its square root and then figure out what it squares.
+
+57
+00:03:07,850 --> 00:03:12,710
+So the power to OK then we have strings.
+
+58
+00:03:12,710 --> 00:03:18,240
+And for the given string hello give an index command the returns the letter e.
+
+59
+00:03:18,280 --> 00:03:20,350
+So you're going to enter your code below right here.
+
+60
+00:03:20,350 --> 00:03:25,090
+So print out easing indexing that I want you to reverse the string Hello using slicing.
+
+61
+00:03:25,090 --> 00:03:30,670
+So it kind of showed a quick way to do that later on or earlier in the course I should say then given
+
+62
+00:03:30,670 --> 00:03:34,230
+the string hello give two methods of producing the letter o using indexing.
+
+63
+00:03:34,270 --> 00:03:37,570
+So noticed O is the last letter in the string s.
+
+64
+00:03:37,570 --> 00:03:40,030
+So there's two methods of grabbing that last letter.
+
+65
+00:03:40,120 --> 00:03:45,980
+See if you can figure them out using indexing then Lisse.
+
+66
+00:03:46,000 --> 00:03:49,870
+I want you to build the list 000 two separate ways.
+
+67
+00:03:49,870 --> 00:03:56,050
+Go ahead and review the list lecture to figure out how to quickly build out the list two separate ways.
+
+68
+00:03:56,230 --> 00:03:58,160
+They don't want you to reassign Hello.
+
+69
+00:03:58,180 --> 00:04:00,820
+This nested list to say goodbye instead.
+
+70
+00:04:00,850 --> 00:04:08,970
+So using indexing grab hello and then reassign it to be good by then I want you to sort this list below.
+
+71
+00:04:08,990 --> 00:04:12,660
+So see if you remember that method call after that we have dictionaries.
+
+72
+00:04:12,660 --> 00:04:17,550
+So this one is going to be a little tricky because first off we start off with just simple grabbing
+
+73
+00:04:17,550 --> 00:04:19,340
+the keys and value pairs.
+
+74
+00:04:19,560 --> 00:04:24,360
+So for the first dictionary or really all the dictionaries I want you to grab the string hello.
+
+75
+00:04:24,480 --> 00:04:28,200
+The first one should be pretty basic you see here you have a simple key and then you have hello.
+
+76
+00:04:28,380 --> 00:04:32,120
+So it's just D and then simple keys are kind of gave you the answer for that one.
+
+77
+00:04:32,190 --> 00:04:34,120
+The second one is going to get a little more complicated.
+
+78
+00:04:34,120 --> 00:04:36,030
+So zoom in and really look at it here.
+
+79
+00:04:36,210 --> 00:04:39,700
+Notice that we have the dictionary nested inside another dictionary.
+
+80
+00:04:39,700 --> 00:04:41,170
+So you're going to need two calls there.
+
+81
+00:04:41,340 --> 00:04:43,890
+And I recommend that you break this down in steps.
+
+82
+00:04:43,890 --> 00:04:46,140
+Then we have something that's even a little trickier.
+
+83
+00:04:46,350 --> 00:04:50,750
+And just as a quick reminder these are pretty unrealistic expressions of dictionaries or lists.
+
+84
+00:04:50,790 --> 00:04:53,640
+This is just free to practice indexing and key calls.
+
+85
+00:04:53,670 --> 00:04:58,430
+So again try to grab Hello from this and if you're able to do it then you really understand indexing
+
+86
+00:04:58,430 --> 00:04:59,130
+and lists.
+
+87
+00:04:59,280 --> 00:05:00,920
+And then finally this is the last one.
+
+88
+00:05:00,930 --> 00:05:04,860
+This is going to be a pretty hard and annoying but just break it down step by step.
+
+89
+00:05:05,010 --> 00:05:12,460
+Like Bing keys and then index key and then maybe another index etc. until you get to hello then I have
+
+90
+00:05:12,460 --> 00:05:15,970
+a quick little question here that we've probably asked you before can use a dictionary.
+
+91
+00:05:15,970 --> 00:05:20,130
+Why or why not that we have tuples.
+
+92
+00:05:20,130 --> 00:05:24,870
+So what's the major difference between tuples and lists and how do you create a tuple.
+
+93
+00:05:25,070 --> 00:05:25,790
+Then we have sets.
+
+94
+00:05:25,800 --> 00:05:27,290
+So what is unique about a set.
+
+95
+00:05:27,330 --> 00:05:29,700
+What makes a set different than say a dictionary.
+
+96
+00:05:29,970 --> 00:05:35,640
+And then I want you to use a set to find the unique values of the list below and then finally we have
+
+97
+00:05:35,730 --> 00:05:37,170
+a section on booleans.
+
+98
+00:05:37,200 --> 00:05:42,000
+And this is a bonus section so you don't really need to do this if you don't want to because it uses
+
+99
+00:05:42,000 --> 00:05:46,350
+comparison operators which is going to be the very next section of the course so consider this kind
+
+100
+00:05:46,350 --> 00:05:48,510
+of a bonus section for your read through.
+
+101
+00:05:48,510 --> 00:05:53,720
+Because in the very next section we're actually going to cover a lot of this but we see here our operators.
+
+102
+00:05:53,850 --> 00:05:55,570
+So these are comparison operators.
+
+103
+00:05:55,700 --> 00:05:59,610
+The description of the operator and then an example of the operator I don't want to see if you can kind
+
+104
+00:05:59,610 --> 00:06:05,540
+of teach yourself what these comparison operators are in order to answer what the outputs are here.
+
+105
+00:06:05,820 --> 00:06:10,200
+And even if you don't really know comparison operators formally in Python it should be pretty obvious
+
+106
+00:06:10,260 --> 00:06:13,270
+what something like this would be is too greater than three.
+
+107
+00:06:13,320 --> 00:06:15,490
+If you'd done some basic mathematics before.
+
+108
+00:06:15,660 --> 00:06:20,090
+Again this is an optional section because we haven't officially gone over comparison operators.
+
+109
+00:06:20,100 --> 00:06:22,170
+We're going to do that in the very next section of the course.
+
+110
+00:06:22,170 --> 00:06:27,450
+So I kind of think of this as a bit of a preview before that that we have one final question.
+
+111
+00:06:27,450 --> 00:06:29,910
+What is the output of the cell block below.
+
+112
+00:06:30,150 --> 00:06:32,880
+So again a bonus question here for you.
+
+113
+00:06:33,300 --> 00:06:33,800
+OK.
+
+114
+00:06:33,930 --> 00:06:35,570
+So best of luck.
+
+115
+00:06:35,650 --> 00:06:39,420
+And then the very next lecture we're going to go over the answers for all of this.
+
+116
+00:06:39,430 --> 00:06:42,310
+Again these are more kind of open ended questions later on the course.
+
+117
+00:06:42,420 --> 00:06:45,480
+We're going to get a lot more technical in our questions as you learn more.
+
+118
+00:06:45,510 --> 00:06:47,540
+We'll see you at the next lecture for the solutions.

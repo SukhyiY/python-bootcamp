@@ -1,0 +1,451 @@
+1
+00:00:05,720 --> 00:00:07,460
+Bienvenidos a todos en esta conferencia.
+
+2
+00:00:07,460 --> 00:00:14,180
+Vamos a analizar cadenas de cuerdas o secuencias de caracteres usando la sintaxis de comillas
+
+3
+00:00:14,180 --> 00:00:15,770
+simples o comillas dobles.
+
+4
+00:00:15,800 --> 00:00:17,540
+Aquí podemos ver tres ejemplos.
+
+5
+00:00:17,540 --> 00:00:19,890
+Primero tenemos HOLA de comillas simples que hola.
+
+6
+00:00:19,910 --> 00:00:20,850
+Doble comillas.
+
+7
+00:00:20,930 --> 00:00:24,380
+Y luego, ¿qué tiene de bueno tener ambas opciones de comillas simples o comillas dobles?
+
+8
+00:00:24,380 --> 00:00:29,020
+final la cadena real, puede envolverla en la otra cita tipo, como comillas dobles o viceversa.
+
+9
+00:00:29,030 --> 00:00:34,030
+Significa que si tiene una comilla simple en la cadena que desea conservar y no tiene esa
+
+10
+00:00:34,070 --> 00:00:38,810
+Así que aquí podemos ver que no hago, que tiene una sola comilla, pero no queremos que esa comilla
+
+11
+00:00:38,810 --> 00:00:42,230
+simple termine de repente la cadena para que podamos envolver todo entre comillas dobles.
+
+12
+00:00:42,260 --> 00:00:45,010
+Ahora veremos un ejemplo de eso más adelante en el cuaderno Juber.
+
+13
+00:00:46,200 --> 00:00:51,570
+Ahora es importante señalar que las cadenas son secuencias ordenadas y eso significa que podemos usar la indexación o
+
+14
+00:00:51,570 --> 00:00:56,670
+el corte para tomar subsecciones de la cadena porque sabemos que cada personaje tiene una posición específica para
+
+15
+00:00:56,670 --> 00:01:02,670
+estar y la notación de indexación alivia esa notación de corchetes después de la cadena o el nombre de la variable
+
+16
+00:01:02,670 --> 00:01:04,040
+asignada a la cadena.
+
+17
+00:01:04,050 --> 00:01:08,170
+Ahora vamos a ver muchos ejemplos de división de indexación en solo un poco.
+
+18
+00:01:08,400 --> 00:01:13,740
+Por lo tanto, la indexación es el término que se usa cuando se quiere obtener un único carácter de la cadena.
+
+19
+00:01:13,780 --> 00:01:18,790
+Entonces, la forma en que esto funciona es que cada personaje tiene una posición de índice asignada.
+
+20
+00:01:18,820 --> 00:01:20,040
+Entonces comienzas en cero.
+
+21
+00:01:20,080 --> 00:01:23,500
+Esa es otra nota importante en Python que indica que la indexación comienza en cero.
+
+22
+00:01:23,500 --> 00:01:30,940
+Así que H tiene un número correspondiente de cero E tiene un número correspondiente de 1 2 3 0 4.
+
+23
+00:01:30,940 --> 00:01:36,250
+Entonces, si quisiera agarrar el E Lo que usaría es dentro de los corchetes, pasaría uno después de la
+
+24
+00:01:36,250 --> 00:01:39,790
+cuerda y luego volvería a E y veré ejemplos de eso más adelante.
+
+25
+00:01:40,950 --> 00:01:44,510
+Lo que también es interesante sobre pi thumb es que realmente puedes usar la indexación inversa.
+
+26
+00:01:44,730 --> 00:01:49,530
+Así que tal vez quisiste tomar la última letra de una cuerda, pero en realidad no sabías cuánto duraba la
+
+27
+00:01:49,530 --> 00:01:49,870
+cuerda.
+
+28
+00:01:49,890 --> 00:01:52,010
+Todo lo que sabías era que querías tomar la última carta.
+
+29
+00:01:52,200 --> 00:01:57,180
+Bueno, afortunadamente, hay una indexación inversa disponible para ti, así que puedes ir a
+
+30
+00:01:57,180 --> 00:02:04,640
+tomar una negativa, tomará la última letra de la cadena, independientemente de cuánto tiempo la misma esté rebanando, te permite
+
+31
+00:02:04,640 --> 00:02:09,760
+tomar una subsección de varios caracteres, también conocida como una porción de la cuerda.
+
+32
+00:02:09,770 --> 00:02:11,630
+Y esto tiene una sintaxis ligeramente diferente.
+
+33
+00:02:11,630 --> 00:02:15,250
+Nuevamente va a estar entre corchetes porque estamos agarrando una subsección.
+
+34
+00:02:15,260 --> 00:02:20,840
+Vamos a poder definir tres partes de esto, podremos decir inicio, parada y paso.
+
+35
+00:02:20,840 --> 00:02:25,840
+De nuevo, esto va entre corchetes con dos puntos que separan cada uno de estos tres términos.
+
+36
+00:02:25,880 --> 00:02:28,690
+Star va a ser el índice numérico de la porción.
+
+37
+00:02:28,700 --> 00:02:33,850
+Start stop va a ser el índice que subirá pero no incluirá.
+
+38
+00:02:33,970 --> 00:02:35,070
+Esa es una nota importante allí.
+
+39
+00:02:35,080 --> 00:02:39,280
+Y vamos a centrarnos realmente en eso y en los ejemplos que veremos en
+
+40
+00:02:39,280 --> 00:02:44,470
+un momento y luego ese es el tamaño del salto que toma desde el principio hasta el final.
+
+41
+00:02:44,490 --> 00:02:46,350
+De acuerdo, exploremos todos estos conceptos.
+
+42
+00:02:46,380 --> 00:02:49,240
+Van a tener mucho más sentido cuando realmente veamos los ejemplos del código.
+
+43
+00:02:49,440 --> 00:02:50,920
+Pasemos a un cuaderno.
+
+44
+00:02:51,450 --> 00:02:54,140
+De acuerdo, vamos a mostrar rápidamente un par de ejemplos de una cadena.
+
+45
+00:02:54,150 --> 00:02:58,880
+Nuevamente podemos usar comillas simples hola o puede usar comillas dobles.
+
+46
+00:02:59,070 --> 00:03:01,320
+Así que aquí digo las comillas dobles del mundo.
+
+47
+00:03:01,410 --> 00:03:07,650
+También puede tener una frase completa, no necesita ser solo una palabra, así que podemos decir que esto también es una cadena.
+
+48
+00:03:07,920 --> 00:03:09,200
+Entonces tenemos una frase completa allí.
+
+49
+00:03:09,240 --> 00:03:13,350
+Y los espacios en blanco cuentan como caracteres dentro de la cadena.
+
+50
+00:03:13,350 --> 00:03:18,240
+Ahora, algo que debemos tener en cuenta aquí es que podemos mezclar comillas simples y comillas dobles.
+
+51
+00:03:18,240 --> 00:03:26,820
+Entonces, si digo algo como, por ejemplo, voy a correr.
+
+52
+00:03:26,820 --> 00:03:28,290
+Entonces, ¿qué está pasando aquí?
+
+53
+00:03:28,590 --> 00:03:34,430
+Debido a que estoy usando comillas simples en el exterior, solo una parte de esto es resaltar que la sintaxis
+
+54
+00:03:34,490 --> 00:03:39,660
+confundirá a Python porque cree que estás tratando de terminar la cadena aquí cuando realmente estoy tratando de
+
+55
+00:03:39,660 --> 00:03:40,700
+terminar la cadena aquí.
+
+56
+00:03:40,710 --> 00:03:43,530
+Entonces, si trato de ejecutar la celda, diré un error aquí.
+
+57
+00:03:43,530 --> 00:03:44,910
+Sintaxis inválida.
+
+58
+00:03:44,910 --> 00:03:53,620
+Lo que realmente quiero hacer es incluir esto entre comillas dobles y de esa manera no tendré un error cuando tenga esta
+
+59
+00:03:53,620 --> 00:03:54,860
+única cita aquí.
+
+60
+00:03:54,970 --> 00:03:59,920
+Y luego, cuando ejecuto este pitón no tengo ningún problema y le digo que estoy bien, estamos tratando de
+
+61
+00:03:59,950 --> 00:04:05,590
+hacerlo aquí tratando de tener una cita única allí y eso en realidad no es parte de la definición de la cadena.
+
+62
+00:04:05,600 --> 00:04:08,930
+Así que ahora vamos a discutir la impresión de una cadena.
+
+63
+00:04:08,930 --> 00:04:15,320
+Hasta ahora solo estamos pidiendo que se devuelva la cadena y esa es la razón por la que vemos dentro y fuera
+
+64
+00:04:15,380 --> 00:04:16,400
+con estas celdas.
+
+65
+00:04:16,410 --> 00:04:21,160
+Esa es también la razón por la que vemos las cotizaciones en el resultado debajo de la celda.
+
+66
+00:04:21,470 --> 00:04:25,490
+Pero podemos usar la función de impresión para imprimir una cadena.
+
+67
+00:04:25,490 --> 00:04:28,610
+Entonces vamos a decir impresiones hola.
+
+68
+00:04:28,640 --> 00:04:33,670
+Y si ejecutamos bien esta nota, en realidad regresamos, ya no vemos la salida en la celda.
+
+69
+00:04:33,800 --> 00:04:36,110
+Y, en cambio, ya no vemos las cotizaciones en sí mismas.
+
+70
+00:04:36,110 --> 00:04:39,500
+De hecho, solo estamos imprimiendo la cadena real.
+
+71
+00:04:39,590 --> 00:04:46,070
+Y la razón por la que esto es importante es porque imaginemos que quería decir hola mundo
+
+72
+00:04:46,070 --> 00:04:51,280
+uno y luego también quería decir hola mundo dos si tuviera que ejecutar esto.
+
+73
+00:04:51,500 --> 00:04:56,270
+Lo que termina sucediendo es que solo recupero la última cuerda para ver todo.
+
+74
+00:04:56,390 --> 00:05:02,630
+De hecho, tengo que imprimir los resultados, así que diré Prince and Raptus en impresión
+
+75
+00:05:02,630 --> 00:05:08,170
+ve copias hello world uno que también imprime y luego dice Hello World 2.
+
+76
+00:05:08,240 --> 00:05:11,330
+Y luego, cuando corro esto, veo impresas las cuerdas del arco.
+
+77
+00:05:11,540 --> 00:05:13,100
+Entonces ya no veo la salida.
+
+78
+00:05:13,100 --> 00:05:15,180
+De hecho, solo estoy imprimiendo los resultados.
+
+79
+00:05:15,440 --> 00:05:20,850
+Ahora, lo que también quiero mencionar es que en realidad hay secuencias de escape y
+
+80
+00:05:20,900 --> 00:05:25,220
+secuencias de escape como para tener comandos especiales dentro de tu cadena.
+
+81
+00:05:25,250 --> 00:05:27,690
+Así que sigamos y diga Prince.
+
+82
+00:05:27,890 --> 00:05:29,660
+Hola Mundo.
+
+83
+00:05:29,660 --> 00:05:35,490
+Y si ejecuto esto, veo Hello World impreso en una línea, pero en realidad puedo agregar una secuencia de escape.
+
+84
+00:05:35,600 --> 00:05:42,980
+Así que va a ser una barra invertida n y lo que hace es básicamente decirle a Python que esto es correcto y
+
+85
+00:05:42,980 --> 00:05:48,830
+que ya no es el personaje n que realmente quiero que lo haga debido a esta barra invertida.
+
+86
+00:05:48,980 --> 00:05:50,510
+Trata esto como una nueva línea.
+
+87
+00:05:51,600 --> 00:05:59,160
+Entonces, si ese personaje de escape allí va a decir el espacio Príncipe Hola que una nueva línea y luego el
+
+88
+00:05:59,310 --> 00:05:59,940
+mundo espacial.
+
+89
+00:05:59,970 --> 00:06:00,980
+Entonces eso es lo que vemos aquí.
+
+90
+00:06:00,990 --> 00:06:04,320
+Hola espacio y mundo si quiero que el mundo se alinee.
+
+91
+00:06:04,350 --> 00:06:04,860
+Hola.
+
+92
+00:06:05,100 --> 00:06:08,190
+De hecho, podría tocarlo así.
+
+93
+00:06:08,190 --> 00:06:13,920
+Ejecuta eso y luego veo que Hello world in Python sabe que no debe incluir esta letra
+
+94
+00:06:13,980 --> 00:06:16,770
+allí porque está esencialmente asociada a esa barra invertida.
+
+95
+00:06:16,770 --> 00:06:20,200
+Entonces otra secuencia de escape popular es t para tab.
+
+96
+00:06:20,370 --> 00:06:22,030
+Y si corro eso, vuelvo.
+
+97
+00:06:22,050 --> 00:06:23,180
+Hola pestaña
+
+98
+00:06:23,190 --> 00:06:24,870
+Así que cuatro espacios mundiales.
+
+99
+00:06:25,100 --> 00:06:29,550
+Bueno, estamos hablando mucho más sobre esto cuando analicemos el formato de impresión que viene a continuación.
+
+100
+00:06:29,580 --> 00:06:36,810
+Por ahora, otra función incorporada que quiero mostrarte es la función Eliane o la función de longitud.
+
+101
+00:06:36,900 --> 00:06:41,790
+Así que esto te permite verificar la longitud de la cuerda para que pueda decir hola y más arriba obtengo
+
+102
+00:06:41,790 --> 00:06:44,680
+una longitud de 5 atrás porque hay cinco caracteres en esa cuerda.
+
+103
+00:06:44,790 --> 00:06:50,220
+Si resulta que hay un espacio en la cadena, dirá que tengo hambre.
+
+104
+00:06:50,340 --> 00:06:53,390
+Hagámoslo más obvio, solo diremos que lo soy.
+
+105
+00:06:53,450 --> 00:06:54,280
+Nosotros ejecutamos esto
+
+106
+00:06:54,350 --> 00:06:55,990
+Aquí podemos ver que hay cuatro.
+
+107
+00:06:56,030 --> 00:06:59,090
+Entonces tenemos I Space am.
+
+108
+00:06:59,140 --> 00:07:02,410
+Entonces eso cuenta como una longitud de cuatro caracteres en la cadena.
+
+109
+00:07:02,420 --> 00:07:03,140
+Todo bien.
+
+110
+00:07:03,140 --> 00:07:04,370
+Nos detendremos aquí por ahora.
+
+111
+00:07:04,390 --> 00:07:08,930
+En la próxima conferencia retomaremos donde lo dejamos hablando de la indexación de cadenas y el
+
+112
+00:07:08,930 --> 00:07:09,630
+corte de cuerdas.
+
+113
+00:07:09,650 --> 00:07:10,670
+Te veré allá.

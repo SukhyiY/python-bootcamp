@@ -1,0 +1,507 @@
+1
+00:00:05,640 --> 00:00:06,900
+Bentornati tutti.
+
+2
+00:00:07,170 --> 00:00:11,460
+In questa lezione continueremo proprio da dove abbiamo lasciato l'ultima volta, ma discuteremo
+
+3
+00:00:11,520 --> 00:00:16,950
+l'indicizzazione delle stringhe e l'indicizzazione delle porzioni o prendiamo un singolo carattere e affettiamo o prendiamo
+
+4
+00:00:17,100 --> 00:00:20,920
+una sottosezione di quella stringa passiamo al quaderno di Giove e iniziare.
+
+5
+00:00:21,210 --> 00:00:27,180
+OK, quindi per iniziare tutto questo, creerò una variabile chiamata my string e mi
+
+6
+00:00:27,180 --> 00:00:30,270
+è piaciuta uguale alla stringa Hello world.
+
+7
+00:00:30,270 --> 00:00:36,150
+Quindi c'è uno spazio tra Hello world. Corro questo e basta controllare per essere sicuro.
+
+8
+00:00:36,430 --> 00:00:36,680
+OK.
+
+9
+00:00:36,690 --> 00:00:37,610
+Quindi abbiamo ciao mondo.
+
+10
+00:00:37,610 --> 00:00:39,540
+Sono pronti ad andare.
+
+11
+00:00:39,560 --> 00:00:40,360
+Ora immaginiamo.
+
+12
+00:00:40,380 --> 00:00:44,130
+Volevo prendere un singolo carattere da questa stringa.
+
+13
+00:00:44,190 --> 00:00:46,800
+In tal caso, voglio usare l'indicizzazione.
+
+14
+00:00:46,800 --> 00:00:48,660
+Quindi chiamiamo il nome della variabile.
+
+15
+00:00:48,870 --> 00:00:50,670
+Ne abbiamo le parentesi quadre.
+
+16
+00:00:50,760 --> 00:00:56,520
+a 0 perché l'indicizzazione inizia da zero e questo mi permette di restituire quel primo carattere h.
+
+17
+00:00:56,520 --> 00:01:01,890
+E immaginiamo di voler afferrare il primo carattere che è la maiuscola H che ho passato
+
+18
+00:01:01,890 --> 00:01:03,690
+Proviamo ad afferrare un altro personaggio.
+
+19
+00:01:03,690 --> 00:01:05,540
+Diciamo che vogliamo prendere il nostro.
+
+20
+00:01:05,640 --> 00:01:13,120
+Quindi contiamo la mia stringa e vogliamo contare da 0 0 1 2 3 4 5.
+
+21
+00:01:13,120 --> 00:01:16,580
+Quindi, lo spazio conta 6 7 8.
+
+22
+00:01:16,950 --> 00:01:21,500
+Quindi se passo 8 qui dovrebbe tornare sono perfetti.
+
+23
+00:01:21,510 --> 00:01:24,010
+Quindi di nuovo questo è noto come indicizzazione.
+
+24
+00:01:24,010 --> 00:01:27,860
+Ora immaginiamo di voler prendere questa lettera L.
+
+25
+00:01:28,090 --> 00:01:29,790
+Beh, ci sono due modi in cui posso effettivamente farlo.
+
+26
+00:01:29,860 --> 00:01:36,970
+Potrei dire che la mia stringa alle nove perché è giusto dopo che l'altro modo in cui potrei farlo è usare
+
+27
+00:01:37,090 --> 00:01:39,480
+l'indicizzazione inversa che abbiamo menzionato in precedenza.
+
+28
+00:01:39,700 --> 00:01:46,090
+Quindi partendo da 0 da H posso andare indietro nella stringa in modo che D sia negativo 1 e questo
+
+29
+00:01:46,180 --> 00:01:47,930
+significa che L è negativo 2.
+
+30
+00:01:48,190 --> 00:01:54,220
+Quindi se dico la mia stringa negativa due tornerò effettivamente a L e poi se continuerò a
+
+31
+00:01:54,220 --> 00:01:58,640
+tornare indietro nella stringa tornerò indietro che è giusto prima della L.
+
+32
+00:01:58,660 --> 00:02:00,700
+Quindi tornerò e sono proprio lì.
+
+33
+00:02:00,700 --> 00:02:07,770
+In questo modo puoi utilizzare sia posizioni di indici positivi che negativi per afferrare elementi o caratteri dalla stringa.
+
+34
+00:02:07,960 --> 00:02:12,550
+E questo è veramente utile di nuovo perché spesso avrai una stringa variabile, forse è il nome di
+
+35
+00:02:12,550 --> 00:02:14,700
+qualcuno e non sai quanto sia grande quel nome.
+
+36
+00:02:14,860 --> 00:02:19,120
+Ma per qualsiasi ragione tu voglia afferrare l'ultima lettera del nome, possono sempre usare solo
+
+37
+00:02:19,120 --> 00:02:19,600
+quella negativa.
+
+38
+00:02:19,630 --> 00:02:21,830
+E sai che è l'ultima lettera della stringa.
+
+39
+00:02:22,880 --> 00:02:23,230
+OK.
+
+40
+00:02:23,290 --> 00:02:28,600
+dell'affinamento, quindi l'affettamento è un po 'più complicato perché stiamo prendendo una sottosezione della stringa.
+
+41
+00:02:28,600 --> 00:02:30,850
+Andiamo avanti e continuiamo a discutere
+
+42
+00:02:30,850 --> 00:02:33,850
+Quindi è più di un personaggio in genere.
+
+43
+00:02:33,850 --> 00:02:41,370
+Esaminiamo la nostra stringa, la mia stringa qui è Ciao mondo e leggerò la mia stringa.
+
+44
+00:02:41,440 --> 00:02:47,330
+Quindi questo è un po 'più facile da seguire come b c d e f g h i j k.
+
+45
+00:02:47,410 --> 00:02:50,500
+Quindi, solo una specie di stringa dell'alfabeto lo troverà.
+
+46
+00:02:50,830 --> 00:02:53,520
+E ora ho questa stringa dell'alfabeto.
+
+47
+00:02:53,890 --> 00:02:59,920
+Quindi immaginiamo di voler afferrare una sottosezione di una stringa che ha iniziato un particolare indice e poi
+
+48
+00:02:59,920 --> 00:03:01,470
+è andata fino in fondo.
+
+49
+00:03:01,780 --> 00:03:07,840
+Beh, il modo in cui potremmo farlo è direi la mia notazione Brecken e quindi
+
+50
+00:03:07,900 --> 00:03:08,950
+direi l'indice iniziale.
+
+51
+00:03:08,950 --> 00:03:12,850
+Immaginiamo di voler iniziare alla lettera C e poi andare fino in fondo.
+
+52
+00:03:12,850 --> 00:03:16,950
+Quindi anche C è un indice perché è 0 1 2.
+
+53
+00:03:16,960 --> 00:03:19,900
+Quindi quello che faccio è che lo passo se lo faccio.
+
+54
+00:03:19,930 --> 00:03:27,480
+Mi restituisce la lettera C, ma se voglio da C fino alla fine posso dire due punti e questo
+
+55
+00:03:27,570 --> 00:03:30,890
+indica che iniziare da Colon fino alla fine.
+
+56
+00:03:31,040 --> 00:03:34,880
+E lì abbiamo il CD fino a K OK.
+
+57
+00:03:35,090 --> 00:03:40,880
+Ora immaginiamo una specie di situazione opposta in cui voglio afferrare tutto fino a
+
+58
+00:03:40,910 --> 00:03:49,200
+un indice particolare che potrei dire i miei due punti di corda e diciamo che volevo prendere un b e c. Quindi, dall'inizio, vai avanti e prendi la lettera D qui.
+
+59
+00:03:49,370 --> 00:03:55,440
+Quindi dirò 0 1 2 3 pasand 3 lì.
+
+60
+00:03:55,680 --> 00:04:01,090
+E poi lo gestiamo e torniamo all'ABC.
+
+61
+00:04:01,490 --> 00:04:03,880
+Ora questo a volte confonde gli studenti perché controlliamo la mia stringa.
+
+62
+00:04:04,130 --> 00:04:09,320
+Tecnicamente abbiamo la D in 3 perché è 0 1 2 3.
+
+63
+00:04:09,320 --> 00:04:15,120
+Beh, dovresti notare qui che l'indice di stop di questo termine qui per tre che restituisce solo indietro
+
+64
+00:04:15,140 --> 00:04:20,470
+ABC che è l'indice su fondamentalmente sta dicendo di salire ma che non include quella posizione dell'indice.
+
+65
+00:04:20,530 --> 00:04:26,920
+Quindi vai alla lettera D ma non includerla, che in sostanza dice A
+
+66
+00:04:27,170 --> 00:04:34,040
+B C quindi tienilo a mente mentre stai giocando attorno a una notazione a slice.
+
+67
+00:04:34,040 --> 00:04:36,210
+La fermata è fino a ma non includendo
+
+68
+00:04:36,230 --> 00:04:43,360
+OK combiniamo queste due idee di un indice iniziale e un indice di stop cercando di afferrare una sottosezione o una stringa che si trova nel mezzo.
+
+69
+00:04:43,360 --> 00:04:47,160
+Per esempio proviamo ad afferrare D E F dal
+
+70
+00:04:47,230 --> 00:04:54,250
+centro della corda nel modo in cui possiamo farlo, cioè la mia corda si apre tra
+
+71
+00:04:54,250 --> 00:05:01,000
+parentesi quadre e poi iniziamo con l'avvio in Exposition in questo caso la lettera D.
+
+72
+00:05:01,000 --> 00:05:01,530
+DPF.
+
+73
+00:05:01,750 --> 00:05:11,060
+Quindi questo è 0 1 2 3 quindi diciamo due punti e poi salirà alla posizione di G qui perché voglio solo
+
+74
+00:05:11,060 --> 00:05:12,560
+Quindi andremo a ma non includendo G.
+
+75
+00:05:12,560 --> 00:05:14,970
+Quindi questo è 0 1 2 3 4 5 6.
+
+76
+00:05:15,200 --> 00:05:20,910
+E ora, se corro questo, torno d e f.
+
+77
+00:05:20,980 --> 00:05:23,840
+Quindi proviamo ancora una volta cercando di afferrare un'altra sottosezione della stringa.
+
+78
+00:05:23,860 --> 00:05:27,720
+Per esempio, prova ad afferrare solo b e c queste due lettere
+
+79
+00:05:27,910 --> 00:05:34,810
+bc in modo che possiamo farcela mentre noi scriveremo la mia stringa aperta e chiusa le parentesi quadre stanno iniziando in soluzione
+
+80
+00:05:35,170 --> 00:05:42,790
+è 0 1 per i due punti B e poi sembra che vogliamo andare fino a includere lo 0 1 2 3 o eseguirlo.
+
+81
+00:05:42,790 --> 00:05:49,310
+E lì abbiamo B C e ti incoraggerei a provare ad afferrare una sottosezione.
+
+82
+00:05:49,680 --> 00:05:54,810
+Quindi True è una sottosezione della stringa e poi vedi
+
+83
+00:05:54,810 --> 00:05:59,940
+se riesci ad afferrarla vai in una visione positiva e provalo.
+
+84
+00:05:59,940 --> 00:06:00,560
+OK per concludere la discussione, discutiamo rapidamente delle dimensioni del passo.
+
+85
+00:06:00,840 --> 00:06:04,450
+Immaginiamo di voler afferrare tutto dall'inizio della stringa fino alla fine.
+
+86
+00:06:04,740 --> 00:06:09,450
+Beh tecnicamente è solo la stringa in sé, ma potrei usare anche
+
+87
+00:06:09,660 --> 00:06:14,580
+la notazione dei due punti per questo potrei dire colon due punti.
+
+88
+00:06:14,580 --> 00:06:16,110
+E questo in fondo dice dall'inizio fino alla fine.
+
+89
+00:06:16,110 --> 00:06:20,280
+Ora non lo vedi spesso perché potresti anche chiamare la stringa stessa.
+
+90
+00:06:20,280 --> 00:06:23,670
+Ma questa è tecnicamente valida sintassi.
+
+91
+00:06:23,790 --> 00:06:26,370
+Il motivo per cui potresti vedere qualcosa di
+
+92
+00:06:26,370 --> 00:06:31,170
+simile è se qualcuno volesse specificare il terzo parametro e questa è la dimensione del passo.
+
+93
+00:06:31,170 --> 00:06:32,490
+Quindi in questo momento stiamo
+
+94
+00:06:32,730 --> 00:06:38,070
+dicendo di andare dall'inizio alla fine e la dimensione del passo di uno a b c d e f g.
+
+95
+00:06:38,070 --> 00:06:39,340
+Quindi questa è la dimensione del passo predefinito di 1.
+
+96
+00:06:39,360 --> 00:06:41,450
+Comunque posso cambiarlo fornendo un numero come due.
+
+97
+00:06:41,460 --> 00:06:44,560
+E quello dice andare in salti di due.
+
+98
+00:06:44,760 --> 00:06:46,640
+Quindi da un andare a C E a G.
+
+99
+00:06:46,650 --> 00:06:50,690
+Ok, quindi se eseguo questo ritorno a CEGIK perché sto saltando nella dimensione
+
+100
+00:06:50,760 --> 00:06:59,610
+del passo di due, posso aumentare questo per essere un gradino di tre e poi passeremo da un salto a un salto da G a un J .
+
+101
+00:06:59,610 --> 00:07:07,910
+E poi non ci sono più lettere a cui saltare perché stiamo saltando in una dimensione di passo più grande.
+
+102
+00:07:07,920 --> 00:07:11,710
+Ecco come funziona la dimensione del passo.
+
+103
+00:07:11,730 --> 00:07:13,410
+E puoi combinare anche questo con un inizio e uno stop.
+
+104
+00:07:13,410 --> 00:07:16,480
+dimensione di passaggio per tornare a CGM.
+
+105
+00:07:16,620 --> 00:07:22,830
+Quindi potremmo dire qualcosa come partire dall'indice per arrivare a includere l'indice 7 e una
+
+106
+00:07:23,190 --> 00:07:25,220
+Quindi C saltò su E e poi saltò su G.
+
+107
+00:07:25,230 --> 00:07:28,580
+Quindi, nota come funziona tutto insieme.
+
+108
+00:07:28,590 --> 00:07:30,690
+Hai un punto di partenza e
+
+109
+00:07:30,690 --> 00:07:37,630
+poi una dimensione di passo che puoi vedere comunemente usando un passo intelligente, quindi ingannare per invertire una stringa.
+
+110
+00:07:37,630 --> 00:07:39,930
+E quello che puoi fare
+
+111
+00:07:40,200 --> 00:07:45,510
+è pronunciare la mia stringa e poi dire dall'inizio fino alla fine.
+
+112
+00:07:45,510 --> 00:07:46,050
+alla fine.
+
+113
+00:07:46,260 --> 00:07:51,900
+Prendi una dimensione di passaggio di 1 negativo e quello che fa è in realtà inverte la stringa perché stai dicendo dall'inizio fino
+
+114
+00:07:51,900 --> 00:07:55,150
+Vai e fai un passo indietro che è poi K J.
+
+115
+00:07:55,230 --> 00:07:59,000
+IO.
+
+116
+00:07:59,020 --> 00:07:59,370
+Fino alla fine.
+
+117
+00:07:59,370 --> 00:08:00,590
+Quindi questo è un po 'un piccolo trucco di Python.
+
+118
+00:08:00,660 --> 00:08:02,360
+Ora spesso nelle interviste le persone ti chiedono di invertire una
+
+119
+00:08:02,360 --> 00:08:06,960
+stringa e in genere si arrabbiano con Python che dice, perché in questo modo si limitano a fare questo bel tipo di copertina liscia invece di fare un ciclo for.
+
+120
+00:08:06,950 --> 00:08:11,800
+Ma voglio solo che tu ne sia consapevole.
+
+121
+00:08:11,850 --> 00:08:13,620
+In genere nel nostro codice non verrà utilizzato realmente perché è troppo di un trucco.
+
+122
+00:08:13,920 --> 00:08:17,330
+Ma di nuovo molto utile a questo.
+
+123
+00:08:17,490 --> 00:08:19,990
+OK.
+
+124
+00:08:20,400 --> 00:08:20,890
+Questo è tutto per affettare e indicizzare.
+
+125
+00:08:21,030 --> 00:08:24,120
+Prossimamente discuteremo un po 'di alcune utili proprietà delle stringhe.
+
+126
+00:08:24,120 --> 00:08:27,860
+Vedremo se lo sono.
+
+127
+00:08:27,900 --> 00:08:28,580
+&nbsp;

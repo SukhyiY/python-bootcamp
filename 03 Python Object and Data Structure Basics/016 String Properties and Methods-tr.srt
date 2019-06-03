@@ -1,0 +1,587 @@
+1
+00:00:05,370 --> 00:00:07,230
+Bu dersin herkese tekrar hoş geldiniz.
+
+2
+00:00:07,260 --> 00:00:11,610
+Dize özellikleri ve dize yöntemleri hakkında konuşarak dizeler hakkındaki
+
+3
+00:00:11,610 --> 00:00:12,560
+tartışmalarımızı bitireceğiz.
+
+4
+00:00:12,570 --> 00:00:14,690
+Bir not defterine atlayalım ve başlayalım.
+
+5
+00:00:14,730 --> 00:00:19,210
+Konuşacağımız ilk şey dizelerin değişmezliği ve değişmezliktir.
+
+6
+00:00:19,230 --> 00:00:25,240
+Mutti sözcüğünden kaynaklandığından, mutti taklit anlamına gelir ya da mutasyon yapamazsınız ya da değişemezsiniz.
+
+7
+00:00:25,280 --> 00:00:26,930
+Buna bir örnek göstereceğim.
+
+8
+00:00:27,120 --> 00:00:32,330
+İsim denilen bir değişken oluşturup onu Sam'e eşit olarak ayarlayalım.
+
+9
+00:00:32,330 --> 00:00:35,700
+Şimdi bu ismi Pam olarak değiştirmek istediğinizi düşünelim.
+
+10
+00:00:35,720 --> 00:00:37,910
+Bu yüzden S'yi bir p için değiştirin.
+
+11
+00:00:38,240 --> 00:00:41,050
+Eh, böyle bir şey yapacağını düşünebilirsiniz.
+
+12
+00:00:41,240 --> 00:00:45,830
+0 olarak ad dizinini söyleyin ve ardından P'ye eşit ayarlayın. Şimdi teller için.
+
+13
+00:00:45,860 --> 00:00:46,590
+Maalesef bu kodu çalıştırmayı denerseniz bunu yapamazsınız.
+
+14
+00:00:46,580 --> 00:00:49,330
+Dizeler değişmez olduğu için bir dize nesnesi anlamına
+
+15
+00:00:49,520 --> 00:00:55,580
+geldiğinde veya Katmanlı Nesne öğe atamayı desteklemediği için bir hata alırsınız, bu yüzden bu karakterlerden birini yakalayamazsınız.
+
+16
+00:00:55,580 --> 00:00:58,820
+Dize içindeki bu öğelerden birini ve daha sonra bu şekilde yeniden atamayı deneyin.
+
+17
+00:00:58,820 --> 00:01:02,510
+Dizeler sadece Python'da böyle çalışmazlar.
+
+18
+00:01:02,510 --> 00:01:04,580
+Daha sonra, öğe atamasını
+
+19
+00:01:04,580 --> 00:01:09,960
+destekleyen diğer veri türlerini öğreneceğiz; bunun anlamı, bunu mutlaka yeniden atamak
+
+20
+00:01:09,960 --> 00:01:15,630
+istersek, temelde yeni bir dize oluşturmak zorunda kalıyoruz ve bunu birleştirme ile yapabiliyoruz.
+
+21
+00:01:15,840 --> 00:01:17,070
+Bu tür iki dizeyi bir
+
+22
+00:01:17,070 --> 00:01:22,170
+araya getirmek için bu işi halledeceğim ve yalnızca önünde bir karma etiketi koyduğunuz bir yorum oluşturacağım ve bunu çalıştırırsanız hiçbir şey elde edemezsiniz.
+
+23
+00:01:22,170 --> 00:01:25,860
+Temelde her şey hash etiketi çalıştırılmayan yorumlanmış koddur.
+
+24
+00:01:25,860 --> 00:01:30,420
+Bu örneği, zaten isim hakkında sahip olduklarımızı kullanarak Pam dizesini yaratmaya çalışalım.
+
+25
+00:01:30,490 --> 00:01:37,060
+Bu yüzden yapmak istediğim ilk şey a ve m'yi almaya çalışmaktır.
+
+26
+00:01:37,060 --> 00:01:41,090
+Bu yüzden, daha önce öğrendiğimiz dilim gösterimini kullanalım.
+
+27
+00:01:41,260 --> 00:01:44,760
+İndeks 1'den başlayıp sonuna kadar gidiyoruz.
+
+28
+00:01:44,830 --> 00:01:48,970
+O halde kontrol et.
+
+29
+00:01:48,970 --> 00:01:49,990
+Tamam, böylece mükemmelim.
+
+30
+00:01:50,200 --> 00:01:52,100
+Peki bunu son harfler gibi bir şeye imzalayacak olursak, adını bir sonuna kadar eşit sayarız.
+
+31
+00:01:52,120 --> 00:02:01,030
+Son harflere tekrar göz atarsam, otomatik tamamlama için sekmeyi kullanabilirim.
+
+32
+00:02:01,030 --> 00:02:04,510
+Plus son harflerini söyleyebilir ve daha sonra Pimm alırsınız.
+
+33
+00:02:04,510 --> 00:02:11,980
+Burada AM yazıyor ve şimdi yapabildiğim iki son harfi birleştirmek olabilir ve bunu yaptığınız yol artı işaretiyle yapılıyor, böylece P
+
+34
+00:02:12,070 --> 00:02:20,940
+Bu yüzden dize birleştirme olarak da bilinir.
+
+35
+00:02:20,950 --> 00:02:22,960
+Birkaç örnek daha keşfedelim.
+
+36
+00:02:23,230 --> 00:02:25,260
+X'in Hello World'e eşit olduğunu söyleyeceğim.
+
+37
+00:02:25,270 --> 00:02:31,050
+Ve sonra X plus'ın güzeldir diyebilirim.
+
+38
+00:02:33,360 --> 00:02:39,240
+Dışarıda ve bunu çalıştırırsam Merhaba dünyasını görebilirim.
+
+39
+00:02:40,290 --> 00:02:44,040
+Dışarıda güzel.
+
+40
+00:02:44,040 --> 00:02:45,420
+bunun başında boşluk olmadığını unutmayın.
+
+41
+00:02:45,510 --> 00:02:49,770
+Akılda tutulması gereken bir şey, burada boşluk kalmadığına, çünkü Dünyanın sonunda boşluk olmadığına ve
+
+42
+00:02:49,770 --> 00:02:52,120
+Orada küçük bir alan eklerseniz güzel olur.
+
+43
+00:02:52,320 --> 00:02:54,620
+Yani bunu tekrar merhaba dünya çalıştırdığınızda.
+
+44
+00:02:54,630 --> 00:02:56,930
+Dışarıda güzel.
+
+45
+00:02:56,940 --> 00:02:58,770
+Şimdi bunu tekrar
+
+46
+00:02:58,770 --> 00:03:05,310
+atamayla birden çok kez yaparsam, x, x'e eşit, artı da güzel olur diyebilirim.
+
+47
+00:03:05,310 --> 00:03:06,390
+Şimdi bunu çalıştırmak istiyorum X'i okuduğum için şimdi görebiliyorum.
+
+48
+00:03:06,390 --> 00:03:09,290
+Selam Dünya.
+
+49
+00:03:09,300 --> 00:03:09,810
+Dışarıda güzel.
+
+50
+00:03:09,810 --> 00:03:11,140
+Kazayla bu hücrenin koştiysem birden fazla kez ilave edersem, dışarıda güzel olur.
+
+51
+00:03:11,220 --> 00:03:16,090
+İkinci kez.
+
+52
+00:03:16,110 --> 00:03:16,740
+Yani ben tekrar çalıştırırsam.
+
+53
+00:03:16,740 --> 00:03:18,000
+Merhaba dünyası yazan hücrenin hemen yanında kaç numara olacağını gözlemleyin.
+
+54
+00:03:18,090 --> 00:03:22,080
+Dışarıda güzel.
+
+55
+00:03:22,080 --> 00:03:22,890
+Dışarıda güzeldir ve bunu yapmaya devam edebiliriz ve eklemeye devam edersiniz.
+
+56
+00:03:22,890 --> 00:03:26,840
+Yani bu bir dize birleştirme ve hızlıca dizeleri bir araya getirmenize olanak tanır.
+
+57
+00:03:26,900 --> 00:03:32,360
+Bir kerede birden fazla tel atışını yapmak için yapabileceğiniz çarpma da var.
+
+58
+00:03:32,370 --> 00:03:38,250
+Sana neye benzediğini göstereceğim.
+
+59
+00:03:38,250 --> 00:03:39,590
+Şimdilik şimdiye kadar artı işaretini kullanarak iki dizgiyi birbirine bağladık veya bir araya getirdik.
+
+60
+00:03:39,770 --> 00:03:44,610
+Fakat mektubu Z'ye eşit kalsaydınız ve Kuechly,
+
+61
+00:03:44,820 --> 00:03:52,600
+10 Zeese, ne yapabildiğinizi söylemek için Mektup zamanı 10'dur demiş olursanız.
+
+62
+00:03:53,270 --> 00:03:54,290
+Ve görebiliyorduk.
+
+63
+00:03:54,650 --> 00:03:55,880
+Burada uyuyan biri kolay 10 kat kolaydır.
+
+64
+00:03:56,000 --> 00:03:58,650
+Dolayısıyla harflerin çarpımı kullanılıyor ve bu harflerin artı işaretini kullanıyor.
+
+65
+00:03:58,880 --> 00:04:03,800
+Dize detonasyonu veya dize çarpımı gerçekleştirirken göz önünde bulundurulması gereken
+
+66
+00:04:03,950 --> 00:04:09,140
+bir şey, bir dize ile bir sayı birleştirmeye çalışırsanız, hatalar alacağınızdır.
+
+67
+00:04:09,260 --> 00:04:13,790
+Bununla ne demek istediğimi göstermek isterim ki iki artı üç yapıyor olduğumuzu hayal ediyorum.
+
+68
+00:04:13,790 --> 00:04:18,600
+Bunu 5 yaşındayken koşturduk.
+
+69
+00:04:18,660 --> 00:04:19,880
+Dize teorisine artı yaparsak bu mantıklı olur.
+
+70
+00:04:19,880 --> 00:04:25,740
+Artık dizeler oldukları için onları bir araya getiremeyecekler.
+
+71
+00:04:26,030 --> 00:04:28,520
+Bunun yerine, birleştirme işlemi gerçekleştirecek.
+
+72
+00:04:28,520 --> 00:04:30,730
+olmamız gereken bir geri arama.
+
+73
+00:04:30,740 --> 00:04:37,820
+Şimdi burada 23 dizesini geri alıyoruz ve bu dinamik yazmaya, veri türleri konusunda gerçekten dikkatli
+
+74
+00:04:37,820 --> 00:04:39,650
+Dolayısıyla, bu tür bir
+
+75
+00:04:39,680 --> 00:04:44,780
+sorunun akılda tutulması, kullanıcının dizeleri koyup sonra kodunuza son vermesini aklınızda tutun.
+
+76
+00:04:44,780 --> 00:04:45,460
+Bunları birlikte eklemeye başlarsanız, 5 yerine 23 gibi beklenmedik bir sonuçla sonuçlanabilirsiniz.
+
+77
+00:04:45,560 --> 00:04:51,240
+Yani bu, Python'un çok esnek olabilme kabiliyetinin iyi ve kötü olmasının en
+
+78
+00:04:51,320 --> 00:04:58,070
+iyi örneğidir, bu nedenle burada çok büyük bir hata yapmamanız anlamına gelen esnektir; belki
+
+79
+00:04:58,070 --> 00:05:02,570
+5'i beklediğiniz ve size geri verdiğiniz için biraz esnektir. 23.
+
+80
+00:05:02,720 --> 00:05:05,480
+birçok yol hakkında bilgi edineceğiz.
+
+81
+00:05:05,600 --> 00:05:10,070
+Daha sonra, bu tür hataları veya hataları önleyebilecek daha
+
+82
+00:05:10,070 --> 00:05:11,080
+Bazı yerleşik dize yöntemlerini tartışarak devam edelim.
+
+83
+00:05:11,480 --> 00:05:14,630
+Dolayısıyla Python'daki nesneler genellikle yerleşik yöntemlere sahiptir
+
+84
+00:05:14,840 --> 00:05:20,150
+ve bu yöntemlerin kendileri aslında nesnenin içinde bulunan işlevlerdir ve daha
+
+85
+00:05:20,150 --> 00:05:24,260
+sonra kendi yöntemlerimizde kendi işlevlerimizi nasıl oluşturacağımızı öğreneceğiz.
+
+86
+00:05:24,290 --> 00:05:25,350
+Şimdi birkaç yararlı yöntemi inceleyelim.
+
+87
+00:05:25,470 --> 00:05:29,620
+Yeni bir dize oluşturacağım, buna X diyelim ve onun Merhaba Dünyasını söyleyelim.
+
+88
+00:05:29,630 --> 00:05:37,150
+bu, bu dize nesnesinde bulunan tüm özniteliklerin ve yöntemlerin bir listesidir.
+
+89
+00:05:38,610 --> 00:05:46,460
+X noktasını vurup sekmeye basarsam, bu listeyi Jüpiter defterinde açtığım görmeli ve
+
+90
+00:05:46,460 --> 00:05:51,540
+Şimdi tekrar X'i tanımladığınızdan emin olun, aksi halde hiçbir şey göremezsiniz.
+
+91
+00:05:51,540 --> 00:05:55,240
+Bu nedenle, X hello world ve ardından yeni
+
+92
+00:05:55,290 --> 00:06:00,630
+bir hücrede "X" yazan hücrenin koştuğundan emin olun ve bu listeyi görmelisiniz.
+
+93
+00:06:00,630 --> 00:06:02,020
+Gördüğünüz gibi, burada tonlarca yöntem var ve şu an hepsini aşmayacağız.
+
+94
+00:06:02,110 --> 00:06:06,240
+Bu dersin ilerleyen saatlerinde kullanacağınız en faydalı olanları inceleyeceğiz.
+
+95
+00:06:06,270 --> 00:06:10,440
+Bir dizedeki her şeyi hızlı
+
+96
+00:06:11,250 --> 00:06:17,940
+şekilde hızlıca büyük ve parantez içine alfabetik olarak girebilirsiniz.
+
+97
+00:06:17,940 --> 00:06:20,130
+Bu yöntemin yerine oturmadığını unutmayın.
+
+98
+00:06:20,130 --> 00:06:23,120
+Yani asıl dizgiyi gerçekten etkilemez.
+
+99
+00:06:23,130 --> 00:06:26,380
+Orijinal dizgiyi etkilemesini istemezseniz onu yeniden atamanız gerekir.
+
+100
+00:06:26,520 --> 00:06:29,410
+Böyle bir şey yapmanız lazım.
+
+101
+00:06:29,410 --> 00:06:30,210
+X, X'in üst versiyonuna eşittir. Dolayısıyla bunu aklınızda tutun.
+
+102
+00:06:30,240 --> 00:06:34,230
+Ben şu anda çalıştırmak için arıyorum, çünkü orijinal x dizesini istiyorum ve yanlışlıkla bir yeniden atama yaptıysanız,
+
+103
+00:06:34,320 --> 00:06:35,000
+yalnızca yürütme diyebilirsiniz.
+
+104
+00:06:35,010 --> 00:06:39,560
+Merhaba dünya yine.
+
+105
+00:06:39,570 --> 00:06:41,220
+Tamam.
+
+106
+00:06:41,220 --> 00:06:42,760
+Bu yüzden, üst basamağa yeni başlayanlar için ortak olan bir şey yapmakta hata yapıyoruz; kazayla sadece üst yapıyor ve
+
+107
+00:06:42,870 --> 00:06:43,270
+açık ve kapalı parantezleri unutuyorlar.
+
+108
+00:06:43,470 --> 00:06:48,330
+Ve eğer bunu çalıştırırsanız, hey'in bir işlev dizesidir ve temel olarak bir Python
+
+109
+00:06:48,330 --> 00:06:52,670
+deyişiyle Oh denir, aslında bu yöntemi veya işlevi henüz yürütülemediğinizi söyleyeceksiniz.
+
+110
+00:06:52,710 --> 00:06:58,650
+Bunun yerine bana ne olduğunu sordun.
+
+111
+00:06:58,740 --> 00:07:03,100
+Bu yüzden açık ve kapalı prens olmadan çağırdığınızda ve şu gibi görünen bir şey elde ettiğinizde,
+
+112
+00:07:03,240 --> 00:07:05,520
+o yöntemi veya işlevi gerçekte gerçekleştirmediğiniz anlamına gelir.
+
+113
+00:07:05,730 --> 00:07:10,050
+Bunun yerine, sadece bir çeşit üst yöntem olduğundan, bunun ne olduğunu Python'a sorabilirsiniz.
+
+114
+00:07:10,050 --> 00:07:13,690
+Ayrıca şu anda burada olan her harfi küçük harfle yazacak olan Ilori metodu var.
+
+115
+00:07:13,980 --> 00:07:19,540
+H ve W küçük harflerdir.
+
+116
+00:07:19,560 --> 00:07:23,260
+Sonra da bölünmüş yöntem var ve bölünmüş yöntem hızlıca
+
+117
+00:07:23,310 --> 00:07:26,500
+bir dizgenin bir listesini oluşturmanıza olanak tanır.
+
+118
+00:07:26,530 --> 00:07:34,090
+Yani burada merhaba ve dünya olduğunu söyleyebiliriz.
+
+119
+00:07:34,090 --> 00:07:34,800
+Şimdi biz gerçekten listeleri tartışmadık henüz gelmeyecekler.
+
+120
+00:07:35,670 --> 00:07:38,860
+boşluklara dayanan bir dize ya da pasan ettiğiniz mektuba dayanarak bölünecektir.
+
+121
+00:07:38,910 --> 00:07:41,770
+Dolayısıyla şimdi şunu düşünmeni istiyorum, bu bölünmeyi kullanırsam bu
+
+122
+00:07:41,820 --> 00:07:48,450
+O halde ne demek istediğimi göstereceğim.
+
+123
+00:07:48,450 --> 00:07:51,820
+Bu yüzden x'in eşit olduğuna eminim.
+
+124
+00:07:51,840 --> 00:07:53,660
+Merhaba bu bir dizge çalıştırmak ve sonra da X
+
+125
+00:07:53,940 --> 00:07:56,170
+bölünmüş demektir her şeyi boşlukla bölünmüş yüksek alıyorum yüksek olsun.
+
+126
+00:07:56,510 --> 00:07:59,580
+Bu, güzel bir listede düzenlenmiş bir dizedir.
+
+127
+00:08:03,060 --> 00:08:10,630
+Bununla birlikte, bölmek istediğim herhangi bir karakter sırasını geçirebilirim.
+
+128
+00:08:10,650 --> 00:08:14,060
+Varsayılan olarak bölme boşluklara bölünecek, ancak aslında istediğim herhangi bir harfe bölünmüş olabilir.
+
+129
+00:08:14,070 --> 00:08:19,350
+Şimdi bu beninkilere bölünecek.
+
+130
+00:08:19,560 --> 00:08:25,170
+Bu yüzden eğer ben bunu yaparsam ilginç bir sonuç elde etmelisin.
+
+131
+00:08:25,350 --> 00:08:27,970
+Ve burada aslında hepsi kaldırılıyor çünkü
+
+132
+00:08:28,050 --> 00:08:31,100
+bunlar bölünüyor ve diğer boşluklar içeriliyor.
+
+133
+00:08:31,440 --> 00:08:35,130
+Bu yüzden H alıyorum ve çünkü ikisi de var.
+
+134
+00:08:35,130 --> 00:08:35,810
+Kaldırır ve sonra her şey o kadar uzayana kadar alır.
+
+135
+00:08:36,030 --> 00:08:38,260
+Ve sonra bir şey var ya kaldırır, her şeyi bir X I'e kadar alır.
+
+136
+00:08:38,310 --> 00:08:42,780
+Bu bir S boşluğudur ve bu burada ve sonra tekrar.
+
+137
+00:08:42,960 --> 00:08:45,900
+Diğerinde ve dize büyük bir kısmı olabilir.
+
+138
+00:08:45,960 --> 00:08:49,880
+Ve sonra N-G.
+
+139
+00:08:49,910 --> 00:08:53,950
+Bu şekilde, bir dizgeden hızlı bir şekilde bir liste oluşturmak için bölme'yi kullanabilir ve daha sonra listeleri daha sonra Tamam
+
+140
+00:08:53,970 --> 00:08:54,990
+üzerinde daha ayrıntılı olarak kapsarız.
+
+141
+00:08:54,990 --> 00:08:59,880
+Konuşacağımız bir sonraki adım, yazdırma için dize biçimlendirmesidir.
+
+142
+00:08:59,880 --> 00:09:03,320
+Dizeleriniz boyunca diğer nesneleri çabucak yazdırmak için kullanabileceğiniz kullanışlı yöntemler var.
+
+143
+00:09:03,490 --> 00:09:07,900
+Şimdiye kadar sadece temel bir işlev olarak çıktıları nasıl kullanacağınızı öğrendik ya
+
+144
+00:09:07,900 --> 00:09:13,870
+da yazdırmayı merhaba diyoruz, ancak henüz görmediğimiz yazdırma işlevi için biçimi yöntemi daha fazla güç var.
+
+145
+00:09:13,870 --> 00:09:18,640
+Öyleyse devam edin, bir sonraki dersin burada göreceğini de belirtelim.
+
+146
+00:09:18,640 --> 00:09:23,800
+&nbsp;
+
+147
+00:09:23,800 --> 00:09:26,820
+&nbsp;

@@ -1,0 +1,643 @@
+1
+00:00:05,740 --> 00:00:06,910
+Bentornati a tutti.
+
+2
+00:00:06,910 --> 00:00:13,310
+Cominciamo ora a discutere elenchi in liste python o sequenze di ordini che possono contenere una varietà di
+
+3
+00:00:13,310 --> 00:00:18,110
+tipi di oggetti e utilizzare parentesi quadre e virgole per separare gli oggetti nell'elenco.
+
+4
+00:00:18,110 --> 00:00:24,350
+Per esempio qui possiamo vedere una lista di numeri 1 2 3 4 5 e liste proprio come le stringhe supportano
+
+5
+00:00:24,350 --> 00:00:29,270
+l'indicizzazione e l'affettatura e questo può anche essere annidato e avere una varietà di metodi utili che
+
+6
+00:00:29,270 --> 00:00:30,160
+possono essere richiamati.
+
+7
+00:00:30,170 --> 00:00:32,740
+Esaminiamo tutti questi concetti in un quaderno di Giove.
+
+8
+00:00:32,990 --> 00:00:41,330
+Iniziamo definendo una variabile chiamata mia lista e la imposterai ai numeri da 1 a 3.
+
+9
+00:00:41,340 --> 00:00:44,480
+Quindi qui possiamo vedere che una lista è definita dalle parentesi quadre.
+
+10
+00:00:44,520 --> 00:00:48,390
+E poi abbiamo ogni tipo di oggetto separato da una virgola.
+
+11
+00:00:48,390 --> 00:00:53,040
+Creiamo solo un elenco di numeri interi ma potremmo anche aver creato un elenco di tipi di oggetti misti.
+
+12
+00:00:53,040 --> 00:00:56,040
+Quindi il primo potrebbe essere una stringa.
+
+13
+00:00:56,040 --> 00:01:02,730
+Il secondo potrebbe essere un numero o un punto mobile e l'elenco non ha problemi, quindi possiamo vedere le liste python molto flessibili
+
+14
+00:01:02,730 --> 00:01:07,890
+nei tipi di dati che possono contenere e se mai vogliamo controllare la lunghezza di un elenco
+
+15
+00:01:08,190 --> 00:01:13,320
+come potremmo controllare il Per quanto riguarda la lunghezza della stringa, utilizziamo semplicemente la funzione LCN che
+
+16
+00:01:13,320 --> 00:01:19,530
+è incorporata in Python e quindi passiamo la mia lista e restituisce quanti elementi o elementi ci sono in quella lista.
+
+17
+00:01:19,530 --> 00:01:24,440
+Quindi qui abbiamo tre elementi stringa centoventitre punto due.
+
+18
+00:01:24,450 --> 00:01:29,390
+Ora, proprio come una stringa perché una lista è una sequenza ordinata di elementi.
+
+19
+00:01:29,520 --> 00:01:33,310
+Possiamo usare l'indicizzazione e l'affettatura e funziona come una stringa.
+
+20
+00:01:33,300 --> 00:01:34,980
+Quindi ti mostriamo cosa intendo con quello.
+
+21
+00:01:35,130 --> 00:01:46,390
+Dirò che la mia lista equivale a dire che 1 a 3 eseguirlo.
+
+22
+00:01:46,740 --> 00:01:50,070
+E poi se volessi prendere l'elemento per indicizzare 0.
+
+23
+00:01:50,070 --> 00:01:57,130
+Questo è il primo elemento che vorrei dire che la mia lista 0 lo esegue e ritorno 1 e
+
+24
+00:01:57,140 --> 00:02:00,970
+se volevo prendere tutto a partire dall'indice 1 fino alla fine.
+
+25
+00:02:01,030 --> 00:02:03,720
+Bene, è proprio come l'indicizzazione delle stringhe e il taglio delle stringhe.
+
+26
+00:02:03,870 --> 00:02:09,890
+Direi che inizieranno ad indicizzare un colon fino alla fine e poi ne abbiamo due e tre.
+
+27
+00:02:09,900 --> 00:02:17,620
+Quindi questo taglio e indicizzazione funziona come una stringa e puoi anche concatenare tutto questo insieme.
+
+28
+00:02:17,640 --> 00:02:19,480
+Quindi vediamo questo qui.
+
+29
+00:02:19,620 --> 00:02:22,770
+Ho la mia lista in questo momento che è uno due tre.
+
+30
+00:02:23,040 --> 00:02:35,640
+Creerò un'altra lista che è uguale a dire 4 5 e posso vedere la mia lista più in un'altra lista
+
+31
+00:02:35,640 --> 00:02:39,080
+e concatenerà a una nuova lista.
+
+32
+00:02:39,090 --> 00:02:41,330
+Uno due tre quattro cinque.
+
+33
+00:02:41,340 --> 00:02:43,850
+Notate che in realtà sto salvando questo risultato.
+
+34
+00:02:43,950 --> 00:02:50,170
+Quindi se dovessi richiamare la mia lista o un'altra lista posso usare il completamento automatico della scheda qui.
+
+35
+00:02:50,280 --> 00:02:54,300
+Ho ancora quei due elenchi separati se in realtà voglio salvare questo ho bisogno
+
+36
+00:02:54,810 --> 00:03:02,820
+di assegnarlo a qualcosa in modo che possiamo dire nuova lista è uguale alla mia lista più un'altra lista e quindi se controllo una nuova lista ora è
+
+37
+00:03:02,870 --> 00:03:04,710
+uno due tre quattro o cinque.
+
+38
+00:03:05,140 --> 00:03:05,720
+OK.
+
+39
+00:03:05,850 --> 00:03:08,100
+Quindi queste sono le basi degli ascoltatori.
+
+40
+00:03:08,130 --> 00:03:17,620
+simili a una stringa, tranne ciò che è diverso da una stringa qui è che possiamo effettivamente mutare o cambiare intorno alla lista.
+
+41
+00:03:17,620 --> 00:03:22,720
+Qui abbiamo le sezioni di indicizzazione e le concatenazioni dovrebbero essere abbastanza
+
+42
+00:03:22,720 --> 00:03:28,480
+Ricorda quando cerchiamo di cambiare le lettere attorno a una stringa che non ci lascerebbe che una lista non
+
+43
+00:03:28,540 --> 00:03:30,140
+abbia problemi in quel modo.
+
+44
+00:03:30,160 --> 00:03:34,970
+Quindi se controllo la mia nuova lista è uno due tre quattro cinque.
+
+45
+00:03:35,120 --> 00:03:40,510
+Andiamo avanti e cambiamo uno di questi elementi, cambiamo uno per essere in maiuscolo.
+
+46
+00:03:40,550 --> 00:03:47,130
+Quello che potrei fare è dire che la nuova lista in posizione 0 ora è uguale a 1 in maiuscolo.
+
+47
+00:03:47,130 --> 00:03:49,160
+Ora rendiamo davvero ovvio che lo stiamo cambiando.
+
+48
+00:03:49,210 --> 00:03:58,440
+dico una caps e ora se guardo la mia nuova lista ne ho una tutte due tre tre quattro cinque.
+
+49
+00:03:58,450 --> 00:03:59,270
+Quindi quando
+
+50
+00:03:59,360 --> 00:04:04,320
+Questo è un modo per poter effettivamente mutare o modificare gli elementi già presenti nella lista.
+
+51
+00:04:04,380 --> 00:04:07,180
+E questo è qualcosa che lo differenzia da una stringa.
+
+52
+00:04:07,180 --> 00:04:12,100
+Oltre al fatto che tiene anche diversi tipi di elementi e parentesi graffe e virgole.
+
+53
+00:04:12,110 --> 00:04:16,090
+Quindi di nuovo le stringhe puoi cambiarle e influenzare gli elementi all'interno di esse.
+
+54
+00:04:17,290 --> 00:04:22,850
+In un'altra operazione comune che potresti voler eseguire è aggiungere un elemento alla fine di una lista.
+
+55
+00:04:23,290 --> 00:04:29,830
+In questo modo possiamo dire che sono i punti più recenti e la scheda hit qui e dovresti vedere
+
+56
+00:04:29,830 --> 00:04:32,530
+tutti i vari metodi disponibili in una lista.
+
+57
+00:04:32,530 --> 00:04:39,400
+Quello che mostreremo qui è il metodo append e append ti consente di aggiungere un nuovo elemento alla
+
+58
+00:04:39,400 --> 00:04:40,720
+fine di un elenco.
+
+59
+00:04:41,050 --> 00:04:48,950
+Quindi dirò append 6 e, dopo aver letto bene, vedremo che se controllo la mia nuova lista ne ho uno
+
+60
+00:04:50,420 --> 00:04:54,860
+tutto in maiuscolo due tre quattro cinque e ne ho sei ora.
+
+61
+00:04:54,860 --> 00:05:01,400
+Quindi, nota come una penna influisce effettivamente sull'elenco e la chiamiamo in un punto perché modifica
+
+62
+00:05:01,400 --> 00:05:06,280
+permanentemente il nuovo elenco in modo da avere un elemento alla fine.
+
+63
+00:05:06,290 --> 00:05:07,560
+Quindi questo è noto come una penna.
+
+64
+00:05:07,580 --> 00:05:10,760
+E di nuovo ti permette di posizionare qualsiasi oggetto alla fine di una lista.
+
+65
+00:05:10,760 --> 00:05:12,630
+Proviamo ancora una volta.
+
+66
+00:05:12,720 --> 00:05:20,910
+Ti invierò una lista di penne diciamo sette run that ls checker e tu elencherai e potrò vederne uno tutto maiuscolo.
+
+67
+00:05:20,910 --> 00:05:22,520
+Due tre quattro cinque sei.
+
+68
+00:05:22,560 --> 00:05:25,830
+E poi sette solo perché sono molto zumato qui è un po 'come interromperlo.
+
+69
+00:05:26,010 --> 00:05:30,180
+Ma se dovessi ridurre lo zoom, inizi a vederlo in modo più normale.
+
+70
+00:05:30,180 --> 00:05:30,500
+Tutto ok.
+
+71
+00:05:30,540 --> 00:05:32,550
+Quindi sappiamo come aggiungere cose in una lista.
+
+72
+00:05:32,550 --> 00:05:34,790
+Parliamo della rimozione di oggetti da un elenco.
+
+73
+00:05:34,890 --> 00:05:37,590
+Per farlo possiamo usare il metodo pop.
+
+74
+00:05:37,680 --> 00:05:43,960
+In questo modo, pop aprirà un elemento dalla fine di un elenco.
+
+75
+00:05:44,000 --> 00:05:45,480
+Ti mostriamo cosa intendi con questo.
+
+76
+00:05:45,680 --> 00:05:52,200
+Stiamo andando a dire che la nuova lista che pop apre e chiude stampa vede ruber per molte di queste chiamate di metodo.
+
+77
+00:05:52,220 --> 00:05:54,580
+Se non hai il principe è lì e li gestisci.
+
+78
+00:05:54,710 --> 00:05:55,650
+Sta per riferire.
+
+79
+00:05:55,660 --> 00:05:59,070
+Ehi questa è la funzione pop all'interno di questo nuovissimo oggetto.
+
+80
+00:05:59,090 --> 00:06:02,930
+Se in realtà vuoi chiamarlo devi avere parentesi aperte e chiuse.
+
+81
+00:06:02,930 --> 00:06:06,230
+E più avanti discuteremo le differenze tra metodi e funzioni.
+
+82
+00:06:06,260 --> 00:06:09,770
+Probabilmente mi hai sentito usare questi termini un po 'in modo intercambiabile in questo momento entreremo in
+
+83
+00:06:09,770 --> 00:06:11,330
+molti più dettagli su di loro in seguito.
+
+84
+00:06:11,630 --> 00:06:17,960
+Ma in questo momento abbiamo visto che abbiamo detto list pop e che è saltato fuori dal 7 e in realtà è
+
+85
+00:06:17,960 --> 00:06:18,810
+tornato a pure.
+
+86
+00:06:20,210 --> 00:06:25,380
+E se diamo un'occhiata a quale nuova lista ora non ha più la stringa 7 in essa.
+
+87
+00:06:25,380 --> 00:06:28,350
+Ora va solo fino alla stringa 6.
+
+88
+00:06:28,350 --> 00:06:31,380
+Quindi in realtà è salvato il risultato di un pop.
+
+89
+00:06:31,440 --> 00:06:42,700
+Quindi possiamo dire che l'oggetto spuntato è uguale alla nuova lista e sto per dire drop pop.
+
+90
+00:06:42,830 --> 00:06:47,900
+E quando eseguo ciò che sta per succedere è che questo oggetto pop è ora l'elemento che era alla fine
+
+91
+00:06:47,900 --> 00:06:48,610
+di quella lista.
+
+92
+00:06:48,740 --> 00:06:56,330
+Quindi posso copiare e incollare questo oggetto pop e ora ho 6 dire che c'è l'elemento pop e non è
+
+93
+00:06:56,330 --> 00:06:58,110
+più parte della mia lista.
+
+94
+00:06:58,160 --> 00:07:03,820
+Ora una domanda comune che sorge qui è hey non voglio rimuovere qualcosa dalla fine della lista.
+
+95
+00:07:04,010 --> 00:07:10,870
+Voglio rimuoverlo in un indice specifico, per esempio voglio rimuovere quello tutto maiuscolo all'indice 0.
+
+96
+00:07:11,090 --> 00:07:12,310
+Beh, in realtà non è un problema.
+
+97
+00:07:12,320 --> 00:07:18,870
+È possibile passare in una posizione di indice nel pop che possiamo dire e si elenca il pop e quindi basta passare nella
+
+98
+00:07:18,870 --> 00:07:21,260
+posizione dell'indice di ciò che si desidera rimuovere.
+
+99
+00:07:21,270 --> 00:07:25,110
+Possiamo vedere qui che uno tutto maiuscolo è la posizione dell'indice 0.
+
+100
+00:07:25,200 --> 00:07:27,300
+Quindi è pasand 0 lì.
+
+101
+00:07:27,420 --> 00:07:27,920
+Eseguirlo.
+
+102
+00:07:27,930 --> 00:07:35,750
+Ora possiamo vedere che ne abbiamo spuntato uno tutto maiuscolo e se elenchiamo ora ne abbiamo due tre quattro cinque.
+
+103
+00:07:36,040 --> 00:07:41,230
+Quindi, di nuovo, pop rimuove in pratica gli elementi dall'elenco in qualunque posizione tu fornisca.
+
+104
+00:07:41,290 --> 00:07:44,260
+Per impostazione predefinita, la posizione dell'indice è negativa 1.
+
+105
+00:07:44,290 --> 00:07:45,830
+La fine di una lista.
+
+106
+00:07:45,910 --> 00:07:53,240
+Quindi, l'indicizzazione inversa funziona anche come lista per il modo in cui stringo alcuni altri metodi che desidero
+
+107
+00:07:53,240 --> 00:07:59,720
+discutere oltre a pop e append, che sono metodi molto comuni che stai usando, sono in
+
+108
+00:07:59,720 --> 00:08:00,860
+ordine e inverso.
+
+109
+00:08:00,860 --> 00:08:03,040
+Quindi per fare questo ho intenzione di creare una nuova lista.
+
+110
+00:08:03,050 --> 00:08:04,220
+Facciamo uno zoom avanti qui.
+
+111
+00:08:05,170 --> 00:08:11,170
+la bella lista e vedrò la lista finale come un paio di lettere qui,
+
+112
+00:08:11,170 --> 00:08:13,930
+ma le faremo ordinare per ordine alfabetico.
+
+113
+00:08:17,270 --> 00:08:18,220
+Quindi leggerò
+
+114
+00:08:18,340 --> 00:08:22,540
+E faremo anche la lista dei numeri, quindi diciamo che Nimblest è uguale a.
+
+115
+00:08:22,540 --> 00:08:25,650
+E facciamo anche solo un po 'di numeri fuori uso.
+
+116
+00:08:27,270 --> 00:08:28,900
+OK, quindi abbiamo due liste.
+
+117
+00:08:28,950 --> 00:08:35,280
+Se vogliamo ordinare questi elenchi dove possiamo fare è chiamato il metodo di ordinamento su di essi possiamo vedere un
+
+118
+00:08:35,280 --> 00:08:39,680
+nuovo ordinamento di lista e puoi usare il completamento automatico della scheda per farlo.
+
+119
+00:08:39,970 --> 00:08:46,060
+Apri una parentesi chiusa e questo è in realtà un tipo di metodo speciale sul posto perché in realtà
+
+120
+00:08:46,060 --> 00:08:47,050
+non restituisce nulla.
+
+121
+00:08:47,110 --> 00:08:49,510
+Invece quello che sta facendo è ordinare.
+
+122
+00:08:49,510 --> 00:08:53,260
+Nuova lista sul posto che significa che non restituisce nulla.
+
+123
+00:08:53,260 --> 00:08:58,090
+Al contrario, quando si richiama nuovamente la nuova lista, questa viene ordinata in ordine alfabetico.
+
+124
+00:08:58,090 --> 00:09:03,640
+ABC X e questa è una distinzione importante da fare perché molte volte i principianti faranno
+
+125
+00:09:03,640 --> 00:09:04,620
+qualcosa del genere.
+
+126
+00:09:04,750 --> 00:09:12,380
+Diranno che la mia lista ordinata è uguale alla tua lista.
+
+127
+00:09:12,750 --> 00:09:18,450
+Ma quello che succederà qui è perché la nuova lista che si verifica in quel posto non
+
+128
+00:09:18,450 --> 00:09:20,320
+restituisce effettivamente nulla da assegnare all'utente.
+
+129
+00:09:20,340 --> 00:09:25,210
+Quindi quando chiami la mia lista ordinata non ottieni niente o nessuno.
+
+130
+00:09:25,270 --> 00:09:33,360
+E puoi effettivamente controllare il tipo di questo e dirà che è un gruppo sanguigno e che tipo
+
+131
+00:09:33,360 --> 00:09:36,050
+è il tipo per l'oggetto none.
+
+132
+00:09:36,060 --> 00:09:41,640
+Quindi in Python c'è effettivamente un oggetto speciale chiamato nessuno che ha notato la capitale e lì e questo
+
+133
+00:09:41,640 --> 00:09:47,460
+è solo qualcosa che puoi usare per indicare nessun valore e molte volte le persone lo considerano un segnaposto.
+
+134
+00:09:47,610 --> 00:09:53,320
+Ma in realtà quello che è è il valore di ritorno di una funzione o di un metodo che in realtà non restituisce nulla.
+
+135
+00:09:53,550 --> 00:09:58,140
+Quindi è un valore di ritorno predefinito comune per le funzioni che possono essere cercate per qualcosa
+
+136
+00:09:58,140 --> 00:10:00,180
+e potrebbero o meno trovarlo per esempio.
+
+137
+00:10:00,180 --> 00:10:05,280
+Quindi questa è una distinzione importante da notare qui che quando si utilizza questo metodo di ordinamento
+
+138
+00:10:05,280 --> 00:10:06,480
+è effettivamente in atto.
+
+139
+00:10:06,510 --> 00:10:10,420
+Quindi non sarai in grado di riassegnare il risultato a qualcos'altro.
+
+140
+00:10:10,440 --> 00:10:19,940
+Se volessi farlo dovresti dire una nuova lista che fa male e poi dire che la mia lista ordinata è uguale alla nuova
+
+141
+00:10:19,940 --> 00:10:28,380
+lista e poi quando la esegui puoi avere la mia lista ordinata usando la funzione di autocompletamento della scheda lì e
+
+142
+00:10:28,830 --> 00:10:33,870
+tu recupera la lista ordinata e prova di nuovo quella lista numerica.
+
+143
+00:10:33,870 --> 00:10:37,150
+Quindi in questo momento l'elenco non è ordinato.
+
+144
+00:10:37,200 --> 00:10:44,950
+Se chiamo fuori il metodo di ordinamento e controllo nuovamente nimblest ora è ordinato.
+
+145
+00:10:45,000 --> 00:10:45,460
+Tutto ok.
+
+146
+00:10:45,690 --> 00:10:49,290
+Discutiamo anche del metodo inverso dalla lista come ci si potrebbe aspettare.
+
+147
+00:10:49,320 --> 00:10:51,960
+Invertirà tutto nella tua lista.
+
+148
+00:10:51,960 --> 00:10:59,680
+Quindi, basta aprire la stampa close close vede eseguito ed è anche sul posto, il che significa che non restituisce nulla.
+
+149
+00:10:59,800 --> 00:11:04,880
+E quando chiami la tua versione inversa della tua lista hanno avuto 8 4 3 due 1.
+
+150
+00:11:04,890 --> 00:11:05,460
+Tutto ok.
+
+151
+00:11:05,520 --> 00:11:11,940
+Queste sono le basi delle liste e i metodi di supporto più da capire sono il metodo append e
+
+152
+00:11:11,940 --> 00:11:14,850
+il metodo pop, nonché il metodo sort e reverse.
+
+153
+00:11:14,940 --> 00:11:19,380
+E proprio come le stringhe sono state in grado di eseguire l'indicizzazione e l'affettatura.
+
+154
+00:11:19,380 --> 00:11:26,760
+Quindi, se ritorni qui, siamo in grado di dire l'indicizzazione e la notazione delle sezioni come un peer.
+
+155
+00:11:26,880 --> 00:11:30,750
+Quindi funziona esattamente come ti aspetteresti che funzioni come nelle stringhe.
+
+156
+00:11:30,750 --> 00:11:35,450
+L'unica cosa da notare qui è a differenza delle stringhe siamo in grado di fare riassegnazioni come quelle che
+
+157
+00:11:35,450 --> 00:11:36,590
+abbiamo fatto con una lista.
+
+158
+00:11:36,630 --> 00:11:37,010
+OK.
+
+159
+00:11:37,080 --> 00:11:38,520
+Ecco le basi di una lista.
+
+160
+00:11:38,580 --> 00:11:41,100
+Prossimamente discuteremo dei dizionari.
+
+161
+00:11:41,100 --> 00:11:42,090
+Lo vedrò lì.
