@@ -1,0 +1,463 @@
+1
+00:00:05,690 --> 00:00:10,260
+Hola a todos, bienvenidos a esta conferencia de curso intensivo sobre el uso de su línea de comandos.
+
+2
+00:00:10,440 --> 00:00:15,330
+Antes de instalar cualquier cosa, incluido Python, es realmente importante tener una visión general muy rápida de cómo
+
+3
+00:00:15,600 --> 00:00:20,580
+trabajar con su línea de comandos y la línea de comandos básicamente le permite desplazarse de forma programática
+
+4
+00:00:20,820 --> 00:00:22,480
+por los directorios de su computadora.
+
+5
+00:00:22,500 --> 00:00:25,800
+De esta forma, puede ejecutar scripts de Python en su línea de comando.
+
+6
+00:00:26,960 --> 00:00:31,970
+Vamos a cubrir en esta breve conferencia cómo encontrar su directorio actual cómo enumerar todos los
+
+7
+00:00:31,970 --> 00:00:37,050
+archivos en la rectoría, cómo cambiar el directorio y cómo borrar la pantalla de línea de comando.
+
+8
+00:00:38,360 --> 00:00:42,170
+comandos van a ser ligeramente diferentes dependiendo de lo que sea tu sistema operativo.
+
+9
+00:00:42,170 --> 00:00:44,030
+Algo que debes entender es que los
+
+10
+00:00:44,030 --> 00:00:49,700
+Entonces, para Mac OS y Linux, los usuarios deben avanzar y saltar a este momento en el video para seguir
+
+11
+00:00:50,060 --> 00:00:56,270
+sus instrucciones si usted es un usuario de Windows, avance y salte a esta marca de tiempo en el video para ir
+
+12
+00:00:56,270 --> 00:00:57,420
+a sus instrucciones específicas.
+
+13
+00:00:57,440 --> 00:01:02,690
+Y luego, una vez que haya pasado por su curso acelerado de línea de comando, avance y pase a la siguiente conferencia.
+
+14
+00:01:02,690 --> 00:01:08,030
+Una vez más, esto se debe a que los comandos son ligeramente diferentes para los usuarios de Linux y Mac OS frente a
+
+15
+00:01:08,030 --> 00:01:08,990
+los usuarios de Windows.
+
+16
+00:01:08,990 --> 00:01:09,330
+DE ACUERDO.
+
+17
+00:01:09,350 --> 00:01:12,380
+Continúa y salta a la marca de tiempo correcta y nos encontraremos allí.
+
+18
+00:01:12,380 --> 00:01:12,740
+Todo bien.
+
+19
+00:01:12,740 --> 00:01:18,460
+Repasemos las operaciones de la línea de comandos de Windows en su computadora para encontrar el símbolo del sistema.
+
+20
+00:01:18,470 --> 00:01:21,200
+Todo lo que necesitas hacer es buscar el término CMD.
+
+21
+00:01:21,360 --> 00:01:25,880
+Y deberíamos poder encontrar el símbolo del sistema como la mejor coincidencia si el símbolo del sistema no
+
+22
+00:01:25,880 --> 00:01:27,000
+aparece cuando buscas CMD.
+
+23
+00:01:27,290 --> 00:01:32,200
+En su lugar, simplemente busque la instrucción de comando de frase completa y luego debería ver el símbolo del sistema.
+
+24
+00:01:32,390 --> 00:01:33,240
+Aplicación de escritorio.
+
+25
+00:01:33,380 --> 00:01:37,910
+Una vez que haya abierto su símbolo del sistema, debería ver algo que se parece a esto.
+
+26
+00:01:37,910 --> 00:01:41,680
+Comencemos descubriendo dónde estamos ubicados actualmente.
+
+27
+00:01:41,720 --> 00:01:44,260
+Básicamente, ¿cuál es nuestro directorio actual?
+
+28
+00:01:44,270 --> 00:01:49,640
+Puedo usar la línea de comando para interactuar en mi computadora, pero para realizar realmente esas
+
+29
+00:01:49,640 --> 00:01:52,250
+interacciones necesito saber dónde estoy en mi computadora.
+
+30
+00:01:52,250 --> 00:01:57,200
+Puede pensar que esto se mueve básicamente de forma programática a través de archivos y
+
+31
+00:01:57,200 --> 00:01:58,520
+carpetas en su computadora.
+
+32
+00:01:58,850 --> 00:02:04,730
+Puede escribir CD enter y esto informará su directorio actual.
+
+33
+00:02:04,730 --> 00:02:09,870
+Ahora notarás que el símbolo del sistema en realidad básicamente te da la ruta del archivo que ya tienes.
+
+34
+00:02:10,040 --> 00:02:14,630
+Pero a veces es una ruta de archivo muy larga o se trata de cosas
+
+35
+00:02:14,630 --> 00:02:16,570
+más complejas como entornos virtuales o instalaciones.
+
+36
+00:02:16,580 --> 00:02:21,130
+Siempre es una buena idea verificar su directorio actual escribiendo CD.
+
+37
+00:02:21,380 --> 00:02:26,100
+Algunas veces, elementos como el aviso de Anaconda tendrán otros directorios entre paréntesis.
+
+38
+00:02:26,120 --> 00:02:32,390
+Siempre puede confirmar su directorio actual escribiendo una entrada de CD e informando de nuevo dónde se encuentra.
+
+39
+00:02:32,510 --> 00:02:36,530
+Así que ahora puedo ver que estoy bajo la carpeta de este usuario en particular.
+
+40
+00:02:36,920 --> 00:02:44,600
+quería saber dónde estaban o puedo escribir todos los archivos y carpetas ubicados en mi directorio actual.
+
+41
+00:02:44,660 --> 00:02:45,200
+Si
+
+42
+00:02:45,200 --> 00:02:46,970
+D i r.
+
+43
+00:02:47,090 --> 00:02:47,810
+Presione enter.
+
+44
+00:02:47,930 --> 00:02:51,290
+Y eso informa los contenidos de mi directorio.
+
+45
+00:02:51,290 --> 00:02:57,660
+Puedo ver aquí que hay descargas de documentos de escritorio, así como algunos archivos ocultos indicados por comenzar con
+
+46
+00:02:57,660 --> 00:02:58,280
+un punto.
+
+47
+00:02:58,550 --> 00:03:01,600
+Pero básicamente esto es todo lo que hay en esta carpeta.
+
+48
+00:03:01,610 --> 00:03:06,920
+Ver usuarios Marcio Puedo desplazarme hacia abajo en las imágenes de los archivos CCSB.
+
+49
+00:03:06,920 --> 00:03:11,840
+Ahora imaginemos que realmente quería moverme a una de estas subcarpetas.
+
+50
+00:03:11,870 --> 00:03:16,850
+Lo que puedo hacer es escribir CD y luego el nombre de esa carpeta.
+
+51
+00:03:16,880 --> 00:03:23,960
+Por ejemplo, si quisiera cambiar los directorios a la ubicación de mi escritorio, podría escribir espacio de directorio de cambio de
+
+52
+00:03:23,960 --> 00:03:31,010
+CD y presionar Enter en el escritorio y ahora estoy en mi escritorio y puedo escribir CD para confirmar que estoy
+
+53
+00:03:31,010 --> 00:03:34,600
+en mi escritorio si quiero vuelve a subir esa victoria.
+
+54
+00:03:34,670 --> 00:03:42,800
+Todo lo que tengo que hacer es escribir el espacio punto punto o período de tiempo para ingresar y he retrocedido un directorio.
+
+55
+00:03:42,800 --> 00:03:46,190
+Ahora no necesita escribir la ruta completa del archivo.
+
+56
+00:03:46,310 --> 00:03:54,210
+Si te estás moviendo alrededor de lo que puedes hacer, por ejemplo, CD comienza a escribir, como la letra D, y luego toca la pestaña.
+
+57
+00:03:54,300 --> 00:03:56,750
+Debería poder ver autocompletar para usted.
+
+58
+00:03:56,750 --> 00:04:01,790
+Entonces, cuando toco la pestaña, obtengo las diversas opciones de todo lo que comienza con una D mayúscula
+
+59
+00:04:01,790 --> 00:04:06,870
+para poder ir a los documentos y luego, si quería ver todos mis documentos, puedo escribir d r.
+
+60
+00:04:06,940 --> 00:04:08,970
+Ahora podemos ver todos nuestros documentos aquí.
+
+61
+00:04:09,050 --> 00:04:15,380
+De nuevo, si quiero volver ver el espacio pensado y si alguna vez quiero borrar toda la
+
+62
+00:04:15,380 --> 00:04:20,500
+pantalla de línea de comando, puedo escribir CLX y borré toda la pantalla.
+
+63
+00:04:20,510 --> 00:04:20,910
+Todo bien.
+
+64
+00:04:20,930 --> 00:04:23,450
+Eso es realmente todo lo básico que necesitamos saber en este momento.
+
+65
+00:04:23,570 --> 00:04:32,120
+Solo para revisar el CD del directorio actual Diyar para listar todo en mi CD de directorio y luego el nombre de la
+
+66
+00:04:32,120 --> 00:04:34,410
+carpeta a la que quiero saltar.
+
+67
+00:04:34,430 --> 00:04:40,220
+Por ejemplo, si quiero volver a descargar descargas de CD, puede presionar la pestaña para autocompletar Y si alguna vez
+
+68
+00:04:40,220 --> 00:04:43,060
+quiero volver a hacer una copia de seguridad del CD.
+
+69
+00:04:43,220 --> 00:04:46,970
+Pero si alguna vez queremos borrar la pantalla, es perfecto.
+
+70
+00:04:46,970 --> 00:04:48,310
+Eso es lo básico que necesitas saber.
+
+71
+00:04:48,440 --> 00:04:52,520
+Nos vemos en la próxima lección donde discutiremos cómo instalar Python.
+
+72
+00:04:52,620 --> 00:04:57,280
+comandos de Mac OS y Linux y su línea de comando en Mac OS y Linux se conoce como terminal.
+
+73
+00:04:57,280 --> 00:04:59,130
+Muy bien, revisemos las operaciones de línea de
+
+74
+00:04:59,230 --> 00:05:03,570
+Entonces estos comandos funcionan en ambos sistemas operativos de la misma manera.
+
+75
+00:05:03,580 --> 00:05:08,050
+Comencemos es comenzar a trabajar con la línea de comando en un sistema operativo Linux o Mac.
+
+76
+00:05:08,050 --> 00:05:14,160
+Primero necesita abrir su terminal para buscar en su computadora la terminal de su Mac OS o Linux.
+
+77
+00:05:14,170 --> 00:05:17,470
+Se llama lo mismo y luego abre tu terminal.
+
+78
+00:05:17,470 --> 00:05:20,500
+Eventualmente deberías obtener algo que se vea así.
+
+79
+00:05:20,500 --> 00:05:25,600
+Los colores o las fuentes pueden ser ligeramente diferentes, pero la idea básica es la misma.
+
+80
+00:05:25,600 --> 00:05:31,450
+archivos o carpetas en su computadora y con algunas funcionalidades más avanzadas también puede crear nuevos directorios o eliminar directorios.
+
+81
+00:05:31,510 --> 00:05:36,040
+El terminal le brinda una interfaz de línea de comando y la interfaz de línea
+
+82
+00:05:36,040 --> 00:05:38,170
+de comando le permite moverse por diferentes
+
+83
+00:05:38,230 --> 00:05:39,950
+Realmente no necesitamos saber eso ahora mismo.
+
+84
+00:05:40,030 --> 00:05:46,180
+Todo lo que realmente necesitamos saber es cómo entender cuál es el directorio de trabajo actual en el que se cambiaron
+
+85
+00:05:46,270 --> 00:05:47,770
+los directorios y simplemente moverse.
+
+86
+00:05:47,770 --> 00:05:51,660
+Esto básicamente nos permite movernos por la computadora en la línea de comando.
+
+87
+00:05:51,700 --> 00:05:58,960
+Lo primero que queremos saber es dónde nos encontramos actualmente para saber que ingrese el tipo PWT y esto
+
+88
+00:05:58,960 --> 00:06:00,940
+imprimirá su directorio de trabajo.
+
+89
+00:06:00,970 --> 00:06:07,140
+Aquí es donde se encuentra actualmente en la línea de comando si quiere entender qué
+
+90
+00:06:07,140 --> 00:06:14,820
+archivos y carpetas están ubicados en su ubicación actual, escriba L S y luego ingrese y verá una
+
+91
+00:06:14,820 --> 00:06:18,970
+lista de diferentes archivos y carpetas en su directorio actual.
+
+92
+00:06:19,230 --> 00:06:27,390
+Si alguna vez desea desplazarse a uno de esos archivos o carpetas, puede escribir CD y, a continuación, cualquier archivo o carpeta
+
+93
+00:06:27,390 --> 00:06:32,660
+al que desee acceder, pero debe estar en la lista que acaba de imprimir.
+
+94
+00:06:32,700 --> 00:06:42,130
+Por ejemplo, pasémonos a nuestro escritorio, así que volveré aquí y escribir ver en el escritorio.
+
+95
+00:06:42,190 --> 00:06:47,980
+Y ahora si escribo PWT, pulso enter nuevamente. Ahora estoy en mi escritorio.
+
+96
+00:06:48,220 --> 00:06:54,340
+desea borrar su pantalla, simplemente escriba borrar enter y ahora ha podido borrar su línea de comando.
+
+97
+00:06:54,340 --> 00:06:55,630
+Si alguna vez
+
+98
+00:06:55,760 --> 00:07:02,360
+Si alguna vez quiere volver a una victoria, debería ver el espacio en blanco y presionar enter, y ahora estamos haciendo una copia de seguridad
+
+99
+00:07:02,360 --> 00:07:06,800
+de un directorio que puedo confirmar escribiendo P. W. Eso es todo lo que necesitamos saber.
+
+100
+00:07:06,980 --> 00:07:08,260
+En cuanto a los comandos, vamos a tener una revisión rápida para imprimir su directorio de trabajo.
+
+101
+00:07:08,300 --> 00:07:14,060
+Es PWT y este informe ha vuelto.
+
+102
+00:07:14,100 --> 00:07:16,210
+Estamos actualmente ubicados.
+
+103
+00:07:16,230 --> 00:07:18,000
+Si quieres saber los archivos y carpetas en tu ubicación actual.
+
+104
+00:07:18,000 --> 00:07:21,090
+la pantalla de comando escriba clear enter.
+
+105
+00:07:21,180 --> 00:07:27,630
+Escriba ls y esto mostrará una lista de todos los archivos y carpetas si desea borrar
+
+106
+00:07:27,960 --> 00:07:28,440
+Esto borrará
+
+107
+00:07:28,440 --> 00:07:35,610
+su línea de comando si desea cambiar el directorio a un CD de tipo subcarpeta e incluso puede comenzar a escribir los nombres, como el escritorio.
+
+108
+00:07:35,610 --> 00:07:38,620
+Y si simplemente escritorio y luego presiono tabulador, debería completarse automáticamente.
+
+109
+00:07:38,640 --> 00:07:42,800
+Si no obtiene una autocompletar al presionar la pestaña probablemente sea un buen
+
+110
+00:07:42,900 --> 00:07:48,300
+indicador de que no es una subcarpeta directa de su directorio actual, pero puede escribir CD.
+
+111
+00:07:48,300 --> 00:07:52,510
+El nombre de la subcarpeta es subdirectorio y luego podemos ver ahora que estamos ubicados aquí grabando PWT.
+
+112
+00:07:52,710 --> 00:07:58,720
+es lo básico para moverse a través de la línea de comandos.
+
+113
+00:07:58,830 --> 00:08:05,850
+Si alguna vez desea volver a escribir, escriba CD espacio pensado OK que
+
+114
+00:08:05,850 --> 00:08:06,770
+Lo usaremos más adelante cuando ejecutemos scripts de Python en la línea de comandos.
+
+115
+00:08:06,810 --> 00:08:10,970
+Nos vemos en la próxima lección donde discutiremos cómo instalar realmente Python en su computadora.
+
+116
+00:08:10,980 --> 00:08:15,600
+&nbsp;

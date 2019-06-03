@@ -1,0 +1,151 @@
+1
+00:00:05,550 --> 00:00:09,990
+Everyone I just wanted to take this lecture to very quickly show you how you can download the course
+
+2
+00:00:09,990 --> 00:00:13,490
+notebooks and open them on your computer in case you're having any issues with that.
+
+3
+00:00:13,500 --> 00:00:17,400
+If you've already been able to do that just from the links from the FNQ lecture or the Course overview
+
+4
+00:00:17,400 --> 00:00:19,590
+lecture feel free to skip this lecture.
+
+5
+00:00:19,890 --> 00:00:24,870
+But basically all I'm going to do here is show you how you can actually download the notes from our
+
+6
+00:00:25,200 --> 00:00:26,090
+page.
+
+7
+00:00:26,190 --> 00:00:30,570
+So you should have seen a little blue pop up with a resource link and that resource link will take you
+
+8
+00:00:30,570 --> 00:00:35,010
+to the page for a period data and the complete Python 3 bootcamp.
+
+9
+00:00:35,010 --> 00:00:36,260
+So go to this resource link.
+
+10
+00:00:36,300 --> 00:00:41,310
+You can either type it in manually Google search it or just use the little blue pop up that happens
+
+11
+00:00:41,310 --> 00:00:42,510
+when you're watching this lecture.
+
+12
+00:00:42,520 --> 00:00:44,310
+So let's hop over to that link.
+
+13
+00:00:44,310 --> 00:00:50,040
+OK so here we are at that hub repository and this is basically an online repository that you can access
+
+14
+00:00:50,130 --> 00:00:54,960
+in order to get the actual course notes you'll see here how the course notes are organized.
+
+15
+00:00:54,960 --> 00:00:59,700
+We basically have it numbered off by section and then inside of the sections you'll see the notebooks
+
+16
+00:00:59,700 --> 00:01:06,150
+themselves and the notebooks are titled both so that their lecturer title matches as best we could with
+
+17
+00:01:06,150 --> 00:01:07,180
+the note book title.
+
+18
+00:01:07,290 --> 00:01:10,500
+And then we also have them kind of numbered so you can go through them in order.
+
+19
+00:01:10,710 --> 00:01:14,610
+So for example when you're learning about four loops you go ahead and click here on four loops and this
+
+20
+00:01:14,610 --> 00:01:20,310
+will eventually load up the notebook and notice how it's a IPY and B file but once you have the notebook
+
+21
+00:01:20,310 --> 00:01:22,870
+loaded you should see lots of useful information here.
+
+22
+00:01:22,890 --> 00:01:25,020
+And then the actual code itself.
+
+23
+00:01:25,020 --> 00:01:29,800
+Now if you want to run these notebooks onto your computer where you need to do is download this repository.
+
+24
+00:01:29,820 --> 00:01:34,110
+So we'll come back here click and complete Python 3 bootcamp and there's different ways you can download
+
+25
+00:01:34,110 --> 00:01:34,920
+this repository.
+
+26
+00:01:34,920 --> 00:01:40,130
+If you're already familiar get you can feel free to form this repository and then have it on your own
+
+27
+00:01:40,220 --> 00:01:40,850
+home.
+
+28
+00:01:40,890 --> 00:01:46,170
+Keep in mind we are constantly updating this but we can do also to just get the files locally.
+
+29
+00:01:46,200 --> 00:01:50,790
+Click here where it says clone or download and then click on downloads zip and that will download a
+
+30
+00:01:50,790 --> 00:01:56,460
+zip file that you can then unzip and that will have all the IPY and be files that you can then access
+
+31
+00:01:56,550 --> 00:01:58,530
+using your anaconda navigator.
+
+32
+00:01:58,710 --> 00:02:01,130
+As we showed in the running Python code lecture.
+
+33
+00:02:01,230 --> 00:02:01,520
+All right.
+
+34
+00:02:01,530 --> 00:02:03,840
+That's just a very quick overview of how to get the notes.
+
+35
+00:02:03,870 --> 00:02:08,040
+If you ever have any questions on this feel free to post the Q&amp;A forums but definitely check out the
+
+36
+00:02:08,160 --> 00:02:12,060
+fakie lecture where we have more detailed instructions on how to do all this.
+
+37
+00:02:12,060 --> 00:02:13,230
+OK thanks everyone.
+
+38
+00:02:13,260 --> 00:02:14,370
+We'll see you at the next lecture.

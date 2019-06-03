@@ -1,0 +1,491 @@
+1
+00:00:05,510 --> 00:00:07,370
+Bienvenidos a todos en esta conferencia.
+
+2
+00:00:07,370 --> 00:00:12,350
+Vamos a hablar brevemente sobre Python y sus ventajas en una descripción general y luego le mostraremos
+
+3
+00:00:12,350 --> 00:00:14,260
+cómo instalar Python en su computadora.
+
+4
+00:00:15,870 --> 00:00:21,780
+Ahora Python fue desarrollado en 1991 por Van Rossum y se ha convertido rápidamente en uno de los lenguajes de
+
+5
+00:00:21,780 --> 00:00:23,370
+programación más populares del mundo.
+
+6
+00:00:23,370 --> 00:00:26,100
+Y esto es porque tiene muchas ventajas.
+
+7
+00:00:27,290 --> 00:00:31,610
+La principal ventaja de Python es que los desarrolladores pueden aprender rápidamente y esto
+
+8
+00:00:31,610 --> 00:00:37,720
+se debe a que normalmente implica mucho menos código que otros lenguajes y la sintaxis es mucho más fácil de leer.
+
+9
+00:00:37,760 --> 00:00:42,670
+Y esto se debe a que, como aprenderán más adelante, Python utiliza el espacio en blanco.
+
+10
+00:00:42,710 --> 00:00:48,890
+Se trata de una sangría de usos en lugar de llaves y que permite a los usuarios aprender realmente mucho más rápido de lo que
+
+11
+00:00:49,130 --> 00:00:49,580
+lo harían.
+
+12
+00:00:49,610 --> 00:00:51,410
+Otros lenguajes de programación.
+
+13
+00:00:51,410 --> 00:00:56,900
+Y debido a eso, Python ahora es utilizado por casi todas las principales compañías de tecnología de alguna manera.
+
+14
+00:00:56,900 --> 00:01:01,280
+Y lo que es realmente bueno de Python es que hay una gran cantidad
+
+15
+00:01:01,880 --> 00:01:07,580
+de bibliotecas de código abierto adicionales, básicamente eso es, si quieres realizar una tarea en particular en Python, tal
+
+16
+00:01:07,580 --> 00:01:14,120
+vez quieras crear PTF en Python, enviar un correo electrónico en Python, trabajar con imágenes de datos análisis crear un sitio web.
+
+17
+00:01:14,310 --> 00:01:19,340
+Hay marcos y bibliotecas adicionales disponibles para usted que son de código abierto y que las personas han
+
+18
+00:01:19,610 --> 00:01:21,530
+creado que le permiten hacer esas cosas.
+
+19
+00:01:21,530 --> 00:01:23,990
+Python tiene muchas cosas integradas.
+
+20
+00:01:24,050 --> 00:01:27,620
+Se lo conoce como un lenguaje de programación que tiene baterías incluidas.
+
+21
+00:01:27,620 --> 00:01:32,000
+Y eso es porque hay muchas bibliotecas estándar incluidas en Python que le
+
+22
+00:01:32,000 --> 00:01:37,750
+permiten hacer muchas cosas, por ejemplo, tiene una biblioteca matemática que tiene mucha capacidad, pero hay bibliotecas
+
+23
+00:01:38,030 --> 00:01:43,460
+adicionales en caso de que necesite centrarse más en un tema de nicho particular, como la
+
+24
+00:01:43,490 --> 00:01:44,650
+computación numérica.
+
+25
+00:01:44,660 --> 00:01:51,410
+Hay una biblioteca llamada Num. Peiffer que para realmente ver todas estas ventajas y comenzar
+
+26
+00:01:51,410 --> 00:01:56,870
+a aprender Python Necesitamos instalarlo y vamos a instalar Python usando la distribución gratuita de Anaconda.
+
+27
+00:01:56,900 --> 00:02:01,280
+Y la razón de esto es que esta distribución incluye Python, así como muchas otras bibliotecas
+
+28
+00:02:01,640 --> 00:02:03,810
+útiles, incluyendo Jupiter, que es el sistema portátil.
+
+29
+00:02:03,830 --> 00:02:09,080
+Vamos a utilizar a lo largo del curso más adelante utilizaremos cosas como editores de texto para escribir scripts
+
+30
+00:02:09,080 --> 00:02:09,680
+de Python.
+
+31
+00:02:09,800 --> 00:02:14,600
+Pero cuando comenzamos a aprender y Júpiter es una gran opción ahora Anaconda, otra razón por la
+
+32
+00:02:14,600 --> 00:02:20,150
+que elegimos es que se puede instalar fácilmente en cualquier sistema operativo importante, como cuando esos Mac OS o Linux.
+
+33
+00:02:20,150 --> 00:02:26,630
+Una cosa que sí quiero señalar antes de saltar al sitio web de descarga de Anaconda real es que debido a
+
+34
+00:02:26,690 --> 00:02:32,690
+que Anaconda incluye muchas de estas otras bibliotecas, también hay una versión en miniatura de Anaconda que tiene muchos
+
+35
+00:02:32,690 --> 00:02:37,370
+Khanda que es mucho más pequeña o tienen suficiente espacio en su computadora por completo
+
+36
+00:02:37,370 --> 00:02:38,420
+y una constelación.
+
+37
+00:02:38,420 --> 00:02:43,280
+También hay muchos Khanda y te mostraremos cómo trabajar con eso justo después de que te mostremos la
+
+38
+00:02:43,280 --> 00:02:44,450
+configuración principal de Anaconda.
+
+39
+00:02:44,450 --> 00:02:48,950
+Por lo tanto, se recomienda que use la Anaconda completa, pero en caso de que no tenga una
+
+40
+00:02:48,950 --> 00:02:53,160
+conexión rápida a Internet o no tenga suficiente espacio en su computadora, siempre puede usar mini-Con.
+
+41
+00:02:53,240 --> 00:02:58,900
+Así que esto comenzó el proceso de instalación yendo a w w w y Colorado com barra descargas.
+
+42
+00:02:59,060 --> 00:03:00,390
+Te veré allá.
+
+43
+00:03:00,420 --> 00:03:05,110
+Así que Anaconda punto com barra descarga el sitio web se verá algo similar a esto.
+
+44
+00:03:05,120 --> 00:03:10,760
+Puede actualizarse de vez en cuando en cuanto a la apariencia, pero en general tendrá los enlaces
+
+45
+00:03:10,760 --> 00:03:15,290
+de descarga para los diversos instaladores para los sistemas Windows Mac OS y Linux.
+
+46
+00:03:15,290 --> 00:03:21,230
+Y si hace clic en uno de estos, irá a los enlaces de descarga reales para los instaladores gráficos
+
+47
+00:03:21,230 --> 00:03:23,510
+o los instaladores de línea de comando.
+
+48
+00:03:23,720 --> 00:03:30,650
+Para cuando ves esta página, es más probable que 3. 7 o 3. 8 o incluso 3. 9 ha sido lanzado.
+
+49
+00:03:30,650 --> 00:03:31,950
+Así que tenlo en mente.
+
+50
+00:03:32,030 --> 00:03:36,440
+Cualquier versión de Python 3 debería estar bien para nuestros casos de uso.
+
+51
+00:03:36,440 --> 00:03:41,960
+Ahora, si está en Windows, siga adelante y descargue el instalador gráfico de 64 bits o 32 bits,
+
+52
+00:03:41,960 --> 00:03:43,100
+dependiendo de su computadora.
+
+53
+00:03:43,100 --> 00:03:47,660
+La mayoría de las computadoras más nuevas serán de 64 bits y, si tiene alguna pregunta al respecto, puede hacer clic para
+
+54
+00:03:47,660 --> 00:03:48,260
+obtener más información.
+
+55
+00:03:48,320 --> 00:03:53,000
+Pero, básicamente, esto es solo un instalador gráfico, por lo que el asistente lo guiará paso a
+
+56
+00:03:53,000 --> 00:03:54,700
+paso en el proceso de instalación.
+
+57
+00:03:54,710 --> 00:03:58,640
+Entonces, para los usuarios de Windows, hagan clic en este instalador gráfico y descárguelo.
+
+58
+00:03:58,970 --> 00:04:05,310
+Si está en Mac OS, haga clic en este instalador gráfico y descárguelo, y luego, si está en
+
+59
+00:04:05,330 --> 00:04:08,330
+Linux, estará haciendo clic en este instalador y descargándolo.
+
+60
+00:04:08,330 --> 00:04:14,480
+Tenga en cuenta que los usuarios de Linux tienen un instalador de línea de comandos y tendrá que
+
+61
+00:04:14,480 --> 00:04:17,480
+escribir comandos que le mostrarán en solo un segundo.
+
+62
+00:04:17,620 --> 00:04:20,490
+Una vez que haya decidido qué versión va a descargar.
+
+63
+00:04:20,620 --> 00:04:26,200
+Desplácese un poco hacia abajo y haga clic AQUÍ donde se explica cómo instalar Anaconda y qué
+
+64
+00:04:26,260 --> 00:04:28,060
+sistema operativo está actualmente en espera.
+
+65
+00:04:28,060 --> 00:04:33,340
+Te llevará a una de estas tres páginas, aquí puedes ver la instalación en Windows y
+
+66
+00:04:33,340 --> 00:04:37,830
+las instrucciones paso a paso para instalar los instaladores gráficos son muy sencillas.
+
+67
+00:04:37,840 --> 00:04:41,520
+Simplemente selecciona los valores predeterminados y luego sigue con estos.
+
+68
+00:04:41,530 --> 00:04:43,030
+Instrucciones paso a paso.
+
+69
+00:04:43,120 --> 00:04:46,760
+No necesita preocuparse por el número 2 en cuanto a la verificación de la integridad de los datos.
+
+70
+00:04:47,670 --> 00:04:52,260
+Si tiene un Mac OS, básicamente es lo mismo si hace clic en ese vínculo sobre cómo instalarlo
+
+71
+00:04:52,260 --> 00:04:55,220
+lo guiará a través del proceso de instalación gráfica para Mac OS.
+
+72
+00:04:55,220 --> 00:04:57,170
+De nuevo, proceso paso a paso.
+
+73
+00:04:57,180 --> 00:04:58,100
+Muy claro.
+
+74
+00:04:58,200 --> 00:05:00,560
+Solo presiona continuar en todas las pantallas.
+
+75
+00:05:00,790 --> 00:05:03,500
+Si estás en Linux, será un poco diferente.
+
+76
+00:05:03,550 --> 00:05:10,090
+Lo que tienes que hacer es descargar archivos de cenizas y luego en tu línea de comandos o
+
+77
+00:05:10,270 --> 00:05:17,990
+en un terminal ejecutarás el siguiente comando bash y luego aquí abajo descargas de archivos y los tres y luego la
+
+78
+00:05:18,160 --> 00:05:20,870
+versión en la que estés haciendo clic en.
+
+79
+00:05:20,890 --> 00:05:25,440
+Básicamente solo copie y pegue este comando en su terminal.
+
+80
+00:05:25,470 --> 00:05:29,220
+Una nota rápida para los usuarios de Windows y esta es una muy importante.
+
+81
+00:05:29,510 --> 00:05:34,370
+Eventualmente tendrá una pantalla que se parece a esto diciendo opciones de instalación avanzadas y
+
+82
+00:05:34,370 --> 00:05:40,010
+puede elegir si desea agregar anaconda a la variable de entorno de ruta y llamar a sí
+
+83
+00:05:40,070 --> 00:05:44,180
+mismo recomienda no agregar Anaconda como una variable de entorno de ruta.
+
+84
+00:05:44,180 --> 00:05:49,010
+Dado que esto puede interferir con otro software, normalmente lo que interferirá con
+
+85
+00:05:49,070 --> 00:05:50,710
+las descargas previas de Python.
+
+86
+00:05:50,720 --> 00:05:55,940
+Sin embargo, dado que esta es probablemente su primera descarga de python, recomendamos encarecidamente que
+
+87
+00:05:56,000 --> 00:05:59,210
+agregue anaconda a su variable de entorno de ruta.
+
+88
+00:05:59,210 --> 00:06:04,250
+Esto le permitirá llamar comandos específicos de Konda directamente en su línea de comando.
+
+89
+00:06:04,490 --> 00:06:10,130
+Nuevamente para los usuarios de Windows, recomendamos agregar anaconda a su variable de entorno de ruta.
+
+90
+00:06:10,130 --> 00:06:12,520
+Cuando hagas clic en él notarás que dice no recomendado.
+
+91
+00:06:12,520 --> 00:06:13,710
+Se resaltará en rojo.
+
+92
+00:06:13,730 --> 00:06:16,810
+Siga adelante y haga clic en él de todos modos y luego instálelo.
+
+93
+00:06:17,030 --> 00:06:23,750
+Ahora, como mencionamos anteriormente, estos archivos de instalación gráfica incluyen Anaconda Python y muchas otras bibliotecas en esta distribución, por
+
+94
+00:06:23,750 --> 00:06:27,580
+lo que notará que en realidad es un archivo bastante grande.
+
+95
+00:06:27,590 --> 00:06:32,690
+Aproximadamente medio gigabyte dependiendo de su conexión a Internet o del espacio disponible en su computadora.
+
+96
+00:06:32,690 --> 00:06:36,020
+Es posible que no desee descargar realmente instalar todas estas bibliotecas.
+
+97
+00:06:36,020 --> 00:06:40,170
+En su lugar, probablemente solo quiera los conceptos básicos de Python para ese caso de uso.
+
+98
+00:06:40,310 --> 00:06:47,300
+Puede buscar una conducta que I O slash Mini-Con el tablero 8 T. METRO. o simplemente busque en Google muchos Khanda
+
+99
+00:06:47,690 --> 00:06:52,940
+y lo llevará al Mini-Con los enlaces para los instaladores y es básicamente exactamente lo mismo, excepto
+
+100
+00:06:52,940 --> 00:06:58,070
+que es un archivo mucho más pequeño e incluye una variedad de las bibliotecas que realmente
+
+101
+00:06:58,070 --> 00:06:59,380
+no necesita. necesidad de preocuparse
+
+102
+00:06:59,780 --> 00:07:06,170
+Entonces, hay uno para Windows Mac OS y Linux surfer interesado en una descarga de archivos mucho más pequeña.
+
+103
+00:07:06,230 --> 00:07:08,440
+Puede usar esos instaladores también.
+
+104
+00:07:08,720 --> 00:07:13,720
+el ancho de banda y el espacio que acaba de descargar, la instalación completa de Anaconda.
+
+105
+00:07:13,730 --> 00:07:15,610
+Sin embargo, recomendamos que si tiene
+
+106
+00:07:15,800 --> 00:07:21,440
+Una vez que haya descargado con éxito y haya seguido los pasos de instalación de
+
+107
+00:07:21,440 --> 00:07:25,460
+Anaconda, debería poder buscar en su computadora el navegador Anaconda.
+
+108
+00:07:25,490 --> 00:07:29,870
+Esta es una aplicación de escritorio que te permite iniciar rápidamente las libretas de Duper.
+
+109
+00:07:29,990 --> 00:07:34,530
+Así que adelante y confirme su instalación haciendo clic en Anaconda Navigator.
+
+110
+00:07:34,610 --> 00:07:39,560
+Se cargará y eventualmente verás algo que se ve así con pequeños tableros rápidos
+
+111
+00:07:39,890 --> 00:07:42,850
+que te permiten lanzar diferentes entornos de desarrollo.
+
+112
+00:07:42,860 --> 00:07:45,990
+Está ese entorno de desarrollo R-Maine de notebook Jupiter.
+
+113
+00:07:46,070 --> 00:07:47,260
+Están los contras del cootie. Spider en otro entorno de desarrollo integrado.
+
+114
+00:07:47,270 --> 00:07:49,840
+También hay otras cosas como pegamento.
+
+115
+00:07:49,960 --> 00:07:51,350
+Es el laboratorio de Júpiter.
+
+116
+00:07:51,380 --> 00:07:52,570
+E incluso no son nuestro estudio.
+
+117
+00:07:52,610 --> 00:07:54,030
+Si luego decide aprender, puede instalarlo tan bien como hacer clic en un botón.
+
+118
+00:07:54,050 --> 00:07:58,080
+Así que vamos a utilizar el navegador Neukom para iniciar rápidamente las notebooks Jupiter.
+
+119
+00:07:58,310 --> 00:08:03,130
+Entonces, ahora que tenemos Anaconda y Python instaladas
+
+120
+00:08:03,260 --> 00:08:08,810
+en su computadora, debería poder abrir el navegador Anaconda.
+
+121
+00:08:08,810 --> 00:08:10,810
+A continuación, analizaremos cómo ejecutar realmente
+
+122
+00:08:10,820 --> 00:08:17,180
+el código de Python, ya sea como un script en la línea de comandos o usando el cuaderno de Jupiter.
+
+123
+00:08:17,180 --> 00:08:18,130
+&nbsp;

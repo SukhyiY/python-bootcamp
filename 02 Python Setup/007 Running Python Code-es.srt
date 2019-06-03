@@ -1,0 +1,1035 @@
+1
+00:00:05,720 --> 00:00:06,940
+Bienvenido de nuevo a todos.
+
+2
+00:00:06,950 --> 00:00:12,340
+Por ahora hemos aprendido sobre los conceptos básicos de la línea de comandos y también hemos instalado Python en nuestra computadora.
+
+3
+00:00:12,350 --> 00:00:17,130
+Es hora de ejecutar nuestra primera pieza de código Python antes de hacer eso.
+
+4
+00:00:17,240 --> 00:00:21,470
+Quiero analizar esto de diferentes maneras en que puede ejecutar el código de Python
+
+5
+00:00:21,470 --> 00:00:24,570
+y las diversas opciones que existen para desarrollar entornos para Python.
+
+6
+00:00:24,800 --> 00:00:26,660
+Y hay tres tipos principales de entornos.
+
+7
+00:00:26,690 --> 00:00:31,220
+Y lo que quiero decir con entornos es lo que vas a escribir en el código de Python.
+
+8
+00:00:31,370 --> 00:00:36,300
+Y las tres opciones son editores de texto ID completos que significa Entorno de desarrollo integrado.
+
+9
+00:00:36,410 --> 00:00:38,780
+Y luego no hay ambientes de libros.
+
+10
+00:00:38,780 --> 00:00:40,760
+Comencemos con los editores de texto.
+
+11
+00:00:40,760 --> 00:00:46,340
+Los editores de texto son solo editores generales para cualquier archivo de texto y es decir que están diseñados en lugar de un formato
+
+12
+00:00:46,340 --> 00:00:49,760
+general en el que pueden abrir un archivo de texto, un guión PI pensado.
+
+13
+00:00:49,790 --> 00:00:52,910
+H tim l archivo un Jaspal para javascript.
+
+14
+00:00:52,910 --> 00:00:58,280
+Con cualquier variedad de tipos de archivo, podrá abrirlos y editarlos y también se pueden personalizar
+
+15
+00:00:58,280 --> 00:00:59,760
+con complementos y complementos.
+
+16
+00:00:59,900 --> 00:01:05,840
+Y debido a eso y a su formato general, en realidad no están diseñados solo con Python en mente.
+
+17
+00:01:05,840 --> 00:01:11,100
+Así que vas a sacrificar un poco de la funcionalidad específica de Python cosas
+
+18
+00:01:11,120 --> 00:01:16,310
+como autocompletar para Python o buscar cosas que la documentación automáticamente para Python.
+
+19
+00:01:16,310 --> 00:01:19,790
+Esos normalmente no se incluirán directamente con el editor de texto.
+
+20
+00:01:19,820 --> 00:01:24,370
+En su lugar, tendrá que descargarlos con un complemento u otro complemento para editores de texto.
+
+21
+00:01:24,380 --> 00:01:26,370
+Tenga en cuenta que hay toneladas de complementos por ahí.
+
+22
+00:01:26,510 --> 00:01:28,620
+Y Python es un lenguaje de programación tan popular.
+
+23
+00:01:28,730 --> 00:01:33,950
+Puedes encontrar prácticamente cualquier complemento que ya hayas creado para los editores de texto con los
+
+24
+00:01:33,950 --> 00:01:34,500
+que trabajas.
+
+25
+00:01:34,700 --> 00:01:40,160
+Y los editores de texto más populares en el mercado son textos sublimes y Adam, y ambos son gratuitos
+
+26
+00:01:40,160 --> 00:01:45,620
+técnicamente Sublime Text no es una licencia de uso ilimitado que eventualmente puede pagar si le gusta el producto.
+
+27
+00:01:45,620 --> 00:01:50,760
+Adam es un editor de texto de fuente abierta de Hub, que es completamente gratuito y de código abierto.
+
+28
+00:01:50,900 --> 00:01:55,610
+Y más adelante en esta conferencia le mostraremos cómo descargar Sublime Text y ejecutar scripts
+
+29
+00:01:55,640 --> 00:01:57,010
+de Python con Sublime Text.
+
+30
+00:01:57,050 --> 00:02:01,940
+Así que esa es una opción que el editor de texto y otra opción realmente popular, especialmente si está
+
+31
+00:02:01,940 --> 00:02:04,640
+trabajando en una empresa, es un entorno de desarrollo totalmente integrado.
+
+32
+00:02:04,940 --> 00:02:10,030
+los entornos vitela que están diseñados específicamente para casos de uso con Python y sus programas más grandes.
+
+33
+00:02:10,040 --> 00:02:11,000
+Y estos son
+
+34
+00:02:11,000 --> 00:02:13,760
+Lo que quiero decir con más grande es que es un tamaño de archivo más grande.
+
+35
+00:02:13,880 --> 00:02:18,830
+Los editores de texto anteriores a ellos son en realidad programas muy livianos que terminan
+
+36
+00:02:18,830 --> 00:02:21,930
+añadiéndoles más y más a medida que desea más complementos.
+
+37
+00:02:21,980 --> 00:02:23,530
+Vienen con todo ya.
+
+38
+00:02:23,750 --> 00:02:29,030
+Por lo tanto, tienen programas más grandes y, debido a que son identificadores, significa que en realidad hay un equipo de
+
+39
+00:02:29,030 --> 00:02:33,620
+desarrolladores o una compañía detrás de la cual se les paga para agregar nuevas características a los entornos.
+
+40
+00:02:33,620 --> 00:02:38,810
+funciones para los marcos web de Gengel o el desarrollo web para ayudar a aquellos que tiene que pagar.
+
+41
+00:02:39,110 --> 00:02:44,990
+Y debido a eso, normalmente hay una versión pro y una versión de comunidad donde solo la comunidad es gratuita y
+
+42
+00:02:44,990 --> 00:02:47,880
+la versión que tiene más funciones tal vez tenga más
+
+43
+00:02:47,980 --> 00:02:53,300
+Sin embargo, las comunicaciones son gratuitas y lo mejor de esto es que están diseñadas específicamente para Python. Tienen mucha
+
+44
+00:02:53,300 --> 00:02:58,160
+funcionalidad adicional para ayudar con su código Python, pero están un poco más hinchadas, son un poco más
+
+45
+00:02:58,160 --> 00:03:01,720
+grandes y depende de cuál sea su flujo de trabajo. el estilo es
+
+46
+00:03:01,850 --> 00:03:08,140
+Si te gusta este enfoque o no, las ideas más populares para Python son, probablemente, el gráfico circular.
+
+47
+00:03:08,150 --> 00:03:09,630
+Esa es definitivamente la más grande que hay.
+
+48
+00:03:09,650 --> 00:03:11,720
+Y luego spider es otro popular.
+
+49
+00:03:11,720 --> 00:03:16,160
+Las arañas son muy populares entre las personas que vienen de matlab a Python.
+
+50
+00:03:16,160 --> 00:03:20,170
+Finalmente, hablemos de entornos de notebook y notebook.
+
+51
+00:03:20,240 --> 00:03:23,540
+Es el entorno que vamos a utilizar durante la mayor parte de este curso.
+
+52
+00:03:23,570 --> 00:03:29,240
+Más adelante, nos alejaremos de los cuadernos y avanzaremos hacia los guiones más grandes, pero para comenzar,
+
+53
+00:03:29,240 --> 00:03:30,260
+veremos los cuadernos.
+
+54
+00:03:30,260 --> 00:03:33,410
+Y eso es porque, en mi opinión, son geniales para aprender.
+
+55
+00:03:33,560 --> 00:03:38,270
+Y lo principal aquí es que puedes ver tu código de entrada y tu salida del
+
+56
+00:03:38,270 --> 00:03:43,340
+código uno al lado del otro y puedes ver múltiples entradas y salidas, todo en un buen cuaderno.
+
+57
+00:03:43,460 --> 00:03:48,530
+Y esto se debe a que los cuadernos usan bloques de código a los que se hace referencia como celdas.
+
+58
+00:03:48,620 --> 00:03:54,200
+Así que puedes dividir tu código en diferentes celdas y luego ejecutar partes de tu código ejecutando celdas individuales
+
+59
+00:03:54,200 --> 00:03:58,760
+y puedes ver inmediatamente el resultado que es diferente al enfoque adoptado con un editor de
+
+60
+00:03:58,760 --> 00:04:03,470
+texto o entorno de desarrollo donde desarrollamos un script más grande primero y luego ejecutar ese
+
+61
+00:04:03,470 --> 00:04:05,120
+script en la línea de comando.
+
+62
+00:04:05,210 --> 00:04:09,540
+Eso es realmente genial cuando tienes piezas de código más grandes que necesitan interactuar entre ellas.
+
+63
+00:04:09,680 --> 00:04:13,670
+es que admiten notas de descuento en línea. para que puedas escribir diferentes partes
+
+64
+00:04:13,670 --> 00:04:18,230
+de notas, así que el texto normal es lo que queremos decir con las notas marcadas.
+
+65
+00:04:18,230 --> 00:04:23,810
+Pero cuando recién comienzas, quieres rápidamente poder escribir algo y ver el resultado, por eso el entorno de libreta de
+
+66
+00:04:23,930 --> 00:04:28,040
+notas es realmente bueno para aprender. Hay cosas que diferencian el entorno de un portátil,
+
+67
+00:04:28,100 --> 00:04:32,880
+Y, en realidad, los cuadernos que ofrecemos para este curso tienen mucho texto explicativo para usted.
+
+68
+00:04:32,900 --> 00:04:37,760
+Así que, básicamente, obtienes un libro junto con los videos que se incluyen en este curso
+
+69
+00:04:37,760 --> 00:04:41,190
+y también admiten cosas como visualizaciones, imágenes, videos y mucho más.
+
+70
+00:04:41,270 --> 00:04:46,160
+Y debido a que son compatibles con todas estas cosas adicionales, en realidad tienen su propio formato de archivo
+
+71
+00:04:46,160 --> 00:04:48,060
+especial que no es un script circular.
+
+72
+00:04:48,110 --> 00:04:53,030
+de texto abrirá automáticamente el script circular, porque los portátiles pueden admitir todo este material extra.
+
+73
+00:04:53,030 --> 00:04:59,180
+Y debido a eso, normalmente, si ve un script circular en su computadora, puede hacer doble clic en él y
+
+74
+00:04:59,330 --> 00:05:00,660
+algún tipo de editor
+
+75
+00:05:00,710 --> 00:05:08,150
+Tienen su propio formato de cuaderno, que es la extensión IPY, y representa el portátil Python, y debido a ese formato especial,
+
+76
+00:05:08,150 --> 00:05:11,740
+puede hacer doble clic en un archivo de computadora portátil.
+
+77
+00:05:11,780 --> 00:05:14,900
+Debe iniciarlo utilizando el iniciador de Jupiter para notebook.
+
+78
+00:05:15,050 --> 00:05:20,760
+Así que el portátil es bastante popular y es casi el único entorno portátil para Python debido a lo popular
+
+79
+00:05:20,760 --> 00:05:25,260
+que es, pero cada vez es más popular, especialmente en los campos de la ciencia de
+
+80
+00:05:25,320 --> 00:05:30,330
+datos y el aprendizaje automático, ya que puedes ver las visualizaciones y el código ingresado. La salida.
+
+81
+00:05:30,510 --> 00:05:32,900
+Entonces vamos a usar eso primero para comenzar a aprender.
+
+82
+00:05:33,150 --> 00:05:37,680
+Pero la mayor parte de esto es que los entornos de desarrollo son en realidad una opción muy
+
+83
+00:05:37,680 --> 00:05:40,040
+personal y dependen en gran medida de sus preferencias personales.
+
+84
+00:05:40,050 --> 00:05:44,760
+Entonces, si Python no es tu primer idioma y ya estás acostumbrado a usar el editor de texto
+
+85
+00:05:44,760 --> 00:05:49,410
+de sublíneas o quizás ya has usado el término pite en el trabajo y tienes la versión pro
+
+86
+00:05:49,410 --> 00:05:52,630
+allí y quieres preferir usar esos entornos desarrollados, no dudes en hazlo.
+
+87
+00:05:52,650 --> 00:05:56,610
+Todo el código que mostramos va a funcionar en cualquier entorno de desarrollo que elijas.
+
+88
+00:05:56,640 --> 00:06:01,170
+código que mostramos los videos funciona igual independientemente de qué entorno estás usando
+
+89
+00:06:01,170 --> 00:06:07,880
+Entonces, realmente después de ver esta conferencia, elija el entorno de desarrollo que prefiera, proporcionamos las notas como IPY
+
+90
+00:06:07,890 --> 00:06:14,650
+y los archivos que puede convertir fácilmente o descargar como archivos HTML o que mediante scripts y todo el
+
+91
+00:06:14,800 --> 00:06:15,130
+DE ACUERDO.
+
+92
+00:06:15,150 --> 00:06:17,360
+Así que ahora exploremos cómo ejecutar código Python.
+
+93
+00:06:17,550 --> 00:06:19,150
+Primero vamos a comenzar con un editor.
+
+94
+00:06:19,170 --> 00:06:23,160
+Así que descargaremos el editor de texto sublime y le mostraremos cómo puede crear una posdata simple y
+
+95
+00:06:23,220 --> 00:06:24,990
+ejecutar el archivo en su línea de comando.
+
+96
+00:06:25,020 --> 00:06:28,210
+Luego vamos a mostrar cómo ejecutar el mismo código de un cuaderno de Júpiter.
+
+97
+00:06:28,470 --> 00:06:34,470
+Así que, para hacer todo esto, primero tenemos que descargar algunas veces un editor de texto, así que vaya a w w w
+
+98
+00:06:34,470 --> 00:06:36,560
+Sublime Text dot com y lo veremos allí.
+
+99
+00:06:36,660 --> 00:06:36,990
+Todo bien.
+
+100
+00:06:36,990 --> 00:06:39,570
+Aquí estamos en Sublime Text dot com.
+
+101
+00:06:39,630 --> 00:06:43,920
+Y típicamente será todo el sistema operativo de Voluntad técnica en el que se encuentre y
+
+102
+00:06:43,920 --> 00:06:47,720
+tendrá un pequeño botón para que usted diga descargar para OS Linux o Windows.
+
+103
+00:06:47,730 --> 00:06:52,620
+Es un editor de texto muy simple y es probablemente el editor de texto más popular del mundo.
+
+104
+00:06:52,980 --> 00:06:55,560
+Y tiene un esquema de precios realmente interesante.
+
+105
+00:06:55,560 --> 00:07:01,530
+Técnicamente, no es gratuito, pero te ofrecen una versión de prueba gratuita ilimitada en la que solo tendrán una
+
+106
+00:07:01,530 --> 00:07:06,220
+pequeña ventana emergente de vez en cuando preguntándote si estás listo para actualizar y comprarla.
+
+107
+00:07:06,240 --> 00:07:11,990
+De nuevo, técnicamente no es gratis, pero tiene una prueba gratuita ilimitada para el resto de su vida.
+
+108
+00:07:12,030 --> 00:07:15,970
+Solo tendrá una ventana emergente pidiéndole que compre la licencia completa.
+
+109
+00:07:16,080 --> 00:07:22,350
+Así que haga clic aquí en la descarga y luego seleccione la descarga para su sistema operativo, ya sea OS
+
+110
+00:07:22,400 --> 00:07:24,830
+X Windows cuando el 64 bit o Linux.
+
+111
+00:07:24,840 --> 00:07:29,220
+Por lo tanto, lo que debe hacer es ir a la página de inicio y luego hacer clic en la
+
+112
+00:07:29,220 --> 00:07:30,940
+descarga que haya salido del texto por usted.
+
+113
+00:07:31,090 --> 00:07:34,900
+Una vez que lo hayas descargado, procederemos y abriremos el Sublime Text Editor.
+
+114
+00:07:35,680 --> 00:07:41,380
+Una vez que haya descargado e instalado el texto de la sublínea, podrá buscar en su computadora
+
+115
+00:07:41,470 --> 00:07:42,250
+Sublime Text.
+
+116
+00:07:42,310 --> 00:07:42,900
+Haz click en eso.
+
+117
+00:07:43,030 --> 00:07:46,440
+Ábrelo y se verá algo así.
+
+118
+00:07:46,570 --> 00:07:53,510
+A continuación, lo que vamos a hacer es escribir un código de Python y luego guardarlo como un script PI de punto.
+
+119
+00:07:53,550 --> 00:07:55,480
+Adelante y escribe impresiones.
+
+120
+00:07:55,530 --> 00:08:03,910
+mismo color para esta fuente, por lo que el editor de texto sublime no sabe realmente que se trata de una secuencia de comandos de Python.
+
+121
+00:08:03,910 --> 00:08:11,500
+Abra y cierre paréntesis y luego comillas simples o comillas dobles hola mundo y esta será su primera secuencia de comandos de Python y
+
+122
+00:08:11,500 --> 00:08:18,460
+luego seleccione Archivo Guardar como y la razón por la que estamos haciendo es que si se da cuenta en este momento
+
+123
+00:08:18,460 --> 00:08:21,700
+no hay resaltado de sintaxis, es decir todo es del
+
+124
+00:08:21,820 --> 00:08:24,330
+Lo que queremos hacer es guardarlo como.
+
+125
+00:08:24,520 --> 00:08:29,670
+Y vamos a llamar a este archivo mi ejemplo.
+
+126
+00:08:31,650 --> 00:08:37,170
+Y notará que si hace clic en todos los archivos, tiene muchas extensiones para elegir.
+
+127
+00:08:37,170 --> 00:08:40,870
+Vamos a elegir guardarlo como un archivo de Python.
+
+128
+00:08:40,950 --> 00:08:44,330
+Así que vas a decir mi ejemplo guardar como un archivo de Python.
+
+129
+00:08:44,400 --> 00:08:51,740
+La otra opción que puede hacer es simplemente seleccionar todos los archivos y luego decir mi ejemplo y usted mismo.
+
+130
+00:08:51,830 --> 00:08:52,460
+PI.
+
+131
+00:08:52,740 --> 00:08:54,720
+De cualquier manera está bien.
+
+132
+00:08:54,720 --> 00:08:57,530
+Continúa y guárdalo asegurándote de que sea un archivo PI de puntos.
+
+133
+00:08:57,570 --> 00:09:03,390
+Haga clic en Guardar y ahora se dará cuenta de que el editor de texto de sublínea entiende que es un archivo de script
+
+134
+00:09:03,540 --> 00:09:07,020
+de python y se realizó un resaltado de sintaxis para ayudarlo a leer esto.
+
+135
+00:09:07,020 --> 00:09:08,180
+Imprimir es una función.
+
+136
+00:09:08,220 --> 00:09:13,350
+Python en general más adelante en tu formación, ahora veamos cómo ejecutar este script.
+
+137
+00:09:13,350 --> 00:09:18,450
+Hola mundo es una cadena y vamos a aprender mucho más sobre eso y
+
+138
+00:09:18,450 --> 00:09:22,560
+Recuerde que hemos guardado eso en nuestro escritorio en nuestra línea de comandos.
+
+139
+00:09:22,650 --> 00:09:27,420
+Necesitamos cambiar los directorios a nuestro escritorio para que podamos ejecutar el archivo sexual up-I.
+
+140
+00:09:27,420 --> 00:09:31,440
+Continúa y abre tu línea de comando.
+
+141
+00:09:31,500 --> 00:09:34,200
+Como estoy en Windows, abriré un símbolo del sistema.
+
+142
+00:09:34,230 --> 00:09:41,820
+un sistema operativo Mac o Linux, abrirá una terminal, entonces querrá cambiar el directorio a su escritorio real o
+
+143
+00:09:41,940 --> 00:09:52,420
+donde quiera que diga detenerse por tipo de archivo CD y luego escritorio para cambiar el directorio a su escritorio y luego lo que debería ser capaz
+
+144
+00:09:52,960 --> 00:10:00,190
+de hacer es escribir el espacio de Python y luego comenzar a escribir el nombre de su archivo.
+
+145
+00:10:00,190 --> 00:10:00,970
+Si tiene
+
+146
+00:10:00,970 --> 00:10:07,120
+En mi caso, fue un ejemplo que Pi y para probarse a sí mismo que estaba en la ubicación correcta,
+
+147
+00:10:07,120 --> 00:10:09,730
+debería poder presionar la pestaña y se autocompletará.
+
+148
+00:10:09,730 --> 00:10:10,870
+Entonces aquí decimos Python.
+
+149
+00:10:10,870 --> 00:10:17,620
+Mi ejemplo hace PI y así es como se puede ejecutar un script PI de punto en la línea de comando enter.
+
+150
+00:10:17,740 --> 00:10:18,910
+Entonces deberías poder ver.
+
+151
+00:10:19,000 --> 00:10:20,630
+Hola Mundo.
+
+152
+00:10:20,710 --> 00:10:26,950
+con éxito un script de Python en su editor de texto y ejecutó ese script en su línea de comando.
+
+153
+00:10:26,950 --> 00:10:27,470
+Ahora creó
+
+154
+00:10:28,280 --> 00:10:34,200
+Bueno, también puedes hacer es simplemente escribir Python por sí mismo en tu línea de comando enter.
+
+155
+00:10:34,340 --> 00:10:41,510
+Y esta es una conexión directa muy simple a Python que le permite escribir el código python directamente en su
+
+156
+00:10:41,510 --> 00:10:42,560
+línea de comando.
+
+157
+00:10:42,590 --> 00:10:47,390
+No usaremos esto en su entrenamiento porque es solo una línea a la vez y eventualmente
+
+158
+00:10:47,390 --> 00:10:51,880
+usaremos y aprenderemos a escribir más de una línea a la vez para el código.
+
+159
+00:10:51,890 --> 00:10:56,050
+También puede verificarlo escribiendo print Hola ingrese en su
+
+160
+00:10:58,650 --> 00:11:01,360
+aviso que tiene hello como salida.
+
+161
+00:11:01,440 --> 00:11:03,410
+Entonces, básicamente hay una línea a la vez.
+
+162
+00:11:03,540 --> 00:11:10,620
+Puede escribir el código de Python, luego podemos escribir los cierres de apertura y cerrar paréntesis,
+
+163
+00:11:10,620 --> 00:11:13,370
+y salimos del intérprete de Python.
+
+164
+00:11:13,410 --> 00:11:13,920
+Todo bien.
+
+165
+00:11:14,160 --> 00:11:18,470
+Entonces, aprendimos cómo ejecutar un script de Python en su línea de comando.
+
+166
+00:11:18,480 --> 00:11:23,250
+Ahora exploremos el entorno de los portátiles Jupiter y veamos cómo funciona eso.
+
+167
+00:11:23,310 --> 00:11:30,660
+Iremos a nuestro Navegador Anaconda para buscar en su computadora el navegador Anaconda.
+
+168
+00:11:30,700 --> 00:11:36,910
+colon local 8 8 8 8 u 8 8 8 9 o algún otro serie de números.
+
+169
+00:11:36,910 --> 00:11:43,540
+Abra eso y luego, una vez que lo haya hecho, siga adelante y ejecute el portátil Jupiter una vez
+
+170
+00:11:43,720 --> 00:11:50,080
+que haga clic en ese botón de inicio, debe observar que su navegador se abre automáticamente en el
+
+171
+00:11:50,080 --> 00:11:56,470
+Tenga en cuenta que, si bien el portátil Jupiter funciona dentro de su navegador, no requiere una
+
+172
+00:11:56,530 --> 00:11:57,580
+conexión a Internet.
+
+173
+00:11:57,610 --> 00:11:59,590
+Todo está sucediendo localmente.
+
+174
+00:11:59,620 --> 00:12:04,070
+No hay conexión a Internet entre Júpiter y algún otro servidor en alguna parte.
+
+175
+00:12:04,090 --> 00:12:10,570
+Simplemente se abre y funciona en su navegador como una interfaz gráfica conveniente para que
+
+176
+00:12:10,570 --> 00:12:12,110
+usted pueda programar.
+
+177
+00:12:12,130 --> 00:12:18,200
+Entonces, una vez que inicie el notebook Jupiter notará que puede ver todos los archivos en su computadora.
+
+178
+00:12:18,200 --> 00:12:24,320
+Por ejemplo, podemos hacer clic aquí en la carpeta del escritorio y ahora puedo ver que en mi ejemplo,
+
+179
+00:12:24,380 --> 00:12:30,530
+la postdata que acabamos de crear y utilizando un sistema más oscuro y opaco, puedes agregar y editar esos
+
+180
+00:12:30,530 --> 00:12:31,460
+archivos PI.
+
+181
+00:12:31,460 --> 00:12:34,530
+Entonces, por ejemplo, podríamos agregar otra declaración de impresión aquí.
+
+182
+00:12:35,490 --> 00:12:42,260
+Sabía y guardaba este cambio para que pudiéramos decir "guardado" y luego también podíamos descargar o cambiar el nombre del archivo y un montón
+
+183
+00:12:42,500 --> 00:12:47,240
+de otras cosas, pero no vamos a usar Júpiter para este tipo de edición de texto.
+
+184
+00:12:47,270 --> 00:12:49,440
+Probablemente sea mejor usar el editor de texto de sublíneas.
+
+185
+00:12:49,490 --> 00:12:51,680
+Pero nuevamente es una preferencia personal.
+
+186
+00:12:51,680 --> 00:12:56,570
+Para lo que vamos a usar Jupiter y Jupiter en realidad es para el sistema de notebook, así
+
+187
+00:12:56,570 --> 00:13:01,310
+que puedes hacer clic aquí donde dice "nuevo" y debajo del libro de apuntes debes ver "Python 3".
+
+188
+00:13:01,460 --> 00:13:04,030
+A veces dice la raíz o algo más.
+
+189
+00:13:04,040 --> 00:13:05,940
+Pero haga clic en lo que dice debajo de una libreta.
+
+190
+00:13:05,990 --> 00:13:08,740
+Por lo general, dice Python 3.
+
+191
+00:13:08,960 --> 00:13:11,530
+Y luego notarás que acabamos de comenzar un nuevo cuaderno.
+
+192
+00:13:11,630 --> 00:13:15,200
+Así que vamos a tener una visión general rápida de lo que es en realidad.
+
+193
+00:13:15,200 --> 00:13:16,460
+Aquí dice sin título.
+
+194
+00:13:16,460 --> 00:13:19,840
+Y eso es porque este bloc de notas que acabamos de crear no tiene realmente un título.
+
+195
+00:13:19,970 --> 00:13:25,610
+Y si volvemos a hacer clic aquí en esta otra pestaña, notará que acabamos de crear un archivo IPT
+
+196
+00:13:25,610 --> 00:13:32,060
+y B sin título que representa el archivo portátil Python. Los portátiles Jupiter solían llamarse portátiles I Python, por lo que conservaban
+
+197
+00:13:32,060 --> 00:13:34,330
+el nombre de la extensión del archivo.
+
+198
+00:13:34,560 --> 00:13:40,700
+Y si queremos cambiar este nombre, todo lo que tenemos que hacer es volver a este título de selección
+
+199
+00:13:40,740 --> 00:13:49,200
+de pestañas y darle un nombre nuevo a su computadora portátil, así que diremos mi primer cuaderno para ingresar y hemos cambiado el nombre del portátil así
+
+200
+00:13:49,260 --> 00:13:50,510
+como el archivo real.
+
+201
+00:13:50,520 --> 00:13:55,560
+Notarás ahora que dice mi primer portátil la extensión de cuaderno python.
+
+202
+00:13:55,560 --> 00:14:02,670
+Así que volviendo a este cuaderno, el cuaderno usa un sistema basado en celdas lo que significa que usted escribe el código en una celda.
+
+203
+00:14:02,790 --> 00:14:05,520
+Ejecutas la celda y luego ves la salida real.
+
+204
+00:14:05,520 --> 00:14:07,050
+Justo debajo de la celda.
+
+205
+00:14:07,050 --> 00:14:13,530
+Así que intentemos ejecutar o una instrucción de impresión simple dentro de una impresión de tipo de celda, pero luego, al cerrar la impresión
+
+206
+00:14:14,110 --> 00:14:14,790
+vemos Hola.
+
+207
+00:14:14,940 --> 00:14:19,690
+Y observa que Júpiter autocompleta algunas cosas para usted, como comillas o paréntesis.
+
+208
+00:14:19,860 --> 00:14:21,660
+Y luego podemos ejecutar la celda.
+
+209
+00:14:21,830 --> 00:14:26,730
+Entonces puede hacer clic aquí en el botón Ejecutar y ejecutará la celda y verá el
+
+210
+00:14:26,730 --> 00:14:27,780
+resultado directamente debajo.
+
+211
+00:14:27,780 --> 00:14:32,520
+Este es un gran sistema para las personas que recién están comenzando a aprender sobre Python
+
+212
+00:14:32,850 --> 00:14:37,350
+porque iteran rápidamente y corrigen errores porque tienen su código y pueden ver el resultado directamente.
+
+213
+00:14:37,410 --> 00:14:41,460
+No tienen que ir constantemente a la línea de comandos y ejecutar sus scripts de nuevo.
+
+214
+00:14:41,520 --> 00:14:45,660
+Definitivamente es una preferencia personal, pero esta es una buena característica del portátil para las
+
+215
+00:14:45,660 --> 00:14:46,910
+personas que están aprendiendo Python.
+
+216
+00:14:47,190 --> 00:14:52,420
+celda debajo de la cual puede escribir más código Python en, por ejemplo, imprimir nuevo.
+
+217
+00:14:52,900 --> 00:14:55,070
+Y observa que creamos automáticamente otra
+
+218
+00:14:55,270 --> 00:15:01,840
+Y si no desea tener que hacer clic en ese botón de ejecución cada vez que todo lo que tiene que hacer es cambiar,
+
+219
+00:15:02,650 --> 00:15:04,400
+ingrese y se ejecutará una celda nuevamente.
+
+220
+00:15:04,420 --> 00:15:07,140
+Eso es un turno para ejecutar una celda.
+
+221
+00:15:07,210 --> 00:15:11,140
+Si solo ingresas solo crearás más líneas nuevas.
+
+222
+00:15:11,170 --> 00:15:13,830
+Entonces, es shift ingresar para ejecutar una celda.
+
+223
+00:15:13,840 --> 00:15:20,350
+Hay muchos otros hockeys útiles en los que puede hacer clic en Ayuda y luego presionar los atajos de teclado y
+
+224
+00:15:20,350 --> 00:15:22,480
+se enumerarán todos los atajos de teclado.
+
+225
+00:15:22,600 --> 00:15:28,240
+Los más útiles te enseñarán más adelante, pero siempre puedes explorarlo tú mismo.
+
+226
+00:15:28,240 --> 00:15:33,730
+Ahora también discutimos que el sistema portátil puede contener texto marcado que es solo texto normal que
+
+227
+00:15:33,730 --> 00:15:39,100
+no es código que no puedes usar para escribir notas a medida que aprendes a lo largo
+
+228
+00:15:39,100 --> 00:15:40,820
+de este campo de entrenamiento.
+
+229
+00:15:40,850 --> 00:15:45,830
+Entonces, si haces clic en una celda, notarás que aquí dice código, y esto se debe a que actualmente
+
+230
+00:15:45,830 --> 00:15:50,120
+se trata de una celda de código python si deseas convertirla en una celda de reducción normal.
+
+231
+00:15:50,240 --> 00:15:53,150
+Seleccione del menú desplegable marcado hacia abajo.
+
+232
+00:15:53,180 --> 00:15:55,640
+Y ahora esto ya no es una celda de código.
+
+233
+00:15:55,750 --> 00:15:59,610
+Es solo una celda que solo tendrá texto normal.
+
+234
+00:15:59,720 --> 00:16:03,570
+Y notarás que ya no tiene esto en frente de la celda.
+
+235
+00:16:03,590 --> 00:16:06,180
+Entonces eso también indica que es solo para texto normal.
+
+236
+00:16:06,410 --> 00:16:14,420
+Así que aquí puedes escribir solo notas que te ayudarán a entender y si cambias, las mostrará
+
+237
+00:16:14,420 --> 00:16:16,580
+como un texto normal.
+
+238
+00:16:16,580 --> 00:16:21,710
+Así que de nuevo, esto ya no es código, es solo texto para usted y muchos de los cuadernos
+
+239
+00:16:21,710 --> 00:16:25,580
+que proporcionamos a lo largo de su capacitación tendrán un texto marcado como explicación.
+
+240
+00:16:25,690 --> 00:16:31,580
+en una celda y luego asegurarse de que el código seleccionado pueda imprimir lo que quiera aquí.
+
+241
+00:16:31,580 --> 00:16:35,230
+Y si alguna vez quiere escribir otro código, simplemente puede sentarse
+
+242
+00:16:35,390 --> 00:16:36,600
+Shift y la torreta corren eso.
+
+243
+00:16:36,740 --> 00:16:41,380
+Y eso es lo básico, hablaremos mucho más sobre los cuadernos más adelante durante su entrenamiento.
+
+244
+00:16:41,510 --> 00:16:43,400
+Pero eso es realmente lo básico.
+
+245
+00:16:43,400 --> 00:16:51,020
+Lo último que quiero señalar es que esta extensión especial del archivo portátil este IPY y B significa que en realidad no puede
+
+246
+00:16:51,020 --> 00:16:55,910
+hacer doble clic en este archivo en su computadora y esperar que se abra.
+
+247
+00:16:55,910 --> 00:16:58,810
+Así que déjame mostrarte lo que quiero decir con eso muy rápido.
+
+248
+00:16:59,000 --> 00:17:04,880
+pi y si hago doble clic en este, se abrirá en el programa predeterminado que tenga para él.
+
+249
+00:17:04,880 --> 00:17:09,080
+Notarás que si vengo a mi escritorio, puedo ver aquí mi ejemplo de
+
+250
+00:17:09,080 --> 00:17:14,900
+Normalmente Sublime Text Editor o cualquier otro editor que tengas en tu computadora para que puedas hacer doble clic
+
+251
+00:17:14,900 --> 00:17:17,940
+en los archivos py y editarlos y trabajar con ellos.
+
+252
+00:17:17,960 --> 00:17:24,530
+Sin embargo, si intenta hacer doble clic en un archivo IPY y B, obtendrá algo que le preguntará
+
+253
+00:17:24,530 --> 00:17:29,300
+cómo desea abrir este archivo o se abrirá y verá un montón de
+
+254
+00:17:29,300 --> 00:17:30,110
+código codificado.
+
+255
+00:17:30,410 --> 00:17:36,580
+archivos especiales del notebook a través del sistema de notebook Jupiter, pero debe abrir el navegador Anaconda para
+
+256
+00:17:36,590 --> 00:17:42,320
+iniciar el notebook Jupiter y luego, realmente, buscarlo en su computadora y hacer clic en él.
+
+257
+00:17:42,320 --> 00:17:44,820
+Eso significa que solo puede abrir los
+
+258
+00:17:44,840 --> 00:17:47,980
+Está bien, eso es lo básico de ejecutar código Python.
+
+259
+00:17:48,200 --> 00:17:49,870
+Es hora de realmente aprender Python.

@@ -1,0 +1,463 @@
+1
+00:00:05,690 --> 00:00:10,260
+Ciao a tutti, benvenuti a questa lezione sul corso accelerato sull'uso della linea di comando.
+
+2
+00:00:10,440 --> 00:00:15,330
+Prima di installare qualsiasi cosa, incluso python, è davvero molto importante avere una rapida panoramica su come
+
+3
+00:00:15,600 --> 00:00:20,580
+utilizzare la riga di comando e la riga di comando consente fondamentalmente di spostarsi a livello di
+
+4
+00:00:20,820 --> 00:00:22,480
+codice nelle directory del computer.
+
+5
+00:00:22,500 --> 00:00:25,800
+In questo modo puoi eseguire gli script Python sulla tua riga di comando.
+
+6
+00:00:26,960 --> 00:00:31,970
+In questa breve lezione andremo a scoprire come trovare la directory corrente come elencare tutti i
+
+7
+00:00:31,970 --> 00:00:37,050
+file nella directory come cambiare la directory e come cancellare la schermata della riga di comando.
+
+8
+00:00:38,360 --> 00:00:42,170
+i comandi saranno leggermente diversi a seconda del tuo sistema operativo.
+
+9
+00:00:42,170 --> 00:00:44,030
+Qualcosa che devi capire è che
+
+10
+00:00:44,030 --> 00:00:49,700
+Quindi per gli utenti Mac OS e Linux andare avanti e saltare fino a questo momento nel video per
+
+11
+00:00:50,060 --> 00:00:56,270
+seguire le istruzioni se sei un utente di Windows andare avanti e saltare a questo timestamp al video per saltare
+
+12
+00:00:56,270 --> 00:00:57,420
+alle tue istruzioni specifiche.
+
+13
+00:00:57,440 --> 00:01:02,690
+E poi, una volta che hai completato il tuo corso in linea di comando, vai avanti e passa alla prossima lezione.
+
+14
+00:01:02,690 --> 00:01:08,030
+Anche in questo caso, i comandi sono leggermente diversi per gli utenti Linux e Mac OS rispetto
+
+15
+00:01:08,030 --> 00:01:08,990
+agli utenti Windows.
+
+16
+00:01:08,990 --> 00:01:09,330
+OK.
+
+17
+00:01:09,350 --> 00:01:12,380
+Vai avanti e salta al timestamp corretto e ci incontreremo di nuovo lì.
+
+18
+00:01:12,380 --> 00:01:12,740
+Tutto ok.
+
+19
+00:01:12,740 --> 00:01:18,460
+Quindi andiamo oltre le operazioni della riga di comando di Windows sul tuo computer per trovare il prompt dei comandi.
+
+20
+00:01:18,470 --> 00:01:21,200
+Tutto quello che devi fare è cercare il termine CMD.
+
+21
+00:01:21,360 --> 00:01:25,880
+E dovremmo essere in grado di trovare il prompt dei comandi come la migliore corrispondenza se il prompt dei comandi non viene
+
+22
+00:01:25,880 --> 00:01:27,000
+visualizzato quando si cerca CMD.
+
+23
+00:01:27,290 --> 00:01:32,200
+Cerca solo il prompt di comando dell'intera frase e poi dovresti vedere il prompt dei comandi.
+
+24
+00:01:32,390 --> 00:01:33,240
+App per desktop.
+
+25
+00:01:33,380 --> 00:01:37,910
+Una volta aperto il prompt dei comandi dovresti vedere qualcosa che assomiglia a questo.
+
+26
+00:01:37,910 --> 00:01:41,680
+Iniziamo scoprendo dove ci troviamo attualmente.
+
+27
+00:01:41,720 --> 00:01:44,260
+Fondamentalmente qual è la nostra directory attuale.
+
+28
+00:01:44,270 --> 00:01:49,640
+Posso usare la riga di comando per interagire sul mio computer, ma per eseguire effettivamente quelle interazioni
+
+29
+00:01:49,640 --> 00:01:52,250
+ho bisogno di sapere dove sono sul mio computer.
+
+30
+00:01:52,250 --> 00:01:57,200
+Si può pensare a questo come fondamentalmente spostandosi a livello di codice attraverso file e
+
+31
+00:01:57,200 --> 00:01:58,520
+cartelle sul tuo computer.
+
+32
+00:01:58,850 --> 00:02:04,730
+È possibile digitare l'immissione del CD e questo riporterà la directory corrente.
+
+33
+00:02:04,730 --> 00:02:09,870
+Ora noterai che il prompt dei comandi ti dà praticamente il percorso del file su di te già.
+
+34
+00:02:10,040 --> 00:02:14,630
+Ma a volte è un percorso di file molto lungo o hai a che fare con cose
+
+35
+00:02:14,630 --> 00:02:16,570
+più complesse come ambienti virtuali o installazioni.
+
+36
+00:02:16,580 --> 00:02:21,130
+È sempre una buona idea controllare la directory corrente digitando il CD.
+
+37
+00:02:21,380 --> 00:02:26,100
+A volte cose come il prompt di Anaconda avranno altre directory tra parentesi.
+
+38
+00:02:26,120 --> 00:02:32,390
+Puoi sempre confermare la tua directory corrente digitando un CD per entrare e che riporta dove sei.
+
+39
+00:02:32,510 --> 00:02:36,530
+Quindi ora vedo che sono sotto la cartella di questo particolare utente.
+
+40
+00:02:36,920 --> 00:02:44,600
+volessi capire dove sono stati o posso scrivere tutti i file e le cartelle presenti nella mia directory corrente.
+
+41
+00:02:44,660 --> 00:02:45,200
+Se
+
+42
+00:02:45,200 --> 00:02:46,970
+D r.
+
+43
+00:02:47,090 --> 00:02:47,810
+Hit enter.
+
+44
+00:02:47,930 --> 00:02:51,290
+E questo riporta il contenuto della mia directory.
+
+45
+00:02:51,290 --> 00:02:57,660
+Riesco a vedere qui che sono disponibili download di documenti desktop e alcuni file nascosti che iniziano con
+
+46
+00:02:57,660 --> 00:02:58,280
+un punto.
+
+47
+00:02:58,550 --> 00:03:01,600
+Ma fondamentalmente questo è tutto ciò che è in questa cartella.
+
+48
+00:03:01,610 --> 00:03:06,920
+Vedi gli utenti Marcio I può scorrere verso il basso le immagini dei file CCSB.
+
+49
+00:03:06,920 --> 00:03:11,840
+Ora immagino di voler effettivamente spostarmi in una di queste sottocartelle.
+
+50
+00:03:11,870 --> 00:03:16,850
+Quello che posso fare è digitare CD e poi il nome di quella cartella.
+
+51
+00:03:16,880 --> 00:03:23,960
+Ad esempio, se volessi cambiare le directory sulla mia posizione desktop, potrei digitare CD change directory space e
+
+52
+00:03:23,960 --> 00:03:31,010
+il desktop hit enter e ora sono al mio desktop e posso digitare CD per confermare che sono
+
+53
+00:03:31,010 --> 00:03:34,600
+sul mio desktop se voglio torna indietro su quella vittoria.
+
+54
+00:03:34,670 --> 00:03:42,800
+Tutto quello che devo fare è digitare see the space punto dot o periodo periodo per entrare e ho spostato il backup di una directory.
+
+55
+00:03:42,800 --> 00:03:46,190
+Ora non è necessario digitare l'intero percorso del file.
+
+56
+00:03:46,310 --> 00:03:54,210
+Se ti muovi, puoi dire che il CD inizia a digitare come la lettera D e poi premi scheda.
+
+57
+00:03:54,300 --> 00:03:56,750
+Dovresti essere in grado di vedere il completamento automatico per te.
+
+58
+00:03:56,750 --> 00:04:01,790
+Così, quando premo la scheda, ottengo le varie opzioni di tutto ciò che inizia con la D maiuscola,
+
+59
+00:04:01,790 --> 00:04:06,870
+così posso entrare nei documenti e poi, se voglio vedere tutti i miei documenti, posso digitare d r.
+
+60
+00:04:06,940 --> 00:04:08,970
+Ora possiamo vedere tutti i nostri documenti qui.
+
+61
+00:04:09,050 --> 00:04:15,380
+Ancora una volta, se voglio tornare a vedere lo spazio pensato e se voglio cancellare la mia
+
+62
+00:04:15,380 --> 00:04:20,500
+intera schermata della riga di comando, posso digitare CLX e ho cancellato l'intero schermo.
+
+63
+00:04:20,510 --> 00:04:20,910
+Tutto ok.
+
+64
+00:04:20,930 --> 00:04:23,450
+Questo è davvero tutto ciò che dobbiamo sapere per ora.
+
+65
+00:04:23,570 --> 00:04:32,120
+Solo per rivedere il CD per la directory corrente Diyar per elencare tutto nel mio CD di directory e quindi il nome
+
+66
+00:04:32,120 --> 00:04:34,410
+della cartella in cui voglio saltare.
+
+67
+00:04:34,430 --> 00:04:40,220
+Ad esempio, se voglio andare a scaricare di nuovo i download di CD, puoi premere tab per eseguire il
+
+68
+00:04:40,220 --> 00:04:43,060
+completamento automatico e se vogliamo mai tornare indietro nel CD.
+
+69
+00:04:43,220 --> 00:04:46,970
+Ma se vogliamo mai cancellare lo schermo è perfetto.
+
+70
+00:04:46,970 --> 00:04:48,310
+Ecco le basi che devi sapere.
+
+71
+00:04:48,440 --> 00:04:52,520
+Ci vedremo alla prossima lezione in cui discuteremo come installare Python.
+
+72
+00:04:52,620 --> 00:04:57,280
+comando di Mac OS e Linux e alla riga di comando in Mac OS e Linux è noto come terminale.
+
+73
+00:04:57,280 --> 00:04:59,130
+Va bene, passiamo alle operazioni della riga di
+
+74
+00:04:59,230 --> 00:05:03,570
+Quindi questi comandi funzionano su entrambi i sistemi operativi nello stesso modo.
+
+75
+00:05:03,580 --> 00:05:08,050
+Cominciamo a iniziare a lavorare sulla riga di comando su Linux o Mac OS.
+
+76
+00:05:08,050 --> 00:05:14,160
+Per prima cosa devi aprire la tua ricerca terminale sul tuo computer per terminale Mac OS o Linux.
+
+77
+00:05:14,170 --> 00:05:17,470
+Si chiama la stessa cosa e poi apri il tuo terminale.
+
+78
+00:05:17,470 --> 00:05:20,500
+Alla fine dovresti ottenere qualcosa che assomigli a questo.
+
+79
+00:05:20,500 --> 00:05:25,600
+I colori o i caratteri potrebbero essere leggermente diversi ma l'idea di base è la stessa.
+
+80
+00:05:25,600 --> 00:05:31,450
+cartelle sul computer e con alcune funzionalità più avanzate è anche possibile creare nuove directory o rimuovere directory.
+
+81
+00:05:31,510 --> 00:05:36,040
+Il terminale offre un'interfaccia a riga di comando e l'interfaccia a riga di comando
+
+82
+00:05:36,040 --> 00:05:38,170
+consente di spostarsi su diversi file o
+
+83
+00:05:38,230 --> 00:05:39,950
+Non abbiamo davvero bisogno di saperlo adesso.
+
+84
+00:05:40,030 --> 00:05:46,180
+Tutto quello che dobbiamo veramente sapere è come capire che cosa è la nostra attuale directory di lavoro
+
+85
+00:05:46,270 --> 00:05:47,770
+cambia directory e semplicemente spostarci.
+
+86
+00:05:47,770 --> 00:05:51,660
+Questo in pratica ci consente di spostarci sul computer dalla riga di comando.
+
+87
+00:05:51,700 --> 00:05:58,960
+La prima cosa che vogliamo sapere è dove ci troviamo attualmente per sapere che il tipo PWT è inserito e
+
+88
+00:05:58,960 --> 00:06:00,940
+questo stamperà la directory di lavoro.
+
+89
+00:06:00,970 --> 00:06:07,140
+Questo è il punto in cui ti trovi al momento nella riga di comando se
+
+90
+00:06:07,140 --> 00:06:14,820
+vuoi capire quali file e cartelle si trovano nella tua posizione corrente S e poi entrare e dovresti vedere
+
+91
+00:06:14,820 --> 00:06:18,970
+un elenco di diversi file e cartelle nella tua directory corrente.
+
+92
+00:06:19,230 --> 00:06:27,390
+Se si desidera passare a uno di quei file o cartelle in cui è possibile fare è di digitare CD e quindi qualsiasi file
+
+93
+00:06:27,390 --> 00:06:32,660
+o cartella si desidera andare comunque dovrebbe essere nella lista che è stata appena stampata.
+
+94
+00:06:32,700 --> 00:06:42,130
+Ad esempio, spostiamoci sul desktop, quindi tornerò qui e digiterò l'accesso al desktop.
+
+95
+00:06:42,190 --> 00:06:47,980
+E ora se digito PWT, premo invio di nuovo ora sono sul mio desktop.
+
+96
+00:06:48,220 --> 00:06:54,340
+cancellare lo schermo, digitare clear enter e ora è possibile cancellare la riga di comando.
+
+97
+00:06:54,340 --> 00:06:55,630
+Se si desidera
+
+98
+00:06:55,760 --> 00:07:02,360
+Se vuoi tornare a una vittoria, dovrebbe vedere lo spazio pensato entrare e ora stiamo facendo il backup di
+
+99
+00:07:02,360 --> 00:07:06,800
+una directory che posso confermare digitando P. W. Questo è tutto ciò che dobbiamo sapere.
+
+100
+00:07:06,980 --> 00:07:08,260
+Per quanto riguarda i comandi, facciamo una rapida revisione per stampare la directory di lavoro.
+
+101
+00:07:08,300 --> 00:07:14,060
+È PWT e questo rapporto è tornato.
+
+102
+00:07:14,100 --> 00:07:16,210
+Attualmente ci troviamo.
+
+103
+00:07:16,230 --> 00:07:18,000
+Se si desidera conoscere i file e le cartelle nella posizione corrente.
+
+104
+00:07:18,000 --> 00:07:21,090
+cancellare il tipo di schermata di comando.
+
+105
+00:07:21,180 --> 00:07:27,630
+Digitare ls e questo elencherà tutti i file e le cartelle se si desidera
+
+106
+00:07:27,960 --> 00:07:28,440
+Questo cancellerà
+
+107
+00:07:28,440 --> 00:07:35,610
+la tua linea di comando se vuoi cambiare directory in un CD di tipo sottocartella e quindi puoi anche iniziare a digitare i nomi come desktop.
+
+108
+00:07:35,610 --> 00:07:38,620
+E se mi limito a scrivermi e poi tocchi la scheda, dovrebbe completarsi automaticamente.
+
+109
+00:07:38,640 --> 00:07:42,800
+Se non si ottiene un completamento automatico premendo la scheda è probabilmente un
+
+110
+00:07:42,900 --> 00:07:48,300
+buon indicatore che non è una sottocartella diretta della directory corrente, ma è possibile digitare CD.
+
+111
+00:07:48,300 --> 00:07:52,510
+Il nome della sottocartella è la sottodirectory e quindi possiamo vedere ora che ci troviamo qui registrando PWT.
+
+112
+00:07:52,710 --> 00:07:58,720
+la base per spostarti attraverso la linea di comando.
+
+113
+00:07:58,830 --> 00:08:05,850
+Se vuoi tornare di nuovo su CD, pensa che OK sia
+
+114
+00:08:05,850 --> 00:08:06,770
+Lo useremo più avanti quando eseguiremo script Python sulla riga di comando.
+
+115
+00:08:06,810 --> 00:08:10,970
+Ci vedremo alla prossima lezione in cui discuteremo come installare Python sul tuo computer.
+
+116
+00:08:10,980 --> 00:08:15,600
+&nbsp;

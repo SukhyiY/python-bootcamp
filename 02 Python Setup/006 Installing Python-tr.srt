@@ -1,0 +1,491 @@
+1
+00:00:05,510 --> 00:00:07,370
+Bu dersin herkese tekrar hoş geldiniz.
+
+2
+00:00:07,370 --> 00:00:12,350
+Kısa bir süre genel bir bakışla Python'u ve avantajlarını tartışacağız ve size
+
+3
+00:00:12,350 --> 00:00:14,260
+Python'u bilgisayarınıza nasıl kuracağınızı göstereceğiz.
+
+4
+00:00:15,870 --> 00:00:21,780
+Şimdi Python 1991'de Van Rossum tarafından geliştirildi ve hızla dünyadaki en popüler programlama
+
+5
+00:00:21,780 --> 00:00:23,370
+dillerinden biri haline geldi.
+
+6
+00:00:23,370 --> 00:00:26,100
+Ve bunun birçok avantajı olması nedeniyle.
+
+7
+00:00:27,290 --> 00:00:31,610
+En büyük avantajı, geliştiricilerin hızlı bir şekilde öğrenebilmeleri ve bunun
+
+8
+00:00:31,610 --> 00:00:37,720
+diğer dillerden çok daha az kod içerdiği ve sözdiziminin okunması daha kolay olmasıdır.
+
+9
+00:00:37,760 --> 00:00:42,670
+Bunun nedeni, daha sonra öğreneceğiniz gibi, Python boşluklardan faydalanmasıdır.
+
+10
+00:00:42,710 --> 00:00:48,890
+Bu, kıvırcık parantezler yerine bir girinti girintisidir ve kullanıcıların gerçekten daha hızlı öğrenmesini
+
+11
+00:00:49,130 --> 00:00:49,580
+sağlar.
+
+12
+00:00:49,610 --> 00:00:51,410
+Diğer programlama dilleri.
+
+13
+00:00:51,410 --> 00:00:56,900
+Ve bu yüzden Python, hemen hemen her büyük teknoloji şirketi tarafından bir miktar kapasiteyle kullanılmaktadır.
+
+14
+00:00:56,900 --> 00:01:01,280
+Python için gerçekten de güzel olan şey, çok fazla ek açık
+
+15
+00:01:01,880 --> 00:01:07,580
+kaynak kütüphanesi olmasıdır; temel olarak, Python'da belirli bir görevi yerine getirmek istiyorsanız, belki de
+
+16
+00:01:07,580 --> 00:01:14,120
+Python'da PTF oluşturmak istiyorsanız, Python'da resim verileriyle bir e-posta gönderin. analiz bir web sitesi oluşturun.
+
+17
+00:01:14,310 --> 00:01:19,340
+Kullanabileceğiniz, bunları yapmanıza izin veren açık kaynak olan ek
+
+18
+00:01:19,610 --> 00:01:21,530
+çerçeveler ve kütüphaneler var.
+
+19
+00:01:21,530 --> 00:01:23,990
+Python'un kendisinde yerleşik birçok şey vardır.
+
+20
+00:01:24,050 --> 00:01:27,620
+Pilleri içeren bir programlama dili olarak bilinir.
+
+21
+00:01:27,620 --> 00:01:32,000
+Bunun nedeni, Python'da bulunan, örneğin çok sayıda yeteneğe sahip bir matematik
+
+22
+00:01:32,000 --> 00:01:37,750
+kütüphanesine sahip olmak için çok şey yapmanıza izin veren bir sürü standart kütüphane olması, ancak
+
+23
+00:01:38,030 --> 00:01:43,460
+buna ihtiyaç duymanız halinde ek kütüphaneler var. Sayısal hesaplama gibi belirli bir niş konuyla
+
+24
+00:01:43,490 --> 00:01:44,650
+daha fazla ilgilenmek.
+
+25
+00:01:44,660 --> 00:01:51,410
+Num diye bir kütüphane var. Gerçekten tüm bu avantajları incelemek ve Python öğrenmeye
+
+26
+00:01:51,410 --> 00:01:56,870
+başlamak için elden geçirin Bunu yüklemeliyiz ve Python'u ücretsiz Anaconda dağıtımını kullanarak yükleyeceğiz.
+
+27
+00:01:56,900 --> 00:02:01,280
+Ve bunun nedeni, bu dağıtımın, Python'un yanı sıra dizüstü bilgisayar sistemi olan Jüpiter de
+
+28
+00:02:01,640 --> 00:02:03,810
+dahil olmak üzere birçok yararlı kütüphaneyi içermesidir.
+
+29
+00:02:03,830 --> 00:02:09,080
+Daha sonra ders boyunca kullanacağız, Python komut dosyaları yazmak için metin editörleri gibi
+
+30
+00:02:09,080 --> 00:02:09,680
+şeyler kullanacağız.
+
+31
+00:02:09,800 --> 00:02:14,600
+Ancak öğrenmeye ilk başladığımızda Jüpiter harika bir seçimdir Anaconda, onu seçtiğimiz bir
+
+32
+00:02:14,600 --> 00:02:20,150
+diğer nedeni, Mac OS veya Linux gibi herhangi bir büyük işletim sistemine kolayca kurulabilmesidir.
+
+33
+00:02:20,150 --> 00:02:26,630
+Asıl Anaconda karşıdan yükleme web sitesine atlamadan önce belirtmek istediğim bir şey, Anaconda'nın bu diğer
+
+34
+00:02:26,690 --> 00:02:32,690
+kütüphaneleri birçoğunu içerdiğinden Anaconda'nın çok daha küçük boyutta boğulma veya yeterli boğulma olanağına sahip
+
+35
+00:02:32,690 --> 00:02:37,370
+olan bir minyatür versiyonu da var olmasıdır bilgisayarınızda tam ve bir
+
+36
+00:02:37,370 --> 00:02:38,420
+takımyıldızı.
+
+37
+00:02:38,420 --> 00:02:43,280
+Ayrıca birçok Khanda var ve sana size ana Anaconda kurulumunu gösterdikten sonra bununla
+
+38
+00:02:43,280 --> 00:02:44,450
+nasıl çalışacağımızı göstereceğiz.
+
+39
+00:02:44,450 --> 00:02:48,950
+Dolayısıyla Anaconda'nın tamamını kullanmanız önerilir; ancak hızlı bir internet bağlantınız yoksa
+
+40
+00:02:48,950 --> 00:02:53,160
+veya bilgisayarınızda yeterli alan yoksa daima Mini Mini Con kullanabilirsiniz.
+
+41
+00:02:53,240 --> 00:02:58,900
+Bu nedenle kurulum işlemi, w w w ve Colorado com slash indirmelerine giderek başladı.
+
+42
+00:02:59,060 --> 00:03:00,390
+Seni orada göreceğim.
+
+43
+00:03:00,420 --> 00:03:05,110
+So Anaconda dot com web sitesini indirmek için buna benzer bir şeye benzeyecek.
+
+44
+00:03:05,120 --> 00:03:10,760
+Görünüm ve hisler kadar zaman zaman güncellenebilir ancak genel olarak Windows Mac OS
+
+45
+00:03:10,760 --> 00:03:15,290
+ve Linux sistemleri için çeşitli yükleyiciler için indirme bağlantıları bulunur.
+
+46
+00:03:15,290 --> 00:03:21,230
+Ve bunlardan birine tıklarsanız, grafik kurulumcuların veya komut satırı kurulumcularının
+
+47
+00:03:21,230 --> 00:03:23,510
+gerçek indirme bağlantılarına yönlendirilirsiniz.
+
+48
+00:03:23,720 --> 00:03:30,650
+Bu sayfayı gördüğünüz zaman, büyük ihtimalle 3'tür. 7 veya 3. 8 veya hatta 3. 9 serbest bırakıldı.
+
+49
+00:03:30,650 --> 00:03:31,950
+Dolayısıyla bunu aklınızda tutun.
+
+50
+00:03:32,030 --> 00:03:36,440
+Python 3'ün herhangi bir sürümü, kullanım durumlarımız için iyi olmalıdır.
+
+51
+00:03:36,440 --> 00:03:41,960
+Şimdi, Windows'daysanız, bilgisayarınıza bağlı olarak 64 bit veya 32 bitlik grafiksel
+
+52
+00:03:41,960 --> 00:03:43,100
+yükleyiciyi indireceksiniz.
+
+53
+00:03:43,100 --> 00:03:47,660
+Çoğu yeni bilgisayar 64 bit olacak ve daha fazla bilgi edinmek için tıklayabileceğiniz herhangi bir
+
+54
+00:03:47,660 --> 00:03:48,260
+sorunuz varsa.
+
+55
+00:03:48,320 --> 00:03:53,000
+Ancak temel olarak bu, yalnızca kurulum işleminde adım adım ilerleyebileceğiniz
+
+56
+00:03:53,000 --> 00:03:54,700
+bir grafik kurulum aracıdır.
+
+57
+00:03:54,710 --> 00:03:58,640
+Windows kullanıcıları için bu grafiksel yükleyiciyi indirmek için tıklayın.
+
+58
+00:03:58,970 --> 00:04:05,310
+Mac OS'deyseniz, bu grafiksel yükleyiciyi tıklayın ve onu indirin ve ardından Linux'daysanız
+
+59
+00:04:05,330 --> 00:04:08,330
+bu yükleyiciyi tıklayıp onu indirirsiniz.
+
+60
+00:04:08,330 --> 00:04:14,480
+Unutmayın ki Linux kullanıcılarının bir komut satırı yükleyicisi var ve bir kaç
+
+61
+00:04:14,480 --> 00:04:17,480
+saniyede size gösterecek komutları yazmanız gerekecek.
+
+62
+00:04:17,620 --> 00:04:20,490
+Hangi sürümü indirmeye karar verdiğinizde.
+
+63
+00:04:20,620 --> 00:04:26,200
+Aşağıya biraz ilerleyin ve Anaconda'yı nasıl kuracağınızı ve şu anda hangi işletim sisteminde
+
+64
+00:04:26,260 --> 00:04:28,060
+bulunduğunuzu bekleyen BURAYI tıklayın.
+
+65
+00:04:28,060 --> 00:04:33,340
+Sizi Windows'ta yüklemeyi görebileceğiniz bu üç sayfadan birine götürecek ve grafik
+
+66
+00:04:33,340 --> 00:04:37,830
+yükleyicileri kurmak için adım adım talimatları gerçekten çok basittir.
+
+67
+00:04:37,840 --> 00:04:41,520
+Yalnızca bir sonraki vuruş varsayılanlarını seçip bunlarla birlikte takip et.
+
+68
+00:04:41,530 --> 00:04:43,030
+Adım adım talimatlar.
+
+69
+00:04:43,120 --> 00:04:46,760
+Veri bütünlüğünü doğrulamak kadar 2 numaralı merak etmenize gerek yok.
+
+70
+00:04:47,670 --> 00:04:52,260
+Mac OS kullanıyorsanız, nasıl kurulacağı üzerine bu bağlantıyı tıklarsanız, Mac OS için grafik
+
+71
+00:04:52,260 --> 00:04:55,220
+kurulum süreci boyunca size yol gösterir temelde aynı şeydir.
+
+72
+00:04:55,220 --> 00:04:57,170
+Adım adım tekrarlayın.
+
+73
+00:04:57,180 --> 00:04:58,100
+Oldukça basit.
+
+74
+00:04:58,200 --> 00:05:00,560
+Sadece tüm ekranlarda devam etmeyi vur.
+
+75
+00:05:00,790 --> 00:05:03,500
+Linux'daysanız, biraz farklı olacaktır.
+
+76
+00:05:03,550 --> 00:05:10,090
+Yapmanız gereken şey, kül dosyasını indirirken komut satırınızdan veya bir terminalde şu
+
+77
+00:05:10,270 --> 00:05:17,990
+bash bash ve ardından burada tilde indirmeler ve üçünü ve sonra da tıklatmak için ne
+
+78
+00:05:18,160 --> 00:05:20,870
+sürümü çalıştırdığınızdan emin olmanızdır. üzerinde.
+
+79
+00:05:20,890 --> 00:05:25,440
+Temel olarak kopyalayıp bu komutu terminalinize yapıştırın.
+
+80
+00:05:25,470 --> 00:05:29,220
+Windows kullanıcıları için hızlı bir not ve bu oldukça önemli bir işlem.
+
+81
+00:05:29,510 --> 00:05:34,370
+Sonunda, gelişmiş kurulum seçeneklerini söyleyen böyle bir ekrana sahip
+
+82
+00:05:34,370 --> 00:05:40,010
+olacaksınız ve yol ortam değişkeninize anaconda eklemek isteyip istemediğinizi kendiniz
+
+83
+00:05:40,070 --> 00:05:44,180
+belirleyip, yol ortam değişkeni olarak Anaconda'yı eklememenizi öneriyorlar.
+
+84
+00:05:44,180 --> 00:05:49,010
+Bunun, diğer yazılımları etkileyebileceği için, genelde müdahale edecek olan şey
+
+85
+00:05:49,070 --> 00:05:50,710
+Python'un önceki indirmeleridir.
+
+86
+00:05:50,720 --> 00:05:55,940
+Bununla birlikte, muhtemelen ilk python yüklemeniz olduğundan, yol ortam
+
+87
+00:05:56,000 --> 00:05:59,210
+değişkeninize anaconda eklemenizi önemle tavsiye ederiz.
+
+88
+00:05:59,210 --> 00:06:04,250
+Bu, Konda'ya özgü komutları direkt olarak komut satırında aramanıza izin verecektir.
+
+89
+00:06:04,490 --> 00:06:10,130
+Yine Windows kullanıcıları için path ortam değişkenine anaconda eklemenizi öneririz.
+
+90
+00:06:10,130 --> 00:06:12,520
+Üzerine tıkladığınızda, önerilmediğini farkedeceksiniz.
+
+91
+00:06:12,520 --> 00:06:13,710
+Kırmızı renkle vurgulanır.
+
+92
+00:06:13,730 --> 00:06:16,810
+Devam edin ve yine de tıklayın ve sonra yükleyin.
+
+93
+00:06:17,030 --> 00:06:23,750
+Şimdi daha önce bahsettiğimiz gibi, bu grafiksel kurulum dosyalarında Anaconda Python ve bu dağıtımdaki diğer birçok kütüphane
+
+94
+00:06:23,750 --> 00:06:27,580
+bulunmaktadır; dolayısıyla aslında oldukça büyük bir dosya olduğunu göreceksiniz.
+
+95
+00:06:27,590 --> 00:06:32,690
+İnternet bağlantınıza veya bilgisayarınızdaki boşluğa bağlı olarak yaklaşık yarım gigabayt.
+
+96
+00:06:32,690 --> 00:06:36,020
+Aslında tüm bu kitaplıkları yüklemek istemeyebilirsiniz.
+
+97
+00:06:36,020 --> 00:06:40,170
+Bunun yerine muhtemelen sadece bu kullanım durumu için Python'un temellerini isteyeceksinizdir.
+
+98
+00:06:40,310 --> 00:06:47,300
+Mini-Con çizgi 8 T'yi çizdiğim davranışlara bakabilirsiniz. M. ya da sadece birçok Khanda için
+
+99
+00:06:47,690 --> 00:06:52,940
+google araması yaparsanız, sizi Mini-Con'a yükleyiciler için bağlar götürecektir ve aslında çok daha
+
+100
+00:06:52,940 --> 00:06:58,070
+küçük bir dosya dışında gerçekten aynı şeydir ve gerçekten sizin olmadığınız çeşitli kütüphaneleri
+
+101
+00:06:58,070 --> 00:06:59,380
+içermektedir endişelenmenize gerek.
+
+102
+00:06:59,780 --> 00:07:06,170
+Yani Windows Mac OS ve Linux sörfçüsü için çok daha küçük bir dosya indirimi yapmak isteyenler var.
+
+103
+00:07:06,230 --> 00:07:08,440
+Bu yükleyicileri de kullanabilirsiniz.
+
+104
+00:07:08,720 --> 00:07:13,720
+genişliği ve alanınız varsa tam Anaconda kurulumunu indirmenizi öneririz.
+
+105
+00:07:13,730 --> 00:07:15,610
+Bununla birlikte, bant
+
+106
+00:07:15,800 --> 00:07:21,440
+Başarıyla indirdikten ve Anaconda'nın kurulum adımlarını tamamladıktan sonra,
+
+107
+00:07:21,440 --> 00:07:25,460
+bilgisayarınızı Anaconda navigator için arayabilirsiniz.
+
+108
+00:07:25,490 --> 00:07:29,870
+Bu, hızlı bir şekilde dizüstü bilgisayarları başlatmanızı sağlayan bir masaüstü uygulamasıdır.
+
+109
+00:07:29,990 --> 00:07:34,530
+Bu yüzden devam edin ve Anaconda Navigator'ı tıklayarak kurulumunuzu onaylayın.
+
+110
+00:07:34,610 --> 00:07:39,560
+Yüklenecek ve sonunda farklı geliştirme ortamları başlatmanıza izin veren küçük hızlı
+
+111
+00:07:39,890 --> 00:07:42,850
+gösterge tablolarıyla böyle görünen bir şey göreceksiniz.
+
+112
+00:07:42,860 --> 00:07:45,990
+İşte Jüpiter defteri R-Maine geliştirme ortamı.
+
+113
+00:07:46,070 --> 00:07:47,260
+Cootie eksileri var. Spider diğer entegre geliştirme ortamında.
+
+114
+00:07:47,270 --> 00:07:49,840
+Tutkal gibi başka şeyler de var.
+
+115
+00:07:49,960 --> 00:07:51,350
+Jüpiter laboratuarı mı?
+
+116
+00:07:51,380 --> 00:07:52,570
+Ve hatta stüdyomuz değil.
+
+117
+00:07:52,610 --> 00:07:54,030
+Daha sonra öğrenmeye karar verirseniz, bir düğmeyi tıklatmanın yanı sıra yükleyebilirsiniz.
+
+118
+00:07:54,050 --> 00:07:58,080
+Bu nedenle, Jupiter defterlerini hızla başlatmak için Neukom navigatörünü kullanacağız.
+
+119
+00:07:58,310 --> 00:08:03,130
+Artık Anaconda ve Python bilgisayarınızda
+
+120
+00:08:03,260 --> 00:08:08,810
+kurulu durumda Anaconda navigator'ı açabilmelisiniz.
+
+121
+00:08:08,810 --> 00:08:10,810
+Daha sonra Python kodunu
+
+122
+00:08:10,820 --> 00:08:17,180
+komut satırında komut dosyası olarak veya Jüpiter defterini kullanarak nasıl çalıştıracağınızı tartışacağız.
+
+123
+00:08:17,180 --> 00:08:18,130
+&nbsp;

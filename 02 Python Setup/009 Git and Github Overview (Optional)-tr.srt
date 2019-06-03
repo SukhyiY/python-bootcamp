@@ -1,0 +1,267 @@
+1
+00:00:01,405 --> 00:00:02,293
+Okutman: Herkese
+
+2
+00:00:02,293 --> 00:00:06,096
+merhaba ve Git ve GitHub genel tanıtım dersine hoş geldiniz.
+
+3
+00:00:06,096 --> 00:00:07,982
+Bu derste genel olarak Git
+
+4
+00:00:07,982 --> 00:00:10,832
+ve GitHub hakkında hızlı bir genel bakış bulacağız.
+
+5
+00:00:10,832 --> 00:00:13,655
+Peki, Git, G-I-T nedir?
+
+6
+00:00:13,655 --> 00:00:15,924
+kontrol sistemi olup, sadece küçük bir
+
+7
+00:00:15,924 --> 00:00:17,676
+projeden çok büyük bir
+
+8
+00:00:17,676 --> 00:00:19,877
+projeye kadar her şeyi idare edebilir.
+
+9
+00:00:19,877 --> 00:00:22,715
+Git, özgür ve açık kaynaklı bir sürüm
+
+10
+00:00:22,715 --> 00:00:26,598
+Böylece git gidebilirsin-scm. Git hakkında daha fazla
+
+11
+00:00:26,598 --> 00:00:28,222
+bilgi edinmek için com.
+
+12
+00:00:28,222 --> 00:00:30,412
+Ayrıca, Git sayfasındaki Bu Git
+
+13
+00:00:30,412 --> 00:00:34,712
+Git bağlantısını tıklayarak tarayıcınızdan ücretsiz deneyebilirsiniz ve denemeniz durumunda sizi
+
+14
+00:00:34,712 --> 00:00:38,183
+bu bağlantıya götürecektir. github. Io ve
+
+15
+00:00:38,183 --> 00:00:42,384
+tarayıcınızda Git'e oldukça hızlı bir şekilde öğretecektir.
+
+16
+00:00:42,384 --> 00:00:44,491
+Bu gerçekten çok kullanışlı bir araçtır.
+
+17
+00:00:44,491 --> 00:00:46,294
+Peki bu tür kontrol sistemleri, Git
+
+18
+00:00:46,294 --> 00:00:48,004
+şirketlerini ne tür şirketler kullanıyor?
+
+19
+00:00:48,004 --> 00:00:50,014
+Google, Facebook, Microsoft, Twitter, LinkedIn ve
+
+20
+00:00:50,014 --> 00:00:52,754
+diğerleri gibi hemen hemen tüm büyük şirketler.
+
+21
+00:00:52,754 --> 00:00:54,041
+Bir şirket listesi
+
+22
+00:00:54,041 --> 00:00:56,280
+var, birçok, birçok şirket Git kullanıyor.
+
+23
+00:00:56,280 --> 00:00:58,710
+Ve Git ve GitHub arasındaki farkın
+
+24
+00:00:58,710 --> 00:01:00,627
+ne olduğunu merak ediyor olabilirsiniz.
+
+25
+00:01:01,763 --> 00:01:06,202
+Dolayısıyla GitHub, Git depolarınızı yayınlayabileceğiniz ve diğer
+
+26
+00:01:06,202 --> 00:01:09,795
+insanlarla işbirliği yapabileceğiniz bir web sayfası.
+
+27
+00:01:09,795 --> 00:01:12,418
+Dolayısıyla daha önce de belirttiğim gibi
+
+28
+00:01:12,418 --> 00:01:16,496
+Git bir sürüm kontrol sistemidir, bu nedenle kodunuzun taahhüt
+
+29
+00:01:16,496 --> 00:01:18,242
+olarak bilinen bir dizi
+
+30
+00:01:18,242 --> 00:01:21,728
+anlık görüntüsü vardır ve anlık görüntülerin yolunu gördüğünüzde
+
+31
+00:01:21,728 --> 00:01:24,537
+hangi sırada oluşturulduklarını kontrol edebilirsiniz.
+
+32
+00:01:24,537 --> 00:01:27,738
+kullanabilir misin, insanlar sordukları başka bir sorudur.
+
+33
+00:01:27,738 --> 00:01:29,334
+Yani GitHub olmadan Git'i
+
+34
+00:01:29,334 --> 00:01:30,167
+Ve evet.
+
+35
+00:01:30,167 --> 00:01:32,638
+GitHub kullanmazsan, Git, yerel olarak çalışır.
+
+36
+00:01:32,638 --> 00:01:36,254
+GitHub'a bir alternatif dosyalarınızla Gits kullanıyor olabilir
+
+37
+00:01:36,254 --> 00:01:38,869
+ve bunları Dropbox'ta barındırıyor olabilir.
+
+38
+00:01:38,869 --> 00:01:41,363
+Ancak GitHub, özellikle Git
+
+39
+00:01:41,363 --> 00:01:45,658
+için tasarlanmış, fiili, en popüler düzene hizmettir.
+
+40
+00:01:45,658 --> 00:01:47,531
+hesabınızı oluşturup kontrol etmenizi öneririm.
+
+41
+00:01:47,531 --> 00:01:48,745
+Dolayısıyla kendi GitHub
+
+42
+00:01:48,745 --> 00:01:50,141
+Benim kendi GitHub
+
+43
+00:01:50,141 --> 00:01:51,954
+hesabım var ve defterleri
+
+44
+00:01:51,954 --> 00:01:53,487
+depoları işlemek için
+
+45
+00:01:53,487 --> 00:01:55,159
+burada ve onları
+
+46
+00:01:55,159 --> 00:01:58,488
+nasıl görebiliyorsun, çünkü onları GitHub'a itiyorum.
+
+47
+00:01:58,488 --> 00:02:00,603
+GitHub'un nasıl çalıştığını merak
+
+48
+00:02:00,603 --> 00:02:04,537
+ediyorsanız, kılavuzlara gidebilirsiniz. github. com / faaliyetler / merhaba dünya.
+
+49
+00:02:04,537 --> 00:02:08,073
+Yine, bu bağlantı ders metninde.
+
+50
+00:02:08,073 --> 00:02:10,173
+Ve merhaba dünya belgelerini kontrol edebilirsiniz.
+
+51
+00:02:10,173 --> 00:02:11,424
+Hepsi tarayıcıda.
+
+52
+00:02:11,424 --> 00:02:13,046
+Yani yine, hiçbir şey indirmenize gerek yok.
+
+53
+00:02:13,046 --> 00:02:14,903
+Sadece oradaki her şeyi kontrol edebilirsiniz.
+
+54
+00:02:14,903 --> 00:02:16,867
+Ve genel olarak Git'i öğrenmek için harika
+
+55
+00:02:16,867 --> 00:02:21,096
+bir web sitesi, sadece G-I-T Git, tamirciliktir. com.
+
+56
+00:02:21,096 --> 00:02:24,055
+Hem Mac hem de Windows için çalışır.
+
+57
+00:02:24,055 --> 00:02:26,772
+Tamam, bu, yalnızca Gits ve sürüm denetimi, bunlarla ilgili
+
+58
+00:02:26,772 --> 00:02:28,391
+daha fazla bilgi edinmeniz gereken
+
+59
+00:02:28,391 --> 00:02:30,896
+bağlantılar ve kaynaklar hakkında kısa bir genel bakış.
+
+60
+00:02:30,896 --> 00:02:32,875
+Şimdilik bunu kontrol etmek istemiyorsanız endişelenmeyin.
+
+61
+00:02:32,875 --> 00:02:34,661
+Konferansın ilerleyen kısımlarında, modüller
+
+62
+00:02:34,661 --> 00:02:37,399
+hakkında konuşurken, kendi kütüphanelerinizi içe aktararak ve
+
+63
+00:02:37,399 --> 00:02:39,905
+oluşturduğumuzda bu konuyu tekrar ele alacağız.
+
+64
+00:02:39,905 --> 00:02:42,072
+Tamam, bu ders için.
+
+65
+00:02:42,072 --> 00:02:43,633
+Sırada, Python nesnesi
+
+66
+00:02:43,633 --> 00:02:46,242
+ve veri yapısı temelleri ile başlayacağız.
+
+67
+00:02:46,242 --> 00:02:49,385
+Teşekkürler, bir sonraki konuşmada görüşürüz.

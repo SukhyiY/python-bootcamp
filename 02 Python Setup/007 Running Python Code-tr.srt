@@ -1,0 +1,1035 @@
+1
+00:00:05,720 --> 00:00:06,940
+Herkese geri hoşgeldiniz.
+
+2
+00:00:06,950 --> 00:00:12,340
+Şimdiye kadar, komut satırı temelleri hakkında öğrendik ve ayrıca bilgisayarımıza Python yükledik.
+
+3
+00:00:12,350 --> 00:00:17,130
+Bunu yapmadan önce ilk Python kodunu çalıştırmanın tam zamanı.
+
+4
+00:00:17,240 --> 00:00:21,470
+Python kodunu çalıştırabileceğiniz birkaç farklı yolu tartışmak ve Python için
+
+5
+00:00:21,470 --> 00:00:24,570
+ortamlar geliştirmek için kullanılan çeşitli seçenekleri tartışmak istiyorum.
+
+6
+00:00:24,800 --> 00:00:26,660
+Ve üç ana ortam türü var.
+
+7
+00:00:26,690 --> 00:00:31,220
+Python kodunu yazmakta olduğunuz gerçek ortam çevre tarafından ne demektir.
+
+8
+00:00:31,370 --> 00:00:36,300
+Ve üç seçenek, Entegre Geliştirme Ortamı anlamına gelen metin editörleri tam kimlikleridir.
+
+9
+00:00:36,410 --> 00:00:38,780
+Ve sonra hiçbir kitap ortamı yok.
+
+10
+00:00:38,780 --> 00:00:40,760
+Bu yüzden metin editörleri ile başlayalım.
+
+11
+00:00:40,760 --> 00:00:46,340
+Metin editörleri, herhangi bir metin dosyası için sadece genel editörlerdir; diğer bir deyişle, metin dosyasıyla düşünülmüş
+
+12
+00:00:46,340 --> 00:00:49,760
+bir PI betiği açabilecekleri genel bir formattan daha tasarlanmışlardır.
+
+13
+00:00:49,790 --> 00:00:52,910
+H tim l dosya javascript için.
+
+14
+00:00:52,910 --> 00:00:58,280
+Sadece herhangi bir çeşit dosya türünü açıp bunları düzenleyebileceksiniz, ayrıca eklentilerle özelleştirebilir
+
+15
+00:00:58,280 --> 00:00:59,760
+ve onlara ekleyebilirsiniz.
+
+16
+00:00:59,900 --> 00:01:05,840
+Ve bunun ve onların genel biçimi yüzünden aslında sadece Python'la düşünülmemiştir.
+
+17
+00:01:05,840 --> 00:01:11,100
+Dolayısıyla, Python'a özgü bazı işlevselliği, Python için otomatik tamamlama veya
+
+18
+00:01:11,120 --> 00:01:16,310
+Python için belgeleri otomatik olarak arayan şeylerden biraz fedakarlık yapacaksınız.
+
+19
+00:01:16,310 --> 00:01:19,790
+Bunlar genellikle doğrudan metin editörüne dahil edilmez.
+
+20
+00:01:19,820 --> 00:01:24,370
+Bunun yerine onları bir eklentiyle veya metin editörleri için başka bir eklentiyle indirmeniz gerekecek.
+
+21
+00:01:24,380 --> 00:01:26,370
+Orada tonlarca eklenti olduğunu unutmayın.
+
+22
+00:01:26,510 --> 00:01:28,620
+Ve Python çok popüler bir programlama dili.
+
+23
+00:01:28,730 --> 00:01:33,950
+Sizin için önceden oluşturduğunuz, sizinle birlikte çalışmakta olan metin editörleri için istediğiniz herhangi bir
+
+24
+00:01:33,950 --> 00:01:34,500
+eklentiyi bulabilirsin.
+
+25
+00:01:34,700 --> 00:01:40,160
+Ve piyasadaki en popüler metin editörleri yüce metinlerdir ve Adam hem de hem de teknik açıdan
+
+26
+00:01:40,160 --> 00:01:45,620
+özgürdürler. Yüce Metin sınırsız kullanım özgürlüğü lisansı değildir ve ürünü beğendiyseniz sizin için eninde sonunda ödeyebilirsiniz.
+
+27
+00:01:45,620 --> 00:01:50,760
+Adam, tamamen ücretsiz olan ve açık kaynak kodlu, açık kaynak kodlu bir Hub editörüdür.
+
+28
+00:01:50,900 --> 00:01:55,610
+Ve daha sonra bu derste Sublime Text'i indirmeyi ve Sublime Text ile Python
+
+29
+00:01:55,640 --> 00:01:57,010
+komut dosyalarını çalıştırmayı göstereceğiz.
+
+30
+00:01:57,050 --> 00:02:01,940
+Bu yüzden, bir şirkette çalışıyorsanız, metin editörü ve diğer gerçekten popüler
+
+31
+00:02:01,940 --> 00:02:04,640
+seçenek tam bir entegre geliştirme ortamıdır.
+
+32
+00:02:04,940 --> 00:02:10,030
+Python ve daha büyük programlarıyla kullanım durumları için özel olarak tasarlanmış vellum ortamlardır.
+
+33
+00:02:10,040 --> 00:02:11,000
+Ve bunlar, özellikle
+
+34
+00:02:11,000 --> 00:02:13,760
+Benim daha büyük anlamı, daha büyük bir dosya boyutu olması.
+
+35
+00:02:13,880 --> 00:02:18,830
+Daha önce gelen metin editörleri, daha eklentileri kolaylaştırmak için onlara daha
+
+36
+00:02:18,830 --> 00:02:21,930
+çok şey katan aslında çok hafif programlardır.
+
+37
+00:02:21,980 --> 00:02:23,530
+Zaten her şeyle birlikte gelirler.
+
+38
+00:02:23,750 --> 00:02:29,030
+Dolayısıyla, daha büyük programlara sahipler ve kimlikler oldukları için aslında ortamda yeni özellikler
+
+39
+00:02:29,030 --> 00:02:33,620
+eklemek için bir dizi geliştirici ya da arkasında bir şirket var demektir.
+
+40
+00:02:33,620 --> 00:02:38,810
+çerçeveleri veya web geliştirme için daha fazla özelliklere sahip olacaklar; bunun için ödemeniz gereken yardımlar.
+
+41
+00:02:39,110 --> 00:02:44,990
+Ve bu nedenle genelde yalnızca topluluğun ücretsiz olduğu bir pro sürümü ve bir topluluk sürümünü ve
+
+42
+00:02:44,990 --> 00:02:47,880
+daha fazla özelliği olan sürümü belki Gengel web
+
+43
+00:02:47,980 --> 00:02:53,300
+İletişim ancak ücretsizdir ve bununla ilgili pro, Python için özel olarak tasarlandıklarından,
+
+44
+00:02:53,300 --> 00:02:58,160
+Python kodunuzla yardımcı olmak için fazladan işlevsellikleri vardır, ancak biraz daha
+
+45
+00:02:58,160 --> 00:03:01,720
+şişirilir ve iş akışınızın ne olduğuna bağlıdır stil.
+
+46
+00:03:01,850 --> 00:03:08,140
+Bu yaklaşımı beğenirseniz veya değilse Python için en popüler fikir muhtemelen pasta grafiktir.
+
+47
+00:03:08,150 --> 00:03:09,630
+Bu kesinlikle en büyüğüdür.
+
+48
+00:03:09,650 --> 00:03:11,720
+Ve sonra örümcek popüler bir diğeridir.
+
+49
+00:03:11,720 --> 00:03:16,160
+Örümcekler, matematikten Python'a giren insanlar için gerçekten popülerdir.
+
+50
+00:03:16,160 --> 00:03:20,170
+Son olarak, dizüstü bilgisayar ortamları ve dizüstü bilgisayar ortamları hakkında konuşalım.
+
+51
+00:03:20,240 --> 00:03:23,540
+Bu dersin çoğunluğu için kullanacağımız ortam var mı.
+
+52
+00:03:23,570 --> 00:03:29,240
+Daha sonra dizüstü bilgisayarlardan uzaklaşıp daha büyük komut dosyalarına geçeceğiz ancak başlamak için
+
+53
+00:03:29,240 --> 00:03:30,260
+defterlere gideceğiz.
+
+54
+00:03:30,260 --> 00:03:33,410
+Çünkü bence öğrenme için gerçekten harika.
+
+55
+00:03:33,560 --> 00:03:38,270
+Burada en önemli şey, giriş kodunuzu ve kod çıktısını birbirinin hemen yanında görmenize
+
+56
+00:03:38,270 --> 00:03:43,340
+ve bir çok güzel girişi olan çok sayıda girişi ve çıktıyı görmenize olanak sağlamasıdır.
+
+57
+00:03:43,460 --> 00:03:48,530
+Bunun nedeni defterlerin hücreler olarak adlandırılan kod bloklarını kullanmasıdır.
+
+58
+00:03:48,620 --> 00:03:54,200
+Böylece, kodunuzu farklı hücrelere bölebilir ve tek tek hücreler çalıştırarak kod parçalarını çalıştırabilir ve
+
+59
+00:03:54,200 --> 00:03:58,760
+bir metin düzenleyici veya geliştirme ortamıyla alınan yaklaşımdan farklı çıktıyı hemen
+
+60
+00:03:58,760 --> 00:04:03,470
+göreceksiniz; burada, daha büyük bir komut dosyası geliştiriyoruz Önce komut satırında
+
+61
+00:04:03,470 --> 00:04:05,120
+bu komut dosyasını çalıştırın.
+
+62
+00:04:05,210 --> 00:04:09,540
+Birbirleriyle etkileşime girmesi gereken daha büyük kod parçalarına sahip olduğunuzda bu gerçekten harika.
+
+63
+00:04:09,680 --> 00:04:13,670
+dizüstü bilgisayar ortamını ayıran şeyler, satır içi markdown notalarını destekledikleri anlamına
+
+64
+00:04:13,670 --> 00:04:18,230
+geliyor. böylece kendinize farklı notlar yazabilirsiniz, böylece normal metin notada işaretlediğimiz anlamına gelir.
+
+65
+00:04:18,230 --> 00:04:23,810
+Ancak, başlamak üzere olduğunuzda, hızlı bir şekilde yazabileceğiniz bir şeyi yapmak ve çıktıyı görmek istiyorsanız, bu
+
+66
+00:04:23,930 --> 00:04:28,040
+nedenle kitap ortamının öğrenilmesi için gerçekten harika bir yer var; burada bir
+
+67
+00:04:28,100 --> 00:04:32,880
+Aslında bu ders için sağladığımız defterlerin sizin için açıklayıcı metinleri var.
+
+68
+00:04:32,900 --> 00:04:37,760
+Dolayısıyla, esasen bu dersin üzerinden geçen videolarla birlikte bir kitap da alırsınız ve ayrıca
+
+69
+00:04:37,760 --> 00:04:41,190
+görselleştirmeler görüntü videoları ve daha pek çok şeyi de desteklerler.
+
+70
+00:04:41,270 --> 00:04:46,160
+Ve tüm bu ekstra şeyleri destekledikleri için aslında bir pasta betiği olmayan
+
+71
+00:04:46,160 --> 00:04:48,060
+kendi özel dosya biçimine sahipler.
+
+72
+00:04:48,110 --> 00:04:53,030
+pasta betikini açacaktır; çünkü dizüstü bilgisayarlar bu ekstra şeylerin tümünü destekleyebilir.
+
+73
+00:04:53,030 --> 00:04:59,180
+Ve bilgisayarınızdan bir pasta betiği gördüğünüzde bunun üzerine çift tıklayın ve bir çeşit metin
+
+74
+00:04:59,330 --> 00:05:00,660
+editörü otomatik olarak
+
+75
+00:05:00,710 --> 00:05:08,150
+IPY uzantılı ve Python dizüstü bilgisayar için duran kendi defter formatı var ve bu özel format
+
+76
+00:05:08,150 --> 00:05:11,740
+nedeniyle aslında bir defter dosyasına çift tıklayabilirsiniz.
+
+77
+00:05:11,780 --> 00:05:14,900
+Jüpiter notebook başlatıcısı'nı kullanarak başlatmanız gerekir.
+
+78
+00:05:15,050 --> 00:05:20,760
+Dolayısıyla dizüstü bilgisayar neredeyse en popüler ve popülerliği nedeniyle neredeyse sadece Python için dizüstü
+
+79
+00:05:20,760 --> 00:05:25,260
+bilgisayar ortamıdır ancak özellikle veri bilimi ve makine öğrenimi alanlarında gittikçe
+
+80
+00:05:25,320 --> 00:05:30,330
+daha popüler hale gelmektedir çünkü görselleştirmeleri ve kod girdisini hemen görebilirsiniz çıktı.
+
+81
+00:05:30,510 --> 00:05:32,900
+Öyleyse öğrenmeye başlamak için ilk önce bunu kullanacağız.
+
+82
+00:05:33,150 --> 00:05:37,680
+Ancak burada en önemli şey geliştirme ortamlarının aslında çok kişisel bir tercih
+
+83
+00:05:37,680 --> 00:05:40,040
+olduğudur ve gerçekten kişisel tercihinize oldukça bağlıdır.
+
+84
+00:05:40,050 --> 00:05:44,760
+Python ilk diliniz değilse ve zaten alt yazı editörünü kullanmaya alışkınsanız veya belki
+
+85
+00:05:44,760 --> 00:05:49,410
+zaten iş yerinde pite terim kullandıysanız ve pro versiyonunuz varsa ve bu gelişmiş
+
+86
+00:05:49,410 --> 00:05:52,630
+ortamları kullanmayı tercih etmek isterseniz lütfen çekinmeyin böyle yap.
+
+87
+00:05:52,650 --> 00:05:56,610
+Gösterdiğimiz tüm kod, seçtiğiniz herhangi bir geliştirme ortamında çalışacak.
+
+88
+00:05:56,640 --> 00:06:01,170
+tüm kodlar ne olursa olsun aynı şekilde çalışır hangi ortamda kullandığınızı
+
+89
+00:06:01,170 --> 00:06:07,880
+Bu dersi gördükten sonra, bu dersi gördükten sonra, hangi geliştirme ortamını seçerseniz seçelim IPY olarak notları ve
+
+90
+00:06:07,890 --> 00:06:14,650
+bunları kolayca dönüştürebildiğiniz dosyalar veya HTML dosyaları olarak indirmek için dosyalar veya komut dosyaları ve videoları gösterdiğimiz
+
+91
+00:06:14,800 --> 00:06:15,130
+TAMAM.
+
+92
+00:06:15,150 --> 00:06:17,360
+Şimdi Python kodunun nasıl çalıştırılacağını araştıralım.
+
+93
+00:06:17,550 --> 00:06:19,150
+Önce bir editörle başlayacağız.
+
+94
+00:06:19,170 --> 00:06:23,160
+Bu nedenle, yüce metin editörünü indireceğiz ve size basit bir eki yazıp
+
+95
+00:06:23,220 --> 00:06:24,990
+komut satırınızı nasıl çalıştırabileceğinizi göstereceğiz.
+
+96
+00:06:25,020 --> 00:06:28,210
+Sonra bir Jüpiter defterinin aynı kodunun nasıl çalıştırılacağını göstereceğiz.
+
+97
+00:06:28,470 --> 00:06:34,470
+Bundan dolayı bazen bir metin editörünü indirmeye ihtiyaç duyduğumuz bu işleri yapın, bu yüzden Sublime Text dot
+
+98
+00:06:34,470 --> 00:06:36,560
+com sitesine gidin ve orada göreceğiz.
+
+99
+00:06:36,660 --> 00:06:36,990
+Tamam.
+
+100
+00:06:36,990 --> 00:06:39,570
+İşte Sublime Text dot com.
+
+101
+00:06:39,630 --> 00:06:43,920
+Ve genelde, bulunduğunuz teknik Will işletim sisteminin tamamı olacak ve OS Linux
+
+102
+00:06:43,920 --> 00:06:47,720
+veya Windows için indirme diyerek sizin için küçük bir düğme olacak.
+
+103
+00:06:47,730 --> 00:06:52,620
+Bu çok basit bir metin editörüdür ve muhtemelen dünyanın en popüler metin editörüdür.
+
+104
+00:06:52,980 --> 00:06:55,560
+Ve gerçekten ilginç bir fiyatlandırma planı var.
+
+105
+00:06:55,560 --> 00:07:01,530
+Teknik açıdan özgür değiller, ancak sınırsız bir deneme süresince, her seferinde her
+
+106
+00:07:01,530 --> 00:07:06,220
+seferinde biraz pop yaparak satın almaya hazır olup olmadığını soruyorlar.
+
+107
+00:07:06,240 --> 00:07:11,990
+Teknik olarak özgür değil, yine de hayatınızın sonuna kadar sınırsız bir deneme sürümü var.
+
+108
+00:07:12,030 --> 00:07:15,970
+Tam lisans satın almanızı isteyen küçük bir pencere olacaktır.
+
+109
+00:07:16,080 --> 00:07:22,350
+Yani indirmek için tıklayın ve işletim sisteminiz için indirmeyi seçin ya OS X Windows
+
+110
+00:07:22,400 --> 00:07:24,830
+64 bit veya Linux olduğunda.
+
+111
+00:07:24,840 --> 00:07:29,220
+Dolayısıyla yapmanız gereken şey, ana sayfaya gidip metinden
+
+112
+00:07:29,220 --> 00:07:30,940
+ne indiriyorsa tıklayın.
+
+113
+00:07:31,090 --> 00:07:34,900
+İndirdikten sonra, devam edip Yüce Metin Düzenleyicisini açacağız.
+
+114
+00:07:35,680 --> 00:07:41,380
+Alt yazı metnini indirip yükledikten sonra, Sublime Text için bilgisayarınızı
+
+115
+00:07:41,470 --> 00:07:42,250
+arayabilirsiniz.
+
+116
+00:07:42,310 --> 00:07:42,900
+Üstüne tıkla.
+
+117
+00:07:43,030 --> 00:07:46,440
+Açın ve böyle görünecektir.
+
+118
+00:07:46,570 --> 00:07:53,510
+Sonra ne yapacağız aslında bazı Python kodlarını yazın ve bunu bir nokta PI betiği olarak kaydedin.
+
+119
+00:07:53,550 --> 00:07:55,480
+Devam edin ve baskılar yazınız.
+
+120
+00:07:55,530 --> 00:08:03,910
+şey bu yazı tipi için aynı renktir, bu nedenle yüce metin editörü aslında bunun bir Python komut dosyası olduğunu bilmiyor.
+
+121
+00:08:03,910 --> 00:08:11,500
+Parantezleri açın ve kapatın ve sonra tek tırnak işaretleri veya çift tırnak cehennemi dünyasında girin ve bu ilk
+
+122
+00:08:11,500 --> 00:08:18,460
+Python komut dosyanız olacak ve ardından Dosya Farklı Kaydet'i seçin ve şu an bunu yapmamızın sebebi, sözünü
+
+123
+00:08:18,460 --> 00:08:21,700
+ettiğiniz sözdizimi vurgulamasının olmadığını hemen fark ederseniz her
+
+124
+00:08:21,820 --> 00:08:24,330
+Yapmak istediğimiz şey onu olduğu gibi kaydetmek.
+
+125
+00:08:24,520 --> 00:08:29,670
+Ve bu dosyayı benim örneğimiz olarak adlandıracağız.
+
+126
+00:08:31,650 --> 00:08:37,170
+Ve seçebileceğiniz çok sayıda uzantıya sahip tüm dosyalara tıklarsanız fark edeceksiniz.
+
+127
+00:08:37,170 --> 00:08:40,870
+Bir python dosyası olarak kaydetmeyi seçeceğiz.
+
+128
+00:08:40,950 --> 00:08:44,330
+Dolayısıyla, örneğimin bir python dosyası olarak kaydettiğini söyleyeceksin.
+
+129
+00:08:44,400 --> 00:08:51,740
+Yapabileceğiniz diğer seçenek sadece tüm dosyaları seçmek ve sonra benim örnek ve kendiniz doğru söylemektir.
+
+130
+00:08:51,830 --> 00:08:52,460
+PI.
+
+131
+00:08:52,740 --> 00:08:54,720
+Her iki şekilde de iyidir.
+
+132
+00:08:54,720 --> 00:08:57,530
+Devam edin ve bir nokta PI dosyası olduğundan emin olarak kaydedin.
+
+133
+00:08:57,570 --> 00:09:03,390
+Kaydet'i vurun ve şimdi, alt yazı metni düzenleyicisinin bir python komut dosyası olduğunu anladığını ve bunu
+
+134
+00:09:03,540 --> 00:09:07,020
+okumanıza yardımcı olmak için sözdizimi vurgulamasını yaptığını fark edeceksiniz.
+
+135
+00:09:07,020 --> 00:09:08,180
+Baskı bir işlevdir.
+
+136
+00:09:08,220 --> 00:09:13,350
+olarak Python öğreneceğiz, daha sonra eğitiminizde şimdi bu betiği nasıl çalıştıracağımızıza bakalım.
+
+137
+00:09:13,350 --> 00:09:18,450
+Merhaba dünya bir dizedir ve bunun hakkında daha fazla ve genel
+
+138
+00:09:18,450 --> 00:09:22,560
+Unutmayın, bunu komut satırında masaüstü anlamımıza kaydettik.
+
+139
+00:09:22,650 --> 00:09:27,420
+Dizinleri masaüstümüze değiştirmeliyiz ki cinsel I dosyasını çalıştıralım.
+
+140
+00:09:27,420 --> 00:09:31,440
+Devam edin ve komut satırınızı açın.
+
+141
+00:09:31,500 --> 00:09:34,200
+Windows'da olduğumdan bir komut istemi açacağım.
+
+142
+00:09:34,230 --> 00:09:41,820
+bir Mac OS veya Linux'unuz bir terminal açarsa, dizini gerçek masaüstünüze veya
+
+143
+00:09:41,940 --> 00:09:52,420
+dizininizi dosya türüne göre CD'ye ve daha sonra masaüstüne masaüstünüze değiştirmek için değiştirmeniz isteyeceksiniz ve sonra
+
+144
+00:09:52,960 --> 00:10:00,190
+ne olması gerektiğini Yapabilecekleriniz Python boşluğunu yazıp dosyanızın adını yazmaya başlamaktır.
+
+145
+00:10:00,190 --> 00:10:00,970
+Eğer
+
+146
+00:10:00,970 --> 00:10:07,120
+Benim durumumda, pi'nin kendine kanıtladığı ve doğru konumda olduğunu ispatlamak için
+
+147
+00:10:07,120 --> 00:10:09,730
+sekmeye basabilir ve otomatik tamamlayacaktır.
+
+148
+00:10:09,730 --> 00:10:10,870
+Yani burada Python diyoruz.
+
+149
+00:10:10,870 --> 00:10:17,620
+Benim örnek PI yapar ve nasıl bir nokta PI komut dosyası komut satırında çalıştırabilirsiniz enter.
+
+150
+00:10:17,740 --> 00:10:18,910
+O halde görebilmelisin.
+
+151
+00:10:19,000 --> 00:10:20,630
+Selam Dünya.
+
+152
+00:10:20,710 --> 00:10:26,950
+metin düzenleyicisinde bir Python komut dosyası başarıyla yaratmışsınız ve bu komut dosyasını komut satırında çalıştırmışsınızdır.
+
+153
+00:10:26,950 --> 00:10:27,470
+Artık
+
+154
+00:10:28,280 --> 00:10:34,200
+İyi de yapabilirsiniz, komut satırına enter python yazabilirsiniz.
+
+155
+00:10:34,340 --> 00:10:41,510
+Ve bu, komut satırına doğrudan python kodu yazmanıza izin veren, Python'a çok basit bir
+
+156
+00:10:41,510 --> 00:10:42,560
+doğrudan bağlantıdır.
+
+157
+00:10:42,590 --> 00:10:47,390
+Bunu eğitiminiz boyunca gerçekten kullanmayacağız, çünkü bir kerede yalnızca bir satırlıktır
+
+158
+00:10:47,390 --> 00:10:51,880
+ve sonuçta kod için bir seferde birden fazla satır yazmayı öğreniriz.
+
+159
+00:10:51,890 --> 00:10:56,050
+Ayrıca sadece check it out yazabilirsiniz print Merhaba,
+
+160
+00:10:58,650 --> 00:11:01,360
+çıkış olarak merhaba olan bildiriminizi girin.
+
+161
+00:11:01,440 --> 00:11:03,410
+Yani her seferinde temelde bir satır var.
+
+162
+00:11:03,540 --> 00:11:10,620
+Python kodunu yazabilir, sonra yazıp kapatma yazıp parantez içine girebiliriz ve
+
+163
+00:11:10,620 --> 00:11:13,370
+Python yorumlayıcıdan çıkmış oluruz.
+
+164
+00:11:13,410 --> 00:11:13,920
+Tamam.
+
+165
+00:11:14,160 --> 00:11:18,470
+Bu yüzden, komut satırında aslında bir Python komut dosyası çalıştırmayı öğrendik.
+
+166
+00:11:18,480 --> 00:11:23,250
+Şimdi Jüpiter notebook ortamını keşfedelim ve bunu nasıl yapacağımıza bakın.
+
+167
+00:11:23,310 --> 00:11:30,660
+Anaconda Navigator'a gidiyoruz, böylece bilgisayarınızda Anaconda navigator arayın.
+
+168
+00:11:30,700 --> 00:11:36,910
+da başka bir localhost kolonuna otomatik olarak açıldığını fark etmeniz gerekir sayı dizisi.
+
+169
+00:11:36,910 --> 00:11:43,540
+Bunu açın ve daha sonra bunu gerçekleştirdikten sonra Jupiter dizüstü bilgisayarını başlattığınızda, o başlatma düğmesine
+
+170
+00:11:43,720 --> 00:11:50,080
+tıkladığınızda, tarayıcınızın ya 8 8 8 8 ya da 8 8 8 9 ya
+
+171
+00:11:50,080 --> 00:11:56,470
+Jüpiter defteri tarayıcınızın içinde çalışırken İnternet bağlantısı gerektirmediğini
+
+172
+00:11:56,530 --> 00:11:57,580
+unutmayın.
+
+173
+00:11:57,610 --> 00:11:59,590
+Her şey yerel olarak oluyor.
+
+174
+00:11:59,620 --> 00:12:04,070
+Jüpiter ile başka bir sunucu arasında hiçbir yerde bir İnternet bağlantısı yok.
+
+175
+00:12:04,090 --> 00:12:10,570
+Program açmanız için elverişli bir grafik arayüz olarak tarayıcınızı açıp çalışır
+
+176
+00:12:10,570 --> 00:12:12,110
+hale gelirsiniz.
+
+177
+00:12:12,130 --> 00:12:18,200
+Bu yüzden Jupiter dizüstü bilgisayarını çalıştırdıktan sonra, bilgisayarınızdaki tüm dosyaları görebileceğinizi göreceksiniz.
+
+178
+00:12:18,200 --> 00:12:24,320
+Örneğin, masaüstü klasörünü tıklatabiliriz ve şimdi, daha önce yarattığımız postscript örneğimi ve
+
+179
+00:12:24,380 --> 00:12:30,530
+aslında PI dosyalarını ekleyebileceğiniz ve daha derin ve opak bir sistemi kullandığımızı
+
+180
+00:12:30,530 --> 00:12:31,460
+görebilirim.
+
+181
+00:12:31,460 --> 00:12:34,530
+Mesela, burada başka bir basmakalıp ekleyebiliyoruz.
+
+182
+00:12:35,490 --> 00:12:42,260
+Kaydettiğini söyleyebilmek için bu değişikliği bildik ve sonra da kaydettik ve ardından dosyayı ve bir sürü diğer malzemeyi
+
+183
+00:12:42,500 --> 00:12:47,240
+indirebiliriz veya yeniden adlandırabiliriz ancak bu tür metin düzenleme için Jüpiter'i kullanmayacağız.
+
+184
+00:12:47,270 --> 00:12:49,440
+Alt yazı metin editörünü kullanmak daha iyidir.
+
+185
+00:12:49,490 --> 00:12:51,680
+Ama yine kişisel tercih.
+
+186
+00:12:51,680 --> 00:12:56,570
+Jüpiter ve Jüpiter'i gerçekten kullanmakta olduğumuz şey dizüstü bilgisayar sistemidir, bu yüzden
+
+187
+00:12:56,570 --> 00:13:01,310
+burayı tıklayarak yeni ve altındaki not defterini tıklayarak Python 3'ü görebilirsiniz.
+
+188
+00:13:01,460 --> 00:13:04,030
+Bazen kök veya başka bir şey söylenir.
+
+189
+00:13:04,040 --> 00:13:05,940
+Ama bir dizüstü bilgisayarın altında söylediklerini tıklayın.
+
+190
+00:13:05,990 --> 00:13:08,740
+Genellikle Python 3 diyor.
+
+191
+00:13:08,960 --> 00:13:11,530
+Ve sonra yeni bir dizüstü bilgisayar başlattığımızı fark edeceksiniz.
+
+192
+00:13:11,630 --> 00:13:15,200
+O zaman bunun gerçekte ne olduğuna hızlı bir genel bakalım.
+
+193
+00:13:15,200 --> 00:13:16,460
+Burada isimsiz diyor.
+
+194
+00:13:16,460 --> 00:13:19,840
+Bunun nedeni, yeni oluşturduğumuz bu defterin aslında bir başlığı yok.
+
+195
+00:13:19,970 --> 00:13:25,610
+Ve burada başka bir sekmeyi tıklarsak, isimlendirilmemiş bir nokta oluşturduğumuzun farkına varacaksınız IPY ve
+
+196
+00:13:25,610 --> 00:13:32,060
+B dosyası, Python dizüstü bilgisayar dosyası Jüpiter dizüstü bilgisayarlarının I Python dizüstü bilgisayarları olarak adlandırılmasını sağladığı
+
+197
+00:13:32,060 --> 00:13:34,330
+için dosya uzantısı adını koruyorlardı.
+
+198
+00:13:34,560 --> 00:13:40,700
+Ve bu ismi değiştirmek istiyorsak tek yapmamız gereken, bu sekmeye gidip başlığı seçmek
+
+199
+00:13:40,740 --> 00:13:49,200
+ve defterine yeni bir isim vermek için, girmek için ilk dizüstü bilgisayarımızı söyleyeceğiz ve defteri ve gerçek dosyayı
+
+200
+00:13:49,260 --> 00:13:50,510
+yeniden adlandırdık.
+
+201
+00:13:50,520 --> 00:13:55,560
+Artık ilk dizüstü bilgisayarımın python dizüstü uzantısı olduğunu söylüyorsun.
+
+202
+00:13:55,560 --> 00:14:02,670
+Bu deftere geri döndüğünüzde dizüstü bilgisayar, bir hücreye kod yazdığınız anlamına gelen bir hücre tabanlı sistem kullanıyor.
+
+203
+00:14:02,790 --> 00:14:05,520
+Hücreyi çalıştırdıktan sonra gerçek çıktıyı göreceksin.
+
+204
+00:14:05,520 --> 00:14:07,050
+Hücrenin hemen altında.
+
+205
+00:14:07,050 --> 00:14:13,530
+Hücre tipi baskı içerisinde koşu ya da basit ifadeler kullanmayı deneyelim, sonra da yazdırmayı kapatın
+
+206
+00:14:14,110 --> 00:14:14,790
+görüyor Merhaba.
+
+207
+00:14:14,940 --> 00:14:19,690
+Ve Jüpiter'in tamamladığı şeyleri tırnak işaretleri veya parantezler gibi görürsünüz.
+
+208
+00:14:19,860 --> 00:14:21,660
+Ve sonra hücrenin koşabiliriz.
+
+209
+00:14:21,830 --> 00:14:26,730
+Dolayısıyla, çalıştır düğmesinde burayı tıklayabilirsiniz ve hücreyi çalıştıracak ve doğrudan doğruya
+
+210
+00:14:26,730 --> 00:14:27,780
+çıktı göreceksiniz.
+
+211
+00:14:27,780 --> 00:14:32,520
+Bu, Python'u daha yeni öğrenmeye başlayan insanlar için harika bir sistem, çünkü kodlarına
+
+212
+00:14:32,850 --> 00:14:37,350
+sahip oldukları ve çıktıları doğrudan görebildikleri için hataları çabucak yinelemekte ve düzeltmektedirler.
+
+213
+00:14:37,410 --> 00:14:41,460
+Sürekli olarak komut satırına gidip komut dosyalarını tekrar çalıştırmak zorunda değildirler.
+
+214
+00:14:41,520 --> 00:14:45,660
+Kesinlikle kişisel bir tercih ancak bu, Python öğrenen insanlar için defterin
+
+215
+00:14:45,660 --> 00:14:46,910
+güzel bir özelliğidir.
+
+216
+00:14:47,190 --> 00:14:52,420
+yarattığımızı fark ettiniz; bunun altında, daha yeni Python kodu yazabileceğiniz başka bir hücre de yazdırabilirsiniz.
+
+217
+00:14:52,900 --> 00:14:55,070
+Ve otomatik olarak başka bir hücrenin
+
+218
+00:14:55,270 --> 00:15:01,840
+Ve bu çalıştır düğmesini tıklamak zorunda kalmazsanız yapmanız gereken tek şey vardiya girişini yapmaktır ve bu
+
+219
+00:15:02,650 --> 00:15:04,400
+bir hücreyi tekrar çalıştırır.
+
+220
+00:15:04,420 --> 00:15:07,140
+Bir hücrenin çalışması için vardiya girilir.
+
+221
+00:15:07,210 --> 00:15:11,140
+Kendiliğinden girerseniz, yalnızca daha yeni satırlar oluşturursunuz.
+
+222
+00:15:11,170 --> 00:15:13,830
+Dolayısıyla bir hücreyi çalıştırmak için vardiya girilir.
+
+223
+00:15:13,840 --> 00:15:20,350
+Yardım'a tıklayıp daha sonra klavye kısayollarına basabileceğiniz ve tüm klavye kısayollarını listeleyebileceğiniz pek
+
+224
+00:15:20,350 --> 00:15:22,480
+çok faydalı hokey var.
+
+225
+00:15:22,600 --> 00:15:28,240
+En yararlı olanlar daha sonra size öğretecek, ancak bunu kendiniz de keşfedebilirsiniz.
+
+226
+00:15:28,240 --> 00:15:33,730
+Şimdi, notebook sisteminin, aslında bu önyükleme kampı boyunca öğrenmekte olduğunuz gibi notları
+
+227
+00:15:33,730 --> 00:15:39,100
+yazabilmeniz için yalnızca kendiniz kullanamayacağınız kod olmayan normal metin olan aşağı doğru
+
+228
+00:15:39,100 --> 00:15:40,820
+yazı yazdırabileceğini de tartıştık.
+
+229
+00:15:40,850 --> 00:15:45,830
+Dolayısıyla, bir hücrenin üzerine tıklarsanız burada bir kod yazdıracağınızı farkedeceksiniz ve bunun nedeni, normal
+
+230
+00:15:45,830 --> 00:15:50,120
+bir markdown hücresine dönüştürmek istediğinizde bu şu anda bir python kod hücresidir.
+
+231
+00:15:50,240 --> 00:15:53,150
+Aşağı işaretlenmiş açılır menüden seçim yapın.
+
+232
+00:15:53,180 --> 00:15:55,640
+Ve şimdi bu artık bir kod hücresi değil.
+
+233
+00:15:55,750 --> 00:15:59,610
+Sadece normal bir metin içerecek bir hücre.
+
+234
+00:15:59,720 --> 00:16:03,570
+Ve hücrenin tam önünde bunun artık olmadığını fark edeceksiniz.
+
+235
+00:16:03,590 --> 00:16:06,180
+Bu da normal metin için olduğunu gösterir.
+
+236
+00:16:06,410 --> 00:16:14,420
+Dolayısıyla, burada kendinize sadece anlamanıza yardımcı olacak notlar yazabilir ve vardiya girdiyseniz, bunları normal
+
+237
+00:16:14,420 --> 00:16:16,580
+bir metin olarak gösterecektir.
+
+238
+00:16:16,580 --> 00:16:21,710
+Yine bu artık kod değil, sadece kendiniz için bir metin ve eğitiminiz boyunca sağladığımız
+
+239
+00:16:21,710 --> 00:16:25,580
+bir çok dizüstü bilgisayar açıklama olarak metnin altına yazılmış olacak.
+
+240
+00:16:25,690 --> 00:16:31,580
+böylece sadece bir hücreye oturup, seçilen kodun istediğiniz her şeyi buradan basabileceğinden emin olabilirsiniz.
+
+241
+00:16:31,580 --> 00:16:35,230
+Ve şimdiye kadar başka bir kod yazmak isterseniz,
+
+242
+00:16:35,390 --> 00:16:36,600
+Vites ve taret bunu çalıştırıyor.
+
+243
+00:16:36,740 --> 00:16:41,380
+Ve eğitimlerinizin ilerleyen saatlerinde dizüstü bilgisayarlar hakkında daha çok konuşacağımız temel özellikler budur.
+
+244
+00:16:41,510 --> 00:16:43,400
+Ancak bu gerçekten temelleri.
+
+245
+00:16:43,400 --> 00:16:51,020
+Dikkat çekmek istediğiniz son şey, dizüstü bilgisayar dosyasının bu özel uzantısı olan bu IPY ve
+
+246
+00:16:51,020 --> 00:16:55,910
+B, bilgisayarınızdaki bu dosyayı çift tıklayıp açmasını beklemediğiniz anlamına geliyor.
+
+247
+00:16:55,910 --> 00:16:58,810
+Öyleyse sana ne dediğimi çok hızlı göstereyim.
+
+248
+00:16:59,000 --> 00:17:04,880
+üzerine çift tıklarsam, elimde olan her varsayılan programda açılacağını göreceksin.
+
+249
+00:17:04,880 --> 00:17:09,080
+Masaüstüne gelirsem, o pi örneğimi görebilir ve bunun
+
+250
+00:17:09,080 --> 00:17:14,900
+Tipik olarak Sublime Text Editor veya ne olursa olsun diğer düzenleyiciler bilgisayarınızda sahip olduğunuzdan bu
+
+251
+00:17:14,900 --> 00:17:17,940
+py dosyalarını çift tıklatarak düzenleyebilir ve onlarla çalışabilirsiniz.
+
+252
+00:17:17,960 --> 00:17:24,530
+Bununla birlikte, bir IPY ve B dosyasına çift tıklamayı denediyseniz, size nasıl bu dosyayı açmak istediğinizi soran bir
+
+253
+00:17:24,530 --> 00:17:29,300
+şey elde etmeyeceksiniz ya da sadece bir şeyler açacak ve şifrelenmiş koddan bir
+
+254
+00:17:29,300 --> 00:17:30,110
+miktar göreceksiniz.
+
+255
+00:17:30,410 --> 00:17:36,580
+yalnızca Jupiter dizüstü bilgisayar sistemi vasıtasıyla açabileceğiniz, ayrıca Jüpiter dizüstü bilgisayarının Anaconda navigator
+
+256
+00:17:36,590 --> 00:17:42,320
+lansmanını açması ve daha sonra bilgisayarınız genelinde bulup tıklaması anlamına geldiği anlamına geliyor.
+
+257
+00:17:42,320 --> 00:17:44,820
+Bu, özel dizüstü bilgisayar dosyalarını
+
+258
+00:17:44,840 --> 00:17:47,980
+Pekâlâ, Python kodunu çalıştırmanın temel prensibi budur.
+
+259
+00:17:48,200 --> 00:17:49,870
+Aslında Python öğrenmenin zamanı geldi.

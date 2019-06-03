@@ -1,0 +1,151 @@
+1
+00:00:05,550 --> 00:00:09,990
+Tutti quelli che volevo fare questa lezione per mostrarti velocemente come puoi scaricare i quaderni
+
+2
+00:00:09,990 --> 00:00:13,490
+del corso e aprirli sul tuo computer in caso di problemi.
+
+3
+00:00:13,500 --> 00:00:17,400
+Se sei già stato in grado di farlo solo dai link della conferenza FNQ o dalla lezione
+
+4
+00:00:17,400 --> 00:00:19,590
+di panoramica del corso, sentiti libero di saltare questa lezione.
+
+5
+00:00:19,890 --> 00:00:24,870
+Ma fondamentalmente tutto ciò che farò qui è mostrarti come puoi effettivamente scaricare le note
+
+6
+00:00:25,200 --> 00:00:26,090
+dalla nostra pagina.
+
+7
+00:00:26,190 --> 00:00:30,570
+Quindi dovresti vedere un piccolo pop-up blu con un link di risorsa e quel link di risorsa
+
+8
+00:00:30,570 --> 00:00:35,010
+ti porterà alla pagina per i dati di un periodo e il bootcamp completo di Python 3.
+
+9
+00:00:35,010 --> 00:00:36,260
+Quindi vai a questo link risorsa.
+
+10
+00:00:36,300 --> 00:00:41,310
+Puoi scriverlo manualmente in Google o cercare semplicemente il pop up blu che succede quando
+
+11
+00:00:41,310 --> 00:00:42,510
+stai guardando questa lezione.
+
+12
+00:00:42,520 --> 00:00:44,310
+Quindi passiamo a quel link.
+
+13
+00:00:44,310 --> 00:00:50,040
+OK, eccoci qui in quel repository hub e questo è fondamentalmente un repository online a cui puoi accedere
+
+14
+00:00:50,130 --> 00:00:54,960
+per ottenere le note del corso che vedrai qui come sono organizzate le note del corso.
+
+15
+00:00:54,960 --> 00:00:59,700
+numerato per sezione e poi all'interno delle sezioni vedrete i quaderni stessi ei taccuini
+
+16
+00:00:59,700 --> 00:01:06,150
+sono titolati entrambi in modo che il titolo del docente corrisponda al meglio che potremmo con il titolo del taccuino.
+
+17
+00:01:06,150 --> 00:01:07,180
+Fondamentalmente lo abbiamo
+
+18
+00:01:07,290 --> 00:01:10,500
+E poi li abbiamo anche numerati in modo da poterli seguire in ordine.
+
+19
+00:01:10,710 --> 00:01:14,610
+Quindi, per esempio, quando stai imparando circa quattro loop vai avanti e fai clic qui
+
+20
+00:01:14,610 --> 00:01:20,310
+su quattro loop e questo caricherà il notebook e noterai come si tratta di un file IPY e B ma una volta
+
+21
+00:01:20,310 --> 00:01:22,870
+caricato il notebook dovresti vedere un sacco di utili informazioni qui.
+
+22
+00:01:22,890 --> 00:01:25,020
+E poi il codice vero e proprio.
+
+23
+00:01:25,020 --> 00:01:29,800
+Ora se si desidera eseguire questi notebook sul computer in cui è necessario eseguire è scaricare questo repository.
+
+24
+00:01:29,820 --> 00:01:34,110
+cliccando e completando il bootcamp di Python 3 e ci sono diversi modi per scaricare questo repository.
+
+25
+00:01:34,110 --> 00:01:34,920
+Quindi torneremo qui
+
+26
+00:01:34,920 --> 00:01:40,130
+Se sei già familiare, puoi sentirti libero di creare questo repository e poi averlo a
+
+27
+00:01:40,220 --> 00:01:40,850
+casa tua.
+
+28
+00:01:40,890 --> 00:01:46,170
+Tieni presente che stiamo aggiornando costantemente questo problema, ma possiamo anche solo ottenere i file localmente.
+
+29
+00:01:46,200 --> 00:01:50,790
+Fai clic qui dove dice clone o download e poi fai clic su download zip e
+
+30
+00:01:50,790 --> 00:01:56,460
+questo scaricherà un file zip che potrai quindi decomprimere e che avrà tutti gli IPY e sarà file che
+
+31
+00:01:56,550 --> 00:01:58,530
+potrai accedere usando il tuo navigatore anaconda.
+
+32
+00:01:58,710 --> 00:02:01,130
+Come abbiamo mostrato nella lezione di codice Python in esecuzione.
+
+33
+00:02:01,230 --> 00:02:01,520
+Tutto ok.
+
+34
+00:02:01,530 --> 00:02:03,840
+Questa è solo una rapida panoramica su come ottenere le note.
+
+35
+00:02:03,870 --> 00:02:08,040
+Se hai qualche domanda su questo sentiti libero di postare i forum di domande e risposte, ma
+
+36
+00:02:08,160 --> 00:02:12,060
+sicuramente controlla la conferenza di fakie dove abbiamo istruzioni più dettagliate su come fare tutto questo.
+
+37
+00:02:12,060 --> 00:02:13,230
+OK, grazie a tutti.
+
+38
+00:02:13,260 --> 00:02:14,370
+Ci vediamo alla prossima lezione.

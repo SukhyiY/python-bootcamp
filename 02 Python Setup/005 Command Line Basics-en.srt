@@ -1,0 +1,463 @@
+1
+00:00:05,690 --> 00:00:10,260
+Hey everyone welcome to this crash course lecture on using your command line.
+
+2
+00:00:10,440 --> 00:00:15,330
+Before we install anything including python it's actually really important to have a very quick overview
+
+3
+00:00:15,600 --> 00:00:20,580
+of how to work your command line and the command line basically allows you to programmatically move
+
+4
+00:00:20,820 --> 00:00:22,480
+through your computer's directories.
+
+5
+00:00:22,500 --> 00:00:25,800
+That way you can run Python scripts at your command line.
+
+6
+00:00:26,960 --> 00:00:31,970
+We're going to cover in this short lecture is how to find your current directory how to list all the
+
+7
+00:00:31,970 --> 00:00:37,050
+files in at the rectory how to change the directory and how to clear the command line screen.
+
+8
+00:00:38,360 --> 00:00:42,170
+Something you need to understand though is that the commands are going to be slightly different depending
+
+9
+00:00:42,170 --> 00:00:44,030
+on what your operating system is.
+
+10
+00:00:44,030 --> 00:00:49,700
+So for Mac OS and Linux users go ahead and jump to this time in the video in order to go through your
+
+11
+00:00:50,060 --> 00:00:56,270
+instructions if you're a Windows user go ahead and jump to this time stamp at the video to jump to your
+
+12
+00:00:56,270 --> 00:00:57,420
+specific instructions.
+
+13
+00:00:57,440 --> 00:01:02,690
+And then once you've gone through your command line crash course go ahead and move on to the next lecture.
+
+14
+00:01:02,690 --> 00:01:08,030
+Again this is just because the commands are slightly different for Linux and Mac OS users versus Windows
+
+15
+00:01:08,030 --> 00:01:08,990
+users.
+
+16
+00:01:08,990 --> 00:01:09,330
+OK.
+
+17
+00:01:09,350 --> 00:01:12,380
+Go ahead and jump to the correct time stamp and we'll meet back there.
+
+18
+00:01:12,380 --> 00:01:12,740
+All right.
+
+19
+00:01:12,740 --> 00:01:18,460
+So let's go over the windows command line operations at your computer to find the command prompt.
+
+20
+00:01:18,470 --> 00:01:21,200
+All you need to do is search for the term CMD.
+
+21
+00:01:21,360 --> 00:01:25,880
+And we should be able to find command prompt as the best match if command prompt doesn't show up when
+
+22
+00:01:25,880 --> 00:01:27,000
+you search CMD.
+
+23
+00:01:27,290 --> 00:01:32,200
+Instead just search for the whole phrase command prompt and then you should see command prompt.
+
+24
+00:01:32,390 --> 00:01:33,240
+Desktop app.
+
+25
+00:01:33,380 --> 00:01:37,910
+Once you've opened up your command prompt you should see something that looks like this.
+
+26
+00:01:37,910 --> 00:01:41,680
+Let's start off by finding out where are we currently located.
+
+27
+00:01:41,720 --> 00:01:44,260
+Basically what's our current directory.
+
+28
+00:01:44,270 --> 00:01:49,640
+I can use the command line to interact on my computer but to actually perform those interactions I need
+
+29
+00:01:49,640 --> 00:01:52,250
+to know where I am at on my computer.
+
+30
+00:01:52,250 --> 00:01:57,200
+You can think of this as basically programmatically moving around through files and folders on your
+
+31
+00:01:57,200 --> 00:01:58,520
+computer.
+
+32
+00:01:58,850 --> 00:02:04,730
+You can type out CD enter and this will report back your current directory.
+
+33
+00:02:04,730 --> 00:02:09,870
+Now you'll notice the command prompt actually basically gives you the file path over you already are.
+
+34
+00:02:10,040 --> 00:02:14,630
+But sometimes it's a file path is really long or you're dealing with more complex things like virtual
+
+35
+00:02:14,630 --> 00:02:16,570
+environments or installations.
+
+36
+00:02:16,580 --> 00:02:21,130
+It's always a good idea to check your current directory by typing CD.
+
+37
+00:02:21,380 --> 00:02:26,100
+Sometimes things like the Anaconda prompt will have other directories in parentheses.
+
+38
+00:02:26,120 --> 00:02:32,390
+You can always confirm your current directory by typing a CD enter and that reports back where you are.
+
+39
+00:02:32,510 --> 00:02:36,530
+So I can see right now I'm under this particular user's folder.
+
+40
+00:02:36,920 --> 00:02:44,600
+If I wanted to figure out where all the files and folders located in my current directory were or are
+
+41
+00:02:44,660 --> 00:02:45,200
+I can type.
+
+42
+00:02:45,200 --> 00:02:46,970
+D i r.
+
+43
+00:02:47,090 --> 00:02:47,810
+Hit enter.
+
+44
+00:02:47,930 --> 00:02:51,290
+And that reports back the contents of my directory.
+
+45
+00:02:51,290 --> 00:02:57,660
+I can see here that there is a desktop documents downloads as well as some hidden files denoted by starting
+
+46
+00:02:57,660 --> 00:02:58,280
+with a dot.
+
+47
+00:02:58,550 --> 00:03:01,600
+But basically this is everything that's in this folder.
+
+48
+00:03:01,610 --> 00:03:06,920
+See users Marcio I can scroll down CCSB files pictures.
+
+49
+00:03:06,920 --> 00:03:11,840
+Now lets imagine I wanted to actually move into one of these sub folders.
+
+50
+00:03:11,870 --> 00:03:16,850
+What I can do is type CD and then the name of that folder.
+
+51
+00:03:16,880 --> 00:03:23,960
+For example if I wanted to change directories to my desktop location I could type CD change directory
+
+52
+00:03:23,960 --> 00:03:31,010
+space and the desktop hit enter and now I'm at my desktop and I can type CD to confirm that I'm at my
+
+53
+00:03:31,010 --> 00:03:34,600
+desktop if I want to go back up that victory.
+
+54
+00:03:34,670 --> 00:03:42,800
+All I need to do is type see the space dot dot or period period to enter and I've moved back up a directory.
+
+55
+00:03:42,800 --> 00:03:46,190
+Now you don't actually need to type in the entire file path.
+
+56
+00:03:46,310 --> 00:03:54,210
+If you're moving around what you can do say CD begin typing such as the letter D then hit tab.
+
+57
+00:03:54,300 --> 00:03:56,750
+You should be able to see autocomplete for you.
+
+58
+00:03:56,750 --> 00:04:01,790
+So as I hit tab I get the various options of everything that starts with a capital D so I can go to
+
+59
+00:04:01,790 --> 00:04:06,870
+documents enter and then if I wanted to see all my documents I can type d r.
+
+60
+00:04:06,940 --> 00:04:08,970
+Now we can see all our documents here.
+
+61
+00:04:09,050 --> 00:04:15,380
+Again if I want to go back see the space thought and if I ever want to clear my entire command line
+
+62
+00:04:15,380 --> 00:04:20,500
+screen I can type CLX and I've cleared the entire screen.
+
+63
+00:04:20,510 --> 00:04:20,910
+All right.
+
+64
+00:04:20,930 --> 00:04:23,450
+That's really all the basics we need to know for right now.
+
+65
+00:04:23,570 --> 00:04:32,120
+Just to review CD for current directory Diyar to list everything in my directory CD and then the name
+
+66
+00:04:32,120 --> 00:04:34,410
+of the folder that I want to jump to.
+
+67
+00:04:34,430 --> 00:04:40,220
+For example if I want to go to downloads CD downloads again you can hit tab to autocomplete And if we
+
+68
+00:04:40,220 --> 00:04:43,060
+ever want to jump back up CD.
+
+69
+00:04:43,220 --> 00:04:46,970
+But if we ever want to clear the screen it's seamless.
+
+70
+00:04:46,970 --> 00:04:48,310
+That's the basics you need to know.
+
+71
+00:04:48,440 --> 00:04:52,520
+We'll see you at the next lesson where we discuss how to install Python.
+
+72
+00:04:52,620 --> 00:04:57,280
+All right so let's go over the Mac OS and Linux command line operations and your command line in Mac
+
+73
+00:04:57,280 --> 00:04:59,130
+OS and Linux is known as a terminal.
+
+74
+00:04:59,230 --> 00:05:03,570
+So these commands work on both of these operating systems the exact same way.
+
+75
+00:05:03,580 --> 00:05:08,050
+Let's get started is to begin working of the command line on a Linux or Mac OS.
+
+76
+00:05:08,050 --> 00:05:14,160
+You first need to open up your terminal search your computer for terminal your Mac OS or Linux.
+
+77
+00:05:14,170 --> 00:05:17,470
+It's called the same thing and then open up your terminal.
+
+78
+00:05:17,470 --> 00:05:20,500
+You should eventually get something that looks like this.
+
+79
+00:05:20,500 --> 00:05:25,600
+The colors or fonts may be slightly different but the basic idea is the same.
+
+80
+00:05:25,600 --> 00:05:31,450
+The terminal gives you a command line interface and the command line interface allows you to move around
+
+81
+00:05:31,510 --> 00:05:36,040
+different files or folders on your computer and with some more advanced functionality you can also make
+
+82
+00:05:36,040 --> 00:05:38,170
+new directories or remove directories.
+
+83
+00:05:38,230 --> 00:05:39,950
+We don't really need to know that right now.
+
+84
+00:05:40,030 --> 00:05:46,180
+All we really need to know is how to understand what our current working directory is changed directories
+
+85
+00:05:46,270 --> 00:05:47,770
+and just move around.
+
+86
+00:05:47,770 --> 00:05:51,660
+This basically allows us to move around the computer at the command line.
+
+87
+00:05:51,700 --> 00:05:58,960
+The first thing we want to know is where we're currently located to know that type PWT enter and this
+
+88
+00:05:58,960 --> 00:06:00,940
+will print your working directory.
+
+89
+00:06:00,970 --> 00:06:07,140
+This is where you're currently located at the command line if you want to understand what files and
+
+90
+00:06:07,140 --> 00:06:14,820
+folders are located at your current location type L S and then enter and you should see a list of different
+
+91
+00:06:14,820 --> 00:06:18,970
+files and folders at your current directory.
+
+92
+00:06:19,230 --> 00:06:27,390
+If you ever want to move to one of those files or folders where you can do is type CD and then whichever
+
+93
+00:06:27,390 --> 00:06:32,660
+file or folder you want to go to however it should be in the list that was just printed.
+
+94
+00:06:32,700 --> 00:06:42,130
+For example let's move to our desktop so I will come back down here and type see the desktop enter.
+
+95
+00:06:42,190 --> 00:06:47,980
+And now if I type PWT I hit enter again I'm now at my desktop.
+
+96
+00:06:48,220 --> 00:06:54,340
+If you ever want to clear your screen just type clear enter and now you've been able to clear your command
+
+97
+00:06:54,340 --> 00:06:55,630
+line.
+
+98
+00:06:55,760 --> 00:07:02,360
+If you ever want to go back up a victory it should see the space thought hit enter and now we're back
+
+99
+00:07:02,360 --> 00:07:06,800
+up a directory which I can confirm by typing P.W..
+
+100
+00:07:06,980 --> 00:07:08,260
+That's really all we need to know.
+
+101
+00:07:08,300 --> 00:07:14,060
+As far as the commands are concerned let's have a quick review to print your working directory.
+
+102
+00:07:14,100 --> 00:07:16,210
+It's PWT and this report's back.
+
+103
+00:07:16,230 --> 00:07:18,000
+We are currently located.
+
+104
+00:07:18,000 --> 00:07:21,090
+If you want to know the files and folders at your current location.
+
+105
+00:07:21,180 --> 00:07:27,630
+Type ls and this will list all the files and folders if you want to clear your command screen type clear
+
+106
+00:07:27,960 --> 00:07:28,440
+enter.
+
+107
+00:07:28,440 --> 00:07:35,610
+This will clear your command line if you want to change directory to a subfolder type CD and then you
+
+108
+00:07:35,610 --> 00:07:38,620
+can even begin typing the names such as desktop.
+
+109
+00:07:38,640 --> 00:07:42,800
+And if I just desk and then hit tab it should auto complete.
+
+110
+00:07:42,900 --> 00:07:48,300
+If you do not get an autocomplete by hitting tab that's probably a good indicator that it's not a direct
+
+111
+00:07:48,300 --> 00:07:52,510
+subfolder of your current directory but then you can type CD.
+
+112
+00:07:52,710 --> 00:07:58,720
+The name of the subfolder are subdirectory and then we can see now we're located here by taping PWT.
+
+113
+00:07:58,830 --> 00:08:05,850
+If you ever want to go back up type CD space thought OK that's the basics of moving around through the
+
+114
+00:08:05,850 --> 00:08:06,770
+command line.
+
+115
+00:08:06,810 --> 00:08:10,970
+We're going to be using that later on when we run Python scripts at the command line.
+
+116
+00:08:10,980 --> 00:08:15,600
+We'll see you at the next lesson where we discuss how to actually install Python onto your computer.

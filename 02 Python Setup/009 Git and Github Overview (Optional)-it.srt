@@ -1,0 +1,267 @@
+1
+00:00:01,405 --> 00:00:02,293
+Istruttore: Salve
+
+2
+00:00:02,293 --> 00:00:06,096
+a tutti e benvenuti alla conferenza panoramica di Git e GitHub.
+
+3
+00:00:06,096 --> 00:00:07,982
+Quindi in questa lezione otterremo una
+
+4
+00:00:07,982 --> 00:00:10,832
+rapida panoramica su Git e GitHub in generale.
+
+5
+00:00:10,832 --> 00:00:13,655
+Allora, qual è Git, G-I-T?
+
+6
+00:00:13,655 --> 00:00:15,924
+distribuito gratuito e open source, e può
+
+7
+00:00:15,924 --> 00:00:17,676
+gestire tutto, da un piccolo
+
+8
+00:00:17,676 --> 00:00:19,877
+progetto a uno molto grande abbastanza bene.
+
+9
+00:00:19,877 --> 00:00:22,715
+Git è un sistema di controllo delle versioni
+
+10
+00:00:22,715 --> 00:00:26,598
+Quindi puoi andare avanti e andare su git-scm. com per saperne di
+
+11
+00:00:26,598 --> 00:00:28,222
+più su Git.
+
+12
+00:00:28,222 --> 00:00:30,412
+E puoi provarlo gratuitamente nel tuo browser facendo
+
+13
+00:00:30,412 --> 00:00:34,712
+clic qui sul link Prova Git nella pagina Git e questo ti porterà a questo
+
+14
+00:00:34,712 --> 00:00:38,183
+link durante il tentativo. github. io, e
+
+15
+00:00:38,183 --> 00:00:42,384
+ti insegnerà Git abbastanza velocemente nel tuo browser.
+
+16
+00:00:42,384 --> 00:00:44,491
+Quindi è davvero uno strumento davvero utile.
+
+17
+00:00:44,491 --> 00:00:46,294
+Quindi che tipo di aziende usano Git,
+
+18
+00:00:46,294 --> 00:00:48,004
+questo sistema di controllo delle versioni?
+
+19
+00:00:48,004 --> 00:00:50,014
+Praticamente tutte le maggiori compagnie,
+
+20
+00:00:50,014 --> 00:00:52,754
+come Google, Facebook, Microsoft, Twitter, LinkedIn, eccetera.
+
+21
+00:00:52,754 --> 00:00:54,041
+C'è un intero elenco
+
+22
+00:00:54,041 --> 00:00:56,280
+di aziende, molte, molte aziende usano Git.
+
+23
+00:00:56,280 --> 00:00:58,710
+E potresti chiederti qual è la
+
+24
+00:00:58,710 --> 00:01:00,627
+differenza tra Git e GitHub.
+
+25
+00:01:01,763 --> 00:01:06,202
+Quindi GitHub è una pagina web in cui puoi pubblicare i
+
+26
+00:01:06,202 --> 00:01:09,795
+tuoi repository Git e collaborare con altre persone.
+
+27
+00:01:09,795 --> 00:01:12,418
+Quindi, come ho detto prima, Git è un
+
+28
+00:01:12,418 --> 00:01:16,496
+sistema di controllo delle versioni, quindi ha fondamentalmente una serie di istantanee
+
+29
+00:01:16,496 --> 00:01:18,242
+del tuo codice che sono
+
+30
+00:01:18,242 --> 00:01:21,728
+note come commit e, mentre vedi il percorso delle istantanee,
+
+31
+00:01:21,728 --> 00:01:24,537
+puoi controllare in quale ordine sono state create.
+
+32
+00:01:24,537 --> 00:01:27,738
+senza GitHub, è un'altra domanda che le persone chiedono.
+
+33
+00:01:27,738 --> 00:01:29,334
+Quindi puoi usare Git
+
+34
+00:01:29,334 --> 00:01:30,167
+E sì.
+
+35
+00:01:30,167 --> 00:01:32,638
+Quindi Git gira localmente se non usi GitHub.
+
+36
+00:01:32,638 --> 00:01:36,254
+Un'alternativa a GitHub potrebbe essere l'utilizzo di Gits con i
+
+37
+00:01:36,254 --> 00:01:38,869
+tuoi file e il loro hosting su Dropbox.
+
+38
+00:01:38,869 --> 00:01:41,363
+Ma GitHub è di fatto il
+
+39
+00:01:41,363 --> 00:01:45,658
+servizio più popolare e più popolare progettato appositamente per Git.
+
+40
+00:01:45,658 --> 00:01:47,531
+il tuo account GitHub e a verificarlo.
+
+41
+00:01:47,531 --> 00:01:48,745
+Quindi ti incoraggio a creare
+
+42
+00:01:48,745 --> 00:01:50,141
+Ho il mio account
+
+43
+00:01:50,141 --> 00:01:51,954
+GitHub ed è lì che faccio
+
+44
+00:01:51,954 --> 00:01:53,487
+il commit dei repository per
+
+45
+00:01:53,487 --> 00:01:55,159
+i notebook, ed è così
+
+46
+00:01:55,159 --> 00:01:58,488
+che riesci a vederli, è perché li sto spingendo a GitHub.
+
+47
+00:01:58,488 --> 00:02:00,603
+Se sei interessato a lavorare su come funziona
+
+48
+00:02:00,603 --> 00:02:04,537
+GitHub, puoi andare alle guide. github. com / attività / ciao-mondo.
+
+49
+00:02:04,537 --> 00:02:08,073
+Ancora una volta, questo collegamento è nel testo della lezione.
+
+50
+00:02:08,073 --> 00:02:10,173
+E puoi dare un'occhiata al loro ciao documento mondiale.
+
+51
+00:02:10,173 --> 00:02:11,424
+È tutto nel browser.
+
+52
+00:02:11,424 --> 00:02:13,046
+Quindi, ancora una volta, non è necessario scaricare nulla.
+
+53
+00:02:13,046 --> 00:02:14,903
+Puoi controllare tutto lì.
+
+54
+00:02:14,903 --> 00:02:16,867
+E poi un altro grande sito Web per l'apprendimento
+
+55
+00:02:16,867 --> 00:02:21,096
+di Git in generale, solo Git G-I-T, è gitimmersion. com.
+
+56
+00:02:21,096 --> 00:02:24,055
+E funziona sia per Mac che per Windows.
+
+57
+00:02:24,055 --> 00:02:26,772
+Ok, quindi questa è solo una breve panoramica su Gits e il
+
+58
+00:02:26,772 --> 00:02:28,391
+controllo della versione in generale, i link
+
+59
+00:02:28,391 --> 00:02:30,896
+e le risorse di cui hai bisogno per saperne di più.
+
+60
+00:02:30,896 --> 00:02:32,875
+Non preoccuparti se non vuoi verificarlo subito.
+
+61
+00:02:32,875 --> 00:02:34,661
+Più avanti nella conferenza, toccheremo
+
+62
+00:02:34,661 --> 00:02:37,399
+di nuovo questo argomento quando parliamo di moduli
+
+63
+00:02:37,399 --> 00:02:39,905
+e importiamo e creiamo le tue librerie.
+
+64
+00:02:39,905 --> 00:02:42,072
+Va bene, è tutto per questa lezione.
+
+65
+00:02:42,072 --> 00:02:43,633
+In seguito, inizieremo finalmente con le
+
+66
+00:02:43,633 --> 00:02:46,242
+nozioni di base su oggetti e strutture dati Python.
+
+67
+00:02:46,242 --> 00:02:49,385
+Grazie, e ci vediamo alla prossima lezione.

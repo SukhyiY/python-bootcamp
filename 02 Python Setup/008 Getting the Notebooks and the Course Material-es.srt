@@ -1,0 +1,151 @@
+1
+00:00:05,550 --> 00:00:09,990
+Todo el mundo que solo quería tomar esta conferencia enseñó rápidamente cómo se pueden descargar los cuadernos del
+
+2
+00:00:09,990 --> 00:00:13,490
+curso y abrirlos en su computadora en caso de que tenga algún problema con eso.
+
+3
+00:00:13,500 --> 00:00:17,400
+Si ya ha podido hacer eso solo desde los enlaces de la conferencia FNQ o la conferencia de
+
+4
+00:00:17,400 --> 00:00:19,590
+descripción general del curso, siéntase libre de saltearse esta conferencia.
+
+5
+00:00:19,890 --> 00:00:24,870
+Pero básicamente todo lo que voy a hacer aquí es mostrarle cómo puede descargar las notas
+
+6
+00:00:25,200 --> 00:00:26,090
+de nuestra página.
+
+7
+00:00:26,190 --> 00:00:30,570
+Por lo tanto, debería haber visto una pequeña ventana emergente azul con un enlace de recursos y ese enlace de
+
+8
+00:00:30,570 --> 00:00:35,010
+recursos lo llevará a la página para obtener datos de un período y el campo de entrenamiento completo de Python 3.
+
+9
+00:00:35,010 --> 00:00:36,260
+Así que ve a este enlace de recursos.
+
+10
+00:00:36,300 --> 00:00:41,310
+Puede escribirlo manualmente en la búsqueda de Google o simplemente usar la pequeña ventana emergente azul que sucede cuando
+
+11
+00:00:41,310 --> 00:00:42,510
+está viendo esta conferencia.
+
+12
+00:00:42,520 --> 00:00:44,310
+Así que pasemos a ese enlace.
+
+13
+00:00:44,310 --> 00:00:50,040
+De acuerdo, aquí estamos en el repositorio de concentradores y básicamente se trata de un repositorio en línea al que puede
+
+14
+00:00:50,130 --> 00:00:54,960
+acceder para obtener las notas del curso que verá aquí cómo se organizan las notas del curso.
+
+15
+00:00:54,960 --> 00:00:59,700
+numerado por sección y luego dentro de las secciones verás las libretas en sí y las
+
+16
+00:00:59,700 --> 00:01:06,150
+libretas se titulan ambas para que el título de la conferencia coincida lo mejor posible con el título de la nota.
+
+17
+00:01:06,150 --> 00:01:07,180
+Básicamente lo tenemos
+
+18
+00:01:07,290 --> 00:01:10,500
+Y luego también los tenemos numerados para que pueda revisarlos en orden.
+
+19
+00:01:10,710 --> 00:01:14,610
+Entonces, por ejemplo, cuando estás aprendiendo acerca de cuatro bucles continúas y haces clic aquí
+
+20
+00:01:14,610 --> 00:01:20,310
+en cuatro bucles y esto eventualmente cargará el notebook y notarás que es un archivo IPY y B, pero una vez que
+
+21
+00:01:20,310 --> 00:01:22,870
+hayas cargado el portátil, deberías ver muchas cosas útiles. información aquí.
+
+22
+00:01:22,890 --> 00:01:25,020
+Y luego el código real en sí.
+
+23
+00:01:25,020 --> 00:01:29,800
+Ahora, si desea ejecutar estos cuadernos en su computadora donde tiene que hacer, descargue este repositorio.
+
+24
+00:01:29,820 --> 00:01:34,110
+aquí, haga clic y complete el bootcamp de Python 3 y hay diferentes formas de descargar este repositorio.
+
+25
+00:01:34,110 --> 00:01:34,920
+Así que volveremos
+
+26
+00:01:34,920 --> 00:01:40,130
+Si ya está familiarizado, puede crear este depósito y luego tenerlo en su
+
+27
+00:01:40,220 --> 00:01:40,850
+propia casa.
+
+28
+00:01:40,890 --> 00:01:46,170
+Tenga en cuenta que estamos actualizando constantemente esto, pero también podemos hacer solo para obtener los archivos localmente.
+
+29
+00:01:46,200 --> 00:01:50,790
+Haga clic aquí donde dice clonar o descargar y luego haga clic en descargas zip
+
+30
+00:01:50,790 --> 00:01:56,460
+y descargará un archivo comprimido que luego podrá descomprimir y que tendrá todo el API y archivos a los
+
+31
+00:01:56,550 --> 00:01:58,530
+que podrá acceder utilizando su navegador anaconda.
+
+32
+00:01:58,710 --> 00:02:01,130
+Como mostramos en la lectura del código de Python.
+
+33
+00:02:01,230 --> 00:02:01,520
+Todo bien.
+
+34
+00:02:01,530 --> 00:02:03,840
+Es solo una descripción muy rápida de cómo obtener las notas.
+
+35
+00:02:03,870 --> 00:02:08,040
+Si alguna vez tienes alguna pregunta al respecto, no dudes en publicar los foros de preguntas y respuestas, pero
+
+36
+00:02:08,160 --> 00:02:12,060
+definitivamente echa un vistazo a la conferencia fakie donde tenemos instrucciones más detalladas sobre cómo hacer todo esto.
+
+37
+00:02:12,060 --> 00:02:13,230
+OK, gracias a todos.
+
+38
+00:02:13,260 --> 00:02:14,370
+Nos vemos en la próxima conferencia.

@@ -1,0 +1,1035 @@
+1
+00:00:05,720 --> 00:00:06,940
+Welcome back everyone.
+
+2
+00:00:06,950 --> 00:00:12,340
+By now we've learned about the command line basics and we also have installed Python onto our computer.
+
+3
+00:00:12,350 --> 00:00:17,130
+It's time to actually run our first piece of Python code before we do that.
+
+4
+00:00:17,240 --> 00:00:21,470
+I want to discuss this several different ways you can run Python code and the various options there
+
+5
+00:00:21,470 --> 00:00:24,570
+are for developing environments for Python.
+
+6
+00:00:24,800 --> 00:00:26,660
+And there's three main types of environments.
+
+7
+00:00:26,690 --> 00:00:31,220
+And what I mean by environments is the actual thing you're going to be typing Python code into.
+
+8
+00:00:31,370 --> 00:00:36,300
+And the three options are text editors full IDs which stands for Integrated Development Environment.
+
+9
+00:00:36,410 --> 00:00:38,780
+And then there's no book environments.
+
+10
+00:00:38,780 --> 00:00:40,760
+So let's start off with text editors.
+
+11
+00:00:40,760 --> 00:00:46,340
+Text editors are just general editors for any text file and that is to say they're designed than a general
+
+12
+00:00:46,340 --> 00:00:49,760
+format where they can open a text file a thought PI script.
+
+13
+00:00:49,790 --> 00:00:52,910
+H tim l file a Jaspal for javascript.
+
+14
+00:00:52,910 --> 00:00:58,280
+Just any variety of file types you'll be able to open them up and edit them and they can also be customized
+
+15
+00:00:58,280 --> 00:00:59,760
+with plug ins and add ons.
+
+16
+00:00:59,900 --> 00:01:05,840
+And because of that and their general format they actually aren't designed with only Python in mind.
+
+17
+00:01:05,840 --> 00:01:11,100
+So you're going to sacrifice a little bit of Python specific functionality things like autocomplete
+
+18
+00:01:11,120 --> 00:01:16,310
+for Python or looking up things that documentation automatically for Python.
+
+19
+00:01:16,310 --> 00:01:19,790
+Those typically won't be included directly with the text editor.
+
+20
+00:01:19,820 --> 00:01:24,370
+Instead you'll have to download them with a plugin or some other add on for text editors.
+
+21
+00:01:24,380 --> 00:01:26,370
+Keep in mind there's tons of plugins out there.
+
+22
+00:01:26,510 --> 00:01:28,620
+And Python is such a popular programming language.
+
+23
+00:01:28,730 --> 00:01:33,950
+You can pretty much find any plugin you want already created for you for the text editors you're working
+
+24
+00:01:33,950 --> 00:01:34,500
+with.
+
+25
+00:01:34,700 --> 00:01:40,160
+And the most popular text editors on the market are sublime texts and Adam and those are both free technically
+
+26
+00:01:40,160 --> 00:01:45,620
+Sublime Text isn't unlimited use free license that you can eventually pay for if you like the product.
+
+27
+00:01:45,620 --> 00:01:50,760
+Adam is an open source text editor from Hub which is completely free and it's open source.
+
+28
+00:01:50,900 --> 00:01:55,610
+And later on in this lecture we'll be showing you how to download Sublime Text and running Python scripts
+
+29
+00:01:55,640 --> 00:01:57,010
+with Sublime Text.
+
+30
+00:01:57,050 --> 00:02:01,940
+So that's one option that text editor and other really popular option especially if you're working at
+
+31
+00:02:01,940 --> 00:02:04,640
+a company is a full integrated development environment.
+
+32
+00:02:04,940 --> 00:02:10,030
+And these are the vellum environments that are designed specifically for use cases with Python and their
+
+33
+00:02:10,040 --> 00:02:11,000
+larger programs.
+
+34
+00:02:11,000 --> 00:02:13,760
+What I mean by larger is that it's a larger file size.
+
+35
+00:02:13,880 --> 00:02:18,830
+The text editors from before those are actually very lightweight programs that you end up adding more
+
+36
+00:02:18,830 --> 00:02:21,930
+and more to them as you want more plugins ease.
+
+37
+00:02:21,980 --> 00:02:23,530
+They come with everything already.
+
+38
+00:02:23,750 --> 00:02:29,030
+So they have larger programs and because they're IDs it means there's actually a team of developers
+
+39
+00:02:29,030 --> 00:02:33,620
+or a company behind it being paid to add new features to the environments.
+
+40
+00:02:33,620 --> 00:02:38,810
+And because of that there is typically a pro version and a community version where only the community
+
+41
+00:02:39,110 --> 00:02:44,990
+is free and the version that has more features maybe they'll have more features for Gengel web frameworks
+
+42
+00:02:44,990 --> 00:02:47,880
+or web development help those you have to pay for.
+
+43
+00:02:47,980 --> 00:02:53,300
+The communications are free however and the pro about this is that they're designed specifically for
+
+44
+00:02:53,300 --> 00:02:58,160
+Python they have lots of extra functionality to help with your Python code but they are a little more
+
+45
+00:02:58,160 --> 00:03:01,720
+bloated a little larger and it kind of depends on what your workflow style is.
+
+46
+00:03:01,850 --> 00:03:08,140
+If you like this approach or not the most popular ideas for Python are probably pie chart.
+
+47
+00:03:08,150 --> 00:03:09,630
+That's definitely the biggest one out there.
+
+48
+00:03:09,650 --> 00:03:11,720
+And then spider is another popular one.
+
+49
+00:03:11,720 --> 00:03:16,160
+Spiders are really popular for people coming in from matlab into Python.
+
+50
+00:03:16,160 --> 00:03:20,170
+Finally let's talk about notebook environments and notebook environments.
+
+51
+00:03:20,240 --> 00:03:23,540
+Is the environment we're going to be using for the majority of this course.
+
+52
+00:03:23,570 --> 00:03:29,240
+Later on we'll move away from notebooks and move towards larger scripts but to start off with we'll
+
+53
+00:03:29,240 --> 00:03:30,260
+go the notebooks.
+
+54
+00:03:30,260 --> 00:03:33,410
+And that's because in my opinion they're really great for learning.
+
+55
+00:03:33,560 --> 00:03:38,270
+And the main thing here is that you get to see your input code and your output of the code right next
+
+56
+00:03:38,270 --> 00:03:43,340
+to each other and you get to see multiple inputs and outputs all in one nice notebook.
+
+57
+00:03:43,460 --> 00:03:48,530
+And this is because notebooks use blocks of code that are referred to as cells.
+
+58
+00:03:48,620 --> 00:03:54,200
+So you can split up your code into different cells and then run pieces of your code by running individual
+
+59
+00:03:54,200 --> 00:03:58,760
+cells and you get to immediately see the output that's different than the approach taken with a text
+
+60
+00:03:58,760 --> 00:04:03,470
+editor or development environment where we develop kind of a larger script first and then run that script
+
+61
+00:04:03,470 --> 00:04:05,120
+at the command line.
+
+62
+00:04:05,210 --> 00:04:09,540
+That's really great when you do have larger pieces of code that need to interact with each other.
+
+63
+00:04:09,680 --> 00:04:13,670
+But when you're just starting off you kind of want to quickly be able to type something in and see the
+
+64
+00:04:13,670 --> 00:04:18,230
+output which is why note book environment is really great for learning there are things that differentiate
+
+65
+00:04:18,230 --> 00:04:23,810
+a notebook environment is that they support inline markdown notes so you can write yourself different
+
+66
+00:04:23,930 --> 00:04:28,040
+pieces of notes so just normal text is what we mean by marked on notes.
+
+67
+00:04:28,100 --> 00:04:32,880
+And actually the notebooks we provide for this course have a lot of explanatory text for you.
+
+68
+00:04:32,900 --> 00:04:37,760
+So you essentially get a book along with the videos that go over this course and they also support things
+
+69
+00:04:37,760 --> 00:04:41,190
+like visualisations images videos and a lot more.
+
+70
+00:04:41,270 --> 00:04:46,160
+And because they support all these extra things they actually have their own special file format that
+
+71
+00:04:46,160 --> 00:04:48,060
+are not a pie script.
+
+72
+00:04:48,110 --> 00:04:53,030
+And because of that typically if you see a pie script on your computer you can double click on it and
+
+73
+00:04:53,030 --> 00:04:59,180
+some sort of text editor will automatically open the pie script because notebooks are able to support
+
+74
+00:04:59,330 --> 00:05:00,660
+all of this extra stuff.
+
+75
+00:05:00,710 --> 00:05:08,150
+They have their own notebook format which is extension IPY and be stood for Python notebook and because
+
+76
+00:05:08,150 --> 00:05:11,740
+of that special format you can actually double click on a notebook file.
+
+77
+00:05:11,780 --> 00:05:14,900
+You need to launch it using the Jupiter notebook launcher.
+
+78
+00:05:15,050 --> 00:05:20,760
+So the notebook is pretty much the most popular and it's almost the only notebook environment for Python
+
+79
+00:05:20,760 --> 00:05:25,260
+because of how popular is but it's getting more and more popular especially in fields of data science
+
+80
+00:05:25,320 --> 00:05:30,330
+and machine learning because you can see visualizations and your code input right next the output.
+
+81
+00:05:30,510 --> 00:05:32,900
+So we're going to be using that first to start learning.
+
+82
+00:05:33,150 --> 00:05:37,680
+But the most part here is that development environments are actually a very personal choice and it's
+
+83
+00:05:37,680 --> 00:05:40,040
+really highly dependent on your personal preference.
+
+84
+00:05:40,050 --> 00:05:44,760
+So if Python's not your first language and you're already used to using subline text editor or maybe
+
+85
+00:05:44,760 --> 00:05:49,410
+you've already used pite term at work and you have the pro version there and you want to prefer to use
+
+86
+00:05:49,410 --> 00:05:52,630
+those developed environments please feel free to do so.
+
+87
+00:05:52,650 --> 00:05:56,610
+All the code we show is going to work in any development environment that you choose.
+
+88
+00:05:56,640 --> 00:06:01,170
+So really after you see this lecture choose whatever development environment you prefer we provide the
+
+89
+00:06:01,170 --> 00:06:07,880
+notes as IPY and the files that you can easily convert them or download them as HTML files or that by
+
+90
+00:06:07,890 --> 00:06:14,650
+scripts and all the code we show the videos runs the same regardless of what environment you're using.
+
+91
+00:06:14,800 --> 00:06:15,130
+OK.
+
+92
+00:06:15,150 --> 00:06:17,360
+So let's now explore how to run Python code.
+
+93
+00:06:17,550 --> 00:06:19,150
+We're first going to start with an editor.
+
+94
+00:06:19,170 --> 00:06:23,160
+So we'll download the sublime text editor and we'll show you how you can create a simple postscript
+
+95
+00:06:23,220 --> 00:06:24,990
+and run the file your command line.
+
+96
+00:06:25,020 --> 00:06:28,210
+Then we're going to show how to run the same code of a Jupiter notebook.
+
+97
+00:06:28,470 --> 00:06:34,470
+So do all this we first need to download sometimes a text editor so go to w w w that Sublime Text dot
+
+98
+00:06:34,470 --> 00:06:36,560
+com and we'll see there.
+
+99
+00:06:36,660 --> 00:06:36,990
+All right.
+
+100
+00:06:36,990 --> 00:06:39,570
+Here we are at Sublime Text dot com.
+
+101
+00:06:39,630 --> 00:06:43,920
+And typically it will all of the technical Will operating system you're on and it will have a little
+
+102
+00:06:43,920 --> 00:06:47,720
+button for you saying download for OS Linux or Windows.
+
+103
+00:06:47,730 --> 00:06:52,620
+It's a very simple text editor and it's probably the most popular text editor in the world.
+
+104
+00:06:52,980 --> 00:06:55,560
+And it has a really interesting pricing scheme.
+
+105
+00:06:55,560 --> 00:07:01,530
+It's technically not free but they give you an unlimited free trial where they will just have a little
+
+106
+00:07:01,530 --> 00:07:06,220
+pop up every once in a while asking you if you're ready to upgrade to buy it.
+
+107
+00:07:06,240 --> 00:07:11,990
+So again it's technically not free but it has an unlimited free trial for the rest of your life.
+
+108
+00:07:12,030 --> 00:07:15,970
+It will just have a little pop up asking you to purchase the full license.
+
+109
+00:07:16,080 --> 00:07:22,350
+So click here on download and then select the download for your operating system either OS X Windows
+
+110
+00:07:22,400 --> 00:07:24,830
+when the 64 bit or Linux.
+
+111
+00:07:24,840 --> 00:07:29,220
+So typically what you should do is just go to the home page and then click whatever download that out
+
+112
+00:07:29,220 --> 00:07:30,940
+of the text for you.
+
+113
+00:07:31,090 --> 00:07:34,900
+Once you've downloaded it we'll go ahead and open the Sublime Text Editor.
+
+114
+00:07:35,680 --> 00:07:41,380
+Once you've downloaded and installed subline text you should be able to search your computer for Sublime
+
+115
+00:07:41,470 --> 00:07:42,250
+Text.
+
+116
+00:07:42,310 --> 00:07:42,900
+Click on it.
+
+117
+00:07:43,030 --> 00:07:46,440
+Open it up and it will look something like this.
+
+118
+00:07:46,570 --> 00:07:53,510
+Next what we're going to do is actually type out some Python code and then save this as a dot PI script.
+
+119
+00:07:53,550 --> 00:07:55,480
+Go ahead and type prints.
+
+120
+00:07:55,530 --> 00:08:03,910
+Open and close parentheses and then in single quotes or double quotes hello world and this will be your
+
+121
+00:08:03,910 --> 00:08:11,500
+first Python script and then select File Save As and the reason we're doing that is if you notice right
+
+122
+00:08:11,500 --> 00:08:18,460
+now there's no syntax highlighting that is to say everything is the same color for this font so sublime
+
+123
+00:08:18,460 --> 00:08:21,700
+text editor doesn't actually know that this is a Python script.
+
+124
+00:08:21,820 --> 00:08:24,330
+What we want to do is save it as.
+
+125
+00:08:24,520 --> 00:08:29,670
+And we're going to call this file my example.
+
+126
+00:08:31,650 --> 00:08:37,170
+And you'll notice if you click on all files you have lots of extensions to choose from.
+
+127
+00:08:37,170 --> 00:08:40,870
+We're going to choose to save it as a python file.
+
+128
+00:08:40,950 --> 00:08:44,330
+So you're going to say my example save as a python file.
+
+129
+00:08:44,400 --> 00:08:51,740
+The other option you can do is just select all files and then say my example and yourself right.
+
+130
+00:08:51,830 --> 00:08:52,460
+PI.
+
+131
+00:08:52,740 --> 00:08:54,720
+Either way is fine.
+
+132
+00:08:54,720 --> 00:08:57,530
+Go ahead and save it making sure it's a dot PI file.
+
+133
+00:08:57,570 --> 00:09:03,390
+Hit save and now you'll notice subline text editor understands that it's a python script file and it's
+
+134
+00:09:03,540 --> 00:09:07,020
+performed syntax highlighting to help you read this.
+
+135
+00:09:07,020 --> 00:09:08,180
+Print is a function.
+
+136
+00:09:08,220 --> 00:09:13,350
+Hello world is a string and we're going to be learning a lot more about that and Python in general later
+
+137
+00:09:13,350 --> 00:09:18,450
+on in your training for now let's see how to actually run this script.
+
+138
+00:09:18,450 --> 00:09:22,560
+Remember that we've saved that to our desktop meaning at our command line.
+
+139
+00:09:22,650 --> 00:09:27,420
+We need to change directories to our desktop so we can run the sexual up-I file.
+
+140
+00:09:27,420 --> 00:09:31,440
+Go ahead and open up your command line.
+
+141
+00:09:31,500 --> 00:09:34,200
+Since I'm on Windows I will open up a command prompt.
+
+142
+00:09:34,230 --> 00:09:41,820
+If your a Mac OS or Linux you'll open up a terminal then you'll want to change directory to your actual
+
+143
+00:09:41,940 --> 00:09:52,420
+desktop or wherever you say stop by file type CD and then desktop to change directory to your desktop
+
+144
+00:09:52,960 --> 00:10:00,190
+and then what you should be able to do is type out Python space and then begin typing up the name of
+
+145
+00:10:00,190 --> 00:10:00,970
+your file.
+
+146
+00:10:00,970 --> 00:10:07,120
+In my case it was example that pi and to prove to yourself that were in the correct location you should
+
+147
+00:10:07,120 --> 00:10:09,730
+be able to hit tab and it will autocomplete.
+
+148
+00:10:09,730 --> 00:10:10,870
+So here we say Python.
+
+149
+00:10:10,870 --> 00:10:17,620
+My example does PI and this is how you can run a dot PI script at your command line enter.
+
+150
+00:10:17,740 --> 00:10:18,910
+Then you should be able to see.
+
+151
+00:10:19,000 --> 00:10:20,630
+Hello world.
+
+152
+00:10:20,710 --> 00:10:26,950
+Now you successfully created a Python script in your text editor and you ran that script at your command
+
+153
+00:10:26,950 --> 00:10:27,470
+line.
+
+154
+00:10:28,280 --> 00:10:34,200
+Well you can also do is just type python by itself at your command line enter.
+
+155
+00:10:34,340 --> 00:10:41,510
+And this is a very simple direct connection to Python allowing you to type python code directly at your
+
+156
+00:10:41,510 --> 00:10:42,560
+command line.
+
+157
+00:10:42,590 --> 00:10:47,390
+We won't really be using this throughout your training because it's only one line at a time and eventually
+
+158
+00:10:47,390 --> 00:10:51,880
+we'll be using and learning about writing more than one line at a time for code.
+
+159
+00:10:51,890 --> 00:10:56,050
+You can also just check it out type print Hello
+
+160
+00:10:58,650 --> 00:11:01,360
+enter in your notice you have hello as the output.
+
+161
+00:11:01,440 --> 00:11:03,410
+So there's basically one line at a time.
+
+162
+00:11:03,540 --> 00:11:10,620
+You can write Python code then we can type quits open and close parentheses enter and we've quit out
+
+163
+00:11:10,620 --> 00:11:13,370
+of the Python interpreter.
+
+164
+00:11:13,410 --> 00:11:13,920
+All right.
+
+165
+00:11:14,160 --> 00:11:18,470
+So we just learned how to actually run a Python script at your command line.
+
+166
+00:11:18,480 --> 00:11:23,250
+Now let's explore the Jupiter notebook environment and see how that works to do so.
+
+167
+00:11:23,310 --> 00:11:30,660
+We'll go to our Anaconda Navigator so search your computer for Anaconda navigator.
+
+168
+00:11:30,700 --> 00:11:36,910
+Open that up and then once you've done that go ahead and launch the Jupiter notebook once you click
+
+169
+00:11:36,910 --> 00:11:43,540
+on that launch button you should notice that your browser automatically opens up to localhost colon
+
+170
+00:11:43,720 --> 00:11:50,080
+either 8 8 8 8 or 8 8 8 9 or some other series of numbers.
+
+171
+00:11:50,080 --> 00:11:56,470
+Keep in mind that while Jupiter notebook does operate inside of your browser it does not require an
+
+172
+00:11:56,530 --> 00:11:57,580
+internet connection.
+
+173
+00:11:57,610 --> 00:11:59,590
+Everything is happening locally.
+
+174
+00:11:59,620 --> 00:12:04,070
+There's no Internet connection between Jupiter and some other server somewhere.
+
+175
+00:12:04,090 --> 00:12:10,570
+It just happens to open up and operate in your browser as a convenient graphical interface for you to
+
+176
+00:12:10,570 --> 00:12:12,110
+program in.
+
+177
+00:12:12,130 --> 00:12:18,200
+So once you launch Jupiter notebook he'll notice that you can view all the files on your computer.
+
+178
+00:12:18,200 --> 00:12:24,320
+For example we can click here on the desktop folder and now I can see that my example that postscript
+
+179
+00:12:24,380 --> 00:12:30,530
+we had just created earlier and using a deeper and opaque system you can actually add on and edit that
+
+180
+00:12:30,530 --> 00:12:31,460
+PI files.
+
+181
+00:12:31,460 --> 00:12:34,530
+So for example we could add on another print statement here.
+
+182
+00:12:35,490 --> 00:12:42,260
+Knew and then save this change so we could say saved and then we could also download or rename the file
+
+183
+00:12:42,500 --> 00:12:47,240
+and a bunch of other stuff but we're not going to be using Jupiter for this sort of text editing.
+
+184
+00:12:47,270 --> 00:12:49,440
+It's probably better to use subline text editor.
+
+185
+00:12:49,490 --> 00:12:51,680
+But again it's personal preference.
+
+186
+00:12:51,680 --> 00:12:56,570
+What we're really going to be using Jupiter and Jupiter for is the notebook system so you can click
+
+187
+00:12:56,570 --> 00:13:01,310
+here where it says new and under note book you should see Python 3.
+
+188
+00:13:01,460 --> 00:13:04,030
+Sometimes it says the root or something else.
+
+189
+00:13:04,040 --> 00:13:05,940
+But click on what it says under a notebook.
+
+190
+00:13:05,990 --> 00:13:08,740
+Typically it says Python 3.
+
+191
+00:13:08,960 --> 00:13:11,530
+And then you'll notice that we just started a new notebook.
+
+192
+00:13:11,630 --> 00:13:15,200
+So let's have a quick overview of what this actually is.
+
+193
+00:13:15,200 --> 00:13:16,460
+Here it says untitled.
+
+194
+00:13:16,460 --> 00:13:19,840
+And that's because this notebook that we just created doesn't actually have a title.
+
+195
+00:13:19,970 --> 00:13:25,610
+And if we click back here to this other tab you'll notice we just created an untitled dot IPY and B
+
+196
+00:13:25,610 --> 00:13:32,060
+file that stands for Python notebook file Jupiter notebooks used to be called I Python notebooks so
+
+197
+00:13:32,060 --> 00:13:34,330
+they kept the file extension name.
+
+198
+00:13:34,560 --> 00:13:40,700
+And if we want to change this name all we have to do is go back to this tab select title and give her
+
+199
+00:13:40,740 --> 00:13:49,200
+notebook a new name so we will say my first notebook to enter and we have renamed the notebook as well
+
+200
+00:13:49,260 --> 00:13:50,510
+as the actual file.
+
+201
+00:13:50,520 --> 00:13:55,560
+You'll notice now it says my first notebook the python notebook extension.
+
+202
+00:13:55,560 --> 00:14:02,670
+So coming back to this notebook the notebook uses a cell based system meaning you write code in a cell.
+
+203
+00:14:02,790 --> 00:14:05,520
+You run the cell and then see the actual output.
+
+204
+00:14:05,520 --> 00:14:07,050
+Right below the cell.
+
+205
+00:14:07,050 --> 00:14:13,530
+So let's try running or simple print statement inside of a cell type print but then close print sees
+
+206
+00:14:14,110 --> 00:14:14,790
+Hello.
+
+207
+00:14:14,940 --> 00:14:19,690
+And you notice that Jupiter autocomplete somethings for you such as quotes or parentheses.
+
+208
+00:14:19,860 --> 00:14:21,660
+And then we can run the cell.
+
+209
+00:14:21,830 --> 00:14:26,730
+So you can click here on the run button and it will run the cell and you'll see the output directly
+
+210
+00:14:26,730 --> 00:14:27,780
+below.
+
+211
+00:14:27,780 --> 00:14:32,520
+This is a great system for people who are just starting to learn about Python because they quickly iterate
+
+212
+00:14:32,850 --> 00:14:37,350
+and fix mistakes because they have their code and they can see the output directly.
+
+213
+00:14:37,410 --> 00:14:41,460
+They don't have to be constantly going to the command line and running their scripts again.
+
+214
+00:14:41,520 --> 00:14:45,660
+It's definitely a personal preference but this is a nice feature of the notebook for people that are
+
+215
+00:14:45,660 --> 00:14:46,910
+learning Python.
+
+216
+00:14:47,190 --> 00:14:52,420
+And you notice that we automatically create other cell below which you can type more Python code in
+
+217
+00:14:52,900 --> 00:14:55,070
+for example print new.
+
+218
+00:14:55,270 --> 00:15:01,840
+And if you don't want to have to click that run button every time all you have to do is do shift enter
+
+219
+00:15:02,650 --> 00:15:04,400
+and that will run a cell again.
+
+220
+00:15:04,420 --> 00:15:07,140
+That's shift enter to run a cell.
+
+221
+00:15:07,210 --> 00:15:11,140
+If you just enter by itself you'll just create more new lines.
+
+222
+00:15:11,170 --> 00:15:13,830
+So it's shift enter to run a cell.
+
+223
+00:15:13,840 --> 00:15:20,350
+There's lots of other useful hockeys where you can click on Help and then hit keyboard shortcuts and
+
+224
+00:15:20,350 --> 00:15:22,480
+it will list all the keyboard shortcuts.
+
+225
+00:15:22,600 --> 00:15:28,240
+The most useful ones will be teaching you later on but you can always explore that yourself.
+
+226
+00:15:28,240 --> 00:15:33,730
+Now we also discussed that the notebook system can actually hold mark down text that is just normal
+
+227
+00:15:33,730 --> 00:15:39,100
+text that is not code that you can't just use for yourself to type out notes as you're learning throughout
+
+228
+00:15:39,100 --> 00:15:40,820
+this bootcamp.
+
+229
+00:15:40,850 --> 00:15:45,830
+So if you click on a cell you'll notice here it says code and that's because this is currently a python
+
+230
+00:15:45,830 --> 00:15:50,120
+code cell if you want to make it into just a normal markdown cell.
+
+231
+00:15:50,240 --> 00:15:53,150
+Select from the dropdown marked down.
+
+232
+00:15:53,180 --> 00:15:55,640
+And now this is no longer a code cell.
+
+233
+00:15:55,750 --> 00:15:59,610
+It's just a cell that will just have normal text in it.
+
+234
+00:15:59,720 --> 00:16:03,570
+And you'll notice that it no longer has this in right in front of the cell.
+
+235
+00:16:03,590 --> 00:16:06,180
+So that also indicates that it's just for normal text.
+
+236
+00:16:06,410 --> 00:16:14,420
+So here you can write yourself just notes that will help you understand and if you do shift enter it
+
+237
+00:16:14,420 --> 00:16:16,580
+will then display them as just a normal text.
+
+238
+00:16:16,580 --> 00:16:21,710
+So again this is no longer code it's just text for yourself and a lot of the notebooks we provide throughout
+
+239
+00:16:21,710 --> 00:16:25,580
+your training will have marked down text as explanation.
+
+240
+00:16:25,690 --> 00:16:31,580
+And if you ever want to write another code so you can just sit on a cell and then make sure that selected
+
+241
+00:16:31,580 --> 00:16:35,230
+code should be able to print whatever you want here.
+
+242
+00:16:35,390 --> 00:16:36,600
+Shift and turret's run that.
+
+243
+00:16:36,740 --> 00:16:41,380
+And that's the very basics we'll be talking a lot more about notebooks later on throughout your training.
+
+244
+00:16:41,510 --> 00:16:43,400
+But that's really the basics.
+
+245
+00:16:43,400 --> 00:16:51,020
+The last thing I want to note is that this special extension of the notebook file this IPY and B means
+
+246
+00:16:51,020 --> 00:16:55,910
+that you actually can't double click on this file on your computer and expect it to open.
+
+247
+00:16:55,910 --> 00:16:58,810
+So let me show you what I mean by that very quickly.
+
+248
+00:16:59,000 --> 00:17:04,880
+You'll notice that if I come to my desktop I can see here my example that pi and if I double click on
+
+249
+00:17:04,880 --> 00:17:09,080
+this it will actually open up in whatever default program I have for it.
+
+250
+00:17:09,080 --> 00:17:14,900
+Typically Sublime Text Editor or whatever other editors you have on your computer so you can double
+
+251
+00:17:14,900 --> 00:17:17,940
+click on that py files edit them and work with them.
+
+252
+00:17:17,960 --> 00:17:24,530
+However if you tried double clicking on a IPY and B file you'll end up getting something asking you
+
+253
+00:17:24,530 --> 00:17:29,300
+how do you want to open this file or it will just kind of open up and you'll just see a bunch of scrambled
+
+254
+00:17:29,300 --> 00:17:30,110
+code.
+
+255
+00:17:30,410 --> 00:17:36,580
+That means that you can only open the special notebook files through the Jupiter notebook system still
+
+256
+00:17:36,590 --> 00:17:42,320
+have to open up Anaconda navigator launch of Jupiter notebook and then actually find it throughout your
+
+257
+00:17:42,320 --> 00:17:44,820
+computer and click on it.
+
+258
+00:17:44,840 --> 00:17:47,980
+All right that's the very basics of running Python code.
+
+259
+00:17:48,200 --> 00:17:49,870
+It's time to actually learn Python.

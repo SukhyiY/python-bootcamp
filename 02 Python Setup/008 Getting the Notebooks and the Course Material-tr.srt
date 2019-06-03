@@ -1,0 +1,151 @@
+1
+00:00:05,550 --> 00:00:09,990
+Herkes sadece bu dersi alıp, ders not defterlerini nasıl indirebileceğinizi ve bununla ilgili herhangi bir
+
+2
+00:00:09,990 --> 00:00:13,490
+sorun yaşamanız durumunda bilgisayarınızda nasıl açabileceğinizi hızlı bir şekilde göstermek istedim.
+
+3
+00:00:13,500 --> 00:00:17,400
+Bunu zaten yapabildiyseniz, sadece FNQ dersinden ya da Course overview dersinden
+
+4
+00:00:17,400 --> 00:00:19,590
+bağlantılar ile bu dersi atlamaktan çekinmeyin.
+
+5
+00:00:19,890 --> 00:00:24,870
+Ancak temel olarak burada yapacağımız tek şey, sayfalardan notları nasıl
+
+6
+00:00:25,200 --> 00:00:26,090
+indirebileceğinizi göstereceğim.
+
+7
+00:00:26,190 --> 00:00:30,570
+Dolayısıyla, kaynak bağlantısıyla küçük bir mavi açılır pencere görmüş olmalıydı ve
+
+8
+00:00:30,570 --> 00:00:35,010
+bu kaynak bağlantısı, dönem verileri ve tam Python 3 bootcamp sayfasını götürecektir.
+
+9
+00:00:35,010 --> 00:00:36,260
+Dolayısıyla bu kaynak bağlantısına gidin.
+
+10
+00:00:36,300 --> 00:00:41,310
+Elle Google araması yaparak yazabilir ya da bu dersi izlerken ortaya çıkan küçük
+
+11
+00:00:41,310 --> 00:00:42,510
+mavi pencereyi kullanabilirsiniz.
+
+12
+00:00:42,520 --> 00:00:44,310
+O zaman bağlantıya geçelim.
+
+13
+00:00:44,310 --> 00:00:50,040
+Tamam, o zaman burada o merkez deposundayız ve bu temel olarak, ders notlarının nasıl organize
+
+14
+00:00:50,130 --> 00:00:54,960
+edildiğini göreceğiniz gerçek ders notlarını elde etmek için erişebileceğiniz bir online havuzdur.
+
+15
+00:00:54,960 --> 00:00:59,700
+göre numaralandırdık ve daha sonra bölümlerin içinde defterleri göreceksiniz ve dizüstü bilgisayarların
+
+16
+00:00:59,700 --> 00:01:06,150
+her ikisine de başlıkları konacak ve böylece öğretim görevlisinin başlığı ile not defteri başlığına en iyi eşleşecek.
+
+17
+00:01:06,150 --> 00:01:07,180
+Temel olarak bölümlere
+
+18
+00:01:07,290 --> 00:01:10,500
+Ve onlara sırayla numaralandırılmış sayılırız, böylece sırayla geçebilirsiniz.
+
+19
+00:01:10,710 --> 00:01:14,610
+Mesela dört döngüden öğrendiğinizde ilerlemeye devam edin ve dört döngü üzerine tıklayın
+
+20
+00:01:14,610 --> 00:01:20,310
+ve bu sonunda dizüstü bilgisayarı yükleyecek ve IPY ve B dosyasının nasıl olduğunu göreceksiniz ancak bir kez
+
+21
+00:01:20,310 --> 00:01:22,870
+dizüstü bilgisayarınız yüklendiyse çok faydalı burada bilgi.
+
+22
+00:01:22,890 --> 00:01:25,020
+Ve sonra gerçek kod kendisi.
+
+23
+00:01:25,020 --> 00:01:29,800
+Şimdi bu defterleri bilgisayarınıza çalıştırmak isterseniz, bu depoyu indirin.
+
+24
+00:01:29,820 --> 00:01:34,110
+tekrar gelip Python 3 bootcamp'ı tamamlayıp tamamlayacağız ve bu depoyu indirebileceğiniz farklı yollar var.
+
+25
+00:01:34,110 --> 00:01:34,920
+Bu yüzden buraya
+
+26
+00:01:34,920 --> 00:01:40,130
+Zaten tanıdıksanız, bu depoyu oluşturup sonra kendi evinizde rahatça
+
+27
+00:01:40,220 --> 00:01:40,850
+hissedebilirsiniz.
+
+28
+00:01:40,890 --> 00:01:46,170
+Bunu sürekli olarak güncellediğimizi unutmayın, ancak dosyaları yerel olarak almamız için de elimizden geleni yapabiliriz.
+
+29
+00:01:46,200 --> 00:01:50,790
+İndirilen dosyaların çoğunu indirip ardından downloads zip dosyasını tıkladığı yeri tıklayın ve buradan
+
+30
+00:01:50,790 --> 00:01:56,460
+bir zip dosyası indireceksiniz; buradan da unzip edebilirsiniz ve tüm IPY dosyalarınıza sahip olacaksınız ve anaconda
+
+31
+00:01:56,550 --> 00:01:58,530
+gezginini kullanarak erişebileceğiniz dosyalar olacaktır.
+
+32
+00:01:58,710 --> 00:02:01,130
+Çalışan Python kod dersinde gösterdiğimiz gibi.
+
+33
+00:02:01,230 --> 00:02:01,520
+Tamam.
+
+34
+00:02:01,530 --> 00:02:03,840
+Notları nasıl alacağınıza ilişkin çok hızlı bir genel bakış.
+
+35
+00:02:03,870 --> 00:02:08,040
+Bununla ilgili herhangi bir sorunuz olursa, Q &amp; A forumlarını yayınlamaya çekinmeyin, ancak
+
+36
+00:02:08,160 --> 00:02:12,060
+bunları nasıl yapacağınıza dair daha ayrıntılı talimatların bulunduğu fakie dersini mutlaka kontrol edin.
+
+37
+00:02:12,060 --> 00:02:13,230
+Tamam herkese teşekkürler.
+
+38
+00:02:13,260 --> 00:02:14,370
+Bir sonraki konuşmada görüşürüz.

@@ -1,0 +1,463 @@
+1
+00:00:05,690 --> 00:00:10,260
+Herkes komut satırınızı kullanma konusundaki bu kurs konferansına hoş geldiniz.
+
+2
+00:00:10,440 --> 00:00:15,330
+Python da dahil olmak üzere hiçbir şeyi yüklemeden önce, komut satırınızı nasıl çalıştıracağınıza ilişkin çok
+
+3
+00:00:15,600 --> 00:00:20,580
+hızlı bir genel bakışa sahip olmak gerçekten önemlidir ve komut satırı, temel olarak programlı olarak
+
+4
+00:00:20,820 --> 00:00:22,480
+bilgisayarınızın dizinleri arasında gezinmenizi sağlar.
+
+5
+00:00:22,500 --> 00:00:25,800
+Böylece, komut satırında Python komut dosyalarını çalıştırabilirsiniz.
+
+6
+00:00:26,960 --> 00:00:31,970
+Bu kısa derste, geçerli dizininizin nasıl bulunacağı, rektordaki tüm dosyaların dizininin nasıl
+
+7
+00:00:31,970 --> 00:00:37,050
+değiştirileceği ve dizinin nasıl değiştirileceği ve komut satırı ekranının nasıl temizleneceği anlatılacaktır.
+
+8
+00:00:38,360 --> 00:00:42,170
+şey, komutların işletim sisteminize göre biraz farklı olacağıdır.
+
+9
+00:00:42,170 --> 00:00:44,030
+Ancak anlamanız gereken bir
+
+10
+00:00:44,030 --> 00:00:49,700
+Bu nedenle Mac OS ve Linux kullanıcıları için bir Windows kullanıcısıysanız talimatlarınıza devam
+
+11
+00:00:50,060 --> 00:00:56,270
+edebilmek için videoda bu aşamaya geçin ve özel yönergelerinize atlamak için videoda bu zaman
+
+12
+00:00:56,270 --> 00:00:57,420
+damgasına atlayın.
+
+13
+00:00:57,440 --> 00:01:02,690
+Ve sonra komuta hattını geçtiğinde, kaza dersi devam et ve bir sonraki dersi devam ettir.
+
+14
+00:01:02,690 --> 00:01:08,030
+Yine, komutlar Linux ve Mac OS kullanıcıları ile Windows kullanıcıları arasında biraz farklı
+
+15
+00:01:08,030 --> 00:01:08,990
+olduğu için.
+
+16
+00:01:08,990 --> 00:01:09,330
+TAMAM.
+
+17
+00:01:09,350 --> 00:01:12,380
+Devam edin ve doğru zaman damgasına atlayın ve orada buluşalım.
+
+18
+00:01:12,380 --> 00:01:12,740
+Tamam.
+
+19
+00:01:12,740 --> 00:01:18,460
+Böylece, komut istemini bulmak için bilgisayarınızdaki windows komut satırı işlemlerini gözden geçirelim.
+
+20
+00:01:18,470 --> 00:01:21,200
+Tek yapmanız gereken CMD terimini aramaktır.
+
+21
+00:01:21,360 --> 00:01:25,880
+Ve CMD'de arama yaptığınızda komut istemi yoksa komut istemini en iyi
+
+22
+00:01:25,880 --> 00:01:27,000
+eşleşme olarak bulmalıyız.
+
+23
+00:01:27,290 --> 00:01:32,200
+Bunun yerine tüm ifade komut istemini arayın ve ardından komut istemi görmelisiniz.
+
+24
+00:01:32,390 --> 00:01:33,240
+Masaüstü uygulaması.
+
+25
+00:01:33,380 --> 00:01:37,910
+Komut isteminizi açtıktan sonra, buna benzer bir şey görmelisiniz.
+
+26
+00:01:37,910 --> 00:01:41,680
+Şu anda nerede olduğumuzu öğrenerek başlayalım.
+
+27
+00:01:41,720 --> 00:01:44,260
+Temel olarak mevcut dizinimiz nedir.
+
+28
+00:01:44,270 --> 00:01:49,640
+Bilgisayarımda etkileşim kurmak için komut satırını kullanabilir, ancak bilgisayarımdaki nerede olduğumu öğrenmem
+
+29
+00:01:49,640 --> 00:01:52,250
+gereken etkileşimleri gerçekte gerçekleştirmek için kullanabilirsiniz.
+
+30
+00:01:52,250 --> 00:01:57,200
+Temel olarak programlı olarak bilgisayarınızdaki dosya ve klasörler arasında
+
+31
+00:01:57,200 --> 00:01:58,520
+dolaşırken olarak düşünebilirsiniz.
+
+32
+00:01:58,850 --> 00:02:04,730
+CD girdisini yazabilir ve bu, geçerli dizininizi geri rapor edecektir.
+
+33
+00:02:04,730 --> 00:02:09,870
+Şimdi, komut isteminin aslında temelde size üzerinde olan dosya yolunu verdiğini farkedeceksiniz.
+
+34
+00:02:10,040 --> 00:02:14,630
+Ancak bazen bir dosya yolu gerçekten uzun veya sanal ortamlar veya kurulumlar gibi
+
+35
+00:02:14,630 --> 00:02:16,570
+daha karmaşık şeylerle uğraşıyorsunuz demektir.
+
+36
+00:02:16,580 --> 00:02:21,130
+CD yazarak mevcut dizini kontrol etmek her zaman iyi bir fikirdir.
+
+37
+00:02:21,380 --> 00:02:26,100
+Bazen Anaconda komut istemi gibi şeyler parantez içinde başka dizinlere sahip olacaklardır.
+
+38
+00:02:26,120 --> 00:02:32,390
+Geçerli dizini her zaman bir CD girişi yazarak doğrulayabilir ve bulunduğunuz yere geri bildirimde bulunur.
+
+39
+00:02:32,510 --> 00:02:36,530
+Bu yüzden şu an görevi bu kullanıcının klasörünün altındayım görebiliyorum.
+
+40
+00:02:36,920 --> 00:02:44,600
+dizinde bulunan tüm dosyaların ve klasörlerin nerede olduklarını bulmak istedim veya yazabilirim.
+
+41
+00:02:44,660 --> 00:02:45,200
+Bulunduğum
+
+42
+00:02:45,200 --> 00:02:46,970
+Ben
+
+43
+00:02:47,090 --> 00:02:47,810
+Gir gir.
+
+44
+00:02:47,930 --> 00:02:51,290
+Bu da dizininizin içeriğini geri bildirir.
+
+45
+00:02:51,290 --> 00:02:57,660
+Burada bir masaüstü dokümanı indirmenin yanı sıra bir nokta ile başlayan bazı gizli dosyaların da
+
+46
+00:02:57,660 --> 00:02:58,280
+olduğunu görebiliyorum.
+
+47
+00:02:58,550 --> 00:03:01,600
+Ama temel olarak bu, bu klasördeki her şeydir.
+
+48
+00:03:01,610 --> 00:03:06,920
+Kullanıcılara bak Marcio CCSB dosyalarının resimlerini aşağı kaydırabilirim.
+
+49
+00:03:06,920 --> 00:03:11,840
+Şimdi, bu alt klasörlerden birine geçmek istediğimi düşünelim.
+
+50
+00:03:11,870 --> 00:03:16,850
+Yapabileceğim CD yazıp sonra o klasörün adı.
+
+51
+00:03:16,880 --> 00:03:23,960
+Örneğin, dizinleri masaüstüm konumuna değiştirmek istedim, CD değişiklik dizin alanı yazabilir ve
+
+52
+00:03:23,960 --> 00:03:31,010
+masaüstünde isabet girer ve şimdi masaüstündeyim ve istersem masaüstündeyim onaylamak için CD
+
+53
+00:03:31,010 --> 00:03:34,600
+yazabilirim bu zafere geri dönün.
+
+54
+00:03:34,670 --> 00:03:42,800
+Tek yapmam gereken, girmek için boşluk nokta nokta veya dönem dönemini yazın ve bir dizine geri taşındım.
+
+55
+00:03:42,800 --> 00:03:46,190
+Şimdi aslında tüm dosya yolunu yazmanız gerekmiyor.
+
+56
+00:03:46,310 --> 00:03:54,210
+Yapabileceğinizin etrafında dolaşıyorsanız, CD harfini D gibi yazmaya başlayın ve sonra sekmeye tıklayın.
+
+57
+00:03:54,300 --> 00:03:56,750
+Sizin için otomatik Tamamlama'yı görebilirsiniz.
+
+58
+00:03:56,750 --> 00:04:01,790
+Yani sekmeye basarsam baslangic sermayesi ile baslayan her seçenegi çikarim,
+
+59
+00:04:01,790 --> 00:04:06,870
+böylece belgelere girebilirim ve bütün belgelerimi görmek istersem d r yazabilirim.
+
+60
+00:04:06,940 --> 00:04:08,970
+Şimdi tüm belgelerimizi buradan görebiliriz.
+
+61
+00:04:09,050 --> 00:04:15,380
+Tekrar geri dönmek istersem alanı düşünceye bakın ve eğer komut satırım ekranını
+
+62
+00:04:15,380 --> 00:04:20,500
+tamamen silmek istersem CLX yazabilir ve tüm ekranı temizledim.
+
+63
+00:04:20,510 --> 00:04:20,910
+Tamam.
+
+64
+00:04:20,930 --> 00:04:23,450
+İşte şimdi şu anda bilmemiz gereken temel bilgiler.
+
+65
+00:04:23,570 --> 00:04:32,120
+Şu anki dizin için CD'yi incelemek için Diyar dizin CD'sindeki her şeyi ve daha sonra atlamak
+
+66
+00:04:32,120 --> 00:04:34,410
+istediğim klasörün adını listelemektedir.
+
+67
+00:04:34,430 --> 00:04:40,220
+Örneğin, indirilen CD indirmelerine tekrar gitmek istersem, otomatik tamamlama için tab tuşuna basabilir
+
+68
+00:04:40,220 --> 00:04:43,060
+ve daha önce CD'ye atlamak istersem.
+
+69
+00:04:43,220 --> 00:04:46,970
+Ancak ekran temizlemek istesek sorunsuzdur.
+
+70
+00:04:46,970 --> 00:04:48,310
+Bilmeniz gereken temel bilgiler budur.
+
+71
+00:04:48,440 --> 00:04:52,520
+Python'un nasıl kurulacağını tartıştığımız bir sonraki derste görüşürüz.
+
+72
+00:04:52,620 --> 00:04:57,280
+komut satırı işlemlerini gözden geçirelim ve Mac OS ve Linux'daki komut satırınız bir terminal olarak bilinir.
+
+73
+00:04:57,280 --> 00:04:59,130
+Pekala, bu yüzden Mac OS ve Linux
+
+74
+00:04:59,230 --> 00:05:03,570
+Dolayısıyla bu komutlar her iki işletim sisteminde de aynı şekilde çalışırlar.
+
+75
+00:05:03,580 --> 00:05:08,050
+Bir Linux veya Mac OS üzerinde komut satırının çalışmaya başlaması için başlayalım.
+
+76
+00:05:08,050 --> 00:05:14,160
+Mac OS veya Linux'u terminalden çıkarmak için önce terminal bilgisayarınızı açmanız gerekir.
+
+77
+00:05:14,170 --> 00:05:17,470
+Buna aynı şey deniyor ve terminalini açıyorlar.
+
+78
+00:05:17,470 --> 00:05:20,500
+Eninde sonunda böyle bir şey elde etmelisin.
+
+79
+00:05:20,500 --> 00:05:25,600
+Renkler veya yazı tipleri biraz farklı olabilir, ancak temel fikir aynıdır.
+
+80
+00:05:25,600 --> 00:05:31,450
+arasında gezinmenizi sağlar ve daha gelişmiş işlevlerle bir şekilde yeni dizinler oluşturabilir veya dizinleri kaldırabilirsiniz.
+
+81
+00:05:31,510 --> 00:05:36,040
+Terminal size bir komut satırı arabirimi sağlar ve komut satırı arabirimi,
+
+82
+00:05:36,040 --> 00:05:38,170
+bilgisayarınızdaki farklı dosyalar veya klasörler
+
+83
+00:05:38,230 --> 00:05:39,950
+Bunu hemen şimdi bilmemiz gerekmiyor.
+
+84
+00:05:40,030 --> 00:05:46,180
+Tek bilmemiz gereken şey şu anki mevcut çalışma dizininizin dizinleri değiştirildiğini ve
+
+85
+00:05:46,270 --> 00:05:47,770
+nasıl dolaşacağını anlamamızdır.
+
+86
+00:05:47,770 --> 00:05:51,660
+Bu temelde komut satırında bilgisayarın etrafında dolaşmamıza izin verir.
+
+87
+00:05:51,700 --> 00:05:58,960
+Bilmek istediğimiz ilk şey şu anda PWT'nin girdiği türünü bilmek için bulunduğumuz yerdir ve
+
+88
+00:05:58,960 --> 00:06:00,940
+bu, çalışma dizininizi yazacaktır.
+
+89
+00:06:00,970 --> 00:06:07,140
+Şu an komut satırında bulunduğunuz yer, hangi dosya ve klasörlerin bulunduğunuz
+
+90
+00:06:07,140 --> 00:06:14,820
+yer türüne L S'de geldiğini anlamak ve daha sonra girmek ve mevcut dizinde
+
+91
+00:06:14,820 --> 00:06:18,970
+farklı dosya ve klasörlerin bir listesini görmenizdir.
+
+92
+00:06:19,230 --> 00:06:27,390
+Yapabileceğiniz bu dosyalardan veya klasörlerden birine gitmek isterseniz, CD yazın ve sonra hangisine gitmek istediğiniz dosyayı
+
+93
+00:06:27,390 --> 00:06:32,660
+veya klasörü seçin, bunun için yalnızca bastırılan listede olması gerekir.
+
+94
+00:06:32,700 --> 00:06:42,130
+Örneğin masaüstüne geçelim, o yüzden buraya geri dönelim ve masaüstüne girin yazacağım.
+
+95
+00:06:42,190 --> 00:06:47,980
+Şimdi PWT yazarsam enter tuşuna tekrar basarsam şimdi masaüstündeyim.
+
+96
+00:06:48,220 --> 00:06:54,340
+temizlemek isterseniz, clear enter yazın ve komut satırınızı temizleyebilirsiniz.
+
+97
+00:06:54,340 --> 00:06:55,630
+Ekranınızı tamamen
+
+98
+00:06:55,760 --> 00:07:02,360
+Şimdiye kadar zafer kazanmak istiyorsanız, hit hit'in girdiği alanı göreceksiniz ve şimdi P
+
+99
+00:07:02,360 --> 00:07:06,800
+yazarak onaylayabildiğimiz bir dizini yedekliyoruz. W. Bilmemiz gereken tek şey bu.
+
+100
+00:07:06,980 --> 00:07:08,260
+Komutlar söz konusu olduğu sürece çalışma dizininizi yazdırmak için hızlı bir inceleme yapalım.
+
+101
+00:07:08,300 --> 00:07:14,060
+PWT ve bu rapor geri döndü.
+
+102
+00:07:14,100 --> 00:07:16,210
+Şu an bulunduğumuz yerdeyiz.
+
+103
+00:07:16,230 --> 00:07:18,000
+Bulunduğunuz konumdaki dosyaları ve klasörleri bilmek istiyorsanız.
+
+104
+00:07:18,000 --> 00:07:21,090
+tüm dosya ve klasörleri listeleyecektir.
+
+105
+00:07:21,180 --> 00:07:27,630
+Ls yazın ve komut ekranı yazarak girdiyi temizlemek istiyorsanız
+
+106
+00:07:27,960 --> 00:07:28,440
+Dizini
+
+107
+00:07:28,440 --> 00:07:35,610
+bir alt klasör türüne değiştirmek istiyorsanız komut satırınızı temizleyecek ve ardından masaüstü gibi isimleri yazmaya bile başlayabilirsiniz.
+
+108
+00:07:35,610 --> 00:07:38,620
+Ve ben sadece masa ve sekmeye basarsam oto tamamlanmalıdır.
+
+109
+00:07:38,640 --> 00:07:42,800
+Sekmeye basarak bir otomatik tamamlama alamazsanız, muhtemelen geçerli dizininizin
+
+110
+00:07:42,900 --> 00:07:48,300
+doğrudan bir alt klasörü değil, ancak CD yazabilirsiniz iyi bir göstergesi.
+
+111
+00:07:48,300 --> 00:07:52,510
+Alt klasörün adı alt dizinidir ve şu an PWT'ye basarak buradayız.
+
+112
+00:07:52,710 --> 00:07:58,720
+isterseniz, komut satırından geçmenin temelleri budur.
+
+113
+00:07:58,830 --> 00:08:05,850
+Hiçbir zaman yedek CD alanına girmek
+
+114
+00:08:05,850 --> 00:08:06,770
+Komut satırında Python komut dosyalarını çalıştırdığımızda bunu daha sonra kullanacağız.
+
+115
+00:08:06,810 --> 00:08:10,970
+Python'u bilgisayarınıza nasıl yükleyeceğinizi bir sonraki derste göreceğiz.
+
+116
+00:08:10,980 --> 00:08:15,600
+&nbsp;
