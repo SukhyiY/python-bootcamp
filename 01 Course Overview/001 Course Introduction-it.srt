@@ -1,0 +1,423 @@
+1
+00:00:05,410 --> 00:00:09,460
+Ciao a tutti, sono Jose qui e benvenuti alla lezione di panoramica del corso.
+
+2
+00:00:09,550 --> 00:00:12,690
+Sono davvero entusiasta di iniziare il tuo viaggio per imparare Python.
+
+3
+00:00:12,700 --> 00:00:17,310
+So che a volte è allettante saltare semplicemente queste lezioni introduttive e andare direttamente al materiale
+
+4
+00:00:17,560 --> 00:00:22,300
+tecnico, ma ho un favore da chiederti mentre segui questo corso e questo è per favore non
+
+5
+00:00:22,300 --> 00:00:23,050
+saltare questa lezione.
+
+6
+00:00:23,050 --> 00:00:27,400
+Copriremo un sacco di materiale importante in questa lezione, ad esempio dove trovare i
+
+7
+00:00:27,700 --> 00:00:30,010
+taccuini come avvicinarsi al corso come fare domande.
+
+8
+00:00:30,070 --> 00:00:31,860
+Quindi per favore guarda tutta questa lezione.
+
+9
+00:00:31,930 --> 00:00:35,220
+In questo modo puoi ottenere la migliore esperienza possibile di corso.
+
+10
+00:00:35,230 --> 00:00:35,490
+Tutto ok.
+
+11
+00:00:35,500 --> 00:00:36,970
+Non perdiamo tempo a Morier.
+
+12
+00:00:37,000 --> 00:00:38,010
+E iniziamo.
+
+13
+00:00:38,860 --> 00:00:43,270
+In questa lezione parleremo di consigli utili per seguire il corso su come ottenere aiuto
+
+14
+00:00:43,270 --> 00:00:44,100
+durante il corso.
+
+15
+00:00:44,140 --> 00:00:48,790
+Consigli generali su come affrontare il lavoro del corso per trovare i quaderni del corso e
+
+16
+00:00:48,790 --> 00:00:51,270
+come utilizzare il canale di chat degli studenti.
+
+17
+00:00:51,320 --> 00:00:56,570
+Quindi alcuni suggerimenti generali per quanto riguarda l'esperienza del tuo corso quando utilizzi il lettore video,
+
+18
+00:00:56,570 --> 00:01:00,440
+puoi utilizzare l'impostazione delle marce per accelerare o rallentare i video.
+
+19
+00:01:00,440 --> 00:01:04,060
+Quindi se sei come me e ti piace guardare i video un po 'più veloce me ne accorgi.
+
+20
+00:01:04,130 --> 00:01:05,630
+Puoi usare l'impostazione della marcia per quello.
+
+21
+00:01:05,840 --> 00:01:07,850
+O forse l'inglese non è la tua prima lingua.
+
+22
+00:01:07,850 --> 00:01:12,950
+Puoi rallentare i video e puoi anche fare cose come attivare sottotitoli o
+
+23
+00:01:12,950 --> 00:01:14,730
+cambiare la qualità dello streaming.
+
+24
+00:01:14,960 --> 00:01:18,260
+Puoi utilizzare l'app per scaricare video delle lezioni del corso.
+
+25
+00:01:18,260 --> 00:01:22,800
+E per ulteriori informazioni sull'app per me è possibile controllare le pagine di supporto per me per questo.
+
+26
+00:01:22,800 --> 00:01:25,040
+Assicurati anche di usare i forum di Kewney.
+
+27
+00:01:25,040 --> 00:01:29,250
+Ci sono molte discussioni precedenti disponibili per aiutare a rispondere a qualsiasi domanda tu possa avere.
+
+28
+00:01:29,540 --> 00:01:32,440
+Parliamo di chiedere aiuto in modo più dettagliato.
+
+29
+00:01:32,480 --> 00:01:37,460
+Parliamo della migliore serie di passi da compiere quando hai una domanda che spiega perché
+
+30
+00:01:37,460 --> 00:01:40,360
+segui il corso se possibile in video lunghi.
+
+31
+00:01:40,370 --> 00:01:45,770
+A volte è davvero facile fare errori di battitura, motivo per cui forniamo quaderni di testo
+
+32
+00:01:46,040 --> 00:01:48,870
+esplicativo e il codice Python per ogni singola lezione.
+
+33
+00:01:49,070 --> 00:01:53,240
+Quindi se ricevi un errore a causa del codice che pensavi di seguire nel video,
+
+34
+00:01:53,540 --> 00:01:56,440
+dovresti controllare il tuo codice con i nostri quaderni di corso.
+
+35
+00:01:56,450 --> 00:02:00,920
+Puoi sempre scaricare i taccuini direttamente ed eseguire i taccuini o copiare e
+
+36
+00:02:00,920 --> 00:02:02,260
+incollare dai quaderni stessi.
+
+37
+00:02:02,270 --> 00:02:08,190
+In questo modo puoi assicurarti che il tuo errore non sia dovuto a un errore di battitura mentre stai guardando il video ora.
+
+38
+00:02:08,190 --> 00:02:12,820
+Non ogni singola domanda sarà direttamente correlata al seguito del nostro codice.
+
+39
+00:02:13,010 --> 00:02:17,570
+E se hai una domanda, a volte una rapida ricerca su Google o una ricerca di overflow dello stack ti darà
+
+40
+00:02:17,570 --> 00:02:19,630
+la risposta più velocemente di quanto chiunque altro possa fare.
+
+41
+00:02:19,850 --> 00:02:24,350
+Quindi consiglierei sempre di fare una ricerca su Google o una ricerca di overflow dello stack, specialmente se in
+
+42
+00:02:24,350 --> 00:02:26,420
+realtà si ottiene un codice di errore in Python.
+
+43
+00:02:26,420 --> 00:02:30,870
+Forse parte del tuo codice che stavi provando è sufficiente copiare e incollare il codice di
+
+44
+00:02:31,040 --> 00:02:34,470
+errore in Google e molte volte il primo hit risponderà alla tua domanda.
+
+45
+00:02:34,850 --> 00:02:36,710
+Ora diciamo che ancora non ti aiuta.
+
+46
+00:02:36,830 --> 00:02:42,440
+Beh, dovresti fare una ricerca sui nostri moduli Kewney nel corso che abbiamo seguito per oltre un quarto
+
+47
+00:02:42,440 --> 00:02:47,720
+di un milione di studenti in questo corso, così puoi quasi immaginare che qualsiasi domanda sia già
+
+48
+00:02:47,720 --> 00:02:50,850
+stata fatta e risposta da me stesso o dai nostri assistenti.
+
+49
+00:02:50,870 --> 00:02:54,670
+Dovresti assolutamente cercare nei forum di Kewney prima di postare lì.
+
+50
+00:02:54,730 --> 00:03:00,550
+Ora diciamo che ho una domanda su argomenti di portata generale come ottenere una certificazione o se per me è il
+
+51
+00:03:00,550 --> 00:03:04,380
+tipo di cose a cui viene data risposta nel nostro docente Efik Q.
+
+52
+00:03:04,510 --> 00:03:06,940
+Quindi abbiamo una lezione di un articolo una domanda frequente.
+
+53
+00:03:07,090 --> 00:03:10,100
+Puoi controllare i collegamenti più facili con maggiori informazioni.
+
+54
+00:03:10,540 --> 00:03:14,710
+Diciamo che tutti quei passaggi e sei ancora confuso su qualcosa che non è assolutamente un problema.
+
+55
+00:03:14,710 --> 00:03:16,010
+Siamo qui per aiutarti.
+
+56
+00:03:16,120 --> 00:03:18,510
+Il modo per farlo è presentare una nuova domanda.
+
+57
+00:03:18,520 --> 00:03:24,340
+I forum di Q A e assicurati di fornire dettagli su ciò che hai provato schermate del tuo codice
+
+58
+00:03:24,700 --> 00:03:26,670
+di errore e più dettagli possibili.
+
+59
+00:03:26,710 --> 00:03:28,940
+In questo modo possiamo aiutarti il ​​più rapidamente possibile.
+
+60
+00:03:30,880 --> 00:03:35,290
+Supponiamo ora di avere una sorta di problema a livello di piattaforma per questo tipo di cose.
+
+61
+00:03:35,290 --> 00:03:40,450
+Dovresti inviare un'e-mail all'assistenza per indicare che com o andare alla pagina di supporto Eudemus e aprire un
+
+62
+00:03:40,450 --> 00:03:41,230
+nuovo problema lì.
+
+63
+00:03:41,230 --> 00:03:47,770
+Quindi i problemi a livello di piattaforma sono cose come avere domande sui problemi di riproduzione di video o problemi della certificazione
+
+64
+00:03:48,010 --> 00:03:50,040
+o domande o problemi con i pagamenti.
+
+65
+00:03:50,040 --> 00:03:52,970
+Questi sono problemi a livello di piattaforma e non possiamo davvero aiutarti.
+
+66
+00:03:53,140 --> 00:03:56,810
+Quindi la tua e-mail ti aiuta a dot com per ottenere rapidamente aiuto su questo.
+
+67
+00:03:59,230 --> 00:04:03,880
+Infine parliamo di come affrontare il corso il modo migliore per avvicinarsi al corso è quello
+
+68
+00:04:03,880 --> 00:04:06,160
+di rivedere davvero i quaderni insieme al video.
+
+69
+00:04:06,280 --> 00:04:11,740
+I video sono davvero fantastici, ma vogliamo che tu faccia leva sulla potenza dei notebook che abbiamo per te
+
+70
+00:04:11,950 --> 00:04:16,340
+e sia i principianti che gli utenti esperti possono davvero utilizzare i notebook meglio di loro.
+
+71
+00:04:16,540 --> 00:04:21,280
+Per i principianti, ti consiglio di leggere le note extra sul notebook mentre procedi con la
+
+72
+00:04:21,280 --> 00:04:21,970
+guida video.
+
+73
+00:04:22,210 --> 00:04:27,250
+Se sei più esperto di ciò che potresti voler usare per i notebook, è di rivederli rapidamente e vedere
+
+74
+00:04:27,250 --> 00:04:31,030
+quali parti potresti già conoscere o con cui potresti già sentirti a tuo agio.
+
+75
+00:04:31,030 --> 00:04:33,280
+In questo modo non ti senti rallentato dai video.
+
+76
+00:04:33,370 --> 00:04:39,070
+Quindi i principianti usano davvero i quaderni leggendoli bene insieme agli utenti esperti del video, prima controlla i taccuini
+
+77
+00:04:39,070 --> 00:04:43,300
+e vedi se hai davvero bisogno del video o ti permette di saltare alcune
+
+78
+00:04:43,300 --> 00:04:50,040
+parti del video e andare dove ti serve un po 'più di perforazione giù per quanto riguarda i quaderni del corso che
+
+79
+00:04:50,040 --> 00:04:51,020
+continuiamo a menzionare.
+
+80
+00:04:51,180 --> 00:04:55,620
+Dovresti controllare il tuo messaggio di benvenuto automatico per il collegamento ai taccuini in seguito, esamineremo come
+
+81
+00:04:55,620 --> 00:05:00,900
+effettivamente scaricarli e aprirli nella lezione in codice Python in esecuzione questi notebook sono in realtà un tipo di file
+
+82
+00:05:00,900 --> 00:05:05,250
+speciale che significa che quando li scarichi sei non è in grado di fare doppio clic su
+
+83
+00:05:05,310 --> 00:05:06,510
+di loro e aprirli.
+
+84
+00:05:06,540 --> 00:05:11,520
+Discuteremo in modo molto più dettagliato durante il corso su come effettivamente aprire questi quaderni che hai
+
+85
+00:05:11,520 --> 00:05:17,070
+scaricato i notebook sono ospitati su come tornare a casa anche se così sarai in grado di vederli in
+
+86
+00:05:17,070 --> 00:05:18,350
+qualsiasi momento anche senza scaricarli.
+
+87
+00:05:18,540 --> 00:05:21,450
+Il link per scaricarli è anche nella nostra conferenza FNQ.
+
+88
+00:05:21,510 --> 00:05:25,820
+Quindi controlla il tuo messaggio di benvenuto o vai alla conferenza Q falso per quel link.
+
+89
+00:05:27,870 --> 00:05:29,830
+Ora parliamo del canale di chat degli studenti.
+
+90
+00:05:30,120 --> 00:05:34,860
+C'è anche un link per il nostro canale di chat per studenti e il messaggio di benvenuto automatico per unirti
+
+91
+00:05:34,860 --> 00:05:35,980
+al nostro server di tribunale.
+
+92
+00:05:36,000 --> 00:05:40,410
+Questo è il canale di chat che è condiviso tra tutti i nostri corsi in modo da essere
+
+93
+00:05:40,710 --> 00:05:47,040
+in grado di interagire con gli studenti imparando a finanziare la scienza dei dati Eskew Bene, il nostro Skala e altro nel messaggio di benvenuto automatico.
+
+94
+00:05:47,040 --> 00:05:52,110
+C'è anche un link al video di YouTube che descrive ulteriori informazioni su come utilizzare e accedere al nostro server
+
+95
+00:05:52,110 --> 00:05:52,670
+di chat.
+
+96
+00:05:52,680 --> 00:05:58,740
+In realtà è super facile, ma abbiamo quel video di YouTube nel caso ci sia qualche confusione da tenere a mente che
+
+97
+00:05:58,740 --> 00:06:04,020
+lo scopo di quel canale di chat è quello di connettere gli studenti con altri studenti. Le domande tecniche
+
+98
+00:06:04,020 --> 00:06:08,720
+relative al materiale del corso sono ancora più adatte per una domanda o rispondere ai forum.
+
+99
+00:06:08,730 --> 00:06:12,250
+Quindi dovresti usare quel canale di chat per divertirti a coinvolgere altri studenti.
+
+100
+00:06:12,360 --> 00:06:17,880
+Ma se hai problemi con una lezione o un argomento o un concetto nel corso effettivo, quelle domande sono più
+
+101
+00:06:17,880 --> 00:06:19,950
+adatte per i forum di domande e risposte.
+
+102
+00:06:19,960 --> 00:06:25,590
+Ricorda che puoi sempre cercare la domanda e rispondere ai forum per domande precedentemente pubblicate.
+
+103
+00:06:25,610 --> 00:06:26,300
+Tutto ok.
+
+104
+00:06:26,300 --> 00:06:29,710
+Ultimo ma non meno importante, un enorme grazie per esserti iscritto a questo corso.
+
+105
+00:06:29,720 --> 00:06:34,750
+Sono umiliato da tutti gli studenti iscritti e ho il privilegio di essere il tuo istruttore per Python.
+
+106
+00:06:35,010 --> 00:06:38,800
+OK, iniziamo e portiamo da zero a eroe.

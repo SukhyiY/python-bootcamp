@@ -1,0 +1,135 @@
+1
+00:00:05,640 --> 00:00:06,790
+Herkese geri hoşgeldiniz.
+
+2
+00:00:06,810 --> 00:00:11,910
+Python 3'ü seçmek yerine Python 2'yi seçme konusunu hızla tartışmak için
+
+3
+00:00:11,920 --> 00:00:13,940
+biraz zaman ayırmak istedim.
+
+4
+00:00:13,960 --> 00:00:18,160
+Eskiden, eğer başlangıç ​​aşamasındaysanız ve sadece Python öğreniyorsanız, pek
+
+5
+00:00:18,160 --> 00:00:24,430
+çok şirket halen korumak için kodlanmış eski Python'lara sahip olduğundan Python'u Python 3'e karşı
+
+6
+00:00:24,430 --> 00:00:26,610
+seçmek oldukça zor bir karartı.
+
+7
+00:00:26,650 --> 00:00:33,950
+Bununla birlikte, Python 2020'de güvenlik güncelleştirmelerini almayı bırakacaktı ve bu ders başlangıçta her iki Python
+
+8
+00:00:33,950 --> 00:00:36,610
+sürümünü de öğretmek üzere çıktı.
+
+9
+00:00:36,650 --> 00:00:41,960
+Hem Python'u Python 3'e öğrettik ve hem aynı anda hem de
+
+10
+00:00:42,050 --> 00:00:45,070
+teknik olarak öğrenmek kolay olan sürümler benzerdi.
+
+11
+00:00:45,300 --> 00:00:51,330
+Ancak şimdi her büyük dış Python paketi Python 3'ü destekleyecek şekilde güncellendi.
+
+12
+00:00:51,460 --> 00:00:58,250
+Python 3'ü tam olarak destekleyebilen, dış pakete sahip ilk 300 paket Python paketinin yüzde
+
+13
+00:00:58,250 --> 00:01:03,820
+99'u temelde yalnızca yüzde 99'u ve bazıları yalnızca Python 3'e yöneliyor.
+
+14
+00:01:03,920 --> 00:01:08,630
+Ve bunlar, gelecekte gelecekte Python'u desteklemek için durduracak olan
+
+15
+00:01:08,630 --> 00:01:11,680
+web geliştirme için Gengel gibi paketlerdir.
+
+16
+00:01:11,690 --> 00:01:17,090
+bilgisayarların tüm kodları ve tüm videolar sadece tamamen Python 3'e odaklanacak şekilde güncellendi.
+
+17
+00:01:17,090 --> 00:01:20,800
+Şimdi kurs yalnızca Python 3'e odaklanacak ve tüm dizüstü
+
+18
+00:01:20,960 --> 00:01:24,590
+Şimdi Python'a geri dönmek gerekiyorsa 2 sözdizimi çok kolay bir atlama.
+
+19
+00:01:24,590 --> 00:01:29,330
+Bu dersi takip edebilmeniz için Python 3'ü öğrendikten sonra, Python 3'ün bütününü Python programlama dilinin
+
+20
+00:01:29,360 --> 00:01:33,740
+içerikleri ve dışavurumlarını öğrenin ve eğer hala Python 2 miras kodunun bulunduğu bir yerde
+
+21
+00:01:33,740 --> 00:01:34,990
+bir iş bulursanız.
+
+22
+00:01:35,000 --> 00:01:37,070
+Tamamen kaybolmayacağınıza dair endişelenmeyin.
+
+23
+00:01:37,100 --> 00:01:39,290
+Diller çok benzer.
+
+24
+00:01:39,290 --> 00:01:43,340
+zaman Python 3'ü biliyorsanız temel olarak zaten Python'u da biliyorsunuz demektir.
+
+25
+00:01:43,340 --> 00:01:46,800
+Dillerin sürümleri benzerdir, böylece birinden diğerine kolayca atlayabilirsiniz ve her
+
+26
+00:01:46,880 --> 00:01:50,160
+Python 3'te birkaç sözdizimi değişikliği öğrenmeniz yeterlidir.
+
+27
+00:01:50,180 --> 00:01:54,350
+Gerçekten Python'ın geleceği bu yüzden bu derste biz buna odaklanıyoruz.
+
+28
+00:01:55,290 --> 00:01:59,090
+Yani sadece üç temelli kısa özet Python'un geleceğidir.
+
+29
+00:01:59,130 --> 00:02:02,260
+Python 3'ü yalnızca bu ders için kullanacağız.
+
+30
+00:02:02,400 --> 00:02:06,610
+Eski dizüstü bilgisayarlar, bilgi için bir miktar Python'a ihtiyaç duymanız durumunda kullanılabilir.
+
+31
+00:02:06,840 --> 00:02:11,430
+Ancak, ilerlemeye başlayacağız ve Python 3'ü yükleyerek başlayacağız ve bu dersin geri kalanında
+
+32
+00:02:11,430 --> 00:02:12,480
+Python 3'ü kullanacağız.
+
+33
+00:02:12,570 --> 00:02:16,780
+Eski kodlara referans yapmanız gereken bazı nedenlerden dolayı eski dizüstü bilgisayarlarınız var.
+
+34
+00:02:17,100 --> 00:02:20,390
+Teşekkürler ve bir sonraki derste Python'u kurmaya başlayacağımızı göreceğiz.

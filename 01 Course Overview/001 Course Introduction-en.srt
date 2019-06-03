@@ -1,0 +1,423 @@
+1
+00:00:05,410 --> 00:00:09,460
+Hey everyone it's Jose here and welcome to the course overview lecture.
+
+2
+00:00:09,550 --> 00:00:12,690
+I'm super excited that you're starting your journey to learn Python.
+
+3
+00:00:12,700 --> 00:00:17,310
+I know it's sometimes tempting to just skip these intro lectures and go straight to technical material
+
+4
+00:00:17,560 --> 00:00:22,300
+but I have one favor to ask of you as you go through this course and that is to please don't skip this
+
+5
+00:00:22,300 --> 00:00:23,050
+lecture.
+
+6
+00:00:23,050 --> 00:00:27,400
+We're going to cover a lot of important material in this lecture such as where to find the notebooks
+
+7
+00:00:27,700 --> 00:00:30,010
+how to approach the course how to ask questions.
+
+8
+00:00:30,070 --> 00:00:31,860
+So please watch this entire lecture.
+
+9
+00:00:31,930 --> 00:00:35,220
+That way you can get the best course taking experience possible.
+
+10
+00:00:35,230 --> 00:00:35,490
+All right.
+
+11
+00:00:35,500 --> 00:00:36,970
+Let's not waste any of Morier time.
+
+12
+00:00:37,000 --> 00:00:38,010
+And let's get started.
+
+13
+00:00:38,860 --> 00:00:43,270
+In this lecture we're going to talk about useful tips for going through the course how to get help during
+
+14
+00:00:43,270 --> 00:00:44,100
+the course.
+
+15
+00:00:44,140 --> 00:00:48,790
+General advice on how to approach the course work to find the Course notebooks and how to use the student
+
+16
+00:00:48,790 --> 00:00:51,270
+chat channel.
+
+17
+00:00:51,320 --> 00:00:56,570
+So some general tips as far as your course taking experience when you're using the video player you
+
+18
+00:00:56,570 --> 00:01:00,440
+can use the gear setting to either speed up or slow down videos.
+
+19
+00:01:00,440 --> 00:01:04,060
+So if you're like me and you like watching videos a little faster me me on to speed.
+
+20
+00:01:04,130 --> 00:01:05,630
+You can use the gear setting for that.
+
+21
+00:01:05,840 --> 00:01:07,850
+Or maybe English isn't your first language.
+
+22
+00:01:07,850 --> 00:01:12,950
+You can slow down the videos and you can also do things like turn on close captions or you can also
+
+23
+00:01:12,950 --> 00:01:14,730
+change the streaming quality.
+
+24
+00:01:14,960 --> 00:01:18,260
+You can use the app to download videos of the Course Lectures.
+
+25
+00:01:18,260 --> 00:01:22,800
+And for more information on the to me app you can check out the to me support pages for it.
+
+26
+00:01:22,800 --> 00:01:25,040
+Also make sure to use the Kewney forums.
+
+27
+00:01:25,040 --> 00:01:29,250
+There's lots of previous discussion available there to help answer any questions you may have.
+
+28
+00:01:29,540 --> 00:01:32,440
+Let's talk about getting help in a little more detail.
+
+29
+00:01:32,480 --> 00:01:37,460
+Let's talk about the best series of steps to take when you have a question that arises why you're taking
+
+30
+00:01:37,460 --> 00:01:40,360
+the course if it could in long videos.
+
+31
+00:01:40,370 --> 00:01:45,770
+It's sometimes really easy to make a typo which is why we provide course notebooks of explanatory text
+
+32
+00:01:46,040 --> 00:01:48,870
+and the Python code for every single lecture.
+
+33
+00:01:49,070 --> 00:01:53,240
+So if you ever get an error due to code that you thought you were following along with in the video
+
+34
+00:01:53,540 --> 00:01:56,440
+you should double check your code against our course notebooks.
+
+35
+00:01:56,450 --> 00:02:00,920
+You can always just download the notebooks directly and run the notebooks or copy and paste from the
+
+36
+00:02:00,920 --> 00:02:02,260
+notebooks themselves.
+
+37
+00:02:02,270 --> 00:02:08,190
+That way you can make sure that your error isn't due to some typo while you're watching the video now.
+
+38
+00:02:08,190 --> 00:02:12,820
+Not every single question is going to be directly related to following along of our code.
+
+39
+00:02:13,010 --> 00:02:17,570
+And if you do have a question sometimes a quick Google search or a stack overflow search will get you
+
+40
+00:02:17,570 --> 00:02:19,630
+the answer faster than anyone else could.
+
+41
+00:02:19,850 --> 00:02:24,350
+So I would always recommend doing a Google search or stack overflow search especially if you actually
+
+42
+00:02:24,350 --> 00:02:26,420
+end up getting an error code in Python.
+
+43
+00:02:26,420 --> 00:02:30,870
+Maybe some of your own code that you were trying out just copy and paste the error code into Google
+
+44
+00:02:31,040 --> 00:02:34,470
+and a lot of times the very first hit is going to answer your question.
+
+45
+00:02:34,850 --> 00:02:36,710
+Now let's say that still doesn't help you.
+
+46
+00:02:36,830 --> 00:02:42,440
+Well you should do is search our Kewney forms in the course we've had over a quarter of a million students
+
+47
+00:02:42,440 --> 00:02:47,720
+go through this course so you can almost imagine that any question possible has already been asked and
+
+48
+00:02:47,720 --> 00:02:50,850
+answered by either myself or our teaching assistants.
+
+49
+00:02:50,870 --> 00:02:54,670
+You should definitely search the Kewney forums before posting there.
+
+50
+00:02:54,730 --> 00:03:00,550
+Now let's say I have a question on just general course things like how to get a certification or whether
+
+51
+00:03:00,550 --> 00:03:04,380
+you to me is those kind of things are answered in our Efik Q lecturer.
+
+52
+00:03:04,510 --> 00:03:06,940
+So we have an article lecture a frequently asked questions.
+
+53
+00:03:07,090 --> 00:03:10,100
+You can check out for easeful links in more information.
+
+54
+00:03:10,540 --> 00:03:14,710
+Let's say that all those steps and you're still confused on something that's absolutely no problem.
+
+55
+00:03:14,710 --> 00:03:16,010
+We're here to help you.
+
+56
+00:03:16,120 --> 00:03:18,510
+The way to do that is to submit a new question.
+
+57
+00:03:18,520 --> 00:03:24,340
+The Q A forums and make sure you provide details on what you've tried screenshots of your error code
+
+58
+00:03:24,700 --> 00:03:26,670
+and really as much detail as possible.
+
+59
+00:03:26,710 --> 00:03:28,940
+That way we can help you as quickly as possible.
+
+60
+00:03:30,880 --> 00:03:35,290
+Now let's say you have some sort of platform level issue for those kind of things.
+
+61
+00:03:35,290 --> 00:03:40,450
+You should email support at you to mean that com or go to the Eudemus support page and open a new issue
+
+62
+00:03:40,450 --> 00:03:41,230
+there.
+
+63
+00:03:41,230 --> 00:03:47,770
+So platform level issues are things like having video playback issues questions or issues of your certification
+
+64
+00:03:48,010 --> 00:03:50,040
+or questions or issues with payments.
+
+65
+00:03:50,040 --> 00:03:52,970
+Those are platform level issues and we can't really help you out.
+
+66
+00:03:53,140 --> 00:03:56,810
+So e-mail support you to me dot com to quickly get help on that.
+
+67
+00:03:59,230 --> 00:04:03,880
+Finally let's talk about how to approach the course the best way to approach the course is to really
+
+68
+00:04:03,880 --> 00:04:06,160
+review the notebooks along with the video.
+
+69
+00:04:06,280 --> 00:04:11,740
+The videos are really great but we want you to leverage the power of the notebooks we have for you and
+
+70
+00:04:11,950 --> 00:04:16,340
+both beginners and experienced users can really use the notebooks the best suit them.
+
+71
+00:04:16,540 --> 00:04:21,280
+For beginners I would recommend that you read the extra notes in the notebook as you go along for video
+
+72
+00:04:21,280 --> 00:04:21,970
+guide.
+
+73
+00:04:22,210 --> 00:04:27,250
+If you're more experienced what you may want to use notebooks for is to quickly review them and see
+
+74
+00:04:27,250 --> 00:04:31,030
+which parts you may already know or may already quickly feel comfortable with.
+
+75
+00:04:31,030 --> 00:04:33,280
+That way you don't feel slowed down by the videos.
+
+76
+00:04:33,370 --> 00:04:39,070
+So beginners really use the notebooks read them well go along with the video experienced users check
+
+77
+00:04:39,070 --> 00:04:43,300
+out the notebooks first and see if you really need the video or it allows you to maybe skip certain
+
+78
+00:04:43,300 --> 00:04:50,040
+parts of video and go to where you need a little more drilling down in as far as his course notebooks
+
+79
+00:04:50,040 --> 00:04:51,020
+that we keep mentioning.
+
+80
+00:04:51,180 --> 00:04:55,620
+You should check your automated welcome message for the link to the notebooks later on we're going to
+
+81
+00:04:55,620 --> 00:05:00,900
+review how to actually download and open them in the running Python code lecture these notebooks are
+
+82
+00:05:00,900 --> 00:05:05,250
+actually a special file type meaning when you download them you're not able to just double click them
+
+83
+00:05:05,310 --> 00:05:06,510
+and have them open.
+
+84
+00:05:06,540 --> 00:05:11,520
+We discuss in a lot more detail throughout the course on how to actually open these notebooks that you've
+
+85
+00:05:11,520 --> 00:05:17,070
+downloaded the notebooks are hosted on get home though so you'll be able to view them at anytime even
+
+86
+00:05:17,070 --> 00:05:18,350
+without downloading them.
+
+87
+00:05:18,540 --> 00:05:21,450
+The link to download them is also in our FNQ lecture.
+
+88
+00:05:21,510 --> 00:05:25,820
+So either check your welcome message or go to the fake Q lecture for that link.
+
+89
+00:05:27,870 --> 00:05:29,830
+Now let's talk about the student chat channel.
+
+90
+00:05:30,120 --> 00:05:34,860
+There's also a link for our student chat channel and the automated welcome message to join our at this
+
+91
+00:05:34,860 --> 00:05:35,980
+court server.
+
+92
+00:05:36,000 --> 00:05:40,410
+This is the chat channel that shared between all our courses so you'll be able to interact with students
+
+93
+00:05:40,710 --> 00:05:47,040
+learning about data science finance Eskew Well our Skala and more in the automated welcome message.
+
+94
+00:05:47,040 --> 00:05:52,110
+There's also a link to youtube video describing further information on how to use and log into our chat
+
+95
+00:05:52,110 --> 00:05:52,670
+server.
+
+96
+00:05:52,680 --> 00:05:58,740
+It's actually super easy but we have that YouTube video in case there's any confusion something to keep
+
+97
+00:05:58,740 --> 00:06:04,020
+in mind is that the purpose of that chat channel is to connect students with other students technical
+
+98
+00:06:04,020 --> 00:06:08,720
+questions related to the course material are still best suited for a question or answer forums.
+
+99
+00:06:08,730 --> 00:06:12,250
+So you should use that chat channel to have fun engage other students.
+
+100
+00:06:12,360 --> 00:06:17,880
+But if you're having problem with a lecture or a topic or concept in the actual course those questions
+
+101
+00:06:17,880 --> 00:06:19,950
+are best suited for the question answer forums.
+
+102
+00:06:19,960 --> 00:06:25,590
+Remember you can always search the question and answer forums for previously posted questions.
+
+103
+00:06:25,610 --> 00:06:26,300
+All right.
+
+104
+00:06:26,300 --> 00:06:29,710
+Last but not least a huge thank you for enrolling in this course.
+
+105
+00:06:29,720 --> 00:06:34,750
+I'm humbled by all the students enrolled and I'm privileged to be your instructor for Python.
+
+106
+00:06:35,010 --> 00:06:38,800
+OK let's get started and take you from zero to hero.

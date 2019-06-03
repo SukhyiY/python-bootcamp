@@ -1,0 +1,423 @@
+1
+00:00:05,410 --> 00:00:09,460
+Hey herkes burada Jose ve derse genel bakış dersine hoş geldiniz.
+
+2
+00:00:09,550 --> 00:00:12,690
+Python'u öğrenme yolculuğuna başladığın için çok heyecanlıyım.
+
+3
+00:00:12,700 --> 00:00:17,310
+Bu giriş derslerini atlayıp teknik materyale gitmenin cazip gelebileceğini biliyorum, ancak
+
+4
+00:00:17,560 --> 00:00:22,300
+bu kursa giderken sizden sormak için bir şansım var ve bu dersi
+
+5
+00:00:22,300 --> 00:00:23,050
+atlamamanız gerekiyor.
+
+6
+00:00:23,050 --> 00:00:27,400
+Bu derste, dizüstü bilgisayarların derse nasıl başvuracakları gibi soruların nasıl sorulacağı gibi
+
+7
+00:00:27,700 --> 00:00:30,010
+bir çok önemli materyali ele alacağız.
+
+8
+00:00:30,070 --> 00:00:31,860
+Bu yüzden lütfen tüm konuşmayı izle.
+
+9
+00:00:31,930 --> 00:00:35,220
+Bu sayede mümkün olan en iyi ders alma deneyimini yaşayabilirsiniz.
+
+10
+00:00:35,230 --> 00:00:35,490
+Tamam.
+
+11
+00:00:35,500 --> 00:00:36,970
+Morier zamanından hiçbirini harcamayalım.
+
+12
+00:00:37,000 --> 00:00:38,010
+Ve başlayalım.
+
+13
+00:00:38,860 --> 00:00:43,270
+Bu derste, kurs boyunca nasıl yardım alacağımıza dair faydalı ipuçları
+
+14
+00:00:43,270 --> 00:00:44,100
+hakkında konuşacağız.
+
+15
+00:00:44,140 --> 00:00:48,790
+Kurs defterlerini bulmak için ders çalışmasına nasıl yaklaşılacağı ve öğrenci sohbet
+
+16
+00:00:48,790 --> 00:00:51,270
+kanalının nasıl kullanılacağı hakkında genel tavsiyeler.
+
+17
+00:00:51,320 --> 00:00:56,570
+Dolayısıyla, video oynatıcısını kullanırken ders alma deneyiminizle ilgili bazı genel ipuçları,
+
+18
+00:00:56,570 --> 00:01:00,440
+videoları hızlandırmak veya yavaşlatmak için dişli ayarını kullanabilirsiniz.
+
+19
+00:01:00,440 --> 00:01:04,060
+Yani eğer benim gibiyseniz ve video izlemeyi biraz daha hızlı bir şekilde hızlandırmamı istiyorsunuz.
+
+20
+00:01:04,130 --> 00:01:05,630
+Bunun için dişli ayarını kullanabilirsiniz.
+
+21
+00:01:05,840 --> 00:01:07,850
+Ya da belki İngilizce senin ilk dilin değil.
+
+22
+00:01:07,850 --> 00:01:12,950
+Videoları yavaşlatabilir ve aynı zamanda altyazıları açmak gibi şeyler yapabilir veya
+
+23
+00:01:12,950 --> 00:01:14,730
+akış kalitesini de değiştirebilirsiniz.
+
+24
+00:01:14,960 --> 00:01:18,260
+Kurs Dersleri videolarını indirmek için uygulamayı kullanabilirsiniz.
+
+25
+00:01:18,260 --> 00:01:22,800
+Ve bana uygulamayla ilgili daha fazla bilgi için, bana bunun için sayfaları desteklediğini kontrol edebilirsiniz.
+
+26
+00:01:22,800 --> 00:01:25,040
+Ayrıca Kewney forumlarını kullandığınızdan emin olun.
+
+27
+00:01:25,040 --> 00:01:29,250
+Orada olabilecek herhangi bir soruya cevap vermek için orada bir sürü tartışma var.
+
+28
+00:01:29,540 --> 00:01:32,440
+Biraz daha ayrıntılı olarak yardım almaktan bahsedelim.
+
+29
+00:01:32,480 --> 00:01:37,460
+Uzun videolarda yer alabiliyorsa neden dersi aldığınızı gösteren bir sorunuz
+
+30
+00:01:37,460 --> 00:01:40,360
+olduğunda en iyi adımlar dizisinden bahsedelim.
+
+31
+00:01:40,370 --> 00:01:45,770
+Bir yazım hatası yapmak bazen çok kolay, bu yüzden açıklayıcı metinlerden ders notları ve
+
+32
+00:01:46,040 --> 00:01:48,870
+her bir ders için Python kodu sağlıyoruz.
+
+33
+00:01:49,070 --> 00:01:53,240
+Bu nedenle, videoda takip ettiğinizi düşündüğünüz kod nedeniyle bir hata alırsanız, kodunuzu
+
+34
+00:01:53,540 --> 00:01:56,440
+kurs not defterlerimize göre iki kez kontrol etmelisiniz.
+
+35
+00:01:56,450 --> 00:02:00,920
+Defterleri her zaman doğrudan yükleyebilir ve dizüstü bilgisayarları çalıştırabilir veya not
+
+36
+00:02:00,920 --> 00:02:02,260
+defterlerinden kopyalayıp yapıştırabilirsiniz.
+
+37
+00:02:02,270 --> 00:02:08,190
+Bu şekilde, videonuzu izlerken hatalarınızın bazı yazım hatalarından kaynaklanmadığından emin olabilirsiniz.
+
+38
+00:02:08,190 --> 00:02:12,820
+Her soru, kodumuzla doğrudan ilgili olmayacak.
+
+39
+00:02:13,010 --> 00:02:17,570
+Ve bir sorunuz olduğunda, bazen hızlı bir Google araması veya yığın taşma araması, cevabı
+
+40
+00:02:17,570 --> 00:02:19,630
+size başkalarından daha hızlı bir şekilde ulaştıracaktır.
+
+41
+00:02:19,850 --> 00:02:24,350
+Bu yüzden, özellikle bir Python'da bir hata kodu almayı düşünüyorsanız, Google arama veya yığın
+
+42
+00:02:24,350 --> 00:02:26,420
+taşma araması yapmayı her zaman öneriyorum.
+
+43
+00:02:26,420 --> 00:02:30,870
+Belki de kendi kodunuzdan bazılarını kopyalayıp kopyalayıp Google'a yapıştırın
+
+44
+00:02:31,040 --> 00:02:34,470
+ve birçok kez ilk isabet sorunuzu yanıtlayacaktır.
+
+45
+00:02:34,850 --> 00:02:36,710
+Şimdi, hala size yardımcı olmadığını söyleyelim.
+
+46
+00:02:36,830 --> 00:02:42,440
+Yapmanız gereken şey, Kewney formlarımızı, bir milyonun üzerinde öğrencinin bu dersi takip ettiğimiz
+
+47
+00:02:42,440 --> 00:02:47,720
+derste araştırmasıdır. Bu yüzden, mümkün olan her sorunun, kendim veya öğretmenlerimiz tarafından
+
+48
+00:02:47,720 --> 00:02:50,850
+önceden sorulmuş ve yanıtlanmış olduğunu hayal edebilirsiniz.
+
+49
+00:02:50,870 --> 00:02:54,670
+Orada yayınlamadan önce mutlaka Kewney forumlarını aramalısınız.
+
+50
+00:02:54,730 --> 00:03:00,550
+Şimdi, sadece genel ders ile ilgili bir sorum var, nasıl sertifika alacağınız ya da
+
+51
+00:03:00,550 --> 00:03:04,380
+bana böyle bir şeyin Efik Q okutmanımızdan cevaplandırıldığı gibi.
+
+52
+00:03:04,510 --> 00:03:06,940
+Bu yüzden sık sorulan sorulardan oluşan bir makale dersimiz var.
+
+53
+00:03:07,090 --> 00:03:10,100
+Daha fazla bilgi için kolay bağlantılara göz atabilirsiniz.
+
+54
+00:03:10,540 --> 00:03:14,710
+Diyelim ki tüm bu adımlar ve kesinlikle sorun değil bir şey üzerinde kafanız karışık.
+
+55
+00:03:14,710 --> 00:03:16,010
+Sana yardım etmek için buradayız.
+
+56
+00:03:16,120 --> 00:03:18,510
+Bunu yapmanın yolu yeni bir soru göndermektir.
+
+57
+00:03:18,520 --> 00:03:24,340
+Q A forumları ve hata kodunuzun ekran görüntülerini denediğiniz ve gerçekten mümkün olduğunca fazla ayrıntı
+
+58
+00:03:24,700 --> 00:03:26,670
+hakkında bilgi verdiğinizden emin olun.
+
+59
+00:03:26,710 --> 00:03:28,940
+Bu şekilde mümkün olduğunca çabuk yardımcı olabiliriz.
+
+60
+00:03:30,880 --> 00:03:35,290
+Şimdi, bu tür şeyler için bir çeşit platform seviyesi sorunun olduğunu varsayalım.
+
+61
+00:03:35,290 --> 00:03:40,450
+Eudemus destek sayfasına gidip oraya gitmeniz ve yeni bir sayı açmanız için desteğe
+
+62
+00:03:40,450 --> 00:03:41,230
+e-posta göndermelisiniz.
+
+63
+00:03:41,230 --> 00:03:47,770
+Bu nedenle platform düzeyi sorunları, video oynatma ile ilgili sorularınız veya sertifikasyonunuzla ilgili sorularınız veya ödemelerinizle ilgili
+
+64
+00:03:48,010 --> 00:03:50,040
+sorularınız veya sorunlarınız gibi şeylerdir.
+
+65
+00:03:50,040 --> 00:03:52,970
+Bunlar platform seviyesinde sorunlar ve size gerçekten yardımcı olamıyoruz.
+
+66
+00:03:53,140 --> 00:03:56,810
+Bu yüzden e-posta, bana hızlı bir şekilde yardım etmek için nokta com'ı destekliyor.
+
+67
+00:03:59,230 --> 00:04:03,880
+Son olarak, kursa nasıl yaklaşacağımız hakkında konuşalım, kursa yaklaşmanın en iyi yolu,
+
+68
+00:04:03,880 --> 00:04:06,160
+not defterlerini videoyla birlikte gözden geçirmektir.
+
+69
+00:04:06,280 --> 00:04:11,740
+Videolar gerçekten harika, ancak sizin için sahip olduğumuz notebook'ların gücünü arttırmanızı istiyoruz ve hem
+
+70
+00:04:11,950 --> 00:04:16,340
+yeni başlayanlar hem de deneyimli kullanıcılar notebook'ları gerçekten en iyi şekilde kullanabiliyor.
+
+71
+00:04:16,540 --> 00:04:21,280
+Yeni başlayanlar için video rehberi için gittiğinizde not defterindeki ek notları okumanızı
+
+72
+00:04:21,280 --> 00:04:21,970
+tavsiye ederim.
+
+73
+00:04:22,210 --> 00:04:27,250
+Dizüstü bilgisayarları kullanmak isteyebileceğiniz şeylerden daha deneyimliseniz, bunları hızlı bir şekilde gözden geçirin ve hangi
+
+74
+00:04:27,250 --> 00:04:31,030
+parçaları önceden bildiğinize veya daha hızlı bir şekilde rahat hissedebileceğinizi görün.
+
+75
+00:04:31,030 --> 00:04:33,280
+Bu şekilde videoların yavaşlamadığını hissedersiniz.
+
+76
+00:04:33,370 --> 00:04:39,070
+Bu yüzden yeni başlayanlar gerçekten de dizüstü bilgisayarları kullanıyorlar. Video deneyimli kullanıcılarla birlikte iyi bir deneyim
+
+77
+00:04:39,070 --> 00:04:43,300
+yaşamaya devam ediyorlar. Önce dizüstü bilgisayarlara göz atıp videoya gerçekten ihtiyacınız olup
+
+78
+00:04:43,300 --> 00:04:50,040
+olmadığını veya videonun belirli kısımlarını atlamanızı ve biraz daha fazla delme gerektiren yere gitmenizi sağlıyor. bahsettiğimiz ders not
+
+79
+00:04:50,040 --> 00:04:51,020
+defterlerine kadar.
+
+80
+00:04:51,180 --> 00:04:55,620
+Dizüstü bilgisayarlara verilen bağlantı için otomatik olarak hoş geldiniz mesajınızı kontrol
+
+81
+00:04:55,620 --> 00:05:00,900
+etmelisiniz. Aslında bunları çalıştıran Python kodunda nasıl indirileceğini ve açılacağını gözden geçireceğiz. Bu
+
+82
+00:05:00,900 --> 00:05:05,250
+defterler aslında onları indirdiğinizde özel bir dosya türü olan Onları sadece
+
+83
+00:05:05,310 --> 00:05:06,510
+çift tıklayamaz ve açamazlar.
+
+84
+00:05:06,540 --> 00:05:11,520
+Kurs boyunca indirdiğimiz not defterlerini evde nasıl açacağınız konusunda aslında
+
+85
+00:05:11,520 --> 00:05:17,070
+çok daha ayrıntılı bir şekilde tartışacağız, böylece onları indirmeden bile istediğiniz
+
+86
+00:05:17,070 --> 00:05:18,350
+zaman görüntüleyebileceksiniz.
+
+87
+00:05:18,540 --> 00:05:21,450
+Onları indirmek için link de FNQ dersimizde.
+
+88
+00:05:21,510 --> 00:05:25,820
+Yani ya karşılama mesajınızı kontrol edin ya da bu link için sahte Q dersine gidin.
+
+89
+00:05:27,870 --> 00:05:29,830
+Şimdi öğrenci sohbet kanalı hakkında konuşalım.
+
+90
+00:05:30,120 --> 00:05:34,860
+Ayrıca öğrenci sohbet kanalımızın ve bu adliye sunucumuza katılmamız için otomatik karşılama mesajımızın da
+
+91
+00:05:34,860 --> 00:05:35,980
+bir bağlantısı var.
+
+92
+00:05:36,000 --> 00:05:40,410
+Bu, tüm kurslarımız arasında paylaşılan sohbet kanalıdır. Bu sayede öğrenciler, veri
+
+93
+00:05:40,710 --> 00:05:47,040
+bilimi finansmanı olan Eskew Well ile Skala ve daha çok otomatik karşılama mesajı hakkında bilgi edinebileceksiniz.
+
+94
+00:05:47,040 --> 00:05:52,110
+Ayrıca, sohbet sunucumuzun nasıl kullanılacağı ve oturum açılacağı hakkında daha fazla bilgi veren youtube videosuna da bir
+
+95
+00:05:52,110 --> 00:05:52,670
+link var.
+
+96
+00:05:52,680 --> 00:05:58,740
+Aslında bu çok kolay, ancak bu YouTube videosunun akılda tutulması gereken bir karışıklık olması durumunda,
+
+97
+00:05:58,740 --> 00:06:04,020
+bu sohbet kanalının amacı öğrencilerin diğer öğrencilerle bağlantı kurması ders materyali ile ilgili
+
+98
+00:06:04,020 --> 00:06:08,720
+teknik soruları hâlâ bir soruya en uygun hale getirmektir. forumları cevapla.
+
+99
+00:06:08,730 --> 00:06:12,250
+Bu yüzden diğer öğrencilerle eğlenmek için bu sohbet kanalını kullanmalısınız.
+
+100
+00:06:12,360 --> 00:06:17,880
+Ancak, derste veya derste bir konu ya da kavramla ilgili problem yaşıyorsanız, bu sorular soru
+
+101
+00:06:17,880 --> 00:06:19,950
+cevap forumları için en uygun olanıdır.
+
+102
+00:06:19,960 --> 00:06:25,590
+Daha önce gönderilen sorular için her zaman soruyu arayabilir ve forumları yanıtlayabilirsiniz.
+
+103
+00:06:25,610 --> 00:06:26,300
+Tamam.
+
+104
+00:06:26,300 --> 00:06:29,710
+Son olarak, bu derse kayıt olduğunuz için çok teşekkür ederim.
+
+105
+00:06:29,720 --> 00:06:34,750
+Kayıtlı bütün öğrenciler tarafından aldattım ve Python için öğretmeniniz olmanın ayrıcalığını yaşıyorum.
+
+106
+00:06:35,010 --> 00:06:38,800
+Tamam başlayalım ve sıfırdan kahramana geçelim.
