@@ -1,0 +1,223 @@
+1
+00:00:05,470 --> 00:00:07,290
+Bienvenidos a todos en esta conferencia.
+
+2
+00:00:07,300 --> 00:00:12,190
+Hablaremos formalmente de los operadores de comparación de Python y, de hecho, los mencionamos al final
+
+3
+00:00:12,190 --> 00:00:14,130
+de su prueba de evaluación anterior.
+
+4
+00:00:14,290 --> 00:00:15,640
+Afortunadamente fueron bastante directos.
+
+5
+00:00:15,640 --> 00:00:17,020
+Pero en caso de un poco confuso.
+
+6
+00:00:17,050 --> 00:00:21,940
+Ahora vamos a sumergirnos formalmente en ellos y le mostraremos cómo puede devolver los valores
+
+7
+00:00:21,940 --> 00:00:23,020
+booleanos mediante comparaciones.
+
+8
+00:00:23,020 --> 00:00:25,720
+Vamos a abrir una libreta de Júpiter y llegar directamente a ella.
+
+9
+00:00:25,720 --> 00:00:31,030
+Está bien, entonces aquí estoy una libreta y antes de comenzar quiero mencionar brevemente que en el cuaderno
+
+10
+00:00:31,030 --> 00:00:35,770
+de operadores de comparación que acompaña a esta conferencia, debajo de la sección de operadores de
+
+11
+00:00:36,330 --> 00:00:40,930
+comparación hay una tabla de operadores de comparación, la misma tabla de la evaluación anterior prueba
+
+12
+00:00:41,170 --> 00:00:44,670
+que tiene la descripción del operador y luego un ejemplo de ello.
+
+13
+00:00:44,680 --> 00:00:46,630
+Entonces empecemos.
+
+14
+00:00:46,630 --> 00:00:49,120
+Básicamente ir a recorrer todos ellos debería ser bastante sencillo.
+
+15
+00:00:49,150 --> 00:00:50,610
+Pequeña conferencia rápida aquí.
+
+16
+00:00:50,800 --> 00:00:53,050
+A menudo querrás verificar la igualdad.
+
+17
+00:00:53,050 --> 00:00:56,000
+Entonces, para hacer eso, es solo el doble de signos iguales.
+
+18
+00:00:56,020 --> 00:00:59,700
+Así que dos son dos carreras, entonces eso es verdad.
+
+19
+00:00:59,750 --> 00:01:04,630
+Si lo revisamos en otra cosa, por ejemplo, dos son iguales a 1, obtenemos un mensaje falso.
+
+20
+00:01:04,640 --> 00:01:08,440
+Y la razón por la que tenemos dos signos iguales es porque no queremos usar un solo signo igual.
+
+21
+00:01:08,450 --> 00:01:12,860
+De lo contrario Python va a pensar que estás tratando de asignar una variable allí y puedes usar
+
+22
+00:01:12,860 --> 00:01:15,190
+esto no solo para números sino básicamente para cualquier objeto.
+
+23
+00:01:15,260 --> 00:01:24,100
+Entonces puedo verificar si la cadena Hola es igual a la que dice "falso".
+
+24
+00:01:24,110 --> 00:01:28,920
+Y observe cuando compara y ve cuando está comparando los conteos de capitalización de cadenas.
+
+25
+00:01:28,920 --> 00:01:35,900
+Entonces no puedes hacer algo como esto y eso devuelve falso porque uno es b minúscula y tu
+
+26
+00:01:35,900 --> 00:01:36,650
+mayúscula B.
+
+27
+00:01:36,760 --> 00:01:39,670
+También debe saber que Python considerará los tipos.
+
+28
+00:01:39,670 --> 00:01:45,880
+Entonces, por ejemplo, la cadena dos no va a ser igual al número dos, es el número entero 2 para
+
+29
+00:01:45,880 --> 00:01:48,220
+puntos flotantes, siempre que tengan el mismo valor.
+
+30
+00:01:48,340 --> 00:01:49,040
+Ellos serán verdaderos
+
+31
+00:01:49,060 --> 00:01:52,110
+Entonces 2. 0 va a ser lo mismo que dos.
+
+32
+00:01:52,450 --> 00:01:55,090
+Entonces eso es igualdad para la desigualdad.
+
+33
+00:01:55,240 --> 00:01:57,820
+Puedes usar el signo de signo de exclamación igual.
+
+34
+00:01:57,910 --> 00:02:02,380
+Entonces si vas a decir que tres no son tres.
+
+35
+00:02:02,800 --> 00:02:07,750
+Bueno, eso es falso porque tres es igual a tres a menos que se muestre un ejemplo de dónde volverá
+
+36
+00:02:07,750 --> 00:02:08,070
+verdadero.
+
+37
+00:02:08,080 --> 00:02:12,230
+Por lo tanto, no es igual a cinco que devuelve verdadero.
+
+38
+00:02:12,250 --> 00:02:17,040
+Así que tenemos igualdad tenemos no igualdad o no igual o mayor que entonces.
+
+39
+00:02:17,050 --> 00:02:22,360
+Entonces puedo decir que es mayor que 1, que es cierto, es uno mayor que dos.
+
+40
+00:02:22,630 --> 00:02:23,780
+Eso es falso
+
+41
+00:02:23,890 --> 00:02:24,970
+Entonces tenemos menos entonces.
+
+42
+00:02:24,970 --> 00:02:28,450
+Entonces, básicamente, lo contrario es o es uno menos de dos.
+
+43
+00:02:28,510 --> 00:02:31,560
+Eso es cierto es menos de cinco.
+
+44
+00:02:31,570 --> 00:02:32,890
+Eso también es verdad
+
+45
+00:02:33,280 --> 00:02:37,210
+Y luego tenemos mayor que o igual a y menor que o igual a.
+
+46
+00:02:37,250 --> 00:02:44,030
+Entonces puedo decir que es mayor o igual que el número dos en este caso es cierto porque somos iguales el uno
+
+47
+00:02:44,030 --> 00:02:46,640
+con el otro y luego podemos hacer algo similar.
+
+48
+00:02:46,670 --> 00:02:51,710
+Podemos decir que Lessner es igual al ejemplo 1 y eso es falso.
+
+49
+00:02:51,710 --> 00:02:55,540
+Y puede ver muchas otras comparaciones aquí en este cuaderno.
+
+50
+00:02:55,550 --> 00:03:01,490
+Algunas cosas sencillas muchas veces vamos a utilizar realmente es la igualdad, pero lo próximo que queremos
+
+51
+00:03:01,490 --> 00:03:05,660
+analizar es si quieres hacer más de una comparación a la vez.
+
+52
+00:03:05,660 --> 00:03:11,460
+Hasta ahora hemos estado comparando dos números o dos objetos, de modo que dos en uno y 0.
+
+53
+00:03:11,570 --> 00:03:15,220
+Pero a menudo querrás hacer comparaciones múltiples en la misma línea.
+
+54
+00:03:15,350 --> 00:03:21,050
+Y para hacer eso vamos a usar algo llamado operadores lógicos que nos permitirá
+
+55
+00:03:21,050 --> 00:03:22,430
+encadenar operadores de comparación.
+
+56
+00:03:22,550 --> 00:03:25,250
+Así que discutiremos eso en la próxima conferencia o veremos cualquiera.

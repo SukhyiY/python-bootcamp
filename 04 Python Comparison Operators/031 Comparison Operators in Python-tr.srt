@@ -1,0 +1,223 @@
+1
+00:00:05,470 --> 00:00:07,290
+Bu dersin herkese tekrar hoş geldiniz.
+
+2
+00:00:07,300 --> 00:00:12,190
+Python karşılaştırma operatörlerini resmi olarak tartışacağız ve önceki değerlendirmeyle
+
+3
+00:00:12,190 --> 00:00:14,130
+ilgili testin sonuna değindik.
+
+4
+00:00:14,290 --> 00:00:15,640
+Umarım oldukça basitdiler.
+
+5
+00:00:15,640 --> 00:00:17,020
+Ancak biraz şaşkınlık durumunda.
+
+6
+00:00:17,050 --> 00:00:21,940
+Şimdi resmen onlara dalacağız ve karşılaştırmaları kullanarak boolean değerlerini nasıl geri
+
+7
+00:00:21,940 --> 00:00:23,020
+döndürebileceğinizi göstereceğiz.
+
+8
+00:00:23,020 --> 00:00:25,720
+Hadi bir Jüpiter defteri açın ve ona düz olsun.
+
+9
+00:00:25,720 --> 00:00:31,030
+Pekâlâ, burada bir dizüstü bilgisayarım ve başlamadan önce kısaca şunu belirtmek isterim ki,
+
+10
+00:00:31,030 --> 00:00:35,770
+bu dersle birlikte gelen karşılaştırma operatörlerinin dizüstü bilgisayarında karşılaştırma operatörleri bölümünün altında,
+
+11
+00:00:36,330 --> 00:00:40,930
+aslında önceki değerlendirmeden karşılaştırma operatörlerinin aynı masasının bir tablosu var operatöre
+
+12
+00:00:41,170 --> 00:00:44,670
+açıklama ve daha sonra bunun bir örneğini test edin.
+
+13
+00:00:44,680 --> 00:00:46,630
+Öyleyse başlayalım.
+
+14
+00:00:46,630 --> 00:00:49,120
+Temel olarak bunların hepsinden geçmek oldukça basit olmalı.
+
+15
+00:00:49,150 --> 00:00:50,610
+Burada çok hızlı bir ders var.
+
+16
+00:00:50,800 --> 00:00:53,050
+Genellikle eşitliği kontrol etmek isteyeceksiniz.
+
+17
+00:00:53,050 --> 00:00:56,000
+Yani bunu yapmak sadece iki eşit işarettir.
+
+18
+00:00:56,020 --> 00:00:59,700
+Yani iki eşit iki koşmak o zaman bu doğrudur.
+
+19
+00:00:59,750 --> 00:01:04,630
+Örneğin başka bir şey üzerinde kontrol edersek, iki eşit 1 oluruz, böylece yanlış oluruz.
+
+20
+00:01:04,640 --> 00:01:08,440
+Ve iki eşit işareti olan nedeni, tek bir eşit işaret kullanmak istemiyoruz çünkü.
+
+21
+00:01:08,450 --> 00:01:12,860
+Aksi takdirde Python orada bir değişken atamaya çalıştığınızı düşünecek ve bunu sadece sayıları değil
+
+22
+00:01:12,860 --> 00:01:15,190
+temel olarak herhangi bir nesneyi de kullanabilirsiniz.
+
+23
+00:01:15,260 --> 00:01:24,100
+Dolayısıyla, Merhaba deyim yanlış söyleyen biriyle aynı olan dize olup olmadığını kontrol edebilirim.
+
+24
+00:01:24,110 --> 00:01:28,920
+Dizeleri büyük harfle karşılaştırırken ne zaman karşılaştığınızı ve görüp görmediğinizi fark edin.
+
+25
+00:01:28,920 --> 00:01:35,900
+Böylece böyle bir şey yapamazsınız ve yanlış döndürür, çünkü biri b küçük ve bir
+
+26
+00:01:35,900 --> 00:01:36,650
+büyük B'dir.
+
+27
+00:01:36,760 --> 00:01:39,670
+Ayrıca Python'un türleri göz önüne alacağının farkında olmalısınız.
+
+28
+00:01:39,670 --> 00:01:45,880
+Örneğin, iki dizge, aynı değere sahip oldukları sürece kayan noktalar için tamsayı 2
+
+29
+00:01:45,880 --> 00:01:48,220
+olan sayı iki'ye eşit olmayacak.
+
+30
+00:01:48,340 --> 00:01:49,040
+Onlar gerçek olacak.
+
+31
+00:01:49,060 --> 00:01:52,110
+Yani 2. 0, ikisi ile aynı olacak.
+
+32
+00:01:52,450 --> 00:01:55,090
+Bu eşitsizlik eşittir.
+
+33
+00:01:55,240 --> 00:01:57,820
+Ünlem işareti eşit işareti kullanabilirsiniz.
+
+34
+00:01:57,910 --> 00:02:02,380
+Yani eğer üçünüz üç değil eşit demek gidiyorsun.
+
+35
+00:02:02,800 --> 00:02:07,750
+Peki bu yanlış çünkü nereye döndüğüne dair bir örnek gösterilmediği sürece üç
+
+36
+00:02:07,750 --> 00:02:08,070
+eşittir.
+
+37
+00:02:08,080 --> 00:02:12,230
+Böylece, beşe eşit olmayan, doğru olanı döndürür.
+
+38
+00:02:12,250 --> 00:02:17,040
+Eşitlik var ya eşit değiliz ya da eşit değiliz.
+
+39
+00:02:17,050 --> 00:02:22,360
+Bu yüzden, 1'den büyük, doğru olanın iki'den büyük olduğunu söyleyebilirim.
+
+40
+00:02:22,630 --> 00:02:23,780
+Bu yanlış.
+
+41
+00:02:23,890 --> 00:02:24,970
+Öyleyse daha azımız var.
+
+42
+00:02:24,970 --> 00:02:28,450
+Yani temelde tersi ikiden daha az veya biridir.
+
+43
+00:02:28,510 --> 00:02:31,560
+Bu doğru beşten az.
+
+44
+00:02:31,570 --> 00:02:32,890
+Bu da doğru.
+
+45
+00:02:33,280 --> 00:02:37,210
+Ve o zaman bizden daha büyük veya daha büyük veya daha düşük veya ona eşit.
+
+46
+00:02:37,250 --> 00:02:44,030
+Dolayısıyla, bu durumda iki sayıdan büyük veya eşit olduğumuzu söyleyebilirim doğru çünkü biz birbirimize eşit
+
+47
+00:02:44,030 --> 00:02:46,640
+ve sonra benzer bir şey yapabiliriz.
+
+48
+00:02:46,670 --> 00:02:51,710
+Lesser için örnek 1'e eşit ve yanlış olduğunu söyleyebiliriz.
+
+49
+00:02:51,710 --> 00:02:55,540
+Ve burada bu defterde bir sürü karşılaştırma görebilirsiniz.
+
+50
+00:02:55,550 --> 00:03:01,490
+Gerçekten kullanacağımız çok basit şeyler eşitliğidir ancak bir anda aynı anda
+
+51
+00:03:01,490 --> 00:03:05,660
+birden fazla karşılaştırma yapmak istiyorsanız tartışmak istediğiniz gelmektedir.
+
+52
+00:03:05,660 --> 00:03:11,460
+Şu ana kadar sadece iki sayı ya da iki nesne birbirini karşılaştırarak iki bir ve 0 olarak karşılaştırdık.
+
+53
+00:03:11,570 --> 00:03:15,220
+Ancak çoğu kez aynı satırda çok sayıda karşılaştırma yapmak isteyeceksiniz.
+
+54
+00:03:15,350 --> 00:03:21,050
+Bunu yapmak için karşılaştırma operatörlerini birbirine zincirlememize izin verecek mantıksal operatörler diye
+
+55
+00:03:21,050 --> 00:03:22,430
+bir şey kullanacağız.
+
+56
+00:03:22,550 --> 00:03:25,250
+Bunu bir sonraki dersimizde tartışacağız ya da görüşeceğiz.

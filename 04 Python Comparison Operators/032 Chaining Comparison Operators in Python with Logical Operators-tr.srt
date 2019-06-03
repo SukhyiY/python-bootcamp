@@ -1,0 +1,391 @@
+1
+00:00:05,900 --> 00:00:06,900
+Herkese geri hoşgeldiniz.
+
+2
+00:00:06,920 --> 00:00:09,470
+Bir önceki derste karşılaştırma operatörleri hakkında öğrendik.
+
+3
+00:00:09,470 --> 00:00:14,870
+Şimdi farklı karşılaştırmaları birbirine zincirleme yöntemini tartışacağız ve mantıksal operatörler denilen
+
+4
+00:00:14,870 --> 00:00:20,540
+şeyin kullanımı ile bunu yapabiliriz ve karşılaştırmaları birleştirmemize izin veriyorlar ve burada
+
+5
+00:00:20,540 --> 00:00:22,210
+tartışacakları mantıksal operatörler var.
+
+6
+00:00:22,220 --> 00:00:25,720
+Ve anahtar kelime veya anahtar kelime ve değil anahtar kelime.
+
+7
+00:00:25,790 --> 00:00:29,960
+Bu yüzden, bu anahtar kelimeleri kullanmanın yanı sıra bu anahtar kelimeleri
+
+8
+00:00:29,960 --> 00:00:32,070
+kullanmadan karşılaştırmalar zincirleme yöntemlerini keşfedelim.
+
+9
+00:00:32,070 --> 00:00:38,280
+Pekala, aslında iki karşılaştırma yaptığımızda bir koşulu yürütmek istediğimizi düşünelim.
+
+10
+00:00:38,280 --> 00:00:42,220
+Örneğin, ikisinin birden az olup olmadığını kontrol etmek istedik.
+
+11
+00:00:42,750 --> 00:00:46,880
+Ve biz de iki üçten az olsaydı aynı zamanda kontrol etmek istedik.
+
+12
+00:00:46,920 --> 00:00:50,690
+Dolayısıyla bu doğrudan sayıların yerine, kodumuzda başka bir yerde değiştirilebilen değişken
+
+13
+00:00:50,700 --> 00:00:53,340
+adları kullanacağımızı, işleri basit tutmak için hayal edebiliyorsunuz.
+
+14
+00:00:53,340 --> 00:00:55,300
+Doğrudan tam sayıları kullanıyoruz.
+
+15
+00:00:55,550 --> 00:00:58,450
+Bu iki şeyi birlikte değiştirmek için aşağıdakileri yapalım.
+
+16
+00:00:58,450 --> 00:01:04,130
+2'den az ve 2'den 3'ü söyleyebilir.
+
+17
+00:01:04,200 --> 00:01:05,460
+Yani bunu çalıştırdığımızda geri döndük.
+
+18
+00:01:05,460 --> 00:01:10,510
+Doğrudur çünkü bu zincir karşılaştırması doğrudur ve bu karşılaştırma doğrudur.
+
+19
+00:01:10,530 --> 00:01:12,190
+Bunlardan birini değiştirseydim.
+
+20
+00:01:12,240 --> 00:01:17,700
+Örneğin bu görevi değiştirirsem, ilk 3'ün doğru olmasına rağmen bu ikincisi artık doğru
+
+21
+00:01:17,730 --> 00:01:21,650
+değildir, çünkü bu görevi 3'ün üstünde olacak şekilde geri çeviririz.
+
+22
+00:01:21,660 --> 00:01:26,880
+Şimdi birlikte zincirleme bu tür kullanabilirsiniz ancak alternatif olarak mantıksal
+
+23
+00:01:27,120 --> 00:01:33,520
+operatör kullanabilirsiniz ve temelde bu kodu yazmak için kullandığınız biri ve anahtar kelime.
+
+24
+00:01:33,750 --> 00:01:39,080
+Dolayısıyla şunu söyleyebilirim, aşağıda yer alanlardan bir tanesi 2'den az.
+
+25
+00:01:39,270 --> 00:01:45,930
+Ve orada vurgulanan sözdiziminin ikiden fazla olduğu ve geri döndüğünün de yanlış olduğunu
+
+26
+00:01:45,930 --> 00:01:46,880
+fark ettim.
+
+27
+00:01:47,130 --> 00:01:51,110
+Ve bunu daha az olacak şekilde değiştirebilir ve daha sonra bu doğruyu döndürür.
+
+28
+00:01:51,330 --> 00:01:57,270
+Dolayısıyla tüm anahtar kelimeler şunları söylüyor: "benim sağımdaki doğru şey de hey, sağımdaki şey de.
+
+29
+00:01:57,270 --> 00:02:01,350
+Doğruyu veya hatırlayın, bunun herhangi bir karşılaştırma
+
+30
+00:02:01,350 --> 00:02:12,920
+türü olabileceğini unutmayın; bazıları size bir örnek göstereceğiz, bazıları Is H'nin dize eşit ve iki tane eşit olan iki şeyi birlikte
+
+31
+00:02:12,980 --> 00:02:15,680
+çalıştırdığımızda bazen insanlara yazarken kodu.
+
+32
+00:02:15,710 --> 00:02:21,080
+sarmalamak gibi biraz daha organizasyona girmeyi severler ve bunu zaman zaman yaptığımı göreceksiniz.
+
+33
+00:02:21,140 --> 00:02:22,970
+Parantez içinde bu karşılaştırmaları
+
+34
+00:02:23,060 --> 00:02:25,090
+Bazı insanlar için bu biraz daha okunabilir.
+
+35
+00:02:25,190 --> 00:02:28,050
+Diğerleri için daha az okunabilir, çünkü daha fazla şey ekliyorsunuz.
+
+36
+00:02:28,100 --> 00:02:30,090
+Bunları kullanmak isteyip istemediğiniz sorulursa size kalmıştır.
+
+37
+00:02:30,110 --> 00:02:34,930
+Sonradan konuşacağımız, bu parantezlerin olmasını gerektiren bazı kütüphaneler var.
+
+38
+00:02:35,090 --> 00:02:38,240
+Fakat şu an prensin daha okunaklı olduğunu düşünüyorsan, sana bağlıdır.
+
+39
+00:02:38,240 --> 00:02:42,930
+Eğer devam etseydiniz, parantezler olmadan daha şık bir şekilde daha şık olduğunuzu isterseniz kullanın.
+
+40
+00:02:43,070 --> 00:02:48,710
+da yapabilirsin ama sadece aklımdadır ve anahtar kelime benim solda gerçek olanı ve sağımdaki şeyi söyler.
+
+41
+00:02:48,710 --> 00:02:50,660
+Sen de devam edebilirsin, ama bunu
+
+42
+00:02:50,660 --> 00:02:51,000
+Doğru.
+
+43
+00:02:51,020 --> 00:02:52,910
+Ve sonra kapalı bir boolean döndürür.
+
+44
+00:02:53,090 --> 00:02:58,100
+Şimdiye kadar bahsettiğimiz OR anahtarı sözcüğünden şüphelenebileceğin kadar anahtar kelimeyle
+
+45
+00:02:58,190 --> 00:03:00,460
+şimdiye kadar o kadar açıktı.
+
+46
+00:03:00,650 --> 00:03:03,080
+Ve bunun şartlarından birinin doğru olması gerekir.
+
+47
+00:03:03,080 --> 00:03:04,780
+Numaraları tekrar kullanacağız.
+
+48
+00:03:04,820 --> 00:03:10,360
+Say 1 1'e eşittir veya 2 eşittir 2'ye eşittir.
+
+49
+00:03:10,370 --> 00:03:11,540
+Bu yüzden koşturduk ve geri döndük.
+
+50
+00:03:11,540 --> 00:03:12,130
+Doğru.
+
+51
+00:03:12,230 --> 00:03:17,810
+Bununla birlikte, yalnızca bu koşullardan birinin doğru olması ve buna ihtiyaç duyulmaması için sadece birinin
+
+52
+00:03:17,810 --> 00:03:20,160
+sola veya birinin sağa doğru olması gerekir.
+
+53
+00:03:20,450 --> 00:03:21,780
+Bu yüzden ne demek istediğimi gösterebilirim.
+
+54
+00:03:21,860 --> 00:03:22,880
+Bunlardan birini yapacağım.
+
+55
+00:03:22,880 --> 00:03:23,600
+Kesinlikle doğru değil.
+
+56
+00:03:23,600 --> 00:03:25,210
+Yani 1'e eşit değil.
+
+57
+00:03:25,370 --> 00:03:30,470
+Ancak bunu tekrar çalıştırırsam, hücre sayımım doğrudur diyor, çünkü bir tanesinin doğru
+
+58
+00:03:30,470 --> 00:03:31,100
+olması gerekir.
+
+59
+00:03:31,100 --> 00:03:34,990
+Yani bu deyim doğru mu yoksa bu deyim doğru mu demektir.
+
+60
+00:03:35,440 --> 00:03:39,670
+Ve onları ikisine de yanlış yaparsak nihayet sahteleri geri alacağız.
+
+61
+00:03:39,800 --> 00:03:44,570
+Bu, OR anahtarındaki ve anahtar kelimesiyle karşılaştırma operatörlerini zincirleme temelleri.
+
+62
+00:03:44,570 --> 00:03:49,280
+Ve böyle bir şey yapmak yerine bu anahtar kelimeleri kullanmanızı öneririm çünkü
+
+63
+00:03:49,280 --> 00:03:50,810
+bence biraz daha okunabilir.
+
+64
+00:03:50,870 --> 00:03:54,130
+Dolayısıyla daima kodumuzda okunabilirliği vurgulamak istiyoruz.
+
+65
+00:03:54,170 --> 00:03:59,030
+Özellikle iyi, çünkü daha sonra belki bir ay sonra aynı koda
+
+66
+00:03:59,030 --> 00:04:01,760
+geri dönerseniz, kodu kolayca okuyabilmek isteyeceksiniz.
+
+67
+00:04:01,760 --> 00:04:02,590
+Bu yüzden sadece tartıştık.
+
+68
+00:04:02,670 --> 00:04:05,440
+Ve sonra mantıksal operatörler veya anahtar kelime.
+
+69
+00:04:05,560 --> 00:04:11,450
+Sonunda not anahtar kelimesini konuşmak istiyoruz, böylece size bir OT olmayan bir anahtar kelimenin
+
+70
+00:04:11,450 --> 00:04:14,210
+bir örneğini göstererek tartışmamızı tamamlamış oluyoruz.
+
+71
+00:04:14,300 --> 00:04:18,880
+Temel olarak, yaptığın şeyin tersi boolean değerini geri getirmenizi istiyor.
+
+72
+00:04:19,340 --> 00:04:21,690
+Bu güzel örneği önce oluşturun.
+
+73
+00:04:21,710 --> 00:04:23,030
+Yani bir tanesi eşittir.
+
+74
+00:04:23,090 --> 00:04:24,250
+Bunun doğru olduğunu biliyoruz.
+
+75
+00:04:24,500 --> 00:04:30,040
+Herhangi bir nedenden dolayı almak istediysek, karşıt mantık teklifi bunu yapmamamdı.
+
+76
+00:04:30,440 --> 00:04:35,310
+Ve sonra bir prens, birine eşit olanı görür ve hepsi de yanlış geri döner.
+
+77
+00:04:35,330 --> 00:04:37,610
+Teknik olarak burada bu Prensibe ihtiyacınız yok.
+
+78
+00:04:37,790 --> 00:04:39,130
+Yani böyle bir şey yapabilirsin.
+
+79
+00:04:39,170 --> 00:04:40,760
+Birine eşit değil.
+
+80
+00:04:40,790 --> 00:04:41,980
+Ve sen de yanlış döndün.
+
+81
+00:04:42,020 --> 00:04:48,440
+Okunabilir olan şey size kalmış, ancak yapmayanların hepsi burada Bulleen'i iade ettikleri şeyin
+
+82
+00:04:48,440 --> 00:04:49,940
+karşısına çıkmak istiyor.
+
+83
+00:04:49,940 --> 00:04:58,130
+Mesela sana 400'den fazla 5000 diyelim.
+
+84
+00:04:58,600 --> 00:04:59,580
+Yani bu yanlış.
+
+85
+00:04:59,650 --> 00:05:03,590
+Ama onun önünde bir düğüm yerleştirirsem, bunun tersini isteyeceğim.
+
+86
+00:05:03,580 --> 00:05:05,310
+Bu yüzden doğru söyleyecektir.
+
+87
+00:05:05,380 --> 00:05:10,690
+Dolayısıyla, dersin bir sonraki bölümünde kontrol akışını tartışmaya başlayınca, mantığını
+
+88
+00:05:10,690 --> 00:05:13,530
+yazmaya çalıştığınızda bazen kullanışlı olamazsınız.
+
+89
+00:05:13,600 --> 00:05:15,240
+Ancak bu anahtar kelimeyi aklınızda tutun.
+
+90
+00:05:15,310 --> 00:05:19,810
+Başlangıçta çok sık kullanmayacaksınız, ancak daha sonra bazen kod parçalarının değil
+
+91
+00:05:19,810 --> 00:05:22,560
+anahtar kelime ile okunabilir hale geldiğini göreceksiniz.
+
+92
+00:05:22,720 --> 00:05:27,880
+Karşıt gibi bir şey kullanmak yerine, orada bulunanlardan birine eşit olmayan bir şey
+
+93
+00:05:27,880 --> 00:05:28,880
+kullanmak yerine.
+
+94
+00:05:29,020 --> 00:05:29,350
+Tamam.
+
+95
+00:05:29,350 --> 00:05:31,020
+Mantıksal operatörlerin temelleri budur.
+
+96
+00:05:31,060 --> 00:05:35,620
+Burada gerçekleşmesi gereken ana şey, anahtar kelimenin gerçek olması için her iki şartın da gerekliliğidir.
+
+97
+00:05:35,850 --> 00:05:39,920
+Veya anahtar kelimenin doğru olması için bir veya ikisinin olması gerekir.
+
+98
+00:05:39,940 --> 00:05:41,190
+Bir sonraki konuşmada görüşürüz.

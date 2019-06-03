@@ -1,0 +1,223 @@
+1
+00:00:05,470 --> 00:00:07,290
+Bentornati tutti in questa conferenza.
+
+2
+00:00:07,300 --> 00:00:12,190
+Parleremo formalmente degli operatori di confronto Python e in realtà li abbiamo menzionati alla
+
+3
+00:00:12,190 --> 00:00:14,130
+fine del test di valutazione precedente.
+
+4
+00:00:14,290 --> 00:00:15,640
+Spero che siano stati piuttosto semplici.
+
+5
+00:00:15,640 --> 00:00:17,020
+Ma nel caso un po 'di confusione.
+
+6
+00:00:17,050 --> 00:00:21,940
+Ora ci stiamo tuffando formalmente in loro e ti mostriamo come puoi tornare indietro con valori
+
+7
+00:00:21,940 --> 00:00:23,020
+booleani usando i confronti.
+
+8
+00:00:23,020 --> 00:00:25,720
+Apriamo un quaderno di Giove e procediamo dritto.
+
+9
+00:00:25,720 --> 00:00:31,030
+Va bene, quindi io sono un taccuino e prima di iniziare voglio menzionare brevemente che nel taccuino
+
+10
+00:00:31,030 --> 00:00:35,770
+degli operatori di confronto che accompagna questa lezione è sotto la sezione degli operatori di
+
+11
+00:00:36,330 --> 00:00:40,930
+confronto c'è in realtà una tabella degli operatori di confronto stessa tabella della valutazione precedente
+
+12
+00:00:41,170 --> 00:00:44,670
+test che ha l'operatore la descrizione e quindi un esempio di esso.
+
+13
+00:00:44,680 --> 00:00:46,630
+Quindi iniziamo.
+
+14
+00:00:46,630 --> 00:00:49,120
+Fondamentalmente andando a camminare attraverso tutti loro dovrebbe essere piuttosto semplice.
+
+15
+00:00:49,150 --> 00:00:50,610
+Piccola conferenza veloce qui.
+
+16
+00:00:50,800 --> 00:00:53,050
+Spesso vorrete verificare l'uguaglianza.
+
+17
+00:00:53,050 --> 00:00:56,000
+Quindi per farlo è solo doppio segno di uguale.
+
+18
+00:00:56,020 --> 00:00:59,700
+Quindi due equivalgono a due che poi è vero.
+
+19
+00:00:59,750 --> 00:01:04,630
+Se verifichiamo su qualcos'altro, ad esempio, due sono uguali a 1, torniamo false.
+
+20
+00:01:04,640 --> 00:01:08,440
+E la ragione per cui abbiamo due segni di uguale è perché non vogliamo usare un singolo segno di uguale.
+
+21
+00:01:08,450 --> 00:01:12,860
+Altrimenti Python penserà che stai cercando di assegnare una variabile lì e puoi usare questo non
+
+22
+00:01:12,860 --> 00:01:15,190
+solo per i numeri ma fondamentalmente per qualsiasi oggetto.
+
+23
+00:01:15,260 --> 00:01:24,100
+Quindi posso controllare che la stringa Hello sia uguale a una che dice falso.
+
+24
+00:01:24,110 --> 00:01:28,920
+E notate quando confrontate e vedete quando confrontate i conteggi delle maiuscole delle stringhe.
+
+25
+00:01:28,920 --> 00:01:35,900
+Quindi non puoi fare qualcosa del genere e questo restituisce falso perché uno è in minuscolo b e il maiuscolo
+
+26
+00:01:35,900 --> 00:01:36,650
+in maiuscolo.
+
+27
+00:01:36,760 --> 00:01:39,670
+Dovresti anche essere consapevole che Python considererà i tipi.
+
+28
+00:01:39,670 --> 00:01:45,880
+Quindi, ad esempio, la stringa due non sarà uguale al numero due sono il numero intero 2 per i
+
+29
+00:01:45,880 --> 00:01:48,220
+punti mobili purché mantengano lo stesso valore.
+
+30
+00:01:48,340 --> 00:01:49,040
+Saranno veri.
+
+31
+00:01:49,060 --> 00:01:52,110
+Quindi 2. 0 sarà uguale a due.
+
+32
+00:01:52,450 --> 00:01:55,090
+Quindi questa è l'uguaglianza per la disuguaglianza.
+
+33
+00:01:55,240 --> 00:01:57,820
+È possibile utilizzare il segno di uguale punto esclamativo.
+
+34
+00:01:57,910 --> 00:02:02,380
+Quindi se stai dicendo che tre non sono uguali a tre.
+
+35
+00:02:02,800 --> 00:02:07,750
+Bene, questo è falso perché tre è uguale a tre a meno che non venga mostrato un esempio di dove restituirà
+
+36
+00:02:07,750 --> 00:02:08,070
+true.
+
+37
+00:02:08,080 --> 00:02:12,230
+Quindi per non uguale a cinque che ritorna vero.
+
+38
+00:02:12,250 --> 00:02:17,040
+Quindi abbiamo l'uguaglianza non abbiamo uguaglianza o non è uguale o maggiore allora.
+
+39
+00:02:17,050 --> 00:02:22,360
+Quindi posso dire che è maggiore di 1 che è vero è uno maggiore di due.
+
+40
+00:02:22,630 --> 00:02:23,780
+Questo è falso.
+
+41
+00:02:23,890 --> 00:02:24,970
+Allora abbiamo meno allora.
+
+42
+00:02:24,970 --> 00:02:28,450
+Quindi in pratica il contrario è o è uno in meno di due.
+
+43
+00:02:28,510 --> 00:02:31,560
+Questo è vero è a meno di cinque.
+
+44
+00:02:31,570 --> 00:02:32,890
+Questo è anche vero.
+
+45
+00:02:33,280 --> 00:02:37,210
+E poi abbiamo maggiore o uguale a e minore o uguale a.
+
+46
+00:02:37,250 --> 00:02:44,030
+Quindi posso dire che è maggiore o uguale al numero due in questo caso è vero perché siamo uguali tra
+
+47
+00:02:44,030 --> 00:02:46,640
+loro e quindi possiamo fare una cosa simile.
+
+48
+00:02:46,670 --> 00:02:51,710
+Possiamo dire che per Lessner è uguale ad esempio 1 e questo è falso.
+
+49
+00:02:51,710 --> 00:02:55,540
+E puoi vedere un sacco di altri paragoni proprio qui su questo quaderno.
+
+50
+00:02:55,550 --> 00:03:01,490
+Cose piuttosto semplici molte volte che useremo davvero è l'uguaglianza, ma il prossimo passo che vogliamo
+
+51
+00:03:01,490 --> 00:03:05,660
+discutere è se vuoi fare più di un confronto alla volta.
+
+52
+00:03:05,660 --> 00:03:11,460
+Quindi finora abbiamo appena confrontato due numeri o due oggetti quindi due in uno e 0.
+
+53
+00:03:11,570 --> 00:03:15,220
+Ma spesso vorrai fare confronti multipli sulla stessa linea.
+
+54
+00:03:15,350 --> 00:03:21,050
+E per farlo useremo qualcosa chiamato operatori logici che ci consentirà di mettere insieme
+
+55
+00:03:21,050 --> 00:03:22,430
+gli operatori di confronto.
+
+56
+00:03:22,550 --> 00:03:25,250
+Quindi ne parleremo nella prossima lezione o vedremo entrambi.

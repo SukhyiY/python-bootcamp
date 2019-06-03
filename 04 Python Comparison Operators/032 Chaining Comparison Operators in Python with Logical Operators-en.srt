@@ -1,0 +1,391 @@
+1
+00:00:05,900 --> 00:00:06,900
+Welcome back everyone.
+
+2
+00:00:06,920 --> 00:00:09,470
+In the previous lecture we learned about comparison operators.
+
+3
+00:00:09,470 --> 00:00:14,870
+Now we're going to discuss how to chain together different comparisons and we can do this with the use
+
+4
+00:00:14,870 --> 00:00:20,540
+of what are called logical operators and they allow us to combine comparisons and the key logical operators
+
+5
+00:00:20,540 --> 00:00:22,210
+were going to be discussing here is the.
+
+6
+00:00:22,220 --> 00:00:25,720
+And the key word the or keyword and the not keyword.
+
+7
+00:00:25,790 --> 00:00:29,960
+So let's explore how to use these keywords as well as chaining comparisons without the use of these
+
+8
+00:00:29,960 --> 00:00:32,070
+keywords.
+
+9
+00:00:32,070 --> 00:00:38,280
+All right let's imagine that we want to have a condition executed when we actually did two comparisons.
+
+10
+00:00:38,280 --> 00:00:42,220
+For example we wanted to check if one was less than two.
+
+11
+00:00:42,750 --> 00:00:46,880
+And we also wanted to check at the same time if two was less than three.
+
+12
+00:00:46,920 --> 00:00:50,690
+So you can imagine that instead of these direct numbers would to be using a variable names that maybe
+
+13
+00:00:50,700 --> 00:00:53,340
+get changed somewhere else in our code but to keep things simple.
+
+14
+00:00:53,340 --> 00:00:55,300
+We're just using direct integers.
+
+15
+00:00:55,550 --> 00:00:58,450
+So to change these two together we could do is do the following.
+
+16
+00:00:58,450 --> 00:01:04,130
+It can say is one less than 2 and is 2 less than three.
+
+17
+00:01:04,200 --> 00:01:05,460
+So when we run this we get back.
+
+18
+00:01:05,460 --> 00:01:10,510
+True because this chain comparison is true and this comparison is true.
+
+19
+00:01:10,530 --> 00:01:12,190
+If I were to change one of these.
+
+20
+00:01:12,240 --> 00:01:17,700
+So for example if I switch this task is to greater than 3 we get back false because even though the
+
+21
+00:01:17,730 --> 00:01:21,650
+first one is true this second one is no longer true.
+
+22
+00:01:21,660 --> 00:01:26,880
+Now you could use this sort of chaining together but alternatively you can use the logical operator
+
+23
+00:01:27,120 --> 00:01:33,520
+and the one you would use to basically write this code here is the and keyword.
+
+24
+00:01:33,750 --> 00:01:39,080
+So instead of the following from above I could say is one less than 2.
+
+25
+00:01:39,270 --> 00:01:45,930
+And I notice that syntax highlighting there is two greater than three and there were turns back false
+
+26
+00:01:45,930 --> 00:01:46,880
+as well.
+
+27
+00:01:47,130 --> 00:01:51,110
+And it could switch this to be less then and then that returns true.
+
+28
+00:01:51,330 --> 00:01:57,270
+So all the and key words says is hey is what's on my left true and is what's on my right.
+
+29
+00:01:57,270 --> 00:02:01,350
+True or remember this could be any sort of comparisons some will show you another sample we could do
+
+30
+00:02:01,350 --> 00:02:12,920
+something like Is H equal to h the string and is two equal to two we run that together and we get back
+
+31
+00:02:12,980 --> 00:02:15,680
+true sometimes when people are writing out their code.
+
+32
+00:02:15,710 --> 00:02:21,080
+They like to add in a little more organization like kind of wrapping these comparisons in parentheses
+
+33
+00:02:21,140 --> 00:02:22,970
+and you'll see me do that from time to time.
+
+34
+00:02:23,060 --> 00:02:25,090
+For some people this is a little more readable.
+
+35
+00:02:25,190 --> 00:02:28,050
+For others it's less readable because you're inserting more stuff.
+
+36
+00:02:28,100 --> 00:02:30,090
+It's up to you whether you want to use these or not.
+
+37
+00:02:30,110 --> 00:02:34,930
+There are certain libraries that we'll talk about later on that do require you to have these parentheses.
+
+38
+00:02:35,090 --> 00:02:38,240
+But for now it's basically up to you if you think the prince is more readable.
+
+39
+00:02:38,240 --> 00:02:42,930
+Go ahead and use them if you like it that it's a little kind of sleeker without the parentheses.
+
+40
+00:02:43,070 --> 00:02:48,710
+You can go ahead and do that as well but just keep in mind the and key word says it's what is on my
+
+41
+00:02:48,710 --> 00:02:50,660
+left true and is what's on my right.
+
+42
+00:02:50,660 --> 00:02:51,000
+True.
+
+43
+00:02:51,020 --> 00:02:52,910
+And then it returns a boolean based off that.
+
+44
+00:02:53,090 --> 00:02:58,100
+OK so pretty straightforward so far with the and key word as you may have suspected there's also an
+
+45
+00:02:58,190 --> 00:03:00,460
+OR key word that we've mentioned previously.
+
+46
+00:03:00,650 --> 00:03:03,080
+And that just needs one of the conditions to be true.
+
+47
+00:03:03,080 --> 00:03:04,780
+So again we'll use numbers.
+
+48
+00:03:04,820 --> 00:03:10,360
+Say is 1 equal to 1 or is 2 equal to 2.
+
+49
+00:03:10,370 --> 00:03:11,540
+So we run that and we get back.
+
+50
+00:03:11,540 --> 00:03:12,130
+True.
+
+51
+00:03:12,230 --> 00:03:17,810
+However the or only needs one of these conditions to be true and neither needs the it just needs a one
+
+52
+00:03:17,810 --> 00:03:20,160
+to the left or the one on the right to be true.
+
+53
+00:03:20,450 --> 00:03:21,780
+So I can show you what I mean by that.
+
+54
+00:03:21,860 --> 00:03:22,880
+I'm going to make one of these.
+
+55
+00:03:22,880 --> 00:03:23,600
+Definitely not true.
+
+56
+00:03:23,600 --> 00:03:25,210
+So it's not equal to 1.
+
+57
+00:03:25,370 --> 00:03:30,470
+But if I run this again that is my cell count it still says it's true because it just needs one of them
+
+58
+00:03:30,470 --> 00:03:31,100
+to be true.
+
+59
+00:03:31,100 --> 00:03:34,990
+So is this statement true or is this statement true.
+
+60
+00:03:35,440 --> 00:03:39,670
+And if we make them both false then finally we get back the false.
+
+61
+00:03:39,800 --> 00:03:44,570
+So that's the basics of chaining comparison operators with the and keyword in the OR keyword.
+
+62
+00:03:44,570 --> 00:03:49,280
+And I would recommend that you use these keywords instead of doing something like this because in my
+
+63
+00:03:49,280 --> 00:03:50,810
+opinion they're a little more readable.
+
+64
+00:03:50,870 --> 00:03:54,130
+So we always want to stress readability in our code.
+
+65
+00:03:54,170 --> 00:03:59,030
+It's especially good because later on maybe you come back to your same code a month later you're going
+
+66
+00:03:59,030 --> 00:04:01,760
+to want to be able to easily read the code.
+
+67
+00:04:01,760 --> 00:04:02,590
+So we just discussed.
+
+68
+00:04:02,670 --> 00:04:05,440
+And then the or keyword logical operators.
+
+69
+00:04:05,560 --> 00:04:11,450
+I finally want to discuss the not keyword so to round out our discussion by showing you an example of
+
+70
+00:04:11,450 --> 00:04:14,210
+the not keyword that's an OT for not.
+
+71
+00:04:14,300 --> 00:04:18,880
+It basically is ask you to return the opposite boolean of what you just did.
+
+72
+00:04:19,340 --> 00:04:21,690
+So construct this fine example first.
+
+73
+00:04:21,710 --> 00:04:23,030
+So one is equal to one.
+
+74
+00:04:23,090 --> 00:04:24,250
+We know that's true.
+
+75
+00:04:24,500 --> 00:04:30,040
+If we wanted to get for some reason the opposite boolean offer that I could do not.
+
+76
+00:04:30,440 --> 00:04:35,310
+And then a prince sees one equal to one and all return back false.
+
+77
+00:04:35,330 --> 00:04:37,610
+Technically you don't need these Princie here.
+
+78
+00:04:37,790 --> 00:04:39,130
+So you could just do something like this.
+
+79
+00:04:39,170 --> 00:04:40,760
+Not one equal to one.
+
+80
+00:04:40,790 --> 00:04:41,980
+And you also get back false.
+
+81
+00:04:42,020 --> 00:04:48,440
+It's up to you what's more readable but all not is doing is asking for the opposite Bulleen of whatever
+
+82
+00:04:48,440 --> 00:04:49,940
+was returned here.
+
+83
+00:04:49,940 --> 00:04:58,130
+So for example just show you again let's say 400 greater than 5000.
+
+84
+00:04:58,600 --> 00:04:59,580
+So that's false.
+
+85
+00:04:59,650 --> 00:05:03,590
+But if I put a knot in front of it it's going to now ask for the opposite.
+
+86
+00:05:03,580 --> 00:05:05,310
+So it's going to say true.
+
+87
+00:05:05,380 --> 00:05:10,690
+So not sometimes useful when you're trying to write out your logic will be a lot more obvious when we
+
+88
+00:05:10,690 --> 00:05:13,530
+begin discussing control flow in the next section of the course.
+
+89
+00:05:13,600 --> 00:05:15,240
+But keep this keyword in mind.
+
+90
+00:05:15,310 --> 00:05:19,810
+At first you won't be using it too often but later on you're going to see that sometimes bits and pieces
+
+91
+00:05:19,810 --> 00:05:22,560
+of code become more readable with the not keyword.
+
+92
+00:05:22,720 --> 00:05:27,880
+Instead of using something like the opposite which you know would have been just one not equal to one
+
+93
+00:05:27,880 --> 00:05:28,880
+there.
+
+94
+00:05:29,020 --> 00:05:29,350
+All right.
+
+95
+00:05:29,350 --> 00:05:31,020
+That's the basics of logical operators.
+
+96
+00:05:31,060 --> 00:05:35,620
+Again main thing to realize here is the keyword needs both conditions to be true.
+
+97
+00:05:35,850 --> 00:05:39,920
+The or keyword needs just one or the other to be true.
+
+98
+00:05:39,940 --> 00:05:41,190
+We'll see you at the next lecture.

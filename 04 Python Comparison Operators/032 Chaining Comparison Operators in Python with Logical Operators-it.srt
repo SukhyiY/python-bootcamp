@@ -1,0 +1,391 @@
+1
+00:00:05,900 --> 00:00:06,900
+Bentornati a tutti.
+
+2
+00:00:06,920 --> 00:00:09,470
+Nella lezione precedente abbiamo imparato a conoscere gli operatori di confronto.
+
+3
+00:00:09,470 --> 00:00:14,870
+Ora discuteremo su come concatenare diversi confronti e possiamo farlo con l'uso di quelli che sono
+
+4
+00:00:14,870 --> 00:00:20,540
+chiamati operatori logici e ci permettono di combinare i confronti e gli operatori logici chiave di
+
+5
+00:00:20,540 --> 00:00:22,210
+cui discuteremo qui è il.
+
+6
+00:00:22,220 --> 00:00:25,720
+E la parola chiave la parola chiave o la parola chiave no.
+
+7
+00:00:25,790 --> 00:00:29,960
+Quindi esploriamo come utilizzare queste parole chiave e incateniamo i confronti
+
+8
+00:00:29,960 --> 00:00:32,070
+senza l'uso di queste parole chiave.
+
+9
+00:00:32,070 --> 00:00:38,280
+Bene, immaginiamo di voler eseguire una condizione quando abbiamo effettivamente fatto due confronti.
+
+10
+00:00:38,280 --> 00:00:42,220
+Ad esempio, volevamo verificare se uno fosse meno di due.
+
+11
+00:00:42,750 --> 00:00:46,880
+E volevamo anche verificare nello stesso momento se due erano meno di tre.
+
+12
+00:00:46,920 --> 00:00:50,690
+Quindi puoi immaginare che invece di questi numeri diretti si utilizzino nomi di variabili che potrebbero essere cambiati
+
+13
+00:00:50,700 --> 00:00:53,340
+da qualche altra parte nel nostro codice, ma per mantenere le cose semplici.
+
+14
+00:00:53,340 --> 00:00:55,300
+Stiamo usando solo numeri interi diretti.
+
+15
+00:00:55,550 --> 00:00:58,450
+Quindi, per cambiare questi due insieme, potremmo fare quanto segue.
+
+16
+00:00:58,450 --> 00:01:04,130
+Può dire che è uno in meno di 2 ed è 2 in meno di tre.
+
+17
+00:01:04,200 --> 00:01:05,460
+Quindi quando gestiamo questo torniamo.
+
+18
+00:01:05,460 --> 00:01:10,510
+Vero perché questo confronto a catena è vero e questo confronto è vero.
+
+19
+00:01:10,530 --> 00:01:12,190
+Se dovessi cambiare uno di questi.
+
+20
+00:01:12,240 --> 00:01:17,700
+Quindi, per esempio, se cambio questo compito è maggiore di 3, torniamo falso perché, anche
+
+21
+00:01:17,730 --> 00:01:21,650
+se il primo è vero, questo secondo non è più vero.
+
+22
+00:01:21,660 --> 00:01:26,880
+Ora puoi usare questo tipo di concatenazione insieme, ma in alternativa puoi usare
+
+23
+00:01:27,120 --> 00:01:33,520
+l'operatore logico e quello che useresti per scrivere fondamentalmente questo codice qui è la parola chiave e.
+
+24
+00:01:33,750 --> 00:01:39,080
+Quindi, al posto del seguente da sopra, potrei dire che è uno in meno di 2.
+
+25
+00:01:39,270 --> 00:01:45,930
+E noto che l'evidenziazione della sintassi è maggiore di tre e anche i falsi sono
+
+26
+00:01:45,930 --> 00:01:46,880
+tornati indietro.
+
+27
+00:01:47,130 --> 00:01:51,110
+E potrebbe cambiare questo per essere meno allora e poi quello restituisce vero.
+
+28
+00:01:51,330 --> 00:01:57,270
+Quindi tutte le parole chiave e dice: hey è ciò che è alla mia sinistra ed è ciò che è alla mia destra.
+
+29
+00:01:57,270 --> 00:02:01,350
+Vero o ricordi questo potrebbe essere qualsiasi tipo di paragone alcuni
+
+30
+00:02:01,350 --> 00:02:12,920
+ti mostreranno un altro esempio potremmo fare qualcosa come Is H uguale a h la stringa ed è due uguale a due che corriamo insieme e torniamo veri a volte
+
+31
+00:02:12,980 --> 00:02:15,680
+quando le persone scrivono il loro codice.
+
+32
+00:02:15,710 --> 00:02:21,080
+di organizzazione come una sorta di involucro tra parentesi di questi confronti e mi vedrai farlo di tanto in tanto.
+
+33
+00:02:21,140 --> 00:02:22,970
+A loro piace aggiungere un po 'più
+
+34
+00:02:23,060 --> 00:02:25,090
+Per alcune persone questo è un po 'più leggibile.
+
+35
+00:02:25,190 --> 00:02:28,050
+Per gli altri è meno leggibile perché stai inserendo più cose.
+
+36
+00:02:28,100 --> 00:02:30,090
+Sta a te decidere se vuoi usarli o meno.
+
+37
+00:02:30,110 --> 00:02:34,930
+Ci sono alcune librerie di cui parleremo in seguito che richiedono di avere queste parentesi.
+
+38
+00:02:35,090 --> 00:02:38,240
+Ma per ora dipende fondamentalmente da te se pensi che il principe sia più leggibile.
+
+39
+00:02:38,240 --> 00:02:42,930
+Vai avanti e usali se ti piace che è un po 'più elegante senza le parentesi.
+
+40
+00:02:43,070 --> 00:02:48,710
+tieni presente che la parola chiave e dice che è ciò che è alla mia sinistra ed è ciò che è alla mia destra.
+
+41
+00:02:48,710 --> 00:02:50,660
+Puoi andare avanti e farlo anche tu, ma
+
+42
+00:02:50,660 --> 00:02:51,000
+Vero.
+
+43
+00:02:51,020 --> 00:02:52,910
+E poi restituisce un booleano basato su quello.
+
+44
+00:02:53,090 --> 00:02:58,100
+Ok, è così semplice, finora, con la parola chiave e come potresti aver sospettato che ci sia anche una
+
+45
+00:02:58,190 --> 00:03:00,460
+parola chiave OR che abbiamo menzionato in precedenza.
+
+46
+00:03:00,650 --> 00:03:03,080
+E questo ha bisogno solo di una delle condizioni per essere vero.
+
+47
+00:03:03,080 --> 00:03:04,780
+Quindi di nuovo useremo i numeri.
+
+48
+00:03:04,820 --> 00:03:10,360
+Say è 1 uguale a 1 o 2 uguale a 2.
+
+49
+00:03:10,370 --> 00:03:11,540
+Quindi lo gestiamo e torniamo.
+
+50
+00:03:11,540 --> 00:03:12,130
+Vero.
+
+51
+00:03:12,230 --> 00:03:17,810
+Tuttavia, o ha solo bisogno che una di queste condizioni sia vera e non ne ha bisogno ne basta una
+
+52
+00:03:17,810 --> 00:03:20,160
+a sinistra o una a destra per essere vera.
+
+53
+00:03:20,450 --> 00:03:21,780
+Quindi posso mostrarti cosa intendo con quello.
+
+54
+00:03:21,860 --> 00:03:22,880
+Ho intenzione di fare uno di questi.
+
+55
+00:03:22,880 --> 00:03:23,600
+Sicuramente non è vero.
+
+56
+00:03:23,600 --> 00:03:25,210
+Quindi non è uguale a 1.
+
+57
+00:03:25,370 --> 00:03:30,470
+Ma se lo eseguo di nuovo che è il mio conteggio delle cellule, dice ancora che è vero perché ha solo bisogno che uno di
+
+58
+00:03:30,470 --> 00:03:31,100
+loro sia vero.
+
+59
+00:03:31,100 --> 00:03:34,990
+Quindi questa affermazione è vera o è vera questa affermazione.
+
+60
+00:03:35,440 --> 00:03:39,670
+E se li rendiamo entrambi falsi, alla fine riusciamo a restituire il falso.
+
+61
+00:03:39,800 --> 00:03:44,570
+Ecco le basi per concatenare gli operatori di confronto con la parola chiave e nella parola chiave OR.
+
+62
+00:03:44,570 --> 00:03:49,280
+E raccomanderei di usare queste parole chiave invece di fare qualcosa del genere perché, a mio parere,
+
+63
+00:03:49,280 --> 00:03:50,810
+sono un po 'più leggibili.
+
+64
+00:03:50,870 --> 00:03:54,130
+Quindi vogliamo sempre sottolineare la leggibilità nel nostro codice.
+
+65
+00:03:54,170 --> 00:03:59,030
+È particolarmente utile perché, in un secondo momento, potresti tornare al tuo stesso codice un mese dopo
+
+66
+00:03:59,030 --> 00:04:01,760
+che vorrai essere in grado di leggere facilmente il codice.
+
+67
+00:04:01,760 --> 00:04:02,590
+Quindi abbiamo appena discusso.
+
+68
+00:04:02,670 --> 00:04:05,440
+E poi gli operatori logici o parole chiave.
+
+69
+00:04:05,560 --> 00:04:11,450
+Alla fine voglio discutere la non parola chiave in modo da completare la nostra discussione mostrando un esempio di
+
+70
+00:04:11,450 --> 00:04:14,210
+non parola chiave che è un OT per non.
+
+71
+00:04:14,300 --> 00:04:18,880
+Fondamentalmente ti chiedo di restituire l'opposto booleano di quello che hai appena fatto.
+
+72
+00:04:19,340 --> 00:04:21,690
+Quindi, per prima cosa costruisci questo bel esempio.
+
+73
+00:04:21,710 --> 00:04:23,030
+Quindi uno è uguale a uno.
+
+74
+00:04:23,090 --> 00:04:24,250
+Sappiamo che è vero.
+
+75
+00:04:24,500 --> 00:04:30,040
+Se volessimo ottenere per qualche motivo l'offerta booleana opposta che non potrei fare.
+
+76
+00:04:30,440 --> 00:04:35,310
+E poi un principe ne vede uno uguale a uno e tutto torna indietro falso.
+
+77
+00:04:35,330 --> 00:04:37,610
+Tecnicamente non hai bisogno di questi Princie qui.
+
+78
+00:04:37,790 --> 00:04:39,130
+Quindi potresti semplicemente fare qualcosa del genere.
+
+79
+00:04:39,170 --> 00:04:40,760
+Non uno uguale a uno.
+
+80
+00:04:40,790 --> 00:04:41,980
+E anche tu torni falso.
+
+81
+00:04:42,020 --> 00:04:48,440
+Dipende da te che cosa è più leggibile, ma non tutto ciò che sta facendo è chiedere l'opposto Bulleen di ciò
+
+82
+00:04:48,440 --> 00:04:49,940
+che è stato restituito qui.
+
+83
+00:04:49,940 --> 00:04:58,130
+Quindi, per esempio, mostraci ancora diciamo 400 maggiori di 5000.
+
+84
+00:04:58,600 --> 00:04:59,580
+Quindi questo è falso.
+
+85
+00:04:59,650 --> 00:05:03,590
+Ma se metto un nodo davanti a questo ora chiederà il contrario.
+
+86
+00:05:03,580 --> 00:05:05,310
+Quindi dirà vero.
+
+87
+00:05:05,380 --> 00:05:10,690
+Quindi non a volte utile quando stai cercando di scrivere la tua logica sarà molto più ovvia quando inizieremo a
+
+88
+00:05:10,690 --> 00:05:13,530
+discutere del flusso di controllo nella prossima sezione del corso.
+
+89
+00:05:13,600 --> 00:05:15,240
+Ma tieni a mente questa parola chiave.
+
+90
+00:05:15,310 --> 00:05:19,810
+All'inizio non lo userai troppo spesso, ma in seguito vedrai che a volte bit e parti
+
+91
+00:05:19,810 --> 00:05:22,560
+di codice diventano più leggibili con la parola chiave not.
+
+92
+00:05:22,720 --> 00:05:27,880
+Invece di usare qualcosa come il contrario che sapete sarebbe stato solo uno non uguale
+
+93
+00:05:27,880 --> 00:05:28,880
+a uno lì.
+
+94
+00:05:29,020 --> 00:05:29,350
+Tutto ok.
+
+95
+00:05:29,350 --> 00:05:31,020
+Ecco le basi degli operatori logici.
+
+96
+00:05:31,060 --> 00:05:35,620
+Ancora una volta la cosa principale da realizzare qui è che la parola chiave richiede che entrambe le condizioni siano vere.
+
+97
+00:05:35,850 --> 00:05:39,920
+La parola chiave o ha bisogno solo dell'uno o dell'altro per essere vero.
+
+98
+00:05:39,940 --> 00:05:41,190
+Ci vediamo alla prossima lezione.
